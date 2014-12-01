@@ -1,0 +1,647 @@
+<idempiereTrl language="zh_CN" table="C_DocType">
+ <row id="0" trl="Y">
+  <value column="Name" original="** New **">** 新建 **</value>
+  <value column="PrintName" original="** New **">** 新建 **</value>
+  <value column="DocumentNote" original="** NO INVOICE **">** 未开发票 **</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="GL Journal">总账日记账</value>
+  <value column="PrintName" original="Journal">分类账</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="AR Invoice">应收发票</value>
+  <value column="PrintName" original="Invoice">发票</value>
+  <value column="DocumentNote" original="Document Type Note for general and promotional text.">单据类型说明 - 用于普通或宣传文本。</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="AR Invoice Indirect">间接应收发票</value>
+  <value column="PrintName" original="Invoice">发票</value>
+  <value column="DocumentNote" original="Document Type Note for general and promotional text.">单据类型说明 - 用于普通或宣传文本。</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="AR Credit Memo">应收信用备忘</value>
+  <value column="PrintName" original="Credit Memo">贷项通知单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="AR Receipt">应收账款</value>
+  <value column="PrintName" original="Receipt">收货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="MM Shipment">物料出货</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="MM Shipment Indirect">物料发货 (非直接)</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="MM Receipt">物料收货</value>
+  <value column="PrintName" original="Vendor Delivery">供应商交货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="AP Invoice">应付发票</value>
+  <value column="PrintName" original="Vendor Invoice">采购发票</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="AP CreditMemo">应付贷项通知单</value>
+  <value column="PrintName" original="Vendor Credit Memo">供应商贷项通知单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="AP Payment">应付账款</value>
+  <value column="PrintName" original="Vendor Payment">供应商付款</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Purchase Order">采购订单</value>
+  <value column="PrintName" original="Purchase Order">采购订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Purchase Requisition">采购申请</value>
+  <value column="PrintName" original="Purchase Requisition">采购申请</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Quotation">报价单</value>
+  <value column="PrintName" original="Quotation">报价单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Proposal">方案建议书</value>
+  <value column="PrintName" original="Proposal">方案建议书</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Prepay Order">先付订单</value>
+  <value column="PrintName" original="Prepay Order">先付订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Customer Return Material">物料退回 - 客户</value>
+  <value column="PrintName" original="Customer Return Material Authorization">物料退回授权 - 客户</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Standard Order">标准订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="On Credit Order">赊账订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Warehouse Order">仓库订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="POS Order">POS 订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="136" trl="Y">
+  <value column="Name" original="Project Issue">项目投放</value>
+  <value column="PrintName" original="Project Issue">项目投放</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="137" trl="Y">
+  <value column="Name" original="Payment Allocation">付款配置</value>
+  <value column="PrintName" original="Payment Allocation">付款配置</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="138" trl="Y">
+  <value column="Name" original="Match Invoice">发票匹配</value>
+  <value column="PrintName" original="Match Invoice">发票匹配</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Material Production">物质的制造</value>
+  <value column="PrintName" original="Material Production">物质的制造</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="GL Document">总账单据</value>
+  <value column="PrintName" original="GL Document">总账单据</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Cash Journal">现金日记账</value>
+  <value column="PrintName" original="Cash Journal">现金日记账</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Match PO">匹配采购订单</value>
+  <value column="PrintName" original="Match PO">匹配采购订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Material Movement">物料移库</value>
+  <value column="PrintName" original="Material Movement">物料移库</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="144" trl="Y">
+  <value column="Name" original="Material Physical Inventory">物料实地盘存</value>
+  <value column="PrintName" original="Material Physical Inventory">物料实地盘存</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="145" trl="Y">
+  <value column="Name" original="AR Pro Forma Invoice">应收预计发票</value>
+  <value column="PrintName" original="AR Pro Forma Invoice">应收预计发票</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Bank Statement">银行对账单</value>
+  <value column="PrintName" original="Bank Statement">银行对账单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="147" trl="Y">
+  <value column="Name" original="MM Receipt with Confirmation">物料收货确认</value>
+  <value column="PrintName" original="Vendor Delivery">供应商交货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="MM Shipment with Pick">拣料发货</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="MM Customer Return">客户退货</value>
+  <value column="PrintName" original="Return Material">退回物料</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Vendor Return Material">物料退回 - 供应商</value>
+  <value column="PrintName" original="Vendor Return Material Authorization">供应商退料授权</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="MM Vendor Return">供应商退货</value>
+  <value column="PrintName" original="Vendor Return Material">物料退回 - 供应商</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Payroll">薪酬</value>
+  <value column="PrintName" original="Payroll">薪酬</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="GL Journal Batch">总账日记账批</value>
+  <value column="PrintName" original="Journal Batch">日记账批</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Manufacturing Order">生产单</value>
+  <value column="PrintName" original="Manufacturing Order">生产单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Maintenance Order">维护订单</value>
+  <value column="PrintName" original="Maintenance Order">维护订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Quality Order">质检单</value>
+  <value column="PrintName" original="Quality Order">质检单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Distribution Order">配送单</value>
+  <value column="PrintName" original="Distribution Order">配送单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Manufacturing Cost Collector">制造成本归集</value>
+  <value column="PrintName" original="Manufacturing Cost Collector">制造成本归集</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000000" trl="Y">
+  <value column="Name" original="GL Journal">总账日记账</value>
+  <value column="PrintName" original="Бухгалтерская справка">Бухгалтерская справка</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000001" trl="Y">
+  <value column="Name" original="GL Journal Batch">总账日记账批</value>
+  <value column="PrintName" original="Пакет журналов">Пакет журналов</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000002" trl="Y">
+  <value column="Name" original="AR Invoice">应收发票</value>
+  <value column="PrintName" original="Документ обязательств (ДО)">Документ обязательств (ДО)</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000003" trl="Y">
+  <value column="Name" original="AR Invoice Indirect">间接应收发票</value>
+  <value column="PrintName" original="Документ обязательств (ДО)">Документ обязательств (ДО)</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000004" trl="Y">
+  <value column="Name" original="AR Credit Memo">应收信用备忘</value>
+  <value column="PrintName" original="Кредитовое авизо">Кредитовое авизо</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000005" trl="Y">
+  <value column="Name" original="AP Invoice">应付发票</value>
+  <value column="PrintName" original="Документ обязательств (ДО)">Документ обязательств (ДО)</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000006" trl="Y">
+  <value column="Name" original="AP CreditMemo">应付贷项通知单</value>
+  <value column="PrintName" original="Кредитовое авизо">Кредитовое авизо</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000007" trl="Y">
+  <value column="Name" original="Match Invoice">发票匹配</value>
+  <value column="PrintName" original="Соотнесение ДО">Соотнесение ДО</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000008" trl="Y">
+  <value column="Name" original="AR Receipt">应收账款</value>
+  <value column="PrintName" original="Платёжное поручение">Платёжное поручение</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000009" trl="Y">
+  <value column="Name" original="AP Payment">应付账款</value>
+  <value column="PrintName" original="Платёжное поручение">Платёжное поручение</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000010" trl="Y">
+  <value column="Name" original="Allocation">分配</value>
+  <value column="PrintName" original="Allocation">分配</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000011" trl="Y">
+  <value column="Name" original="MM Shipment">物料出货</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000012" trl="Y">
+  <value column="Name" original="MM Shipment Indirect">物料发货 (非直接)</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000013" trl="Y">
+  <value column="Name" original="MM Vendor Return">供应商退货</value>
+  <value column="PrintName" original="Vendor Return">供应商退货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000014" trl="Y">
+  <value column="Name" original="MM Receipt">物料收货</value>
+  <value column="PrintName" original="Vendor Delivery">供应商交货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000015" trl="Y">
+  <value column="Name" original="MM Customer Return">客户退货</value>
+  <value column="PrintName" original="Customer Return">客户退货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000016" trl="Y">
+  <value column="Name" original="Purchase Order">采购订单</value>
+  <value column="PrintName" original="Заказ на закупку">Заказ на закупку</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000017" trl="Y">
+  <value column="Name" original="Match PO">匹配采购订单</value>
+  <value column="PrintName" original="Соотнести заказ">Соотнести заказ</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000018" trl="Y">
+  <value column="Name" original="Purchase Requisition">采购申请</value>
+  <value column="PrintName" original="Заявка">Заявка</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000019" trl="Y">
+  <value column="Name" original="Vendor Return Material">物料退回 - 供应商</value>
+  <value column="PrintName" original="Vendor Return Material Authorization">供应商退料授权</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000020" trl="Y">
+  <value column="Name" original="Bank Statement">银行对账单</value>
+  <value column="PrintName" original="Bank Statement">银行对账单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000021" trl="Y">
+  <value column="Name" original="Cash Journal">现金日记账</value>
+  <value column="PrintName" original="Кассовая книга">Кассовая книга</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000022" trl="Y">
+  <value column="Name" original="Material Movement">物料移库</value>
+  <value column="PrintName" original="Внутреннее перемещение">Внутреннее перемещение</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000023" trl="Y">
+  <value column="Name" original="Physical Inventory">实地盘存</value>
+  <value column="PrintName" original="Инвентаризация">Инвентаризация</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000024" trl="Y">
+  <value column="Name" original="Material Production">物质的制造</value>
+  <value column="PrintName" original="Акт сборки">Акт сборки</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000025" trl="Y">
+  <value column="Name" original="Project Issue">项目投放</value>
+  <value column="PrintName" original="Отпуск в проект">Отпуск в проект</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000026" trl="Y">
+  <value column="Name" original="Обязывающее предложение">Обязывающее предложение</value>
+  <value column="PrintName" original="Quotation">报价单</value>
+  <value column="DocumentNote" original="Binding offer">报盘的金额</value>
+ </row>
+ <row id="1000027" trl="Y">
+  <value column="Name" original="Не обязывающее предложение">Не обязывающее предложение</value>
+  <value column="PrintName" original="Proposal">方案建议书</value>
+  <value column="DocumentNote" original="Non binding offer">主题的报盘</value>
+ </row>
+ <row id="1000028" trl="Y">
+  <value column="Name" original="По предоплате">По предоплате</value>
+  <value column="PrintName" original="Prepay Order">先付订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000029" trl="Y">
+  <value column="Name" original="Customer Return Material">物料退回 - 客户</value>
+  <value column="PrintName" original="Customer Return Material Authorization">物料退回授权 - 客户</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000030" trl="Y">
+  <value column="Name" original="Стандартный заказ">Стандартный заказ</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000031" trl="Y">
+  <value column="Name" original="В кредит">В кредит</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000032" trl="Y">
+  <value column="Name" original="Складской заказ">Складской заказ</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000033" trl="Y">
+  <value column="Name" original="Manufacturing Order">生产单</value>
+  <value column="PrintName" original="Manufacturing Order">生产单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000034" trl="Y">
+  <value column="Name" original="Manufacturing Cost Collector">制造成本归集</value>
+  <value column="PrintName" original="Cost Collector">成本归集</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000035" trl="Y">
+  <value column="Name" original="Maintenance Order">维护订单</value>
+  <value column="PrintName" original="Maintenance Order">维护订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000036" trl="Y">
+  <value column="Name" original="Quality Order">质检单</value>
+  <value column="PrintName" original="Quality Order">质检单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000037" trl="Y">
+  <value column="Name" original="Distribution Order">配送单</value>
+  <value column="PrintName" original="Distribution Order">配送单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000038" trl="Y">
+  <value column="Name" original="Payroll">薪酬</value>
+  <value column="PrintName" original="Payroll">薪酬</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000039" trl="Y">
+  <value column="Name" original="За наличные">За наличные</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000040" trl="Y">
+  <value column="Name" original="AR Pro Forma Invoice">应收预计发票</value>
+  <value column="PrintName" original="AR Pro Forma Invoice">应收预计发票</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000041" trl="Y">
+  <value column="Name" original="GL Document">总账单据</value>
+  <value column="PrintName" original="GL Document">总账单据</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000042" trl="Y">
+  <value column="Name" original="GL Journal">总账日记账</value>
+  <value column="PrintName" original="Бухгалтерская справка">Бухгалтерская справка</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000043" trl="Y">
+  <value column="Name" original="GL Journal Batch">总账日记账批</value>
+  <value column="PrintName" original="Пакет журналов">Пакет журналов</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000044" trl="Y">
+  <value column="Name" original="AR Invoice">应收发票</value>
+  <value column="PrintName" original="Документ обязательств (ДО)">Документ обязательств (ДО)</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000045" trl="Y">
+  <value column="Name" original="AR Invoice Indirect">间接应收发票</value>
+  <value column="PrintName" original="Документ обязательств (ДО)">Документ обязательств (ДО)</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000046" trl="Y">
+  <value column="Name" original="AR Credit Memo">应收信用备忘</value>
+  <value column="PrintName" original="Кредитовое авизо">Кредитовое авизо</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000047" trl="Y">
+  <value column="Name" original="AP Invoice">应付发票</value>
+  <value column="PrintName" original="Документ обязательств (ДО)">Документ обязательств (ДО)</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000048" trl="Y">
+  <value column="Name" original="AP CreditMemo">应付贷项通知单</value>
+  <value column="PrintName" original="Кредитовое авизо">Кредитовое авизо</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000049" trl="Y">
+  <value column="Name" original="Match Invoice">发票匹配</value>
+  <value column="PrintName" original="Соотнесение ДО">Соотнесение ДО</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000050" trl="Y">
+  <value column="Name" original="AR Receipt">应收账款</value>
+  <value column="PrintName" original="Платёжное поручение">Платёжное поручение</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000051" trl="Y">
+  <value column="Name" original="AP Payment">应付账款</value>
+  <value column="PrintName" original="Платёжное поручение">Платёжное поручение</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000052" trl="Y">
+  <value column="Name" original="Allocation">分配</value>
+  <value column="PrintName" original="Allocation">分配</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000053" trl="Y">
+  <value column="Name" original="MM Shipment">物料出货</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000054" trl="Y">
+  <value column="Name" original="MM Shipment Indirect">物料发货 (非直接)</value>
+  <value column="PrintName" original="Delivery Note">发货单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000055" trl="Y">
+  <value column="Name" original="MM Vendor Return">供应商退货</value>
+  <value column="PrintName" original="Vendor Return">供应商退货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000056" trl="Y">
+  <value column="Name" original="MM Receipt">物料收货</value>
+  <value column="PrintName" original="Vendor Delivery">供应商交货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000057" trl="Y">
+  <value column="Name" original="MM Customer Return">客户退货</value>
+  <value column="PrintName" original="Customer Return">客户退货</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000058" trl="Y">
+  <value column="Name" original="Purchase Order">采购订单</value>
+  <value column="PrintName" original="Заказ на закупку">Заказ на закупку</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000059" trl="Y">
+  <value column="Name" original="Match PO">匹配采购订单</value>
+  <value column="PrintName" original="Соотнести заказ">Соотнести заказ</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000060" trl="Y">
+  <value column="Name" original="Purchase Requisition">采购申请</value>
+  <value column="PrintName" original="Заявка">Заявка</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000061" trl="Y">
+  <value column="Name" original="Vendor Return Material">物料退回 - 供应商</value>
+  <value column="PrintName" original="Vendor Return Material Authorization">供应商退料授权</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000062" trl="Y">
+  <value column="Name" original="Bank Statement">银行对账单</value>
+  <value column="PrintName" original="Bank Statement">银行对账单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000063" trl="Y">
+  <value column="Name" original="Cash Journal">现金日记账</value>
+  <value column="PrintName" original="Кассовая книга">Кассовая книга</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000064" trl="Y">
+  <value column="Name" original="Material Movement">物料移库</value>
+  <value column="PrintName" original="Внутреннее перемещение">Внутреннее перемещение</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000065" trl="Y">
+  <value column="Name" original="Physical Inventory">实地盘存</value>
+  <value column="PrintName" original="Инвентаризация">Инвентаризация</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000066" trl="Y">
+  <value column="Name" original="Material Production">物质的制造</value>
+  <value column="PrintName" original="Акт сборки">Акт сборки</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000067" trl="Y">
+  <value column="Name" original="Project Issue">项目投放</value>
+  <value column="PrintName" original="Отпуск в проект">Отпуск в проект</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000068" trl="Y">
+  <value column="Name" original="Binding offer">报盘的金额</value>
+  <value column="PrintName" original="Quotation">报价单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000069" trl="Y">
+  <value column="Name" original="Non binding offer">主题的报盘</value>
+  <value column="PrintName" original="Proposal">方案建议书</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000070" trl="Y">
+  <value column="Name" original="Prepay Order">先付订单</value>
+  <value column="PrintName" original="Prepay Order">先付订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000071" trl="Y">
+  <value column="Name" original="Customer Return Material">物料退回 - 客户</value>
+  <value column="PrintName" original="Customer Return Material Authorization">物料退回授权 - 客户</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000072" trl="Y">
+  <value column="Name" original="Standard Order">标准订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000073" trl="Y">
+  <value column="Name" original="Credit Order">信用订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000074" trl="Y">
+  <value column="Name" original="Warehouse Order">仓库订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000075" trl="Y">
+  <value column="Name" original="Manufacturing Order">生产单</value>
+  <value column="PrintName" original="Manufacturing Order">生产单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000076" trl="Y">
+  <value column="Name" original="Manufacturing Cost Collector">制造成本归集</value>
+  <value column="PrintName" original="Cost Collector">成本归集</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000077" trl="Y">
+  <value column="Name" original="Maintenance Order">维护订单</value>
+  <value column="PrintName" original="Maintenance Order">维护订单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000078" trl="Y">
+  <value column="Name" original="Quality Order">质检单</value>
+  <value column="PrintName" original="Quality Order">质检单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000079" trl="Y">
+  <value column="Name" original="Distribution Order">配送单</value>
+  <value column="PrintName" original="Distribution Order">配送单</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000080" trl="Y">
+  <value column="Name" original="Payroll">薪酬</value>
+  <value column="PrintName" original="Payroll">薪酬</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000081" trl="Y">
+  <value column="Name" original="POS Order">POS 订单</value>
+  <value column="PrintName" original="Order Confirmation">订单证实</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000082" trl="Y">
+  <value column="Name" original="AR Pro Forma Invoice">应收预计发票</value>
+  <value column="PrintName" original="AR Pro Forma Invoice">应收预计发票</value>
+  <value column="DocumentNote" original="" />
+ </row>
+ <row id="1000083" trl="Y">
+  <value column="Name" original="GL Document">总账单据</value>
+  <value column="PrintName" original="GL Document">总账单据</value>
+  <value column="DocumentNote" original="" />
+ </row>
+</idempiereTrl>
