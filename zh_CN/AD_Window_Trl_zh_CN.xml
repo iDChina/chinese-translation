@@ -1,4 +1,5 @@
-<idempiereTrl language="zh_CN" table="AD_Window">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 2.1_2014-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Window">
  <row id="100" trl="Y">
   <value column="Name" original="Table and Column">表与列</value>
   <value column="Description" original="Maintain Tables and Columns">维护表与列</value>
@@ -125,12 +126,12 @@
  <row id="125" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
   <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效, 您必须重新登录</value>
-  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">会计模式窗口定义了会计方法，以及将组成账户结构的元素。为业务伙伴、产品、地址等的明细会计创建并激活元素。&lt;p&gt;复核并更改总账和默认账户。用于事务处理的实际账户依赖于执行组织; 大多数信息从上下文中继承获得。</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计模式窗口定义了会计方法，以及将组成账户结构的元素。为业务伙伴、产品、地址等的明细会计创建并激活元素。<p>复核并更改总账和默认账户。用于事务处理的实际账户依赖于执行组织; 大多数信息从上下文中继承获得。]]></value>
  </row>
  <row id="127" trl="Y">
   <value column="Name" original="Test">测试中</value>
   <value column="Description" original="Test Screen">测试屏幕</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="128" trl="Y">
   <value column="Name" original="Attachment">附件</value>
@@ -216,7 +217,7 @@
  <row id="147" trl="Y">
   <value column="Name" original="Invoice Schedule">发票计划</value>
   <value column="Description" original="Maintain Invoicing Schedule">维护发票计划</value>
-  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 &lt;p&gt;如果客户需要多份发货单的单张发票，您可定义相应的发票计划，并将它关联到客户。</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer."><![CDATA[发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 <p>如果客户需要多份发货单的单张发票，您可定义相应的发票计划，并将它关联到客户。]]></value>
  </row>
  <row id="149" trl="Y">
   <value column="Name" original="Marketing Campaign">营销活动</value>
@@ -246,7 +247,7 @@
  <row id="154" trl="Y">
   <value column="Name" original="GL Budget">总账预算</value>
   <value column="Description" original="Maintain General Ledger Budgets">维护总账预算</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="158" trl="Y">
   <value column="Name" original="Bank / Cash">现金金额</value>
@@ -355,8 +356,8 @@
  </row>
  <row id="186" trl="Y">
   <value column="Name" original="EDI Transaction">EDI 交易</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Form">表单</value>
@@ -389,7 +390,7 @@
   <value column="Help" original="The system creates messages while performing processes. In this window you can view them.">系统创建执行流程时的消息。在本窗口中，您可查看它们。</value>
  </row>
  <row id="194" trl="Y">
-  <value column="Name" original="Bank Statement">银行对账单</value>
+  <value column="Name" original="Bank/Cash Statement">银行对账单</value>
   <value column="Description" original="Process Bank Statements">银行对账单处理</value>
   <value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">处理银行对账单窗口允许您将银行对账单对账。您既可从对账单行页签中输入对账单行，也可选择“创建源于”按钮以自动从所有未对账付款生成到该银行账户的对账单。一旦您完成了对账，请选择“处理对账单”按钮，以将付款标记为已对账，并更新相应的总账账户。</value>
  </row>
@@ -431,7 +432,7 @@
  <row id="204" trl="Y">
   <value column="Name" original="Mail Template">邮件模板</value>
   <value column="Description" original="Maintain Mail Template">维护邮件模板</value>
-  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection.">邮件模板可包括用户、业务伙伴或一般对象的变量。解析的优先级是用户/联系人、业务伙伴，然后是潜在的业务对象 (例如请求、催款、工作流对象)。&lt;br&gt;因此，@Name@ 将被解析为用户的名称 (如果定义了用户)，然后是业务伙伴的名称 (如果定义了业务伙伴)，再后是业务对象的名称 (只要它具有名称)。&lt;br&gt;对于多语种系统，模板基于业务伙伴的语言选择被翻译。</value>
+  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection."><![CDATA[邮件模板可包括用户、业务伙伴或一般对象的变量。解析的优先级是用户/联系人、业务伙伴，然后是潜在的业务对象 (例如请求、催款、工作流对象)。<br>因此，@Name@ 将被解析为用户的名称 (如果定义了用户)，然后是业务伙伴的名称 (如果定义了业务伙伴)，再后是业务对象的名称 (只要它具有名称)。<br>对于多语种系统，模板基于业务伙伴的语言选择被翻译。]]></value>
  </row>
  <row id="205" trl="Y">
   <value column="Name" original="View Allocation">取消付款分配</value>
@@ -446,7 +447,7 @@
  <row id="207" trl="Y">
   <value column="Name" original="Commission">佣金标识</value>
   <value column="Description" original="Maintain Commissions and Royalties">维护佣金和版税</value>
-  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">定义和维护用于计算的佣金和版税。定义您想要佣金被计算的方法和时间，以及支付给谁。&lt;p&gt;佣金窗口允许您定义如何支付佣金和版税。您可为业务伙伴和销售代表设置佣金，他们可以是外部的。使用本功能，您可处理特许授权。您可为相同的订单或发票支付多份佣金，例如分别支付给输入事务处理的人、负责产品销售的人以及业务伙伴 (分组 )。</value>
+  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group)."><![CDATA[定义和维护用于计算的佣金和版税。定义您想要佣金被计算的方法和时间，以及支付给谁。<p>佣金窗口允许您定义如何支付佣金和版税。您可为业务伙伴和销售代表设置佣金，他们可以是外部的。使用本功能，您可处理特许授权。您可为相同的订单或发票支付多份佣金，例如分别支付给输入事务处理的人、负责产品销售的人以及业务伙伴 (分组 )。]]></value>
  </row>
  <row id="208" trl="Y">
   <value column="Name" original="Project Reporting">项目周期</value>
@@ -496,17 +497,17 @@
  <row id="221" trl="Y">
   <value column="Name" original="Find (indirect use)">查找 (非直接使用)</value>
   <value column="Description" original="Find Dialog (indirect use)">查找对话框 (非直接使用)</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="223" trl="Y">
   <value column="Name" original="Material Transactions (indirect use)">物料事务处理 (非直接使用)</value>
   <value column="Description" original="Material Transactions (indirect use)">物料事务处理 (非直接使用)</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="224" trl="Y">
   <value column="Name" original="Print Form">打印表单</value>
   <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">维持版表格 (发票,检查,..) 使用过的</value>
-  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*).">定义您用于该实体/组织的单据。注意，支票格式在银行 (账户) 窗口定义。&lt;p&gt;最高优先级是打印格式，您在单据类型 (如特定的输出发票格式) 上定义。下一级别是打印格式集，您在打印单据的组织级定义。默认为为实体的所有组织 (组织为*) 定义的打印格式集。</value>
+  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*)."><![CDATA[定义您用于该实体/组织的单据。注意，支票格式在银行 (账户) 窗口定义。<p>最高优先级是打印格式，您在单据类型 (如特定的输出发票格式) 上定义。下一级别是打印格式集，您在打印单据的组织级定义。默认为为实体的所有组织 (组织为*) 定义的打印格式集。]]></value>
  </row>
  <row id="225" trl="Y">
   <value column="Name" original="System Color">颜色</value>
@@ -521,7 +522,7 @@
  <row id="227" trl="Y">
   <value column="Name" original="System Image">系统图像</value>
   <value column="Description" original="Maintain Images and Icons">维护图片</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="228" trl="Y">
   <value column="Name" original="Matched Purchase Orders">匹配的采购订单</value>
@@ -551,7 +552,7 @@
  <row id="234" trl="Y">
   <value column="Name" original="Expense Type">开支类型</value>
   <value column="Description" original="Maintain Expense Report Types">维护开支报表类型</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="235" trl="Y">
   <value column="Name" original="Expense Report">开支报表</value>
@@ -747,12 +748,12 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="273" trl="Y">
   <value column="Name" original="Click">点击</value>
   <value column="Description" original="Maintain Web Click">维护 Web 点击</value>
-  <value column="Help" original="Web Clicks allow you to track number of clicks.  Example:&#10;&amp;lt;a href=&quot;http://www.adempiere.com/wstore/click?http://www.adempiere.de&quot; target=&quot;_blank&quot;&amp;gt;&#10;where &quot;http://www.adempiere.com/wstore/click&quot; is your side and &quot;http://www.adempiere.de&quot; is the target page.&#10;If you created a web click for http://www.adempiere.de, you will be able to see details and total of web clicks.">Web 点击允许您追踪点击的数量。</value>
+  <value column="Help" original="Web Clicks allow you to track number of clicks.  Example:&#10;&amp;lt;a href=&quot;http://www.idempiere.org/wstore/click?http://www.idempiere.org target=&quot;_blank&quot;&amp;gt; where&#10;&quot;http://www.idempiere.org/wstore/click&quot; is your side and &quot;http://www.idempiere.de&quot; is the target page.&#10;If you created a web click for http://www.idempiere.de, you will be able to see details and total of web clicks.&#10;">Web 点击允许您追踪点击的数量。</value>
  </row>
  <row id="274" trl="Y">
   <value column="Name" original="Counter">计数器</value>
   <value column="Description" original="Web Counter">Web 计数器</value>
-  <value column="Help" original="A web counter maintains how often a page or item was displayed.  Add a call to&#10;http://www.adempiere.com/wstore/counter to the page (e.g. display a 1x1 image)&#10;">Web 计数器维护了页面或条目被显示的频率。
+  <value column="Help" original="A web counter maintains how often a page or item was displayed.  Add a call to&#10;http://www.idempiere.org/wstore/counter to the page (e.g. display a 1x1 image)&#10;">Web 计数器维护了页面或条目被显示的频率。
 </value>
  </row>
  <row id="275" trl="Y">
@@ -762,13 +763,13 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="276" trl="Y">
   <value column="Name" original="Alert">提醒</value>
-  <value column="Description" original="Adempiere Alert">Adempiere 提醒</value>
-  <value column="Help" original="Adempiere Alerts allow you define system conditions you want to be alerted of">Compiere 注意允许你以你想要被提醒为条件来定义系统</value>
+  <value column="Description" original="iDempiere Alert">Adempiere 提醒</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">Compiere 注意允许你以你想要被提醒为条件来定义系统</value>
  </row>
  <row id="277" trl="Y">
   <value column="Name" original="Import Bank Statement">导入银行对账单</value>
   <value column="Description" original="Import Bank Statements">导入银行对账单</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="278" trl="Y">
   <value column="Name" original="Import GL Journal">导入总账日记账</value>
@@ -783,7 +784,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="280" trl="Y">
   <value column="Name" original="Import Payment">导入付款</value>
   <value column="Description" original="Import Payments">导入付款</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="281" trl="Y">
   <value column="Name" original="Import Order">导入订单</value>
@@ -803,7 +804,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="284" trl="Y">
   <value column="Name" original="Replication">复制</value>
   <value column="Description" original="Maintain Data Replication Targets">维护数据复制目标</value>
-  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system.">数据复制目标明细。在设置复制以前，完全在中央系统上设置您的系统。在这里定义复制目标和导出数据库，并在远端系统中导入它。&lt;p&gt;在进入事务处理以前 (重要！)，启动复制运行，以设置远端系统。</value>
+  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system."><![CDATA[数据复制目标明细。在设置复制以前，完全在中央系统上设置您的系统。在这里定义复制目标和导出数据库，并在远端系统中导入它。<p>在进入事务处理以前 (重要！)，启动复制运行，以设置远端系统。]]></value>
  </row>
  <row id="285" trl="Y">
   <value column="Name" original="Replication Strategy">复制策略</value>
@@ -838,12 +839,12 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="291" trl="Y">
   <value column="Name" original="Business Partner Info">业务伙伴信息</value>
   <value column="Description" original="Document Information of Business Partners">业务伙伴的单据信息</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="292" trl="Y">
   <value column="Name" original="Label Printer">标签打印机</value>
   <value column="Description" original="Maintain Label Printer Definition">维护标签打印机的定义</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="293" trl="Y">
   <value column="Name" original="Sales Rep Info">销售代表资料</value>
@@ -1003,7 +1004,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="324" trl="Y">
   <value column="Name" original="RfQ Response">询价单回应</value>
   <value column="Description" original="Manage RfQ Responses">管理询价单响应</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="325" trl="Y">
   <value column="Name" original="Distribution Run">配送发运</value>
@@ -1080,7 +1081,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="339" trl="Y">
   <value column="Name" original="POS Key Layout">POS 键布局</value>
   <value column="Description" original="POS Function Key Layout">POS 功能键布局</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="340" trl="Y">
   <value column="Name" original="System Registration">系统注册</value>
@@ -1145,7 +1146,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="352" trl="Y">
   <value column="Name" original="Position Category">职位类别</value>
   <value column="Description" original="Maintain Job Position Categories">维护工作职位的类别</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="353" trl="Y">
   <value column="Name" original="Remuneration">薪酬</value>
@@ -1155,7 +1156,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="354" trl="Y">
   <value column="Name" original="Product BOM">产品物料清单</value>
   <value column="Description" original="Maintain Product Bill of Materials">维护产品物料清单</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="355" trl="Y">
   <value column="Name" original="BOM Change Notice">物料清单变更通知</value>
@@ -1170,7 +1171,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="358" trl="Y">
   <value column="Name" original="Attribute Set Instance">属性集实例</value>
   <value column="Description" original="View Attribute Set Instance detail and use">查看属性集实例的明细与使用</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="359" trl="Y">
   <value column="Name" original="Tax Declaration">税申报单</value>
@@ -1195,12 +1196,12 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="363" trl="Y">
   <value column="Name" original="System Issue Report">系统问题报告</value>
   <value column="Description" original="Automatically created or manually entered System Issue Reports">自动创建或手工输入的系统问题报告</value>
-  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to Adempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给 Compiere，传输时不会提交数据或机密信息。</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给 Compiere，传输时不会提交数据或机密信息。</value>
  </row>
  <row id="364" trl="Y">
   <value column="Name" original="Performance Color Schema">绩效颜色的方案</value>
   <value column="Description" original="Maintain Performance Color Schema">维护绩效配色方案</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  Adempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。Compiere 支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。Compiere 支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
  </row>
  <row id="365" trl="Y">
   <value column="Name" original="Performance Benchmark">绩效基准测试</value>
@@ -1215,7 +1216,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="367" trl="Y">
   <value column="Name" original="Issue Recommendation">问题建议</value>
   <value column="Description" original="Maintain Issue Recommendation">维护问题的建议</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="368" trl="Y">
   <value column="Name" original="Issue Status">问题状态</value>
@@ -1225,7 +1226,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="369" trl="Y">
   <value column="Name" original="Known Issue">已知问题</value>
   <value column="Description" original="Maintain Known Issue">维护已知的问题</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="370" trl="Y">
   <value column="Name" original="Issue Project">实施项目</value>
@@ -1235,12 +1236,12 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="371" trl="Y">
   <value column="Name" original="Issue User">问题提交者</value>
   <value column="Description" original="User who reported Issues">问题汇报人</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="372" trl="Y">
   <value column="Name" original="Issue System">系统问题</value>
   <value column="Description" original="Maintain Systems">维护问题系统</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="373" trl="Y">
   <value column="Name" original="Web Project">Web 工程</value>
@@ -1249,8 +1250,8 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="374" trl="Y">
   <value column="Name" original="Template">模板</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="375" trl="Y">
   <value column="Name" original="Web Ad Management">Web 广告管理</value>
@@ -1280,7 +1281,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="381" trl="Y">
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="Description" original="Maintain System Entity Type">维护系统中实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;Adempiere&quot; should not be used and are maintainted by Adempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“Compiere”类型不应被使用。</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“Compiere”类型不应被使用。</value>
  </row>
  <row id="383" trl="Y">
   <value column="Name" original="Web Access">Web 访问</value>
@@ -1290,7 +1291,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="384" trl="Y">
   <value column="Name" original="Web Broadcast Server">网络广播服务</value>
   <value column="Description" original="Maintain Web Broadcast Server">维护 Web 广播服务器</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="385" trl="Y">
   <value column="Name" original="Info Window">资料窗口</value>
@@ -1305,22 +1306,22 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="387" trl="Y">
   <value column="Name" original="Text Index Stop">文本索引跳过</value>
   <value column="Description" original="Maintain keywords not to be indexed">维护不需要索引的关键字</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="388" trl="Y">
   <value column="Name" original="Text Search Log">文本搜索日志</value>
   <value column="Description" original="View Text Search Log">查看文本搜索日志</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="389" trl="Y">
   <value column="Name" original="LDAP Server">LDAP 服务器</value>
-  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on Adempiere">Adempiere基于LDAP服务器来验证外部系统。</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个 Compiere 系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字。</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">Adempiere基于LDAP服务器来验证外部系统。</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个 Compiere 系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字。</value>
  </row>
  <row id="50001" trl="Y">
   <value column="Name" original="Packages Installed">安装的包</value>
   <value column="Description" original="List of packages installed">安装的包的列表</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="50002" trl="Y">
   <value column="Name" original="Package Maintenance">包维护</value>
@@ -1330,7 +1331,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="50003" trl="Y">
   <value column="Name" original="Pack Out">出库</value>
   <value column="Description" original="Create 2pack package">导出包 - 创建一个部件包</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="50004" trl="Y">
   <value column="Name" original="Common Package Details">常用包明细</value>
@@ -1344,38 +1345,38 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="50006" trl="Y">
   <value column="Name" original="System Configurator">系统配置器</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="50007" trl="Y">
-  <value column="Name" original="Dashboard Content Edit">仪表板内容编辑</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Name" original="Dashboard Content">仪表板内容编辑</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="52000" trl="Y">
   <value column="Name" original="Web POS Menu">Web POS 菜单</value>
   <value column="Description" original="To dynamically generate the menu links in web POS">在webPOS中自动生成菜单链接</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="52001" trl="Y">
   <value column="Name" original="Web POS Role Menu">Web POS角色菜单</value>
   <value column="Description" original="Depending on Which Role, Different set of Menus are generated and made available.">基于不同的角色，可生成不同的可用菜单集合。</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="52002" trl="Y">
   <value column="Name" original="Web POS Properties">Web POS 属性</value>
   <value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Stores the message tags to be picked up from AD_MESSAGE </value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="52003" trl="Y">
   <value column="Name" original="Web POS BlackListCheque">Web POS 背书支票</value>
   <value column="Description" original="Black Listed Cheque">背书支票</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53003" trl="Y">
   <value column="Name" original="Model Validator">模型验证</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53004" trl="Y">
   <value column="Name" original="Manufacturing Resource">生产资源</value>
@@ -1405,7 +1406,7 @@ It answers the question, what are the components of the product?</value>
  <row id="53008" trl="Y">
   <value column="Name" original="MRP Notice">MRP 通知</value>
   <value column="Description" original="View MRP Notices">查看MRP通知</value>
-  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code	 Action Message&#10;MRP - 001	 Beginning Quantity Less Than Zero.&#10;MRP - 020	 Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030	 De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040	 Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050	 Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060	 Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070	 Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080	 Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090	 Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100	 Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110	 No exists Dem">The system creates messages while performing processes. In this window you can view them.
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">The system creates messages while performing processes. In this window you can view them.
 
 MRP Notice
 It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.
@@ -1449,7 +1450,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53010" trl="Y">
   <value column="Name" original="Spare parts">零件</value>
   <value column="Description" original="Spare parts">零件</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53011" trl="Y">
   <value column="Name" original="Activity Control Report">活动控制报表</value>
@@ -1464,7 +1465,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53013" trl="Y">
   <value column="Name" original="Quality Specifications">质量规格</value>
   <value column="Description" original="Maintain Quality Specifications">维护质量规范</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53014" trl="Y">
   <value column="Name" original="Cost Collector">成本归集</value>
@@ -1473,18 +1474,18 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53015" trl="Y">
   <value column="Name" original="ASP Modules">ASP 模块</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53016" trl="Y">
   <value column="Name" original="ASP Subscribed Modules">ASP 签署模块</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53017" trl="Y">
   <value column="Name" original="Rule">规则</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53018" trl="Y">
   <value column="Name" original="Distribution Network">配送网络</value>
@@ -1493,13 +1494,13 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53019" trl="Y">
   <value column="Name" original="Migration Scripts">迁移脚本</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53020" trl="Y">
   <value column="Name" original="Tax Group">税组</value>
   <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">税 Groups let you group the business partner with a reference tax.</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53021" trl="Y">
   <value column="Name" original="Tax Definition">税定义</value>
@@ -1514,7 +1515,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53023" trl="Y">
   <value column="Name" original="Tax Type">税类型</value>
   <value column="Description" original="Tax Types let you group taxes together.">税类型-让您将税分组集合</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53024" trl="Y">
   <value column="Name" original="Tax Base">计税基数</value>
@@ -1523,28 +1524,28 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53025" trl="Y">
   <value column="Name" original="Export Format">导出格式</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53026" trl="Y">
   <value column="Name" original="Export Processor">导出引擎</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53027" trl="Y">
   <value column="Name" original="Export Processor Type">导出引擎类型</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53028" trl="Y">
   <value column="Name" original="Import Processor">导入引擎</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53029" trl="Y">
   <value column="Name" original="Import Processor Type">导入引擎类型</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53032" trl="Y">
   <value column="Name" original="Payroll Contract">薪酬合同</value>
@@ -1579,7 +1580,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53038" trl="Y">
   <value column="Name" original="Payroll Definition">薪酬定义</value>
   <value column="Description" original="In a company, payroll is the sum of all financial records of salaries, wages, bonuses, and deductions.">在一个公司，工薪总额是工资，薪金，奖金，并扣除所有财务记录的总和。</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53039" trl="Y">
   <value column="Name" original="Payroll Concept Category">薪酬策略类别</value>
@@ -1627,7 +1628,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original="The Asset Split window allows you to process asset splits">The Asset Split window allows you to process asset splits</value>
  </row>
  <row id="53049" trl="Y">
-  <value column="Name" original="Asset Disposal">资产处置</value>
+  <value column="Name" original="Asset Disposal2">资产处置</value>
   <value column="Description" original="Dispose of Assets">资产处置</value>
   <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset</value>
  </row>
@@ -1653,8 +1654,8 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53054" trl="Y">
   <value column="Name" original="Build Depreciation Forecast">建立预估折旧</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53057" trl="Y">
   <value column="Name" original="Depreciation Period Spread Type">折旧期间展开类型</value>
@@ -1669,7 +1670,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53059" trl="Y">
   <value column="Name" original="Depreciation Tables">折旧表</value>
   <value column="Description" original="Allows users to create multiple depreciation schedules">允许用户新建多种折旧计划表</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53060" trl="Y">
   <value column="Name" original="Depreciation First Year Conventions ">第一年折旧规则 </value>
@@ -1683,38 +1684,38 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53062" trl="Y">
   <value column="Name" original="Charge Type">费用类型</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53063" trl="Y">
   <value column="Name" original="House Keeping">整理工作</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53064" trl="Y">
   <value column="Name" original="View MRP Records">查看 MRP 记录</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53065" trl="Y">
   <value column="Name" original="Web POS Terminal">Web POS终端</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53067" trl="Y">
   <value column="Name" original="Web Service Definition">账户元素定义</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53068" trl="Y">
   <value column="Name" original="Web Service Security">强制客户端安全</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53069" trl="Y">
   <value column="Name" original="Search Definition">搜索定义</value>
   <value column="Description" original="Define transactioncodes for the QuickSearch bar">Define transactioncodes for the QuickSearch bar</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53071" trl="Y">
   <value column="Name" original="Import Price List">导入价目表</value>
@@ -1724,12 +1725,12 @@ MRP - 110	 No exists Dem</value>
  <row id="53073" trl="Y">
   <value column="Name" original="Promotion Group">促销分组</value>
   <value column="Description" original="Grouping of product for promotion setup">Grouping of product for promotion setup</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53074" trl="Y">
   <value column="Name" original="Promotion">提升</value>
   <value column="Description" original="Setup promotion rule">设置提升规则</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53078" trl="Y">
   <value column="Name" original="Report Cube">报表立方体</value>
@@ -1770,17 +1771,17 @@ MRP - 110	 No exists Dem</value>
  <row id="53100" trl="Y">
   <value column="Name" original="My Profile">我的简介</value>
   <value column="Description" original="My user information">我的用户信息</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53101" trl="Y">
   <value column="Name" original="Order Source">订单来源</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53102" trl="Y">
   <value column="Name" original="Relation Type">关联类型</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53104" trl="Y">
   <value column="Name" original="Withholding">预扣</value>
@@ -1790,67 +1791,72 @@ MRP - 110	 No exists Dem</value>
  <row id="53108" trl="Y">
   <value column="Name" original="Import Payroll Movement">薪酬调整</value>
   <value column="Description" original="Import Payroll Movement">薪酬调整</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53109" trl="Y">
   <value column="Name" original="Import Product Planning">导入产品计划</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53113" trl="Y">
   <value column="Name" original="Asset Addition">附加资产</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53114" trl="Y">
-  <value column="Name" original="Asset Activation/Disposal">资产处置日期</value>
-  <value column="Description" original="Activate/Dispose of Assets">业务伙伴资产</value>
-  <value column="Help" original="" />
+  <value column="Name" original="Asset Disposal">资产处置日期</value>
+  <value column="Description" original="Dispose of Assets">业务伙伴资产</value>
+  <value column="Help" original=""/>
  </row>
  <row id="53115" trl="Y">
   <value column="Name" original="Asset Change Account">资产成本账户</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53116" trl="Y">
   <value column="Name" original="Asset Class">调度计划类</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53117" trl="Y">
   <value column="Name" original="Asset Funding Mode">语言维护模式</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53118" trl="Y">
   <value column="Name" original="Revaluation Asset">资产重估</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53119" trl="Y">
   <value column="Name" original="Asset Type">资产展开类型|</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53120" trl="Y">
   <value column="Name" original="Imported Fixed Asset">固定资产销售盈利</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53121" trl="Y">
   <value column="Name" original="Import Inventory Move">移库确认</value>
   <value column="Description" original="This window allow import Inventory Move transaction">This window allow import Inventory Move transaction</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
+ </row>
+ <row id="53124" trl="N">
+  <value column="Name" original="Chart">Chart</value>
+  <value column="Description" original="Chart Definition">Chart Definition</value>
+  <value column="Help" original=""/>
  </row>
  <row id="53125" trl="Y">
   <value column="Name" original="Fact Reconciliation">会计分录</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53127" trl="Y">
   <value column="Name" original="Production (Single Product)">允许产品信息</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53128" trl="Y">
   <value column="Name" original="Parts and BOMs">安提瓜与巴布达</value>
@@ -1859,33 +1865,63 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53134" trl="Y">
   <value column="Name" original="Cash Plan">预计完成日期</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53149" trl="Y">
   <value column="Name" original="Quality Test">Email测试</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53150" trl="Y">
   <value column="Name" original="Part Type">关联类型的"类型"</value>
   <value column="Description" original="Manufacturing Part Types">AD_窗体 类型</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
+ </row>
+ <row id="53152" trl="N">
+  <value column="Name" original="Contact">Contact</value>
+  <value column="Description" original="Maintain Contacts">Maintain Contacts</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.</value>
+ </row>
+ <row id="53153" trl="N">
+  <value column="Name" original="Lead">Lead</value>
+  <value column="Description" original="Maintain Leads">Maintain Leads</value>
+  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. </value>
+ </row>
+ <row id="53154" trl="N">
+  <value column="Name" original="Sales Stage">Sales Stage</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53155" trl="N">
+  <value column="Name" original="Sales Opportunity">Sales Opportunity</value>
+  <value column="Description" original="A potential sale">A potential sale</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53156" trl="N">
+  <value column="Name" original="Sales Rep Dashboard">Sales Rep Dashboard</value>
+  <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">The Sales Rep Dashboard provides a single location for managing sales opportunities</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53165" trl="N">
+  <value column="Name" original="Customer">Customer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Toolbar Button">命令按钮 - 启动一个程序</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
   <value column="Name" original="Role Toolbar Button Access">角色权限限制</value>
   <value column="Description" original="Maintain toolbar button access rule">Maintain toolbar button access rule</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
   <value column="Name" original="Password Rule">提醒规则</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200005" trl="Y">
   <value column="Name" original="GL Journal">总账日记账</value>
@@ -1894,58 +1930,58 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="200006" trl="Y">
   <value column="Name" original="Dashboard Preference">偏爱设置级别</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
   <value column="Name" original="POS Payment">应付账款</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200009" trl="Y">
   <value column="Name" original="POS Tender Type">C_付款 投标类型</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200012" trl="Y">
   <value column="Name" original="Schedule">日程</value>
   <value column="Description" original="Times for the scheduler">AD_计划任务 类型</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200013" trl="Y">
   <value column="Name" original="GL Journal Generator">总账日记账批</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200015" trl="Y">
   <value column="Name" original="Payment Processor">付款引擎</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200016" trl="Y">
   <value column="Name" original="Active Session">会话</value>
   <value column="Description" original="List of Current Logged in user">使用当前的用户名自动登录</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200017" trl="Y">
   <value column="Name" original="Payment Transaction">事务处理金额</value>
   <value column="Description" original="Payment Transactions">现金事务处理</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200018" trl="Y">
   <value column="Name" original="Online Transaction History">一次性事务处理</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200020" trl="Y">
   <value column="Name" original="Setup Wizard Maintenance">AD_语言维护</value>
   <value column="Description" original="Maintenance Setup Wizard window">Maintenance Setup Wizard window</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200022" trl="Y">
   <value column="Name" original="Storage Provider">存储</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200023" trl="Y">
   <value column="Name" original="Broadcast Message">AD_消息</value>
@@ -1954,42 +1990,102 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="200024" trl="Y">
   <value column="Name" original="Shipping Processor">会计引擎</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200025" trl="Y">
   <value column="Name" original="Shipment Package">发货包装</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200026" trl="Y">
   <value column="Name" original="Commodity Shipment">客户发货</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200028" trl="Y">
   <value column="Name" original="Shipping Processor Configuration">整理工作</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200029" trl="Y">
   <value column="Name" original="Shipper Configuration">配置级别</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200030" trl="Y">
   <value column="Name" original="Shipping Transaction">事务处理金额</value>
   <value column="Description" original="Shipping Transactions">现金事务处理</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200031" trl="Y">
-  <value column="Name" original="Receipts into Batch">批单据号</value>
-  <value column="Description" original="Process Receipts">处理付款</value>
-  <value column="Help" original="The Process Receipts Window allows you to enter receipts for invoices.  If the payment is for a single invoice then it can be processed here.">The Process Receipts Window allows you to enter receipts for invoices.  If the payment is for a single invoice then it can be processed here.</value>
+  <value column="Name" original="Payments into Batch">批单据号</value>
+  <value column="Description" original="Process Payments">处理付款</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">The Process Receipts Window allows you to enter receipts for invoices.  If the payment is for a single invoice then it can be processed here.</value>
  </row>
  <row id="200034" trl="Y">
-  <value column="Name" original="Context Help">帮助(&amp;H)</value>
+  <value column="Name" original="Context Help"><![CDATA[帮助(&H)]]></value>
   <value column="Description" original="Maintain Context Helps">工作流流程上下文</value>
   <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.</value>
+ </row>
+ <row id="200036" trl="N">
+  <value column="Name" original="1099 Box">1099 Box</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200043" trl="N">
+  <value column="Name" original="Cost Adjustment">Cost Adjustment</value>
+  <value column="Description" original="Enter Inventory Cost Adjustment">Enter Inventory Cost Adjustment</value>
+  <value column="Help" original="The Cost Adjustment Window allow user to enter cost adjustment for products">The Cost Adjustment Window allow user to enter cost adjustment for products</value>
+ </row>
+ <row id="200044" trl="N">
+  <value column="Name" original="Tax Provider Configuration">Tax Provider Configuration</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200045" trl="N">
+  <value column="Name" original="Tax Provider">Tax Provider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200046" trl="N">
+  <value column="Name" original="Address Validation Configuration">Address Validation Configuration</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200047" trl="N">
+  <value column="Name" original="Address Validation">Address Validation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200048" trl="N">
+  <value column="Name" original="Address Transaction">Address Transaction</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200049" trl="N">
+  <value column="Name" original="Status Line">Status Line</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200054" trl="N">
+  <value column="Name" original="Dummy">Dummy</value>
+  <value column="Description" original="This window if for save preference for process parameter panel and info window in case open from menu (stand alone window)">This window if for save preference for process parameter panel and info window in case open from menu (stand alone window)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200059" trl="N">
+  <value column="Name" original="Recurring Group">Recurring Group</value>
+  <value column="Description" original="Recurring Group">Recurring Group</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200061" trl="N">
+  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200063" trl="N">
+  <value column="Name" original="Import Template">Import Template</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

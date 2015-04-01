@@ -1,12 +1,13 @@
-<idempiereTrl language="zh_CN" table="C_Tax">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 2.1_2014-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_Tax">
  <row id="104" trl="Y">
   <value column="Name" original="Standard">标准税种</value>
-  <value column="Description" original="" />
-  <value column="TaxIndicator" original="" />
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original=""/>
  </row>
  <row id="105" trl="Y">
   <value column="Name" original="CT Sales">CT 州营业税</value>
-  <value column="Description" original="" />
+  <value column="Description" original=""/>
   <value column="TaxIndicator" original="6%CT">CT的6%</value>
  </row>
  <row id="106" trl="Y">
@@ -27,21 +28,6 @@
  <row id="109" trl="Y">
   <value column="Name" original="Exempt">免税</value>
   <value column="Description" original="Used when Business Partners are exempt from tax">当业务伙伴免税时用到</value>
-  <value column="TaxIndicator" original="" />
- </row>
- <row id="1000000" trl="Y">
-  <value column="Name" original="0 %">0 %</value>
-  <value column="Description" original="" />
-  <value column="TaxIndicator" original="" />
- </row>
- <row id="1000001" trl="Y">
-  <value column="Name" original="18 %">列_18</value>
-  <value column="Description" original="" />
-  <value column="TaxIndicator" original="" />
- </row>
- <row id="1000002" trl="Y">
-  <value column="Name" original="Standard">标准税种</value>
-  <value column="Description" original="" />
-  <value column="TaxIndicator" original="" />
+  <value column="TaxIndicator" original=""/>
  </row>
 </idempiereTrl>

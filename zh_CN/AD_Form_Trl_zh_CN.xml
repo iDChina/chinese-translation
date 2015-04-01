@@ -1,4 +1,5 @@
-<idempiereTrl language="zh_CN" table="AD_Form">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 2.1_2014-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">生成发票 (手工)</value>
   <value column="Description" original="Select and generate invoices">选择并生成发票</value>
@@ -17,12 +18,12 @@
  <row id="103" trl="Y">
   <value column="Name" original="Material Transactions">物料事务处理</value>
   <value column="Description" original="Material Transactions">物料事务处理</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="104" trl="Y">
   <value column="Name" original="Payment Allocation">付款配置</value>
   <value column="Description" original="Allocate invoices and payments">分配发票和付款</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="105" trl="Y">
   <value column="Name" original="Generate Charges">生成杂费</value>
@@ -32,7 +33,7 @@
  <row id="106" trl="Y">
   <value column="Name" original="Payment Print/Export">付款打印/输出</value>
   <value column="Description" original="Print or export your payments">打印或输出您的付款</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="107" trl="Y">
   <value column="Name" original="Payment Selection (manual)">付款选择 (手工)</value>
@@ -62,10 +63,10 @@
  <row id="112" trl="Y">
   <value column="Name" original="Merge Entities">合并记录</value>
   <value column="Description" original="Merge From Entity to To Entity - Delete From">从一个实体合并到另一个实体 - 删除原实体</value>
-  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.">&lt;i&gt;危险 - 请务必清楚您即将执行的操作！&lt;/i&gt;
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version."><![CDATA[<i>危险 - 请务必清楚您即将执行的操作！</i>
 所有的源产品 (例如产品 A) 的实例将被更改到目标产品 (例如产品 B)。
 源产品 (例如产品 A) 将被删除。  
-&lt;p&gt;&lt;b&gt;绝无任何撤销的方式！请首先进行备份&lt;/b&gt; 请注意，您可能更改历史记录 (例如发票等) ！&lt;/p&gt;&lt;p&gt;&lt;b&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本的不正确；请联系您的技术支持，以获得纠正方法。&lt;p&gt;&lt;b&gt;限制：&lt;/b&gt; 会计和库存冲突在当前版本中尚不能解决。</value>
+<p><b>绝无任何撤销的方式！请首先进行备份</b> 请注意，您可能更改历史记录 (例如发票等) ！</p><p><b>负面影响：</b> 合并产品可能导致产品成本的不正确；请联系您的技术支持，以获得纠正方法。<p><b>限制：</b> 会计和库存冲突在当前版本中尚不能解决。]]></value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="POS">POS 终端</value>
@@ -110,7 +111,7 @@
  <row id="53001" trl="Y">
   <value column="Name" original="BOM &amp; Formula Info">物料清单与配方信息</value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
-  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it">The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it"><![CDATA[The BOM & Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
 
 You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
 
@@ -118,7 +119,7 @@ When you need to consult an implosion, click the implosion check box and enter t
 
 You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
 
-The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it</value>
+The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it]]></value>
  </row>
  <row id="53002" trl="Y">
   <value column="Name" original="Product Configuration BOM">产品配置 BOM</value>
@@ -172,12 +173,12 @@ Finally a message box asks if you want to close the OM document, you should clic
  <row id="53008" trl="Y">
   <value column="Name" original="Generate Movement Manual">创建调拨单(手工)</value>
   <value column="Description" original="Generate Movement to a Order Distribution">产生一个配送单的调拨单</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53009" trl="Y">
   <value column="Name" original="Payroll Action Notice">薪酬发放提醒</value>
   <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">薪酬发放提醒会在薪酬发放日提醒任意职员</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53010" trl="Y">
   <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单 (手工)</value>
@@ -187,7 +188,7 @@ Finally a message box asks if you want to close the OM document, you should clic
  <row id="53012" trl="Y">
   <value column="Name" original="Material Receipt Distribution Order">配送单物料收货</value>
   <value column="Description" original="Material Receipt Distribution Order">配送单物料收货</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="53013" trl="Y">
   <value column="Name" original="Manufacturing Workflow Editor">工艺流程编辑器</value>
@@ -196,61 +197,44 @@ Finally a message box asks if you want to close the OM document, you should clic
  </row>
  <row id="53016" trl="Y">
   <value column="Name" original="Accounting Fact Reconcilation (manual)">会计分录明细报表</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53017" trl="Y">
   <value column="Name" original="BOM Viewer">会计科目查看器</value>
   <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Shows the parent-component relationship for the product entered in the Product field.</value>
-  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.
-&#10;
-&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Selecting a product will display a hierarchy of components and sub-BOMs for that product.
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Selecting a product will display a hierarchy of components and sub-BOMs for that product.
 
 Selecting the "Where Used" check box will display the BOMs that this product is used in.</value>
  </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Setup Wizard">会计设置</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
   <value column="Name" original="Reset Password">重置密码</value>
   <value column="Description" original="Reset Password">重置密码</value>
-  <value column="Help" original="" />
+  <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
-  <value column="Name" original="Report Wizard">报表(&amp;R)</value>
-  <value column="Description" original="Report Wizard">报表(&amp;R)</value>
-  <value column="Help" original="" />
+  <value column="Name" original="Report Wizard"><![CDATA[报表(&R)]]></value>
+  <value column="Description" original="Report Wizard"><![CDATA[报表(&R)]]></value>
+  <value column="Help" original=""/>
  </row>
  <row id="200005" trl="Y">
   <value column="Name" original="Tab Editor">脚本编辑器</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="200006" trl="Y">
   <value column="Name" original="Bank Statement Create From Batch">从银行对账单资料创建付款</value>
-  <value column="Description" original="" />
-  <value column="Help" original="" />
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
- <row id="1000000" trl="Y">
-  <value column="Name" original="Map">Map</value>
-  <value column="Description" original="Coordinates obtained from the customer's Android device after installation and configuration http://avtostop.su/avtostop.apk .You can see track for Taxi2 from 2013-03-06 15:01 to 2013-03-07 18:30">Coordinates obtained from the customer's Android device after installation and configuration http://avtostop.su/avtostop.apk .You can see track for Taxi2 from 2013-03-06 15:01 to 2013-03-07 18:30</value>
-  <value column="Help" original="" />
- </row>
- <row id="1000001" trl="Y">
-  <value column="Name" original="Funnel Chart(Qty)">合计数量</value>
-  <value column="Description" original="Funnel Chart for Sales of Qty">Funnel Chart for Sales of Qty</value>
-  <value column="Help" original="" />
- </row>
- <row id="1000002" trl="Y">
-  <value column="Name" original="Funnel Chart(Amt)">大写金额</value>
-  <value column="Description" original="Funnel Chart for Sales of Amt">Funnel Chart for Sales of Amt</value>
-  <value column="Help" original="" />
- </row>
- <row id="1000003" trl="Y">
-  <value column="Name" original="Map (track)">跟踪问题</value>
-  <value column="Description" original="Coordinates obtained from the customer's Android device after installation and configuration http://avtostop.su/avtostop.apk .You can see track for Taxi2 from 2013-03-06 15:01 to 2013-03-07 18:30">Coordinates obtained from the customer's Android device after installation and configuration http://avtostop.su/avtostop.apk .You can see track for Taxi2 from 2013-03-06 15:01 to 2013-03-07 18:30</value>
-  <value column="Help" original="" />
+ <row id="200008" trl="N">
+  <value column="Name" original="Captured Process Parameter">Captured Process Parameter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
 </idempiereTrl>

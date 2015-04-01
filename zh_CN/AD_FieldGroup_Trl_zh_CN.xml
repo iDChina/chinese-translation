@@ -1,4 +1,5 @@
-<idempiereTrl language="zh_CN" table="AD_FieldGroup">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 2.1_2014-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_FieldGroup">
  <row id="101" trl="Y">
   <value column="Name" original="Status">状态</value>
  </row>
@@ -183,12 +184,27 @@
   <value column="Name" original="Charge Account">费用账户</value>
  </row>
  <row id="200010" trl="Y">
-  <value column="Name" original="Business Partner Accounts">业务伙伴(&amp;B)</value>
+  <value column="Name" original="Business Partner Accounts"><![CDATA[业务伙伴(&B)]]></value>
  </row>
  <row id="200011" trl="Y">
   <value column="Name" original="Product Accounts">应付账户</value>
  </row>
  <row id="200012" trl="Y">
   <value column="Name" original="Warehouse Accounts">应付账户</value>
+ </row>
+ <row id="200013" trl="N">
+  <value column="Name" original="Product Category Accounts">Product Category Accounts</value>
+ </row>
+ <row id="200014" trl="N">
+  <value column="Name" original="Business Partner Group Accounts">Business Partner Group Accounts</value>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Technical">Technical</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Foreign Key">Foreign Key</value>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="Background Job">Background Job</value>
  </row>
 </idempiereTrl>
