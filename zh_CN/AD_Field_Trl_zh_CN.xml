@@ -516,14 +516,14 @@ Date Promised Is the date we commit to give the order to the warehouse. If the M
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留。</value>
  </row>
  <row id="57761" trl="N">
-  <value column="Name" original="Customer Return">Customer Return</value>
-  <value column="Description" original="Customer Return Document">Customer Return Document</value>
-  <value column="Help" original="The Customer Return">The Customer Return</value>
+  <value column="Name" original="Customer Return">客户退货</value>
+  <value column="Description" original="Customer Return Document">客户退货单</value>
+  <value column="Help" original="The Customer Return">客户退货</value>
  </row>
  <row id="57900" trl="N">
-  <value column="Name" original="Return to Vendor">Return to Vendor</value>
-  <value column="Description" original="Return to Vendor Document">Return to Vendor Document</value>
-  <value column="Help" original="The Return to Vendor">The Return to Vendor</value>
+  <value column="Name" original="Return to Vendor">供应商退货(RTV)</value>
+  <value column="Description" original="Return to Vendor Document">供应商退货(RTV)单</value>
+  <value column="Help" original="The Return to Vendor">供应商退货(RTV)</value>
  </row>
  <row id="57987" trl="Y">
   <value column="Name" original="Search Key">搜索关键字</value>
@@ -593,13 +593,13 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original="Indication that this is complete">标识已完成。</value>
  </row>
  <row id="62236" trl="N">
-  <value column="Name" original="Sales Rep Name">Sales Rep Name</value>
-  <value column="Description" original="Sales Representative Name">Sales Representative Name</value>
+  <value column="Name" original="Sales Rep Name">销售代表的名字</value>
+  <value column="Description" original="Sales Representative Name">销售代表的名字</value>
   <value column="Help" original="The name of the sales rep that this dashboard relates to.">The name of the sales rep that this dashboard relates to.</value>
  </row>
  <row id="62779" trl="N">
-  <value column="Name" original="Language">Language</value>
-  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Name" original="Language">语言</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">设置该业务伙伴支持多语言</value>
   <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
  </row>
  <row id="62991" trl="N">
@@ -658,12 +658,12 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="201265" trl="Y">
-  <value column="Name" original="Phone Number (For FedEx only)">Phone Number (For FedEx only)</value>
+  <value column="Name" original="Phone Number (For FedEx only)">电话号码 (For FedEx only)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="201266" trl="Y">
-  <value column="Name" original="Date (For FedEx only)">一个日期范围的起始日期</value>
+  <value column="Name" original="Date (For FedEx only)">一个日期范围的起始日期(For FedEx only)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -723,24 +723,24 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="202210" trl="N">
-  <value column="Name" original="Index Validate">Index Validate</value>
+  <value column="Name" original="Index Validate">Index验证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="202252" trl="N">
-  <value column="Name" original="View Validate">View Validate</value>
+  <value column="Name" original="View Validate">View验证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="202325" trl="N">
-  <value column="Name" original="Cost Adjustment">Cost Adjustment</value>
-  <value column="Description" original="Inventory Cost Adjustment">Inventory Cost Adjustment</value>
-  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">The Inventory Cost Adjustment document allows user to enter cost adjustment for products</value>
+  <value column="Name" original="Cost Adjustment">成本调整</value>
+  <value column="Description" original="Inventory Cost Adjustment">库存成本调整</value>
+  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">该功能可以对产品进库存成本调整</value>
  </row>
  <row id="202443" trl="N">
-  <value column="Name" original="Purchase Order Line">Purchase Order Line</value>
-  <value column="Description" original="Purchase Order Line">Purchase Order Line</value>
-  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">The Purchase Order Line is a unique identifier for a line in an order.</value>
+  <value column="Name" original="Purchase Order Line">采购订单行</value>
+  <value column="Description" original="Purchase Order Line">采购订单行</value>
+  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">在订单中的采购订单行是每一行的唯一标识符</value>
  </row>
  <row id="203108" trl="N">
   <value column="Name" original="ViewID Column">ViewID Column</value>
@@ -748,7 +748,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970</value>
  </row>
  <row id="203325" trl="N">
-  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Name" original="Country Group">国家联合体</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
