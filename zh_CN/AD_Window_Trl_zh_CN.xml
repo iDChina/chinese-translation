@@ -23,22 +23,22 @@
  <row id="104" trl="Y">
   <value column="Name" original="Message">消息</value>
   <value column="Description" original="Maintain Information and Error Messages">维护信息与错误消息</value>
-  <value column="Help" original="The Message Window defines the Message Text and Message Tips for each system generated message.  It is for System Admin use only.">消息窗口为每个系统产生的消息定义消息文本和消息提示。它只由系统管理员使用。</value>
+  <value column="Help" original="The Message Window defines the Message Text and Message Tips for each system generated message.  It is for System Admin use only.">消息窗口为每个系统产生的消息定义消息文本和消息提示。此窗口只由系统管理员使用</value>
  </row>
  <row id="105" trl="Y">
   <value column="Name" original="Menu">菜单</value>
   <value column="Description" original="Maintain Menu">维护菜单</value>
-  <value column="Help" original="The Maintain Menu Window defines the Menu which will display.  It is for System Admin use only.  The menu items that each user will see depends upon the security defined.">维护菜单窗口定义了将显示的菜单。它仅由系统管理员使用。每个用户将看到的菜单项依赖于定义的安全权限。</value>
+  <value column="Help" original="The Maintain Menu Window defines the Menu which will display.  It is for System Admin use only.  The menu items that each user will see depends upon the security defined.">"维护菜单窗口"定义了将被显示的菜单。此窗口仅由系统管理员使用。每个用户所能看到的菜单项依赖于其定义的安全权限</value>
  </row>
  <row id="106" trl="Y">
   <value column="Name" original="Language">语言</value>
   <value column="Description" original="Maintain Languages">维护语言</value>
   <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">“语言”窗口允许您为用户定义多个并行语言. 允许用户访问相同的数据，但是窗口、页签和字段有不同的语言出现
-如果语言是系统语言,你可以将用户界面改为这种语言(翻译后)，否则语言仅用于打印文档.
+如果语言是系统语言,你可以将用户界面改为这种语言(翻译后)，否则语言仅用于打印文档
 
-对于语言代码,我们建议使用 Java 的国家和语言规范(例如 fr_CN - 加拿大法语).
+对于语言代码,我们建议使用 Java 的国家和语言规范(例如 fr_CN - 加拿大法语)
 
-创建一种新语言之后，请开始一程序用于验证翻译，并创建缺少的翻译记录.</value>
+创建一种新语言之后，请开始一程序用于验证翻译，并创建缺少的翻译记录</value>
  </row>
  <row id="107" trl="Y">
   <value column="Name" original="Matched Invoices">匹配的发票</value>
@@ -59,7 +59,7 @@
  <row id="110" trl="Y">
   <value column="Name" original="Organization">组织</value>
   <value column="Description" original="Maintain Organizations">维护组织</value>
-  <value column="Help" original="The Organization Window allows you to define and maintain Organizational entities.  An Organization is often a legal entity or sub-unit for which documents and transactions are processed">组织窗口允许您定义和维护组织项。组织常常是法律实体或分支机构，单据和事务在此级别被处理。</value>
+  <value column="Help" original="The Organization Window allows you to define and maintain Organizational entities.  An Organization is often a legal entity or sub-unit for which documents and transactions are processed">组织窗口允许您定义和维护组织项。组织常常是法律实体或分支机构，单据和事务就在组织这个级别进行处理</value>
  </row>
  <row id="111" trl="Y">
   <value column="Name" original="Role">角色</value>
@@ -81,7 +81,7 @@
  <row id="114" trl="Y">
   <value column="Name" original="Task">任务</value>
   <value column="Description" original="Maintain Tasks">维护任务</value>
-  <value column="Help" original="The Maintain Tasks window defines the different tasks used in workflows and the access level for those tasks.">维护任务窗口定义用在工作流中的不同任务，以及那些任务的访问权限。</value>
+  <value column="Help" original="The Maintain Tasks window defines the different tasks used in workflows and the access level for those tasks.">"维护任务窗口"定义用在工作流中的不同任务，以及那些任务的访问权限</value>
  </row>
  <row id="115" trl="Y">
   <value column="Name" original="Currency">币种</value>
@@ -111,7 +111,7 @@
  <row id="121" trl="Y">
   <value column="Name" original="Location">位置/地址</value>
   <value column="Description" original="Maintain Location Address">维护地址</value>
-  <value column="Help" original="The Location Window defines the address data within the system.  This window is for System Admin only.  Users would access location entries using the location button or tab on the appropriate window (i.e Order Entry or Business Partner)">此窗口定义系统中的地址数据此窗口仅供系统管理员使用。用户通过使用相应窗口上的位置按钮或页签来访问地址信息。。</value>
+  <value column="Help" original="The Location Window defines the address data within the system.  This window is for System Admin only.  Users would access location entries using the location button or tab on the appropriate window (i.e Order Entry or Business Partner)">此窗口定义系统中的地址数据。此窗口仅供系统管理员使用。用户通过使用相应窗口上的位置按钮或页签来访问地址信息(例如订单凭证或业务伙伴)</value>
  </row>
  <row id="122" trl="Y">
   <value column="Name" original="Country Region and City">国家区域与城市</value>
@@ -211,23 +211,24 @@
  <row id="146" trl="Y">
   <value column="Name" original="Price List">价格表</value>
   <value column="Description" original="Maintain Product Price Lists">维护产品价格表</value>
-  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version.">价格表窗口允许你为你的合作伙伴产生产品价格表。价格表决定流通和税款处理。价格表允许 在不同的时间范围修改类似的表。大多数通用的价格表译文是用在基于公文日期.	所有价格表有三种价格: 公开价, 标准价和限制价
-	第一步是新建一个底价表，你可以用手添加产品和输入价格或者自动新建它们。 底价表是经常的价格表 和订价 ('正式的' 零售价), 标准价格(你的进货价格).  限价可以最终进货成本然后折扣等等	价格表可以计算和复制. 当新建一个价格表译本这个商店的习惯参数可以加速计算,</value>
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version.">价格表窗口允许你为你的合作伙伴生成产品价格表。价格表决定货币和税务处理。价格表可以有多个版本，允许在不同的时间段维护并行价格表。日期最近的一张价格表将被采用（基于单据日期）。&lt;BR&gt;所有价格表都有三种价格: 公开价, 标准价和限制价&lt;BR&gt;
+  第一步是新建一个基础价格表，你可以手工添加产品和输入价格，或者自动新建它们。 基础价格表通常是采购价格表，包括标价 (“官方的” 零售价)，标准价(你的进货价格)。限价用于确认折扣、返还后的最终采购成本。&lt;BR&gt;
+  价格表能够被计算和复制。为加快计算，参数将被保存并用于创建新价格表版本</value>
  </row>
  <row id="147" trl="Y">
   <value column="Name" original="Invoice Schedule">发票计划</value>
   <value column="Description" original="Maintain Invoicing Schedule">维护发票计划</value>
-  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer."><![CDATA[发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 <p>如果客户需要多份发货单的单张发票，您可定义相应的发票计划，并将它关联到客户。]]></value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer."><![CDATA[发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 如果客户需要多份发货单的单张发票，您可定义相应的发票计划，并将它关联到客户]]></value>
  </row>
  <row id="149" trl="Y">
   <value column="Name" original="Marketing Campaign">营销活动</value>
-  <value column="Description" original="Maintain Marketing Campaigns">维护营销战役</value>
-  <value column="Help" original="The Marketing Campaign Window defines the start and end date for a campaign.  It also gives a running balance of the invoice amounts which referred to this campaign.">营销战役窗口定义战役的起始与结束日期。它也给出引用此战役的发票金额流水余额。</value>
+  <value column="Description" original="Maintain Marketing Campaigns">维护营销活动</value>
+  <value column="Help" original="The Marketing Campaign Window defines the start and end date for a campaign.  It also gives a running balance of the invoice amounts which referred to this campaign.">营销活动窗口定义活动的起始与结束日期。它也给出引用此活动的发票金额流水余额</value>
  </row>
  <row id="150" trl="Y">
   <value column="Name" original="Marketing Channel">营销渠道</value>
   <value column="Description" original="Maintain Marketing  Channels">维护营销渠道</value>
-  <value column="Help" original="The Marketing Channel Window defines the different channels used in Marketing Campaigns">营销渠道窗口定义用在营销战役中的不同渠道。</value>
+  <value column="Help" original="The Marketing Channel Window defines the different channels used in Marketing Campaigns">营销渠道窗口定义用在营销活动中的不同渠道</value>
  </row>
  <row id="151" trl="Y">
   <value column="Name" original="Element">元素</value>
@@ -292,7 +293,7 @@
  <row id="168" trl="Y">
   <value column="Name" original="Physical Inventory">实地盘存</value>
   <value column="Description" original="Enter Physical Inventory">输入实地盘存</value>
-  <value column="Help" original="The Physical Inventory Window allows you to generate inventory count lists.  These counts can then be processed which will update the actual inventory with the new counts. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.">实际的详细目录窗户允许你产生详细目录计数目录。  然后这些计数可能是加工的哪一将会用新的计数更新真实的详细目录。</value>
+  <value column="Help" original="The Physical Inventory Window allows you to generate inventory count lists.  These counts can then be processed which will update the actual inventory with the new counts. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.">实地盘点窗口，允许你生成盘点清单。这些数目将会被处理，将会更新实际库存数。通常你会自动创建盘点明细。如果你手动创建它们，请确保该账面价值是正确的</value>
  </row>
  <row id="169" trl="Y">
   <value column="Name" original="Shipment (Customer)">发货单 (客户)</value>
@@ -302,7 +303,7 @@
  <row id="170" trl="Y">
   <value column="Name" original="Inventory Move">移库</value>
   <value column="Description" original="Inventory Move">移库</value>
-  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">库存移动窗口允许您将库存从一个货位或仓库移动到另一个货位或仓库。在输入相应的行以后，选择“处理移库”按钮将调节库存。</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">库存移动窗口允许您将库存从一个货位或仓库移动到另一个货位或仓库。在输入相应的行以后，选择“处理移库”按钮将调节库存</value>
  </row>
  <row id="172" trl="Y">
   <value column="Name" original="Import Business Partner">导入业务伙伴</value>
@@ -317,7 +318,7 @@
  <row id="175" trl="Y">
   <value column="Name" original="Perpetual Inventory">永续盘点</value>
   <value column="Description" original="Maintain Perpetual Inventory Rules">维护永续盘存规则</value>
-  <value column="Help" original="The Perpetual Inventory defines the rules to be applied when generating Physical Inventory counts.">永续盘存定义了当生成实地盘存的盘点数时要应用的规则。</value>
+  <value column="Help" original="The Perpetual Inventory defines the rules to be applied when generating Physical Inventory counts.">永续盘存定义了当生成实地盘存的盘点数时要应用的规则</value>
  </row>
  <row id="176" trl="Y">
   <value column="Name" original="Vendor Details">供应商明细</value>
@@ -462,7 +463,7 @@
  <row id="212" trl="Y">
   <value column="Name" original="Performance Goal">绩效目标</value>
   <value column="Description" original="Define Performance Goals">定义绩效成果</value>
-  <value column="Help" original="The Performance Goal Window allows you to define performance goals or all, a role or a user">绩效目标窗口允许您为全部、一个角色或一个用户定义绩效目标。</value>
+  <value column="Help" original="The Performance Goal Window allows you to define performance goals or all, a role or a user">绩效目标窗口允许您为全部、一个角色或一个用户定义绩效目标</value>
  </row>
  <row id="213" trl="Y">
   <value column="Name" original="Performance Measure Calculation">绩效指标计算</value>
@@ -472,7 +473,7 @@
  <row id="215" trl="Y">
   <value column="Name" original="Performance Measure">绩效指标</value>
   <value column="Description" original="Define your Performance Measures">定义您的绩效指标</value>
-  <value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">绩效指标窗口允许您为绩效指标定义规则和限制。例如，您可限制绩效指标为已定义时间段、特定产品类别的销售。</value>
+  <value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">绩效指标窗口允许您为绩效指标定义规则和限制。例如，您可限制绩效指标为已定义时间段、特定产品类别的销售</value>
  </row>
  <row id="216" trl="Y">
   <value column="Name" original="Financial Report">财务报表</value>
@@ -597,7 +598,7 @@
  <row id="243" trl="Y">
   <value column="Name" original="Print Table Format">打印表格格式</value>
   <value column="Description" original="Define Report Table Format">定义表打印格式</value>
-  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">版桌子格式让你定义如何桌子首领,等等被印刷。 请注意报告桌子格式被贮藏改善表现。</value>
+  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">表格打印格式 让你定义表头等等是怎样打印的。请注意：报告表格格式会被存储在计算机缓存中，以改善运行表现</value>
  </row>
  <row id="244" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
@@ -607,7 +608,7 @@
  <row id="245" trl="Y">
   <value column="Name" original="Interest Area">兴趣领域</value>
   <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题, 可用于关系营销等目的</value>
-  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">兴趣关注反映了联系人感兴趣的主题。兴趣关注可用于营销战役。</value>
+  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">兴趣关注反映了联系人感兴趣的主题。兴趣关注可用于营销活动。</value>
  </row>
  <row id="246" trl="Y">
   <value column="Name" original="System">系统</value>
@@ -763,8 +764,8 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="276" trl="Y">
   <value column="Name" original="Alert">提醒</value>
-  <value column="Description" original="iDempiere Alert">Adempiere 提醒</value>
-  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">Compiere 注意允许你以你想要被提醒为条件来定义系统</value>
+  <value column="Description" original="iDempiere Alert">iDempiere提醒</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">iDempiere注意允许你以你想要被提醒为条件来定义系统</value>
  </row>
  <row id="277" trl="Y">
   <value column="Name" original="Import Bank Statement">导入银行对账单</value>
@@ -954,7 +955,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="314" trl="Y">
   <value column="Name" original="RfQ Topic">询价单主题</value>
   <value column="Description" original="Maintain RfQ Topics and Subscribers">维护询价单主题和订阅者</value>
-  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单。</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单</value>
  </row>
  <row id="315" trl="Y">
   <value column="Name" original="RfQ">询价单</value>
@@ -984,7 +985,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="320" trl="Y">
   <value column="Name" original="Customer RMA">客户退货授权</value>
   <value column="Description" original="Manage Return Material Authorization">处理回返物质的授权</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">退料授权可能是必需的，以便接受退货并创建贷项通知单。</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
  </row>
  <row id="321" trl="Y">
   <value column="Name" original="Dunning Run">催款计算</value>
@@ -1076,7 +1077,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="338" trl="Y">
   <value column="Name" original="POS Terminal">POS 终端</value>
   <value column="Description" original="Maintain your Point of Sales Terminal">维护您的售点终端</value>
-  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能。</value>
+  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能</value>
  </row>
  <row id="339" trl="Y">
   <value column="Name" original="POS Key Layout">POS 键布局</value>
@@ -1196,12 +1197,12 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="363" trl="Y">
   <value column="Name" original="System Issue Report">系统问题报告</value>
   <value column="Description" original="Automatically created or manually entered System Issue Reports">自动创建或手工输入的系统问题报告</value>
-  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给 Compiere，传输时不会提交数据或机密信息。</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给iDempiere，传输时不会提交数据或机密信息。</value>
  </row>
  <row id="364" trl="Y">
   <value column="Name" original="Performance Color Schema">绩效颜色的方案</value>
   <value column="Description" original="Maintain Performance Color Schema">维护绩效配色方案</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。Compiere 支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。iDempiere支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
  </row>
  <row id="365" trl="Y">
   <value column="Name" original="Performance Benchmark">绩效基准测试</value>
@@ -1256,7 +1257,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="375" trl="Y">
   <value column="Name" original="Web Ad Management">Web 广告管理</value>
   <value column="Description" original="Content Management Ad Management defines the needed categories and items">内容管理中的广告管理，定义所需的类别与广告项</value>
-  <value column="Help" original="Ad Management is used to create and manage advertisements in your conten management">广告管理用于创建和管理您在内容管理中的广告。</value>
+  <value column="Help" original="Ad Management is used to create and manage advertisements in your conten management">广告管理用于创建和管理您的内容管理中的广告</value>
  </row>
  <row id="376" trl="Y">
   <value column="Name" original="News Channel">新闻频道</value>
@@ -1281,7 +1282,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="381" trl="Y">
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="Description" original="Maintain System Entity Type">维护系统中实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“Compiere”类型不应被使用。</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“iDempiere”类型不应被使用。</value>
  </row>
  <row id="383" trl="Y">
   <value column="Name" original="Web Access">Web 访问</value>
@@ -1315,8 +1316,8 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="389" trl="Y">
   <value column="Name" original="LDAP Server">LDAP 服务器</value>
-  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">Adempiere基于LDAP服务器来验证外部系统。</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个 Compiere 系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字。</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">iDempiere基于LDAP服务器来验证外部系统。</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个iDempiere系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字</value>
  </row>
  <row id="50001" trl="Y">
   <value column="Name" original="Packages Installed">安装的包</value>
@@ -1381,11 +1382,11 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="53004" trl="Y">
   <value column="Name" original="Manufacturing Resource">生产资源</value>
   <value column="Description" original="Manufacturing Resource">生产资源</value>
-  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.
+  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">制造资源指为任何所需的生产和其可用性可能影响生产计划。制造资源可以是：成套设备，生产线，工作中心和工作站。
 
-It mainly answers the question: Where is the product made?
+它主要回答的问题是：在哪里制造？
 
-A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.</value>
+一个具体的生产设施中的一个或多个人员和/或机器，它可以被认为是一个单位而言，的容量requiremets规划和详细的调度</value>
  </row>
  <row id="53005" trl="Y">
   <value column="Name" original="Manufacturing Workflows">生产工艺</value>
@@ -1409,7 +1410,7 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">The system creates messages while performing processes. In this window you can view them.
 
 MRP Notice
-It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.
+It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the iDempiere session.
 
 The possible action messages are:
 
@@ -1565,7 +1566,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53035" trl="Y">
   <value column="Name" original="Payroll Job">薪酬职位</value>
   <value column="Description" original="Maintain Payroll Job">维护薪酬单</value>
-  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">The Payroll Table Type Window is used to define the Table类型</value>
+  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">职员工资表窗口用于把岗位定义到公司的组织架构</value>
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Payroll Concept Catalog">薪酬策略目录</value>
@@ -1665,7 +1666,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53058" trl="Y">
   <value column="Name" original="Depreciation Methods">折旧方法</value>
   <value column="Description" original="Depreciation Methods">折旧方法</value>
-  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">The Depreciation method windows allows the user to review the depreciation calculations available in iDempiere</value>
  </row>
  <row id="53059" trl="Y">
   <value column="Name" original="Depreciation Tables">折旧表</value>
@@ -1675,7 +1676,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53060" trl="Y">
   <value column="Name" original="Depreciation First Year Conventions ">第一年折旧规则 </value>
   <value column="Description" original="Setup for depreciation Setups">设置离散制造</value>
-  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Allows user to define what depreciation conventions are available in Adempiere</value>
+  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">iDempiere允许用户定义折旧方法</value>
  </row>
  <row id="53061" trl="Y">
   <value column="Name" original="Depreciation Calculation Method">折旧计提方法</value>
@@ -1766,7 +1767,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53099" trl="Y">
   <value column="Name" original="Vendor RMA">供应商退货授权</value>
   <value column="Description" original="Manage Return Material Authorization">处理回返物质的授权</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">退料授权可能是必需的，以便接受退货并创建贷项通知单。</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
  </row>
  <row id="53100" trl="Y">
   <value column="Name" original="My Profile">我的简介</value>

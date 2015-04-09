@@ -8,7 +8,7 @@
  <row id="2124" trl="Y">
   <value column="Name" original="Language">语言</value>
   <value column="Description" original="Language for this Business Partner if Multi-Language enabled">该业务伙伴的语言，如果启用了多语种</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">语言标识了显示和格式化单据时所用到的语言。它要求，在实体级别，多语种单据复选框被启用，且您已经创建/加载了该语言。</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">语言标识了显示和格式化单据时所用到的语言。它要求，在实体级别，多语种单据复选框被启用，且您已经创建/加载了该语言</value>
  </row>
  <row id="3665" trl="Y">
   <value column="Name" original="Start Node">起始节点</value>
@@ -43,7 +43,7 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  </row>
  <row id="5899" trl="Y">
   <value column="Name" original="System Name">系统名称</value>
-  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">命名您的 Adempiere 系统安装, 例如：Joe Block, Inc.</value>
+  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">命名您的iDempiere系统安装, 例如：Joe Block, Inc.</value>
   <value column="Help" original="The name if the system to differentiate support contracts">系统的名称，用以区分支持合同。</value>
  </row>
  <row id="6344" trl="Y">
@@ -84,7 +84,7 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  <row id="12732" trl="Y">
   <value column="Name" original="Language">语言</value>
   <value column="Description" original="Language for this Business Partner if Multi-Language enabled">该业务伙伴的语言，如果启用了多语种</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">语言标识了显示和格式化单据时所用到的语言。它要求，在实体级别，多语种单据复选框被启用，且您已经创建/加载了该语言。</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">语言标识了显示和格式化单据时所用到的语言。它要求，在实体级别，多语种单据复选框被启用，且您已经创建/加载了该语言</value>
  </row>
  <row id="13179" trl="Y">
   <value column="Name" original="UserName">用户名称</value>
@@ -94,17 +94,17 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  <row id="13424" trl="Y">
   <value column="Name" original="Mandatory Overwrite">必填覆盖</value>
   <value column="Description" original="Overwrite Field Mandatory status">覆盖字段必填状态</value>
-  <value column="Help" original="The field must have a value for the record to be saved to the database.">字段必须具有一个值，以便记录被保存到数据库中。</value>
+  <value column="Help" original="The field must have a value for the record to be saved to the database.">字段必须具有一个值，以便记录被保存到数据库中</value>
  </row>
  <row id="13425" trl="Y">
   <value column="Name" original="Reference Overwrite">引用覆盖</value>
   <value column="Description" original="System Reference - optional Overwrite">系统引用 - 可选覆盖</value>
-  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">您可覆盖显示类型，但仅当您明白产生的后果时才去使用它。</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">您可覆盖显示类型，但仅当您明白产生的后果时才去使用它</value>
  </row>
  <row id="13755" trl="Y">
   <value column="Name" original="Search Key">搜索关键字</value>
   <value column="Description" original="Search key for the record in the format required">在所需格式中的记录搜索关键字</value>
-  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7位小写字母数字 - 最大长度 8 - 可用于操作系统名称。</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7位小写字母数字 - 最大长度 8 - 可用于操作系统名称</value>
  </row>
  <row id="50066" trl="Y">
   <value column="Name" original="AD_Package_Exp_ID">AD_包_Exp_ID</value>
@@ -296,7 +296,7 @@ When you enter dates in the fields Valid From - To we give the the period of tim
  <row id="53480" trl="Y">
   <value column="Name" original="Copy BOM Lines From">从...复制 BOM 行</value>
   <value column="Description" original="Copy BOM Lines from an exising BOM">从一个已有的 BOM ...复制 BOM 行</value>
-  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">从现有的 BOM 复制 BOM 明细。目标 BOM 必须没有任何 BOM 明细</value>
  </row>
  <row id="53490" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
@@ -533,7 +533,7 @@ Date Promised Is the date we commit to give the order to the warehouse. If the M
  <row id="58101" trl="Y">
   <value column="Name" original="Copy BOM Lines From">从...复制 BOM 行</value>
   <value column="Description" original="Copy BOM Lines from an exising BOM">从一个已有的 BOM ...复制 BOM 行</value>
-  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">从现有的 BOM 复制 BOM 明细。目标 BOM 必须没有任何 BOM 明细</value>
  </row>
  <row id="58114" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
@@ -600,7 +600,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="62779" trl="N">
   <value column="Name" original="Language">语言</value>
   <value column="Description" original="Language for this Business Partner if Multi-Language enabled">设置该业务伙伴支持多语言</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">语言标识了显示和格式化单据时所用到的语言。它要求，在实体级别，多语种单据复选框被启用，且您已经创建/加载了该语言</value>
  </row>
  <row id="62991" trl="N">
   <value column="Name" original="Expected Close">Expected Close</value>
@@ -610,7 +610,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="200585" trl="Y">
   <value column="Name" original="Only Currency">仅该币种</value>
   <value column="Description" original="Restrict accepting only this currency">限制为仅接受该币种</value>
-  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">仅该币种字段表示了这个银行账户仅接受此处标明的币种。</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">"仅该币种字段" 表示 这个银行账户只接受此处标明的币种</value>
  </row>
  <row id="200723" trl="Y">
   <value column="Name" original="Void It">是否完成</value>

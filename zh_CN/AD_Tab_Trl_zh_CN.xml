@@ -64,7 +64,7 @@
   <value column="Name" original="Menu">菜单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Menu">维护菜单</value>
-  <value column="Help" original="The Menu Tab defines the tree structured menu which will be used for the selected Organization. Note that the name and description will be automatically synchronized (overwritten), if not a summary node.">菜单页签定义了将用于所选组织的树结构菜单。注意，名称和描述将被自动同步 (覆盖)，如果它不是汇总级别的节点。</value>
+  <value column="Help" original="The Menu Tab defines the tree structured menu which will be used for the selected Organization. Note that the name and description will be automatically synchronized (overwritten), if not a summary node.">菜单页签定义了将用于所选组织的树结构菜单。注意，名称和描述将被自动同步 (覆盖)，如果它不是汇总级别的节点</value>
  </row>
  <row id="111" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -132,7 +132,7 @@
   <value column="Name" original="Node">节点</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define workflow nodes">定义工作流节点</value>
-  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (actibity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution."><![CDATA[节点页签定义了该工作流中的每个节点或步骤。<br>行动类型决定了执行"路由"；可能用于路由控制条件。或"无"；标识手工执行。]]></value>
+  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (actibity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution."><![CDATA[节点页签定义了该工作流中的每个节点或步骤。&lt;br&gt;行动类型决定了执行方式："路径"表示可能由路径控制条件；"无"标示手工执行]]></value>
  </row>
  <row id="123" trl="Y">
   <value column="Name" original="Node Translation">节点翻译</value>
@@ -180,13 +180,13 @@
   <value column="Name" original="Period">分期</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Calendar Periods">定义日历期间</value>
-  <value column="Help" original="The Period Tab defines a Period No, Name and Start Date for each Calendar Year.  Each period begins on the defined Start Date and ends one day prior to the next period's Start Date.">期间页签定义了期间编号、名称和每个日历年度的起始日期。每个期间以定义的起始日期开始，以下一期间起始日期的前一天结束。</value>
+  <value column="Help" original="The Period Tab defines a Period No, Name and Start Date for each Calendar Year.  Each period begins on the defined Start Date and ends one day prior to the next period's Start Date.">期间页签定义了期间编号、名称和每个日历年度的起始日期。每个期间以定义的起始日期开始，以下一期间起始日期的前一天结束</value>
  </row>
  <row id="131" trl="Y">
   <value column="Name" original="Non Business Day">非营业日</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Non Business Days">定义非营业日</value>
-  <value column="Help" original="The Non Business Days Tab defines those days to exclude when calculating the due date for given payment terms.  For example, if an invoice terms was Net 10 days and the Invoice Date was 2/17/2000 the due date would be 2/27/2000.  If 2/27/2000 was defined as a non business day then the due date  on the Invoice would be 2/28/2000.">定义这个日期排除在付款条款的支付日期计算里. 例如:如果一个发票的期限剩10天而发票日期是2000/2/17则支付日期将变成2000/2/27.如果2000/2/27是非工作日这支付日期将改成2000/2/28.</value>
+  <value column="Help" original="The Non Business Days Tab defines those days to exclude when calculating the due date for given payment terms.  For example, if an invoice terms was Net 10 days and the Invoice Date was 2/17/2000 the due date would be 2/27/2000.  If 2/27/2000 was defined as a non business day then the due date  on the Invoice would be 2/28/2000.">定义这个日期排除在付款条款的支付日期计算里. 例如:如果一个发票的期限剩10天而发票日期是2000/2/17则支付日期将变成2000/2/27.如果2000/2/27是非工作日这支付日期将改成2000/2/28</value>
  </row>
  <row id="132" trl="Y">
   <value column="Name" original="Element Value">元素值</value>
@@ -222,7 +222,7 @@
   <value column="Name" original="Organization">组织</value>
   <value column="CommitWarning" original="All not manually maintained Roles will automatically have access to the new Organziation.&#10;You need restart your application server for most changes made here to be effective.">所有没有勾选“手动”标记创建的角色都将能访问新建的组织。您必须重启应用服务器来让您的本次改动生效。</value>
   <value column="Description" original="Define Organizations">定义组织</value>
-  <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization."><![CDATA[组织页签用于定义组织。每个组织具有一个关键字和名称，(可选地) 以及描述。<p>当增加新的组织时，您必须重新登录方可访问新的组织。]]></value>
+  <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization."><![CDATA[组织页签 用于定义一个组织。每个组织具有一个关键字、名称、以及描述（描述为可选项)。&lt;p&gt;当添加新的组织时，您必须重新登录才能访问新的组织]]></value>
  </row>
  <row id="145" trl="Y">
   <value column="Name" original="Client">实体</value>
@@ -331,7 +331,7 @@
   <value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.&#10;">您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效。
 </value>
   <value column="Description" original="Organization Detail Information">组织明细信息</value>
-  <value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">组织信息页签用于定义组织的地址、DUNS码和税标识号。</value>
+  <value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">组织信息页签 用于定义组织的地址、DUNS码和税标识号</value>
  </row>
  <row id="171" trl="Y">
   <value column="Name" original="Reference Translation">引用翻译</value>
@@ -403,7 +403,7 @@
   <value column="Name" original="Price">价格</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Product Pricing">产品定价</value>
-  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">定价页签显示了包含产品的每个价格表中的列表价格、标准价格和限制价格。</value>
+  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">定价页签显示了包含产品的每个价格表中的列表价格、标准价格和限制价格</value>
  </row>
  <row id="184" trl="Y">
   <value column="Name" original="Payment Term">付款条件</value>
@@ -421,7 +421,7 @@
   <value column="Name" original="Order">订单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Header">订单头</value>
-  <value column="Help" original="The Order Header Tab defines the parameters of an Order. Changing the Organization, Business Partner, Warehouse, Date Promised, etc. changes these values on all the lines. ">订单头页签定义了订单的参数。更改组织、业务伙伴、仓库、承诺日期等，会更改所有行中的这些值。 </value>
+  <value column="Help" original="The Order Header Tab defines the parameters of an Order. Changing the Organization, Business Partner, Warehouse, Date Promised, etc. changes these values on all the lines. ">订单头页签定义了订单的参数。更改组织、业务伙伴、仓库、承诺日期等，会更改所有行中的这些值</value>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Order Line">订单行</value>
@@ -445,13 +445,13 @@
   <value column="Name" original="Product Price">产品价格</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Product Prices">维护产品价格</value>
-  <value column="Help" original="The Price List Tab displays the prices for a product based on the selected price list.">价格表页签显示了基于所选价格表的产品价格。</value>
+  <value column="Help" original="The Price List Tab displays the prices for a product based on the selected price list.">			</value>
  </row>
  <row id="193" trl="Y">
   <value column="Name" original="Invoice Schedule">发票计划</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Invoice Schedule">定义发票计划</value>
-  <value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner.">发票计划页签定义了将为业务伙伴生成批发票的频度。</value>
+  <value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner.">发票计划页签定义了将为业务伙伴生成批发票的频度</value>
  </row>
  <row id="198" trl="Y">
   <value column="Name" original="Conversion Rate">汇率</value>
@@ -472,16 +472,16 @@
   <value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">定义错误和使用的平衡处理以及过账到总账必要的账户.  </value>
  </row>
  <row id="201" trl="Y">
-  <value column="Name" original="Campaign">营销战役</value>
+  <value column="Name" original="Campaign">营销活动</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Marketing Campaign">营销活动</value>
-  <value column="Help" original="The Marketing Campaign Tab defines the parameters for a Campaign.  These include a start and end date as well as the amount of any invoices that have been processed which reference this campaign.">营销战役页签定义了战役的参数。这些参数包含起始和结束日期，以及任何引用该战役且已处理发票的金额。</value>
+  <value column="Help" original="The Marketing Campaign Tab defines the parameters for a Campaign.  These include a start and end date as well as the amount of any invoices that have been processed which reference this campaign.">营销活动页签定义了活动的参数。这些参数包含起始和结束日期，以及任何引用该活动且已处理发票的金额</value>
  </row>
  <row id="202" trl="Y">
   <value column="Name" original="Channel">销售渠道</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Distribution Channel">配送渠道</value>
-  <value column="Help" original="The Marketing Channel Tab defines the different methods or processes through which customers are obtained.">营销渠道页签定义了获取客户的不同的方法或流程。</value>
+  <value column="Help" original="The Marketing Channel Tab defines the different methods or processes through which customers are obtained.">营销渠道页签定义了获取客户的不同的方法或流程</value>
  </row>
  <row id="203" trl="Y">
   <value column="Name" original="Element">元素</value>
@@ -499,7 +499,7 @@
   <value column="Name" original="Period Control">分期控制</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Period Control">定义期间控制</value>
-  <value column="Help" original="The Period Control Tab displays the status of a Period (Never Opened, Opened, Closed).  ">显示这周期的状态(非空,空,关闭)  </value>
+  <value column="Help" original="The Period Control Tab displays the status of a Period (Never Opened, Opened, Closed).  ">期间控制页签 显示一个期间的状态(从未打开，打开，关闭)</value>
  </row>
  <row id="206" trl="Y">
   <value column="Name" original="Sales Region">销售区域</value>
@@ -577,7 +577,7 @@
   <value column="Name" original="Location">位置/地址</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">定义位置</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">位置页签定义了业务伙伴的物理位置。业务伙伴可具有多个位置记录。</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">位置页签定义了业务伙伴的物理位置。业务伙伴可具有多个位置记录</value>
  </row>
  <row id="223" trl="Y">
   <value column="Name" original="Customer">客户</value>
@@ -655,7 +655,7 @@
   <value column="Name" original="Order Tax">订单 税</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Tax">订单 税</value>
-  <value column="Help" original="The Order Tax Tab displays the tax amount for an Order based on the lines entered.">订单税页签显示了基于输入行的订单税额。</value>
+  <value column="Help" original="The Order Tax Tab displays the tax amount for an Order based on the lines entered.">订单税页签 显示了基于输入行的订单税额</value>
  </row>
  <row id="237" trl="Y">
   <value column="Name" original="Charge">费用</value>
@@ -757,13 +757,13 @@
   <value column="Name" original="Move">移库</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Inventory Movement">定义移库</value>
-  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">移库页签定义和标识了库存中货品的移动。</value>
+  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">移库页签定义和标识了库存中货品的移动</value>
  </row>
  <row id="260" trl="Y">
   <value column="Name" original="Move Line">移库行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Inventory Movement Line">定义移库行</value>
-  <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">定义调拨的产品和数量和调拨的来源和目标位置.  </value>
+  <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">"调拨行"页签定义调拨的产品和数量和调拨的来源和目标位置.</value>
  </row>
  <row id="262" trl="Y">
   <value column="Name" original="Product Transactions">产品事务处理</value>
@@ -775,7 +775,7 @@
   <value column="Name" original="Invoice">发票</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Customer Invoice">客户发票</value>
-  <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated for a Business Partner.  It constitutes an accounts receivable.">定义一个业务伙伴发票产生的参数. 它组成应收款账户.</value>
+  <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated for a Business Partner.  It constitutes an accounts receivable.">定义一个业务伙伴发票产生的参数。它组成应收款账户</value>
  </row>
  <row id="268" trl="Y">
   <value column="Name" original="Level">分级</value>
@@ -865,7 +865,7 @@
   <value column="Name" original="Invoice">发票</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Vendor Invoice">采购发票</value>
-  <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated by a Business Partner.  It constitutes an accounts payable.">定义业务伙伴产生发票的参数. 它组成应付款账户</value>
+  <value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated by a Business Partner.  It constitutes an accounts payable.">定义业务伙伴产生发票的参数. 它组成应付款帐户</value>
  </row>
  <row id="291" trl="Y">
   <value column="Name" original="Invoice Line">发票行</value>
@@ -890,7 +890,7 @@
   <value column="Name" original="Purchase Order">采购订单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Header">订单头</value>
-  <value column="Help" original="The Order Header Tab defines the parameters of an order.  The field values defined will determine how the Order Lines are processed.">订单头页签定义了订单的参数。定义的字段值将决定订单行如何被处理。</value>
+  <value column="Help" original="The Order Header Tab defines the parameters of an order.  The field values defined will determine how the Order Lines are processed.">订单头页签 定义了订单的参数。定义的字段值将决定订单行如何被处理。</value>
  </row>
  <row id="295" trl="Y">
   <value column="Name" original="Order Tax">订单 税</value>
@@ -950,7 +950,7 @@
   <value column="Name" original="Process Access">流程访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Process Access">流程访问</value>
-  <value column="Help" original="The Process Access Tab defines the Processes and type of access that this Role is granted.">流程访问页签定义了流程和该角色被授予的访问类型。</value>
+  <value column="Help" original="The Process Access Tab defines the Processes and type of access that this Role is granted.">流程访问页签定义了流程和该角色被授予的访问类型</value>
  </row>
  <row id="306" trl="Y">
   <value column="Name" original="Form Access">窗体访问</value>
@@ -1064,7 +1064,7 @@
   <value column="Name" original="Notice">通知</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="System Notice">系统通知</value>
-  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by this system when performing processes.">通知页签提供了查看消息的方法，这些消息在执行流程时由系统生成。</value>
+  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by this system when performing processes.">通知页签提供了查看消息的方法，这些消息在执行流程时由系统生成</value>
  </row>
  <row id="327" trl="Y">
   <value column="Name" original="Accounting">会计</value>
@@ -1100,7 +1100,7 @@
   <value column="Name" original="Accounting">会计</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Organization Accounting">组织会计</value>
-  <value column="Help" original="The Organization Accounting Tab defines the default accounting parameters to be used by this Organization.">组织会计页签定义该组织使用的默认会计参数。</value>
+  <value column="Help" original="The Organization Accounting Tab defines the default accounting parameters to be used by this Organization.">组织会计页签定义该组织使用的默认会计参数</value>
  </row>
  <row id="333" trl="Y">
   <value column="Name" original="Accounting">会计</value>
@@ -1281,19 +1281,19 @@
   <value column="Name" original="Performance Measure Calculation">绩效指标计算</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain your Performance Measure Calculation">维护您的绩效指标计算</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table."><![CDATA[绩效指标计算定义了绩效指标将如何被计算。参见示例：<br>SELECT 定义必须包含大写的 SELECT 和 FROM 关键字，WHERE 定义必须包含大写的 WHERE 关键字。主表不允许有别名！WHERE 子句只能包含主表的值 (例如，当从头和行中选择时，只有头的变量可以用于 WHERE 子句)，且应当在多表情形下填写为完全验证 (“表.列”) 的格式。]]></value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table."><![CDATA[绩效指标计算定义了绩效指标将如何被计算。参见示例：&lt;brSELECT 定义必须包含大写的 SELECT 和 FROM 关键字，WHERE 定义必须包含大写的 WHERE 关键字。主表不允许有别名！WHERE 子句只能包含主表的值 (例如，当从头和行中选择时，只有头的变量可以用于 WHERE 子句)，且应当在多表情形下填写为完全验证 (“表.列”) 的格式]]></value>
  </row>
  <row id="370" trl="Y">
   <value column="Name" original="Achievement">业绩</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Performance Achievement">绩效目标实现</value>
-  <value column="Help" original="The Performance Achievement Tab defines the Tasks to be achieved.  The performance is measured by the percentage of reached achievements.">绩效成果页签定义了要完成的任务。绩效由任务完成的百分比加以评估、衡量。</value>
+  <value column="Help" original="The Performance Achievement Tab defines the Tasks to be achieved.  The performance is measured by the percentage of reached achievements.">绩效成果页签定义了要完成的任务。绩效由任务完成的百分比加以评估、衡量</value>
  </row>
  <row id="371" trl="Y">
   <value column="Name" original="Measure">绩效指标</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Performance Measure">绩效指标</value>
-  <value column="Help" original="The Performance Measure Tab defines the date range and method to be used for measuring performance.">绩效评估 (指标) 页签定义了用于评估绩效的日期范围和方法。</value>
+  <value column="Help" original="The Performance Measure Tab defines the date range and method to be used for measuring performance.">绩效评估 (指标) 页签定义了用于评估绩效的日期范围和方法</value>
  </row>
  <row id="372" trl="Y">
   <value column="Name" original="Financial Report">财务报表</value>
@@ -1563,13 +1563,13 @@
   <value column="Name" original="Price">价格</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Expense Type Pricing">开支类型定价</value>
-  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">定价页签显示了包含产品的每个价格表中的列表价格、标准价格和限制价格。</value>
+  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">定价页签显示了包含产品的每个价格表中的列表价格、标准价格和限制价格</value>
  </row>
  <row id="421" trl="Y">
   <value column="Name" original="Price">价格</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Resource Pricing">资源定价</value>
-  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a resource is contained in.">定价页签显示了包含资源的每个价格表中的列表价格、标准价格和限制价格。</value>
+  <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a resource is contained in.">定价页签显示了包含资源的每个价格表中的列表价格、标准价格和限制价格</value>
  </row>
  <row id="422" trl="Y">
   <value column="Name" original="Accounting">会计</value>
@@ -1653,7 +1653,7 @@
   <value column="Name" original="Print Table Format">打印表格格式</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Report Table Format">定义表打印格式</value>
-  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic."><![CDATA[打印表格格式让您定义表标头及其他项如何被打印。如果您将输入项保持为空，则使用默认的颜色和字段: <br> 字段基于报表中使用的字段; 页眉和表标头将被保留，函数字体为粗斜体，页眉字体比之小2个Points，参数字体为斜体。]]></value>
+  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic."><![CDATA[打印表格格式让您定义表标头及其他项如何被打印。如果您将输入项保持为空，则使用默认的颜色和字段: &lt;br&gt;字体会基于报表中使用的字体；页眉和表标头会用粗体，函数字体为粗斜体，页脚字体会小两号，参数字体为斜体。]]></value>
  </row>
  <row id="436" trl="Y">
   <value column="Name" original="Prepared Payment">安排的付款</value>
@@ -1671,13 +1671,13 @@
   <value column="Name" original="Interest Area">兴趣领域</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题, 可用于关系营销等目的</value>
-  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns. If a list is not &quot;Self Service&quot;, it is not visible for users via the web.">兴趣关注反映了联系人的兴趣主题。兴趣关注可用于营销战役。如果一个列表不是“自助服务”，那么它不能让用户通过Web访问。</value>
+  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns. If a list is not &quot;Self Service&quot;, it is not visible for users via the web.">兴趣关注反映了联系人的兴趣主题。兴趣关注可用于营销活动。如果一个列表不是“自助服务”，那么它不能让用户通过Web访问</value>
  </row>
  <row id="439" trl="Y">
   <value column="Name" original="Interest Area">兴趣领域</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Contact Interest Area">业务伙伴联系人的兴趣关注方面</value>
-  <value column="Help" original="Interest Area can be used for Marketing Campaigns">兴趣关注可用于营销战役。</value>
+  <value column="Help" original="Interest Area can be used for Marketing Campaigns">兴趣关注可用于营销活动。</value>
  </row>
  <row id="440" trl="Y">
   <value column="Name" original="System">系统</value>
@@ -1695,7 +1695,7 @@
   <value column="Name" original="Import Product">导入产品</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import Products">导入产品</value>
-  <value column="Help" original="Before importing, iDempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;iDempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import."><![CDATA[在导入之前，Compiere检查计量单位 (如果未设置则默认)、产品类别 (如果未设置则默认)、业务伙伴、货币 (如果未设置则默认为会计货币)、产品类型 (仅条目和服务)、UPC (单品) 唯一性、关键字、供应商产品编号的唯一性及存在性。 <p>如果UPC、关键字、供应商产品编号匹配 (按此顺序)，那么Compiere会尝试映射至现存产品。如果导入的记录可被匹配，产品字段值将仅在对应的导入字段已明确定义的情形下才被覆盖。例如: 产品类别将仅在导入中明确设置的情形下才被覆盖。]]></value>
+  <value column="Help" original="Before importing, iDempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;iDempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import."><![CDATA[在导入之前，iDempiere检查计量单位 (如果未设置则默认)、产品类别 (如果未设置则默认)、业务伙伴、货币 (如果未设置则默认为会计货币)、产品类型 (仅条目和服务)、UPC (单品) 唯一性、关键字、供应商产品编号的唯一性及存在性。 <p>如果UPC、关键字、供应商产品编号匹配 (按此顺序)，那么iDempiere会尝试映射至现存产品。如果导入的记录可被匹配，产品字段值将仅在对应的导入字段已明确定义的情形下才被覆盖。例如: 产品类别将仅在导入中明确设置的情形下才被覆盖。]]></value>
  </row>
  <row id="443" trl="Y">
   <value column="Name" original="Import Account">导入账户</value>
@@ -1905,7 +1905,7 @@
   <value column="Name" original="Phase">阶段</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Actual Project Phase">实际项目阶段</value>
-  <value column="Help" original="Actual Phase of the Project with Status information - generated from Phase of Project Type.">含有状态信息 (它们从项目类型的阶段生成) 的项目实际阶段。</value>
+  <value column="Help" original="Actual Phase of the Project with Status information - generated from Phase of Project Type.">含有状态信息 (它们从项目类型的阶段生成) 的项目实际阶段</value>
  </row>
  <row id="479" trl="Y">
   <value column="Name" original="Recurring">经常性单据</value>
@@ -2048,8 +2048,8 @@
  <row id="504" trl="Y">
   <value column="Name" original="Alert">提醒</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="iDempiere Alert">Adempiere 提醒</value>
-  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of.">Compiere 注意允许你以你想要被提醒为条件来定义系统</value>
+  <value column="Description" original="iDempiere Alert">iDempiere提醒</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of.">iDempiere Alerts 系统告警器允许按照您希望得到的提示来定义系统条件</value>
  </row>
  <row id="505" trl="Y">
   <value column="Name" original="Alert Rule">提醒规则</value>
@@ -2180,7 +2180,7 @@
  <row id="526" trl="Y">
   <value column="Name" original="Campaign Dimension">战役维度</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Marketing Campaign Accounting Dimension Tree">维护营销战役会计维度树</value>
+  <value column="Description" original="Maintain Marketing Campaign Accounting Dimension Tree">维护营销活动会计维度树</value>
   <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
 </value>
  </row>
@@ -2722,7 +2722,7 @@
   <value column="Name" original="Topic">主题</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Request for Quotation Topic">询价单主题</value>
-  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单。</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单</value>
  </row>
  <row id="620" trl="Y">
   <value column="Name" original="Subscriber">订阅者</value>
@@ -2776,7 +2776,7 @@
   <value column="Name" original="Customer RMA">客户退货授权</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Customer Return Material Authorization">物料退回授权 - 客户</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">退料授权可能是必需的，以便接受退货并创建贷项通知单。</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
  </row>
  <row id="629" trl="Y">
   <value column="Name" original="RMA Line">退货授权行</value>
@@ -3058,7 +3058,7 @@
   <value column="Name" original="POS Terminal">POS 终端</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Point of Sales Terminal">POS 销售终端</value>
-  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能。</value>
+  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能</value>
  </row>
  <row id="677" trl="Y">
   <value column="Name" original="POS Key Layout">POS 键布局</value>
@@ -3646,7 +3646,7 @@
   <value column="Name" original="System Issue">系统问题</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Automatically created or manually entered System Issue Reporting">自动创建的或手工输入的系统问题报告</value>
-  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给 Compiere，传输时不会提交数据或机密信息。</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给iDempiere，传输时不会提交数据或机密信息。</value>
  </row>
  <row id="778" trl="Y">
   <value column="Name" original="Assigned Partners">已分配的伙伴</value>
@@ -3658,7 +3658,7 @@
   <value column="Name" original="Color Schema">配色方案</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Performance Color Schema">绩效颜色的方案</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。Compiere 支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。iDempiere支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
  </row>
  <row id="780" trl="Y">
   <value column="Name" original="Restriction">限制</value>
@@ -3940,7 +3940,7 @@
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="System Entity Type">系统实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“Compiere”类型不应被使用。</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“iDempiere”类型不应被使用。</value>
  </row>
  <row id="832" trl="Y">
   <value column="Name" original="System Modifin">系统修改</value>
@@ -4047,8 +4047,8 @@
  <row id="849" trl="Y">
   <value column="Name" original="LDAP Server">LDAP 服务器</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">Adempiere基于LDAP服务器来验证外部系统。</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个 Compiere 系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字。</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">iDempiere基于LDAP服务器来验证外部系统。</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个iDempiere系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字</value>
  </row>
  <row id="850" trl="Y">
   <value column="Name" original="LDAP Server Log">LDAP 服务器日志</value>
@@ -4632,7 +4632,7 @@
   <value column="Name" original="Interest Area">兴趣领域</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Contact Interest Area">业务伙伴联系人的兴趣关注方面</value>
-  <value column="Help" original="Interest Area can be used for Marketing Campaigns">兴趣关注可用于营销战役。</value>
+  <value column="Help" original="Interest Area can be used for Marketing Campaigns">兴趣关注可用于营销活动。</value>
  </row>
  <row id="53102" trl="Y">
   <value column="Name" original="Employee">职工</value>
@@ -4650,7 +4650,7 @@
   <value column="Name" original="Business Partner">业务伙伴</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner">业务伙伴</value>
-  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">The Payroll Table Type Window is used to define the Table类型</value>
+  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">职员工资表窗口用于把岗位定义到公司的组织架构</value>
  </row>
  <row id="53105" trl="Y">
   <value column="Name" original="Employee Accounting">员工会计</value>
@@ -4668,7 +4668,7 @@
   <value column="Name" original="Location">位置/地址</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">定义位置</value>
-  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">位置页签定义了业务伙伴的物理位置。业务伙伴可具有多个位置记录。</value>
+  <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">位置页签定义了业务伙伴的物理位置。业务伙伴可具有多个位置记录</value>
  </row>
  <row id="53108" trl="Y">
   <value column="Name" original="Contact (User)">联系人 (用户)</value>
@@ -5190,7 +5190,7 @@
   <value column="Name" original="Notice">通知</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="MRP Notice">MRP 通知</value>
-  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by MRP process.">通知页签提供了查看消息的方法，这些消息在执行流程时由系统生成。</value>
+  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by MRP process.">通知页签提供了查看消息的方法，这些消息在执行流程时由系统生成</value>
  </row>
  <row id="53238" trl="Y">
   <value column="Name" original="Unprocessed Documents">未处理单据</value>
@@ -5280,7 +5280,7 @@
   <value column="Name" original="Vendor RMA">供应商退货授权</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Vendor Return Material Authorization">供应商退料授权</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">退料授权可能是必需的，以便接受退货并创建贷项通知单。</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
  </row>
  <row id="53281" trl="Y">
   <value column="Name" original="RMA Line">退货授权行</value>

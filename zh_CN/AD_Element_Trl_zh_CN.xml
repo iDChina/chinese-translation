@@ -14,7 +14,7 @@
   <value column="Name" original="Client">实体</value>
   <value column="PrintName" original="Client">实体</value>
   <value column="Description" original="Client/Tenant for this installation.">安装此软件的实体/承租人</value>
-  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">实体是指公司或法律意义上的机构。您不能在实体之间共享数据。承租人是实体的同义词。</value>
+  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">实体是指公司或法律意义上的机构。您不能在实体之间共享数据。承租人是实体的同义词</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -64,7 +64,7 @@
   <value column="Name" original="Key column">主键列</value>
   <value column="PrintName" original="Key column">主键列</value>
   <value column="Description" original="Unique identifier of a record">记录的唯一标识</value>
-  <value column="Help" original="The Key Column indicates that this the unique identifier of a record on this table.">主键列标明了它是这个表的一条记录的唯一标示符。</value>
+  <value column="Help" original="The Key Column indicates that this the unique identifier of a record on this table.">主键列标明了它是这个表的一条记录的唯一标识符</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -84,7 +84,7 @@
   <value column="Name" original="Menu">菜单</value>
   <value column="PrintName" original="Menu">菜单</value>
   <value column="Description" original="Identifies a Menu">标识菜单</value>
-  <value column="Help" original="The Menu identifies a unique Menu.  Menus are used to control the display of those screens a user has access to.">菜单标识了唯一的菜单项。菜单用于控制对用户可访问屏幕的显示。</value>
+  <value column="Help" original="The Menu identifies a unique Menu.  Menus are used to control the display of those screens a user has access to.">菜单标识了唯一的菜单项。菜单用于控制对用户可访问屏幕的显示</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -624,7 +624,7 @@
   <value column="Name" original="Business Partner ">业务伙伴 </value>
   <value column="PrintName" original="Business Partner ">业务伙伴 </value>
   <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
-  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个商业伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -764,7 +764,7 @@
   <value column="Name" original="Non Business Day">非营业日</value>
   <value column="PrintName" original="Non Business Day">非营业日</value>
   <value column="Description" original="Day on which business is not transacted">非营业日</value>
-  <value column="Help" original="The Non Business Day identifies a day that should not be considered a day when business is transacted">非营业日标识不应考虑进行业务处理和交易的日期。</value>
+  <value column="Help" original="The Non Business Day identifies a day that should not be considered a day when business is transacted">非营业日标识不应考虑进行业务处理和交易的日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -945,7 +945,7 @@
   <value column="PrintName" original="Callout">调用</value>
   <value column="Description" original="Fully qualified class names and method - separated by semicolons">完全规格化的类名和方法 - 用句点号隔开</value>
   <value column="Help" original="A Callout allow you to create Java extensions to perform certain tasks always after a value changed. Callouts should not be used for validation but consequences of a user selecting a certain value.&#10;The callout is a Java class implementing org.compiere.model.Callout and a method name to call.  Example: &quot;org.compiere.model.CalloutRequest.copyText&quot; instantiates the class &quot;CalloutRequest&quot; and calls the method &quot;copyText&quot;. You can have multiple callouts by separating them via a semicolon">一个 Callout 代码允许你创建 Java 扩展，当一个值改变后执行某个任务，不建议用于验证。
-Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法。例如“org.compiere.model.CalloutRequest.copyText”指实例“CalloutRequest”调用了“copyText”方法。你可以调用多个 callout，通过分号分割。</value>
+Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法。例如“org.compiere.model.CalloutRequest.copyText”指实例“CalloutRequest”调用了“copyText”方法。你可以调用多个 callout，通过分号分割</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1065,7 +1065,7 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="Name" original="Costs">成本</value>
   <value column="PrintName" original="Costs">成本</value>
   <value column="Description" original="Costs in accounting currency">会计货币的成本</value>
-  <value column="Help" original="The Costs indicates the cost of a campaign in an Organizations accounting currency.">成本表示以组织会计币种表示的营销战役成本。</value>
+  <value column="Help" original="The Costs indicates the cost of a campaign in an Organizations accounting currency.">成本表示以组织会计币种表示的营销活动成本。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1435,21 +1435,21 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="Name" original="Phone Format">电话格式</value>
   <value column="PrintName" original="Phone Format">电话格式</value>
   <value column="Description" original="Format of the phone; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">电话的格式; 可以包括固定的格式元素, 变量: "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>Validation elements:</B>
- 	(Space) any character
-_	Space (fixed character)
-l	any Letter a..Z NO space
-L	any Letter a..Z NO space converted to upper case
-o	any Letter a..Z or space
-O	any Letter a..Z or space converted to upper case
-a	any Letters & Digits NO space
-A	any Letters & Digits NO space converted to upper case
-c	any Letters & Digits or space
-C	any Letters & Digits or space converted to upper case
-0	Digits 0..9 NO space
-9	Digits 0..9 or space
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>&lt;B&gt;验证元素：:&lt;/B&gt;</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
 
-Example of format "(000)_000-0000"]]></value>
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1459,21 +1459,22 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Postal Code Format">邮编格式</value>
   <value column="PrintName" original="Postal Code Format">邮编格式</value>
   <value column="Description" original="Format of the postal code; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">邮编格式; 可包含固定格式元素, 变量: "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>Validation elements:</B>
- 	(Space) any character
-_	Space (fixed character)
-l	any Letter a..Z NO space
-L	any Letter a..Z NO space converted to upper case
-o	any Letter a..Z or space
-O	any Letter a..Z or space converted to upper case
-a	any Letters & Digits NO space
-A	any Letters & Digits NO space converted to upper case
-c	any Letters & Digits or space
-C	any Letters & Digits or space converted to upper case
-0	Digits 0..9 NO space
-9	Digits 0..9 or space
+  
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>&lt;B&gt;验证元素：:&lt;/B&gt;</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
 
-Example of format "(000)_000-0000"]]></value>
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1483,21 +1484,21 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Additional Postal Format">附加邮编格式</value>
   <value column="PrintName" original="Additional Postal Format">附加邮编格式</value>
   <value column="Description" original="Format of the value; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">值的格式; 可包含固定格式的元素和变量: "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>Validation elements:</B>
- 	(Space) any character
-_	Space (fixed character)
-l	any Letter a..Z NO space
-L	any Letter a..Z NO space converted to upper case
-o	any Letter a..Z or space
-O	any Letter a..Z or space converted to upper case
-a	any Letters & Digits NO space
-A	any Letters & Digits NO space converted to upper case
-c	any Letters & Digits or space
-C	any Letters & Digits or space converted to upper case
-0	Digits 0..9 NO space
-9	Digits 0..9 or space
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>&lt;B&gt;验证元素：:&lt;/B&gt;</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
 
-Example of format "(000)_000-0000"]]></value>
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1737,7 +1738,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice Day">发票日</value>
   <value column="PrintName" original="Invoice Day">发票日</value>
   <value column="Description" original="Day of Invoice Generation">发票生成日</value>
-  <value column="Help" original="The Invoice Day indicates the day of invoice generation.  If twice monthly, the second time is 15 days after this day.">发票日表示发票生成的日期。如果每月两次，则第二次为该日期的15天以后。</value>
+  <value column="Help" original="The Invoice Day indicates the day of invoice generation.  If twice monthly, the second time is 15 days after this day.">指开立发票的日期。若每月开两次发票，则第二次开票日为第一次开票日后的第15天</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1747,7 +1748,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice Frequency">发票频度</value>
   <value column="PrintName" original="Invoice Frequency">发票频度</value>
   <value column="Description" original="How often invoices will be generated">发票生成的频度</value>
-  <value column="Help" original="The Invoice Frequency indicates the frequency of invoice generation for a Business Partner.">发票频度表示为业务伙伴生成发票的频度。</value>
+  <value column="Help" original="The Invoice Frequency indicates the frequency of invoice generation for a Business Partner.">开票频率指一个商业伙伴的产生发票的频率</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2097,7 +2098,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Printed">打印</value>
   <value column="PrintName" original="Printed">打印</value>
   <value column="Description" original="Indicates if this document / line is printed">表示该单据/行是否被打印</value>
-  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing.">打印复选框表示该单据或行是否将包含于打印中。</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing.">已打印复选框 表示该单据或单据行是否将包含于打印中</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2327,7 +2328,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Last Contact">上次联系日期</value>
   <value column="PrintName" original="Last Contact">上次联系日期</value>
   <value column="Description" original="Date this individual was last contacted">此人上次联系的日期</value>
-  <value column="Help" original="The Last Contact indicates the date that this Business Partner Contact was last contacted.">上次联系日期表示上次联系该业务伙伴联系人的日期。</value>
+  <value column="Help" original="The Last Contact indicates the date that this Business Partner Contact was last contacted.">上次联系日期表示上次联系该业务伙伴联系人的日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2498,7 +2499,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Message Type">信息类型</value>
   <value column="PrintName" original="Message Type">信息类型</value>
   <value column="Description" original="Type of message (Informational, Menu or Error)">消息的类型 (信息, 菜单或错误)</value>
-  <value column="Help" original="The Message Type indicates the type of message being defined.  Valid message types are Informational, Menu and Error.">消息类型表示消息被定义的类型。有效的消息类型是信息、菜单和错误。</value>
+  <value column="Help" original="The Message Type indicates the type of message being defined.  Valid message types are Informational, Menu and Error.">消息类型表示消息被定义的类型。有效的消息类型是信息、菜单和错误</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2518,7 +2519,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="NAICS/SIC">标准产业分类</value>
   <value column="PrintName" original="NAICS/SIC">标准产业分类</value>
   <value column="Description" original="Standard Industry Code or its successor NAIC - http://www.osha.gov/oshstats/sicser.html">标准行业代码或它的继承者: 北美工业分类系统 - http://www.osha.gov/oshstats/sicser.html</value>
-  <value column="Help" original="The NAICS/SIC identifies either of these codes that may be applicable to this Business Partner.">NAICS/SIC 标识了“标准行业代码”或它的继承者“北美工业分类系统”中的任何一个，只要它对该业务伙伴可用。</value>
+  <value column="Help" original="The NAICS/SIC identifies either of these codes that may be applicable to this Business Partner.">NAICS/SIC 标识了“标准行业代码”或它的继承者“北美工业分类系统”中的任何一个，只要它对该业务伙伴可用</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2568,7 +2569,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="OS Command">操作系统命令</value>
   <value column="PrintName" original="OS Command">操作系统命令</value>
   <value column="Description" original="Operating System Command">操作系统命令</value>
-  <value column="Help" original="The OS Command is for optionally defining a command to that will be part of this task.  For example it can be used to starting a back up process or performing a file transfer.">操作系统命令是可选的，它定义了一个命令，作为该任务的一部分。例如，它可用于启动备份流程或执行文件传输。</value>
+  <value column="Help" original="The OS Command is for optionally defining a command to that will be part of this task.  For example it can be used to starting a back up process or performing a file transfer.">操作系统命令是可选的，它定义了一个命令，作为该任务的一部分。例如，它可用于启动备份流程或执行文件传输</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2578,7 +2579,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Sql ORDER BY">SQL ORDERY BY 子句</value>
   <value column="PrintName" original="Order by clause">Order by 语句</value>
   <value column="Description" original="Fully qualified ORDER BY clause">完整验证过的 ORDERY BY 子句</value>
-  <value column="Help" original="The ORDER BY Clause indicates the SQL ORDER BY clause to use for record selection">ORDER BY 子句表示 SQL 中用于记录选择的 ORDER BY 子句。不要包括 ORDER BY 关键字本身。</value>
+  <value column="Help" original="The ORDER BY Clause indicates the SQL ORDER BY clause to use for record selection">"ORDER BY 子句"表示用于记录选择。注意不要包括 ORDER BY 关键字本身</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2648,7 +2649,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Parent">父</value>
   <value column="PrintName" original="Parent">父</value>
   <value column="Description" original="Parent of Entity">父值</value>
-  <value column="Help" original="The Parent indicates the value used to represent the next level in a hierarchy or report to level for a record">父表示用于反映记录的汇总级别或报表至级别的值。</value>
+  <value column="Help" original="The Parent indicates the value used to represent the next level in a hierarchy or report to level for a record">父表示用于反映记录的汇总级别或报表至级别的值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2658,7 +2659,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Parent Tax">父税项</value>
   <value column="PrintName" original="Parent Tax">父税项</value>
   <value column="Description" original="Parent Tax indicates a tax that is made up of multiple taxes">父税表示由多个税项构成的税</value>
-  <value column="Help" original="The Parent Tax indicates a tax that is a reference for multiple taxes.  This allows you to charge multiple taxes on a document by entering the Parent Tax">父税项表示作为多个税之引用的税。这允许您通过输入父税而支付单据上的多条税。</value>
+  <value column="Help" original="The Parent Tax indicates a tax that is a reference for multiple taxes.  This allows you to charge multiple taxes on a document by entering the Parent Tax">父税项表示作为多个税之引用的税。这允许您通过输入父税而支付单据上的多条税</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2668,7 +2669,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Password">密码</value>
   <value column="PrintName" original="Password">密码</value>
   <value column="Description" original="Password of any length (case sensitive)">任意长度的密码 (区分大小写)</value>
-  <value column="Help" original="The Password for this User.  Passwords are required to identify authorized users.  For iDempiere Users, you can change the password via the Process &quot;Reset Password&quot;.">授权用户都必须分配一个用户密码，可以让用户通过"修改密码"菜单自行修改。</value>
+  <value column="Help" original="The Password for this User.  Passwords are required to identify authorized users.  For iDempiere Users, you can change the password via the Process &quot;Reset Password&quot;.">授权用户都必须分配一个用户密码，可以让用户通过"修改密码"菜单自行修改</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2678,7 +2679,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Period Action">期间行动</value>
   <value column="PrintName" original="Period Action">期间行动</value>
   <value column="Description" original="Action taken for this period">该期间采取的行动</value>
-  <value column="Help" original="The Period Action indicates the action to be taken for this period.  For example 'Close Period' or 'Open Period'.">期间行动表示该期间将采取的行动。例如“关闭期间”或“打开期间”。</value>
+  <value column="Help" original="The Period Action indicates the action to be taken for this period.  For example 'Close Period' or 'Open Period'.">期间行动 表示该期间将采取的行动。例如“关闭期间”或“打开期间”。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2688,7 +2689,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Period No">期间编号</value>
   <value column="PrintName" original="Period No">期间编号</value>
   <value column="Description" original="Unique Period Number">唯一的期间编号</value>
-  <value column="Help" original="The Period No identifies a specific period for this year. Each period is defined by a start and end date.  Date ranges for a calendar and year cannot overlap.">期间编号为该年标识了特定的期间。每个期间由起始和结束日期定义。日历和年的日期范围不能重叠。</value>
+  <value column="Help" original="The Period No identifies a specific period for this year. Each period is defined by a start and end date.  Date ranges for a calendar and year cannot overlap.">期间编号为该年标识了特定的期间。每个期间由起始和结束日期定义。日历和年的日期范围不能重叠</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2698,7 +2699,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Period Status">期间状态</value>
   <value column="PrintName" original="Period Status">期间状态</value>
   <value column="Description" original="Current state of this period">该期间的当前状态</value>
-  <value column="Help" original="The Period Status indicates the current status for this period.  For example 'Closed', 'Open', 'Never Opened'.">期间状态表示该期间的当前状态。例如“关闭”、“打开”、“从未打开”。</value>
+  <value column="Help" original="The Period Status indicates the current status for this period.  For example 'Closed', 'Open', 'Never Opened'.">期间状态表示该期间的当前状态。例如“关闭”、“打开”、“从未打开”</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2758,7 +2759,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Post Actual">实际过账</value>
   <value column="PrintName" original="Post Actual">实际过账</value>
   <value column="Description" original="Actual Values can be posted">实际值可被过账</value>
-  <value column="Help" original="The Post Actual indicates if actual values can be posted to this element value.">实际过账表示实际的值是否可被过账给该元素值。</value>
+  <value column="Help" original="The Post Actual indicates if actual values can be posted to this element value.">实际过账表示实际的值是否可被过账给该元素值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2818,7 +2819,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="PostingType">过账类型</value>
   <value column="PrintName" original="PostingType">过账类型</value>
   <value column="Description" original="The type of posted amount for the transaction">金额被日记账更新的类型</value>
-  <value column="Help" original="The Posting Type indicates the type of amount (Actual, Budget, Reservation, Commitment, Statistical) the transaction.">过账类型表示该日记账更新的金额类型 (实际、阻碍、预算)。</value>
+  <value column="Help" original="The Posting Type indicates the type of amount (Actual, Budget, Reservation, Commitment, Statistical) the transaction.">过账类型表示交易金额类型 (实际、预算、保留、合同、统计)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2828,7 +2829,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Potential Life Time Value">潜在生命期价值</value>
   <value column="PrintName" original="Potential Life Time Value">潜在生命期价值</value>
   <value column="Description" original="Total Revenue expected">期望的总收入</value>
-  <value column="Help" original="The Potential Life Time Value is the anticipated revenue in primary accounting currency to be generated by the Business Partner.">潜在生命期价值是该业务伙伴将产生的预计收入。</value>
+  <value column="Help" original="The Potential Life Time Value is the anticipated revenue in primary accounting currency to be generated by the Business Partner.">潜在生命期价值是该业务伙伴将产生的预计收入（以首要会计货币计算）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2838,7 +2839,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Prefix">前缀</value>
   <value column="PrintName" original="Prefix">前缀</value>
   <value column="Description" original="Prefix before the sequence number">序号前的前缀</value>
-  <value column="Help" original="The Prefix indicates the characters to print in front of the document number.">前缀表示打印在单据编号前面的字符。</value>
+  <value column="Help" original="The Prefix indicates the characters to print in front of the document number.">前缀表示打印在单据编号前面的字符</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2918,7 +2919,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="On Hand Quantity">在手数量</value>
   <value column="PrintName" original="On Hand Qty">在手数量</value>
   <value column="Description" original="On Hand Quantity">在手数量</value>
-  <value column="Help" original="The On Hand Quantity indicates the quantity of a product that is on hand in a warehouse.">现有数量表示仓库中现有的产品数量。</value>
+  <value column="Help" original="The On Hand Quantity indicates the quantity of a product that is on hand in a warehouse.">在手数量 表示仓库中现有的产品数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2940,7 +2941,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Description" original="Reserved Quantity">保留库存</value>
   <value column="Help" original="The Reserved Quantity indicates the quantity of a product that is currently reserved.">指该产品的现有的订购数量</value>
   <value column="PO_Description" original="Quantity Ordered on Purchase Orders">采购订单的订购数量</value>
-  <value column="PO_Help" original="The Ordered Quantity indicates the quantity of a product that is currently ordered.">未收货数量表示当前未收货的采购订单数量。</value>
+  <value column="PO_Help" original="The Ordered Quantity indicates the quantity of a product that is currently ordered.">未收货数量 表示当前未收货的采购订单数量</value>
   <value column="PO_Name" original="On Order Quantity">未收货数量</value>
   <value column="PO_PrintName" original="On Order Quantity">未收货数量</value>
  </row>
@@ -3055,10 +3056,10 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="550" trl="Y">
-  <value column="Name" original="Campaign">营销战役</value>
-  <value column="PrintName" original="Campaign">营销战役</value>
+  <value column="Name" original="Campaign">营销活动</value>
+  <value column="PrintName" original="Campaign">营销活动</value>
   <value column="Description" original="Marketing Campaign">营销活动</value>
-  <value column="Help" original="The Campaign defines a unique marketing program.  Projects can be associated with a pre defined Marketing Campaign.  You can then report based on a specific Campaign.">营销战役定义了唯一的营销计划。项目可与预定义的营销战役关联起来。您可基于指定的营销战役而生成报表。</value>
+  <value column="Help" original="The Campaign defines a unique marketing program.  Projects can be associated with a pre defined Marketing Campaign.  You can then report based on a specific Campaign.">营销活动定义了唯一的营销计划。项目可与预定义的营销活动关联起来。您可基于指定的营销活动而生成报表。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3108,7 +3109,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Order">订单</value>
   <value column="PrintName" original="Order">订单</value>
   <value column="Description" original="Order">订单</value>
-  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">采购订单是一种控制单据。当下单数量与收货数量和开票数量相同时，采购订单被完成。当您关闭采购订单时，未收 (补) 货数量被取消。</value>
+  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">采购订单是一种控制单据。当下单数量与收货数量和开票数量相同时，采购订单被完成。当您关闭采购订单时，未收 (补) 货数量被取消</value>
   <value column="PO_Description" original="Purchase Order">采购订单</value>
   <value column="PO_Help" original="The Purchase Order is a control document.  The Purchase Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">采购订单是一种控制单据。当下单数量与收货数量和开票数量相同时，采购订单被完成。当您关闭采购订单时，未收 (补) 货数量被取消。</value>
   <value column="PO_Name" original="Purchase Order">采购订单</value>
@@ -3118,7 +3119,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice Rule">I发票规则</value>
   <value column="PrintName" original="Invoice Rule">I发票规则</value>
   <value column="Description" original="Frequency and method of invoicing ">开发票的频率和方法 </value>
-  <value column="Help" original="The Invoice Rule defines how a Business Partner is invoiced and the frequency of invoicing.">开票规则定义一个业务伙伴如何开票，依什么频率开票</value>
+  <value column="Help" original="The Invoice Rule defines how a Business Partner is invoiced and the frequency of invoicing.">开票规则定义一个商业伙伴如何开票，依什么频率开票</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3599,21 +3600,21 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Value Format">值格式</value>
   <value column="PrintName" original="Value Format">值格式</value>
   <value column="Description" original="Format of the value; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">值的格式; 可包含固定格式的元素和变量: "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>Validation elements:</B>
- 	(Space) any character
-_	Space (fixed character)
-l	any Letter a..Z NO space
-L	any Letter a..Z NO space converted to upper case
-o	any Letter a..Z or space
-O	any Letter a..Z or space converted to upper case
-a	any Letters & Digits NO space
-A	any Letters & Digits NO space converted to upper case
-c	any Letters & Digits or space
-C	any Letters & Digits or space converted to upper case
-0	Digits 0..9 NO space
-9	Digits 0..9 or space
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>&lt;B&gt;验证元素：:&lt;/B&gt;</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
 
-Example of format "(000)_000-0000"]]></value>
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3653,7 +3654,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Search Key">搜索关键字</value>
   <value column="PrintName" original="Search Key">搜索关键字</value>
   <value column="Description" original="Search key for the record in the format required - must be unique">记录的搜索关键字, 必须唯一</value>
-  <value column="Help" original="A search key allows you a fast method of finding a particular record.&#10;If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."><![CDATA[搜索关键字允许您快速查找到特定的记录。如果您保持搜索关键字为空，则系统自动创建一个数字编号。用于此处的单据序号在维护序号窗口中定义 (名称为“单据编号_<表名>”)，这里的表名是表的实际名称 (如C_Order)。]]></value>
+  <value column="Help" original="A search key allows you a fast method of finding a particular record.&#10;If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."><![CDATA[搜索关键字允许您快速查找到特定的记录。如果您把搜索关键字留空时，系统会自动创建一个数字号码。用于回退数字(fallback number)的文档序列在&quot;序列维护&quot;窗口中以名称&quot;文档编号_&lt;表格名称&gt;&quot;（&quot;DocumentNo_&lt;TableName&gt;&quot;）来定义，在这里表格名称(TableName)是表格的真实名称(例如C_Order)]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3813,7 +3814,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Partner Bank Account">伙伴银行账户</value>
   <value column="PrintName" original="Partner Bank Account">伙伴银行账户</value>
   <value column="Description" original="Bank Account of the Business Partner">业务伙伴的银行账户</value>
-  <value column="Help" original="The Partner Bank Account identifies the bank account to be used for this Business Partner">伙伴银行账户标识了用于该业务伙伴的银行账户。</value>
+  <value column="Help" original="The Partner Bank Account identifies the bank account to be used for this Business Partner">伙伴银行账户 标识了用于该业务伙伴的银行账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3983,7 +3984,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="EMail Address">电子邮件地址</value>
   <value column="PrintName" original="EMail">电子邮件</value>
   <value column="Description" original="Electronic Mail Address">电子邮件地址</value>
-  <value column="Help" original="The Email Address is the Electronic Mail ID for this User and should be fully qualified (e.g. joe.smith@company.com). The Email Address is used to access the self service application functionality from the web.">Email 地址是该用户的电子邮件ID，应完全符合要求 (如 rainy.ho@compiere.com)。Email 地址用于从 Web 访问自助服务的应用程序功能。</value>
+  <value column="Help" original="The Email Address is the Electronic Mail ID for this User and should be fully qualified (e.g. joe.smith@company.com). The Email Address is used to access the self service application functionality from the web.">Email 地址是该用户的电子邮件ID，应完全符合要求 (如 joe.smith@company.com)。Email 地址用于从 Web 访问自助服务的应用程序功能。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4153,7 +4154,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Mandatory Withholding">必须预扣</value>
   <value column="PrintName" original="Mandatory Withholding">必须预扣</value>
   <value column="Description" original="Monies must be withheld">必须预扣金额</value>
-  <value column="Help" original="The Mandatory Withholding checkbox indicates that monies must be withheld from this employee.">必须预扣复选框表示必须从该员工预扣金额。</value>
+  <value column="Help" original="The Mandatory Withholding checkbox indicates that monies must be withheld from this employee.">"强制扣缴复选框"表示必须从该员工扣缴的款项</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4173,7 +4174,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Own Bank">我方银行</value>
   <value column="PrintName" original="Own Bank">我方银行</value>
   <value column="Description" original="Bank for this Organization">该组织的银行</value>
-  <value column="Help" original="The Own Bank field indicates if this bank is for this Organization as opposed to a Bank for a Business Partner.">我方银行字段表示该银行是否为我方组织的银行，而非业务伙伴的银行。</value>
+  <value column="Help" original="The Own Bank field indicates if this bank is for this Organization as opposed to a Bank for a Business Partner.">我方银行字段 表示该银行是否为我方组织的银行，而非业务伙伴的银行</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4183,7 +4184,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Paid to third party">付款给第三方</value>
   <value column="PrintName" original="Paid to third party">付款给第三方</value>
   <value column="Description" original="Amount paid to someone other than the Business Partner">付款给第三方而非业务伙伴的金额</value>
-  <value column="Help" original="The Paid to Third Party checkbox indicates that the amounts are paid to someone other than the Business Partner.">付款给第三方复选框表示金额被支付给该业务伙伴以外的第三方。</value>
+  <value column="Help" original="The Paid to Third Party checkbox indicates that the amounts are paid to someone other than the Business Partner.">"付款给第三方复选框"表示金额被支付给该业务伙伴以外的第三方</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4203,7 +4204,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Percent withholding">百分比预扣</value>
   <value column="PrintName" original="Percent withholding">百分比预扣</value>
   <value column="Description" original="Withholding amount is a percentage of the invoice amount">预扣金额是发票金额的百分比</value>
-  <value column="Help" original="The Percent Withholding checkbox indicates if the withholding amount is a percentage of the invoice amount.">百分比预扣复选框表示预扣金额是否为发票金额的百分比。</value>
+  <value column="Help" original="The Percent Withholding checkbox indicates if the withholding amount is a percentage of the invoice amount.">扣缴百分比复选框 用于 当扣缴金额是按开票金额的百分比时</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4293,7 +4294,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Min Amount">最低金额</value>
   <value column="PrintName" original="Min Amt">最低金额</value>
   <value column="Description" original="Minimum Amount in invoice currency">用发票货币表示的最低金额</value>
-  <value column="Help" original="The Minimum amount indicates the minimum amount as stated in the currency of the invoice.">最低金额是指以发票币种表示的最低金额。</value>
+  <value column="Help" original="The Minimum amount indicates the minimum amount as stated in the currency of the invoice.">最低金额是指以发票币种表示的最低金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4303,7 +4304,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Minimum Order Qty">最低订单数量</value>
   <value column="PrintName" original="Minimum Order Qty">最低订单数量</value>
   <value column="Description" original="Minimum order quantity in UOM">最低的订单数量</value>
-  <value column="Help" original="The Minimum Order Quantity indicates the smallest quantity of this product which can be ordered.">最低订单数量表示该产品可被订购的最低数量。</value>
+  <value column="Help" original="The Minimum Order Quantity indicates the smallest quantity of this product which can be ordered.">最低订单数量表示该产品可被订购的最低数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4313,7 +4314,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Order Pack Qty">订单打包数量</value>
   <value column="PrintName" original="Order Pack Qty">订单打包数量</value>
   <value column="Description" original="Package order size in UOM (e.g. order set of 5 units)">按计量单位大小打包的订单  (如 5 个单位的订单集合)</value>
-  <value column="Help" original="The Order Pack Quantity indicates the number of units in each pack of this product.">订单打包数量表示该产品每个打包中的单位数。</value>
+  <value column="Help" original="The Order Pack Quantity indicates the number of units in each pack of this product.">订单打包数量 表示该产品每个打包中的单位数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4353,7 +4354,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Last PO Price">上次采购订单价格</value>
   <value column="PrintName" original="Last PO Price">上次采购订单价格</value>
   <value column="Description" original="Price of the last purchase order for the product">产品的最近采购订单价格</value>
-  <value column="Help" original="The Last PO Price indicates the last price paid (per the purchase order) for this product.">上次采购订单价格表示该产品的上次支付价格 (按照采购订单)。</value>
+  <value column="Help" original="The Last PO Price indicates the last price paid (per the purchase order) for this product.">上次采购订单价格表示该产品的上次支付价格 (按照采购订单)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4472,8 +4473,8 @@ Example of format "(000)_000-0000"]]></value>
  <row id="983" trl="Y">
   <value column="Name" original="URL">网址</value>
   <value column="PrintName" original="URL">网址</value>
-  <value column="Description" original="Full URL address - e.g. http://www.idempiere.org">网址 - 例如 http://www.adempiere.org</value>
-  <value column="Help" original="The URL defines an fully qualified web address like http://www.idempiere.org">网址定义一个完全合格的网页地址，例如 http://www.adempiere.org</value>
+  <value column="Description" original="Full URL address - e.g. http://www.idempiere.org">网址 - 例如 http://www.idempiere.org</value>
+  <value column="Help" original="The URL defines an fully qualified web address like http://www.idempiere.org">网址定义一个完全合格的网页地址，例如 http://www.idempiere.org</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4483,7 +4484,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Procedure">存储过程</value>
   <value column="PrintName" original="Procedure">存储过程</value>
   <value column="Description" original="Name of the Database Procedure">数据库存储过程的名称</value>
-  <value column="Help" original="The Procedure indicates the name of the database procedure called by this report or process.">存储过程表示了该报表或流程所调用数据库过程的名称。</value>
+  <value column="Help" original="The Procedure indicates the name of the database procedure called by this report or process.">存储过程表示了该报表或流程所调用数据库过程的名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4633,7 +4634,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Phys.Inventory">实地盘存</value>
   <value column="PrintName" original="Phys.Inventory">实地盘存</value>
   <value column="Description" original="Parameters for a Physical Inventory">实地盘存的参数</value>
-  <value column="Help" original="The Physical Inventory indicates a unique parameters for a physical inventory.">盘点的一个唯一参数.</value>
+  <value column="Help" original="The Physical Inventory indicates a unique parameters for a physical inventory.">实地盘点 表示 实地盘点的一个唯一参数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4643,7 +4644,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Phys.Inventory Line">盘点行</value>
   <value column="PrintName" original="Phys.Inventory Line">盘点行</value>
   <value column="Description" original="Unique line in an Inventory document">库存单据中的唯一行</value>
-  <value column="Help" original="The Physical Inventory Line indicates the inventory document line (if applicable) for this transaction">实地盘存行表示该事务处理的库存单据行 (如果可用)。</value>
+  <value column="Help" original="The Physical Inventory Line indicates the inventory document line (if applicable) for this transaction">实地盘存行表示该事务处理的库存单据行 (如果可用)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4673,7 +4674,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Move Line">移库行</value>
   <value column="PrintName" original="Move Line">移库行</value>
   <value column="Description" original="Inventory Move document Line">存货的移库单据行</value>
-  <value column="Help" original="The Movement Line indicates the inventory movement document line (if applicable) for this transaction">移库行表示该事务处理的库存移动单据行 (如果可用)。</value>
+  <value column="Help" original="The Movement Line indicates the inventory movement document line (if applicable) for this transaction">移库行表示该事务处理的库存移动单据行 (如果可用)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4713,7 +4714,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Movement Date">移库日期</value>
   <value column="PrintName" original="Movement Date">移库日期</value>
   <value column="Description" original="Date a product was moved in or out of inventory">产品入库或出库的日期</value>
-  <value column="Help" original="The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.">移库日期表示产品出库或出库的日期。这是发货、收货或库存移动产生的结果。</value>
+  <value column="Help" original="The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.">移库日期表示产品出库或出库的日期。这是发货、收货或库存移动产生的结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4723,7 +4724,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Movement Quantity">移库数量</value>
   <value column="PrintName" original="Qty">数量</value>
   <value column="Description" original="Quantity of a product moved.">产品的移库数量</value>
-  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">移库数量表示产品已被移动的数量。</value>
+  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">移库数量表示产品已被移动的数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4733,7 +4734,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Movement Type">移库类型</value>
   <value column="PrintName" original="Movement Type">移库类型</value>
   <value column="Description" original="Method of moving the inventory">库存的移库方式</value>
-  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">移库类型表示移动的类型 (入库、出库、生产等)。</value>
+  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">移库类型表示移动的类型 (入库、出库、生产等)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5133,7 +5134,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice on even weeks">双周发票</value>
   <value column="PrintName" original="Invoice on even weeks">双周发票</value>
   <value column="Description" original="Send invoices on even weeks">在双周发送发票</value>
-  <value column="Help" original="The Invoice on Even Weeks checkbox indicates if biweekly invoices should be sent on even week numbers.">双周发票复选框表示是否在偶数周时寄出双周发票。</value>
+  <value column="Help" original="The Invoice on Even Weeks checkbox indicates if biweekly invoices should be sent on even week numbers.">双周发票复选框表示是否在偶数周时寄出双周发票</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5153,7 +5154,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Pro forma Invoice">预开发票</value>
   <value column="PrintName" original="Pro forma Invoice">预开发票</value>
   <value column="Description" original="Indicates if Pro Forma Invoices can be generated from this document">表示是否可从该单据生成形式发票。形式发票是在签订合同前预先开具的, 但并不是正式发票。某些国家实行外汇或贸易管制, 在申请外汇或进口许可证时, 往往要求提供形式发票, 作为申请进口的依据</value>
-  <value column="Help" original="The Pro Forma Invoice checkbox indicates if pro forma invoices can be generated from this sales document. A pro forma invoice indicates the amount that will be due should an order be shipped.">形式发票复选框表示形式发票可从该销售单据生成。形式发票 (或称估价发票) 表示假设订单发运时的应付金额。</value>
+  <value column="Help" original="The Pro Forma Invoice checkbox indicates if pro forma invoices can be generated from this sales document. A pro forma invoice indicates the amount that will be due should an order be shipped.">形式发票复选框表示形式发票可从该销售单据生成。形式发票 (或称估价发票) 表示假设订单发运时的应付金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5163,7 +5164,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice day cut-off">发票分段日期</value>
   <value column="PrintName" original="Invoice day cut-off">发票分段日期</value>
   <value column="Description" original="Last day for including shipments">包含发货单的最后日期</value>
-  <value column="Help" original="The Invoice Day Cut Off indicates the last day for shipments to be included in the current invoice schedule.  For example, if the invoice schedule is defined for the first day of the month, the cut off day may be the 25th of the month.  An shipment on the 24th of May would be included in the invoices sent on June 1st but a shipment on the 26th would be included in the invoices sent on July 1st.">当前发票一览表包括发运最后一天.例如：发票排程是否定义截止日期为本月第一天,到本月25日.在5月24日发运发票便会在6月1日转送,但在26日发货那发票将在7月1日转送.</value>
+  <value column="Help" original="The Invoice Day Cut Off indicates the last day for shipments to be included in the current invoice schedule.  For example, if the invoice schedule is defined for the first day of the month, the cut off day may be the 25th of the month.  An shipment on the 24th of May would be included in the invoices sent on June 1st but a shipment on the 26th would be included in the invoices sent on July 1st.">当前发票一览表包括发运最后一天.例如：发票排程是否定义截止日期为本月第一天,到本月25日.在5月24日发运发票便会在6月1日转送,但在26日发货那发票将在7月1日转送</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5173,7 +5174,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice weekday cutoff">发票周几截止</value>
   <value column="PrintName" original="Weekday cutoff">周几截止</value>
   <value column="Description" original="Last day in the week for shipments to be included">包含发货单的一周中最后一天</value>
-  <value column="Help" original="The Invoice Week Day Cutoff indicates the last day of the week a shipment must be made to be included in the invoice schedule.">发票周几截止表示发票计划中包含的发货单，所必须完成的最后一天 (星期几)。</value>
+  <value column="Help" original="The Invoice Week Day Cutoff indicates the last day of the week a shipment must be made to be included in the invoice schedule.">发票周几截止表示发票计划中包含的发货单，所必须完成的最后一天 (星期几)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5213,7 +5214,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Next Business Day">下一营业日</value>
   <value column="PrintName" original="Next Business Day">下一营业日</value>
   <value column="Description" original="Payment due on the next business day">付款于下一营业日到期</value>
-  <value column="Help" original="The Next Business Day checkbox indicates that payment is due on the next business day after invoice or delivery.">下一营业日复选框表示付款将于开具发票或交付以后的第二个营业日到期。</value>
+  <value column="Help" original="The Next Business Day checkbox indicates that payment is due on the next business day after invoice or delivery.">下一营业日复选框 表示付款将于开具发票或交付以后的第二个营业日支付</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5263,7 +5264,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Perpetual Inventory">永续盘点</value>
   <value column="PrintName" original="Perpetual Inventory">永续盘点</value>
   <value column="Description" original="Rules for generating physical inventory">生成实地盘存的规则</value>
-  <value column="Help" original="The Perpetual Inventory identifies the Perpetual Inventory rule which generated this Physical Inventory.">永续盘存标识了生成该实地盘存的永续盘存规则。</value>
+  <value column="Help" original="The Perpetual Inventory identifies the Perpetual Inventory rule which generated this Physical Inventory.">永续盘存标识了生成该实地盘存的永续盘存规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5293,7 +5294,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Number of Inventory counts">库存盘点次数</value>
   <value column="PrintName" original="Number of Inventory counts">库存盘点次数</value>
   <value column="Description" original="Frequency of inventory counts per year">每年库存盘点的频率</value>
-  <value column="Help" original="The Number of Inventory Counts indicates the number of times per year that inventory counts will be preformed">库存盘点次数表示每年库存盘点将被执行的次数。</value>
+  <value column="Help" original="The Number of Inventory Counts indicates the number of times per year that inventory counts will be preformed">库存盘点次数表示每年库存盘点将被执行的次数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5313,7 +5314,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Number of Product counts">产品盘存次数</value>
   <value column="PrintName" original="Number of Product counts">产品盘存次数</value>
   <value column="Description" original="Frequency of product counts per year">每年产品的盘存频率</value>
-  <value column="Help" original="The Number of Product Count indicates the number of times per year that a product should be counted.">产品盘存次数表示每年应当盘存产品的次数。</value>
+  <value column="Help" original="The Number of Product Count indicates the number of times per year that a product should be counted.">产品盘存次数表示每年应当盘存产品的次数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5323,7 +5324,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Note">备忘录</value>
   <value column="PrintName" original="Note">备忘录</value>
   <value column="Description" original="Optional additional user defined information">可选的额外的用户定义信息</value>
-  <value column="Help" original="The Note field allows for optional entry of user defined information regarding this record">附注字段允许您输入可选的与该记录相关的用户自定义信息。</value>
+  <value column="Help" original="The Note field allows for optional entry of user defined information regarding this record">附注字段 允许您输入与该记录相关的用户自定义信息（可选项）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5333,7 +5334,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Not-invoiced Receipts">未开票收货</value>
   <value column="PrintName" original="Not-invoiced Receipts">未开票收货</value>
   <value column="Description" original="Account for not-invoiced Material Receipts">未开票物料收货账户</value>
-  <value column="Help" original="The Not Invoiced Receipts account indicates the account used for recording receipts for materials that have not yet been invoiced.">未开票收货账户表示用于记录尚未开票的物料收货的账户。</value>
+  <value column="Help" original="The Not Invoiced Receipts account indicates the account used for recording receipts for materials that have not yet been invoiced.">未开票收货账户表示用于记录尚未开票的物料收货的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5343,7 +5344,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Not-invoiced Receivables">未开票应收</value>
   <value column="PrintName" original="Not-invoiced Receivables">未开票应收</value>
   <value column="Description" original="Account for not invoiced Receivables">未开票应收账户</value>
-  <value column="Help" original="The Not Invoiced Receivables account indicates the account used for recording receivables that have not yet been invoiced.">未开票应收账户表示用于记录尚未开票的应收的账户。</value>
+  <value column="Help" original="The Not Invoiced Receivables account indicates the account used for recording receivables that have not yet been invoiced.">未开票应收账户表示用于记录尚未开票的应收的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5353,7 +5354,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Not-invoiced Revenue">未开票收入</value>
   <value column="PrintName" original="Not-invoiced Revenue">未开票收入</value>
   <value column="Description" original="Account for not invoiced Revenue">未开票收入账户</value>
-  <value column="Help" original="The Not Invoiced Revenue account indicates the account used for recording revenue that has not yet been invoiced.">未开票收入账户表示用于记录尚未开票的收入的账户。</value>
+  <value column="Help" original="The Not Invoiced Revenue account indicates the account used for recording revenue that has not yet been invoiced.">未开票收入账户表示用于记录尚未开票的收入的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5393,7 +5394,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Price effective">价格生效日期</value>
   <value column="PrintName" original="Effective">生效日期</value>
   <value column="Description" original="Effective Date of Price">价格生效日期</value>
-  <value column="Help" original="The Price Effective indicates the date this price is for. This allows you to enter future prices for products which will become effective when appropriate.">价格生效表示该价格的生效日期。这允许您输入产品的未来价格，它将在适当的时间生效。</value>
+  <value column="Help" original="The Price Effective indicates the date this price is for. This allows you to enter future prices for products which will become effective when appropriate.">价格生效表示该价格的生效日期。这允许您输入产品的未来价格，它将在适当的时间生效</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5603,7 +5604,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Print detail records on invoice ">发票上打印明细记录 </value>
   <value column="PrintName" original="Print detail on invoice">发票上打印明细记录</value>
   <value column="Description" original="Print detail BOM elements on the invoice">在发票上打印明细的物料清单元素</value>
-  <value column="Help" original="The Print Details on Invoice indicates that the BOM element products will print on the Invoice as opposed to this product.">在发票上打印明细表示BOM元素产品将打印在发票上，而不是该产品。</value>
+  <value column="Help" original="The Print Details on Invoice indicates that the BOM element products will print on the Invoice as opposed to this product.">"在发票上打印明细"表示BOM清单中的产品将打印在发票上，而不是该产品本身</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5613,7 +5614,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Print detail records on pick list">打印拣料单明细记录</value>
   <value column="PrintName" original="Print detail records on pick list">打印拣料单明细记录</value>
   <value column="Description" original="Print detail BOM elements on the pick list">选择列表中打印明细的物料清单元素</value>
-  <value column="Help" original="The Print Details on Pick List indicates that the BOM element products will print on the Pick List as opposed to this product.">打印拣料单明细表示BOM元素产品将打印在拣料单上，而不是该产品。</value>
+  <value column="Help" original="The Print Details on Pick List indicates that the BOM element products will print on the Pick List as opposed to this product.">"打印拣料单明细"表示BOM清单中的产品将打印在拣料单上，而不是该产品本身</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5703,7 +5704,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Limit price Rounding">限制价格舍入</value>
   <value column="PrintName" original="Limit price Rounding">限制价格舍入</value>
   <value column="Description" original="Rounding of the final result">最终结果的舍入</value>
-  <value column="Help" original="A drop down list box which indicates the rounding (if any) will apply to the final prices in this price list.">表示舍入 (如果有的话) 的下拉列表框将应用于该价格表中的最终价格。</value>
+  <value column="Help" original="A drop down list box which indicates the rounding (if any) will apply to the final prices in this price list.">表示舍入 (如果有的话) 的下拉列表框将应用于该价格表中的最终价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5713,7 +5714,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="List price Surcharge Amount">列表价格附加额</value>
   <value column="PrintName" original="List price Surcharge Amt">列表价格附加额</value>
   <value column="Description" original="List Price Surcharge Amount">列表价格附加额</value>
-  <value column="Help" original="The List Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.">列表价格附加额表示在相乘以前添加到价格中的金额。</value>
+  <value column="Help" original="The List Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.">"价格表附加额"表示在相乘以前添加到价格中的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5723,7 +5724,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="List price Base">列表价格基础</value>
   <value column="PrintName" original="List price Base">列表价格基础</value>
   <value column="Description" original="Price used as the basis for price list calculations">用于价格表计算基础的价格</value>
-  <value column="Help" original="The List Price Base indicates the price to use as the basis for the calculation of a new price list.">列表价格基础表示将用作新价格表计算基础的价格。</value>
+  <value column="Help" original="The List Price Base indicates the price to use as the basis for the calculation of a new price list.">"价格表基础"表示将用作新价格表计算基础的价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5743,7 +5744,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="List price min Margin">列表价格最低毛利</value>
   <value column="PrintName" original="List price min Margin">列表价格最低毛利</value>
   <value column="Description" original="Minimum margin for a product">产品的最低毛利</value>
-  <value column="Help" original="The List Price Min Margin indicates the minimum margin for a product.  The margin is calculated by subtracting the original list price from the newly calculated price.  If this field contains 0.00 then it is ignored.">列表价格最低毛利表示产品的最低毛利。毛利通过从新计算的价格中减去原来的列表价格，计算而得。如果该字段包含0.00，则它将被忽略。</value>
+  <value column="Help" original="The List Price Min Margin indicates the minimum margin for a product.  The margin is calculated by subtracting the original list price from the newly calculated price.  If this field contains 0.00 then it is ignored.">"价格表最低毛利"表示产品的最低毛利。毛利通过从新计算的价格中减去原来的列表价格，计算而得。如果该字段包含0.00，则它将被忽略。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5845,7 +5846,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="List price Discount %">列表价格折扣 %</value>
   <value column="PrintName" original="List price Discount %">列表价格折扣 %</value>
   <value column="Description" original="Discount from list price as a percentage">列表价格折扣百分比</value>
-  <value column="Help" original="The List Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">列表价格折扣百分比表示将从基础价格上减去的折扣百分比。负数表示将增加到基础价格上的百分比。</value>
+  <value column="Help" original="The List Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">"价格表折扣百分比"表示将从基础价格上减去的折扣百分比。负数表示将增加到基础价格上的百分比</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5885,7 +5886,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Order Description">订单说明</value>
   <value column="PrintName" original="Order Description">订单说明</value>
   <value column="Description" original="Description to be used on orders">用于订单的描述</value>
-  <value column="Help" original="The Order Description identifies the standard description to use on orders for this Customer.">订单描述标识用于该客户订单的标准描述。</value>
+  <value column="Help" original="The Order Description identifies the standard description to use on orders for this Customer.">"订单描述" 标识用于该客户订单的标准描述</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6125,7 +6126,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Line Discount %">行折扣 %</value>
   <value column="PrintName" original="Discount %">折扣率 %</value>
   <value column="Description" original="Line Discount as a percentage">行折扣百分比</value>
-  <value column="Help" original="The Line Discount Percent indicates the discount for this line as a percentage.">行折扣百分比表示该行的折扣率。</value>
+  <value column="Help" original="The Line Discount Percent indicates the discount for this line as a percentage.">"行折扣"百分比表示该行的折扣率</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6405,7 +6406,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Posted">已过账</value>
   <value column="PrintName" original="Posted">已过账</value>
   <value column="Description" original="Posting status">过账状态</value>
-  <value column="Help" original="The Posted field indicates the status of the Generation of General Ledger Accounting Lines ">指是否已创建财务总账记账凭证 </value>
+  <value column="Help" original="The Posted field indicates the status of the Generation of General Ledger Accounting Lines ">已过账字段 指是否已创建财务总账记账凭证</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6965,7 +6966,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Payment Processor">付款引擎</value>
   <value column="PrintName" original="Payment Processor">付款引擎</value>
   <value column="Description" original="Payment processor for electronic payments">电子支付的付款引擎</value>
-  <value column="Help" original="The Payment Processor indicates the processor to be used for electronic payments">付款引擎表示将用于电子支付的引擎。</value>
+  <value column="Help" original="The Payment Processor indicates the processor to be used for electronic payments">付款引擎表示将用于电子支付的引擎</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7075,7 +7076,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Online Access">在线访问</value>
   <value column="PrintName" original="Online Access">在线访问</value>
   <value column="Description" original="Can be accessed online ">可以在线访问 </value>
-  <value column="Help" original="The Online Access check box indicates if the application can be accessed via the web. ">在线访问复选框表示能否通过Web访问本应用程序。 </value>
+  <value column="Help" original="The Online Access check box indicates if the application can be accessed via the web. ">在线访问复选框 表示能否通过Web访问本应用服务</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7105,7 +7106,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Micr">组合代码</value>
   <value column="PrintName" original="Micr">组合代码</value>
   <value column="Description" original="Combination of routing no, account and check no">银行代码, 账户与支票号码的组合</value>
-  <value column="Help" original="The Micr number is the combination of the bank routing number, account number and check number">组合代码是银行代码、账户代码和支票代码的组合。</value>
+  <value column="Help" original="The Micr number is the combination of the bank routing number, account number and check number">组合代码是银行代码、账户代码和支票代码的组合</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7115,7 +7116,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Original Transaction ID">原始事务处理 ID</value>
   <value column="PrintName" original="Original Trx ID">原始事务处理 ID</value>
   <value column="Description" original="Original Transaction ID">原始事务处理 ID</value>
-  <value column="Help" original="The Original Transaction ID is used for reversing transactions and indicates the transaction that has been reversed.">原始事务处理ID用于逆转事务处理，并用以表示已被逆转的事务处理。</value>
+  <value column="Help" original="The Original Transaction ID is used for reversing transactions and indicates the transaction that has been reversed.">原始事务处理ID 用于撤消事务处理，同时还用来标识那些已被撤消的事务处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7285,7 +7286,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Reference">引用</value>
   <value column="PrintName" original="Reference">引用</value>
   <value column="Description" original="Payment reference">付款引用</value>
-  <value column="Help" original="The Payment Reference indicates the reference returned from the Credit Card Company for a payment">付款引用表示从信用卡公司返回的付款引用。</value>
+  <value column="Help" original="The Payment Reference indicates the reference returned from the Credit Card Company for a payment">付款参考 表示从信用卡公司付款中反馈的付款用途说明</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7465,7 +7466,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Inventory Revaluation">库存重估值</value>
   <value column="PrintName" original="Inventory Revaluation">库存重估值</value>
   <value column="Description" original="Account for Inventory Revaluation">库存重估账户</value>
-  <value column="Help" original="The Inventory Revaluation Account identifies the account used to records changes in inventory value due to currency revaluation.">这账户用于记录存货价值在货币价值方面上的变化.</value>
+  <value column="Help" original="The Inventory Revaluation Account identifies the account used to records changes in inventory value due to currency revaluation.">库存重估账户记录由于货币升值，导致存活价值发生的变化</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8007,7 +8008,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Description" original="Text templates for mailings">邮件列表的正文模板</value>
   <value column="Help" original="The Mail Template indicates the mail template for return messages. Mail text can include variables.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection."><![CDATA[邮件模板表示返回消息的邮件模板。邮件正文可以包含变量。解析的优先级是用户/联系人、业务伙伴以及潜在业务对象 (例如请求、催款信函、工作流对象)。<br>
 因此，@Name@ 将被解析为用户名（如果定义了用户），然后是业务伙伴名称（如果定义了业务伙伴），再接下来是业务对象的名称（如果它具有名称）。<br>
-对于多语种系统，模板基于业务伙伴的语言选择进行翻译。]]></value>
+对于多语种系统，模板基于业务伙伴的语言选择进行翻译]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8097,7 +8098,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Margin %">毛利率 %</value>
   <value column="PrintName" original="Margin %">毛利率 %</value>
   <value column="Description" original="Margin for a product as a percentage">产品的毛利率百分比</value>
-  <value column="Help" original="The Margin indicates the margin for this product as a percentage of the limit price and selling price.">毛利率表示该产品的毛利，是限制价和售出价之间的差额百分比。</value>
+  <value column="Help" original="The Margin indicates the margin for this product as a percentage of the limit price and selling price.">毛利率表示该产品的毛利，是限制价和售出价之间的差额百分比</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8207,7 +8208,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Multiplier Amount">乘数金额</value>
   <value column="PrintName" original="Multiplier Amt">乘数金额</value>
   <value column="Description" original="Multiplier Amount for generating commissions">生成佣金的乘数金额</value>
-  <value column="Help" original="The Multiplier Amount indicates the amount to multiply the total amount generated by this commission run by.">乘数金额表示要相乘的金额，以得到佣金计算产生的总金额。</value>
+  <value column="Help" original="The Multiplier Amount indicates the amount to multiply the total amount generated by this commission run by.">乘数金额表示要相乘的金额，以得到佣金计算产生的总金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8347,7 +8348,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Positive only">仅正数</value>
   <value column="PrintName" original="Positive only">仅正数</value>
   <value column="Description" original="Do not generate negative commissions">不产生负的佣金</value>
-  <value column="Help" original="The Positive Only check box indicates that if the result of the subtraction is negative, it is ignored.  This would mean that negative commissions would not be generated.">仅正数复选框表示减法结果如果为负数，则被忽略。这将意味着负数佣金将不被生成。</value>
+  <value column="Help" original="The Positive Only check box indicates that if the result of the subtraction is negative, it is ignored.  This would mean that negative commissions would not be generated.">仅正数复选框 表示减法结果如果为负数，则被忽略。这将意味着负数佣金将不被生成</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8367,7 +8368,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Planned Margin %">计划毛利率 %</value>
   <value column="PrintName" original="Planned Margin">计划毛利率 %</value>
   <value column="Description" original="Project's planned margin as a percentage">项目的计划毛利率百分比</value>
-  <value column="Help" original="The Planned Margin Percentage indicates the anticipated margin percentage for this project or project line">计划毛利率% 表示该项目或项目行的预计毛利百分比。</value>
+  <value column="Help" original="The Planned Margin Percentage indicates the anticipated margin percentage for this project or project line">计划毛利率 表示该项目或项目行的预计毛利百分比</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8377,7 +8378,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Planned Margin">计划毛利率 %</value>
   <value column="PrintName" original="Planned Margin">计划毛利率 %</value>
   <value column="Description" original="Project's planned margin amount">项目的计划毛利金额</value>
-  <value column="Help" original="The Planned Margin Amount indicates the anticipated margin amount for this project or project line.">计划毛利额表示该项目或项目行的预计毛利额。</value>
+  <value column="Help" original="The Planned Margin Amount indicates the anticipated margin amount for this project or project line.">计划毛利额表示该项目或项目行的预计毛利额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8397,7 +8398,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Planned Quantity">计划的数量</value>
   <value column="PrintName" original="Planned Qty">计划数量</value>
   <value column="Description" original="Planned quantity for this project">项目的计划数量</value>
-  <value column="Help" original="The Planned Quantity indicates the anticipated quantity for this project or project line">计划数量表示该项目或项目行的预计数量。</value>
+  <value column="Help" original="The Planned Quantity indicates the anticipated quantity for this project or project line">计划数量表示该项目或项目行的预计数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8407,7 +8408,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Multiplier Quantity">倍数</value>
   <value column="PrintName" original="Multiplier Qty">倍数</value>
   <value column="Description" original="Value to multiply quantities by for generating commissions.">产生的佣金的倍数</value>
-  <value column="Help" original="The Multiplier Quantity field indicates the amount to multiply the quantities accumulated for this commission run.">倍数字段表示对于该佣金计算要乘以的数量值。</value>
+  <value column="Help" original="The Multiplier Quantity field indicates the amount to multiply the quantities accumulated for this commission run.">“倍数字段”表示对于该佣金计算要乘以的数量值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8457,7 +8458,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="List Details">列出明细</value>
   <value column="PrintName" original="List Details">列出明细</value>
   <value column="Description" original="List document details">列表单据明细</value>
-  <value column="Help" original="The List Details checkbox indicates that the details for each document line will be displayed.">列表行复选框表示每条单据行的行都将显示出来。</value>
+  <value column="Help" original="The List Details checkbox indicates that the details for each document line will be displayed.">"列表明细"复选框表示每条单据行的j明细都将显示出来</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8477,7 +8478,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="PO Payment Term">采购订单付款条件</value>
   <value column="PrintName" original="PO Payment Term">采购订单付款条件</value>
   <value column="Description" original="Payment rules for a purchase order">对于采购订单的付款规则</value>
-  <value column="Help" original="The PO Payment Term indicates the payment term that will be used when this purchase order becomes an invoice.">采购订单付款条件表示当采购订单变为发票时将使用的付款条件。</value>
+  <value column="Help" original="The PO Payment Term indicates the payment term that will be used when this purchase order becomes an invoice.">采购订单付款条件表示当采购订单变为发票时将使用的付款条件</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8567,7 +8568,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Note">备忘录</value>
   <value column="PrintName" original="Note">备忘录</value>
   <value column="Description" original="Note for manual entry">手工录入的附注</value>
-  <value column="Help" original="The Note allows for entry for additional information regarding a manual entry.">附注允许您输入关于手工录入的附加信息。</value>
+  <value column="Help" original="The Note allows for entry for additional information regarding a manual entry.">附注允许您输入关于手工录入的附加信息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8577,7 +8578,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Measure Actual">实际指标</value>
   <value column="PrintName" original="Measure Actual">实际指标</value>
   <value column="Description" original="Actual value that has been measured.">实际的指标评估值</value>
-  <value column="Help" original="The Measure Actual indicates the actual measured value. The measured values are used in determining if a performance goal has been met">实际指标表示实际的指标值。指标值用于判断绩效目标是否已达到。</value>
+  <value column="Help" original="The Measure Actual indicates the actual measured value. The measured values are used in determining if a performance goal has been met">"实际指标"表示实际的指标值。指标值用于判断绩效目标是否已达到</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8587,7 +8588,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Measure Target">目标指标</value>
   <value column="PrintName" original="Measure Target">目标指标</value>
   <value column="Description" original="Target value for measure">指标的目标值</value>
-  <value column="Help" original="The Measure Target indicates the target or goal for this measure.  It is used as in comparing against the actual measures">目标指标表示该指标的目标。它用作与实际指标的比较。</value>
+  <value column="Help" original="The Measure Target indicates the target or goal for this measure.  It is used as in comparing against the actual measures">"目标指标"表示该指标的目标。它用作与实际指标的比较</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8597,7 +8598,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Measure Type">绩效评估类型</value>
   <value column="PrintName" original="Measure Type">绩效评估类型</value>
   <value column="Description" original="Determines how the actual performance is derived">决定实际的绩效评估值如何得到</value>
-  <value column="Help" original="The Measure Type indicates how the actual measure is determined.  For example, one measure may be manual while another is calculated.">绩效类型表示实际的评估如何决定。例如，某指标可以是人工完成，而另一个指标则计算完成。</value>
+  <value column="Help" original="The Measure Type indicates how the actual measure is determined.  For example, one measure may be manual while another is calculated.">绩效类型表示实际的评估如何决定。例如，某指标可以是人工完成，而另一个指标则计算完成</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8607,7 +8608,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Org Column">组织列</value>
   <value column="PrintName" original="Org Column">组织列</value>
   <value column="Description" original="Fully qualified Organization column (AD_Org_ID)">完全验证过的组织列 (AD_Org_ID)</value>
-  <value column="Help" original="The Organization Column indicates the organization to be used in calculating this measurement.">组织列表示将用于计算该指标的组织。</value>
+  <value column="Help" original="The Organization Column indicates the organization to be used in calculating this measurement.">组织列表示将用于计算该指标的组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8627,7 +8628,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Goal">目标</value>
   <value column="PrintName" original="Goal">目标</value>
   <value column="Description" original="Performance Goal">绩效目标</value>
-  <value column="Help" original="The Performance Goal indicates what this users performance will be measured against.">以这个用户工作实绩为标准作评价.</value>
+  <value column="Help" original="The Performance Goal indicates what this users performance will be measured against.">绩效目标 表示 该用户的工作实绩以该此为标准评定</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8637,7 +8638,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Measure">绩效指标</value>
   <value column="PrintName" original="Measure">绩效指标</value>
   <value column="Description" original="Concrete Performance Measurement">具体的绩效指标</value>
-  <value column="Help" original="The Measure identifies a concrete, measurable indicator of performance.  For example, sales dollars, prospects contacted.">绩效指标标识了具体、可衡量的绩效指标。例如，销售额、联系的潜在客户数。</value>
+  <value column="Help" original="The Measure identifies a concrete, measurable indicator of performance.  For example, sales dollars, prospects contacted.">绩效指标标识了具体、可衡量的绩效指标。例如，销售额、联系的潜在客户数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8887,7 +8888,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Invoice Price Variance">发票价格差异</value>
   <value column="PrintName" original="Invoice Price Variance">发票价格差异</value>
   <value column="Description" original="Difference between Costs and Invoice Price (IPV)">成本与发票价格之间的差异 (IPV)</value>
-  <value column="Help" original="The Invoice Price Variance is used reflects the difference between the current Costs and the Invoice Price.">发票价格差异用于反映当前成本与发票价格之间的差异。</value>
+  <value column="Help" original="The Invoice Price Variance is used reflects the difference between the current Costs and the Invoice Price.">发票价格差异用于反映当前成本与发票价格之间的差异</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9377,7 +9378,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="PrintName" original="Entity Type">对象实体类型</value>
   <value column="Description" original="Dictionary Entity Type; Determines ownership and synchronization">字典实体类型; 决定所有权与同步</value>
-  <value column="Help" original="The Entity Types &quot;Dictionary&quot;, &quot;iDempiere&quot; and &quot;Application&quot; might be automatically synchronized and customizations deleted or overwritten.  &#10;&#10;For customizations, copy the entity and select &quot;User&quot;!">对象实体的类型“字典”、“Compiere”和“应用程序”可被自动同步、自定义删除或覆盖。要使用自定义，请复制对象实体并选择“用户”！</value>
+  <value column="Help" original="The Entity Types &quot;Dictionary&quot;, &quot;iDempiere&quot; and &quot;Application&quot; might be automatically synchronized and customizations deleted or overwritten.  &#10;&#10;For customizations, copy the entity and select &quot;User&quot;!">对象实体的类型“字典”、“iDempiere”和“应用程序”可被自动同步、自定义删除或覆盖。要使用自定义，请复制对象实体并选择“用户”！</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9647,7 +9648,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Discount Schema">价格表模式</value>
   <value column="PrintName" original="Discount Schema">价格表模式</value>
   <value column="Description" original="Schema to calculate the trade discount percentage">计算批发折扣率的模式</value>
-  <value column="Help" original="After calculation of the (standard) price, the trade discount percentage is calculated and applied resulting in the final price.">在 (标准) 价格的计算以后，交易折扣百分比被计算并被应用，产生最终价格。</value>
+  <value column="Help" original="After calculation of the (standard) price, the trade discount percentage is calculated and applied resulting in the final price.">在 (标准) 价格的计算以后，交易折扣百分比被计算并被应用，产生最终价格</value>
   <value column="PO_Description" original="Schema to calculate price lists">计算交易折扣百分比的模式</value>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original="Price List Schema">价格表计划</value>
@@ -9907,7 +9908,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Last Invoice Price">上次发票价格</value>
   <value column="PrintName" original="Last Invoice Price">上次发票价格</value>
   <value column="Description" original="Price of the last invoice for the product">产品的最近发票价格</value>
-  <value column="Help" original="The Last Invoice Price indicates the last price paid (per the invoice) for this product.">上次发票价格表示上次为该产品支付的价格 (按照发票)。</value>
+  <value column="Help" original="The Last Invoice Price indicates the last price paid (per the invoice) for this product.">上次发票价格表示上次为该产品支付的价格 (按照发票)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11317,7 +11318,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Interest Area">兴趣领域</value>
   <value column="PrintName" original="Interest Area">兴趣领域</value>
   <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题, 可用于关系营销等目的</value>
-  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">兴趣关注反映了联系人感兴趣的主题。兴趣关注可用于营销战役。</value>
+  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">兴趣关注反映了联系人感兴趣的主题。兴趣关注可用于营销活动</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11327,7 +11328,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Request Type">请求类型</value>
   <value column="PrintName" original="Request Type">请求类型</value>
   <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">请求类型 (例如 查询, 投诉, ..)</value>
-  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">请求类型用于处理和分类请求。选择项包括账户查询、质保问题等。</value>
+  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">请求类型用于处理和分类请求。选择项包括账户查询、质保问题等</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12217,7 +12218,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Print Label Suffix">打印标签后缀</value>
   <value column="PrintName" original="Label Suffix">标签后缀</value>
   <value column="Description" original="The label text to be printed on a document or correspondence after the field">在字段后, 单据或的信件上要打印的标签文本</value>
-  <value column="Help" original="The Label to be printed indicates the name that will be printed on a document or correspondence after the field. The max length is 60 characters.">打印标签表示将在单据或信函上打印在字段后面的名称。最大长度是60个字符。</value>
+  <value column="Help" original="The Label to be printed indicates the name that will be printed on a document or correspondence after the field. The max length is 60 characters.">打印标签表示将在单据或信函上打印在字段后面的名称。最大长度是60个字符</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12807,7 +12808,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Printer Name">打印机</value>
   <value column="PrintName" original="Printer Name">打印机</value>
   <value column="Description" original="Name of the Printer">打印机名称</value>
-  <value column="Help" original="Internal (Operating System) Name of the Printer; Please mote that the printer name may be different on different clients. Enter a printer name, which applies to ALL clients (e.g. printer on a server). &lt;p&gt;&#10;If none is entered, the default printer is used. You specify your default printer when you log in. You can also change the default printer in Preferences."><![CDATA[打印机的内部 (操作系统) 名称; 请注意，打印机在不同客户端可能具有不同的名称。请输入应用于<b>所有</b>客户端的打印机名称 (如服务器上的打印机或网络打印机)。<p> 如果未输入，则使用默认的打印机。您在登录Compiere时指定了默认打印机。也可通过偏爱设置更改默认的打印机。]]></value>
+  <value column="Help" original="Internal (Operating System) Name of the Printer; Please mote that the printer name may be different on different clients. Enter a printer name, which applies to ALL clients (e.g. printer on a server). &lt;p&gt;&#10;If none is entered, the default printer is used. You specify your default printer when you log in. You can also change the default printer in Preferences."><![CDATA[打印机的内部 (操作系统) 名称; 请注意，打印机在不同客户端可能具有不同的名称。请输入应用于<b>所有</b>客户端的打印机名称 (如服务器上的打印机或网络打印机)。<p> 如果未输入，则使用默认的打印机。您在登录iDempiere时指定了默认打印机。也可通过偏爱设置更改默认的打印机。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13127,8 +13128,8 @@ Example of format "(000)_000-0000"]]></value>
  <row id="2087" trl="Y">
   <value column="Name" original="Alert">提醒</value>
   <value column="PrintName" original="Alert">提醒</value>
-  <value column="Description" original="iDempiere Alert">Adempiere 提醒</value>
-  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">Compiere 注意允许你以你想要被提醒为条件来定义系统</value>
+  <value column="Description" original="iDempiere Alert">iDempiere 提醒</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">iDempiere Alerts 允许你定义你希望被提醒的系统条件</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13468,7 +13469,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Reference (DC)">引用 (延迟交易)</value>
   <value column="PrintName" original="Reference (DC)">引用 (延迟交易)</value>
   <value column="Description" original="Payment Reference Delayed Capture">付款引用 (延迟交易)</value>
-  <value column="Help" original="The Payment Reference indicates the reference returned from the Credit Card Company for a payment">付款引用表示从信用卡公司返回的付款引用。</value>
+  <value column="Help" original="The Payment Reference indicates the reference returned from the Credit Card Company for a payment">付款参考 表示从信用卡公司付款中反馈的付款用途说明</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13497,8 +13498,8 @@ Example of format "(000)_000-0000"]]></value>
  <row id="2124" trl="Y">
   <value column="Name" original="Internal Users">内部用户数</value>
   <value column="PrintName" original="Internal Users">内部用户数</value>
-  <value column="Description" original="Number of Internal Users for iDempiere Support">受 Adempiere 技术支持的内部用户数</value>
-  <value column="Help" original="You can purchase professioal support from iDempiere, Inc. or their partners.  See http://www.idempiere.org for details.&#10;">你可以购买Adempiere公司或他们的合作伙伴的专业支持。详情请参阅http://www.adempiere.com。</value>
+  <value column="Description" original="Number of Internal Users for iDempiere Support">受 iDempiere 技术支持的内部用户数</value>
+  <value column="Help" original="You can purchase professioal support from iDempiere, Inc. or their partners.  See http://www.idempiere.org for details.&#10;">你可以购买iDempiere或他们的合作伙伴的专业支持。详情请参阅http://www.idempiere.org</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14090,7 +14091,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="System Registration">系统注册</value>
   <value column="PrintName" original="Registration">资产登记</value>
   <value column="Description" original="System Registration">系统注册</value>
-  <value column="Help" original="The System Registration helps iDempiere to help the installed base">The System Registration helps Adempiere to help the installed基</value>
+  <value column="Help" original="The System Registration helps iDempiere to help the installed base">The System Registration helps iDempiere to help the installed base</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14320,7 +14321,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Running Total">运行时总数</value>
   <value column="PrintName" original="Running Total">运行时总数</value>
   <value column="Description" original="Create a running total (sum)">创建运行时总数 (汇总)</value>
-  <value column="Help" original="A running total creates a sum at the end of a page and on the top of the next page for all columns, which have a Sum function.  You should define running total only once per format.">运行时总数在页末和下页顶部为所有列创建合计，这些列包含合计的函数功能。您在每个格式中只应当定义一处运行时总数。</value>
+  <value column="Help" original="A running total creates a sum at the end of a page and on the top of the next page for all columns, which have a Sum function.  You should define running total only once per format.">运行时总数在页末和下页顶部为所有列创建合计，这些列包含合计的函数功能。您在每个格式中只应当定义一处运行时总数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15260,7 +15261,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Attribute Value">属性值</value>
   <value column="PrintName" original="Attribute Value">属性值</value>
   <value column="Description" original="Value of the Attribute">属性的值</value>
-  <value column="Help" original="iDempiere converts the (string) field values to the attribute data type.  Booleans (Yes-No) may have the values &quot;true&quot; and &quot;false&quot;, the date format is YYYY-MM-DD">Compiere 将 (字符串) 字段值转换至属性数据类型。布尔型 (是-否) 可能具有 "true"和"false" 的值；日期格式是 YYYY-MM-DD。</value>
+  <value column="Help" original="iDempiere converts the (string) field values to the attribute data type.  Booleans (Yes-No) may have the values &quot;true&quot; and &quot;false&quot;, the date format is YYYY-MM-DD">iDempiere将 (字符串) 字段值转换至属性数据类型。布尔型 (是-否) 可能具有 "true"和"false" 的值；日期格式是 YYYY-MM-DD。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15810,7 +15811,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="RfQ Topic">询价单主题</value>
   <value column="PrintName" original="RfQ Topic">询价单主题</value>
   <value column="Description" original="Topic for Request for Quotations">询价单主题</value>
-  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单。</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16131,7 +16132,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Package">装箱单</value>
   <value column="PrintName" original="Package">装箱单</value>
   <value column="Description" original="Shipment Package">发货包装</value>
-  <value column="Help" original="A Shipment can have one or more Packages.  A Package may be individually tracked.">货可能包含多个包装 (包裹)。包装可被单独追踪。</value>
+  <value column="Help" original="A Shipment can have one or more Packages.  A Package may be individually tracked.">一张出货单可以有一个或多个包装单，一张包装单可以被单独跟踪</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16151,7 +16152,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="RMA">退货授权</value>
   <value column="PrintName" original="RMA">退货授权</value>
   <value column="Description" original="Return Material Authorization">退料授权</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">退料授权可能是必需的，以便接受退货并创建贷项通知单。</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16890,7 +16891,7 @@ Example of format "(000)_000-0000"]]></value>
  <row id="2488" trl="Y">
   <value column="Name" original="Start Implementation/Production">开始实施/上线</value>
   <value column="PrintName" original="Start Implementation/Production">开始实施/上线</value>
-  <value column="Description" original="The day you started the implementation (if implementing) - or production (went life) with iDempiere">您启动 Compiere 实施或上线的日期</value>
+  <value column="Description" original="The day you started the implementation (if implementing) - or production (went life) with iDempiere">您启动iDempiere实施或上线的日期</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -17440,7 +17441,7 @@ Example of format "(000)_000-0000"]]></value>
  <row id="2549" trl="Y">
   <value column="Name" original="LDAP Domain">LDAP 域名</value>
   <value column="PrintName" original="LDAP Domain">LDAP 域名</value>
-  <value column="Description" original="Directory service domain name - e.g. idempiere.org">目录服务域名 - 例如 adempiere.org</value>
+  <value column="Description" original="Directory service domain name - e.g. idempiere.org">目录服务域名 - 例如 idempiere.org</value>
   <value column="Help" original="If LDAP Host and Domain is specified, the user is authenticated via LDAP. The password in the User table is not used for connecting to iDempiere.">如果 LDAP 主机和域名被指定，用户通过 LDAP 进行验证。用户表中的密码不会被使用。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -17752,7 +17753,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="POS Terminal">POS 终端</value>
   <value column="PrintName" original="POS">POS 终端</value>
   <value column="Description" original="Point of Sales Terminal">POS 销售终端</value>
-  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能。</value>
+  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17869,8 +17870,8 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2594" trl="Y">
-  <value column="Name" original="Any Campaign">任意营销战役</value>
-  <value column="PrintName" original="Any Campaign">任意营销战役</value>
+  <value column="Name" original="Any Campaign">任意营销活动</value>
+  <value column="PrintName" original="Any Campaign">任意营销活动</value>
   <value column="Description" original="Match any value of the Campaign segment">匹配战役分段的任意值</value>
   <value column="Help" original="If selected, any value of the account segment will match. If not selected, but no value of the accounting segment is selected, the matched value must be null (i.e. not defined).">如选择了，任何账户片段的值都会匹配。如果没有选择，但是任何账户片段的值也没有选择，匹配的值就必须是零（即，没有定义）。</value>
   <value column="PO_Description" original=""/>
@@ -18499,7 +18500,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Overwrite Price Limit">重写价格限制</value>
   <value column="PrintName" original="Overwrite Price Limit">重写价格限制</value>
   <value column="Description" original="Overwrite Price Limit if the Price List  enforces the Price Limit">如果价格表强制使用限制价格，则改写限制价格。</value>
-  <value column="Help" original="The Price List allows to enforce the Price Limit. If set, a user with this role can overwrite the price limit (i.e. enter any price).">价格表允许强制价格限制。如果设置，则包含该角色的用户可覆盖价格限制（即输入任何价格）。</value>
+  <value column="Help" original="The Price List allows to enforce the Price Limit. If set, a user with this role can overwrite the price limit (i.e. enter any price).">价格表允许强制价格限制。如果设置，则包含该角色的用户可覆盖价格限制（即输入任何价格）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18570,7 +18571,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PrintName" original="IBAN">IBAN</value>
   <value column="Description" original="International Bank Account Number">国际银行账户号码</value>
   <value column="Help" original="If your bank provides an International Bank Account Number, enter it here&#10;Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in iDempiere.">如果您的银行提供了国际银行账户号码，请在此处输入它。
-明细 ISO 13616 请参见 http://www.ecbs.org。账户编号最大长度是22个字符（不包含空格）。IBAN 在打印时通常每4个字符之间用空格隔开。在 Compiere 中请勿输入空格。</value>
+明细 ISO 13616 请参见 http://www.ecbs.org。账户编号最大长度是22个字符（不包含空格）。IBAN 在打印时通常每4个字符之间用空格隔开。在iDempiere中请勿输入空格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18651,7 +18652,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Auto Archive">自动归档</value>
   <value column="PrintName" original="Auto Archive">自动归档</value>
   <value column="Description" original="Enable and level of automatic Archive of documents">启用单据自动归档级别</value>
-  <value column="Help" original="iDempiere allows to automatically create archives of Documents (e.g. Invoices) or Reports. You view the archived material with the Archive Viewer">Compiere 允许自动创建单据（如发票）或报表的归档。您可使用归档查看器查看已归档的材料。</value>
+  <value column="Help" original="iDempiere allows to automatically create archives of Documents (e.g. Invoices) or Reports. You view the archived material with the Archive Viewer">iDempiere允许自动创建单据（如发票）或报表的归档。您可使用归档查看器查看已归档的材料。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18662,7 +18663,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="PrintName" original="Date Pattern">日期样式</value>
   <value column="Description" original="Java Date Pattern">Java 日期样式</value>
   <value column="Help" original="Option Date pattern in Java notation. Examples: dd.MM.yyyy - dd/MM/yyyy&#10;If the pattern for your language is not correct, please create a iDempiere support request with the correct information">可选的 Java 日期样式记法。例如：dd.MM.yyyy - dd/MM/yyyy。
-如果您的语言的样式不正确，请联系我们：http://www.compiere.com</value>
+如果您的语言的样式不正确，请通过iDempiere支援请求功能和我们联系</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18683,7 +18684,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Media Size">介质大小</value>
   <value column="PrintName" original="Media Size">介质大小</value>
   <value column="Description" original="Java Media Size">Java 介质大小</value>
-  <value column="Help" original="The Java Media Size. Example: &quot;MediaSize.ISO.A4&quot; (the package javax.print.attribute.standard is assumed). If you define your own media size, use the fully qualified name.&#10;If the pattern for your language is not correct, please create a iDempiere support request with the correct information">Java 介质大小。例如：“MediaSize.ISO.A4”（假定包 javax.print.attribute.standard）。如果您定义了自己的介质大小，请使用完全合格的名称。</value>
+  <value column="Help" original="The Java Media Size. Example: &quot;MediaSize.ISO.A4&quot; (the package javax.print.attribute.standard is assumed). If you define your own media size, use the fully qualified name.&#10;If the pattern for your language is not correct, please create a iDempiere support request with the correct information">Java 介质大小。例如：“MediaSize.ISO.A4”（假定包 javax.print.attribute.standard）。如果您定义了自己的介质大小，请使用完全合格的名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18783,7 +18784,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Material Policy">物料政策</value>
   <value column="PrintName" original="Mat Policy">物料政策</value>
   <value column="Description" original="Material Movement Policy">物料移库的政策</value>
-  <value column="Help" original="The Material Movement Policy determines how the stock is flowing (FiFo or LiFo) if a specific Product Instance was not selected.  The policy can not contradict the costing method (e.g. FiFo movement policy and LiFo costing method).">物料移库政策决定了未选择特定的产品实例时库存如何流动（先入先出 FiFo、后入先出 LiFo）。该政策与成本计算方法不抵触（如先入先出移库政策与后入先出成本计算方法相兼容）。</value>
+  <value column="Help" original="The Material Movement Policy determines how the stock is flowing (FiFo or LiFo) if a specific Product Instance was not selected.  The policy can not contradict the costing method (e.g. FiFo movement policy and LiFo costing method).">物料移库政策决定了未选择特定的产品实例时库存如何流动（先入先出 FiFo、后入先出 LiFo）。该政策与成本计算方法不抵触（如先入先出移库政策与后入先出成本计算方法相兼容）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19624,7 +19625,7 @@ Example of format "(000)_000-0000"]]></value>
   <value column="Name" original="Product Operation">产品作业</value>
   <value column="PrintName" original="Product Operation">产品作业</value>
   <value column="Description" original="Product Manufacturing Operation">产品生产操作</value>
-  <value column="Help" original="The Operations to create the product.  Note that the actual used operation and sequence is determined by the BOM Product.">生产产品的操作。注意，实际使用的操作和工序由物料清单产品决定。</value>
+  <value column="Help" original="The Operations to create the product.  Note that the actual used operation and sequence is determined by the BOM Product.">生产产品的操作。注意，实际使用的操作和工序由物料清单产品决定</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20435,7 +20436,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Commitment Type">承付类型</value>
   <value column="PrintName" original="Commitment Type">承付类型</value>
   <value column="Description" original="Create Commitment and/or Reservations for Budget Control">为预算控制创建承付与/或保留</value>
-  <value column="Help" original="The Posting Type Commitments is created when posting Purchase Orders; The Posting Type Reservation is created when posting Requisitions.  This is used for budgetary control.">合同过账类型当过采购订单时创建；保留过账类型当过采购申请单时创建。这是用于预算控制。</value>
+  <value column="Help" original="The Posting Type Commitments is created when posting Purchase Orders; The Posting Type Reservation is created when posting Requisitions.  This is used for budgetary control.">当采购订单过账时，将会创建过账类型委托；当采购申请单过账时，将会创建过账类型留存。这是用于预算控制</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20585,7 +20586,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Sub Account">子账户</value>
   <value column="PrintName" original="Sub Acct">子账户</value>
   <value column="Description" original="Sub account for Element Value">元素值的子账户</value>
-  <value column="Help" original="The Element Value (e.g. Account) may have optional sub accounts for further detail. The sub account is dependent on the value of the account, so a further specification. If the sub-accounts are more or less the same, consider using another accounting dimension.">元素值 (如账户) 可能具有可选的子账户，表示进一步的明细信息。子账户依赖于账户的值，因此需要进一步规范。如果子账户几乎相同，则可考虑使用另一个会计维度。</value>
+  <value column="Help" original="The Element Value (e.g. Account) may have optional sub accounts for further detail. The sub account is dependent on the value of the account, so a further specification. If the sub-accounts are more or less the same, consider using another accounting dimension.">元素值 (如账户) 可能具有可选的子账户，表示进一步的明细信息。子账户依赖于账户的值，因此需要进一步规范。如果子账户几乎相同，则可考虑使用另一个会计维度</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20595,7 +20596,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="User Column 1">用户科目 1</value>
   <value column="PrintName" original="User Column 1">用户科目 1</value>
   <value column="Description" original="User defined accounting Element">用户定义的会计元素</value>
-  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested)">用户定义的会计元素引用一个 Compiere 表。这允许使用任何表内容作为会计维度 (如项目任务)。注意，用户元素是可选的，从单据上下文填充而得 (即不是必需的)。</value>
+  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested)">用户定义的会计元素引用一个iDempiere表。这允许使用任何表内容作为会计维度 (如项目任务)。注意，用户元素是可选的，从单据上下文填充而得 (即不是必需的)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20605,7 +20606,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="User Column 2">用户科目 2</value>
   <value column="PrintName" original="User Column 2">用户科目 2</value>
   <value column="Description" original="User defined accounting Element">用户定义的会计元素</value>
-  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested) ">用户定义的会计元素引用一个 Compiere 表。这允许使用任何表内容作为会计维度 (如项目任务)。注意，用户元素是可选的，从单据上下文填充而得 (即不是必需的)。</value>
+  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested) ">用户定义的会计元素引用一个iDempiere表。这允许使用任何表内容作为会计维度 (如项目任务)。注意，用户元素是可选的，从单据上下文填充而得 (即不是必需的)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20655,7 +20656,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Credit Watch %">信用观察 %</value>
   <value column="PrintName" original="Credit Watch %">信用观察 %</value>
   <value column="Description" original="Credit Watch - Percent of Credit Limit when OK switches to Watch">信用观察 - 信用限额的百分比, 在“良好”时切换至“观察”</value>
-  <value column="Help" original="If iDempiere maintains credit status, the status &quot;Credit OK&quot; is moved to &quot;Credit Watch&quot; if the credit available reaches the percent entered.  If not defined, 90% is used.">如果 Compiere 维护了信用状态，当可用授信额度达到了输入的百分比时，状态“信用良好”变为“信用观察”。如果未定义百分比，则使用 90% 的默认值。</value>
+  <value column="Help" original="If iDempiere maintains credit status, the status &quot;Credit OK&quot; is moved to &quot;Credit Watch&quot; if the credit available reaches the percent entered.  If not defined, 90% is used.">如果iDempiere维护了信用状态，当可用授信额度达到了输入的百分比时，状态“信用良好”变为“信用观察”。如果未定义百分比，则使用 90% 的默认值。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20686,7 +20687,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Error Reporting">错误报告</value>
   <value column="PrintName" original="Error Reporting">错误报告</value>
   <value column="Description" original="Automatically report Errors">自动报告错误</value>
-  <value column="Help" original="To automate error reporting, submit errors to iDempiere. Only error (stack trace) information is submitted (no data or confidential information).  It helps us to react faster and proactively.  If you have a support contract, we will you inform about corrective measures.  This functionality is experimental at this point.">要自动报告错误，将错误提交至 Compiere。只有错误 (堆叠追踪) 信息才被提交，不包含数据或机密信息。它可以帮助 Compiere 更快捷地作出反应。如果您购买了支持服务，我们将为您提供纠错方案。</value>
+  <value column="Help" original="To automate error reporting, submit errors to iDempiere. Only error (stack trace) information is submitted (no data or confidential information).  It helps us to react faster and proactively.  If you have a support contract, we will you inform about corrective measures.  This functionality is experimental at this point.">要自动报告错误，将错误提交至 iDempiere。只有错误 (堆叠追踪) 信息才被提交，不包含数据或机密信息。它可以帮助 iDempiere 更快捷地作出反应。如果您购买了支持服务，我们将为您提供纠错方案。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20696,7 +20697,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="System Issue">系统问题</value>
   <value column="PrintName" original="System Issue">系统问题</value>
   <value column="Description" original="Automatically created or manually entered System Issue">自动创建或手工输入的系统问题</value>
-  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给 Compiere，传输时不会提交数据或机密信息。</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给iDempiere，传输时不会提交数据或机密信息。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20735,7 +20736,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="2891" trl="Y">
   <value column="Name" original="Request Document No">请求单据编号</value>
   <value column="PrintName" original="Request Document No">请求单据编号</value>
-  <value column="Description" original="iDempiere Request Document No">Adempiere 请求文档号</value>
+  <value column="Description" original="iDempiere Request Document No">iDempiere请求单据号</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20846,7 +20847,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Color Schema">配色方案</value>
   <value column="PrintName" original="Color Schema">配色方案</value>
   <value column="Description" original="Performance Color Schema">绩效颜色的方案</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。Compiere 支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。iDempiere支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21178,8 +21179,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="2938" trl="Y">
   <value column="Name" original="Support Expires">支持过期</value>
   <value column="PrintName" original="Support Expires">支持过期</value>
-  <value column="Description" original="Date when the iDempiere support expires">Adempiere 支持到期的日期</value>
-  <value column="Help" original="Check http://www.idempiere.org for support options">访问 http://www.compiere.org/ 服务栏目，获得实施支持、开发支持的进一步信息。</value>
+  <value column="Description" original="Date when the iDempiere support expires">iDempiere支持到期的日期</value>
+  <value column="Help" original="Check http://www.idempiere.org for support options">访问 http://www.idempiere.org/ 服务栏目，获得实施支持、开发支持的进一步信息。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21509,7 +21510,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Meta RobotsTag">元机器人标签</value>
   <value column="PrintName" original="Meta RobotsTag">元机器人标签</value>
   <value column="Description" original="RobotsTag defines how search robots should handle this content">机器人标签定义了搜索机器人应该如何处理该内容</value>
-  <value column="Help" original="The Meta Robots Tag define on how a search engines robot should handle this page and the following ones. It defines two keywords: (NO)INDEX which defines whether or not to index this content and (NO)FOLLOW which defines whether or not to follow links. The most common combination is INDEX,FOLLOW which will force a search robot to index the content and follow links and images.">元机器人标签定义了搜索引擎机器人应该如何处理这个页面及链接页面。它定义了两个关键词: (NO)INDEX 定义了是否索引该内容，以及 (NO)FOLLOW 定义了是否跟随链接。最常见的组合 INDEX,FOLLOW 定义了强制搜索引擎索引内容和跟随链接与图片。</value>
+  <value column="Help" original="The Meta Robots Tag define on how a search engines robot should handle this page and the following ones. It defines two keywords: (NO)INDEX which defines whether or not to index this content and (NO)FOLLOW which defines whether or not to follow links. The most common combination is INDEX,FOLLOW which will force a search robot to index the content and follow links and images.">"元机器人"标签定义了搜索引擎机器人应该如何处理这个页面及链接页面。它定义了两个关键词: (NO)INDEX 定义了是否索引该内容，以及 (NO)FOLLOW 定义了是否跟随链接。最常见的组合 INDEX,FOLLOW 定义了强制搜索引擎索引内容和跟随链接与图片</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21599,7 +21600,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Web Container">网页容器</value>
   <value column="PrintName" original="Container">容器</value>
   <value column="Description" original="Web Container contains content like images, text etc.">Web 容器包含图片和文本等类型的内容</value>
-  <value column="Help" original="A Container defines the abstract level around the content, it defines how the content gets displayed, indexed and stored.">容器定义了内容的抽象级别，它定义内容如何被显示、索引和存储。</value>
+  <value column="Help" original="A Container defines the abstract level around the content, it defines how the content gets displayed, indexed and stored.">容器定义了内容的抽象级别，它定义了内容如何被显示、索引和存储</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21670,7 +21671,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Meta Description">元描述</value>
   <value column="PrintName" original="Meta Description">元描述</value>
   <value column="Description" original="Meta info describing the contents of the page">描述页面内容的元信息</value>
-  <value column="Help" original="The Meta Description tag should contain a short description on the page content">元描述标签应当包含简短的页面内容描述。</value>
+  <value column="Help" original="The Meta Description tag should contain a short description on the page content">“元描述”标签应当包含简短的页面内容描述</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21790,7 +21791,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Max Impression Count">最大曝光次数</value>
   <value column="PrintName" original="Max Impression Count">最大曝光次数</value>
   <value column="Description" original="Maximum Impression Count until banner is deactivated">最大曝光次数，直到横幅被取消激活</value>
-  <value column="Help" original="A banner has a maximum number of impressions after which it will get deactivated">横幅拥有最大曝光次数，在此之后，就被取消激活。</value>
+  <value column="Help" original="A banner has a maximum number of impressions after which it will get deactivated">横幅拥有最大曝光次数，在此之后，就被取消激活</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21880,7 +21881,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Container Element">容器元素</value>
   <value column="PrintName" original="Container Element">容器元素</value>
   <value column="Description" original="Container element i.e. Headline, Content, Footer etc.">容器元素，即头部、内容、页脚等。</value>
-  <value column="Help" original="A container element defines the smallest definition of content, i.e. the headline, the content etc.">容器元素定义了最小的内容单位，例如头部、内容等。</value>
+  <value column="Help" original="A container element defines the smallest definition of content, i.e. the headline, the content etc.">容器元素指最小的内容单位，例如头部、内容等</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21930,7 +21931,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Web Container Stage">网络容器分段</value>
   <value column="PrintName" original="Container Stage">容器阶段</value>
   <value column="Description" original="Web Container Stage contains the staging content like images, text etc.">Web 容器阶段包含了像图片、文本这样的阶段内容</value>
-  <value column="Help" original="A Container defines the abstract level around the content, it defines how the content get's displayed, indexed and stored.&#10;The ID is related 1 to 1 to the container ID">容器定义了围绕内容的抽象级别。它定义了内容如何被显示、索引和存储。它的 ID 与容器 ID 是一对一的关系。</value>
+  <value column="Help" original="A Container defines the abstract level around the content, it defines how the content get's displayed, indexed and stored.&#10;The ID is related 1 to 1 to the container ID">容器定义了围绕内容的抽象级别。它定义了内容如何被显示、索引和存储。它的 ID 与容器 ID 是一对一的关系</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22020,7 +22021,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Invoice Rule">I发票规则</value>
   <value column="PrintName" original="Invoice Rule">I发票规则</value>
   <value column="Description" original="Invoice Rule for the project">项目的发票规则</value>
-  <value column="Help" original="The Invoice Rule for the project determines how orders (and consequently invoices) are created.  The selection on project level can be overwritten on Phase or Task">项目的发票规则决定了订单 (及随后的发票) 如何被创建。在项目级别作的选择可以在阶段或任务中覆盖。</value>
+  <value column="Help" original="The Invoice Rule for the project determines how orders (and consequently invoices) are created.  The selection on project level can be overwritten on Phase or Task">项目的发票规则决定了订单 (及随后的发票) 如何被创建。在项目级别作的选择可以在阶段或任务中覆盖</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22220,7 +22221,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="PrintName" original="Entity Type">对象实体类型</value>
   <value column="Description" original="System Entity Type">系统实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“Compiere”类型不应被使用。</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“iDempiere”类型不应被使用。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22230,7 +22231,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="ModelPackage">模块包</value>
   <value column="PrintName" original="ModelPackage">模块包</value>
   <value column="Description" original="Java Package of the model classes">模型类的 Java 包</value>
-  <value column="Help" original="By default, the Java model classes for extensions are in the compiere.model package.  If you provide a jar file in the classpath, you can define here your specific model package.  The model classes are used to save/modify/delete entries and as well as in Workflow.  Refer to the Compiere naming convention to make sure that your class is used rather then the base classes.">默认情形下，扩展的 Java 模型类位于 compiere.model 包中。如果您在类路径中提供了 JAR 文件，则可以此处定义您特定的模型包。模型类用于保存/修改/删除记录，与工作流中一样。请参考 Compiere 命名规范，确保使用了您的类，而不是基础类。</value>
+  <value column="Help" original="By default, the Java model classes for extensions are in the compiere.model package.  If you provide a jar file in the classpath, you can define here your specific model package.  The model classes are used to save/modify/delete entries and as well as in Workflow.  Refer to the Compiere naming convention to make sure that your class is used rather then the base classes.">默认情形下，扩展的 Java 模型类位于 compiere.model 包中。如果您在类路径中提供了 JAR 文件，则可以此处定义您特定的模型包。模型类用于保存/修改/删除记录，与工作流中一样。请参考iDempiere命名规范，确保使用了您的类，而不是基础类。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22240,7 +22241,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Classpath">Java 类路径</value>
   <value column="PrintName" original="Classpath">Java 类路径</value>
   <value column="Description" original="Extension Classpath">扩展的 Java 类路径</value>
-  <value column="Help" original="If your appplication requires additional jar files, enter them here. The jar files must be located in the $IDEMPIERE_HOME/lib directory.">如果您的应用程序需要更多的 JAR 文件，在此处输入它们。JAR 文件必须位于 $COMPIERE_HOME/lib 目录下。</value>
+  <value column="Help" original="If your appplication requires additional jar files, enter them here. The jar files must be located in the $IDEMPIERE_HOME/lib directory.">如果您的应用程序需要更多的 JAR 文件，在此处输入它们。JAR 文件必须位于 $IDEMPIERE_HOME/lib 目录下。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22629,8 +22630,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="3093" trl="Y">
   <value column="Name" original="Ldap Processor">LDAP 引擎</value>
   <value column="PrintName" original="Ldap Processor">LDAP 引擎</value>
-  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">Adempiere基于LDAP服务器来验证外部系统。</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个 Compiere 系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字。</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">iDempiere基于LDAP服务器来验证外部系统。</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个Admpiere系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24109,7 +24110,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="53227" trl="Y">
   <value column="Name" original="Post if Clearing Equal">结算相等则过账</value>
   <value column="PrintName" original="Post if Clearing Equal">结算相等则过账</value>
-  <value column="Description" original="This flag controls if Adempiere must post when clearing (transit) and final accounts are the same">This flag controls if Adempiere must post when clearing (transit) and final accounts are the same</value>
+  <value column="Description" original="This flag controls if Adempiere must post when clearing (transit) and final accounts are the same">This flag controls if iDempiere must post when clearing (transit) and final accounts are the same</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -24485,7 +24486,7 @@ Use the field Backflush Group for grouping the component in a Backflush Method.<
   <value column="Name" original="Maximum Order Qty">最大订单数量</value>
   <value column="PrintName" original="Maximum Order Qty">最大订单数量</value>
   <value column="Description" original="Maximum order quantity in UOM">最低的订单数量</value>
-  <value column="Help" original="The Maximum Order Quantity indicates the biggest quantity of this product which can be ordered.">最低订单数量表示该产品可被订购的最低数量。</value>
+  <value column="Help" original="The Maximum Order Quantity indicates the biggest quantity of this product which can be ordered.">最低订单数量表示该产品可被订购的最低数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28057,7 +28058,7 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="Name" original="Format Pattern">日期样式</value>
   <value column="PrintName" original="Format Pattern">日期样式</value>
   <value column="Description" original="The pattern used to format a number or date.">The pattern used to format a number or date.</value>
-  <value column="Help" original="A string complying with either Java SimpleDateFormat or DecimalFormat pattern syntax used to override the default presentation format of a date or number type field.">A string complying with either Java SimpleDateFormat or DecimalFormat pattern syntax used to override the default presentation format of a date or number type field.</value>
+  <value column="Help" original="A string complying with either Java SimpleDateFormat or DecimalFormat pattern syntax used to override the default presentation format of a date or number type field.">一个字符串（遵守 Java SimpleDateFormat 或 DecimalFormat 模式句法），将被用于覆盖日期或数字字段的默认显示格式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28167,9 +28168,9 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="Name" original="Method Change Variance">差异变更方法</value>
   <value column="PrintName" original="Account for Method Change Variance">差异变更方法科目</value>
   <value column="Description" original="The Method Change Variance account is the account used Manufacturing Order">用量差额科目是生产单使用的会计科目</value>
-  <value column="Help" original="The Method Change Variance is used in Standard Costing. It reflects the difference between the Standard BOM , Standard Manufacturing Workflow and Manufacturing BOM Manufacturing Workflow.&#10;&#10;If you change the method the manufacturing defined in BOM or Workflow Manufacturig then this variance is generate.">费率差额用于标准成本。It reflects the difference between the Standard Cost Rates and  The Cost Rates of Manufacturing Order.
+  <value column="Help" original="The Method Change Variance is used in Standard Costing. It reflects the difference between the Standard BOM , Standard Manufacturing Workflow and Manufacturing BOM Manufacturing Workflow.&#10;&#10;If you change the method the manufacturing defined in BOM or Workflow Manufacturig then this variance is generate.">费率差额用于标准成本。它反映了标准BOM、标准制造流程、制造BOM制造流程之间的差异。
 
-If you change the Standard Rates then this variance is generate.</value>
+如果你改变了在BOM或制造流程中定义的方法，那么这种费率差额就会产生</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28391,7 +28392,7 @@ Credit Work in Process Account ]]></value>
   <value column="Name" original="On Hand Projected Quantity">在手计划数量</value>
   <value column="PrintName" original="On Hand Projected Qty">在手计划数量</value>
   <value column="Description" original="On Hand Projected Quantity">在手计划数量</value>
-  <value column="Help" original="The On Hand Projected Quantity indicates the quantity of a product that is on hand in time line.">现有数量表示仓库中现有的产品数量。</value>
+  <value column="Help" original="The On Hand Projected Quantity indicates the quantity of a product that is on hand in time line.">"预计在手数量"表示 在时间线意义上的 在手产品数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -30262,7 +30263,7 @@ Product: used to quickly add products to POS order</value>
  <row id="54241" trl="Y">
   <value column="Name" original="Campaign Key"><![CDATA[关键字(&K)]]></value>
   <value column="PrintName" original="Campaign Key"><![CDATA[关键字(&K)]]></value>
-  <value column="Description" original="Text key of the Campaign">C_营销战役(无概要)</value>
+  <value column="Description" original="Text key of the Campaign">C_营销活动(无概要)</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -33200,8 +33201,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54712" trl="Y">
-  <value column="Name" original="C_Campaign_UU">任意营销战役</value>
-  <value column="PrintName" original="C_Campaign_UU">任意营销战役</value>
+  <value column="Name" original="C_Campaign_UU">任意营销活动</value>
+  <value column="PrintName" original="C_Campaign_UU">任意营销活动</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38914,7 +38915,7 @@ Product: used to quickly add products to POS order</value>
  <row id="200117" trl="Y">
   <value column="Name" original="Master Role">AD_角色</value>
   <value column="PrintName" original="Master Role">AD_角色</value>
-  <value column="Description" original="A master role cannot be assigned to users, it is intended to define access to menu option and documents and inherit to other roles">A master role cannot be assigned to users, it is intended to define access to menu option and documents and inherit to other roles</value>
+  <value column="Description" original="A master role cannot be assigned to users, it is intended to define access to menu option and documents and inherit to other roles">主角色不能分配给用户，它的功能是定义菜单选项和访问文件以及继承其他角色</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>

@@ -63,10 +63,12 @@
  <row id="112" trl="Y">
   <value column="Name" original="Merge Entities">合并记录</value>
   <value column="Description" original="Merge From Entity to To Entity - Delete From">从一个实体合并到另一个实体 - 删除原实体</value>
-  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version."><![CDATA[<i>危险 - 请务必清楚您即将执行的操作！</i>
-所有的源产品 (例如产品 A) 的实例将被更改到目标产品 (例如产品 B)。
-源产品 (例如产品 A) 将被删除。  
-<p><b>绝无任何撤销的方式！请首先进行备份</b> 请注意，您可能更改历史记录 (例如发票等) ！</p><p><b>负面影响：</b> 合并产品可能导致产品成本的不正确；请联系您的技术支持，以获得纠正方法。<p><b>限制：</b> 会计和库存冲突在当前版本中尚不能解决。]]></value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version."><![CDATA[<i>&lt;i&gt;危险 - 请务必清楚您正在执行的操作！&lt;/i&gt;</i>
+源个体（例如客户A）的所有实例都会被更改到目标个体（例如客户B）。
+源个体（例如客户A）将被删除。
+&lt;p&gt;&lt;b&gt;无法撤消，也无法追查！请首先进行备份&lt;/b&gt; 请注意，您可能更改历史记录 (例如发票等) ! &lt;/p&gt;
+lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本不正确；合并业务伙伴可能会导致开放账目平衡不正确。请联系您的技术支持，以获得纠正方法。
+&lt;p&gt;&lt;b&gt;限制性条款：&lt;/b&gt; 会计和库存冲突在当前版本中尚不能解决。]]></value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="POS">POS 终端</value>
@@ -124,7 +126,7 @@ The left panel shows the BOM hierarchies in a tree form. The right panel shows t
  <row id="53002" trl="Y">
   <value column="Name" original="Product Configuration BOM">产品配置 BOM</value>
   <value column="Description" original="This form let create a product configure with multy level using options and variants">This form let create a product configure with multy level using options and variants</value>
-  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">可配置BOM（CBOM）应用在产品具体多样性和可选性的行业。
 
 The CBOM is used to dynamically create "end-items" that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by "configurator" software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to "configure" an end-item.</value>
  </row>
@@ -135,7 +137,7 @@ The CBOM is used to dynamically create "end-items" that a company sells. The ben
  </row>
  <row id="53004" trl="Y">
   <value column="Name" original="Planned Order Approval ">计划订单审核 </value>
-  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">计划生产单是由MRP过程建议产生的生产单,它包含订单生产数量和订单的生成日期及定产承诺产出日期.</value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">计划生产单是由MRP过程建议产生的生产单,它包含订单生产数量和订单的生成日期及定产承诺产出日期</value>
   <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">计划生产单是MRP运算后给出的建议生产单，它包含了物料需求数量以及出货保证的日期。当你同意计划生产单，你可以把它的状态改成"处理中"，这时它就转换成了真正的生产单了。</value>
  </row>
  <row id="53005" trl="Y">

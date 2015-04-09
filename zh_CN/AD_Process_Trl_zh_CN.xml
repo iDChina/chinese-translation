@@ -429,7 +429,7 @@
  <row id="194" trl="Y">
   <value column="Name" original="Import Business Partners">导入业务伙伴</value>
   <value column="Description" original="Import Business Partners">导入业务伙伴</value>
-  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据。</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据</value>
  </row>
  <row id="195" trl="Y">
   <value column="Name" original="Reopen Request">重开请求</value>
@@ -439,7 +439,7 @@
  <row id="196" trl="Y">
   <value column="Name" original="Import Products ">导入产品 </value>
   <value column="Description" original="Imports products from a file into the application">从文件将产品导入到应用程序中</value>
-  <value column="Help" original="Import Products will bring a file of products, in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values, they do not overwrite any data.&lt;p&gt;&#10;If you select an existing price list and you have List, Standard, and Limit Price defined, they are directly created/updated."><![CDATA[导入产品会将包含预定义的产品格式的文件导入到应用程序中。<p>对于空的导入记录值，参数为默认值，它们不会覆盖任何数据。<p>如果您选择了已存在的价格表，并且定义了列表价格、标准价格和限制价格，那么它们被直接创建/更新。]]></value>
+  <value column="Help" original="Import Products will bring a file of products, in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values, they do not overwrite any data.&lt;p&gt;&#10;If you select an existing price list and you have List, Standard, and Limit Price defined, they are directly created/updated."><![CDATA[导入产品会将包含预定义的产品格式的文件导入到应用程序中。<p>参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据<p>如果您选择了已存在的价格表，并且定义了列表价格、标准价格和限制价格，那么它们被直接创建/更新。]]></value>
  </row>
  <row id="197" trl="Y">
   <value column="Name" original="Import Accounts">导入会计科目</value>
@@ -447,12 +447,12 @@
   <value column="Help" original="Import accounts and their hierarchies and optional update the default accounts.  &#10;Updating the Default Accounts changes the natural account segment of the used account, e.g. account 01-240 becomes 01-300).  If you create a new combination, the old account (e.g. 01-240) will remain, otherwise replaced.&#10;If you select this, make sure that you not multiple default accounts using one natural account and HAVE A BACKUP !!&#10;&lt;p&gt;The Parameters are default values for null import record values, they do not overwrite any data."><![CDATA[导入会计科目及它们的层次结构并可选的更新默认科目.  
 更新默认会计科目会更改所使用的科目的自然科目分段, (例如 科目 01-240 变成 01-300).  如果您新建组合,将保留旧的科目，否则会替换之.
 如果您选择此流程, 确定在一个自然账户中您没有使用多个默认科目并且有一个备份!!
-<p>对于空的导入记录值，参数是默认值。 它们不会改写任何数据。]]></value>
+<p>参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据]]></value>
  </row>
  <row id="198" trl="Y">
   <value column="Name" original="Import Report Line Set">导入报表行集合</value>
   <value column="Description" original="Import Report Line Set information">导入报表行集信息</value>
-  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据。</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据</value>
  </row>
  <row id="199" trl="Y">
   <value column="Name" original="Generate Shipments (manual)">生成发货单 (手工)</value>
@@ -463,8 +463,8 @@
   <value column="Name" original="Print Invoices">打印发票</value>
   <value column="Description" original="Print Invoices to paper or send PDF">打印发票到纸面或发送 PDF</value>
   <value column="Help" original="(Re)Print Invoices or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;&lt;br&gt;&#10;Remark: If you only enter a Document No FROM value, all invoices greater or equal that document number are printed; you can alternatively use the % character as a widcard."><![CDATA[(重新)打印发票或以PDF文件作为附件发送Email给有合法EMail地址的业务伙伴.
-<br>
-记住: 如果您仅输入一个单据号的值，会打印出所有的单据号大于或等于此单据号值的发票; 您可以选择使用“%”字符作为通配符.]]></value>
+&lt;br&gt;
+备注: 如果您仅输入一个单据号的值，会打印出所有的单据号大于或等于此单据号值的发票; 您可以选择使用“%”字符作为通配符.]]></value>
  </row>
  <row id="201" trl="Y">
   <value column="Name" original="Deliver Assets">交付资产</value>
@@ -489,17 +489,17 @@
  <row id="205" trl="Y">
   <value column="Name" original="Cache Reset">清除缓存</value>
   <value column="Description" original="Reset Cache of the System ** Close all Windows before proceeding **">重置系统的高速缓存 ** 在继续以前请关闭所有窗口 **</value>
-  <value column="Help" original="To increase performance, iDempiere caches repeatedly used data. This process clears the local cache.">为了提高性能, Adempiere 缓存重复使用的数据. 此过程清除本地缓存.</value>
+  <value column="Help" original="To increase performance, iDempiere caches repeatedly used data. This process clears the local cache.">为了提高性能,iDempiere缓存重复使用的数据。此过程清除本地缓存</value>
  </row>
  <row id="206" trl="Y">
   <value column="Name" original="Import Orders">导入订单</value>
   <value column="Description" original="Import Orders">导入订单</value>
-  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">对于空的导入记录值，参数为默认值，它们不会覆盖任何数据。注意，只有“准备”和“完成”才是有效的单据操作。</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据。请注意，只有“准备”和“完成”才是有效的单据操作。</value>
  </row>
  <row id="207" trl="Y">
   <value column="Name" original="Import Invoice">导入发票</value>
   <value column="Description" original="Import Invoice">导入发票</value>
-  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">对于空的导入记录值，参数为默认值，它们不会覆盖任何数据。注意，只有“准备”和“完成”才是有效的单据操作。</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据。请注意，只有“准备”和“完成”才是有效的单据操作。</value>
  </row>
  <row id="208" trl="Y">
   <value column="Name" original="Start Replication Run">启动复制运行</value>
@@ -723,9 +723,9 @@
  </row>
  <row id="250" trl="Y">
   <value column="Name" original="Register Now!">现在注册!</value>
-  <value column="Description" original="Registrations help us to better serve the iDempiere User Base.">注册帮助我们更好的为 Adempiere 用户服务.</value>
+  <value column="Description" original="Registrations help us to better serve the iDempiere User Base.">注册帮助我们更好的为iDempiere用户服务</value>
   <value column="Help" original="We will NOT make the data available to any third party or use the information for other than statistical purposes.  &#10;It will help us, if you would allow to publish your use of iDempiere. We will contact you directly before we publish any information.&#10;">我们不会把这些数据透露给第三方或者使用这些信息除统计之外的其他目的.  
-如果您允许公布您在使用 Adempiere，将对我们是一个很大的帮助. 在我们公布您任何信息之前，我们将直接与您取得联系.
+如果您允许公布您在使用iDempiere，将对我们是一个很大的帮助. 在我们公布您任何信息之前，我们将直接与您取得联系.
 </value>
  </row>
  <row id="251" trl="Y">
@@ -814,7 +814,7 @@
  <row id="267" trl="Y">
   <value column="Name" original="Create Sales Order">创建销售订单</value>
   <value column="Description" original="Create Sales Order">创建销售订单</value>
-  <value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">销售订单为输入的业务伙伴而创建。销售订单行针对每个询价单行的数量而创建，即“报盘数量”被选中之处。如果基于询价单行数量，输入了报盘金额 (非0)，则使用该价格。如果基于询价单行数量而输入了利润，那么它覆盖一般利润。利润是最佳响应金额的百分比加成。</value>
+  <value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">销售订单为输入的业务伙伴而创建。销售订单行针对每个询价单行的数量而创建，即“报盘数量”被选中之处。如果基于询价单行数量，输入了报盘金额 (非0)，则使用该价格。如果基于询价单行数量而输入了利润，那么它覆盖一般利润。利润是最佳响应金额的百分比加成</value>
  </row>
  <row id="268" trl="Y">
   <value column="Name" original="Copy Lines">复制行</value>
@@ -1041,7 +1041,7 @@
  <row id="312" trl="Y">
   <value column="Name" original="Print Dunning Letters">打印催款信函</value>
   <value column="Description" original="Print Dunning letters to paper or send PDF">打印催款信函至纸张或发送 PDF</value>
-  <value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;">(重新)打印催款函或作为 PDF 附件发送Email给业务伙伴，业务伙伴联系人需要有合法的Email地址.
+  <value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;">(重新)打印催款函或作为 PDF 附件发送Email给有合法的Email地址的业务伙伴联系人
 </value>
  </row>
  <row id="313" trl="Y">
@@ -1177,7 +1177,7 @@
  </row>
  <row id="339" trl="Y">
   <value column="Name" original="Report or Update Issue">报告或更新问题</value>
-  <value column="Description" original="Report Issue to iDempiere">向 Adempiere 报告问题</value>
+  <value column="Description" original="Report Issue to iDempiere">向iDempiere报告问题</value>
   <value column="Help" original=""/>
  </row>
  <row id="340" trl="Y">
@@ -1193,7 +1193,7 @@
  <row id="342" trl="Y">
   <value column="Name" original="Validate Support">验证支持合同</value>
   <value column="Description" original="Validate Support Contract">验证支持联系人</value>
-  <value column="Help" original="The process connects to the iDempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.idempiere.org">The process connects to the Adempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.adempiere.org</value>
+  <value column="Help" original="The process connects to the iDempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.idempiere.org">The process connects to the iDempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.idempiere.org</value>
  </row>
  <row id="343" trl="Y">
   <value column="Name" original="Import Payments">导入付款</value>
@@ -1222,8 +1222,8 @@
  </row>
  <row id="348" trl="Y">
   <value column="Name" original="Register Extension">注册扩展</value>
-  <value column="Description" original="Register your extension with iDempiere">注册您的 Compiere 扩展</value>
-  <value column="Help" original="You can register the four character extension with iDempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact iDempiere for details.">You can register the four character extension with Adempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact Adempiere for details.</value>
+  <value column="Description" original="Register your extension with iDempiere">注册您的iDempiere扩展</value>
+  <value column="Help" original="You can register the four character extension with iDempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact iDempiere for details.">You can register the four character extension with iDempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact iDempiere for details.</value>
  </row>
  <row id="349" trl="Y">
   <value column="Name" original="Validate">付款计划</value>
@@ -1581,7 +1581,7 @@ Total BOM Cost = Sum every Element Cost]]></value>
  <row id="53091" trl="Y">
   <value column="Name" original="Import FA Journal">导入日记账</value>
   <value column="Description" original="Import FA Batch/Journal/Line">导入总账批/日记账/行</value>
-  <value column="Help" original="The Parameters are default values for null import record values they do not overwrite any data.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据。</value>
+  <value column="Help" original="The Parameters are default values for null import record values they do not overwrite any data.">参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据</value>
  </row>
  <row id="53093" trl="Y">
   <value column="Name" original="Build Depreciation Forecast File">建立预估折旧</value>
@@ -1686,7 +1686,7 @@ Total BOM Cost = Sum every Element Cost]]></value>
  <row id="53139" trl="Y">
   <value column="Name" original="Import Asset ">导入资产设置 </value>
   <value column="Description" original="Imports Asset from a file into the application">从文件将产品导入到应用程序中</value>
-  <value column="Help" original="Import Asset will bring a file of Asset in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values they do not overwrite any data.">从临时表导入仓库货位。对于空的导入记录值，参数是默认的值，它们不覆盖任何数据。</value>
+  <value column="Help" original="Import Asset will bring a file of Asset in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values they do not overwrite any data.">从临时表导入仓库货位。参数仅用于空的导入记录值，它们作为默认的值，而不会覆盖任何数据</value>
  </row>
  <row id="53144" trl="Y">
   <value column="Name" original="Forecast Report">预测报表</value>
