@@ -971,8 +971,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="271" trl="Y">
-  <value column="Name" original="C_OrderLine">C_订单行</value>
-  <value column="Description" original="Order Line">订单行</value>
+  <value column="Name" original="C_OrderLine">C_OrderLine</value>
+  <value column="Description" original="Order Line">订单明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="272" trl="Y">
@@ -1306,7 +1306,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="342" trl="Y">
-  <value column="Name" original="W_MailMsg Type">W_MailMsg类型</value>
+  <value column="Name" original="W_MailMsg Type">W_MailMsg 类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1578,7 +1578,7 @@
  <row id="50002" trl="Y">
   <value column="Name" original="Package_Releases">包_发布</value>
   <value column="Description" original="List of Package Releases">安装的包的列表</value>
-  <value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">说明：包开放给谁.不输入指定开放指令则表明包是开放给所有。</value>
+  <value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">说明：包开放给谁.不输入指定开放指令则表明包是开放给所有</value>
  </row>
  <row id="50003" trl="Y">
   <value column="Name" original="AD_Package_Exp_DB">AD_包_Exp_DB</value>
@@ -1636,12 +1636,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="53224" trl="Y">
-  <value column="Name" original="PP_Process Type">PP_流程类型</value>
-  <value column="Description" original="Process Type">进程类型</value>
+  <value column="Name" original="PP_Process Type">PP_Process 类型</value>
+  <value column="Description" original="Process Type">流程类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="53225" trl="Y">
-  <value column="Name" original="PP_ComponentType">PP_部件类型</value>
+  <value column="Name" original="PP_ComponentType">PP_ComponentType</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1651,7 +1651,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53227" trl="Y">
-  <value column="Name" original="PP_Product_BOM Component Change">PP_产品BOM部件变更</value>
+  <value column="Name" original="PP_Product_BOM Component Change">PP_Product_BOM 部件变更</value>
   <value column="Description" original="Component Change">子件检查</value>
   <value column="Help" original="Component Change">子件检查</value>
  </row>
@@ -1931,7 +1931,7 @@
   <value column="Help" original="Currently supported: thousand, million.">Currently supported: thousand, million.</value>
  </row>
  <row id="53287" trl="Y">
-  <value column="Name" original="PP_CostCollectorType Transaction Manufacturing Management">PP_成本归集类型 事务生产管理</value>
+  <value column="Name" original="PP_CostCollectorType Transaction Manufacturing Management">PP_CostCollectorType (成本归集类型)事务生产管理</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2053,7 +2053,7 @@
  <row id="53332" trl="Y">
   <value column="Name" original="AD_RelationType Type">AD_关联类型 类型</value>
   <value column="Description" original="&quot;Type&quot; of a relation type">关联类型的"类型"</value>
-  <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">现在我们只有含糊的关系类型，例如:记录对被定义为规则本身。今后，我们想要有明确的类型。一个显式类型只是定义一个模板，实际对可以添加由用户或系统本身。</value>
+  <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">现在我们只有含糊的关系类型，例如:记录对被定义为规则本身。今后，我们想要有明确的类型。一个显式类型只是定义一个模板，实际对可以添加由用户或系统本身</value>
  </row>
  <row id="53333" trl="Y">
   <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)"><![CDATA[RelType C_Order (Sales) <= C_Invoice_ID (Customer)]]></value>
