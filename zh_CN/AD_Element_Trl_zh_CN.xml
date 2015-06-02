@@ -154,7 +154,7 @@
   <value column="Name" original="Reference List">引用列表</value>
   <value column="PrintName" original="Reference List">引用列表</value>
   <value column="Description" original="Reference List based on Table">基于表的引用列表</value>
-  <value column="Help" original="The Reference List field indicates a list of reference values from a database tables.  Reference lists populate drop down list boxes in data entry screens">引用列表字段表示来自数据库表的引用值的列表。引用列表在数据输入屏中填充了下拉列表框</value>
+  <value column="Help" original="The Reference List field indicates a list of reference values from a database tables.  Reference lists populate drop down list boxes in data entry screens">"引用列表"字段表示来自数据库表的引用值的列表。引用列表会被填充进输入界面中的下拉列表框</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -174,7 +174,7 @@
   <value column="Name" original="Reference Key">引用关键字</value>
   <value column="PrintName" original="Reference Key">引用关键字</value>
   <value column="Description" original="Required to specify, if data type is Table or List">如果数据类型是表或列表，则需要指定</value>
-  <value column="Help" original="The Reference Value indicates where the reference values are stored.  It must be specified if the data type is Table or List.  ">引用值标明了引用值的存储位置.  如果数据类型是表或列表，必须指定  </value>
+  <value column="Help" original="The Reference Value indicates where the reference values are stored.  It must be specified if the data type is Table or List.  ">引用值标明了引用值的存储位置。当数据类型是表或列表时必须指定</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1888,7 +1888,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Records deletable">记录可删除</value>
   <value column="PrintName" original="Records deletable">记录可删除</value>
   <value column="Description" original="Indicates if records can be deleted from the database">表示记录能否从数据库中删除</value>
-  <value column="Help" original="The Records Deletable checkbox indicates if a record can be deleted from the database.  If records cannot be deleted, you can only deselect the Active flag">记录可删除复选框表示记录能否从数据库中删除。如果记录不能被删除，您只能取消选择活跃的标记</value>
+  <value column="Help" original="The Records Deletable checkbox indicates if a record can be deleted from the database.  If records cannot be deleted, you can only deselect the Active flag">记录可删除复选框表示记录能否从数据库中删除。如果记录不允许被删除，您只能取消选中生效(Active)标识</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3009,7 +3009,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Region">区域名称</value>
   <value column="PrintName" original="Region">区域名称</value>
   <value column="Description" original="Name of the Region">该区域的名称</value>
-  <value column="Help" original="The Region Name defines the name that will print when this region is used in a document.">区域名称定义了当该区域用于单据中时将打印出来的名称</value>
+  <value column="Help" original="The Region Name defines the name that will print when this region is used in a document.">"区域名称"字段定义了在单据打印中所显示的该区域的名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3019,7 +3019,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Replenish Type">补货类型</value>
   <value column="PrintName" original="Replenish Type">补货类型</value>
   <value column="Description" original="Method for re-ordering a product">重新订购产品的方式</value>
-  <value column="Help" original="The Replenish Type indicates if this product will be manually re-ordered, ordered when the quantity is below the minimum quantity or ordered when it is below the maximum quantity. If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">如果这种类型的补充指出,手动re-ordered产品数量是命令时低于最低起订量或订购时,下面是最大的数量。如果你选择了一个定制的补给的类型,你需要创建一个班,实施org.compiere.util.ReplenishInterface在仓库的水平</value>
+  <value column="Help" original="The Replenish Type indicates if this product will be manually re-ordered, ordered when the quantity is below the minimum quantity or ordered when it is below the maximum quantity. If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓类型，表示该产品是否会被手工重新订购，当库存低于最低库存线时订购，或者当库存低于最大库存线时订购。如果你选择了一个自定义的补仓类型，你需要创建一个类实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5544,7 +5544,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Relative Priority">相对优先级</value>
   <value column="PrintName" original="Relative Priority">相对优先级</value>
   <value column="Description" original="Where inventory should be picked from first">库存应首先挑拣之处</value>
-  <value column="Help" original="The Relative Priority indicates the location to pick from first if an product is stored in more than one location.  (100 = highest priority, 0 = lowest).  For outgoing shipments, the location is picked with the highest priority where the entire quantity can be shipped from.  If there is no location, the location with the highest priority is used.&#10;The Priority is ignored for products with Guarantee Date (always the oldest first) or if a specific instance is selected.&#10;Incoming receipts are stored at the location with the highest priority, if not explicitly selected.">相对优先级表示如果产品被存储于多个位置时，哪个位置首先被挑拣。(100=最高优先级，0=最低优先级) 对于发货单，可挑拣出完整数量的最高优先级位置将被用于出货；如果没有这样的位置，则使用具有最高优先级的位置。对于具有质保日期 (总是先入先出) 或选择了特定实例的产品，优先级将被忽略。对于收货单，如果未显式指定，则将货物储存于最高优先级的位置</value>
+  <value column="Help" original="The Relative Priority indicates the location to pick from first if an product is stored in more than one location.  (100 = highest priority, 0 = lowest).  For outgoing shipments, the location is picked with the highest priority where the entire quantity can be shipped from.  If there is no location, the location with the highest priority is used.&#10;The Priority is ignored for products with Guarantee Date (always the oldest first) or if a specific instance is selected.&#10;Incoming receipts are stored at the location with the highest priority, if not explicitly selected.">相对优先级表示如果产品被存储于多个库位时，哪个库位首先被挑拣。(100=最高优先级，0=最低优先级) 。对于发货单，可挑拣出完整数量的最高优先级库位将被用于出货；如果没有这样的库位，则使用具有最高优先级的库位（也就是说即使是这个库位不能挑拣出完整数量）&#10;下列情况中，优先级将被忽略：有质保日期 (总是先入先出)的产品，或者指定了特定实例的产品&#10;对于收货单，则将货物储存于最高优先级的位置，如果没有明确指定的话</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14768,8 +14768,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2261" trl="Y">
-  <value column="Name" original="Mandatory Guarantee Date">强制保质日期</value>
-  <value column="PrintName" original="Mandatory Guarantee Date">强制保质日期</value>
+  <value column="Name" original="Mandatory Guarantee Date">必填的保质日期</value>
+  <value column="PrintName" original="Mandatory Guarantee Date">必填的保质日期</value>
   <value column="Description" original="The entry of a Guarantee Date is mandatory when creating a Product Instance">当创建一个产品时，必须填写保质日期</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -14778,9 +14778,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2262" trl="Y">
-  <value column="Name" original="Mandatory Lot">必填的批</value>
-  <value column="PrintName" original="Mandatory Lot">必填的批</value>
-  <value column="Description" original="The entry of Lot info is mandatory when creating a Product Instance">当创建产品实例时，必须填写批信息</value>
+  <value column="Name" original="Mandatory Lot">必填的批号</value>
+  <value column="PrintName" original="Mandatory Lot">必填的批号</value>
+  <value column="Description" original="The entry of Lot info is mandatory when creating a Product Instance">当创建产品实例时，必须填写批号信息</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -17339,9 +17339,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2537" trl="Y">
-  <value column="Name" original="Mandatory Type">强制类型</value>
-  <value column="PrintName" original="Mandatory Type">强制类型</value>
-  <value column="Description" original="The specification of a Product Attribute Instance is mandatory">产品属性实例规格是强制的</value>
+  <value column="Name" original="Mandatory Type">必填类型</value>
+  <value column="PrintName" original="Mandatory Type">必填类型</value>
+  <value column="Description" original="The specification of a Product Attribute Instance is mandatory">产品属性实例规格是必填的</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -23418,8 +23418,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="50074" trl="Y">
-  <value column="Name" original="Mandatory Logic">强制逻辑</value>
-  <value column="PrintName" original="Mandatory Logic">强制逻辑</value>
+  <value column="Name" original="Mandatory Logic">必填逻辑</value>
+  <value column="PrintName" original="Mandatory Logic">必填逻辑</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28599,8 +28599,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53804" trl="Y">
-  <value column="Name" original="Promotion Line">促销行</value>
-  <value column="PrintName" original="Promotion Line">促销行</value>
+  <value column="Name" original="Promotion Line">促销明细</value>
+  <value column="PrintName" original="Promotion Line">促销明细</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28609,10 +28609,10 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53805" trl="Y">
-  <value column="Name" original="Mandatory Promotion Line">促销行</value>
-  <value column="PrintName" original="Mandatory Promotion Line">促销行</value>
-  <value column="Description" original="Order must have this promotion line">Order must have this promotion line</value>
-  <value column="Help" original="The mandatory promotion check box indicates that the order must have this promotion line">必须预扣复选框表示必须从该员工预扣金额</value>
+  <value column="Name" original="Mandatory Promotion Line">必填的促销明细</value>
+  <value column="PrintName" original="Mandatory Promotion Line">必填的促销明细</value>
+  <value column="Description" original="Order must have this promotion line">订单必须保有促销明细</value>
+  <value column="Help" original="The mandatory promotion check box indicates that the order must have this promotion line">必填的促销选择框的含义为订单必须保有促销明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

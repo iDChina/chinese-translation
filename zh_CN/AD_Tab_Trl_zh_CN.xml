@@ -216,7 +216,7 @@
   <value column="Name" original="Region">区域名称</value>
   <value column="CommitWarning" original="Please create a support request (http://www.idempiere.org/support/requests.html), if the region info is not correct/incomplete.">请提交一个支持请求，如果区域信息不正确</value>
   <value column="Description" original="Define Regions">定义区域</value>
-  <value column="Help" original="The Region Tab  defines a Region within a Country.  This tab is enabled only if the Has Region checkbox is selected for the Country.">定义国家内的区域. 只有国家区域选择框已选这标签才启用.</value>
+  <value column="Help" original="The Region Tab  defines a Region within a Country.  This tab is enabled only if the Has Region checkbox is selected for the Country.">"区域页签"定义国家内的区域。当”有区域“选择框被选中时，该页签才会启用</value>
  </row>
  <row id="143" trl="Y">
   <value column="Name" original="Organization">组织</value>
@@ -397,7 +397,7 @@
   <value column="Name" original="Replenish">补仓</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Replenishment">定义产品补仓</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签定义了补仓数量的类型。这用于自动补货。如果您选择了自定义的补仓类型，则需要创建实现 org.compiere.util.ReplenishInterface 接口的类，并在仓库级别设置它</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签，定义了补仓数量的类型。这用于自动订购。如果您选择了自定义的补仓类型，则需要创建一个实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
  </row>
  <row id="183" trl="Y">
   <value column="Name" original="Price">价格</value>
@@ -697,7 +697,7 @@
   <value column="Name" original="Report &amp; Process">报表与流程</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Report &amp; Process">定义报表与流程</value>
-  <value column="Help" original="The Report and Process Tab defines each report and process run in the system.  &#10;Please note that the Print Format is only used for Document Print when you want to share a common format defined on System level. For normal reports and formats, you would not define a Print Format here, but modify the generated print format and set it as the default.">报表与流程页签定义了系统中运行的每个报表和流程。 请注意，打印格式仅当您希望共享定义于系统级别的通用格式之时用于单据打印。对于普通的报表与格式，您无需在此定义打印格式，而只需修改生成的打印格式并将它设置为默认</value>
+  <value column="Help" original="The Report and Process Tab defines each report and process run in the system.  &#10;Please note that the Print Format is only used for Document Print when you want to share a common format defined on System level. For normal reports and formats, you would not define a Print Format here, but modify the generated print format and set it as the default.">报表与流程页签定义了系统中运行的每个报表和流程&#10;请注意：打印格式仅用于单据打印，当你希望共享定义在系统级别的通用格式时。对于普通的报表与格式，你不需要在这里定义打印格式，而只需要修改生成的打印格式，并反它设置为默认格式</value>
  </row>
  <row id="246" trl="Y">
   <value column="Name" original="Parameter">参数</value>
@@ -1214,7 +1214,7 @@
   <value column="Name" original="Report View Column">报表视图列</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Report View Column">报表视图列</value>
-  <value column="Help" original="The Report View Column Tab defines any columns which will be overridden in the generation of the select SQL">报表视图列页签定义了SELECT SQL语句生成过程中将覆盖的列</value>
+  <value column="Help" original="The Report View Column Tab defines any columns which will be overridden in the generation of the select SQL">报表视图列页签：定义了任何（在SELECT SQL语句生成过程中）将会被覆盖的列</value>
  </row>
  <row id="355" trl="Y">
   <value column="Name" original="Commission">佣金标识</value>
@@ -2806,8 +2806,8 @@
  <row id="633" trl="Y">
   <value column="Name" original="Dunning Run">催款计算</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Manage Dunning Run">管理催款运行</value>
-  <value column="Help" original="Manage Dunning Run">管理催款运行</value>
+  <value column="Description" original="Manage Dunning Run">管理催款执行</value>
+  <value column="Help" original="Manage Dunning Run">管理催款执行</value>
  </row>
  <row id="634" trl="Y">
   <value column="Name" original="Entry">文章</value>
@@ -3467,7 +3467,7 @@
   <value column="Name" original="Replenish">补仓</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Replenishment">定义产品补仓</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签定义了补仓数量的类型。这用于自动补货。如果您选择了自定义的补仓类型，则需要创建实现 org.compiere.util.ReplenishInterface 接口的类，并在仓库级别设置它</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签，定义了补仓数量的类型。这用于自动订购。如果您选择了自定义的补仓类型，则需要创建一个实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
  </row>
  <row id="748" trl="Y">
   <value column="Name" original="Cost Details">成本明细</value>
@@ -4345,7 +4345,7 @@
   <value column="Name" original="Replenish">补仓</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Replenishment">定义补货</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.">定义补货数量的类型. 用于自动订购.</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.">补仓页签 定义仓库补货数量的类型。这用于自动订购</value>
  </row>
  <row id="53046" trl="Y">
   <value column="Name" original="Purchasing">采购</value>

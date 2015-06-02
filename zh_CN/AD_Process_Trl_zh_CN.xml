@@ -673,7 +673,7 @@
  <row id="240" trl="Y">
   <value column="Name" original="Clicks Unprocessed">未处理的点击</value>
   <value column="Description" original="Unprocessed Clicks">未处理点击数</value>
-  <value column="Help" original="The Report shows Clicks, which could not be processed (URL not matched to Click Count)">报表显示未处理 (URL与点击计数不匹配) 的点击</value>
+  <value column="Help" original="The Report shows Clicks, which could not be processed (URL not matched to Click Count)">报表显示未处理的点击 (URL不跟点击计数匹配) </value>
  </row>
  <row id="241" trl="Y">
   <value column="Name" original="Delete Notices">删除通知</value>
@@ -1113,7 +1113,7 @@
  <row id="326" trl="Y">
   <value column="Name" original="Invoice Not Realized Gain/Loss">未实现盈利/亏损的发票</value>
   <value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">未实现盈利/亏损发票的报表</value>
-  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[报表列出未完全付款的发票，它们带有未结金额、总账金额和重估金额。如果发票是部分付款的，未结金额的百分比用于计算重新估值的金额。<br>如果您选择一种货币，则只有对应于该币种的发票才被包含；如果您选择了包括所有币种，所有的发票都被包含，您可以使用报表进行应付、应收账户的对账。<br>如果您选择了一种总账单据类型，总账日记账被创建。注意，报表只包含已过账的发票。]]></value>
+  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[报表列出未完全付款的发票，包括未结金额、总账金额和重估金额。如果发票是部分付款的，未结金额的百分比用于计算重新估值的金额<br>如果您选择了一种货币，则只有对应于该币种的发票才会被包括在内；如果您选择了包括所有币种，所有的发票都会被包括在内，您可以使用报表进行应付、应收科目的对账<br>如果您选择了一个总账单据类型，一个总账日记账就会被创建<br>注意：该报表只包含已过账的发票]]></value>
  </row>
  <row id="327" trl="Y">
   <value column="Name" original="Test EMail">测试电子邮件</value>
