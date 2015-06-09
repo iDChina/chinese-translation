@@ -12,8 +12,8 @@
  </row>
  <row id="102" trl="Y">
   <value column="Name" original="Window, Tab &amp; Field">窗口, 页签与字段</value>
-  <value column="Description" original="Maintain Windows, Tabs &amp; Fields">维护窗口, 页签与字段</value>
-  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.">窗口、页签与字段窗口定义了每个窗口中表和列的显示</value>
+  <value column="Description" original="Maintain Windows, Tabs &amp; Fields">维护窗口、页签、字段</value>
+  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.">"窗口、页签、字段"窗口定义了每个窗口中表和列的显示</value>
  </row>
  <row id="103" trl="Y">
   <value column="Name" original="Validation Rules">校验规则</value>
@@ -47,7 +47,7 @@
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="User">用户</value>
-  <value column="Description" original="Maintain Users of the system">维护系统的用户</value>
+  <value column="Description" original="Maintain Users of the system">维护系统用户</value>
   <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">用户窗口允许您定义系统中的每个用户。用户可登录到系统中，通过一个或多个角色访问所需的功能。用户也可能是业务伙伴联系人</value>
  </row>
  <row id="109" trl="Y">
@@ -63,7 +63,7 @@
  </row>
  <row id="111" trl="Y">
   <value column="Name" original="Role">角色</value>
-  <value column="Description" original="Maintain User Responsibilities">维护用户权限</value>
+  <value column="Description" original="Maintain User Responsibilities">维护用户职责</value>
   <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">角色窗口允许您定义本系统中的用户将具有的不同角色。角色控制了对窗口、任务、报表等的访问权限。对于一个实体，有预定义的管理员和用户角色。您还可以添加更多的角色，以控制对特定功能或数据的访问。
 您可以添加用户到角色中。
 注意：访问权限信息被缓存起来，要求重新登录或重置缓存才能生效</value>
@@ -170,7 +170,7 @@
  </row>
  <row id="137" trl="Y">
   <value column="Name" original="Tax Rate">税率</value>
-  <value column="Description" original="Maintain Taxes and their Rates">维护税和它们的比率</value>
+  <value column="Description" original="Maintain Taxes and their Rates">维护税和税率</value>
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个州进行定义</value>
  </row>
  <row id="138" trl="Y">
@@ -262,7 +262,7 @@
  </row>
  <row id="160" trl="Y">
   <value column="Name" original="Withholding (1099)">预扣 (1099)</value>
-  <value column="Description" original="Maintain Withholding Certificates">维护预扣证书</value>
+  <value column="Description" original="Maintain Withholding Certificates">维护扣缴证明</value>
   <value column="Help" original="The Withholding Window defines the rule used for calculating withholding amounts.">预扣窗口定义了用于计算预扣金额的规则</value>
  </row>
  <row id="161" trl="Y">
@@ -277,7 +277,7 @@
  </row>
  <row id="163" trl="Y">
   <value column="Name" original="Tree">树</value>
-  <value column="Description" original="Maintain Tree definition">维护树定义</value>
+  <value column="Description" original="Maintain Tree definition">维护树结构定义</value>
   <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">树窗口定义当树显示时将使用的描述符和图片</value>
  </row>
  <row id="165" trl="Y">
@@ -428,7 +428,7 @@
  <row id="203" trl="Y">
   <value column="Name" original="Request Processor">请求引擎</value>
   <value column="Description" original="Define Request Processors">定义处请求引擎</value>
-  <value column="Help" original="The Request Processor Window allows you to define different processes that you want to occur and the frequency and timing of these processes  A Request Processor can be just for a specific Request Type or for all.">引擎请求窗口允许你定义，你想要的不同处理的产生和处理时间，这些过程可以是引擎请求的请求种类或所有</value>
+  <value column="Help" original="The Request Processor Window allows you to define different processes that you want to occur and the frequency and timing of these processes  A Request Processor can be just for a specific Request Type or for all.">请求处理器窗口允许你定义你希望触发的不同进程，以及进程的频率和时间。 请求处理器既可以用于特定的请求类型，也可以用于全部</value>
  </row>
  <row id="204" trl="Y">
   <value column="Name" original="Mail Template">邮件模板</value>
@@ -547,7 +547,7 @@
  </row>
  <row id="233" trl="Y">
   <value column="Name" original="Discount Schema">价格表模式</value>
-  <value column="Description" original="Maintain Trade Discount Schema">一般折扣维护计划</value>
+  <value column="Description" original="Maintain Trade Discount Schema">维护交易折扣模式</value>
   <value column="Help" original="Trade discount schema calculates the trade discount percentage">批发折扣轮廓计算批发折扣百分比</value>
  </row>
  <row id="234" trl="Y">
@@ -1246,7 +1246,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="373" trl="Y">
   <value column="Name" original="Web Project">Web 工程</value>
-  <value column="Description" original="Maintain Web Project (Content Management)">维护 Web 工程 (内容管理)</value>
+  <value column="Description" original="Maintain Web Project (Content Management)">维护Web项目(内容管理)</value>
   <value column="Help" original="At the level of the web project you define the project itself, it's domains and media servers. Each project needs to have at least one domain and one media server.">在 Web 工程的级别，您定义工程自身、它的域名和媒质服务器。每个项目需要至少一个域名和一个媒质服务器</value>
  </row>
  <row id="374" trl="Y">
@@ -1270,9 +1270,9 @@ Note that access information is cached and requires re-login or reset of cache.<
   <value column="Help" original="View chat / discussion threads">查看讨论/交谈的帖子</value>
  </row>
  <row id="379" trl="Y">
-  <value column="Name" original="Media Item">媒质项</value>
-  <value column="Description" original="Maintain Web Media">维护网络媒体</value>
-  <value column="Help" original="Maintain Content Management Media">维护内容管理的媒质</value>
+  <value column="Name" original="Media Item">媒体项</value>
+  <value column="Description" original="Maintain Web Media">维护Web媒体</value>
+  <value column="Help" original="Maintain Content Management Media">维护内容管理的媒体</value>
  </row>
  <row id="380" trl="Y">
   <value column="Name" original="Chat Type">聊天类型</value>
@@ -1301,7 +1301,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="386" trl="Y">
   <value column="Name" original="Text Index">索引文本</value>
-  <value column="Description" original="Maintain Text Search Index">维护文本搜索的索引</value>
+  <value column="Description" original="Maintain Text Search Index">维护文本索引</value>
   <value column="Help" original="Text search index keyword and excerpt across documents">跨文档的文本搜索索引关键字与摘录</value>
  </row>
  <row id="387" trl="Y">
@@ -1510,7 +1510,7 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53022" trl="Y">
   <value column="Name" original="Tax Rate Parent">父级税率</value>
-  <value column="Description" original="Maintain Taxes and their Rates">维护税和它们的比率</value>
+  <value column="Description" original="Maintain Taxes and their Rates">维护税和税率</value>
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个州进行定义</value>
  </row>
  <row id="53023" trl="Y">
@@ -1916,7 +1916,7 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="200001" trl="Y">
   <value column="Name" original="Role Toolbar Button Access">角色权限限制</value>
-  <value column="Description" original="Maintain toolbar button access rule">Maintain toolbar button access rule</value>
+  <value column="Description" original="Maintain toolbar button access rule">维护工具条按钮权限规则</value>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">

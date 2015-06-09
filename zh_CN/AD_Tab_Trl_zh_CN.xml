@@ -1166,13 +1166,13 @@
   <value column="Name" original="Request">请求</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Request">定义请求</value>
-  <value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">请求页签定义了被业务伙伴提交的任何请求</value>
+  <value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">请求页签定义了由业务伙伴或内部提交的任何请求</value>
  </row>
  <row id="346" trl="Y">
   <value column="Name" original="Request Processor">请求引擎</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Request Processor">请求引擎</value>
-  <value column="Help" original="The Request Processor Tab allows you to define processes that you want to occur and the frequency and timing of these processes. If no other user is found, the items are assigned to the supervisor. A Request Processor can be just for a specific Request Type or for all.">请求引擎页签允许您定义想要发生的流程，以及这些流程的频度和时效。如果未找到其他用户，这些项被指定 (分派) 给主管。请求引擎适用于特定的请求类型，或适用于全部</value>
+  <value column="Help" original="The Request Processor Tab allows you to define processes that you want to occur and the frequency and timing of these processes. If no other user is found, the items are assigned to the supervisor. A Request Processor can be just for a specific Request Type or for all.">请求处理器页签允许您定义想要发生的流程，以及这些流程的频度和时效。如果未找到其他用户，这些项被分派给主管。请求处理器既可以用于特定的请求类型，也可以用于全部</value>
  </row>
  <row id="347" trl="Y">
   <value column="Name" original="Mail Template">邮件模板</value>
@@ -1456,7 +1456,7 @@
   <value column="Name" original="Request">请求</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Request">定义请求</value>
-  <value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">请求页签定义了被业务伙伴提交的任何请求</value>
+  <value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">请求页签定义了由业务伙伴或内部提交的任何请求</value>
  </row>
  <row id="403" trl="Y">
   <value column="Name" original="History">历史记录</value>
@@ -1881,8 +1881,8 @@
  <row id="474" trl="Y">
   <value column="Name" original="Translation">翻译</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Print Label Line Translation">打印标签行翻译</value>
-  <value column="Help" original="Maintain the translation for Label Line formats">维护标签行格式的翻译</value>
+  <value column="Description" original="Print Label Line Translation">打印标签明细翻译</value>
+  <value column="Help" original="Maintain the translation for Label Line formats">维护标签明细格式的翻译</value>
  </row>
  <row id="475" trl="Y">
   <value column="Name" original="Session Audit">会话</value>
@@ -1927,7 +1927,7 @@
   <value column="Help" original="Validate and Import Inventory Transactions. The Locator is primarily determined by the Locator Key, then the Warehouse and X,Y,Z fields.&lt;p&gt;&#10;A Physical Inventory is created per Warehouse and Movement Date."><![CDATA[验证和导入库存事务处理。货位主要由货位关键字决定，然后是仓库和X、Y、Z字段。<p>每个仓库、每一移库日期都会创建实地盘存。]]></value>
  </row>
  <row id="482" trl="Y">
-  <value column="Name" original="Table Access">表权限</value>
+  <value column="Name" original="Table Access">表访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Table Access">维护表访问</value>
   <value column="Help" original="If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a table and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).&#10;&lt;br&gt;Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaulated first and you only need to define the exceptions to these rules here.&#10;&lt;p&gt;&#10;Note that access information is cached and requires re-login or reset of cache. Be aware that if you use Include rules, that you need to include also several supporting entiries. As an alternative, grant access only to functionality required."><![CDATA[如果在此处列出，角色则可以或不可以访问该表的数据记录，即便角色具有功能访问权限。<br>如果您包含了对一个表的访问，并选中了只读，那么您只能读取数据 (否则可完全访问)。<br>如果您排除了对一个表的访问，并选中了只读，那么您只能读取数据 (否则不可访问)。<br>请注意，此处的表访问规则是对为表定义的数据访问级别和为角色定义的用户级别的补充。那些规则首先被估值，您只需要在这里定义那些规则的异常情形即可。<p>注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。您需要知道，如果使用了包含规则，则需要同时包含多个支持的表。作为备选，将权限只授予需要的功能。]]></value>
@@ -2813,13 +2813,13 @@
   <value column="Name" original="Entry">文章</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Dunning Run Entry">催款计算分录</value>
-  <value column="Help" original="Maintain details of the dunning letter to a business partner">维护给业务伙伴的催款信明细</value>
+  <value column="Help" original="Maintain details of the dunning letter to a business partner">维护给业务伙伴的催款函明细</value>
  </row>
  <row id="635" trl="Y">
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Dinning Run Line">催款运行行</value>
-  <value column="Help" original="Maintain the information of the dunning letter line">维护催款信的行信息</value>
+  <value column="Description" original="Dinning Run Line">催款函明细</value>
+  <value column="Help" original="Maintain the information of the dunning letter line">维护催款函的明细信息</value>
  </row>
  <row id="636" trl="Y">
   <value column="Name" original="Org Assignment">组织分配</value>
@@ -3766,7 +3766,7 @@
  <row id="801" trl="Y">
   <value column="Name" original="Domain">域名</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Web Project Domains">维护 Web 工程的域名</value>
+  <value column="Description" original="Maintain Web Project Domains">维护Web项目的域名</value>
   <value column="Help" original="Link between the Web Project and the public URLs (Domains)">链接 Web 工程和公共网址 (域名)</value>
  </row>
  <row id="802" trl="Y">
@@ -3868,7 +3868,7 @@
  <row id="819" trl="Y">
   <value column="Name" original="Chat Type">聊天类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Type of discussion / chat">维护讨论/交谈的类型</value>
+  <value column="Description" original="Maintain Type of discussion / chat">维护讨论/会话的类型</value>
   <value column="Help" original="Chat Type allows you to receive subscriptions for particular content of discussions. It is linked to a table.">聊天类型允许您接收特定讨论内容的订阅。它被链接至表</value>
  </row>
  <row id="820" trl="Y">
@@ -3958,8 +3958,8 @@
  <row id="834" trl="Y">
   <value column="Name" original="List Role">列出角色</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access for Role">对角色的网络访问</value>
-  <value column="Help" original="Maintain the list of Roles with Access to this profile.">维护能够访问该档案的业务伙伴列表</value>
+  <value column="Description" original="Web Access for Role">对角色的 Web 访问</value>
+  <value column="Help" original="Maintain the list of Roles with Access to this profile.">维护能够访问该档案的角色列表</value>
  </row>
  <row id="835" trl="Y">
   <value column="Name" original="List BPartner Group">列出业务伙伴分组</value>
@@ -3977,7 +3977,7 @@
   <value column="Name" original="Access Container">访问容器</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Web Access to Container">到容器的 Web 访问</value>
-  <value column="Help" original="Maintain the access to container">维护到容器的 Web 访问</value>
+  <value column="Help" original="Maintain the access to container">维护到容器的Web访问</value>
  </row>
  <row id="838" trl="Y">
   <value column="Name" original="Access News Channel">访问新闻渠道</value>
@@ -3988,8 +3988,8 @@
  <row id="839" trl="Y">
   <value column="Name" original="Access Media">访问媒介</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access to Media">到媒质的 Web 访问</value>
-  <value column="Help" original="Maintain the access to media">维护到媒质的 Web 访问</value>
+  <value column="Description" original="Web Access to Media">到媒介的 Web 访问</value>
+  <value column="Help" original="Maintain the access to media">维护对媒介的访问</value>
  </row>
  <row id="840" trl="Y">
   <value column="Name" original="Deplayment">部署</value>
@@ -5257,7 +5257,7 @@
   <value column="Name" original="Return to Vendor">供应商退货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Vendor Returns">供应商退货</value>
-  <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">收货单页签允许您生成、维护、输入和处理供应商发货单或供应商退货</value>
+  <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">退回供应商标签允许您生成、维护、输入和处理（由于退货造成的）发货单给供应商</value>
  </row>
  <row id="53277" trl="Y">
   <value column="Name" original="Return to Vendor Line">收货单的行</value>

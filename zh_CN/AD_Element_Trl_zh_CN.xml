@@ -2939,7 +2939,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Reserved Quantity">保留库存</value>
   <value column="PrintName" original="Reserved Qty">保留库存</value>
   <value column="Description" original="Reserved Quantity">保留库存</value>
-  <value column="Help" original="The Reserved Quantity indicates the quantity of a product that is currently reserved.">指该产品的现有的订购数量</value>
+  <value column="Help" original="The Reserved Quantity indicates the quantity of a product that is currently reserved.">留存数量指该产品当前被保留的数量</value>
   <value column="PO_Description" original="Quantity Ordered on Purchase Orders">采购订单的订购数量</value>
   <value column="PO_Help" original="The Ordered Quantity indicates the quantity of a product that is currently ordered.">未收货数量 表示当前未收货的采购订单数量</value>
   <value column="PO_Name" original="On Order Quantity">未收货数量</value>
@@ -3250,7 +3250,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Restart sequence every Year">每年重新开始序号</value>
   <value column="PrintName" original="Restart sequence every Year">每年重新开始序号</value>
   <value column="Description" original="Restart the sequence with Start on every 1/1">在每年1月1日，自动重新开始序号使用</value>
-  <value column="Help" original="The Restart Sequence Every Year checkbox indicates that the documents sequencing should return to the starting number on the first day of the year.">每年重新开始编号复选框表示单据序号编排在每年的第一天应当回到起始编号</value>
+  <value column="Help" original="The Restart Sequence Every Year checkbox indicates that the documents sequencing should return to the starting number on the first day of the year.">"每年重新开始编号"复选框表示：在每年的第一天，该单据序号将会回到初始编号重新编排</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4914,7 +4914,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Requires Tax Certificate">需要税证书</value>
   <value column="PrintName" original="Requires Tax Certificate">需要税证书</value>
   <value column="Description" original="This tax rate requires the Business Partner to be tax exempt">业务伙伴免税则需要相应的税证书</value>
-  <value column="Help" original="The Requires Tax Certificate indicates that a tax certificate is required for a Business Partner to be tax exempt.">需要税证书表示业务伙伴需要税证书以免税</value>
+  <value column="Help" original="The Requires Tax Certificate indicates that a tax certificate is required for a Business Partner to be tax exempt.">"需要税务登记证"表示业务伙伴需要税务登记证以免税</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7296,7 +7296,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Response Message">响应消息</value>
   <value column="PrintName" original="Message">消息</value>
   <value column="Description" original="Response message">响应消息</value>
-  <value column="Help" original="The Response Message indicates the message returned from the Credit Card Company as the result of a transmission">响应消息表示从信用卡公司作为传输结果返回的消息</value>
+  <value column="Help" original="The Response Message indicates the message returned from the Credit Card Company as the result of a transmission">响应消息表示从信用卡公司作为交易结果返回的消息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7306,7 +7306,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Result">结果</value>
   <value column="PrintName" original="Result">结果</value>
   <value column="Description" original="Result of transmission">传输的结果</value>
-  <value column="Help" original="The Response Result indicates the result of the transmission to the Credit Card Company.">响应结果表示传输到信用卡公司的结果</value>
+  <value column="Help" original="The Response Result indicates the result of the transmission to the Credit Card Company.">响应结果表示信用卡公司的交易结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7866,7 +7866,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Require CreditCard Verification Code">需要信用卡验证码</value>
   <value column="PrintName" original="Require Verification Code">需要验证码</value>
   <value column="Description" original="Require 3/4 digit Credit Verification Code">需要信用卡验证码</value>
-  <value column="Help" original="The Require CC Verification checkbox indicates if this bank accounts requires a verification number for credit card transactions.">需要信用卡验证码复选框表示该银行账户进行信用卡事务处理时是否需要验证码</value>
+  <value column="Help" original="The Require CC Verification checkbox indicates if this bank accounts requires a verification number for credit card transactions.">"需要信用卡验证码"复选框表示：该银行账户进行信用卡交易时是否需要验证码</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8708,7 +8708,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Revenue Recognition Run">收入确认计算</value>
   <value column="PrintName" original="Revenue Recognition Run">收入确认计算</value>
   <value column="Description" original="Revenue Recognition Run or Process">收入确认计算或处理</value>
-  <value column="Help" original="The Revenue Recognition Runs identifies a unique instance of processing revenue recognition.">一唯一的营业收入确认请求的处理.</value>
+  <value column="Help" original="The Revenue Recognition Runs identifies a unique instance of processing revenue recognition.">"收入确认运行"确认一个唯一的实例，用于处理营业收入确认</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12757,7 +12757,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2046" trl="Y">
   <value column="Name" original="Maintain Change Log">维护更改日志</value>
   <value column="PrintName" original="Change Log">变更日志</value>
-  <value column="Description" original="Maintain a log of changes">维护更改的日志</value>
+  <value column="Description" original="Maintain a log of changes">维护变更日志</value>
   <value column="Help" original="If selected, a log of all changes is maintained.">如果选中，则所有的更改日志将被维护</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -16901,7 +16901,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2489" trl="Y">
   <value column="Name" original="Maintain Statistics">维护统计</value>
   <value column="PrintName" original="Maintain Statistics">维护统计</value>
-  <value column="Description" original="Maintain general statistics">允许传递一般性统计 (实体、组织、业务伙伴、用户、产品、发票的数量)</value>
+  <value column="Description" original="Maintain general statistics">维护通用统计(实体、组织、业务伙伴、用户、产品、发票的数量)</value>
   <value column="Help" original="Maintain and allow to transfer general statistics (number of clients, orgs, business partners, users, products, invoices) to get a better feeling for the application use.  This information is not published.">允许传递一般性统计 (实体、组织、业务伙伴、用户、产品、发票的数量)，以获得应用程序规模的更佳体验。本信息不会公开</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
