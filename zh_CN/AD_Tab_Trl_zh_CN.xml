@@ -1195,7 +1195,7 @@
  <row id="351" trl="Y">
   <value column="Name" original="Org Access">组织访问</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Role Org Access">维护角色组织的访问</value>
+  <value column="Description" original="Maintain Role Org Access">维护角色组织访问权限</value>
   <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[添加用户有权访问的实体和组织。如果用户组织访问被选中或角色有权访问所有组织，则忽略此处的项。<br>注意，访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
  </row>
  <row id="352" trl="Y">
@@ -1545,7 +1545,7 @@
  <row id="417" trl="Y">
   <value column="Name" original="Resource Product">资源产品</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Product information of Resource">维护资源的产品信息</value>
+  <value column="Description" original="Maintain Product information of Resource">维护产品信息</value>
   <value column="Help" original="The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">资源产品被自动创建和同步。请在资源中更新名称、计量单位等，而不要在产品中更改</value>
  </row>
  <row id="418" trl="Y">
@@ -1603,9 +1603,9 @@
   <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/client/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layoit logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. supress null does not prevent new line)"><![CDATA[打印格式项维护着布局信息。下面的额外变量在打印时有效：<p>@*Page@ - 第几页<br>@*PageCount@ - 共几页<br>@*MultiPageInfo@ - "第 x 页，共 y 页" - 只在超过一页时才打印<br>@*CopyInfo@ - 是否为单据 "副本"打印<br>@*ReportName@ - 报表的名称<br>@*Header@ - 带用户/实体/组织名称和连接的完整标头<br>@*CurrentDate@ - 打印日期<br>@*CurrentDateTime@ - 打印时间<p>表单的布局逻辑是：<br>- 如果不打印：忽略<br>- 设置新行位置<br>- 新页<br>- 如果自最后的新行之后，还要打印<br>- 格式项<br>- 打印它 (如果选择了非空)<br>(即过滤空值不防止新的行)。]]></value>
  </row>
  <row id="427" trl="Y">
-  <value column="Name" original="Print Paper">打印纸</value>
+  <value column="Name" original="Print Paper">打印纸张格式</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Print Paper">维护打印纸</value>
+  <value column="Description" original="Maintain Print Paper">维护打印纸张格式</value>
   <value column="Help" original="Printer Paper Size, Orientation and Margins. &#10;The Validation Code contains the Media Size name. The names of the media sizes correspond to those in the IPP 1.1 RFC 2911 - http://www.ietf.org/rfc/rfc2911.txt  &lt;br&gt;&#10;If the name is not found, the SizeX/Y with the dimension is used. Size and dimension are ignored, if a valid media size name is used."><![CDATA[打印机纸张尺寸、方向和边距。<br>验证码包含媒质尺寸的名称。媒质尺寸的名称对应于 IPP 1.1 RFC 2911 中的描述 - http://www.ietf.org/rfc/rfc2911.txt<br>如果未找到名称，尺寸 X/Y 与维度单位将被使用。如果媒质尺寸的名称有效，则忽略尺寸与维度单位。]]></value>
  </row>
  <row id="428" trl="Y">
@@ -1803,7 +1803,7 @@
  <row id="461" trl="Y">
   <value column="Name" original="Attribute Set">属性组合</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Product Attribute Set">维持产品属性组</value>
+  <value column="Description" original="Maintain Product Attribute Set">维护产品属性集</value>
   <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define an Attribute Set if you want to enable Serial and Lot Number and Guarantee Date tracking.  Note that the Guarantee Days here determine the Shelf Life of a product instance after manufacturing (the Guarantee Days on the product determines a Customer Service date after selling)&#10;If the Attribute Set is mandatory, a product instance needs to be selected/created before shipping.">定义产品属性集，以为产品添加额外的属性和值。如果您想启用序号和批号追踪，则需要定义一个属性集</value>
  </row>
  <row id="462" trl="Y">
@@ -3196,7 +3196,7 @@
  <row id="699" trl="Y">
   <value column="Name" original="Cost Element">成本要素</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain product cost elements">维护产品成本元素</value>
+  <value column="Description" original="Maintain product cost elements">维护产品的成本元素</value>
   <value column="Help" original="You can maintain multiple Material Costs. Which of the Material Cost Types is used for accounting is determined by the costing method.&lt;br&gt;&#10;Define a Costing Method (for Material Elements) only if you want the cost calculated for that costing method. For accounting, the costing method defined in the Accounting Schema or Product Category Acct is used."><![CDATA[您可维护多项物料成本。哪一项物料成本类型用于会计，是由成本计算方法决定的。<br>仅当您希望为某成本计算方法而计算成本时，才定义一种成本计算方法（为物料元素）。对于会计来说，用到在会计模式或产品类别会计中定义的成本计算方法。]]></value>
  </row>
  <row id="700" trl="Y">
@@ -3208,19 +3208,19 @@
  <row id="701" trl="Y">
   <value column="Name" original="Product Costs">产品成本</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Product Costs">产品成本维护</value>
+  <value column="Description" original="Maintain Product Costs">维护产品成本</value>
   <value column="Help" original=""/>
  </row>
  <row id="702" trl="Y">
-  <value column="Name" original="Request Status">请求状况</value>
+  <value column="Name" original="Request Status">请求状态</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Request Status">请求状况维护</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状况是 ( 打开，关闭，调查,..)</value>
+  <value column="Description" original="Maintain Request Status">维护请求状态</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查,..)</value>
  </row>
  <row id="703" trl="Y">
   <value column="Name" original="Standard Response">标准响应</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Request Standard Response ">一般请求响应维护 </value>
+  <value column="Description" original="Maintain Request Standard Response ">维护请求的标准响应 </value>
   <value column="Help" original="Text blocks to be copied into request response text">将被复制到请求响应文本的文本块</value>
  </row>
  <row id="704" trl="Y">
@@ -3742,20 +3742,20 @@
  <row id="796" trl="Y">
   <value column="Name" original="Task Line">任务行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Project Lines of Tasks">项目的任务行</value>
-  <value column="Help" original="Maintain Project Lines of Tasks">维护项目的任务行</value>
+  <value column="Description" original="Project Lines of Tasks">任务的项目明细</value>
+  <value column="Help" original="Maintain Project Lines of Tasks">维护任务的项目明细</value>
  </row>
  <row id="797" trl="Y">
-  <value column="Name" original="Project Line">项目行</value>
+  <value column="Name" original="Project Line">项目明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Project Lines">维护项目行</value>
-  <value column="Help" original="Maintain Project Level Lines">维护项目级别的行</value>
+  <value column="Description" original="Maintain Project Lines">维护项目明细</value>
+  <value column="Help" original="Maintain Project Level Lines">维护项目级别明细</value>
  </row>
  <row id="799" trl="Y">
   <value column="Name" original="Phase Line">阶段行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Project Lines of Phase">项目阶段行</value>
-  <value column="Help" original="Maintain Project Lines on Phase Level">维护项目阶段级别的行</value>
+  <value column="Help" original="Maintain Project Lines on Phase Level">在阶段级别上维护项目明细</value>
  </row>
  <row id="800" trl="Y">
   <value column="Name" original="Project">工程</value>
@@ -4692,7 +4692,7 @@
  <row id="53111" trl="Y">
   <value column="Name" original="Concept">概念</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Payroll Concept">维护薪酬联系人</value>
+  <value column="Description" original="Maintain Payroll Concept">维护薪酬概念</value>
   <value column="Help" original=""/>
  </row>
  <row id="53112" trl="Y">
@@ -4762,9 +4762,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="53123" trl="Y">
-  <value column="Name" original="Payroll Table Line">薪酬表行</value>
+  <value column="Name" original="Payroll Table Line">薪酬单明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Payroll Table Line">维护薪酬单</value>
+  <value column="Description" original="Maintain Payroll Table Line">维护薪酬单明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="53124" trl="Y">

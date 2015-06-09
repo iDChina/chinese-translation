@@ -110,7 +110,7 @@
  </row>
  <row id="121" trl="Y">
   <value column="Name" original="Location">位置/地址</value>
-  <value column="Description" original="Maintain Location Address">维护地址</value>
+  <value column="Description" original="Maintain Location Address">维护位置/地址</value>
   <value column="Help" original="The Location Window defines the address data within the system.  This window is for System Admin only.  Users would access location entries using the location button or tab on the appropriate window (i.e Order Entry or Business Partner)">此窗口定义系统中的地址数据。此窗口仅供系统管理员使用。用户通过使用相应窗口上的位置按钮或页签来访问地址信息(例如订单凭证或业务伙伴)</value>
  </row>
  <row id="122" trl="Y">
@@ -144,8 +144,8 @@
   <value column="Help" original="System Admin use only.">仅系统管理员使用</value>
  </row>
  <row id="130" trl="Y">
-  <value column="Name" original="Project">工程</value>
-  <value column="Description" original="Maintain Projects">维护服务项目</value>
+  <value column="Name" original="Project">项目</value>
+  <value column="Description" original="Maintain Projects">维护项目</value>
   <value column="Help" original="The Project Window is used to define the projects which will can be tracked by phases and tasks.">项目窗口用来定义项目（可以按阶段和任务跟踪的项目）</value>
  </row>
  <row id="131" trl="Y">
@@ -662,7 +662,7 @@
  </row>
  <row id="256" trl="Y">
   <value column="Name" original="Attribute Set">属性组合</value>
-  <value column="Description" original="Maintain Product Attribute Set">维持产品属性组</value>
+  <value column="Description" original="Maintain Product Attribute Set">维护产品属性集</value>
   <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.">定义产品属性组把另外的属性和价值加入产品。 如果你想要使序列和产品批号追踪能够，你需要定义一个被设定的属性</value>
  </row>
  <row id="257" trl="Y">
@@ -1067,7 +1067,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="336" trl="Y">
   <value column="Name" original="SLA by Partner">服务级别协议-按业务伙伴</value>
   <value column="Description" original="Service Level Agreement">服务级别协议</value>
-  <value column="Help" original="Maintain Service Level Agreements for Business Partners">维护业务伙伴的服务级别协议</value>
+  <value column="Help" original="Maintain Service Level Agreements for Business Partners">维护业务伙伴的服务级别协议(SLA)</value>
  </row>
  <row id="337" trl="Y">
   <value column="Name" original="Price List Schema">价格表计划</value>
@@ -1101,7 +1101,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="343" trl="Y">
   <value column="Name" original="Cost Element">成本要素</value>
-  <value column="Description" original="Maintain Product Cost Element">产品成本要素维护</value>
+  <value column="Description" original="Maintain Product Cost Element">维护产品的成本元素</value>
   <value column="Help" original="You can define your own product cost elements.">您可定义您自己的产品成本元素</value>
  </row>
  <row id="344" trl="Y">
@@ -1130,9 +1130,9 @@ Note that access information is cached and requires re-login or reset of cache.<
   <value column="Help" original="Text blocks to be copied into request response text">将被复制到请求响应文本的文本块</value>
  </row>
  <row id="349" trl="Y">
-  <value column="Name" original="Request Status">请求状况</value>
-  <value column="Description" original="Maintain Request Status">请求状况维护</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状况是 ( 打开，关闭，调查,..)</value>
+  <value column="Name" original="Request Status">请求状态</value>
+  <value column="Description" original="Maintain Request Status">维护请求状态</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查,..)</value>
  </row>
  <row id="350" trl="Y">
   <value column="Name" original="Web Store">网上商店</value>
@@ -1140,8 +1140,8 @@ Note that access information is cached and requires re-login or reset of cache.<
   <value column="Help" original="Define the web store setup.  ">定义网上商店的设置。  </value>
  </row>
  <row id="351" trl="Y">
-  <value column="Name" original="Position">位置</value>
-  <value column="Description" original="Maintain Job Positions">工作职位维护</value>
+  <value column="Name" original="Position">职位</value>
+  <value column="Description" original="Maintain Job Positions">维护工作职位</value>
   <value column="Help" original="Maintain internal (employee) or external positions">维护内部 (员工) 或外部的职位</value>
  </row>
  <row id="352" trl="Y">
@@ -1395,7 +1395,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  </row>
  <row id="53006" trl="Y">
   <value column="Name" original="Bill of Materials &amp; Formula ">物料清单与配方 </value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">维护产品物料清单与配方 </value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">维护产品BOM与配方 </value>
   <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called "formula", "recipe", "ingredients list" in certain industries.
 It answers the question, what are the components of the product?</value>
  </row>
