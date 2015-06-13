@@ -40,7 +40,7 @@
   <value column="Name" original="Tab">页签</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tab definition within a window holds fields">窗口内的页签定义，它具有字段</value>
-  <value column="Help" original="The Tab Tab defines each Tab within a Window.  Each Tab contains a discrete selection of fields. Note that the display and read only logic is evaluated when loading the window.">“页签”页签定义了窗口中的每个页签。每个“页签”包含字段的离散组合。注意，显示逻辑与只读逻辑在加载窗口时测值</value>
+  <value column="Help" original="The Tab Tab defines each Tab within a Window.  Each Tab contains a discrete selection of fields. Note that the display and read only logic is evaluated when loading the window.">"页签"页签定义了窗口中的每个页签。每个页签包含字段的离散组合。注意，显示逻辑与只读逻辑在加载窗口时进行评估</value>
  </row>
  <row id="107" trl="Y">
   <value column="Name" original="Field">字段</value>
@@ -126,7 +126,7 @@
   <value column="Name" original="User Roles">用户角色</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="User Roles">用户角色</value>
-  <value column="Help" original="The User Roles Tab define the Roles each user may have.  The Roles will determine what windows, tasks, processes and workflows that a User has access to.">定义用户有的角色. 角色将决定一个用户能访问的窗口,任务,处理和工作流.</value>
+  <value column="Help" original="The User Roles Tab define the Roles each user may have.  The Roles will determine what windows, tasks, processes and workflows that a User has access to.">用户角色页签 定义 每个用户可以拥有的角色。角色将决定一个用户所能访问的窗口、任务、处理和工作流</value>
  </row>
  <row id="122" trl="Y">
   <value column="Name" original="Node">节点</value>
@@ -234,7 +234,7 @@
   <value column="Name" original="Sequence">顺序</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Sequence Definition">序号定义</value>
-  <value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix.">定义单据使用的序列编号. 这还可以包括一个Alpha后缀/前缀.</value>
+  <value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix.">序号页签 定义了 单据使用的序列编号。序列编号还可以包含一个字母后缀和/或前缀</value>
  </row>
  <row id="148" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
@@ -361,7 +361,7 @@
   <value column="Name" original="Tax Category">税的类别</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax Category">税的类别</value>
-  <value column="Help" original="The Tax Category Tab is used to define and maintain Tax Categories.  Each Product is associated with a Tax Category.  This facilitates adapting to changes in taxation.">税种页签用于定义和维护税种。每个产品与一个税种相关联。这方便了对税更改的适应</value>
+  <value column="Help" original="The Tax Category Tab is used to define and maintain Tax Categories.  Each Product is associated with a Tax Category.  This facilitates adapting to changes in taxation.">税种页签用于定义和维护税种。每个产品与一个税种相关联。这便于在税收改变时调整</value>
  </row>
  <row id="177" trl="Y">
   <value column="Name" original="Warehouse">仓库</value>
@@ -391,7 +391,7 @@
   <value column="Name" original="Substitute">替代</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Substitute">替代</value>
-  <value column="Help" original="The Substitute Tab defines products which may be used as a replacement for the selected product.">替代页签定义了将可能用作所选产品替代品的产品</value>
+  <value column="Help" original="The Substitute Tab defines products which may be used as a replacement for the selected product.">替代页签定义了将可以替代所选产品的替代品</value>
  </row>
  <row id="182" trl="Y">
   <value column="Name" original="Replenish">补仓</value>
@@ -745,7 +745,7 @@
   <value column="Name" original="Shipment">发货单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Shipments and Customer Returns">发货单与客户退货</value>
-  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">允许你产生,维护和处理发货到一个客户或从一个客户退货. </value>
+  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">发货页签允许您为客户生成、维护、输入和处理发货至客户或从客户退货</value>
  </row>
  <row id="258" trl="Y">
   <value column="Name" original="Shipment Line">收货单的行</value>
@@ -805,7 +805,7 @@
   <value column="Name" original="Revenue Recognition">输入确认</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Revenue Recognition">输入确认</value>
-  <value column="Help" original="The Revenue Recognition Tab defines the intervals at which revenue will be recognized.  You can also base the revenue recognition on provided Service Levels.">定义这间隔的将确认收入. 你还可以根据这收入确认来提供服务级.</value>
+  <value column="Help" original="The Revenue Recognition Tab defines the intervals at which revenue will be recognized.  You can also base the revenue recognition on provided Service Levels.">“营业收入确认”页签定义了时间间隔，在这期间的营业收入将会被确认。您也可以依据所提供的服务水平来进行收入确认</value>
  </row>
  <row id="273" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -902,7 +902,7 @@
   <value column="Name" original="Material Receipt">物料收货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Receipts">收款之后</value>
-  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">收货单页签允许您生成、维护、输入和处理供应商发货单或供应商退货</value>
+  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">发货页签允许您为供应商生成、维护、输入和处理供应商发货单</value>
  </row>
  <row id="297" trl="Y">
   <value column="Name" original="Receipt Line">收货单行</value>
@@ -998,7 +998,7 @@
   <value column="Name" original="Task Access">任务权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Task Access">任务权限</value>
-  <value column="Help" original="The Task Access Tab defines the Task and type of access that this Role is granted.">任务访问页签定义了任务，以及该角色被授予的访问类型 (权限) </value>
+  <value column="Help" original="The Task Access Tab defines the Task and type of access that this Role is granted.">任务访问页签定义了任务，以及该角色被授予的访问类型 (权限)</value>
  </row>
  <row id="314" trl="Y">
   <value column="Name" original="Error Message">错误消息</value>
@@ -1315,15 +1315,15 @@
   <value column="Help" original="A column represents a column in a Financial Report">列描述了财务报表中的列</value>
  </row>
  <row id="375" trl="Y">
-  <value column="Name" original="Report Line Set">报表行集合</value>
+  <value column="Name" original="Report Line Set">报表行设置</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Financial Report Line Set">维护财务报表行集合</value>
+  <value column="Description" original="Maintain Financial Report Line Set">维护财务报表明细设置</value>
   <value column="Help" original=""/>
  </row>
  <row id="376" trl="Y">
   <value column="Name" original="Report Line">报表行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Financial Report Line">维护财务报表行</value>
+  <value column="Description" original="Maintain Financial Report Line">维护财务报表明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="377" trl="Y">
@@ -1336,7 +1336,7 @@
   <value column="Name" original="Revenue Recognition Plan">收入确认计划</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View Revenue Recognition Plan">看收入验证计划</value>
-  <value column="Help" original="The Revenue Recognition plan is generated then invoicing a product with revenue recognition.  With Revenue Recognition, the amount is posted to the Unrecognized revenue and over time or based on Service Level booked to Earned Revenue.">产生发票产品收入确认. 收入确认这金额是输入到这未确认收入和结束时间或录入已获得收入为基础服务级.</value>
+  <value column="Help" original="The Revenue Recognition plan is generated then invoicing a product with revenue recognition.  With Revenue Recognition, the amount is posted to the Unrecognized revenue and over time or based on Service Level booked to Earned Revenue.">收入确认计划会被生成，然后生成有收入确认的产品的发票。伴随着收入确认，金额将会被过账到未确认收入并随着时间推移，或根据服务水平的登记到已获收入上</value>
  </row>
  <row id="379" trl="Y">
   <value column="Name" original="Revenue Recognition Run">收入确认计算</value>
@@ -1876,7 +1876,7 @@
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Print Label Line">打印标签行</value>
-  <value column="Help" original="Maintain Format of the line on a Label">维护标签上的行的格式</value>
+  <value column="Help" original="Maintain Format of the line on a Label">维护标签上明细的格式</value>
  </row>
  <row id="474" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -1939,7 +1939,7 @@
   <value column="Help" original="You create Record Access records by enabling &quot;Personal Lock&quot; for the administrative role and Ctl-Lock (holding the Ctrl key while clicking on the Lock button).&#10;&lt;p&gt;&#10;If listed here, the Role can(not) access the data records of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a record and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a recorf and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[通过启用管理角色的“个人锁定”选项以及 Ctrl + 锁定 (按住 Ctrl 键，点击工具栏上的锁定按钮)，您可以创建记录级访问权限。<p>如果列于此处，角色可以或不可以访问该表中的数据记录，即使该角色有权访问该功能。<br>如果您包含了对记录的访问权限，并选中了只读，那么您只能读取数据 (否则拥有完全访问的权限)。<br>如果您排除了对记录的访问权限，并选择了只读，您只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
  </row>
  <row id="484" trl="Y">
-  <value column="Name" original="Column Access">列权限</value>
+  <value column="Name" original="Column Access">列访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Column Access">维护列访问</value>
   <value column="Help" original="If listed here, the Role can(not) access the column of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a column and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a column and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[如果列于此处，角色可以或不可以访问该表中的列，即使该角色有权访问该功能。<br>如果您包含了对列的访问权限，并选中了只读，那么您只能读取数据 (否则拥有完全访问的权限)。<br>如果您排除了对列的访问权限，并选择了只读，您只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
@@ -2309,7 +2309,7 @@
   <value column="Name" original="Knowledge Source">知识来源</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Source of Knowledge Entries">知识文章的来源</value>
-  <value column="Help" original="The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">Knowlegde 进入的来源是对开始系统的一个指针。 知识进入为比较明细的信息有一个另外的进入 (描述网址) </value>
+  <value column="Help" original="The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">"知识条目来源"是指向源系统的指针。知识条目具有额外的条目 (描述URL)，用于更详尽信息的参考</value>
  </row>
  <row id="548" trl="Y">
   <value column="Name" original="Knowledge Synonym">知识同义字</value>

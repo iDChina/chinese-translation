@@ -64,14 +64,14 @@
  <row id="111" trl="Y">
   <value column="Name" original="Role">角色</value>
   <value column="Description" original="Maintain User Responsibilities">维护用户职责</value>
-  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">角色窗口允许您定义本系统中的用户将具有的不同角色。角色控制了对窗口、任务、报表等的访问权限。对于一个实体，有预定义的管理员和用户角色。您还可以添加更多的角色，以控制对特定功能或数据的访问。
-您可以添加用户到角色中。
-注意：访问权限信息被缓存起来，要求重新登录或重置缓存才能生效</value>
+  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">角色窗口允许您定义不同角色（本系统中的用户将会用上）。角色控制了对窗口、任务、报表等的访问权限。对于一个实体，有预定义的管理员(Administrator)和用户(User)角色。您还可以添加更多的角色，以控制对特定功能或数据的访问
+您可以添加用户到角色中
+注意：访问权限信息会被缓存起来，更新后的访问权限要在重新登录或重置缓存后才能生效</value>
  </row>
  <row id="112" trl="Y">
   <value column="Name" original="Document Sequence">单据序号</value>
   <value column="Description" original="Maintain System and Document Sequences">维护系统和单据的序号</value>
-  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号窗口定义单据编号将如何被排序。更改单据编号的产生方式。您可添加前缀或后缀，或者更改当前编号</value>
+  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号窗口 定义了单据编号将如何被排序&#10;更改单据编号的生成方法。您可添加前缀或后缀，或者更改当前编号</value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
@@ -90,7 +90,7 @@
  </row>
  <row id="116" trl="Y">
   <value column="Name" original="Currency Rate">汇率</value>
-  <value column="Description" original="Maintain Currency Conversion Rates">汇率设置</value>
+  <value column="Description" original="Maintain Currency Conversion Rates">维护汇率设置</value>
   <value column="Help" original="The Conversion Rates window is used to define the conversion rates that will be used when converting document amounts from one currency to another. Note that only the multiply rate is used; The divide rate is for visualization only.">此窗口定义在从一种货币到另一种货币进行单据金额转换的时候的转换比率。注意 仅使用乘的比率。除的比率只是用作显示的.</value>
  </row>
  <row id="117" trl="Y">
@@ -171,12 +171,12 @@
  <row id="137" trl="Y">
   <value column="Name" original="Tax Rate">税率</value>
   <value column="Description" original="Maintain Taxes and their Rates">维护税和税率</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个州进行定义</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
  </row>
  <row id="138" trl="Y">
   <value column="Name" original="Tax Category">税的类别</value>
   <value column="Description" original="Maintain Tax Categories">维护税种</value>
-  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用于输入和维护税的类别。每个产品与税种相关联，它使得更改税率后的处理得以简化</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用于输入和维护税收的类别。每个产品与税种相关联，它使得更改税率后的处理得以简化</value>
  </row>
  <row id="139" trl="Y">
   <value column="Name" original="Warehouse &amp; Locators">仓库与货位</value>
@@ -196,7 +196,7 @@
  <row id="142" trl="Y">
   <value column="Name" original="Shipper">承运人</value>
   <value column="Description" original="Maintain Shippers">维护承运人</value>
-  <value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">承运人窗口定义组织使用的不同承运人。当承运人交付方法用在订单上时，必须选择预定义的承运人</value>
+  <value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">承运人窗口定义组织所用到的不同的承运人。如果要在订单上指定交付方式，必须预先定义好承运人</value>
  </row>
  <row id="143" trl="Y">
   <value column="Name" original="Sales Order">销售订单</value>
@@ -233,7 +233,7 @@
  <row id="151" trl="Y">
   <value column="Name" original="Element">元素</value>
   <value column="Description" original="Maintain System Elements">维护字段元素</value>
-  <value column="Help" original="The System Element Window is the Central Repository for Field Names Descriptions and Help/Comments">系统元素窗口是字段名称、描述和帮助/注释的中央存储库</value>
+  <value column="Help" original="The System Element Window is the Central Repository for Field Names Descriptions and Help/Comments">系统元素窗口用于集中保存字段名称、描述和帮助/注释</value>
  </row>
  <row id="152" trl="Y">
   <value column="Name" original="Sales Region">销售区域</value>
@@ -267,7 +267,7 @@
  </row>
  <row id="161" trl="Y">
   <value column="Name" original="Charge">费用</value>
-  <value column="Description" original="Maintain Charges">维护杂费</value>
+  <value column="Description" original="Maintain Charges">维护费用</value>
   <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">杂费窗口定义了可能产生的不同杂费。这些可包含银行手续费、供应商杂费和手工处理费等</value>
  </row>
  <row id="162" trl="Y">
@@ -278,7 +278,7 @@
  <row id="163" trl="Y">
   <value column="Name" original="Tree">树</value>
   <value column="Description" original="Maintain Tree definition">维护树结构定义</value>
-  <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">树窗口定义当树显示时将使用的描述符和图片</value>
+  <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">树窗口定义显示树时使用的描述和图片</value>
  </row>
  <row id="165" trl="Y">
   <value column="Name" original="Report &amp; Process">报表与流程</value>
@@ -298,7 +298,7 @@
  <row id="169" trl="Y">
   <value column="Name" original="Shipment (Customer)">发货单 (客户)</value>
   <value column="Description" original="Customer Inventory Shipments Customer Returns">客户库存发货单，客户退货</value>
-  <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">装船窗户定义装船制造或给予一个客户。  他们从一个客户次序被产生。  装船文件将会产生客户发票</value>
+  <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">发货窗口定义为客户发货单（包括已经作出的、即将作出的发货）。发货单从客户订单生成。发货单将会生成客户发票</value>
  </row>
  <row id="170" trl="Y">
   <value column="Name" original="Inventory Move">移库</value>
@@ -313,7 +313,7 @@
  <row id="174" trl="Y">
   <value column="Name" original="Revenue Recognition">输入确认</value>
   <value column="Description" original="Revenue Recognition Rules">输入确认规则</value>
-  <value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">税务局承认窗户定义间隔在哪一收入将会被辨认出。 二者择一地，收入承认可能被联编维修被提供的水平</value>
+  <value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">“收入确认”窗口定义了时间间隔，在这期间的营业收入将会被确认。另外，收入确认也可以跟所提供的服务水平进行关联</value>
  </row>
  <row id="175" trl="Y">
   <value column="Name" original="Perpetual Inventory">永续盘点</value>
@@ -438,7 +438,7 @@
  <row id="205" trl="Y">
   <value column="Name" original="View Allocation">取消付款分配</value>
   <value column="Description" original="View and Reverse Allocations ">取消付款分配 </value>
-  <value column="Help" original="The Reverse Allocation Window allows you to view and reverse a payment allocation">查看分配窗口允许您查看和逆转付款分配</value>
+  <value column="Help" original="The Reverse Allocation Window allows you to view and reverse a payment allocation">撤消划拨窗口允许您查看和撤消付款划拨</value>
  </row>
  <row id="206" trl="Y">
   <value column="Name" original="Payment Selection">付款选择</value>
@@ -447,8 +447,8 @@
  </row>
  <row id="207" trl="Y">
   <value column="Name" original="Commission">佣金标识</value>
-  <value column="Description" original="Maintain Commissions and Royalties">维护佣金和版税</value>
-  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group)."><![CDATA[定义和维护用于计算的佣金和版税。定义您想要佣金被计算的方法和时间，以及支付给谁。<p>佣金窗口允许您定义如何支付佣金和版税。您可为业务伙伴和销售代表设置佣金，他们可以是外部的。使用本功能，您可处理特许授权。您可为相同的订单或发票支付多份佣金，例如分别支付给输入事务处理的人、负责产品销售的人以及业务伙伴 (分组 )。]]></value>
+  <value column="Description" original="Maintain Commissions and Royalties">维护佣金和特许权使用费</value>
+  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group)."><![CDATA[定义和维护用于计算的佣金和特许权使用费。定义您想要佣金被计算的方法和时间，以及支付给谁。<p>佣金窗口允许您定义如何支付佣金和许权使用费。您可为业务伙伴和销售代表设置佣金，他们可以是外部的。使用本功能，您可处理特许授权。您可为相同的订单或发票支付多份佣金，例如分别支付给输入事务处理的人、负责产品销售的人以及业务伙伴 (分组 )。]]></value>
  </row>
  <row id="208" trl="Y">
   <value column="Name" original="Project Reporting">项目周期</value>
@@ -487,7 +487,7 @@
  </row>
  <row id="218" trl="Y">
   <value column="Name" original="Report Line Set">报表行集合</value>
-  <value column="Description" original="Maintain Financial Report Line Sets">维持财政的报告线组</value>
+  <value column="Description" original="Maintain Financial Report Line Sets">维护财务报表明细设置</value>
   <value column="Help" original="The Line Set determines, which lines are printed in a Financial Report">报表行集合决定财务报表中打印哪些行</value>
  </row>
  <row id="220" trl="Y">
@@ -522,7 +522,7 @@
  </row>
  <row id="227" trl="Y">
   <value column="Name" original="System Image">系统图像</value>
-  <value column="Description" original="Maintain Images and Icons">维护图片</value>
+  <value column="Description" original="Maintain Images and Icons">维护图片和图标</value>
   <value column="Help" original=""/>
  </row>
  <row id="228" trl="Y">
@@ -722,9 +722,9 @@
  </row>
  <row id="268" trl="Y">
   <value column="Name" original="Role Data Access">角色访问权限</value>
-  <value column="Description" original="Maintain Data Access Rules">维护数据访问的规则</value>
-  <value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">Maintain Data Access Roles of Roles/Responsibilties.
-Note that access information is cached and requires re-login or reset of cache.</value>
+  <value column="Description" original="Maintain Data Access Rules">维护角色的数据访问规则</value>
+  <value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">维护角色/职责的数据访问规则
+注意：该信息被缓存，需要重新登录或重置缓存方可生效</value>
  </row>
  <row id="269" trl="Y">
   <value column="Name" original="Advertisement">广告</value>
@@ -758,8 +758,8 @@ Note that access information is cached and requires re-login or reset of cache.<
 </value>
  </row>
  <row id="275" trl="Y">
-  <value column="Name" original="Invoice Payment Schedule">发票支付计划</value>
-  <value column="Description" original="Maintain Invoice Payment Schedule">维护发票支付计划</value>
+  <value column="Name" original="Invoice Payment Schedule">发票付款计划</value>
+  <value column="Description" original="Maintain Invoice Payment Schedule">维护发票付款计划</value>
   <value column="Help" original="Maintain Payment Schedule of unpaid invoices">维护未支付发票的付款计划</value>
  </row>
  <row id="276" trl="Y">
@@ -830,7 +830,7 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="289" trl="Y">
   <value column="Name" original="Knowledge Source">知识来源</value>
   <value column="Description" original="Source of Knowledge Entries">知识文章的来源</value>
-  <value column="Help" original="The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">Knowlegde 进入的来源是对开始系统的一个指针。 知识进入为比较明细的信息有一个另外的进入 (描述网址) </value>
+  <value column="Help" original="The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">"知识条目来源"是指向源系统的指针。知识条目具有额外的条目 (描述URL)，用于更详尽信息的参考</value>
  </row>
  <row id="290" trl="Y">
   <value column="Name" original="Knowledge Synonym">知识同义字</value>
@@ -1272,11 +1272,11 @@ Note that access information is cached and requires re-login or reset of cache.<
  <row id="379" trl="Y">
   <value column="Name" original="Media Item">媒体项</value>
   <value column="Description" original="Maintain Web Media">维护Web媒体</value>
-  <value column="Help" original="Maintain Content Management Media">维护内容管理的媒体</value>
+  <value column="Help" original="Maintain Content Management Media">维护内容管理的媒质</value>
  </row>
  <row id="380" trl="Y">
   <value column="Name" original="Chat Type">聊天类型</value>
-  <value column="Description" original="Maintain Chat Types">维护交谈类型</value>
+  <value column="Description" original="Maintain Chat Types">维护聊天类型</value>
   <value column="Help" original="Chat Types">聊天类型</value>
  </row>
  <row id="381" trl="Y">
@@ -1511,7 +1511,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53022" trl="Y">
   <value column="Name" original="Tax Rate Parent">父级税率</value>
   <value column="Description" original="Maintain Taxes and their Rates">维护税和税率</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个州进行定义</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
  </row>
  <row id="53023" trl="Y">
   <value column="Name" original="Tax Type">税类型</value>
@@ -1616,7 +1616,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53046" trl="Y">
   <value column="Name" original="Transfer Asset Entry">资产转让账目</value>
   <value column="Description" original="Create Transfer Asset Entry">创建资产转移账目</value>
-  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">此窗口用于录入和修改销售订单</value>
+  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">转让资产录入窗口允许您创建和过账资产转移到总账</value>
  </row>
  <row id="53047" trl="Y">
   <value column="Name" original="Disposed Asset Entry">处置资产条目</value>

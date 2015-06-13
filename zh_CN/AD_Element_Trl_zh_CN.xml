@@ -44,7 +44,7 @@
   <value column="Name" original="System Element">系统元素</value>
   <value column="PrintName" original="Element">元素</value>
   <value column="Description" original="System Element enables the central maintenance of column description and help.">系统元素使列描述与帮助得以集中维护</value>
-  <value column="Help" original="The System Element allows for the central maintenance of help, descriptions and terminology for a database column.">系统元素允许集中维护数据库列的帮助、描述和术语</value>
+  <value column="Help" original="The System Element allows for the central maintenance of help, descriptions and terminology for a database column.">系统元素可以集中维护数据库列的帮助、描述和术语</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -184,7 +184,7 @@
   <value column="Name" original="Role">角色</value>
   <value column="PrintName" original="Role">角色</value>
   <value column="Description" original="Responsibility Role">责任角色</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定了用户的安全和访问权限。当一个用户属于这个角色时，他就有这个角色下的权限</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -254,7 +254,7 @@
   <value column="Name" original="Tree">树</value>
   <value column="PrintName" original="Tree">树</value>
   <value column="Description" original="Identifies a Tree">标识一个树</value>
-  <value column="Help" original="The Tree field identifies a unique Tree in the system. Trees define roll ups or summary levels of information.  They are used in reports for defining report points and summarization levels.">树字段标识系统中唯一的树。树定义了累计或汇总级别的信息。它们用于报表中，定义报表点以及汇总级别</value>
+  <value column="Help" original="The Tree field identifies a unique Tree in the system. Trees define roll ups or summary levels of information.  They are used in reports for defining report points and summarization levels.">"树"字段标识系统中唯一的树。"树"定义了卷起或汇总级别的信息。它们用于报表中，定义报表节点以及汇总级别</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -524,7 +524,7 @@
   <value column="Name" original="Source Credit">原始贷记</value>
   <value column="PrintName" original="Source Credit">原始贷记</value>
   <value column="Description" original="Source Credit Amount">原始贷记金额</value>
-  <value column="Help" original="The Source Credit Amount indicates the credit amount for this line in the source currency.">原始贷记金额表示以原始货币表示的该行的贷记金额</value>
+  <value column="Help" original="The Source Credit Amount indicates the credit amount for this line in the source currency.">原币贷方金额指该明细的原币别的贷方金额。金额以原币别( source currency)表示</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -534,7 +534,7 @@
   <value column="Name" original="Source Debit">原始借记</value>
   <value column="PrintName" original="Source Debit">原始借记</value>
   <value column="Description" original="Source Debit Amount">原始借记金额</value>
-  <value column="Help" original="The Source Debit Amount indicates the credit amount for this line in the source currency.">原始借记金额表示以原始货币表示的该行的借记金额</value>
+  <value column="Help" original="The Source Debit Amount indicates the credit amount for this line in the source currency.">原币借方金额指该明细的原币别的借方金额。金额以原币别( source currency)表示</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -834,7 +834,7 @@
   <value column="Name" original="Tax Category">税的类别</value>
   <value column="PrintName" original="Tax Category">税的类别</value>
   <value column="Description" original="Tax Category">税的类别</value>
-  <value column="Help" original="The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.">税种提供了将相似的税进行分级的方法。例如，销售税或增值税</value>
+  <value column="Help" original="The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.">税种提供了将相似的税进行分级的方法。例如，营业税或增值税</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -854,7 +854,7 @@
   <value column="Name" original="UOM Conversion">计量单位转换</value>
   <value column="PrintName" original="UOM Conversion">计量单位转换</value>
   <value column="Description" original="Unit of Measure Conversion">计量单位转换</value>
-  <value column="Help" original="The UOM Conversion identifies a unique to and from Unit of Measure, conversion rate and conversion date range.">计量单位转换标识唯一的源和目标计量单位、转换率以及转换日期范围</value>
+  <value column="Help" original="The UOM Conversion identifies a unique to and from Unit of Measure, conversion rate and conversion date range.">计量单位转换标识唯一的目标和原计量单位、转换率以及转换日期范围</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -884,7 +884,7 @@
   <value column="Name" original="UOM for Length">长度单位</value>
   <value column="PrintName" original="UOM for Length">长度单位</value>
   <value column="Description" original="Standard Unit of Measure for Length">标准的长度计量单位</value>
-  <value column="Help" original="The Standard UOM for Length indicates the UOM to use for products referenced by length in a document.">长度的标准计量单位表示用于产品的计量单位，在单据中被引用为长度</value>
+  <value column="Help" original="The Standard UOM for Length indicates the UOM to use for products referenced by length in a document.">长度的标准计量单位表示在单据中产品用长度计量时使用的单位</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -894,7 +894,7 @@
   <value column="Name" original="UOM for Time">时间单位</value>
   <value column="PrintName" original="UOM for Time">时间单位</value>
   <value column="Description" original="Standard Unit of Measure for Time">标准的时间计量单位</value>
-  <value column="Help" original="The Standard UOM for Time indicates the UOM to use for products referenced by time in a document.">时间的标准计量单位表示用于产品的计量单位，在单据中被引用为时间</value>
+  <value column="Help" original="The Standard UOM for Time indicates the UOM to use for products referenced by time in a document.">时间的标准计量单位表示在单据中产品用时间计量时所用的单位</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -904,7 +904,7 @@
   <value column="Name" original="UOM for Volume">体积单位</value>
   <value column="PrintName" original="UOM for Volume">体积单位</value>
   <value column="Description" original="Standard Unit of Measure for Volume">标准的体积计量单位</value>
-  <value column="Help" original="The Standard UOM for Volume indicates the UOM to use for products referenced by volume in a document.">体积的标准计量单位表示用于产品的计量单位，在单据中被引用为体积</value>
+  <value column="Help" original="The Standard UOM for Volume indicates the UOM to use for products referenced by volume in a document.">体积的标准计量单位表示在单据中产品用体积计量时所用的单位</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -914,7 +914,7 @@
   <value column="Name" original="UOM for Weight">重量单位</value>
   <value column="PrintName" original="UOM for Weight">重量单位</value>
   <value column="Description" original="Standard Unit of Measure for Weight">标准的重量计量单位</value>
-  <value column="Help" original="The Standard UOM for Weight indicates the UOM to use for products referenced by weight in a document.">重量的标准计量单位表示用于产品的计量单位，在单据中被引用为重量</value>
+  <value column="Help" original="The Standard UOM for Weight indicates the UOM to use for products referenced by weight in a document.">重量的标准计量单位表示在单据中产品用重量计量时所用的单位</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2168,7 +2168,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Sales Price list">销售价格表</value>
   <value column="PrintName" original="Sales Price list">销售价格表</value>
   <value column="Description" original="This is a Sales Price List">这是一份销售价格表</value>
-  <value column="Help" original="The Sales Price List check box indicates if this price list is used for sales transactions.">销售价格表复选框表示该价格表是否用于销售事务处理</value>
+  <value column="Help" original="The Sales Price List check box indicates if this price list is used for sales transactions.">"销售价格表"复选框表示该价格表是否用于销售交易</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2177,10 +2177,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="409" trl="Y">
   <value column="Name" original="Sales Representative">销售代表</value>
   <value column="PrintName" original="Sales Rep">代表</value>
-  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">标识业务伙伴是否是销售代表或公司代理</value>
+  <value column="Description" original="Indicates if  the business partner is a sales representative or company agent">"销售代表"复选框表示该业务伙伴是否为公司销售代表。公司的销售代表可以是职员，但也可以不是职员</value>
   <value column="Help" original="The Sales Rep checkbox indicates if this business partner is a sales representative. A sales representative may also be an employee, but does not need to be.">销售代表指是否该业务伙伴是一个销售代表。一个销售代表可以是一个职员，但也可以不是</value>
   <value column="PO_Description" original="Business Partner responsible for documents">凭证的业务伙伴负责人</value>
-  <value column="PO_Help" original="The Sales Rep checkbox indicates if this business partner is a company agent. A company agent may also be an employee, but does not need to be.">销售代表指定该伙伴是否为销售代表，销售代表可以是职员，但也可以不是</value>
+  <value column="PO_Help" original="The Sales Rep checkbox indicates if this business partner is a company agent. A company agent may also be an employee, but does not need to be.">"销售代表"复选框表示该业务伙伴是否为公司销售代表。公司的销售代表可以是职员，但也可以不是职员</value>
   <value column="PO_Name" original="Company Agent">公司代理</value>
   <value column="PO_PrintName" original="Company Agent">公司代理</value>
  </row>
@@ -2188,7 +2188,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Same Line">相同的行</value>
   <value column="PrintName" original="Same Line">相同的行</value>
   <value column="Description" original="Displayed on same line as previous field">与前一字段显示于同一行</value>
-  <value column="Help" original="The Same Line checkbox indicates that the field will display on the same line as the previous field.">同一行复选框表示该字段将与前一字段显示在同一行</value>
+  <value column="Help" original="The Same Line checkbox indicates that the field will display on the same line as the previous field.">"同一明细"复选框表示该字段将与前一字段显示在同一明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2198,7 +2198,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Security enabled">安全性启用</value>
   <value column="PrintName" original="Security enabled">安全性启用</value>
   <value column="Description" original="If security is enabled, user access to data can be restricted via Roles">如果安全性被启用, 用户对数据的访问可通过角色施加限制</value>
-  <value column="Help" original="The Security Enabled checkbox indicates that user access to the data in this table can be restricted using Roles.">安全性启用复选框表示用户对此表中数据的访问可通过角色加以限制</value>
+  <value column="Help" original="The Security Enabled checkbox indicates that user access to the data in this table can be restricted using Roles.">"安全性启用"复选框表示：可以通过角色限制用户对该表的数据访问</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2208,7 +2208,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Single Row Layout">单记录排列</value>
   <value column="PrintName" original="Single Row Layout">单记录排列</value>
   <value column="Description" original="Default for toggle between Single- and Multi-Row (Grid) Layout">标记默认是单记录还是多记录(网格)排列</value>
-  <value column="Help" original="The Single Row Layout checkbox indicates if the default display type for this window is a single row as opposed to multi row.">单行布局复选框表示该窗口的默认显示类型是否为单行布局模式，而非多行 (网格) 模式</value>
+  <value column="Help" original="The Single Row Layout checkbox indicates if the default display type for this window is a single row as opposed to multi row.">"单行布局"复选框表示该窗口的默认显示类型是否为单行布局模式，而非多行 (网格) 模式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2228,7 +2228,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Stocked">可储存</value>
   <value column="PrintName" original="Stocked">可储存</value>
   <value column="Description" original="Organization stocks this product">组织可以储存该产品</value>
-  <value column="Help" original="The Stocked check box indicates if this product is stocked by this Organization.">可储存复选框表示是否可以储存该产品</value>
+  <value column="Help" original="The Stocked check box indicates if this product is stocked by this Organization.">储存复选框指此产品是否由该组织机构储存</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2258,7 +2258,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Used for Record ID">用于记录 ID</value>
   <value column="PrintName" original="Used for Record ID">用于记录 ID</value>
   <value column="Description" original="The document number  will be used as the record key">凭证号将作为记录的主键</value>
-  <value column="Help" original="The Used for Record ID checkbox indicates if the document id will be used as the key to the record">用于记录ID复选框表示该单据ID是否将用作记录的关键字</value>
+  <value column="Help" original="The Used for Record ID checkbox indicates if the document id will be used as the key to the record">"用于记录 ID" 复选框表示该单据 ID 是否用作该记录的关键字</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2288,7 +2288,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="TranslationTab">翻译页签</value>
   <value column="PrintName" original="TranslationTab">翻译页签</value>
   <value column="Description" original="This Tab contains translation information">页签包含翻译信息</value>
-  <value column="Help" original="The Translation Tab checkbox indicate if a tab contains translation information. To display translation information, enable this in Tools&gt;Preference."><![CDATA[翻译页签复选框表示页签是否包含翻译信息。要显示翻译信息，在工具-->偏爱设置中启用它。]]></value>
+  <value column="Help" original="The Translation Tab checkbox indicate if a tab contains translation information. To display translation information, enable this in Tools&gt;Preference."><![CDATA[翻译页签复选框表示某个页签是否包含翻译信息。如果要显示翻译信息，在 工具 &gt; 偏爱设置 中启用它]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3049,7 +3049,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="SKU">单品编码SKU</value>
   <value column="PrintName" original="SKU">单品编码SKU</value>
   <value column="Description" original="Stock Keeping Unit">产品的型号编码。SKU 表示用户自定义的库存保持单位，按照自定义的规则编码</value>
-  <value column="Help" original="The SKU indicates a user defined stock keeping unit.  It may be used for an additional bar code symbols or your own schema.">SKU 表示了用户定义的库存保持单位，也称单品。它可能用于额外的条码符号或您自己的图样</value>
+  <value column="Help" original="The SKU indicates a user defined stock keeping unit.  It may be used for an additional bar code symbols or your own schema.">SKU即库存进出计量的单位，可以是以件，盒，托盘等为单位。SKU目前被引申为产品统一编号，因此SKU也可以用作额外的条形码或您自己的图样</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3179,7 +3179,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Serial No">序列号</value>
   <value column="PrintName" original="Serial No">序列号</value>
   <value column="Description" original="Product Serial Number ">产品序列号 </value>
-  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">序列号标识被追踪和担保的产品。它只可在数量为1时使用</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">"序列号"用于标识被追踪和担保的产品。它只有在数量为 1 时使用</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3189,7 +3189,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Share">份额</value>
   <value column="PrintName" original="Share">份额</value>
   <value column="Description" original="Share of Customer's business as a percentage">客户的生意份额百分比</value>
-  <value column="Help" original="The Share indicates the percentage of this Business Partner's volume of the products supplied.">份额表示所提供产品占该业务伙伴销量的百分比</value>
+  <value column="Help" original="The Share indicates the percentage of this Business Partner's volume of the products supplied.">"份额"表示该业务伙伴产品供应额的百分比</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3199,7 +3199,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Shelf Depth">货架深度</value>
   <value column="PrintName" original="Shelf Depth">货架深度</value>
   <value column="Description" original="Shelf depth required">所需的货架深度</value>
-  <value column="Help" original="The Shelf Depth indicates the depth dimension required on a shelf for a product ">产品货架要求的深度 </value>
+  <value column="Help" original="The Shelf Depth indicates the depth dimension required on a shelf for a product ">货架深度 指 一个产品在货架上所需的深度尺寸 </value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3209,7 +3209,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Shelf Height">货架高度</value>
   <value column="PrintName" original="Shelf Height">货架高度</value>
   <value column="Description" original="Shelf height required">所需的货架高度</value>
-  <value column="Help" original="The Shelf Height indicates the height dimension required on a shelf for a product">货架高度表示产品货架所需的高度</value>
+  <value column="Help" original="The Shelf Height indicates the height dimension required on a shelf for a product">货架高度 表示 一个产品在货架上所需的高度尺寸</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3219,7 +3219,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Shelf Width">货架宽度</value>
   <value column="PrintName" original="Shelf Width">货架宽度</value>
   <value column="Description" original="Shelf width required">所需的货架宽度</value>
-  <value column="Help" original="The Shelf Width indicates the width dimension required on a shelf for a product">货架宽度表示产品货架所需的宽度</value>
+  <value column="Help" original="The Shelf Width indicates the width dimension required on a shelf for a product">货架宽度 表示 一个产品在货架上所需的宽度尺寸</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3280,7 +3280,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Substitute">替代</value>
   <value column="PrintName" original="Substitute">替代</value>
   <value column="Description" original="Entity which can be used in place of this entity">产品可用于替代另一产品</value>
-  <value column="Help" original="The Substitute identifies the entity to be used as a substitute for this entity.">替代标识了用作该产品的替代物的产品</value>
+  <value column="Help" original="The Substitute identifies the entity to be used as a substitute for this entity.">"替代"标识了这个个体会被用作该个体的替代</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3450,7 +3450,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Type | Area">树的类型</value>
   <value column="PrintName" original="Type | Area">树的类型</value>
   <value column="Description" original="Element this tree is built on (i.e Product, Business Partner)">树的构建元素 (即 产品,业务伙伴)</value>
-  <value column="Help" original="The Tree Type / Area field determines the type of tree this is.  For example, you may define one tree for your Products and another tree for your Business Partners.">树类型/区域字段决定这是什么类型的树。例如，您可为产品定义一个树，为业务伙伴定义另一个树</value>
+  <value column="Help" original="The Tree Type / Area field determines the type of tree this is.  For example, you may define one tree for your Products and another tree for your Business Partners.">"树 类型/区域"字段决定这是什么类型的树。例如，您可为您的产品定义一个树，为您的业务伙伴定义另一个树</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3460,7 +3460,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Type">类型</value>
   <value column="PrintName" original="Type">类型</value>
   <value column="Description" original="Type of Validation (SQL, Java Script, Java Language)">验证类型(SQL, Java 脚本, Java 语言)</value>
-  <value column="Help" original="The Type indicates the type of validation that will occur.  This can be SQL, Java Script or Java Language.">将发生的确认类型.可以是SQL,java script或JAVA语言</value>
+  <value column="Help" original="The Type indicates the type of validation that will occur.  This can be SQL, Java Script or Java Language.">类型 是指将发生的验证类型。可以是SQL，Java Script 或Java语言</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3470,7 +3470,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Symbol">货币符号</value>
   <value column="PrintName" original="UoM">计量单位</value>
   <value column="Description" original="Symbol for a Unit of Measure">计量单位的符号</value>
-  <value column="Help" original="The Symbol identifies the Symbol to be displayed and printed for a Unit of Measure">符号标识了将被显示和打印的计量单位符号</value>
+  <value column="Help" original="The Symbol identifies the Symbol to be displayed and printed for a Unit of Measure">符号是指将被显示和打印的计量单位符号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3490,7 +3490,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Units Per Pallet">每货盘单位数</value>
   <value column="PrintName" original="Units Per Pallet">每货盘单位数</value>
   <value column="Description" original="Units Per Pallet">每货盘单位数</value>
-  <value column="Help" original="The Units per Pallet indicates the number of units of this product which fit on a pallet.">每托盘货架单位表示该产品放在托盘货架上的单位数</value>
+  <value column="Help" original="The Units per Pallet indicates the number of units of this product which fit on a pallet.">每托盘单元表示本产品能够在一张托盘上合理放置的单元数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3500,7 +3500,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Unrealized Gain Acct">未实现盈利账户</value>
   <value column="PrintName" original="Unrealized Gain Acct">未实现盈利账户</value>
   <value column="Description" original="Unrealized Gain Account for currency revaluation">货币重估的未实现盈利账户</value>
-  <value column="Help" original="The Unrealized Gain Account indicates the account to be used when recording gains achieved from currency revaluation that have yet to be realized.">未实现盈利账户表示当记录由货币重估而导致的未实现盈利时，所使用的账户</value>
+  <value column="Help" original="The Unrealized Gain Account indicates the account to be used when recording gains achieved from currency revaluation that have yet to be realized.">未实现收益账户表示该账户用于记录由于币值重估而取得的、但又尚未实现的收益</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3510,7 +3510,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Unrealized Loss Acct">未实现亏损账户</value>
   <value column="PrintName" original="Unrealized Loss Acct">未实现亏损账户</value>
   <value column="Description" original="Unrealized Loss Account for currency revaluation">货币重估的未实现亏损账户</value>
-  <value column="Help" original="The Unrealized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">未实现亏损账户表示当记录由货币重估而导致的未实现亏损时，所使用的账户</value>
+  <value column="Help" original="The Unrealized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">未实现亏损账户表示该账户用于当记录由货币重估而导致的、但尚未实现的亏损</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3590,7 +3590,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="User Level">用户级别</value>
   <value column="PrintName" original="User Level">用户级别</value>
   <value column="Description" original="System Client Organization">系统实体组织</value>
-  <value column="Help" original="The User Level field determines if users of this Role will have access to System level data, Organization level data, Client level data or Client and Organization level data.">用户级别字段决定该角色的用户是否将拥有访问系统级别数据、组织级别数据、实体级别数据或实体与组织级别数据的权限</value>
+  <value column="Help" original="The User Level field determines if users of this Role will have access to System level data, Organization level data, Client level data or Client and Organization level data.">用户级别字段决定该角色的用户是否将拥有以下访问权限：系统级别数据、组织级别数据、实体级别数据，或者实体与组织级别数据</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3754,7 +3754,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="UOM Code">单位代码</value>
   <value column="PrintName" original="UOM Code">单位代码</value>
   <value column="Description" original="UOM EDI X12 Code">计量单位 EDI 代码</value>
-  <value column="Help" original="The Unit of Measure Code indicates the EDI X12 Code Data Element 355 (Unit or Basis for Measurement)">计算单位代码表示EDI X12代码数据元素355 (计量的基础或单位)</value>
+  <value column="Help" original="The Unit of Measure Code indicates the EDI X12 Code Data Element 355 (Unit or Basis for Measurement)">计量单位代码表示 EDI X12 代码数据元素 355 (计量的基础或单位)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4224,7 +4224,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Same Tax">相同的税</value>
   <value column="PrintName" original="Same Tax">相同的税</value>
   <value column="Description" original="Use the same tax as the main transaction">使用与主要事务处理相同的税</value>
-  <value column="Help" original="The Same Tax checkbox indicates that this charge should use the same tax as the main transaction.">相同的税复选框表示此杂费应当使用与主事务处理相同的税</value>
+  <value column="Help" original="The Same Tax checkbox indicates that this charge should use the same tax as the main transaction.">"同一税务"复选框表示这项收费税与与主事务相同</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4414,7 +4414,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Send dunning letters">发送催款信函</value>
   <value column="PrintName" original="Send dunning letters">发送催款信函</value>
   <value column="Description" original="Indicates if dunning letters will be sent">表示是否将发送催款信函</value>
-  <value column="Help" original="The Send Dunning Letters checkbox indicates if dunning letters will be sent to Business Partners who use this dunning rule.">发送催款函复选框表示是否将发送催款函给使用该催款规则的业务伙伴</value>
+  <value column="Help" original="The Send Dunning Letters checkbox indicates if dunning letters will be sent to Business Partners who use this dunning rule.">"发送催款函"复选框表示，是否发送催款函给使用该催款规则的业务伙伴</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4434,7 +4434,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Swift code">Swift 编码</value>
   <value column="PrintName" original="Swift code">Swift 编码</value>
   <value column="Description" original="Swift Code or BIC">金融电信学会编码</value>
-  <value column="Help" original="The Swift Code (Society of Worldwide Interbank Financial Telecommunications) or BIC (Bank Identifier Code) is an identifier of a Bank. The first 4 characters are the bank code, followed by the 2 character country code, the two character location code and optional 3 character branch code. For details see http://www.swift.com/biconline/index.cfm">SWIFT 码是银行的标识</value>
+  <value column="Help" original="The Swift Code (Society of Worldwide Interbank Financial Telecommunications) or BIC (Bank Identifier Code) is an identifier of a Bank. The first 4 characters are the bank code, followed by the 2 character country code, the two character location code and optional 3 character branch code. For details see http://www.swift.com/biconline/index.cfm">Swift代码（环球同业银行金融电讯协会）或BIC（银行识别码）是一个银行的标识符。前4个字符是银行代码，紧接着的是2个字符的国家代码、2个字符的区域代码，最后3个字符是可选的分支代码。详情请参阅http://www.swift.com/biconline/index.cfm</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4624,7 +4624,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Shipment/Receipt Line">发货单/收货单 行</value>
   <value column="PrintName" original="Shipment/Receipt Line">发货单/收货单 行</value>
   <value column="Description" original="Line on Shipment or Receipt document">发货单/收货单的单据行</value>
-  <value column="Help" original="The Shipment/Receipt Line indicates a unique line in a Shipment/Receipt document">发货单/收货单行表示发货单/收货单单据中的唯一行</value>
+  <value column="Help" original="The Shipment/Receipt Line indicates a unique line in a Shipment/Receipt document">发货单/收货单明细表示发货单/收货单中的唯一行</value>
   <value column="PO_Description" original="Line on Receipt document">收货单的行</value>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original="Receipt Line">收货单行</value>
@@ -4894,7 +4894,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Sales Representative">销售代表</value>
   <value column="PrintName" original="Sales Rep">代表</value>
   <value column="Description" original="Sales Representative or Company Agent">销售代表或公司代理人</value>
-  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">指该区域的销售代表，任何销售代表必须是一个有效的内部用户</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">"销售代表"表示该区域的销售代表，任何销售代表必须是一个有效的内部用户</value>
   <value column="PO_Description" original="Purchase or Company Agent">采购员或公司代理人</value>
   <value column="PO_Help" original="Purchase agent for the document. Any Sales Rep must be a valid internal user.">指该区域的采购代表，任何采购代表必须是一个有效的内部用户</value>
   <value column="PO_Name" original="Company Agent">公司代理</value>
@@ -5234,7 +5234,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Sales Transaction">销售事务处理</value>
   <value column="PrintName" original="Sales Transaction">销售事务处理</value>
   <value column="Description" original="This is a Sales Transaction">这是一个销售事务处理</value>
-  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction.">销售事务处理复选框表示该项是否为一个销售事务处理</value>
+  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction.">"销售事务处理"复选框表示该项是否为一个销售事务处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5484,7 +5484,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Tax base Amount">税基金额</value>
   <value column="PrintName" original="Tax base Amt">税基金额</value>
   <value column="Description" original="Base for calculating the tax amount">计算税额的基准</value>
-  <value column="Help" original="The Tax Base Amount indicates the base amount used for calculating the tax amount.">未税金额指税金计算基数</value>
+  <value column="Help" original="The Tax Base Amount indicates the base amount used for calculating the tax amount.">税基金额表示用于计算税额的基础金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5494,7 +5494,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Tax Indicator">税标识</value>
   <value column="PrintName" original="Tax Indicator">税标识</value>
   <value column="Description" original="Short form for Tax to be printed on documents">在单据上打印税的简单格式</value>
-  <value column="Help" original="The Tax Indicator identifies the short name that will print on documents referencing this tax.">税简称标识了将打印在单据上引用该税的简短名称</value>
+  <value column="Help" original="The Tax Indicator identifies the short name that will print on documents referencing this tax.">税收简称标识了将打印在单据上引用该税的简短名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5514,7 +5514,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Unearned Revenue">递延收入</value>
   <value column="PrintName" original="Unearned Revenue">递延收入</value>
   <value column="Description" original="Account for unearned revenue">未实现收入账户</value>
-  <value column="Help" original="The Unearned Revenue indicates the account used for recording invoices sent for products or services not yet delivered.  It is used in revenue recognition">递延收入表示用于记录发出未交付产品或服务的发票的账户。它用于收入确认</value>
+  <value column="Help" original="The Unearned Revenue indicates the account used for recording invoices sent for products or services not yet delivered.  It is used in revenue recognition">递延收入表示用于记录 发票已开 但产品或服务未交付 的账户。它用于收入确认</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5774,8 +5774,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price Surcharge Amount">标准价格附加额</value>
   <value column="PrintName" original="Standard price Surcharge Amt">标准价格附加额</value>
   <value column="Description" original="Amount added to a price as a surcharge">添加到价格的附加金额</value>
-  <value column="Help" original="The Standard Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.&#10;">标准价格附加额表示在相乘之前增加到价格上的金额。
-</value>
+  <value column="Help" original="The Standard Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.&#10;">"标准价格附加额"表示在相乘之前增加到价格上的金额&#10;</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5785,7 +5784,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price Base">标准价格基础</value>
   <value column="PrintName" original="Standard price Base">标准价格基础</value>
   <value column="Description" original="Base price for calculating new standard price">计算新的标准价格的基础价</value>
-  <value column="Help" original="The Standard Price Base indicates the price to use as the basis for the calculation of a new price standard.&#10;">标准价格基础表示用作新价格标准计算基础的价格。
+  <value column="Help" original="The Standard Price Base indicates the price to use as the basis for the calculation of a new price standard.&#10;">标准价格基础，表示用作新价格标准计算基础的价格&#10;
 </value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -5796,7 +5795,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard max Margin">标准最高毛利</value>
   <value column="PrintName" original="Standard max Margin">标准最高毛利</value>
   <value column="Description" original="Maximum margin allowed for a product">产品允许的最高毛利</value>
-  <value column="Help" original="The Standard Price Max Margin indicates the maximum margin for a product.  The margin is calculated by subtracting the original Standard price from the newly calculated price.  If this field contains 0.00 then it is ignored.">标准价格最高毛利表示产品的最高毛利。毛利通过从新计算的价格中减去原来的标准价格，计算而得。如果该字段包含0.00，那么它被忽略</value>
+  <value column="Help" original="The Standard Price Max Margin indicates the maximum margin for a product.  The margin is calculated by subtracting the original Standard price from the newly calculated price.  If this field contains 0.00 then it is ignored.">标准价格最高毛利：表示产品的最高毛利。毛利的计算方法是：从新计算的价格中减去原来的标准价格。如果该字段包含0.00，那么它被忽略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5806,7 +5805,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price min Margin">标准价格最低毛利</value>
   <value column="PrintName" original="Standard price min Margin">标准价格最低毛利</value>
   <value column="Description" original="Minimum margin allowed for a product">产品允许的最低毛利</value>
-  <value column="Help" original="The Standard Price Min Margin indicates the minimum margin for a product.  The margin is calculated by subtracting the original Standard price from the newly calculated price.  If this field contains 0.00 then it is ignored.">标准价格最低毛利表示产品的最低毛利。毛利通过从新计算的价格中减去原来的标准价格，计算而得。如果该字段包含0.00，那么它被忽略</value>
+  <value column="Help" original="The Standard Price Min Margin indicates the minimum margin for a product.  The margin is calculated by subtracting the original Standard price from the newly calculated price.  If this field contains 0.00 then it is ignored.">标准价格最低毛利表示产品的最低毛利。毛利通过从新计算的价格中减去原来的标准价格，从而计算得到。如果该字段包含0.00，那么它被忽略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5816,7 +5815,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price Rounding">标准价格舍入</value>
   <value column="PrintName" original="Standard price Rounding">标准价格舍入</value>
   <value column="Description" original="Rounding rule for calculated price">计算价格的舍入规则</value>
-  <value column="Help" original="The Standard Price Rounding indicates how the final Standard price will be rounded.">标准价格舍入表示最终标准价格将如何被舍入</value>
+  <value column="Help" original="The Standard Price Rounding indicates how the final Standard price will be rounded.">"标准价格舍入"表示最终标准价格将如何被舍入</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5856,7 +5855,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price Discount %">标准价格折扣 %</value>
   <value column="PrintName" original="Standard price Discount %">标准价格折扣 %</value>
   <value column="Description" original="Discount percentage to subtract from base price">从基础价格中减去的折扣百分比</value>
-  <value column="Help" original="The Standard Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">标准价格折扣百分比表示将从基础价格上减去的折扣百分比。负数表示将增加到基础价格上的百分比</value>
+  <value column="Help" original="The Standard Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">标准价格折扣百分比：表示将从基础价格上减去的折扣百分比。负数表示将增加到基础价格上的百分比</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6356,7 +6355,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Transaction Type">事务处理类型</value>
   <value column="PrintName" original="Trx Type">事务处理类型</value>
   <value column="Description" original="Type of credit card transaction">信用卡事务处理的类型</value>
-  <value column="Help" original="The Transaction Type indicates the type of transaction to be submitted to the Credit Card Company.">事务处理类型表示待提交给信用卡公司的事务处理的类型</value>
+  <value column="Help" original="The Transaction Type indicates the type of transaction to be submitted to the Credit Card Company.">事务类型是指将要提交给信用卡公司的事务的类型</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7376,7 +7375,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Tax Credit">税抵扣</value>
   <value column="PrintName" original="Tax Credit">税抵扣</value>
   <value column="Description" original="Account for Tax you can reclaim">课税扣除的账户</value>
-  <value column="Help" original="The Tax Credit Account indicates the account used to record taxes that can be reclaimed">税抵扣账户表示用于记录可返还税款的账户</value>
+  <value column="Help" original="The Tax Credit Account indicates the account used to record taxes that can be reclaimed">税收抵扣账户表示用于记录可返还税款的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7386,7 +7385,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Tax Due">税应缴</value>
   <value column="PrintName" original="Tax Due">税应缴</value>
   <value column="Description" original="Account for Tax you have to pay">实际税金支付账户</value>
-  <value column="Help" original="The Tax Due Account indicates the account used to record taxes that you are liable to pay.">税应缴账户表示用于记录您的应缴税的账户</value>
+  <value column="Help" original="The Tax Due Account indicates the account used to record taxes that you are liable to pay.">应付税款帐户用于记录你有责任支付的税款</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7396,7 +7395,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Tax Expense">税支出</value>
   <value column="PrintName" original="Tax Expense">税支出</value>
   <value column="Description" original="Account for paid tax you cannot reclaim">无法收回的税支出账户</value>
-  <value column="Help" original="The Tax Expense Account indicates the account used to record the taxes that have been paid that cannot be reclaimed.">税支出账户表示用于记录无法收回款项的已付税的账户</value>
+  <value column="Help" original="The Tax Expense Account indicates the account used to record the taxes that have been paid that cannot be reclaimed.">所得税帐户用于记录已支付的、不能收回的税额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7406,7 +7405,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Tax Liability">税应纳</value>
   <value column="PrintName" original="Tax Liability">税应纳</value>
   <value column="Description" original="Account for Tax declaration liability">报税应纳账户</value>
-  <value column="Help" original="The Tax Liability Account indicates the account used to record your tax liability declaration.">税应纳账户表示用于记录您的纳税义务申报的账户</value>
+  <value column="Help" original="The Tax Liability Account indicates the account used to record your tax liability declaration.">应纳税额帐户表示该账户用于记录纳税义务声明</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7696,7 +7695,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Reversal">反冲</value>
   <value column="PrintName" original="Reversal">反冲</value>
   <value column="Description" original="This is a reversing transaction">这是一个撤销事务处理</value>
-  <value column="Help" original="The Reversal check box indicates if this is a reversal of a prior transaction.">撤消复选框表示先前的事务处理是否可撤销</value>
+  <value column="Help" original="The Reversal check box indicates if this is a reversal of a prior transaction.">"撤消"复选框表示这个事务是否是先前一个事务的冲销</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8068,7 +8067,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Supervisor">主管</value>
   <value column="PrintName" original="Supervisor">主管</value>
   <value column="Description" original="Supervisor for this user/organization - used for escalation and approval">该用户/组织的主管 - 用于请求的晋级与审批</value>
-  <value column="Help" original="The Supervisor indicates who will be used for forwarding and escalating issues for this user - or for approvals.">主管表示将该用户的问题转发和晋级、或审批所选择的人</value>
+  <value column="Help" original="The Supervisor indicates who will be used for forwarding and escalating issues for this user - or for approvals.">主管是指为该用户的问题转发、上报或审批人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8118,7 +8117,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="SQL Group Function">SQL组函数</value>
   <value column="PrintName" original="SQL Group Function">SQL组函数</value>
   <value column="Description" original="This function will generate a Group By Clause">该函数生成一个 Group By 子句</value>
-  <value column="Help" original="The SQL Group Function checkbox indicates that this function will generate a Group by Clause in the resulting SQL.">SQL Group 函数复选框表示该函数将在 SQL 中生成Group By子句</value>
+  <value column="Help" original="The SQL Group Function checkbox indicates that this function will generate a Group by Clause in the resulting SQL.">"SQL Group 函数"复选框表示该函数将在 SQL 中生成Group By子句</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8218,7 +8217,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Subtract Amount">减去金额</value>
   <value column="PrintName" original="Subtract Amt">减去金额</value>
   <value column="Description" original="Subtract Amount for generating commissions">生成佣金时减去的金额</value>
-  <value column="Help" original="The Subtract Amount indicates the amount to subtract from the total amount prior to multiplication.">减去金额表示在相乘以前从总金额中减去的金额</value>
+  <value column="Help" original="The Subtract Amount indicates the amount to subtract from the total amount prior to multiplication.">"减去金额"表示在相乘以前从总金额中减去的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8668,7 +8667,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Sql SELECT">SQL SELECT 子句</value>
   <value column="PrintName" original="Select Clause">Select 语句</value>
   <value column="Description" original="SQL SELECT clause">SQL SELECT 语句</value>
-  <value column="Help" original="The Select Clause indicates the SQL SELECT clause to use for selecting the record for a measure calculation. Do not include the SELECT itself.">SELECT 子句表示 SQL 中用于选择指标计算记录的 SELECT 子句。不要包括 SELECT 关键字本身</value>
+  <value column="Help" original="The Select Clause indicates the SQL SELECT clause to use for selecting the record for a measure calculation. Do not include the SELECT itself.">"SELECT 子句"表示SQL FROM 子句用于为计算选择记录。请不要包括 FROM 关键字本身</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8898,7 +8897,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Trade Discount Granted">准许的交易折扣</value>
   <value column="PrintName" original="Trade Discount Grant">准许的交易折扣</value>
   <value column="Description" original="Trade Discount Granted Account">准许的交易折扣账户</value>
-  <value column="Help" original="The Trade Discount Granted Account indicates the account for granted trade discount in sales invoices">准许的交易折扣账户表示针对销售发票中准许的交易折扣的账户</value>
+  <value column="Help" original="The Trade Discount Granted Account indicates the account for granted trade discount in sales invoices">交易折扣授予帐户表示用于在销售发票中授予交易折扣的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12755,7 +12754,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2046" trl="Y">
-  <value column="Name" original="Maintain Change Log">维护更改日志</value>
+  <value column="Name" original="Maintain Change Log">维护变更日志</value>
   <value column="PrintName" original="Change Log">变更日志</value>
   <value column="Description" original="Maintain a log of changes">维护变更日志</value>
   <value column="Help" original="If selected, a log of all changes is maintained.">如果选中，则所有的更改日志将被维护</value>
@@ -13269,7 +13268,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Sql FROM">SQL FROM 子句</value>
   <value column="PrintName" original="From Clause">FROM 子句</value>
   <value column="Description" original="SQL FROM clause">SQL FROM 语句</value>
-  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. Do not include the FROM itself.">FROM 子句表示 SQL SELECT 语句的数据库来源表。允许有 JOIN 子句（内连接和外连接)。不要包括 FROM 关键字本身</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. Do not include the FROM itself.">"SELECT 子句"表示SQL FROM 子句用于为计算选择记录。它可以有JOIN子句。请不要包括 FROM 关键字本身</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13619,7 +13618,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Replication Type">复制类型</value>
   <value column="PrintName" original="Replication Type">复制类型</value>
   <value column="Description" original="Type of Data Replication">数据复制的类型</value>
-  <value column="Help" original="The Type of data Replication determines the direction of the data replication.  &lt;br&gt;&#10;Reference means that the data in this system is read only -&gt; &lt;br&gt;&#10;Local means that the data in this system is not replicated to other systems - &lt;br&gt;&#10;Merge means that the data in this system is synchronized with the other system &lt;-&gt; &lt;br&gt;"><![CDATA[数据复制的类型决定了数据复制的方向。<br>引用是指该系统中的数据为只读 -> <br> 本地是指该系统中的数据不被复制到其他系统 - <br> 合并是指该系统中的数据与其他系统同步 <-> <br>]]></value>
+  <value column="Help" original="The Type of data Replication determines the direction of the data replication.  &lt;br&gt;&#10;Reference means that the data in this system is read only -&gt; &lt;br&gt;&#10;Local means that the data in this system is not replicated to other systems - &lt;br&gt;&#10;Merge means that the data in this system is synchronized with the other system &lt;-&gt; &lt;br&gt;"><![CDATA[数据复制的类型决定了数据复制的方向<br>引用是指该系统中的数据为只读 -> <br> 本地是指该系统中的数据不被复制到其他系统 - <br> 合并是指该系统中的数据与其他系统同步 <-> <br>]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13699,7 +13698,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Knowledge Source">知识来源</value>
   <value column="PrintName" original="Knowledge Source">知识来源</value>
   <value column="Description" original="Source of a Knowledge Entry">知识文章的来源</value>
-  <value column="Help" original="The Source of a Knowledge Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">知识文章的来源是指向源系统的指针。知识文章具有额外的文章 (描述URL)，用于更详尽信息的参考</value>
+  <value column="Help" original="The Source of a Knowledge Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">"知识条目来源"是指向源系统的指针。知识条目具有额外的条目 (描述URL)，用于更详尽信息的参考</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14891,7 +14890,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Calculate Deviation (σ)">计算标准差 (σ)</value>
   <value column="PrintName" original="Deviation">标准差</value>
   <value column="Description" original="Calculate Standard Deviation">计算标准差</value>
-  <value column="Help" original="The Standard Deviation (σ) is the a measure of dispersion - used in combination with the Mean (μ)">标准差 (σ) 是一个离散量 - 与平均数 (μ) 结合使用</value>
+  <value column="Help" original="The Standard Deviation (σ) is the a measure of dispersion - used in combination with the Mean (μ)">标准差 (σ) 是一个离散度量 - 与平均值 (μ) 结合使用</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18440,7 +18439,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Source Balance">原始余额</value>
   <value column="PrintName" original="Source Balance">原始余额</value>
   <value column="Description" original="Source Balance Amount">原始余额</value>
-  <value column="Help" original="The Source Balance Amount indicates the balance amount for this line in the source currency.">原始余额表示该行的余额金额以原币种表示</value>
+  <value column="Help" original="The Source Balance Amount indicates the balance amount for this line in the source currency.">原币余额( Source Balance Amount)表示该明细的原币别余额，金额以原本币种( source currency)表示</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23460,8 +23459,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="51003" trl="Y">
   <value column="Name" original="Lookup URL">寻找网址</value>
   <value column="PrintName" original="Lookup URL">寻找网址</value>
-  <value column="Description" original="The URL of the web service that the plugin connects to in order to retrieve postcode data">插件检索邮编数据时连接的WEB服务的网址</value>
-  <value column="Help" original="Enter the URL of the web service that the plugin connects to in order to retrieve postcode data">插件检索邮编数据时连接的WEB服务的网址</value>
+  <value column="Description" original="The URL of the web service that the plugin connects to in order to retrieve postcode data">插件检索邮编数据时 连接Web服务的网址(URL)</value>
+  <value column="Help" original="Enter the URL of the web service that the plugin connects to in order to retrieve postcode data">插件检索邮编数据时 连接Web服务的网址(URL)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
