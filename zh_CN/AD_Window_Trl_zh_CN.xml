@@ -48,7 +48,7 @@
  <row id="108" trl="Y">
   <value column="Name" original="User">用户</value>
   <value column="Description" original="Maintain Users of the system">维护系统用户</value>
-  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">用户窗口允许您定义系统中的每个用户。用户可登录到系统中，通过一个或多个角色访问所需的功能。用户也可能是业务伙伴联系人</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">用户窗口允许您定义系统中的用户。用户可登录到系统中，通过一个或多个角色访问所需的功能。用户也可以是某个业务伙伴联系人</value>
  </row>
  <row id="109" trl="Y">
   <value column="Name" original="Client">实体</value>
@@ -76,7 +76,7 @@
  <row id="113" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
   <value column="Description" original="Maintain Workflow">维护工作流</value>
-  <value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">工作流窗口定义了系统中的工作流、工作流的访问级别、工作流中的节点或步骤</value>
+  <value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">工作流窗口定义了系统中的工作流，工作流的访问级别，以及工作流中的节点或步骤</value>
  </row>
  <row id="114" trl="Y">
   <value column="Name" original="Task">任务</value>
@@ -135,7 +135,7 @@
  </row>
  <row id="128" trl="Y">
   <value column="Name" original="Attachment">附件</value>
-  <value column="Description" original="Maintain Attachments">附件维护</value>
+  <value column="Description" original="Maintain Attachments">维护附件</value>
   <value column="Help" original="For System Maintenance Only.  The Maintain Attachments window is used for diagnostic purposes to display the attributes of an attachment.">仅用于系统维护。维护附件窗口用于诊断目的，显示附件的属性</value>
  </row>
  <row id="129" trl="Y">
@@ -181,7 +181,7 @@
  <row id="139" trl="Y">
   <value column="Name" original="Warehouse &amp; Locators">仓库与货位</value>
   <value column="Description" original="Maintain Warehouses and Locators">维护仓库与货位</value>
-  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">仓库与货位窗口定义了每个仓库、仓库的货位和此仓库库存使用的会计参数</value>
+  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">仓库与库位窗口定义了每个仓库，仓库的库位，以及用于仓库库存的会计参数</value>
  </row>
  <row id="140" trl="Y">
   <value column="Name" original="Product">产品</value>
@@ -643,7 +643,7 @@
  <row id="252" trl="Y">
   <value column="Name" original="Asset Group">资产分组</value>
   <value column="Description" original="Group of Assets">资产的分组</value>
-  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。  如果一个资产分组在产品种类中被选择,当递送资产的时候，资产被产生</value>
+  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。 如果一个资产分组在产品种类中被选择，资产就会在交付时被创建</value>
  </row>
  <row id="253" trl="Y">
   <value column="Name" original="Training">培训</value>
@@ -928,14 +928,14 @@
   <value column="Help" original="The Auction Topic Type determines what kind of auction is used for a particular area">拍卖的主题类型决定了为特定领域使用哪种拍卖</value>
  </row>
  <row id="309" trl="Y">
-  <value column="Name" original="Auction Seller">拍卖卖家</value>
-  <value column="Description" original="Maintain Auction Seller Information">维护拍卖的卖家信息</value>
-  <value column="Help" original="A seller is a User in the system participating in Auctions">卖家是参与拍卖的系统中之用户</value>
+  <value column="Name" original="Auction Seller">拍卖卖方</value>
+  <value column="Description" original="Maintain Auction Seller Information">维护拍卖的卖方信息</value>
+  <value column="Help" original="A seller is a User in the system participating in Auctions">卖方是参与拍卖的系统中之用户</value>
  </row>
  <row id="310" trl="Y">
-  <value column="Name" original="Auction Buyer">拍卖买家</value>
-  <value column="Description" original="Maintain Auction Buyer Information">维护拍卖的买家信息</value>
-  <value column="Help" original="A buyer is a User in the system participating in Auctions">买家是参与拍卖的系统中之用户</value>
+  <value column="Name" original="Auction Buyer">拍卖买方</value>
+  <value column="Description" original="Maintain Auction Buyer Information">维护拍卖的买方信息</value>
+  <value column="Help" original="A buyer is a User in the system participating in Auctions">买方是参与拍卖的系统中之用户</value>
  </row>
  <row id="311" trl="Y">
   <value column="Name" original="Accounting Processor">会计引擎</value>
@@ -1052,7 +1052,7 @@
  <row id="333" trl="Y">
   <value column="Name" original="Move Confirmation">移库确认</value>
   <value column="Description" original="Confirm Inventory Moves">确认移库</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">当运动的文件类型在经过中指出的时候，文件自动地被产生。。 如果有不同量,实际的详细目录被为来源 (从) 仓库产生。 如果有被扔弃的量,实际的详细目录被为目标 (到) 仓库产生</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">当移库单据类型表示为"在途"时，则单据会自动生成…… 如果存在数量差异，就会为源（从）仓库创建库存盘点单。如果存在报废数量，就会为目标（至）仓库创建实地存盘单</value>
  </row>
  <row id="334" trl="Y">
   <value column="Name" original="Import Confirmations">导入确认</value>
@@ -1282,7 +1282,7 @@
  <row id="381" trl="Y">
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="Description" original="Maintain System Entity Type">维护系统中实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“iDempiere”类型不应被使用</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">个体（entity）类型决定了应用字典项目的所有权。“字典”与“iDempiere”类型不应被使用，并且由iDempiere维护（例如，在迁移时所有的变更都会被回退到当前的定义）</value>
  </row>
  <row id="383" trl="Y">
   <value column="Name" original="Web Access">Web 访问</value>
@@ -1479,7 +1479,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53016" trl="Y">
-  <value column="Name" original="ASP Subscribed Modules">ASP 签署模块</value>
+  <value column="Name" original="ASP Subscribed Modules">ASP 订阅模块</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1861,7 +1861,7 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53128" trl="Y">
   <value column="Name" original="Parts and BOMs">安提瓜与巴布达</value>
-  <value column="Description" original="Maintain Bill of Materials">维护产品物料清单</value>
+  <value column="Description" original="Maintain Bill of Materials">维护BOM</value>
   <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.</value>
  </row>
  <row id="53134" trl="Y">

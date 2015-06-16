@@ -106,7 +106,7 @@
   <value column="Name" original="User Contact">用户联系人</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User or Business Partner Contact">维护用户或业务伙伴联系人</value>
-  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">用户页签定义了拥有访问系统权限的登录用户。如需访问应用程序，用户需要被分配至少一个角色</value>
+  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">用户页签定义了拥有访问系统权限的登录用户。如需访问应用服务，用户需要被分配至少一个角色</value>
  </row>
  <row id="119" trl="Y">
   <value column="Name" original="Role">角色</value>
@@ -589,7 +589,7 @@
   <value column="Name" original="Vendor">供应商</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Vendor Parameters">定义供应商参数</value>
-  <value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">供应商页签为组织定义了是一个供应商的业务伙伴。如果供应商复选框被选中，必要的字段将显示出来</value>
+  <value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">供应商页签为组织定义了一个属于供应商的业务伙伴。如果供应商复选框被选中，必要的字段将显示出来</value>
  </row>
  <row id="225" trl="Y">
   <value column="Name" original="Employee">职工</value>
@@ -944,7 +944,7 @@
   <value column="Name" original="Window Access">窗口访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Window Access">窗口访问</value>
-  <value column="Help" original="The Window Access Tab defines the Windows and type of access that this Role is granted.">窗口访问页签定义了窗口和类型该角色被授予的访问类型</value>
+  <value column="Help" original="The Window Access Tab defines the Windows and type of access that this Role is granted.">窗口访问页签定义了该角色被授予的窗口和访问类型</value>
  </row>
  <row id="305" trl="Y">
   <value column="Name" original="Process Access">流程访问</value>
@@ -962,7 +962,7 @@
   <value column="Name" original="Workflow Access">工作流权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Workflow Access">工作流权限</value>
-  <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">工作流访问页签定义了工作流和该角色被授予的访问类型</value>
+  <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">工作流访问页签定义了该角色被授予的工作流和访问类型</value>
  </row>
  <row id="308" trl="Y">
   <value column="Name" original="Report Access">报表访问</value>
@@ -1178,7 +1178,7 @@
   <value column="Name" original="Mail Template">邮件模板</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Mail Template">维护邮件模板</value>
-  <value column="Help" original="A mail template can contain variables, e.g. @Name@.  &#10;The variables are replaced based on the context. First, the the User is searched to find the variables.&#10;Additional objects are used for dunning (business partner, dunning entry), asset delivery (asset) and invoice print (business partner, invoice)">邮件模板可以包括变量，例如 @Name@。@#10;变量基于环境上下文被替换。首先，搜索用户以匹配变量。@#10;更多的对象用于催款 (业务伙伴、催款记录)，资产交付 (资产) 和发票打印 (业务伙伴、发票)</value>
+  <value column="Help" original="A mail template can contain variables, e.g. @Name@.  &#10;The variables are replaced based on the context. First, the the User is searched to find the variables.&#10;Additional objects are used for dunning (business partner, dunning entry), asset delivery (asset) and invoice print (business partner, invoice)">邮件模板可以包括变量，例如 @Name@。&#10;变量基于环境上下文被替换。首先，搜索用户以匹配变量。&#10;更多的对象用于催款 (业务伙伴、催款记录)，资产交付 (资产) 和发票打印 (业务伙伴、发票)</value>
  </row>
  <row id="348" trl="Y">
   <value column="Name" original="History">历史记录</value>
@@ -1756,7 +1756,7 @@
   <value column="Name" original="Asset Group">资产分组</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Group of Assets">资产的分组</value>
-  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。  如果一个资产分组在产品种类中被选择,当递送资产的时候，资产被产生</value>
+  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。 如果一个资产分组在产品种类中被选择，资产就会在交付时被创建</value>
  </row>
  <row id="453" trl="Y">
   <value column="Name" original="Training">培训</value>
@@ -2002,7 +2002,7 @@
   <value column="Name" original="Contact (User)">联系人 (用户)</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User within the system - Internal or Business Partner Contact">维护系统内的用户 - 内部或业务伙伴联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。可能是内部用户或业务伙伴联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。用户可以是某个内部用户，或者是某个业务伙伴联系人</value>
  </row>
  <row id="497" trl="Y">
   <value column="Name" original="Click">点击</value>
@@ -2375,7 +2375,7 @@
   <value column="Name" original="Issues">问题</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Issues to the Project">项目投放</value>
-  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了被“投放到项目”流程初始化的项目投放。您可投放收入、时间与开支，或存货</value>
+  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“发布到项目”进程对项目初始化时生成的事项。您可以发布收入、时间与开支，或存货</value>
  </row>
  <row id="559" trl="Y">
   <value column="Name" original="Printer">打印机</value>
@@ -2447,7 +2447,7 @@
   <value column="Name" original="Statement Loader">对账单装载器</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">银行对账单装载器的定义 (SWIFT, OFX)</value>
-  <value column="Help" original="The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">定义加载的规定参数从EFT格式同样的SWIFT(MT940)或OFX. 这需要参数以来实现对账单加载的类.</value>
+  <value column="Help" original="The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">加载器定义 提供了加载银行对账单的参数，来自 EFT 格式，例如 SWIFT（MT940）或OFX。所需的参数取决于实际对账单加载器的类</value>
  </row>
  <row id="572" trl="Y">
   <value column="Name" original="Import Currency Rate">导入汇率</value>
@@ -2471,13 +2471,13 @@
   <value column="Name" original="Activity">活动</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Workflow Activity">工作流活动</value>
-  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动是工作流流程实例中实际的工作流节点</value>
+  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动指在某个工作流过程实例中，实际的工作流节点</value>
  </row>
  <row id="576" trl="Y">
   <value column="Name" original="Activity">活动</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Workflow Activities">您的工作流活动</value>
-  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动是工作流流程实例中实际的工作流节点</value>
+  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动指在某个工作流过程实例中，实际的工作流节点</value>
  </row>
  <row id="577" trl="Y">
   <value column="Name" original="Parameter">参数</value>
@@ -2897,7 +2897,7 @@
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Distribution Run Lines define Distribution List, the Product and Quantiries">配送发运行定义配送列表，产品和数量</value>
-  <value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">订单金额基于产品或分发清单的最小值和基于比率的数量之中较大的那一个</value>
+  <value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">订单金额基于两者之中的校大的那一个：产品或配送清单的最小值，以及基于比率的数量</value>
  </row>
  <row id="650" trl="Y">
   <value column="Name" original="Product Assignment">产品分配</value>
@@ -2999,7 +2999,7 @@
   <value column="Name" original="Confirmation">确认</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Confirm Inventory Moves">确认移库</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">当单据类型是移库时表示在途, 自动生成单据</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">当移库单据类型表示为"在途"时，则单据会自动生成</value>
  </row>
  <row id="667" trl="Y">
   <value column="Name" original="Line">行</value>
@@ -3550,7 +3550,7 @@
  <row id="761" trl="Y">
   <value column="Name" original="Invoice">发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="AP / AR Invoice Lines">应付/应收发票行</value>
+  <value column="Description" original="AP / AR Invoice Lines">应付/应收发票明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="762" trl="Y">
@@ -3569,7 +3569,7 @@
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax Declaration Lines">税申报行</value>
-  <value column="Help" original="The lines are created by the create process. You can delete them if you do not want to include them in a particular declaration.  You can create manual adjustment lines.">由创建流程产生的行。如果您不希望将它们包含于特定的申报单中，可以删除它们</value>
+  <value column="Help" original="The lines are created by the create process. You can delete them if you do not want to include them in a particular declaration.  You can create manual adjustment lines.">这些明细是由创建进程生成的。如果你不想把它们包括在某个特定的申报单中，你可以删除它们。您可以创建手工调整明细</value>
  </row>
  <row id="765" trl="Y">
   <value column="Name" original="Accounting">会计</value>
@@ -3941,7 +3941,7 @@
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="System Entity Type">系统实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“iDempiere”类型不应被使用</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">个体（entity）类型决定了应用字典项目的所有权。“字典”与“iDempiere”类型不应被使用，并且由iDempiere维护（例如，在迁移时所有的变更都会被回退到当前的定义）</value>
  </row>
  <row id="832" trl="Y">
   <value column="Name" original="System Modifin">系统修改</value>
@@ -4675,7 +4675,7 @@
   <value column="Name" original="Contact (User)">联系人 (用户)</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User within the system - Internal or Business Partner Contact">维护系统内的用户 - 内部或业务伙伴联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。可能是内部用户或业务伙伴联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。用户可以是某个内部用户，或者是某个业务伙伴联系人</value>
  </row>
  <row id="53109" trl="Y">
   <value column="Name" original="Department">部门</value>
@@ -5293,7 +5293,7 @@
   <value column="Name" original="User Contact">用户联系人</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User or Business Partner Contact">维护用户或业务伙伴联系人</value>
-  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">用户页签定义了拥有访问系统权限的登录用户。如需访问应用程序，用户需要被分配至少一个角色</value>
+  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">用户页签定义了拥有访问系统权限的登录用户。如需访问应用服务，用户需要被分配至少一个角色</value>
  </row>
  <row id="53283" trl="Y">
   <value column="Name" original="User Mail">用户邮件</value>
@@ -5808,7 +5808,7 @@
  <row id="200026" trl="Y">
   <value column="Name" original="Bank Account Processor">银行账户</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Bank Account Payment Processors">为您的银行账户创建付款引擎</value>
+  <value column="Description" original="Maintain Bank Account Payment Processors">维护银行账户付款引擎</value>
   <value column="Help" original=""/>
  </row>
  <row id="200027" trl="Y">
@@ -5890,7 +5890,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200045" trl="Y">
-  <value column="Name" original="MPS Lines">确认行</value>
+  <value column="Name" original="MPS Lines">主生产计划明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5908,7 +5908,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200048" trl="Y">
-  <value column="Name" original="MPS Lines">确认行</value>
+  <value column="Name" original="MPS Lines">主生产计划明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

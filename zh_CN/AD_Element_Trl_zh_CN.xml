@@ -94,7 +94,7 @@
   <value column="Name" original="Trx Organization">事务处理组织</value>
   <value column="PrintName" original="Trx Organization">事务处理组织</value>
   <value column="Description" original="Performing or initiating organization">进行执行或初始化的组织</value>
-  <value column="Help" original="The organization which performs or initiates this transaction (for another organization).  The owning Organization may not be the transaction organization in a service bureau environment, with centralized services, and inter-organization transactions.">执行或初始化事务处理 (对另一个组织) 的组织。在带有中央式服务以及组织间事务处理的服务机构环境下，拥有的组织可能不是事务处理组织</value>
+  <value column="Help" original="The organization which performs or initiates this transaction (for another organization).  The owning Organization may not be the transaction organization in a service bureau environment, with centralized services, and inter-organization transactions.">执行或发起(与另一个组织机构)交易的组织机构。这个组织机构可能不能作为交易组织机构，在一个集中式服务和跨组织交易的服务环境里。额外说明：如果在组织建模时，需要把实体中的组织配置成可以进行业务往来（采购、销售）的组织时，我们把配置成可以进行业务往来的组织称为交易组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -314,7 +314,7 @@
   <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="PrintName" original="User">用户</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部或业务伙伴的联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。可能是内部用户或业务伙伴联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。用户可以是某个内部用户，或者是某个业务伙伴联系人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1617,7 +1617,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="317" trl="Y">
   <value column="Name" original="Use Account Alias">使用账户别名</value>
   <value column="PrintName" original="Alias">别名</value>
-  <value column="Description" original="Ability to select (partial) account combinations by an Alias">使用别名能选择(部分)科目组合</value>
+  <value column="Description" original="Ability to select (partial) account combinations by an Alias">通过别名选择(部分)账户组合</value>
   <value column="Help" original="The Alias checkbox indicates that account combination can be selected using a user defined alias or short key.">别名复选框表示可使用用户定义的别名或快捷键选择账户组合</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2048,7 +2048,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Key column">主键列</value>
   <value column="PrintName" original="Key column">主键列</value>
   <value column="Description" original="This column is the key in this table">该列是表中的关键列</value>
-  <value column="Help" original="The key column must also be display sequence 0 in the field definition and may be hidden.">关键列在字段定义中也必须是显示顺序0，可隐藏</value>
+  <value column="Help" original="The key column must also be display sequence 0 in the field definition and may be hidden.">主键列在字段定义中的显示顺序也必须是 0，可能被隐藏</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2529,7 +2529,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Name">名称</value>
   <value column="PrintName" original="Name">名称</value>
   <value column="Description" original="Alphanumeric identifier of the entity">包含文字和/或数字的记录标识</value>
-  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">实体（记录）除了搜索关键字以外被用作默认的搜索选项。这个名字可以多达60个字符组成</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">个体（记录）的名称被用作默认的搜索选项，除了搜索关键字以外。这个名字最多可以由60个字符组成</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3694,7 +3694,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Volume">体积</value>
   <value column="PrintName" original="Volume">体积</value>
   <value column="Description" original="Volume of a product">产品的体积</value>
-  <value column="Help" original="The Volume indicates the volume of the product in the Volume UOM of the Client">体积表示产品按实体体积计量单位而计的体积</value>
+  <value column="Help" original="The Volume indicates the volume of the product in the Volume UOM of the Client">体积指该实体(Client)中用于表示产品体积的计量单位</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3704,7 +3704,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Weight">重量</value>
   <value column="PrintName" original="Weight">重量</value>
   <value column="Description" original="Weight of a product">产品重量</value>
-  <value column="Help" original="The Weight indicates the weight  of the product in the Weight UOM of the Client">产品的重量，重量单位是此客户的重量度量单位</value>
+  <value column="Help" original="The Weight indicates the weight  of the product in the Weight UOM of the Client">重量是指在此实体(client)中用重量计量单位所表示的产品重量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3714,7 +3714,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Sql WHERE">SQL WHERE 子句</value>
   <value column="PrintName" original="Where clause">SQL WHERE 子句</value>
   <value column="Description" original="Fully qualified SQL WHERE clause">完全验证过的 WHERE 子句</value>
-  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. The WHERE clause is added to the query. Fully qualified means &quot;tablename.columnname&quot;.">Where 子句指用于记录过滤的 SQL WHERE 子句。WHERE 子句被添加到查询。完全合格格式为 "tablename.columnname"</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. The WHERE clause is added to the query. Fully qualified means &quot;tablename.columnname&quot;.">Where 子句指用于记录过滤的 SQL WHERE 子句。WHERE 子句被添加到查询中。完整的合格格式为 "tablename.columnname"</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3734,7 +3734,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Workflow">工作流</value>
   <value column="PrintName" original="Workflow">工作流</value>
   <value column="Description" original="Workflow or tasks">工作流或任务</value>
-  <value column="Help" original="The Workflow field identifies a unique workflow.   A workflow is a grouping of related tasks, in a specified sequence and optionally including approvals">工作流字段标识唯一的工作流。工作流是一组相关的任务，按照特定的顺序，并可包含审批</value>
+  <value column="Help" original="The Workflow field identifies a unique workflow.   A workflow is a grouping of related tasks, in a specified sequence and optionally including approvals">工作流字段标识唯一的工作流。工作流是一组按特定顺序排列的相关的任务，同时可选地包含审批</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4344,7 +4344,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Order Reference">订单引用</value>
   <value column="PrintName" original="Order Reference">订单引用</value>
   <value column="Description" original="Transaction Reference Number (Sales Order, Purchase Order) of your Business Partner">您业务伙伴的事务处理引用编号 (销售订单, 采购订单)</value>
-  <value column="Help" original="The business partner order reference is the order reference for this specific transaction; Often Purchase Order numbers are given to print on Invoices for easier reference.  A standard number can be defined in the Business Partner (Customer) window.">业务伙伴订单引用是针对该特定事务处理的订单引用; 采购订单编号常常被给出，打印在发票上以容易参考。标准编号可在业务伙伴 (客户) 窗口中定义</value>
+  <value column="Help" original="The business partner order reference is the order reference for this specific transaction; Often Purchase Order numbers are given to print on Invoices for easier reference.  A standard number can be defined in the Business Partner (Customer) window.">业务伙伴订单引用是针对该特定交易的订单引用; 通常，采购订单号被打印在发票上以直观参考。标准编号可在业务伙伴 (客户) 窗口中定义</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4874,7 +4874,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Warehouse Differences">库存损耗</value>
   <value column="PrintName" original="Warehouse Differences">库存损耗</value>
   <value column="Description" original="Warehouse Differences Account">仓库差异账户</value>
-  <value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">仓库差异账户标识用于在库存盘点中记录差异的账户</value>
+  <value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">仓库差异账户标识用于在库存盘点当中记录差异的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4884,7 +4884,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="(Not Used)">(在库库存)</value>
   <value column="PrintName" original="(Not Used)">(在库库存)</value>
   <value column="Description" original="Warehouse Inventory Asset Account - Currently not used">仓库库存资产账户 - 当前未使用</value>
-  <value column="Help" original="The Warehouse Inventory Asset Account identifies the account used for recording the value of your inventory. This is the counter account for inventory revaluation differences. The Product Asset account maintains the product asset value.">仓库库存资产金额标识用于记录库存价值的账户。这是库存重估差异的反向账户。产品资产账户维护了产品资产的价值</value>
+  <value column="Help" original="The Warehouse Inventory Asset Account identifies the account used for recording the value of your inventory. This is the counter account for inventory revaluation differences. The Product Asset account maintains the product asset value.">仓库库存资产金额账户标识用于记录你的库存价值的账户。这是库存重估差异的对立账户。产品资产账户维护了产品资产的价值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5034,7 +5034,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Committed Amount">委托金额</value>
   <value column="PrintName" original="Committed Amt">委托金额</value>
   <value column="Description" original="The (legal) commitment amount">(法定的) 承诺金额</value>
-  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">承诺金额与计划金额无关。您可为实际估计而使用计划金额，它可能高于或低于承诺金额</value>
+  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">承诺金额独立于计划金额的。您可为现实估计而使用计划金额，它可能高于或低于承诺金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5935,7 +5935,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Mail Host">邮件服务器主机</value>
   <value column="PrintName" original="Mail Host">邮件服务器主机</value>
   <value column="Description" original="Hostname of Mail Server for SMTP and IMAP">邮件服务器 (SMTP 和 IMAP) 的主机名</value>
-  <value column="Help" original="The host name of the Mail Server for this client with SMTP services to send mail, and IMAP to process incoming mail.">邮件服务器的主机名供客户向SMTP服务器发出邮件,并且用IMAP来收取邮件.</value>
+  <value column="Help" original="The host name of the Mail Server for this client with SMTP services to send mail, and IMAP to process incoming mail.">邮件服务器的主机名用于为该客户的SMTP服务发送邮件，并且为IMAP处理传入邮件</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6752,10 +6752,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1362" trl="Y">
-  <value column="Name" original="Accept Corporate">接受公司卡</value>
+  <value column="Name" original="Accept Corporate">接受公司</value>
   <value column="PrintName" original="Corporate">法人</value>
   <value column="Description" original="Accept Corporate Purchase Cards">接受法人支付卡</value>
-  <value column="Help" original="Indicates if Corporate Purchase Cards are accepted ">表示是否接受Corporate支付卡，作为到该银行账户的付款方式。 </value>
+  <value column="Help" original="Indicates if Corporate Purchase Cards are accepted ">表示是否接受Corporate支付卡，作为到该银行账户的付款方式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7214,7 +7214,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1419" trl="Y">
   <value column="Name" original="Proxy logon">代理服务器登录</value>
   <value column="PrintName" original="Proxy logon">代理服务器登录</value>
-  <value column="Description" original="Logon of your proxy server">登录您的代理服务器登录名</value>
+  <value column="Description" original="Logon of your proxy server">登录您的代理服务器</value>
   <value column="Help" original="The Proxy Logon identifies the Logon ID for your proxy server.">代理服务器登录，标识您的代理服务器的登录ID</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7265,7 +7265,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Zip verified">邮编已验证</value>
   <value column="PrintName" original="Zip verified">邮编已验证</value>
   <value column="Description" original="The Zip Code has been verified">邮编已验证</value>
-  <value column="Help" original="The Zip Verified indicates if the zip code has been verified by the Credit Card Company.">邮编已验证表示邮编是否已被信用卡公司验证</value>
+  <value column="Help" original="The Zip Verified indicates if the zip code has been verified by the Credit Card Company.">邮编已验证表示邮政编码是否已经由信用卡公司核实</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7445,7 +7445,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Voice authorization code">语音验证码</value>
   <value column="PrintName" original="Voice authorization code">语音验证码</value>
   <value column="Description" original="Voice Authorization Code from credit card company">信用卡公司的语音验证码</value>
-  <value column="Help" original="The Voice Authorization Code indicates the code received from the Credit Card Company.">语音验证码表示接收自信用卡公司的代码</value>
+  <value column="Help" original="The Voice Authorization Code indicates the code received from the Credit Card Company.">语音授权码表示接收自信用卡公司的代码</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7485,7 +7485,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Write-off">勾销金额</value>
   <value column="PrintName" original="Write-off">勾销金额</value>
   <value column="Description" original="Account for Receivables write-off">应收款勾销账户</value>
-  <value column="Help" original="The Write Off Account identifies the account to book write off transactions to.">勾销金额标识将勾销事务处理进行登记的账户</value>
+  <value column="Help" original="The Write Off Account identifies the account to book write off transactions to.">冲销账户是指用于在账册上冲销交易的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7495,7 +7495,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Write-off Amount">勾销金额</value>
   <value column="PrintName" original="Write-off">勾销金额</value>
   <value column="Description" original="Amount to write-off">坏账金额</value>
-  <value column="Help" original="The Write Off Amount indicates the amount to be written off as uncollectible.">勾销金额表示无法收回而被勾销的金额</value>
+  <value column="Help" original="The Write Off Amount indicates the amount to be written off as uncollectible.">冲销金额表示因无法收回而被冲销的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7915,7 +7915,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Frequency">频度</value>
   <value column="PrintName" original="Frequency">频度</value>
   <value column="Description" original="Frequency of events">活动频度</value>
-  <value column="Help" original="The frequency is used in conjunction with the frequency type in determining an event. Example: If the Frequency Type is Week and the Frequency is 2 - it is every two weeks.">与频度类型关联的频度用于决定一个事件。例如: 如果频度类型为周，而频度为2，则表示每2周</value>
+  <value column="Help" original="The frequency is used in conjunction with the frequency type in determining an event. Example: If the Frequency Type is Week and the Frequency is 2 - it is every two weeks.">频率和频率类型一同决定一个事件。例如：如果频率类型为周、频率为 2，则表示每两周执行一次</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8006,7 +8006,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PrintName" original="Mail Template">邮件模板</value>
   <value column="Description" original="Text templates for mailings">邮件列表的正文模板</value>
   <value column="Help" original="The Mail Template indicates the mail template for return messages. Mail text can include variables.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection."><![CDATA[邮件模板表示返回消息的邮件模板。邮件正文可以包含变量。解析的优先级是用户/联系人、业务伙伴以及潜在业务对象 (例如请求、催款信函、工作流对象)。<br>
-因此，@Name@ 将被解析为用户名（如果定义了用户），然后是业务伙伴名称（如果定义了业务伙伴），再接下来是业务对象的名称（如果它具有名称）。<br>
+因此，@Name@ 将被解析为用户名（如果定义了用户），然后是业务伙伴名称（如果定义了业务伙伴），再接下来是业务对象的名称（如果它具有名称）<br>
 对于多语种系统，模板基于业务伙伴的语言选择进行翻译]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -8317,7 +8317,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Finish Date">完成日期</value>
   <value column="PrintName" original="Finish Date">完成日期</value>
   <value column="Description" original="Finish or (planned) completion date">完成日期</value>
-  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.">项目预计完成或者已经完成的日期.</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.">结束日期是指项目预计完成或者已经完成的日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9497,7 +9497,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Escalate after Days Due">过期多少天晋级</value>
   <value column="PrintName" original="Escalate after Days">过期多少天晋级</value>
   <value column="Description" original="Escalation to superior after number of due days (0 = no)">过期多少天之后，提升级别至主管 (0 表示不晋级)</value>
-  <value column="Help" original="The item will be escalated and assigned to the supervisor after the number of days over due. If 0, there is no escalation.">过期多少天之后，待处理项将被晋级并指派给主管。如果为 0，则不晋级</value>
+  <value column="Help" original="The item will be escalated and assigned to the supervisor after the number of days over due. If 0, there is no escalation.">逾期多少天之后，待处理项将被上报并指派给主管。如果为 0，则不上报</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9637,7 +9637,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Quantity based">基于数量</value>
   <value column="PrintName" original="Quantity based">基于数量</value>
   <value column="Description" original="Trade discount break level based on Quantity (not value)">交易折扣分段级别的最小数量 (非金额)</value>
-  <value column="Help" original="The calculation of the trade discount level is based on the quantity of the order and not the value amount of the order">交易折扣级别计算基于订单的数量，而非订单的金额</value>
+  <value column="Help" original="The calculation of the trade discount level is based on the quantity of the order and not the value amount of the order">交易折扣级别的计算是基于订单的数量，而不是基于订单的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9717,7 +9717,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Repeat Distance">重复距离</value>
   <value column="PrintName" original="Repeat Distance">重复距离</value>
   <value column="Description" original="Distance in points to repeat gradient color - or zero">重复渐变颜色的点距离 - 或为0</value>
-  <value column="Help" original="The gradient color is not repeated, if the value is zero. The distance is added to (or subtracted from) the starting point of the gradient.">渐变色未被重复，如果该值为0。距离被增添至 (或减自) 渐变起始点</value>
+  <value column="Help" original="The gradient color is not repeated, if the value is zero. The distance is added to (or subtracted from) the starting point of the gradient.">渐变颜色是不重复的，如果该值为0。距离被添加到 (或从减去自) 渐变起始点</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9727,7 +9727,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Start Point">起始点</value>
   <value column="PrintName" original="Start Point">起始点</value>
   <value column="Description" original="Start point of the gradient colors">渐变颜色的起始点</value>
-  <value column="Help" original="The gradient starts at the start point (e.g. North). The repeat distance determines if and how often the gradient colors are repeated.  If starting from southern points, the upper color is actually at the button.">渐变开始于起始点 (如北部)。重复距离决定渐变色是否重复和重复频率。如果从南部点开始，上部的颜色实际在按钮上</value>
+  <value column="Help" original="The gradient starts at the start point (e.g. North). The repeat distance determines if and how often the gradient colors are repeated.  If starting from southern points, the upper color is actually at the button.">渐变开始于起始点（例如北）。重复距离决定渐变色是否重复、如何经常重复。如果从南点开始，上部的颜色实际上在按钮上</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10556,8 +10556,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1810" trl="Y">
   <value column="Name" original="X Position">X 位置</value>
   <value column="PrintName" original="X Position">X 位置</value>
-  <value column="Description" original="Absolute X (horizontal) position in 1/72 of an inch">绝对 X (水平) 位置点, 每点为 1/72 英寸</value>
-  <value column="Help" original="Absolute X (horizontal) position in 1/72 of an inch">绝对 X (水平) 位置点, 每点为 1/72 英寸</value>
+  <value column="Description" original="Absolute X (horizontal) position in 1/72 of an inch">单位是1像素1/72英寸的绝对水平位置</value>
+  <value column="Help" original="Absolute X (horizontal) position in 1/72 of an inch">单位是1像素1/72英寸的绝对水平位置</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10757,7 +10757,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Image attached">图片已附加</value>
   <value column="PrintName" original="Image attached">图片已附加</value>
   <value column="Description" original="The image to be printed is attached to the record">要打印的图片附加到了记录</value>
-  <value column="Help" original="The image to be printed is stored in the database as attachment to this record. The image can be a gif, jpeg or png.">待打印的图片存储于数据中，作为该记录的附件。图片可以是GIF、JPEG或PNG格式</value>
+  <value column="Help" original="The image to be printed is stored in the database as attachment to this record. The image can be a gif, jpeg or png.">待打印的图片以该记录的附件的形式存储于数据库中。图片可以是GIF、JPEG或PNG格式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11527,7 +11527,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Manufacturer">制造商</value>
   <value column="PrintName" original="Manufacturer">制造商</value>
   <value column="Description" original="Manufacturer of the Product">产品的制造商</value>
-  <value column="Help" original="The manufacturer of the Product (used if different from the Business Partner / Vendor)">产品的制造商 (如果与业务伙伴/供应商不同，则使用它)</value>
+  <value column="Help" original="The manufacturer of the Product (used if different from the Business Partner / Vendor)">产品的制造商 （用于 如果来自不同的业务伙伴或供应商时）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11697,7 +11697,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="In Service Date">投入使用日期</value>
   <value column="PrintName" original="In Service date">投入使用日期</value>
   <value column="Description" original="Date when Asset was put into service">资产投入使用的日期</value>
-  <value column="Help" original="The date when the asset was put into service - usually used as start date for depreciation.">资产开始被使用的日期,通常作为折旧开始日期</value>
+  <value column="Help" original="The date when the asset was put into service - usually used as start date for depreciation.">资产开始被使用的日期，通常作为折旧开始日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11876,7 +11876,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1952" trl="Y">
   <value column="Name" original="Message ID">消息 ID</value>
   <value column="PrintName" original="Message ID">消息 ID</value>
-  <value column="Description" original="EMail Message ID">Email 消息 ID</value>
+  <value column="Description" original="EMail Message ID">邮件消息ID</value>
   <value column="Help" original="SMTP Message ID for tracking purposes">用于追踪的SMTP消息ID</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12237,7 +12237,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Web Parameter 1">Web 参数 1</value>
   <value column="PrintName" original="WebParam1">Web 参数 1</value>
   <value column="Description" original="Web Site Parameter 1 (default: header image)">网站参数 1</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam1 - By default, it is positioned on the upper left side with 130 pixel width.">参数可用于 JSP 页面，如 logos、passwords、URLs 变量或完整的 HTML 块。访问通过 ctx.webParam1 进行</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam1 - By default, it is positioned on the upper left side with 130 pixel width.">参数可用于 JSP 页面的各种变量，例如标识图、密码、URL 或完整的 HTML 块。访问通过 ctx.webParam1 进行。参数位置一般默认于页面左上角，130 像素宽</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12247,7 +12247,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Web Parameter 2">Web 参数 2</value>
   <value column="PrintName" original="WebParam2">Web 参数 2</value>
   <value column="Description" original="Web Site Parameter 2 (default index page)">网站参数 2</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam2 - By default, it is positioned after the header on the web store index page.">参数可用于 JSP 页面，如 logos、passwords、URLs 变量或完整的 HTML 块。访问通过 ctx.webParam2 进行</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam2 - By default, it is positioned after the header on the web store index page.">参数可用于 JSP 页面的各种变量，例如标识图、密码、URL 或完整的 HTML 块。访问通过 ctx.webParam2 进行。参数位置一般默认于web store 索引页的页眉之下</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12257,7 +12257,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Web Parameter 3">Web 参数 3</value>
   <value column="PrintName" original="WebParam3">Web 参数 3</value>
   <value column="Description" original="Web Site Parameter 3 (default left - menu)">网站参数 3</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam3 - By default, it is positioned at the end in the menu column with 130 pixel width.">参数可用于 JSP 页面，如 logos、passwords、URLs 变量或完整的 HTML 块。访问通过 ctx.webParam3 进行</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam3 - By default, it is positioned at the end in the menu column with 130 pixel width.">参数可用于 JSP 页面的各种变量，例如标识图、密码、URL 或完整的 HTML 块。访问通过 ctx.webParam3进行。参数位置一般默认于在菜单的未尾，130 像素宽</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12267,7 +12267,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Web Parameter 4">Web 参数 4</value>
   <value column="PrintName" original="WebParam 4">Web 参数 4</value>
   <value column="Description" original="Web Site Parameter 4 (default footer left)">网站参数 4</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam4 - By default, it is positioned on the left side of the footer with 130 pixel width.">参数可用于 JSP 页面，如 logos、passwords、URLs 变量或完整的 HTML 块。访问通过 ctx.webParam4 进行</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam4 - By default, it is positioned on the left side of the footer with 130 pixel width.">参数可用于 JSP 页面的各种变量，例如标识图、密码、URL 或完整的 HTML 块。访问通过 ctx.webParam4 进行。参数位置一般默认于页脚在左侧，130 像素宽</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12657,7 +12657,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Committed Quantity">已委托数量</value>
   <value column="PrintName" original="Committed Qty">委托数量</value>
   <value column="Description" original="The (legal) commitment Quantity">(法定的) 承诺数量</value>
-  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">承诺金额与计划金额无关。您可为实际估计而使用计划金额，它可能高于或低于承诺金额</value>
+  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">承诺金额独立于计划金额的。您可为现实估计而使用计划金额，它可能高于或低于承诺金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13057,7 +13057,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Commitment is Ceiling">承诺限度</value>
   <value column="PrintName" original="Commit ceiling">承诺限度</value>
   <value column="Description" original="The commitment amount/quantity is the chargeable ceiling ">债务金额/数量是可征收的极限 </value>
-  <value column="Help" original="The commitment amount and quantity is the maximum amount and quantity to be charged.  Ignored, if the amount or quantity is zero.">合同金额和数量是需要支付的最大金额和数量。如果金额或数量为零，则忽略</value>
+  <value column="Help" original="The commitment amount and quantity is the maximum amount and quantity to be charged.  Ignored, if the amount or quantity is zero.">承诺金额和数量是需要收取的最大金额和数量。如果金额或数量为零，则忽略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13959,7 +13959,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Web Parameter 5">Web 参数 5</value>
   <value column="PrintName" original="Web Param 5">Web 参数 5</value>
   <value column="Description" original="Web Site Parameter 5 (default footer center)">网站参数 5</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam5 - By default, it is positioned in the center of the footer.">参数可用于 JSP 页面，如 logos、passwords、URLs 变量或完整的 HTML 块。访问通过 ctx.webParam5 进行</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam5 - By default, it is positioned in the center of the footer.">参数可用于 JSP 页面的各种变量，例如标识图、密码、URL 或完整的 HTML 块。访问通过 ctx.webParam5 进行。参数位置一般默认于页脚的中间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13969,7 +13969,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Web Parameter 6">Web 参数 6</value>
   <value column="PrintName" original="Web Parm 6">Web 参数 6</value>
   <value column="Description" original="Web Site Parameter 6 (default footer right)">网站参数 6</value>
-  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam6 - By default, it is positioned on the right side of the footer.">参数可用于 JSP 页面，如 logos、passwords、URLs 变量或完整的 HTML 块。访问通过 ctx.webParam6 进行</value>
+  <value column="Help" original="The parameter could be used in the JSP page for variables like logos, passwords, URLs or entire HTML blocks. The access is via ctx.webParam6 - By default, it is positioned on the right side of the footer.">参数可用于 JSP 页面的各种变量，例如标识图、密码、URL 或完整的 HTML 块。访问通过 ctx.webParam6 进行。参数位置一般默认于页脚的右侧</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14100,7 +14100,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Verification Info">验证信息</value>
   <value column="PrintName" original="Verify Info">验证信息</value>
   <value column="Description" original="Verification information of EMail Address">电子邮件地址的验证信息</value>
-  <value column="Help" original="The field contains additional information how the EMail Address has been verified">该字段包含电子邮件地址已被验证的额外信息</value>
+  <value column="Help" original="The field contains additional information how the EMail Address has been verified">该字段包含了额外信息：该电子邮件地址是如何被已验证的</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14110,7 +14110,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Encryption Class">加密类</value>
   <value column="PrintName" original="Encryption Class">加密类</value>
   <value column="Description" original="Encryption Class used for securing data content">用于保护数据内容安全的加密类</value>
-  <value column="Help" original="The class needs to implement the interface org.compiere.util.SecureInterface.&#10;You enable it by setting the COMPIERE_SECURE parameter of your Client and Server start scripts to the custom class.">该类需要实现 org.compiere.util.SecureInterface 接口。@#10;您通过设置客户端与服务器端的启动脚本，将 COMPIERE_SECURE 参数指向自定义的类</value>
+  <value column="Help" original="The class needs to implement the interface org.compiere.util.SecureInterface.&#10;You enable it by setting the COMPIERE_SECURE parameter of your Client and Server start scripts to the custom class.">该类需要实现 org.compiere.util.SecureInterface 接口&#10;如果要使其生效，你可以通过设置客户端与服务器端的启动脚本，将 COMPIERE_SECURE 参数指向自定义的类</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14970,7 +14970,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Bank Statement Loader">银行对账单装载器</value>
   <value column="PrintName" original="Bank Statement Loader">银行对账单装载器</value>
   <value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">银行对账单装载器的定义 (SWIFT, OFX)</value>
-  <value column="Help" original="The loader definition provides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX">装载器定义提供了从EFT格式 (像SWIFT [MT940] 或OFX) 装载银行对账单的参数</value>
+  <value column="Help" original="The loader definition provides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX">加载器定义 提供了加载银行对账单的参数，来自 EFT 格式，例如 SWIFT（MT940）或OFX</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15110,7 +15110,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Statement Loader Class">对账单装载类</value>
   <value column="PrintName" original="Statement Loader Class">对账单装载类</value>
   <value column="Description" original="Class name of the bank statement loader">银行对账单装载器的类名</value>
-  <value column="Help" original="The name of the actual bank statement loader implementing the interface org.compiere.impexp.BankStatementLoaderInterface">实际的银行对账单装载器类名，该类实现了org.compiere.impexp.BankStatementLoaderInterface接口</value>
+  <value column="Help" original="The name of the actual bank statement loader implementing the interface org.compiere.impexp.BankStatementLoaderInterface">名称，实际银行对账单加载器的名称，实现 org.compiere.impexp.BankStatementLoaderInterface</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15170,7 +15170,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Workflow Activity">工作流活动</value>
   <value column="PrintName" original="Wf Activity">工作流活动</value>
   <value column="Description" original="Workflow Activity">工作流活动</value>
-  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动是工作流流程实例中实际的工作流节点</value>
+  <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动指在某个工作流过程实例中，实际的工作流节点</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15590,7 +15590,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Linked Organization">链接的组织</value>
   <value column="PrintName" original="Linked Org">链接的组织</value>
   <value column="Description" original="The Business Partner is another Organization for explicit Inter-Org transactions">该业务伙伴是显式组织间事务处理的另一个组织</value>
-  <value column="Help" original="The business partner is another organization in the system. So when performing transactions, the counter-document is created automatically. Example: You have BPartnerA linked to OrgA and BPartnerB linked to OrgB.  If you create a sales order for BPartnerB in OrgA a purchase order is created for BPartnerA in OrgB.  This allows to have explicit documents for Inter-Org transactions.">该业务伙伴是系统中的另一个组织。所以当执行事务处理时，相反的单据被自动创建。例如：您的业务伙伴A被链接至组织A，业务伙伴B被链接至组织B。如果您为业务伙伴B在组织A中创建一份销售订单，那么组织B中的业务伙伴A将被创建一份采购订单。这允许生成组织间事务处理的显式单据</value>
+  <value column="Help" original="The business partner is another organization in the system. So when performing transactions, the counter-document is created automatically. Example: You have BPartnerA linked to OrgA and BPartnerB linked to OrgB.  If you create a sales order for BPartnerB in OrgA a purchase order is created for BPartnerA in OrgB.  This allows to have explicit documents for Inter-Org transactions.">业务伙伴是系统中的另一个组织。所以当执行交易时，相对立的单据被自动创建。例如：您的业务伙伴A被链接至组织A，业务伙伴B被链接至组织B。如果您为业务伙伴B在组织A中创建一份销售订单，那么组织B中的业务伙伴A将被创建一份采购订单。这允许生成组织间交易的显式单据</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16121,7 +16121,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Distribution List Line">配送清单行</value>
   <value column="PrintName" original="Distribution List Line">配送清单行</value>
   <value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">含有业务伙伴和数量/百分比的配送清单行</value>
-  <value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">分发可基于比率、固定数量或两者皆有。如果比率和数量非零，数量基于比率计算，但数量为最小值</value>
+  <value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">配送可基于比率、固定数量或两者皆有&#10;如果比率和数量不是0，(配送)数量基于比率计算，但是以该数量为最小值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16700,7 +16700,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2468" trl="Y">
   <value column="Name" original="Always Updatable">用户可更新的</value>
   <value column="PrintName" original="Always Updatable">用户可更新的</value>
-  <value column="Description" original="The column is always updateable, even if the record is not active or processed">列总是可更新的,不管此记录是否激活或已处理</value>
+  <value column="Description" original="The column is always updateable, even if the record is not active or processed">此列始终是可更新的，即使这个记录不活动或已处理</value>
   <value column="Help" original="If selected and if the window / tab is not read only, you can always update the column.  This might be useful for comments, etc.">如果选中且窗口/页签不是只读的，那么您总是可更新该列。这可能用于注释等信息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -16871,7 +16871,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Distribution Run Line">配送发运行</value>
   <value column="PrintName" original="Distribution Run Line">配送发运行</value>
   <value column="Description" original="Distribution Run Lines define Distribution List, the Product and Quantities">配送发运行定义了分发清单、产品和数量</value>
-  <value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">订单金额基于产品或分发清单的最小值和基于比率的数量之中较大的那一个</value>
+  <value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">订单金额基于两者之中的校大的那一个：产品或配送清单的最小值，以及基于比率的数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17158,10 +17158,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2516" trl="Y">
-  <value column="Name" original="Use Beta Functions">使用测试功能</value>
-  <value column="PrintName" original="Use Beta">使用测试</value>
+  <value column="Name" original="Use Beta Functions">启用 Beta 功能</value>
+  <value column="PrintName" original="Use Beta">启用 Beta 功能</value>
   <value column="Description" original="Enable the use of Beta Functionality">启用 Beta 功能</value>
-  <value column="Help" original="The exact scope of Beta Functionality is listed in the release note.  It is usually not recommended to enable Beta functionality in production environments.">Beta 功能的明确范围列于版本发布说明之中。在生产 (上线) 环境下通常不推荐开启 Beta 功能</value>
+  <value column="Help" original="The exact scope of Beta Functionality is listed in the release note.  It is usually not recommended to enable Beta functionality in production environments.">Beta 功能的明确范围列于版本发布说明之中。在生产 (上线) 环境下，通常不推荐开启 Beta 功能</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17350,8 +17350,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2539" trl="Y">
   <value column="Name" original="Price Invoiced">发票价格</value>
   <value column="PrintName" original="Price Invoiced">发票价格</value>
-  <value column="Description" original="The priced invoiced to the customer (in the currency of the customer's AR price list) - 0 for default price">给客户的开票价格 (以客户的应收价格表币种表示) - 0 表示默认价格</value>
-  <value column="Help" original="The invoiced price is derived from the Invoice Price entered and can be overwritten.  If the price is 0, the default price on the customer's invoice is used.">开票价格来源于输入的发票价格, 可被覆盖。如果价格为零, 则使用客户发票上的默认价格</value>
+  <value column="Description" original="The priced invoiced to the customer (in the currency of the customer's AR price list) - 0 for default price">给客户的开票价格 (以客户的应收价格表的币种表示) - 0 表示默认价格</value>
+  <value column="Help" original="The invoiced price is derived from the Invoice Price entered and can be overwritten.  If the price is 0, the default price on the customer's invoice is used.">开票价格来源于输入的发票价格，也可以被覆盖。如果价格为零，则使用客户发票上的默认价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17461,7 +17461,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Move Confirm">移库确认</value>
   <value column="PrintName" original="Move Confirm">移库确认</value>
   <value column="Description" original="Inventory Move Confirmation">移库确认</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">当单据类型是移库时表示在途, 自动生成单据</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">当移库单据类型表示为"在途"时，则单据会自动生成</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17812,7 +17812,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Price">价格</value>
   <value column="PrintName" original="Price">价格</value>
   <value column="Description" original="Price Entered - the price based on the selected/base UoM">输入的价格 - 基于所选择的计量单位</value>
-  <value column="Help" original="The price entered is converted to the actual price based on the UoM conversion">输入的价格基于计量单位换算, 被转换至实际价格</value>
+  <value column="Help" original="The price entered is converted to the actual price based on the UoM conversion">输入的价格 按照 计量单位换算 转成实际价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17972,7 +17972,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Custom Prefix">自定义前缀</value>
   <value column="PrintName" original="Custom Prefix">自定义前缀</value>
   <value column="Description" original="Prefix for Custom entities">自定义对象的前缀</value>
-  <value column="Help" original="The prefix listed are ignored as customization for database or entity migration">当数据库定制或实体对象迁移时, 列出的前缀被忽略</value>
+  <value column="Help" original="The prefix listed are ignored as customization for database or entity migration">当数据库或实体对象迁移时，列出的前缀将被视为客户化而被忽略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18368,7 +18368,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2643" trl="Y">
   <value column="Name" original="Customization">定制级别</value>
   <value column="PrintName" original="Customization">定制级别</value>
-  <value column="Description" original="The change is a customization of the data dictionary and can be applied after Migration">更改是数据字典的自定义部分，可在迁移之后应用</value>
+  <value column="Description" original="The change is a customization of the data dictionary and can be applied after Migration">更改是数据字典的自定义部分，并且可以在迁移之后应用</value>
   <value column="Help" original="The migration &quot;resets&quot; the system to the current/original setting.  If selected you can save the customization and re-apply it.  Please note that you need to check, if your customization has no negative side effect in the new release.">迁移将“重置”系统至当前/原始的设置。如果选中，您可保存自定义并重新应用它。请注意，您需要检查您的自定义在新发布的版本中是否存在负面影响</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19363,7 +19363,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2748" trl="Y">
   <value column="Name" original="Subject">主题</value>
   <value column="PrintName" original="Subject">主题</value>
-  <value column="Description" original="Email Message Subject">电子邮件消息主题</value>
+  <value column="Description" original="Email Message Subject">邮件消息主题</value>
   <value column="Help" original="Subject of the EMail ">邮件信息的主题 </value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19373,8 +19373,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2749" trl="Y">
   <value column="Name" original="Message">消息</value>
   <value column="PrintName" original="Message">消息</value>
-  <value column="Description" original="EMail Message">EMail消息</value>
-  <value column="Help" original="Message of the EMail">电子邮件的消息</value>
+  <value column="Description" original="EMail Message">邮件消息</value>
+  <value column="Help" original="Message of the EMail">邮件的消息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19383,8 +19383,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2750" trl="Y">
   <value column="Name" original="Message 2">消息 2</value>
   <value column="PrintName" original="Message 2">消息 2</value>
-  <value column="Description" original="Optional second part of the EMail Message">电子邮件消息的可选第二部分</value>
-  <value column="Help" original="Message of the EMail">电子邮件的消息</value>
+  <value column="Description" original="Optional second part of the EMail Message">邮件消息的可选第二部分</value>
+  <value column="Help" original="Message of the EMail">邮件的消息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19393,8 +19393,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2751" trl="Y">
   <value column="Name" original="Message 3">消息 3</value>
   <value column="PrintName" original="Message 3">消息 3</value>
-  <value column="Description" original="Optional third part of the EMail Message">电子邮件消息的可选第三部分</value>
-  <value column="Help" original="Message of the EMail">电子邮件的消息</value>
+  <value column="Description" original="Optional third part of the EMail Message">邮件消息的可选第三部分</value>
+  <value column="Help" original="Message of the EMail">邮件的消息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20465,7 +20465,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Tax Declaration Line">税申报行</value>
   <value column="PrintName" original="Tax Declaration Line">税申报行</value>
   <value column="Description" original="Tax Declaration Document Information">税申报单据信息</value>
-  <value column="Help" original="The lines are created by the create process. You can delete them if you do not want to include them in a particular declaration. ">由创建流程生产的行。如果您不希望在特定的申报单中包括它们，可删除它们。 </value>
+  <value column="Help" original="The lines are created by the create process. You can delete them if you do not want to include them in a particular declaration. ">这些明细是由创建进程生成的。如果你不想把它们包括在某个特定的申报单中，你可以删除它们</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20676,7 +20676,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Price Match Difference">价格匹配差异</value>
   <value column="PrintName" original="Price Match Difference">价格匹配差异</value>
   <value column="Description" original="Difference between Purchase and Invoice Price per matched line">采购与发票价格之间每匹配行的差异</value>
-  <value column="Help" original="The difference between purchase and invoice price may be used for requiring explicit approval if a Price Match Tolerance is defined on Business Partner Group level.">采购与发票价格之间的差异可能用于要求显式的审批，如果在业务伙伴分组级别已经定义了价格匹配冗余</value>
+  <value column="Help" original="The difference between purchase and invoice price may be used for requiring explicit approval if a Price Match Tolerance is defined on Business Partner Group level.">采购与发票价格之间的差异可用于要求显式的审批，如果在业务伙伴分组级别上 已经定义了价格匹配冗余</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22040,7 +22040,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Revenue Recognition Amt">收入确认金额</value>
   <value column="PrintName" original="RR Amt">收入确认金额</value>
   <value column="Description" original="Revenue Recognition Amount">收入确认金额</value>
-  <value column="Help" original="The amount for revenue recognition calculation.  If empty, the complete invoice amount is used.  The difference between Revenue Recognition Amount and Invoice Line Net Amount is immediately recognized as revenue.">收入确认计算的金额。如果为空，则使用已完成的发票金额。在收入确认金额和发票行净额之间存在的差额，被立即确认为收入</value>
+  <value column="Help" original="The amount for revenue recognition calculation.  If empty, the complete invoice amount is used.  The difference between Revenue Recognition Amount and Invoice Line Net Amount is immediately recognized as revenue.">收益确认计算的金额。如果为空，则使用已完整的发票金额。在收入确认金额和发票明细净额之间存在的差额，被立即确认为收益</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22220,7 +22220,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Entity Type">对象实体类型</value>
   <value column="PrintName" original="Entity Type">对象实体类型</value>
   <value column="Description" original="System Entity Type">系统实体对象的类型</value>
-  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">实体对象类型决定了应用字典项的所有权。“字典”与“iDempiere”类型不应被使用</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">个体（entity）类型决定了应用字典项目的所有权。“字典”与“iDempiere”类型不应被使用，并且由iDempiere维护（例如，在迁移时所有的变更都会被回退到当前的定义）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23927,8 +23927,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52044" trl="Y">
-  <value column="Name" original="Locked">锁定</value>
-  <value column="PrintName" original="Locked">锁定</value>
+  <value column="Name" original="Locked">已锁定</value>
+  <value column="PrintName" original="Locked">已锁定</value>
   <value column="Description" original="Whether the terminal is locked">Whether the terminal is locked</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24666,7 +24666,7 @@ Take care when setting yield to anything but 100% particularly when yied is used
  <row id="53282" trl="Y">
   <value column="Name" original="MRP Type">MRP 类型</value>
   <value column="PrintName" original="MRP Type">MRP 类型</value>
-  <value column="Description" original="MRP Type determines whether a record is demand or supply">决定记录以什么顺序显示</value>
+  <value column="Description" original="MRP Type determines whether a record is demand or supply">MRP类型可以是需求或供应</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -25013,7 +25013,7 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
  <row id="53316" trl="Y">
   <value column="Name" original="Material Requirement Planning">物料需求计划</value>
   <value column="PrintName" original="Material Requirement Planning">物料需求计划</value>
-  <value column="Description" original="MRP ID">流程 ID</value>
+  <value column="Description" original="MRP ID">MRP ID</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -28116,8 +28116,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
  <row id="53710" trl="Y">
   <value column="Name" original="Gadget URI">ZUL文件路径</value>
   <value column="PrintName" original="Gadget URI">ZUL文件路径</value>
-  <value column="Description" original="URI for Dashboard Gadget">Absolute path to zul file</value>
-  <value column="Help" original="URI for Dashboard Gadget. This can be absolute path to a zul file or an unique gadget id which is instantiated through OSGi factory services.">Absolute path to zul file that is use to generate dashboard content</value>
+  <value column="Description" original="URI for Dashboard Gadget">ZUL文件的绝对路径</value>
+  <value column="Help" original="URI for Dashboard Gadget. This can be absolute path to a zul file or an unique gadget id which is instantiated through OSGi factory services.">ZUL文件的绝对路径是用于生成仪表板内容</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28611,7 +28611,7 @@ Credit Work in Process Account ]]></value>
   <value column="Name" original="Mandatory Promotion Line">必填的促销明细</value>
   <value column="PrintName" original="Mandatory Promotion Line">必填的促销明细</value>
   <value column="Description" original="Order must have this promotion line">订单必须保有促销明细</value>
-  <value column="Help" original="The mandatory promotion check box indicates that the order must have this promotion line">必填的促销选择框的含义为订单必须保有促销明细</value>
+  <value column="Help" original="The mandatory promotion check box indicates that the order must have this promotion line">强制促销（promotion）复选框表示单据有这个促销明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -29380,7 +29380,7 @@ Credit Work in Process Account ]]></value>
  <row id="54128" trl="Y">
   <value column="Name" original="Processed On">已处理</value>
   <value column="PrintName" original="Processed On">已处理</value>
-  <value column="Description" original="The date+time (expressed in decimal format) when the document has been processed">已处理复选框表示单据已被处理</value>
+  <value column="Description" original="The date+time (expressed in decimal format) when the document has been processed">日期 + 时间 （以十进制格式表示） 当该单据已经被处理</value>
   <value column="Help" original="The ProcessedOn Date+Time save the exact moment (nanoseconds precision if allowed by the DB) when a document has been processed.">The ProcessedOn Date+Time save the exact moment (nanoseconds precision if allowed by the DB) when a document has been processed.</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -36582,8 +36582,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55050" trl="Y">
-  <value column="Name" original="M_Transaction_UU">事务处理金额</value>
-  <value column="PrintName" original="M_Transaction_UU">事务处理金额</value>
+  <value column="Name" original="M_Transaction_UU">M_Transaction_UU</value>
+  <value column="PrintName" original="M_Transaction_UU">M_Transaction_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -36592,8 +36592,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55051" trl="Y">
-  <value column="Name" original="M_TransactionAllocation_UU">M_事务处理分配类型</value>
-  <value column="PrintName" original="M_TransactionAllocation_UU">M_事务处理分配类型</value>
+  <value column="Name" original="M_TransactionAllocation_UU">M_TransactionAllocation_UU</value>
+  <value column="PrintName" original="M_TransactionAllocation_UU">M_TransactionAllocation_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -36602,8 +36602,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55052" trl="Y">
-  <value column="Name" original="M_Warehouse_UU"><![CDATA[仓库(&W)]]></value>
-  <value column="PrintName" original="M_Warehouse_UU"><![CDATA[仓库(&W)]]></value>
+  <value column="Name" original="M_Warehouse_UU"><M_Warehouse_UU></value>
+  <value column="PrintName" original="M_Warehouse_UU"><M_Warehouse_UU></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -36612,8 +36612,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55053" trl="Y">
-  <value column="Name" original="M_Warehouse_Acct_UU">A_资产_账户_ID</value>
-  <value column="PrintName" original="M_Warehouse_Acct_UU">A_资产_账户_ID</value>
+  <value column="Name" original="M_Warehouse_Acct_UU">M_Warehouse_Acct_UU</value>
+  <value column="PrintName" original="M_Warehouse_Acct_UU">M_Warehouse_Acct_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38382,8 +38382,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200026" trl="Y">
-  <value column="Name" original="Lowercase Character">字符数据</value>
-  <value column="PrintName" original="Lowercase Character">字符数据</value>
+  <value column="Name" original="Lowercase Character">小写字符</value>
+  <value column="PrintName" original="Lowercase Character">小写字符</value>
   <value column="Description" original="Require at least # lower case char">Require at least # lower case char</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39362,8 +39362,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200189" trl="Y">
-  <value column="Name" original="Login Org">任意组织</value>
-  <value column="PrintName" original="Login Org">任意组织</value>
+  <value column="Name" original="Login Org">登录组织</value>
+  <value column="PrintName" original="Login Org">登录组织</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39392,8 +39392,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200192" trl="Y">
-  <value column="Name" original="Login Locale">自动登录</value>
-  <value column="PrintName" original="Login Locale">自动登录</value>
+  <value column="Name" original="Login Locale">登录区域设置</value>
+  <value column="PrintName" original="Login Locale">登录区域设置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39442,10 +39442,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200197" trl="Y">
-  <value column="Name" original="User Name">管理员用户名</value>
-  <value column="PrintName" original="User Name">管理员用户名</value>
+  <value column="Name" original="User Name">用户名</value>
+  <value column="PrintName" original="User Name">用户名</value>
   <value column="Description" original=""/>
-  <value column="Help" original="Login User Name">管理员用户名</value>
+  <value column="Help" original="Login User Name">登录用户名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -54392,8 +54392,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202569" trl="N">
-  <value column="Name" original="Show on Login">Show on Login</value>
-  <value column="PrintName" original="Show on Login">Show on Login</value>
+  <value column="Name" original="Show on Login">登录显示</value>
+  <value column="PrintName" original="Show on Login">登录显示</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55218,9 +55218,9 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202699" trl="N">
-  <value column="Name" original="Add Mail Text Automatically">Add Mail Text Automatically</value>
-  <value column="PrintName" original="Add Mail Text Automatically">Add Mail Text Automatically</value>
-  <value column="Description" original="The selected mail template will be automatically inserted when creating an email">The selected mail template will be automatically inserted when creating an email</value>
+  <value column="Name" original="Add Mail Text Automatically">自动添加邮件正文</value>
+  <value column="PrintName" original="Add Mail Text Automatically">自动添加邮件正文</value>
+  <value column="Description" original="The selected mail template will be automatically inserted when creating an email">创建电子邮件时将自动插入选定的邮件正文</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>

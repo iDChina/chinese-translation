@@ -23,7 +23,7 @@
  <row id="105" trl="Y">
   <value column="Name" original="Create Inventory Count List ">创建库存盘点列表 </value>
   <value column="Description" original="Create Inventory Count List">创建库存盘点列表</value>
-  <value column="Help" original="The inventory count lines are generated.  You can add new lines or delete lines manually.">库存盘点行被生成。您可添加新的行或删除已有的行</value>
+  <value column="Help" original="The inventory count lines are generated.  You can add new lines or delete lines manually.">盘点清单已经生成。你可以手动对清单条目进行新增或删除</value>
  </row>
  <row id="106" trl="Y">
   <value column="Name" original="Update Quantity">更新数量</value>
@@ -178,7 +178,7 @@
  <row id="136" trl="Y">
   <value column="Name" original="Verify BOM">验证物料清单</value>
   <value column="Description" original="Verify BOM Structure and Update Low Level">验证BOM结构</value>
-  <value column="Help" original="The Verify BOM Structure checks the elements and steps which comprise a Bill of Materials.">校验 BOM 结构会检查构成物料清单的元素和步骤</value>
+  <value column="Help" original="The Verify BOM Structure checks the elements and steps which comprise a Bill of Materials.">"校验 BOM 结构"会验证构成物料清单的元素和步骤</value>
  </row>
  <row id="137" trl="Y">
   <value column="Name" original="Create/Post Production">创建/过账生产</value>
@@ -509,7 +509,7 @@
  <row id="209" trl="Y">
   <value column="Name" original="Send Mail Text">发送邮件正文</value>
   <value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">发送 Email 给某兴趣关注的活跃的订阅者或业务伙伴分组</value>
-  <value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User."><![CDATA[选择兴趣领域的订阅者，并以所选用户身份发送邮件。或者，您可发送邮件给业务伙伴分组的联系人。<br>发送出邮件的用户需要具有有效的电子邮件信息。如果您未选择用户，那么邮件从实体的请求邮件用户发出。]]></value>
+  <value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User."><![CDATA[选择兴趣领域的订阅者，并以所选用户身份发送邮件。或者，您可发送邮件给业务伙伴分组的联系人。<br>发送出邮件的用户需要具有有效的电子邮件信息。如果您未选择用户，那么邮件从实体的请求邮件用户发出]]></value>
  </row>
  <row id="210" trl="Y">
   <value column="Name" original="Copy Lines">复制行</value>
@@ -884,7 +884,7 @@
  <row id="281" trl="Y">
   <value column="Name" original="Create Confirmation">创建确认</value>
   <value column="Description" original="Create Confirmations for the Document">创建单据确认</value>
-  <value column="Help" original="The confirmations generated need to be processed (confirmed) before you can process this document">生成的确认需要在处理单据之前被处理 (确认)</value>
+  <value column="Help" original="The confirmations generated need to be processed (confirmed) before you can process this document">需要先处理(确认)生成的确认，然后您才能够处理这个单据</value>
  </row>
  <row id="282" trl="Y">
   <value column="Name" original="Create Package">创建装箱单</value>
@@ -1158,7 +1158,7 @@
  <row id="335" trl="Y">
   <value column="Name" original="Create Costing Records">创建成本计算记录</value>
   <value column="Description" original="Create Costing Records">创建成本计算记录</value>
-  <value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">成本计算记录在需要时创建，或成批地创建。您可以在这里强制创建成本计算信息</value>
+  <value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">成本计算记录 在需要时创建，或成批地创建。您可以在这里强制创建成本计算信息</value>
  </row>
  <row id="336" trl="Y">
   <value column="Name" original="Create Tax Declaration">创建税申报单</value>
@@ -1213,7 +1213,7 @@
  <row id="346" trl="Y">
   <value column="Name" original="Verify BOMs">验证物料清单</value>
   <value column="Description" original="Verify BOM Structures">验证物料清单结构</value>
-  <value column="Help" original="The Verify BOM Structures checks the elements and steps which comprise a Bill of Materials.">验证 BOM 结构流程将检查构成物料清单的元素和步骤</value>
+  <value column="Help" original="The Verify BOM Structures checks the elements and steps which comprise a Bill of Materials.">"校验 BOM 结构"会验证构成物料清单的元素和步骤</value>
  </row>
  <row id="347" trl="Y">
   <value column="Name" original="Validate">付款计划</value>
@@ -1509,12 +1509,12 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">默认期间为当前期间。可选地，您可输入其他限制。您可选择备选的报表层级</value>
  </row>
  <row id="53065" trl="Y">
-  <value column="Name" original="ASP Generate Fields">ASP 产生字段</value>
+  <value column="Name" original="ASP Generate Fields">ASP 生成字段</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53067" trl="Y">
-  <value column="Name" original="ASP Generate Level">ASP 产生级别</value>
+  <value column="Name" original="ASP Generate Level">ASP 生成级别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1975,7 +1975,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="Reset Locked Account">账户的国家名称</value>
+  <value column="Name" original="Reset Locked Account">重置已锁定账户</value>
   <value column="Description" original="Reset Locked Account for User">Reset Locked Account for User</value>
   <value column="Help" original="Select a locked user from the list to unlock it.  Alternatively you can run the process without selecting any user, in this case the process will unlock all locked users from the client applying accordingly the policies configured for &quot;max account lock&quot; and &quot;max inactive period&quot;."/>
  </row>

@@ -279,7 +279,7 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  <row id="53380" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
   <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid From date indicates the first day of a date range.
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">有效起始日期表示日期范围的第一天
 When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
  </row>
  <row id="53381" trl="Y">
@@ -301,14 +301,14 @@ When you enter dates in the fields Valid From - To we give the the period of tim
  <row id="53490" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
   <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">有效起始日期表示日期范围的第一天
 
 The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
  </row>
  <row id="53512" trl="Y">
   <value column="Name" original="Warehouse">仓库</value>
   <value column="Description" original="Storage Warehouse and Service Point">存储仓库或服务点</value>
-  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">仓库标识存储产品或提供服务的唯一仓库</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">仓库标识存储产品或提供服务的唯一仓库&#10;&#10;仓库是你存放和控制产品的地方</value>
  </row>
  <row id="53513" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -323,7 +323,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="53518" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
   <value column="Description" original="Workflow or combination of tasks">工作流或任务组合</value>
-  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">工作流字段标识系统中唯一的工作流
 
 The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
  </row>
@@ -403,7 +403,7 @@ Date Promised Is the date we commit to give the order to the warehouse. If the M
  <row id="54146" trl="Y">
   <value column="Name" original="Finish Date">完成日期</value>
   <value column="Description" original="Finish or (planned) completion date">完成日期</value>
-  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">项目预计完成或者已经完成的日期.</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">结束日期是指项目预计完成或者已经完成的日期&#10;&#10;对于生产单，是指最终生产单流转的报告日期，是生产单关闭日期</value>
  </row>
  <row id="54196" trl="Y">
   <value column="Name" original="Company Agent">公司代理</value>
@@ -538,7 +538,7 @@ Date Promised Is the date we commit to give the order to the warehouse. If the M
  <row id="58114" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
   <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">有效起始日期表示日期范围的第一天
 
 The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
  </row>
