@@ -102,7 +102,7 @@
  </row>
  <row id="25" trl="Y">
   <value column="Name" original="Account">会计科目</value>
-  <value column="Description" original="Account Element">账户元素</value>
+  <value column="Description" original="Account Element">会计科目</value>
   <value column="Help" original=""/>
  </row>
  <row id="26" trl="Y">
@@ -262,17 +262,17 @@
  </row>
  <row id="116" trl="Y">
   <value column="Name" original="C_Element Type">C_要素类型</value>
-  <value column="Description" original="Account Element Types">账户类型</value>
+  <value column="Description" original="Account Element Types">会计科目类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="117" trl="Y">
   <value column="Name" original="C_ElementValue AccountType">C_要素值 账户类型</value>
-  <value column="Description" original="Account Type list">账户类型目录</value>
+  <value column="Description" original="Account Type list">会计类型列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="118" trl="Y">
-  <value column="Name" original="C_ElementValue Account Sign">C_要素值 账户符号</value>
-  <value column="Description" original="Account Sign list">账户符号列表</value>
+  <value column="Name" original="C_ElementValue Account Sign">C_要素值 会计符号</value>
+  <value column="Description" original="Account Sign list">会计符号列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="120" trl="Y">
@@ -1441,7 +1441,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="370" trl="Y">
-  <value column="Name" original="PA_Benschmark Accumulation Type">PA_标杆累积类型</value>
+  <value column="Name" original="PA_Benschmark Accumulation Type">PA_Benschmark 累积类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1451,42 +1451,42 @@
   <value column="Help" original=""/>
  </row>
  <row id="372" trl="Y">
-  <value column="Name" original="PA_Ratio ElementType">PA_比率元素类型</value>
+  <value column="Name" original="PA_Ratio ElementType">PA_Ratio 元素类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="373" trl="Y">
-  <value column="Name" original="PA_Ratio Operand">PA_比率运算符</value>
+  <value column="Name" original="PA_Ratio Operand">PA_Ratio 运算符</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="374" trl="Y">
-  <value column="Name" original="AD_System Status">AD_系统状态</value>
+  <value column="Name" original="AD_System Status">AD_System 状态</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="375" trl="Y">
-  <value column="Name" original="AD_PrintPaper Units">AD_打印纸 单位</value>
+  <value column="Name" original="AD_PrintPaper Units">AD_PrintPaper 单位</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="376" trl="Y">
-  <value column="Name" original="M_Inventory CountSet">M_库存盘点</value>
+  <value column="Name" original="M_Inventory CountSet">M_Inventory 盘点</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="377" trl="Y">
-  <value column="Name" original="AD_PrintFormatItem BarcodeType">AD_打印格式项 条码类型</value>
+  <value column="Name" original="AD_PrintFormatItem BarcodeType">AD_PrintFormatItem 条码类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="383" trl="Y">
-  <value column="Name" original="C_Project InvoiceRule">C_项目 开发票规则</value>
+  <value column="Name" original="C_Project InvoiceRule">C_Project 开发票规则</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="384" trl="Y">
-  <value column="Name" original="C_Project LineLevel">C_项目 行 级别</value>
+  <value column="Name" original="C_Project LineLevel">C_Project 行 级别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1511,7 +1511,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="389" trl="Y">
-  <value column="Name" original="_EntityTypeNew">_Entity 类型 新</value>
+  <value column="Name" original="_EntityTypeNew">_EntityTypeNew</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1531,12 +1531,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="393" trl="Y">
-  <value column="Name" original="C_BPartner BPBankAcctUse">C_业务伙伴 业务伙伴银行账户使用</value>
+  <value column="Name" original="C_BPartner BPBankAcctUse">C_BPartner 业务伙伴银行账户使用</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="394" trl="Y">
-  <value column="Name" original="C_Invoice InvoiceCollectionType">C_发票 发票托收类型</value>
+  <value column="Name" original="C_Invoice InvoiceCollectionType">C_Invoice 发票托收类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1566,12 +1566,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="400" trl="Y">
-  <value column="Name" original="AD_Process_JasperReports">AD_流程/报表</value>
+  <value column="Name" original="AD_Process_JasperReports">AD_Process_JasperReports</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50001" trl="Y">
-  <value column="Name" original="AD_Package_Type">AD_包_类型</value>
+  <value column="Name" original="AD_Package_Type">AD_Package_Type</value>
   <value column="Description" original="Defines the type of packages available">安装的包的列表</value>
   <value column="Help" original=""/>
  </row>
@@ -1581,17 +1581,17 @@
   <value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">说明：包开放给谁.不输入指定开放指令则表明包是开放给所有</value>
  </row>
  <row id="50003" trl="Y">
-  <value column="Name" original="AD_Package_Exp_DB">AD_包_Exp_DB</value>
-  <value column="Description" original="List of database types">星期列表</value>
+  <value column="Name" original="AD_Package_Exp_DB">AD_Package_Exp_DB</value>
+  <value column="Description" original="List of database types">数据库类型列表</value>
   <value column="Help" original="This is a list of database types used by the inbound packaging processing to determine if the sql statement is fired.">This is a list of database types used by the inbound packaging processing to determine if the sql statement is fired.</value>
  </row>
  <row id="50004" trl="Y">
-  <value column="Name" original="AD_Package_Build_Type">AD_包_编译_类型</value>
+  <value column="Name" original="AD_Package_Build_Type">AD_Package_Build_Type</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50005" trl="Y">
-  <value column="Name" original="AD_Package_Source_Type">AD_包_源_类型</value>
+  <value column="Name" original="AD_Package_Source_Type">AD_Package_Source_Type</value>
   <value column="Description" original="List of package source types">安装的包的列表</value>
   <value column="Help" original=""/>
  </row>
@@ -1722,7 +1722,7 @@
  </row>
  <row id="53241" trl="Y">
   <value column="Name" original="EXP_Line_Type">行类型</value>
-  <value column="Description" original="List with Export Line types">显示来源报表行</value>
+  <value column="Description" original="List with Export Line types">显示来源报表明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="53242" trl="Y">
@@ -1787,7 +1787,7 @@
  </row>
  <row id="53256" trl="Y">
   <value column="Name" original="A_Depreciation_Manual_Period">A_折旧_手工_期间</value>
-  <value column="Description" original="List available periods for calculating manual depreciation expense">List available periods for calculating manual depreciation expense</value>
+  <value column="Description" original="List available periods for calculating manual depreciation expense">为手工计算折旧费用列出可用期间</value>
   <value column="Help" original=""/>
  </row>
  <row id="53257" trl="Y">
@@ -1861,17 +1861,17 @@
   <value column="Help" original=""/>
  </row>
  <row id="53271" trl="Y">
-  <value column="Name" original="A_Finance_Method">A_财务_模式</value>
+  <value column="Name" original="A_Finance_Method">A_Finance_Method</value>
   <value column="Description" original="Financing Methods">财务模式</value>
-  <value column="Help" original="List of financing methods for assets">List of financing methods for assets</value>
+  <value column="Help" original="List of financing methods for assets">资产融资方式一览</value>
  </row>
  <row id="53272" trl="Y">
-  <value column="Name" original="A_Payment_Due">A_付款_到期</value>
-  <value column="Description" original="Payment due every">付款到期每个</value>
+  <value column="Name" original="A_Payment_Due">A_Payment_Due</value>
+  <value column="Description" original="Payment due every">每个付款到期日</value>
   <value column="Help" original=""/>
  </row>
  <row id="53273" trl="Y">
-  <value column="Name" original="A_Update_Type">A_更新_类型</value>
+  <value column="Name" original="A_Update_Type">A_Update_Type</value>
   <value column="Description" original="Update Type">更新类型</value>
   <value column="Help" original=""/>
  </row>
@@ -1881,12 +1881,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="53275" trl="Y">
-  <value column="Name" original="C_Invoice (Vendor)">C_发票 (供应商)</value>
+  <value column="Name" original="C_Invoice (Vendor)">C_Invoice (供应商)</value>
   <value column="Description" original="Vendor Invoices">采购发票</value>
   <value column="Help" original=""/>
  </row>
  <row id="53276" trl="Y">
-  <value column="Name" original="A_SourceType">A_来源类型</value>
+  <value column="Name" original="A_SourceType">A_SourceType</value>
   <value column="Description" original="Entry Source Types">源类型</value>
   <value column="Help" original="Listing of entry source types">维护资源类型</value>
  </row>
@@ -1896,32 +1896,32 @@
   <value column="Help" original="Inidcates if charge is capital or expense">指明这是一笔费用</value>
  </row>
  <row id="53278" trl="Y">
-  <value column="Name" original="C_ValidCombination (Assets)">C_有效组合(资产)</value>
+  <value column="Name" original="C_ValidCombination (Assets)">C_ValidCombination(资产)</value>
   <value column="Description" original="Valid Account combinations">验证账户组合</value>
   <value column="Help" original=""/>
  </row>
  <row id="53280" trl="Y">
-  <value column="Name" original="PA_ReportSource ElementType">PA_报表来源 元素类型</value>
+  <value column="Name" original="PA_ReportSource ElementType">PA_ReportSource 元素类型</value>
   <value column="Description" original="Element Types for Accounting Elements - equal to C_AcctSchema ElementType plus Combination">元素类型的会计要素 - 相当于C_AcctSchema的元素类型加组合</value>
   <value column="Help" original="Hardcoded Element Types">Hardcoded 元素打字</value>
  </row>
  <row id="53281" trl="Y">
-  <value column="Name" original="AD_PrintFormat Manufacturing Order">AD_打印格式 生产单</value>
+  <value column="Name" original="AD_PrintFormat Manufacturing Order">AD_PrintFormat 生产单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53282" trl="Y">
-  <value column="Name" original="AD_PrintFormat Distribution Order">AD_打印格式 配送单</value>
+  <value column="Name" original="AD_PrintFormat Distribution Order">AD_PrintFormat 配送单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53283" trl="Y">
-  <value column="Name" original="C_BankAccount">C_银行账户</value>
+  <value column="Name" original="C_BankAccount">C_BankAccount</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53284" trl="Y">
-  <value column="Name" original="M_MovementLine">M_移库行</value>
+  <value column="Name" original="M_MovementLine">M_MovementLine</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2156,8 +2156,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="53364" trl="Y">
-  <value column="Name" original="A_Activation_Method">A_清理_方法</value>
-  <value column="Description" original="Activation Methods">折旧方法</value>
+  <value column="Name" original="A_Activation_Method">A_Activation_Method</value>
+  <value column="Description" original="Activation Methods">激活方法</value>
   <value column="Help" original=""/>
  </row>
  <row id="53365" trl="Y">

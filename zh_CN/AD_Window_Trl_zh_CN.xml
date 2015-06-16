@@ -99,8 +99,8 @@
   <value column="Help" original="The Calendar Year and Periods defines the calendars that will be used for period control and reporting. You can also define non-standard calendars (e.g. business year from July to June).">日历年与期间定义了将用于期间控制和报表的日历。您也可定义非标准日历 (如从7月到6月的经营年度)</value>
  </row>
  <row id="118" trl="Y">
-  <value column="Name" original="Account Element">账户元素</value>
-  <value column="Description" original="Maintain Account Elements">维护账户元素</value>
+  <value column="Name" original="Account Element">会计科目</value>
+  <value column="Description" original="Maintain Account Elements">维护会计科目</value>
   <value column="Help" original="The Account Element Window is used to define and maintain the Accounting Element and User Defined Elements. &#10;One of the account segments is your natural account segment (Chart of Account). You may add a new account element for parallel reporting or for user defined accounting segments.">账户元素窗口用于定义和维护会计元素和用户自定义的元素。账户分段之一是自然账户分段 (会计科目表)。您可为并行报表或用户自定义的会计分段增加新的账户元素</value>
  </row>
  <row id="120" trl="Y">
@@ -372,8 +372,8 @@
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="Import Loader Format">导入载入程序格式</value>
-  <value column="Description" original="Maintain Import Loader Formats">维护导入装载器格式</value>
-  <value column="Help" original="The Import Loader Format Window is used for defining the file layout for product information which will be imported.">导入装载器格式窗口用于定义将导入数据的文件格式</value>
+  <value column="Description" original="Maintain Import Loader Formats">维护导入加载器格式</value>
+  <value column="Help" original="The Import Loader Format Window is used for defining the file layout for product information which will be imported.">导入加载器格式窗口用于定义将导入数据的文件格式</value>
  </row>
  <row id="191" trl="Y">
   <value column="Name" original="Production">生产单</value>
@@ -780,7 +780,7 @@
  <row id="279" trl="Y">
   <value column="Name" original="Import Invoice">导入发票</value>
   <value column="Description" original="Import Invoices">导入发票</value>
-  <value column="Help" original="Import invoiced loaded">导入已装载的发票</value>
+  <value column="Help" original="Import invoiced loaded">导入已加载的发票</value>
  </row>
  <row id="280" trl="Y">
   <value column="Name" original="Import Payment">导入付款</value>
@@ -790,7 +790,7 @@
  <row id="281" trl="Y">
   <value column="Name" original="Import Order">导入订单</value>
   <value column="Description" original="Import Orders">导入订单</value>
-  <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions.">请在导入装载器格式中明确设置Y/N选项 (例如作为常数)，不要让它们保持为空 (NULL) 值。空 (NULL) 值代表“不知道”。一般来说，选项框在值不是“Y”时不会被选中 (即可以是NULL或其他任何值)。所有的测试都基于是“Y”或“不是Y” - 即NULL值不是“不是Y”，而是NULL (不知道) 值 - 请参考SQL语言介绍</value>
+  <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions.">请在导入加载器格式中明确设置Y/N选项 (例如作为常数)，不要让它们保持为空 (NULL) 值。空 (NULL) 值代表“不知道”。一般来说，选项框在值不是“Y”时不会被选中 (即可以是NULL或其他任何值)。所有的测试都基于是“Y”或“不是Y” - 即NULL值不是“不是Y”，而是NULL (不知道) 值 - 请参考SQL语言介绍</value>
  </row>
  <row id="282" trl="Y">
   <value column="Name" original="Freight Category">运费类别</value>
@@ -940,7 +940,7 @@
  <row id="311" trl="Y">
   <value column="Name" original="Accounting Processor">会计引擎</value>
   <value column="Description" original="Maintain Accounting Processor and Logs">维护会计引擎及日志</value>
-  <value column="Help" original="Accounting Processor/Server Parameters and Logs">会计引擎/ 服务参数和执行结果</value>
+  <value column="Help" original="Accounting Processor/Server Parameters and Logs">会计引擎/服务器的参数和日志</value>
  </row>
  <row id="312" trl="Y">
   <value column="Name" original="Alert Processor">提醒引擎</value>
@@ -1960,8 +1960,8 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200016" trl="Y">
-  <value column="Name" original="Active Session">会话</value>
-  <value column="Description" original="List of Current Logged in user">使用当前的用户名自动登录</value>
+  <value column="Name" original="Active Session">活动会话</value>
+  <value column="Description" original="List of Current Logged in user">当前登录用户列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="200017" trl="Y">

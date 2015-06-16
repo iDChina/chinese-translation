@@ -33,7 +33,7 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  </row>
  <row id="4725" trl="Y">
   <value column="Name" original="Acknowledge">确认</value>
-  <value column="Description" original="System Notice acknowledged">系统通知已收到</value>
+  <value column="Description" original="System Notice acknowledged">系统通知已确认</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留</value>
  </row>
  <row id="5092" trl="Y">
@@ -343,7 +343,7 @@ In the field Working Time you enter the accumulated time (using the Promising De
  </row>
  <row id="53653" trl="Y">
   <value column="Name" original="Acknowledge">确认</value>
-  <value column="Description" original="System Notice acknowledged">系统通知已收到</value>
+  <value column="Description" original="System Notice acknowledged">系统通知已确认</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留</value>
  </row>
  <row id="53742" trl="Y">
@@ -352,9 +352,9 @@ In the field Working Time you enter the accumulated time (using the Promising De
   <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">移库数量表示产品已被移动的数量</value>
  </row>
  <row id="53744" trl="Y">
-  <value column="Name" original="Accumulated Amt">合计金额</value>
+  <value column="Name" original="Accumulated Amt">累计金额</value>
   <value column="Description" original="Total Amount">总金额</value>
-  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Sum of all amounts
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">所有金额的合计
 
 This field shows the sum of the amounts of the product that have had movements.</value>
  </row>
@@ -512,7 +512,7 @@ Date Promised Is the date we commit to give the order to the warehouse. If the M
  </row>
  <row id="57331" trl="Y">
   <value column="Name" original="Acknowledge">确认</value>
-  <value column="Description" original="System Notice acknowledged">系统通知已收到</value>
+  <value column="Description" original="System Notice acknowledged">系统通知已确认</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留</value>
  </row>
  <row id="57761" trl="N">
@@ -548,7 +548,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="59028" trl="Y">
-  <value column="Name" original="Account Date">账户日期</value>
+  <value column="Name" original="Account Date">记账日期</value>
   <value column="Description" original="Accounting Date">记账日期</value>
   <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">记账日期指出用于从单据产生总分类账账户实体的日期. 也用于如何货币兑换.</value>
  </row>
@@ -683,7 +683,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="201270" trl="Y">
-  <value column="Name" original="Accessible (For FedEx only)">Accessible (For FedEx only)</value>
+  <value column="Name" original="Accessible (For FedEx only)">辅助功能(联邦快递FedEx专用)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

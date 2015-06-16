@@ -114,7 +114,7 @@
  </row>
  <row id="121" trl="Y">
   <value column="Name" original="Liability">负债</value>
-  <value column="Description" original="Liability (Balance Sheet) Account">应纳 (资产负债表) 账户</value>
+  <value column="Description" original="Liability (Balance Sheet) Account">债务(资产负债表)账户</value>
  </row>
  <row id="122" trl="Y">
   <value column="Name" original="Revenue">收入</value>
@@ -1345,11 +1345,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="478" trl="Y">
-  <value column="Name" original="Source Currency">源货币</value>
+  <value column="Name" original="Source Currency">源币种</value>
   <value column="Description" original=""/>
  </row>
  <row id="479" trl="Y">
-  <value column="Name" original="Accounting Currency">会计货币</value>
+  <value column="Name" original="Accounting Currency">会计币种</value>
   <value column="Description" original=""/>
  </row>
  <row id="480" trl="Y">
@@ -1801,12 +1801,12 @@
   <value column="Description" original=""/>
  </row>
  <row id="595" trl="Y">
-  <value column="Name" original="LiFo">后入先出</value>
-  <value column="Description" original="Last In First Out">后入先出</value>
+  <value column="Name" original="LiFo">后进先出</value>
+  <value column="Description" original="Last In First Out">后进先出</value>
  </row>
  <row id="596" trl="Y">
-  <value column="Name" original="FiFo">先入先出</value>
-  <value column="Description" original="First In First Out">先入先出</value>
+  <value column="Name" original="FiFo">先进先出</value>
+  <value column="Description" original="First In First Out">先进先出</value>
  </row>
  <row id="597" trl="Y">
   <value column="Name" original="Yearly">每年</value>
@@ -2253,11 +2253,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="712" trl="Y">
-  <value column="Name" original="LiFo">后入先出</value>
+  <value column="Name" original="LiFo">后进先出</value>
   <value column="Description" original=""/>
  </row>
  <row id="713" trl="Y">
-  <value column="Name" original="FiFo">先入先出</value>
+  <value column="Name" original="FiFo">先进先出</value>
   <value column="Description" original=""/>
  </row>
  <row id="714" trl="Y">
@@ -2633,11 +2633,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="809" trl="Y">
-  <value column="Name" original="FiFo">先入先出</value>
+  <value column="Name" original="FiFo">先进先出</value>
   <value column="Description" original=""/>
  </row>
  <row id="810" trl="Y">
-  <value column="Name" original="LiFo">后入先出</value>
+  <value column="Name" original="LiFo">后进先出</value>
   <value column="Description" original=""/>
  </row>
  <row id="811" trl="Y">
@@ -3505,11 +3505,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="53268" trl="Y">
-  <value column="Name" original="Deactivate">停用53268</value>
+  <value column="Name" original="Deactivate">停用</value>
   <value column="Description" original=""/>
  </row>
  <row id="53269" trl="Y">
-  <value column="Name" original="Expire">到期53269</value>
+  <value column="Name" original="Expire">到期</value>
   <value column="Description" original=""/>
  </row>
  <row id="53270" trl="Y">
@@ -4138,7 +4138,7 @@
  </row>
  <row id="53434" trl="Y">
   <value column="Name" original="Combination">合并</value>
-  <value column="Description" original="Combination of accounting dimensions">账户组合</value>
+  <value column="Description" original="Combination of accounting dimensions">合并会计维度</value>
  </row>
  <row id="53435" trl="Y">
   <value column="Name" original="Distribution Order">配送单</value>
@@ -4489,7 +4489,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53587" trl="Y">
-  <value column="Name" original="Activated">Activated</value>
+  <value column="Name" original="Activated">已激活</value>
   <value column="Description" original=""/>
  </row>
  <row id="53588" trl="Y">
@@ -4577,7 +4577,7 @@
   <value column="Description" original="No cash or trade">无现金或贸易</value>
  </row>
  <row id="53609" trl="Y">
-  <value column="Name" original="Activation">Activation</value>
+  <value column="Name" original="Activation">激活</value>
   <value column="Description" original=""/>
  </row>
  <row id="53610" trl="Y">
@@ -5213,7 +5213,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200112" trl="Y">
-  <value column="Name" original="Like">Like</value>
+  <value column="Name" original="Like">相似</value>
   <value column="Description" original=""/>
  </row>
  <row id="200113" trl="Y">
