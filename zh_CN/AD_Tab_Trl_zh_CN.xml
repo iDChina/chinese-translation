@@ -1187,10 +1187,10 @@
   <value column="Help" original="The History Tab displays changes of a Request. The data displayed are the OLD (changed from) values. The new data is in the request.">历史页签显示了请求的变化。显示的数据是旧值。新的数据位于请求中</value>
  </row>
  <row id="349" trl="Y">
-  <value column="Name" original="Allocation Line">分配行</value>
+  <value column="Name" original="Allocation Line">分配明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="View Allocation Lines">查看分配行</value>
-  <value column="Help" original="View Allocation Line Details">查看分配行的明细</value>
+  <value column="Description" original="View Allocation Lines">查看分配明细</value>
+  <value column="Help" original="View Allocation Line Details">查看分配明细</value>
  </row>
  <row id="351" trl="Y">
   <value column="Name" original="Org Access">组织访问</value>
@@ -1354,7 +1354,7 @@
   <value column="Name" original="Service Level Line">服务级别行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Service Levels">维护服务级别</value>
-  <value column="Help" original="Add new service level lines to change the recognized amount">Add new service level lines to change the recognized 金额</value>
+  <value column="Help" original="Add new service level lines to change the recognized amount">添加新的服务水平明细来改变确认金额</value>
  </row>
  <row id="382" trl="Y">
   <value column="Name" original="Find">查找</value>
@@ -1875,7 +1875,7 @@
  <row id="473" trl="Y">
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Print Label Line">打印标签行</value>
+  <value column="Description" original="Print Label Line">打印标签明细</value>
   <value column="Help" original="Maintain Format of the line on a Label">维护标签上明细的格式</value>
  </row>
  <row id="474" trl="Y">
@@ -2050,7 +2050,7 @@
   <value column="Name" original="Alert">提醒</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="iDempiere Alert">iDempiere提醒</value>
-  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of.">iDempiere Alerts 系统告警器允许按照您希望得到的提示来定义系统条件</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of.">iDempiere 提醒 系统告警器允许按照您希望得到的提示来定义系统条件</value>
  </row>
  <row id="505" trl="Y">
   <value column="Name" original="Alert Rule">提醒规则</value>
@@ -3514,7 +3514,7 @@
  <row id="755" trl="Y">
   <value column="Name" original="Allocate">分配付款</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Allocate Payments to Invoices">将付款分配给发票</value>
+  <value column="Description" original="Allocate Payments to Invoices">分配付款到发票</value>
   <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization"><![CDATA[当创建付款时，您可将付款以相同币种直接分配给发票。注意您可以高于或低于分配付款。<b>当处理付款时，分配被创建。<b>组织被设置为发票组织。]]></value>
  </row>
  <row id="756" trl="Y">
@@ -3926,9 +3926,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="829" trl="Y">
-  <value column="Name" original="Ad Cat Template">广告类别模板</value>
+  <value column="Name" original="Ad Cat Template">广告模板</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Advertisement Category link to Template">到模板的广告类别链接</value>
+  <value column="Description" original="Advertisement Category link to Template">广告类别链接到模板</value>
   <value column="Help" original=""/>
  </row>
  <row id="830" trl="Y">
@@ -4518,7 +4518,7 @@
  <row id="53076" trl="Y">
   <value column="Name" original="Tax Definition">税定义</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Lets you define different tax combinations.">Lets you define different tax combinations.</value>
+  <value column="Description" original="Lets you define different tax combinations.">让您定义不同的税组合</value>
   <value column="Help" original="You can use the tax definition information to create the logic necessary to get the tax rate to your document.">You can use the tax definition information to create the logic necessary to get the tax rate to your document.</value>
  </row>
  <row id="53077" trl="Y">
@@ -5386,7 +5386,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53324" trl="Y">
-  <value column="Name" original="Addition">附加</value>
+  <value column="Name" original="Addition">相加</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5866,9 +5866,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="200038" trl="Y">
-  <value column="Name" original="Label Type">标签格式类型</value>
+  <value column="Name" original="Label Type">标签类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Label Types Supported by the Shipper.">Label Types Supported by the Shipper.</value>
+  <value column="Description" original="Label Types Supported by the Shipper.">承运人所支持的标签类型</value>
   <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">Used when booking a shipment online to define the label format that will be printed.</value>
  </row>
  <row id="200039" trl="Y">
@@ -5944,9 +5944,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="200054" trl="Y">
-  <value column="Name" original="Label Type">标签格式类型</value>
+  <value column="Name" original="Label Type">标签类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Label Types Supported by the Shipper.">Label Types Supported by the Shipper.</value>
+  <value column="Description" original="Label Types Supported by the Shipper.">承运人所支持的标签类型</value>
   <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">Used when booking a shipment online to define the label format that will be printed.</value>
  </row>
  <row id="200055" trl="Y">
@@ -5968,13 +5968,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="200059" trl="Y">
-  <value column="Name" original="Label Type">标签格式类型</value>
+  <value column="Name" original="Label Type">标签类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Label Types Supported by the Shipper.">Label Types Supported by the Shipper.</value>
+  <value column="Description" original="Label Types Supported by the Shipper.">承运人所支持的标签类型</value>
   <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">Used when booking a shipment online to define the label format that will be printed.</value>
  </row>
  <row id="200060" trl="Y">
-  <value column="Name" original="Pickup Types">聊天类型</value>
+  <value column="Name" original="Pickup Types">分拣类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Methods that the Shipper will support for picking up from your location">Methods that the Shipper will support for picking up from your location</value>
   <value column="Help" original=""/>
@@ -6136,7 +6136,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200110" trl="N">
-  <value column="Name" original="Estimated Landed Cost Allocation">Estimated Landed Cost Allocation</value>
+  <value column="Name" original="Estimated Landed Cost Allocation">到岸成本分配暂估</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

@@ -37,7 +37,7 @@
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="Add or Copy Accounts">新增或复制账户</value>
-  <value column="Description" original="Add missing Accounts - or Copy&amp;Overwrite Accounts (DANGEROUS!!)">添加缺失的账户 -或- 复制和覆盖账户 (危险！！)</value>
+  <value column="Description" original="Add missing Accounts - or Copy&amp;Overwrite Accounts (DANGEROUS!!)">添加缺少的会计科目，或是覆盖拷贝所有默认科目(危险！！)</value>
   <value column="Help" original="Either add missing accounts - or copy and overwrite all default accounts.  If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the bank account asset accounts, ...).  If no Accounting Schema is selected all Accounting Schemas will be updated / inserted.">新增缺失的账户或复制并覆盖全部缺省账户.  如果您复制并覆盖当前缺省值,因可以重复以前的更新(参见设置银行账户/资产账户 ...).  如果没有选择会计模式，全部会计模式都会更新/插入.</value>
  </row>
  <row id="109" trl="Y">
@@ -1457,7 +1457,7 @@ If you wish to print this report tick the check box Print Workflow.</value>
  </row>
  <row id="53050" trl="Y">
   <value column="Name" original="Create Doc Type to Manufacturing">创建生产的单据类型</value>
-  <value column="Description" original="Let create the document type to manufacturing">Let create the document type to 生产</value>
+  <value column="Description" original="Let create the document type to manufacturing">为生产创建单据类型</value>
   <value column="Help" original="This process only need run one time by client">该流程仅需由实体运行一次</value>
  </row>
  <row id="53052" trl="Y">
@@ -2025,12 +2025,12 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
   <value column="Help" original=""/>
  </row>
  <row id="200021" trl="Y">
-  <value column="Name" original="Kill Current Session">Web 会话标识</value>
+  <value column="Name" original="Kill Current Session">关闭当前按会话</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200022" trl="Y">
-  <value column="Name" original="Kill All Session">Web 会话标识</value>
+  <value column="Name" original="Kill All Session">关闭所有会话</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
