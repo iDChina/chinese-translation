@@ -309,10 +309,10 @@
   <value column="Help" original="The GL Journal Tab defines the control parameters for a single GL Journal.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">总账日记账页签定义了单个总账日记账的控制参数。如果控制金额不为零，则与总借项金额比较。控制/借项/贷项金额以源单据币种计</value>
  </row>
  <row id="161" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Journal Line">总账日记账行</value>
-  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">总账日记账行页签定义了组成日记账的各借项和贷项事务处理</value>
+  <value column="Description" original="General Ledger Journal Line">总账日记账明细</value>
+  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">总账日记账明细页签定义了组成日记账的各借项和贷项事务处理</value>
  </row>
  <row id="167" trl="Y">
   <value column="Name" original="Document Type">单据类型</value>
@@ -3191,7 +3191,7 @@
   <value column="Name" original="Landed Cost Allocation">到岸成本分配</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Allocation of Landed Costs to Product">将到岸成本分配至产品</value>
-  <value column="Help" original="Calculated when preparing the Invoice">当准备发票时计算</value>
+  <value column="Help" original="Calculated when preparing the Invoice">准备发票的时候进行计算</value>
  </row>
  <row id="699" trl="Y">
   <value column="Name" original="Cost Element">成本要素</value>
@@ -3256,8 +3256,8 @@
  <row id="709" trl="Y">
   <value column="Name" original="User Mail">用户邮件</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Mail sent to the user">发送给用户的邮件</value>
-  <value column="Help" original="Archive of mails sent to users">归档发送给用户的邮件</value>
+  <value column="Description" original="Mail sent to the user">发送到用户的邮件</value>
+  <value column="Help" original="Archive of mails sent to users">发送到用户的邮件存档</value>
  </row>
  <row id="710" trl="Y">
   <value column="Name" original="Web Store">网上商店</value>
@@ -4932,7 +4932,7 @@
  <row id="53162" trl="Y">
   <value column="Name" original="Asset Balances">资产平衡</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Asset Balance Report and Adjustments">资产 (资产负债表) 账户</value>
+  <value column="Description" original="Asset Balance Report and Adjustments">资产余额报告和调整</value>
   <value column="Help" original=""/>
  </row>
  <row id="53163" trl="Y">
@@ -5298,8 +5298,8 @@
  <row id="53283" trl="Y">
   <value column="Name" original="User Mail">用户邮件</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Mail sent to the user">发送给用户的邮件</value>
-  <value column="Help" original="Archive of mails sent to users">归档发送给用户的邮件</value>
+  <value column="Description" original="Mail sent to the user">发送到用户的邮件</value>
+  <value column="Help" original="Archive of mails sent to users">发送到用户的邮件存档</value>
  </row>
  <row id="53284" trl="Y">
   <value column="Name" original="Order Source">订单来源</value>
@@ -5356,9 +5356,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="53311" trl="Y">
-  <value column="Name" original="Key Sequence">更新序号</value>
+  <value column="Name" original="Key Sequence">主键序号</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Key Sequence">更新序号</value>
+  <value column="Description" original="Key Sequence">主键序号</value>
   <value column="Help" original=""/>
  </row>
  <row id="53320" trl="Y">
@@ -5398,7 +5398,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53327" trl="Y">
-  <value column="Name" original="Asset Change account">资产成本账户</value>
+  <value column="Name" original="Asset Change account">资产变更帐户</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original="This table holds all necessary information to process asset transfers and create the appropriate entry">This table holds all necessary information to process asset transfers and create the appropriate entry</value>
