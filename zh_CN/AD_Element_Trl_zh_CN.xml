@@ -7632,9 +7632,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1467" trl="Y">
-  <value column="Name" original="Cash Book Asset">现金簿资产</value>
-  <value column="PrintName" original="Cash Book Asset">现金簿资产</value>
-  <value column="Description" original="Cash Book Asset Account">现金簿资产账户</value>
+  <value column="Name" original="Cash Book Asset">现金账面资产</value>
+  <value column="PrintName" original="Cash Book Asset">现金账面资产</value>
+  <value column="Description" original="Cash Book Asset Account">现金等价科目</value>
   <value column="Help" original="The Cash Book Asset Account identifies the account to be used for recording payments into and disbursements from this cash book.">现金簿资产账户标识用于记录该现金簿入账或支出款项的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7652,8 +7652,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1469" trl="Y">
-  <value column="Name" original="Cash Book Expense">现金簿费用</value>
-  <value column="PrintName" original="Cash Book Expense">现金簿费用</value>
+  <value column="Name" original="Cash Book Expense">现金簿支出</value>
+  <value column="PrintName" original="Cash Book Expense">现金簿支出</value>
   <value column="Description" original="Cash Book Expense Account">现金簿支出账户</value>
   <value column="Help" original="The Cash Book Expense Account identifies the account to be used for general, non itemized expenses.">现金簿支出账户标识用于一般性、非明细的现金簿支出账户</value>
   <value column="PO_Description" original=""/>
@@ -9436,7 +9436,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1688" trl="Y">
   <value column="Name" original="Cash Transfer">现金转账</value>
   <value column="PrintName" original="Cash Transfer">现金转账</value>
-  <value column="Description" original="Cash Transfer Clearing Account">现金转账清算账户</value>
+  <value column="Description" original="Cash Transfer Clearing Account">现金转账结算账户</value>
   <value column="Help" original="Account for Invoices paid by cash">现金支付账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12766,7 +12766,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2047" trl="Y">
   <value column="Name" original="Complete">已完成</value>
   <value column="PrintName" original="Complete">已完成</value>
-  <value column="Description" original="It is complete">是否完成</value>
+  <value column="Description" original="It is complete">已完成</value>
   <value column="Help" original="Indication that this is complete">标识已完成</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14397,9 +14397,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2222" trl="Y">
-  <value column="Name" original="Issue Description">投入描述</value>
-  <value column="PrintName" original="Issue Description">投入描述</value>
-  <value column="Description" original="Description of the Issue line">发放行的描述</value>
+  <value column="Name" original="Issue Description">投放描述</value>
+  <value column="PrintName" original="Issue Description">投放描述</value>
+  <value column="Description" original="Description of the Issue line">投放明细的描述</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -21356,8 +21356,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2957" trl="Y">
-  <value column="Name" original="Issue System">系统问题</value>
-  <value column="PrintName" original="Issue System">系统问题</value>
+  <value column="Name" original="Issue System">问题系统</value>
+  <value column="PrintName" original="Issue System">问题系统</value>
   <value column="Description" original="System creating the issue">系统出现的问题</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -21376,9 +21376,9 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2959" trl="Y">
-  <value column="Name" original="IssueUser">报告问题用户</value>
+  <value column="Name" original="IssueUser">问题提交者</value>
   <value column="PrintName" original="Issue User">问题提交者</value>
-  <value column="Description" original="User who reported issues">报告问题的用户是谁</value>
+  <value column="Description" original="User who reported issues">问题提交者</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -24390,9 +24390,9 @@ When Material Plan is calculated MRP generate a Manufacturing Order meet to dema
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53253" trl="Y">
-  <value column="Name" original="Issue Method">发料方式</value>
-  <value column="PrintName" original="Issue Method">发料方式</value>
-  <value column="Description" original="There are two methods for issue the components to Manufacturing Order">生产单子件有两种发料方式</value>
+  <value column="Name" original="Issue Method">发料方法</value>
+  <value column="PrintName" original="Issue Method">发料方法</value>
+  <value column="Description" original="There are two methods for issue the components to Manufacturing Order">生产单子件有两种发料方法</value>
   <value column="Help" original="Method Issue: The component are delivered one for one and is necessary indicate the delivered quantity for each component.&#10;&#10;Method BackFlush: The component are delivered based in BOM, The  delivered quantity for each component is based in BOM or Formula and Manufacturing Order Quantity.&#10;&#10;Use the field Backflush Group for grouping the component in a Backflush Method.">Method Issue: The component are delivered one for one and is necessary indicate the delivered quantity for each component.
 
 Method BackFlush: The component are delivered based in BOM, The  delivered quantity for each component is based in BOM or Formula and Manufacturing Order Quantity.
@@ -27464,8 +27464,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53617" trl="Y">
-  <value column="Name" original="Issuing Agency">催款货币</value>
-  <value column="PrintName" original="Issuing Agency">催款货币</value>
+  <value column="Name" original="Issuing Agency">发行机构</value>
+  <value column="PrintName" original="Issuing Agency">发行机构</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27474,8 +27474,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53618" trl="Y">
-  <value column="Name" original="A_Asset_Info_Ins_ID">A_资产_信息_Ins_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Ins_ID">A_资产_信息_Ins_ID</value>
+  <value column="Name" original="A_Asset_Info_Ins_ID">A_Asset_Info_Ins_ID</value>
+  <value column="PrintName" original="A_Asset_Info_Ins_ID">A_Asset_Info_Ins_ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27494,8 +27494,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53620" trl="Y">
-  <value column="Name" original="Asset Policy No"><![CDATA[单据编号(&D)]]></value>
-  <value column="PrintName" original="Asset Policy No"><![CDATA[单据编号(&D)]]></value>
+  <value column="Name" original="Asset Policy No"><资产政策编号></value>
+  <value column="PrintName" original="Asset Policy No"><资产政策编号></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27534,8 +27534,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53624" trl="Y">
-  <value column="Name" original="A_Asset_Info_Oth_ID">A_资产_信息_Oth_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Oth_ID">A_资产_信息_Oth_ID</value>
+  <value column="Name" original="A_Asset_Info_Oth_ID">A_Asset_Info_Oth_ID</value>
+  <value column="PrintName" original="A_Asset_Info_Oth_ID">A_Asset_Info_Oth_ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27544,8 +27544,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53625" trl="Y">
-  <value column="Name" original="A_User1">重写用户1</value>
-  <value column="PrintName" original="A_User1">重写用户1</value>
+  <value column="Name" original="A_User1">A_User1</value>
+  <value column="PrintName" original="A_User1">A_User1</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27614,8 +27614,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53632" trl="Y">
-  <value column="Name" original="A_User2">重写用户2</value>
-  <value column="PrintName" original="A_User2">重写用户2</value>
+  <value column="Name" original="A_User2">A_User2</value>
+  <value column="PrintName" original="A_User2">A_User2</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27704,8 +27704,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53641" trl="Y">
-  <value column="Name" original="Capital/Expense">资本 vs 费用</value>
-  <value column="PrintName" original="Capital/Expense">资本 vs 费用</value>
+  <value column="Name" original="Capital/Expense">资本/费用</value>
+  <value column="PrintName" original="Capital/Expense">资本/费用</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27714,8 +27714,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53642" trl="Y">
-  <value column="Name" original="A_Asset_Use_ID">A_资产_使用_ID</value>
-  <value column="PrintName" original="A_Asset_Use_ID">A_资产_使用_ID</value>
+  <value column="Name" original="A_Asset_Use_ID">A_Asset_Use_ID</value>
+  <value column="PrintName" original="A_Asset_Use_ID">A_Asset_Use_ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27724,8 +27724,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53643" trl="Y">
-  <value column="Name" original="UseDate">事务处理日期</value>
-  <value column="PrintName" original="UseDate">事务处理日期</value>
+  <value column="Name" original="UseDate">使用日期</value>
+  <value column="PrintName" original="UseDate">使用日期</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30470,8 +30470,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54393" trl="Y">
-  <value column="Name" original="Cash Plan">预计完成日期</value>
-  <value column="PrintName" original="Cash Plan">预计完成日期</value>
+  <value column="Name" original="Cash Plan">现金计划</value>
+  <value column="PrintName" original="Cash Plan">现金计划</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30510,8 +30510,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54397" trl="Y">
-  <value column="Name" original="Cash Plan Line">现金日记账行</value>
-  <value column="PrintName" original="Cash Plan Line">现金日记账行</value>
+  <value column="Name" original="Cash Plan Line">现金计划明细</value>
+  <value column="PrintName" original="Cash Plan Line">现金计划明细</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
