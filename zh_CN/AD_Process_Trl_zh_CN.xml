@@ -847,7 +847,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="274" trl="Y">
-  <value column="Name" original="Asset Delivery Month">资产月交付</value>
+  <value column="Name" original="Asset Delivery Month">资产交付月</value>
   <value column="Description" original="Report Asset Deliveries Summary per month">按月的资产交付汇总报表</value>
   <value column="Help" original="The report lists the Asset and the deliveries per month for the records selected.">报表列出了选中记录的每月资产及交付情况</value>
  </row>
@@ -963,13 +963,13 @@
  </row>
  <row id="297" trl="Y">
   <value column="Name" original="Capture + Calculate Measures">捕获 + 计算 度量</value>
-  <value column="Description" original="Capture and Calculate Measures">捕获并计算指标</value>
-  <value column="Help" original="If automatic, capture measures - and calculate/update the actual measure.">如果自动, 则捕获指标并计算/更新实际指标</value>
+  <value column="Description" original="Capture and Calculate Measures">捕获并计算度量</value>
+  <value column="Help" original="If automatic, capture measures - and calculate/update the actual measure.">如果自动, 则捕获指标并计算/更新实际度量</value>
  </row>
  <row id="298" trl="Y">
-  <value column="Name" original="Calculate Measures">计算指标</value>
-  <value column="Description" original="Calculate the Measure">计算指标</value>
-  <value column="Help" original="Calculate/update the actual measure.">计算/更新实际指标</value>
+  <value column="Name" original="Calculate Measures">计算度量</value>
+  <value column="Description" original="Calculate the Measure">计算度量</value>
+  <value column="Help" original="Calculate/update the actual measure.">计算/更新实际度量值</value>
  </row>
  <row id="299" trl="Y">
   <value column="Name" original="Verify">确认</value>
@@ -1358,7 +1358,7 @@ Generally, this process is only performed during the implementation of MRP</valu
   <value column="Help" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.</value>
  </row>
  <row id="53022" trl="Y">
-  <value column="Name" original="Calculate Distribution Plan">计算销售计划</value>
+  <value column="Name" original="Calculate Distribution Plan">计算分销计划</value>
   <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. </value>
   <value column="Help" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. &#10;&#10;DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.&#10;&#10;DRP uses several variables:&#10;the on-hand inventory at the end of a period.&#10;the backordered demand at the end of a period.&#10;the required quantity of product needed at the beginning of a period.&#10;the constrained quantity of product available at the beginning of a period.&#10;the recommended order quantity at the beginning of a period.&#10;&#10;DRP needs the following information:&#10;the demand in a future period.&#10;the scheduled receipts at the beginning of a period.&#10;the safety stock requirement for a period.&#10;the on-hand inventory at the beginning of a period.&#10;">Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. 
 
@@ -1654,8 +1654,8 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="53121" trl="Y">
-  <value column="Name" original="Asset Depreciation Method">RV_折旧方法清单</value>
-  <value column="Description" original="List Depreciation Methods">折旧方法清单</value>
+  <value column="Name" original="Asset Depreciation Method">资产折旧方法</value>
+  <value column="Description" original="List Depreciation Methods">资产折旧方法清单</value>
   <value column="Help" original=""/>
  </row>
  <row id="53123" trl="Y">
@@ -1699,9 +1699,9 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Help" original="Forecast Report by Period">期间预测报表</value>
  </row>
  <row id="53148" trl="Y">
-  <value column="Name" original="Calculate Forecast">计算指标</value>
-  <value column="Description" original="Calculate Forecast">计算指标</value>
-  <value column="Help" original="Calculate Forecast">计算指标</value>
+  <value column="Name" original="Calculate Forecast">计算预测</value>
+  <value column="Description" original="Calculate Forecast">计算预测</value>
+  <value column="Help" original="Calculate Forecast">计算预测</value>
  </row>
  <row id="53150" trl="Y">
   <value column="Name" original="Distribution Run Orders">配送发运订单</value>
@@ -1820,12 +1820,12 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original=""/>
  </row>
  <row id="53208" trl="Y">
-  <value column="Name" original="Asset Addition Process">资产重估</value>
+  <value column="Name" original="Asset Addition Process">资产添置处理</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53210" trl="Y">
-  <value column="Name" original="Asset Disposed Process">资产重估</value>
+  <value column="Name" original="Asset Disposed Process">资产处置处理</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

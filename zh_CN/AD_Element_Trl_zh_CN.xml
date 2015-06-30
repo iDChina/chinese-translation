@@ -1585,18 +1585,18 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="314" trl="Y">
-  <value column="Name" original="Journal Line">日记账行</value>
-  <value column="PrintName" original="Journal Line">日记账行</value>
-  <value column="Description" original="General Ledger Journal Line">总账日记账行</value>
-  <value column="Help" original="The General Ledger Journal Line identifies a single transaction in a journal.">总账日记账行标识日记账中单个的事务处理</value>
+  <value column="Name" original="Journal Line">日记账明细</value>
+  <value column="PrintName" original="Journal Line">日记账明细</value>
+  <value column="Description" original="General Ledger Journal Line">总账日记账明细</value>
+  <value column="Help" original="The General Ledger Journal Line identifies a single transaction in a journal.">总账日记账明细标识日记账中单个的事务处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="315" trl="Y">
-  <value column="Name" original="Journal">分类账</value>
-  <value column="PrintName" original="Journal">分类账</value>
+  <value column="Name" original="Journal">日记账</value>
+  <value column="PrintName" original="Journal">日记账</value>
   <value column="Description" original="General Ledger Journal">总账日记账</value>
   <value column="Help" original="The General Ledger Journal identifies a group of journal lines which represent a logical business transaction">总账日记账标识一组日记账行，它们体现了逻辑上的业务事务处理</value>
   <value column="PO_Description" original=""/>
@@ -1867,7 +1867,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="363" trl="Y">
   <value column="Name" original="Credit Approved">信用审批</value>
   <value column="PrintName" original="Credit Approved">信用审批</value>
-  <value column="Description" original="Credit  has been approved">信用已核准</value>
+  <value column="Description" original="Credit  has been approved">信用已审批</value>
   <value column="Help" original="Credit Approved indicates if the credit approval was successful for Orders">信用审批表示订单的信用审批是否成功</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7602,10 +7602,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1464" trl="Y">
-  <value column="Name" original="Cash Journal Line">现金日记账行</value>
-  <value column="PrintName" original="Cash Line">现金日记账行</value>
-  <value column="Description" original="Cash Journal Line">现金日记账行</value>
-  <value column="Help" original="The Cash Journal Line indicates a unique line in a cash journal.">现金日记账行表示现金日记账中的唯一行</value>
+  <value column="Name" original="Cash Journal Line">现金日记账明细</value>
+  <value column="PrintName" original="Cash Line">现金日记账明细</value>
+  <value column="Description" original="Cash Journal Line">现金日记账明细</value>
+  <value column="Help" original="The Cash Journal Line indicates a unique line in a cash journal.">现金日记账明细表示现金日记账中的唯一明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8324,10 +8324,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1558" trl="Y">
-  <value column="Name" original="Calculation Basis">计算基数</value>
-  <value column="PrintName" original="Calculation Basis">计算基数</value>
-  <value column="Description" original="Basis for the calculation the commission">佣金计算的基础</value>
-  <value column="Help" original="The Calculation Basis indicates the basis to be used for the commission calculation. ">这基准用于供这代理计算. </value>
+  <value column="Name" original="Calculation Basis">计算基准</value>
+  <value column="PrintName" original="Calculation Basis">计算基准</value>
+  <value column="Description" original="Basis for the calculation the commission">佣金计算的基准</value>
+  <value column="Help" original="The Calculation Basis indicates the basis to be used for the commission calculation. ">这基准用于供这代理计算</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10606,8 +10606,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1815" trl="Y">
   <value column="Name" original="Area">区域</value>
   <value column="PrintName" original="Area">区域</value>
-  <value column="Description" original="Print Area">打印区</value>
-  <value column="Help" original="Print area of this item">该项的打印区</value>
+  <value column="Description" original="Print Area">打印区域</value>
+  <value column="Help" original="Print area of this item">该项的打印区域</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10714,8 +10714,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1829" trl="Y">
-  <value column="Name" original="Area Code">地区编号</value>
-  <value column="PrintName" original="Area Code">地区编号</value>
+  <value column="Name" original="Area Code">区域编号</value>
+  <value column="PrintName" original="Area Code">区域编号</value>
   <value column="Description" original="Phone Area Code">电话区号</value>
   <value column="Help" original="Phone Area Code">电话区号</value>
   <value column="PO_Description" original=""/>
@@ -10764,7 +10764,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1834" trl="Y">
-  <value column="Name" original="Calculate Mean (μ)">计算平均值</value>
+  <value column="Name" original="Calculate Mean (μ)">计算平均值(μ)</value>
   <value column="PrintName" original="Mean">平均数</value>
   <value column="Description" original="Calculate Average of numeric content or length">计算数字内容或长度的平均值</value>
   <value column="Help" original="Calculate the Mean (μ) of the data if the field is numeric, otherwise calculate the average length of the field.">如果字段为数值型，则计算数据的平均值；否则计算字段的平均长度</value>
@@ -11606,7 +11606,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1925" trl="Y">
   <value column="Name" original="Parent Key">父键</value>
   <value column="PrintName" original="Parent Key">父键</value>
-  <value column="Description" original="Key if the Parent">主键-是否为父</value>
+  <value column="Description" original="Key if the Parent">主键-是否为父键</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14247,10 +14247,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2205" trl="Y">
-  <value column="Name" original="Can Report">可创建报表</value>
-  <value column="PrintName" original="Can Report">可创建报表</value>
-  <value column="Description" original="Users with this role can create reports">扮演该角色的用户可以创建报表</value>
-  <value column="Help" original="You can restrict the ability to report on data.">您可限制对数据作报表的能力</value>
+  <value column="Name" original="Can Report">可使用报表</value>
+  <value column="PrintName" original="Can Report">可使用报表</value>
+  <value column="Description" original="Users with this role can create reports">扮演该角色的用户可以使用报表</value>
+  <value column="Help" original="You can restrict the ability to report on data.">限制使用报表进行数据输出</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14267,7 +14267,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2207" trl="Y">
-  <value column="Name" original="Calculate Maximum (?)">计算最大值 (蟽)</value>
+  <value column="Name" original="Calculate Maximum (?)">计算最大值 (？)</value>
   <value column="PrintName" original="Calc Max">求最大值</value>
   <value column="Description" original="Calculate the maximum amount">计算最大金额</value>
   <value column="Help" original="Calculate the Maximum (↑)  of the data if the field is numeric, otherwise maximum length of the field.">如果字段是是数字型，则计算数据的最大值 (↑)；否则计算字段的最大长度</value>
@@ -14830,7 +14830,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Backordered">延期交货</value>
   <value column="PrintName" original="Backordered">延期交货</value>
   <value column="Description" original="Backordered Quantity">延期交货的数量</value>
-  <value column="Help" original="Calculated: ordered - delivered quantity">计算公式: 已下单数量 - 已交货数量</value>
+  <value column="Help" original="Calculated: ordered - delivered quantity">计算方法：订单 - 交付量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17148,8 +17148,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2515" trl="Y">
-  <value column="Name" original="Campaign Tree">战役树</value>
-  <value column="PrintName" original="Campaign Tree">战役树</value>
+  <value column="Name" original="Campaign Tree">营销结构图</value>
+  <value column="PrintName" original="Campaign Tree">营销结构图</value>
   <value column="Description" original="Trees are used for (financial) reporting">树被用于 (财务) 报表</value>
   <value column="Help" original="Trees are used for (finanial) reporting">树是用来(财务)报表</value>
   <value column="PO_Description" original=""/>
@@ -18328,7 +18328,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2639" trl="Y">
   <value column="Name" original="DB Address">数据库服务器地址</value>
   <value column="PrintName" original="DB Address">数据库服务器地址</value>
-  <value column="Description" original="JDBC URL of the database server">数据库服务器地址</value>
+  <value column="Description" original="JDBC URL of the database server">数据库服务器JDBC地址</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19403,8 +19403,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2752" trl="Y">
   <value column="Name" original="User Mail">用户邮件</value>
   <value column="PrintName" original="User Mail">用户邮件</value>
-  <value column="Description" original="Mail sent to the user">发送给用户的邮件</value>
-  <value column="Help" original="Archive of mails sent to users">归档发送给用户的邮件</value>
+  <value column="Description" original="Mail sent to the user">发送到用户的邮件</value>
+  <value column="Help" original="Archive of mails sent to users">发送到用户的邮件存档</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20034,7 +20034,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="2818" trl="Y">
   <value column="Name" original="Base">基数</value>
   <value column="PrintName" original="Base">基数</value>
-  <value column="Description" original="Calculation Base">计算的基础</value>
+  <value column="Description" original="Calculation Base">计算基数</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -20542,10 +20542,10 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2872" trl="Y">
-  <value column="Name" original="Before Approval">批准前</value>
-  <value column="PrintName" original="Before Approval">批准前</value>
-  <value column="Description" original="The Check is before the (manual) approval">在 (人工) 批准之前检查</value>
-  <value column="Help" original="If selected, the Budget Approval is before manual approvals - i.e. is only approved if budget is available.  This may cause that the use of the budget is delayed (after the approval)">如果选中，预算审批在人工批准之前 - 即只有预算有效的情形下才批准。这可能导致预算的使用被延后 (在批准之后)</value>
+  <value column="Name" original="Before Approval">审批前</value>
+  <value column="PrintName" original="Before Approval">审批前</value>
+  <value column="Description" original="The Check is before the (manual) approval">在 (人工) 审批之前检查</value>
+  <value column="Help" original="If selected, the Budget Approval is before manual approvals - i.e. is only approved if budget is available.  This may cause that the use of the budget is delayed (after the approval)">如果选中，预算审批在人工审批之前 - 即只有预算有效的情形下才审批。这可能导致预算的使用被延后 (在审批之后)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20666,7 +20666,7 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PrintName" original="Price Match Tolerance">价格匹配冗余</value>
   <value column="Description" original="PO-Invoice Match Price Tolerance in percent of the purchase price">采购订单-发票匹配价格冗余占采购价格的百分比</value>
   <value column="Help" original="Tolerance in Percent of matching the purchase order price to the invoice price.  The difference is posted as Invoice Price Tolerance for Standard Costing.  If defined, the PO-Invoice match must be explicitly approved, if the matching difference is greater then the tolerance.&lt;br&gt;&#10;Example: if the purchase price is $100 and the tolerance is 1 (percent), the invoice price must be between $99 and 101 to be automatically approved."><![CDATA[匹配采购订单价格与发票价格的冗余百分比。对于标准成本法，差额被过账为发票价格冗余。如果已定义，且匹配差异大于冗余值，采购订单-发票匹配必须被显式批准。<br>
-示例：如果采购价格是 $100，冗余 1%，那么发票价格必须介于 $99-101 才能被自动批准。]]></value>
+示例：如果采购价格是 $100，冗余 1%，那么发票价格必须介于 $99-101 才能被自动审批]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -26904,8 +26904,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53557" trl="Y">
-  <value column="Name" original="New Asset Cost Acct">新建资产账户</value>
-  <value column="PrintName" original="New Asset Cost Acct">新建资产账户</value>
+  <value column="Name" original="New Asset Cost Acct">新建资产成本账户</value>
+  <value column="PrintName" original="New Asset Cost Acct">新建资产成本账户</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27204,8 +27204,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53588" trl="Y">
-  <value column="Name" original="Calculation Type">折旧计提类型</value>
-  <value column="PrintName" original="Calculation Type">折旧计提类型</value>
+  <value column="Name" original="Calculation Type">计算类型</value>
+  <value column="PrintName" original="Calculation Type">计算类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -27414,8 +27414,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53612" trl="Y">
-  <value column="Name" original="Asset Addition">附加资产</value>
-  <value column="PrintName" original="Asset Addition">附加资产</value>
+  <value column="Name" original="Asset Addition">资产增加</value>
+  <value column="PrintName" original="Asset Addition">资产增加</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28768,8 +28768,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53825" trl="Y">
-  <value column="Name" original="Campaign Dimension">战役维度</value>
-  <value column="PrintName" original="Campaign Dimension">战役维度</value>
+  <value column="Name" original="Campaign Dimension">营销维度</value>
+  <value column="PrintName" original="Campaign Dimension">营销维度</value>
   <value column="Description" original="Include Campaign as a cube dimension">包含促销，作为一个立方体维度</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -29318,8 +29318,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54119" trl="Y">
-  <value column="Name" original="Product BOM Key">产品物料清单</value>
-  <value column="PrintName" original="Product BOM Key">产品物料清单</value>
+  <value column="Name" original="Product BOM Key">产品物料清单主键</value>
+  <value column="PrintName" original="Product BOM Key">产品物料清单主键</value>
   <value column="Description" original="Key of Product BOM">主键-产品物料清单</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -29328,8 +29328,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54120" trl="Y">
-  <value column="Name" original="Forecast Key">预测的关键</value>
-  <value column="PrintName" original="Forecast Key">预测的关键</value>
+  <value column="Name" original="Forecast Key">预测的主键</value>
+  <value column="PrintName" original="Forecast Key">预测的主键</value>
   <value column="Description" original="Key of the Forecast">主键-预测</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -29338,8 +29338,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54121" trl="Y">
-  <value column="Name" original="Resource Key">关键的资源</value>
-  <value column="PrintName" original="Resource Key">关键的资源</value>
+  <value column="Name" original="Resource Key">资源主键</value>
+  <value column="PrintName" original="Resource Key">资源主键</value>
   <value column="Description" original="Key of the Resource">主键-资源</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -29430,7 +29430,7 @@ Credit Work in Process Account ]]></value>
  <row id="54136" trl="Y">
   <value column="Name" original="Key Layout">POS 键布局</value>
   <value column="PrintName" original="Key Layout">POS 键布局</value>
-  <value column="Description" original="Key Layout to be displayed when this key is pressed">Key Layout to be displayed when this key is pressed</value>
+  <value column="Description" original="Key Layout to be displayed when this key is pressed">按下此键时显示键布局</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -29510,8 +29510,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54165" trl="Y">
-  <value column="Name" original="Asset class">调度计划类</value>
-  <value column="PrintName" original="Asset class">调度计划类</value>
+  <value column="Name" original="Asset class">资产类别</value>
+  <value column="PrintName" original="Asset class">资产类别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -29530,8 +29530,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54167" trl="Y">
-  <value column="Name" original="Asset Action">C_期间控制 动作</value>
-  <value column="PrintName" original="Asset Action">C_期间控制 动作</value>
+  <value column="Name" original="Asset Action资产行动</value>
+  <value column="PrintName" original="Asset Action">资产行动</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30060,8 +30060,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54220" trl="Y">
-  <value column="Name" original="Asset Acct (new)">新建资产账户</value>
-  <value column="PrintName" original="Asset Acct (new)">新建资产账户</value>
+  <value column="Name" original="Asset Acct (new)">资产帐户（新）</value>
+  <value column="PrintName" original="Asset Acct (new)">资产帐户（新）</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30110,8 +30110,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54225" trl="Y">
-  <value column="Name" original="Fixed Asset Class">固定资产销售盈利</value>
-  <value column="PrintName" original="Fixed Asset Class">固定资产销售盈利</value>
+  <value column="Name" original="Fixed Asset Class">固定资产类别</value>
+  <value column="PrintName" original="Fixed Asset Class">固定资产类别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30150,8 +30150,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54229" trl="Y">
-  <value column="Name" original="Asset Cost Change">资产成本账户</value>
-  <value column="PrintName" original="Asset Cost Change">资产成本账户</value>
+  <value column="Name" original="Asset Cost Change">资产成本变动</value>
+  <value column="PrintName" original="Asset Cost Change">资产成本变动</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30190,8 +30190,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54234" trl="Y">
-  <value column="Name" original="Asset Class Key">业务伙伴搜索关键字</value>
-  <value column="PrintName" original="Asset Class Key">业务伙伴搜索关键字</value>
+  <value column="Name" original="Asset Class Key">资产类别关键字</value>
+  <value column="PrintName" original="Asset Class Key">资产类别关键字</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30260,8 +30260,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54241" trl="Y">
-  <value column="Name" original="Campaign Key"><![CDATA[关键字(&K)]]></value>
-  <value column="PrintName" original="Campaign Key"><![CDATA[关键字(&K)]]></value>
+  <value column="Name" original="Campaign Key"><营销关键字></value>
+  <value column="PrintName" original="Campaign Key"><营销关键字></value>
   <value column="Description" original="Text key of the Campaign">C_营销活动(无概要)</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30540,8 +30540,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54446" trl="Y">
-  <value column="Name" original="A_Asset_UU">A_资产_处置</value>
-  <value column="PrintName" original="A_Asset_UU">A_资产_处置</value>
+  <value column="Name" original="A_Asset_UU">A_Asset_UU</value>
+  <value column="PrintName" original="A_Asset_UU">A_Asset_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30550,8 +30550,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54447" trl="Y">
-  <value column="Name" original="A_Asset_Acct_UU">A_资产_账户_ID</value>
-  <value column="PrintName" original="A_Asset_Acct_UU">A_资产_账户_ID</value>
+  <value column="Name" original="A_Asset_Acct_UU">A_Asset_Acct_UU</value>
+  <value column="PrintName" original="A_Asset_Acct_UU">A_Asset_Acct_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30560,8 +30560,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54448" trl="Y">
-  <value column="Name" original="A_Asset_Addition_UU">A_资产_附加_ID</value>
-  <value column="PrintName" original="A_Asset_Addition_UU">A_资产_附加_ID</value>
+  <value column="Name" original="A_Asset_Addition_UU">A_Asset_Addition_UU</value>
+  <value column="PrintName" original="A_Asset_Addition_UU">A_Asset_Addition_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30570,8 +30570,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54449" trl="Y">
-  <value column="Name" original="A_Asset_Change_UU">物料清单变更通知</value>
-  <value column="PrintName" original="A_Asset_Change_UU">物料清单变更通知</value>
+  <value column="Name" original="A_Asset_Change_UU">A_Asset_Change_UU</value>
+  <value column="PrintName" original="A_Asset_Change_UU">A_Asset_Change_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30580,8 +30580,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54450" trl="Y">
-  <value column="Name" original="A_Asset_Delivery_UU">资产交付明细</value>
-  <value column="PrintName" original="A_Asset_Delivery_UU">资产交付明细</value>
+  <value column="Name" original="A_Asset_Delivery_UU">A_Asset_Delivery_UU</value>
+  <value column="PrintName" original="A_Asset_Delivery_UU">A_Asset_Delivery_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30590,8 +30590,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54451" trl="Y">
-  <value column="Name" original="A_Asset_Disposed_UU">A_资产_处置_ID</value>
-  <value column="PrintName" original="A_Asset_Disposed_UU">A_资产_处置_ID</value>
+  <value column="Name" original="A_Asset_Disposed_UU">A_Asset_Disposed_UU</value>
+  <value column="PrintName" original="A_Asset_Disposed_UU">A_Asset_Disposed_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30600,8 +30600,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54452" trl="Y">
-  <value column="Name" original="A_Asset_Group_UU">资产分组账户</value>
-  <value column="PrintName" original="A_Asset_Group_UU">资产分组账户</value>
+  <value column="Name" original="A_Asset_Group_UU">A_Asset_Group_UU</value>
+  <value column="PrintName" original="A_Asset_Group_UU">A_Asset_Group_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30610,8 +30610,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54453" trl="Y">
-  <value column="Name" original="A_Asset_Group_Acct_UU">A_资产_分组_帐户_ID</value>
-  <value column="PrintName" original="A_Asset_Group_Acct_UU">A_资产_分组_帐户_ID</value>
+  <value column="Name" original="A_Asset_Group_Acct_UU">A_Asset_Group_Acct_UU</value>
+  <value column="PrintName" original="A_Asset_Group_Acct_UU">A_Asset_Group_Acct_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30620,8 +30620,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54454" trl="Y">
-  <value column="Name" original="A_Asset_Info_Fin_UU">A_资产_信息_Fin_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Fin_UU">A_资产_信息_Fin_ID</value>
+  <value column="Name" original="A_Asset_Info_Fin_UU">A_Asset_Info_Fin_UU</value>
+  <value column="PrintName" original="A_Asset_Info_Fin_UU">A_Asset_Info_Fin_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30630,8 +30630,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54455" trl="Y">
-  <value column="Name" original="A_Asset_Info_Ins_UU">A_资产_信息_Ins_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Ins_UU">A_资产_信息_Ins_ID</value>
+  <value column="Name" original="A_Asset_Info_Ins_UU">A_Asset_Info_Ins_UU</value>
+  <value column="PrintName" original="A_Asset_Info_Ins_UU">A_Asset_Info_Ins_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30640,8 +30640,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54456" trl="Y">
-  <value column="Name" original="A_Asset_Info_Lic_UU">A_资产_信息_Lic_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Lic_UU">A_资产_信息_Lic_ID</value>
+  <value column="Name" original="A_Asset_Info_Lic_UU">A_Asset_Info_Lic_UU</value>
+  <value column="PrintName" original="A_Asset_Info_Lic_UU">A_Asset_Info_Lic_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30650,8 +30650,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54457" trl="Y">
-  <value column="Name" original="A_Asset_Info_Oth_UU">A_资产_信息_Oth_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Oth_UU">A_资产_信息_Oth_ID</value>
+  <value column="Name" original="A_Asset_Info_Oth_UU">A_Asset_Info_Oth_UU</value>
+  <value column="PrintName" original="A_Asset_Info_Oth_UU">A_Asset_Info_Oth_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30660,8 +30660,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54458" trl="Y">
-  <value column="Name" original="A_Asset_Info_Tax_UU">A_资产_信息_税_ID</value>
-  <value column="PrintName" original="A_Asset_Info_Tax_UU">A_资产_信息_税_ID</value>
+  <value column="Name" original="A_Asset_Info_Tax_UU">A_Asset_Info_Tax_UU</value>
+  <value column="PrintName" original="A_Asset_Info_Tax_UU">A_Asset_Info_Tax_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30670,8 +30670,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54459" trl="Y">
-  <value column="Name" original="A_Asset_Retirement_UU">A_资产_账户_ID</value>
-  <value column="PrintName" original="A_Asset_Retirement_UU">A_资产_账户_ID</value>
+  <value column="Name" original="A_Asset_Retirement_UU">A_Asset_Retirement_UU</value>
+  <value column="PrintName" original="A_Asset_Retirement_UU">A_Asset_Retirement_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30680,8 +30680,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54460" trl="Y">
-  <value column="Name" original="A_Asset_Reval_Entry_UU">建立资产转移账目</value>
-  <value column="PrintName" original="A_Asset_Reval_Entry_UU">建立资产转移账目</value>
+  <value column="Name" original="A_Asset_Reval_Entry_UU">A_Asset_Reval_Entry_UU</value>
+  <value column="PrintName" original="A_Asset_Reval_Entry_UU">A_Asset_Reval_Entry_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30690,8 +30690,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54461" trl="Y">
-  <value column="Name" original="A_Asset_Reval_Index_UU">A_资产_重估索引_ID</value>
-  <value column="PrintName" original="A_Asset_Reval_Index_UU">A_资产_重估索引_ID</value>
+  <value column="Name" original="A_Asset_Reval_Index_UU">A_Asset_Reval_Index_UU</value>
+  <value column="PrintName" original="A_Asset_Reval_Index_UU">A_Asset_Reval_Index_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30700,8 +30700,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54462" trl="Y">
-  <value column="Name" original="A_Asset_Split_UU">A_资产_拆分_ID</value>
-  <value column="PrintName" original="A_Asset_Split_UU">A_资产_拆分_ID</value>
+  <value column="Name" original="A_Asset_Split_UU">A_Asset_Split_UU</value>
+  <value column="PrintName" original="A_Asset_Split_UU">A_Asset_Split_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30710,8 +30710,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54463" trl="Y">
-  <value column="Name" original="A_Asset_Spread_UU">资产展开类型|</value>
-  <value column="PrintName" original="A_Asset_Spread_UU">资产展开类型|</value>
+  <value column="Name" original="A_Asset_Spread_UU">A_Asset_Spread_UU</value>
+  <value column="PrintName" original="A_Asset_Spread_UU">A_Asset_Spread_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30720,8 +30720,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54464" trl="Y">
-  <value column="Name" original="A_Asset_Transfer_UU">A_资产_转让_ID</value>
-  <value column="PrintName" original="A_Asset_Transfer_UU">A_资产_转让_ID</value>
+  <value column="Name" original="A_Asset_Transfer_UU">A_Asset_Transfer_UU</value>
+  <value column="PrintName" original="A_Asset_Transfer_UU">A_Asset_Transfer_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30730,8 +30730,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54465" trl="Y">
-  <value column="Name" original="A_Asset_Use_UU">A_资产_使用_ID</value>
-  <value column="PrintName" original="A_Asset_Use_UU">A_资产_使用_ID</value>
+  <value column="Name" original="A_Asset_Use_UU">A_Asset_Use_UU</value>
+  <value column="PrintName" original="A_Asset_Use_UU">A_Asset_Use_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30740,8 +30740,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54466" trl="Y">
-  <value column="Name" original="AD_AccessLog_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_AccessLog_UU">AD_属性值</value>
+  <value column="Name" original="AD_AccessLog_UU">AD_AccessLog_UU</value>
+  <value column="PrintName" original="AD_AccessLog_UU">AD_AccessLog_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30750,8 +30750,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54467" trl="Y">
-  <value column="Name" original="AD_Alert_UU">提醒引擎日志</value>
-  <value column="PrintName" original="AD_Alert_UU">提醒引擎日志</value>
+  <value column="Name" original="AD_Alert_UU">AD_Alert_UU</value>
+  <value column="PrintName" original="AD_Alert_UU">AD_Alert_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30760,8 +30760,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54468" trl="Y">
-  <value column="Name" original="AD_AlertProcessor_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_AlertProcessor_UU">AD_属性值</value>
+  <value column="Name" original="AD_AlertProcessor_UU">AD_AlertProcessor_UU</value>
+  <value column="PrintName" original="AD_AlertProcessor_UU">AD_AlertProcessor_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30770,8 +30770,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54469" trl="Y">
-  <value column="Name" original="AD_AlertProcessorLog_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_AlertProcessorLog_UU">AD_属性值</value>
+  <value column="Name" original="AD_AlertProcessorLog_UU">AD_AlertProcessorLog_UU</value>
+  <value column="PrintName" original="AD_AlertProcessorLog_UU">AD_AlertProcessorLog_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30780,8 +30780,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54470" trl="Y">
-  <value column="Name" original="AD_AlertRecipient_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_AlertRecipient_UU">AD_属性值</value>
+  <value column="Name" original="AD_AlertRecipient_UU">AD_AlertRecipient_UU</value>
+  <value column="PrintName" original="AD_AlertRecipient_UU">AD_AlertRecipient_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30790,8 +30790,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54471" trl="Y">
-  <value column="Name" original="AD_AlertRule_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_AlertRule_UU">AD_属性值</value>
+  <value column="Name" original="AD_AlertRule_UU">AD_AlertRule_UU</value>
+  <value column="PrintName" original="AD_AlertRule_UU">AD_AlertRule_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30800,8 +30800,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54472" trl="Y">
-  <value column="Name" original="AD_Archive_UU">Unix 归档路径</value>
-  <value column="PrintName" original="AD_Archive_UU">Unix 归档路径</value>
+  <value column="Name" original="AD_Archive_UU">AD_Archive_UU</value>
+  <value column="PrintName" original="AD_Archive_UU">AD_Archive_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30810,8 +30810,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54473" trl="Y">
-  <value column="Name" original="AD_Attachment_UU">单据的附件</value>
-  <value column="PrintName" original="AD_Attachment_UU">单据的附件</value>
+  <value column="Name" original="AD_Attachment_UU">AD_Attachment_UU</value>
+  <value column="PrintName" original="AD_Attachment_UU">AD_Attachment_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30820,8 +30820,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54474" trl="Y">
-  <value column="Name" original="AD_AttachmentNote_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_AttachmentNote_UU">AD_属性值</value>
+  <value column="Name" original="AD_AttachmentNote_UU">AD_AttachmentNote_UU</value>
+  <value column="PrintName" original="AD_AttachmentNote_UU">AD_AttachmentNote_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30830,8 +30830,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54475" trl="Y">
-  <value column="Name" original="AD_Attribute_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_Attribute_UU">AD_属性值</value>
+  <value column="Name" original="AD_Attribute_UU">AD_Attribute_UU</value>
+  <value column="PrintName" original="AD_Attribute_UU">AD_Attribute_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30840,8 +30840,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54476" trl="Y">
-  <value column="Name" original="AD_Attribute_Value_UU">编辑产品属性</value>
-  <value column="PrintName" original="AD_Attribute_Value_UU">编辑产品属性</value>
+  <value column="Name" original="AD_Attribute_Value_UU">AD_Attribute_Value_UU</value>
+  <value column="PrintName" original="AD_Attribute_Value_UU">AD_Attribute_Value_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30850,8 +30850,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54477" trl="Y">
-  <value column="Name" original="AD_ChangeLog_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_ChangeLog_UU">AD_属性值</value>
+  <value column="Name" original="AD_ChangeLog_UU">AD_ChangeLog_UU</value>
+  <value column="PrintName" original="AD_ChangeLog_UU">AD_ChangeLog_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30860,8 +30860,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54478" trl="Y">
-  <value column="Name" original="AD_Client_UU">AD_实体自动归档</value>
-  <value column="PrintName" original="AD_Client_UU">AD_实体自动归档</value>
+  <value column="Name" original="AD_Client_UU">AD_Client_UU</value>
+  <value column="PrintName" original="AD_Client_UU">AD_Client_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30870,8 +30870,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54479" trl="Y">
-  <value column="Name" original="AD_ClientInfo_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_ClientInfo_UU">AD_属性值</value>
+  <value column="Name" original="AD_ClientInfo_UU">AD_ClientInfo_UU</value>
+  <value column="PrintName" original="AD_ClientInfo_UU">AD_ClientInfo_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30880,8 +30880,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54480" trl="Y">
-  <value column="Name" original="AD_ClientShare_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_ClientShare_UU">AD_属性值</value>
+  <value column="Name" original="AD_ClientShare_UU">AD_ClientShare_UU</value>
+  <value column="PrintName" original="AD_ClientShare_UU">AD_ClientShare_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30890,8 +30890,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54481" trl="Y">
-  <value column="Name" original="AD_Color_UU">AD_颜色起点</value>
-  <value column="PrintName" original="AD_Color_UU">AD_颜色起点</value>
+  <value column="Name" original="AD_Color_UU">AD_Color_UU</value>
+  <value column="PrintName" original="AD_Color_UU">AD_Color_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30900,8 +30900,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54482" trl="Y">
-  <value column="Name" original="AD_Column_UU">AD_列 列名称</value>
-  <value column="PrintName" original="AD_Column_UU">AD_列 列名称</value>
+  <value column="Name" original="AD_Column_UU">AD_Column_UU</value>
+  <value column="PrintName" original="AD_Column_UU">AD_Column_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30910,8 +30910,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54483" trl="Y">
-  <value column="Name" original="AD_Column_Access_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_Column_Access_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_Column_Access_UU">AD_Column_Access_UU</value>
+  <value column="PrintName" original="AD_Column_Access_UU">AD_Column_Access_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30920,8 +30920,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54484" trl="Y">
-  <value column="Name" original="AD_Column_Trl_UU">AD_列 关键列名</value>
-  <value column="PrintName" original="AD_Column_Trl_UU">AD_列 关键列名</value>
+  <value column="Name" original="AD_Column_Trl_UU">AD_Column_Trl_UU</value>
+  <value column="PrintName" original="AD_Column_Trl_UU">AD_Column_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30930,8 +30930,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54485" trl="Y">
-  <value column="Name" original="AD_Desktop_UU">前台办公桌面</value>
-  <value column="PrintName" original="AD_Desktop_UU">前台办公桌面</value>
+  <value column="Name" original="AD_Desktop_UU">AD_Desktop_UU</value>
+  <value column="PrintName" original="AD_Desktop_UU">AD_Desktop_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30950,8 +30950,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54487" trl="Y">
-  <value column="Name" original="AD_DesktopWorkbench_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_DesktopWorkbench_UU">AD_属性值</value>
+  <value column="Name" original="AD_DesktopWorkbench_UU">AD_DesktopWorkbench_UU</value>
+  <value column="PrintName" original="AD_DesktopWorkbench_UU">AD_DesktopWorkbench_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30970,8 +30970,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54489" trl="Y">
-  <value column="Name" original="AD_Element_UU">账户元素 翻译</value>
-  <value column="PrintName" original="AD_Element_UU">账户元素 翻译</value>
+  <value column="Name" original="AD_Element_UU">AD_Element_UU</value>
+  <value column="PrintName" original="AD_Element_UU">AD_Element_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30980,8 +30980,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54490" trl="Y">
-  <value column="Name" original="AD_Element_Trl_UU">容器阶段元素 翻译</value>
-  <value column="PrintName" original="AD_Element_Trl_UU">容器阶段元素 翻译</value>
+  <value column="Name" original="AD_Element_Trl_UU">AD_Element_Trl_UU</value>
+  <value column="PrintName" original="AD_Element_Trl_UU">AD_Element_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30990,8 +30990,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54491" trl="Y">
-  <value column="Name" original="AD_EntityType_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_EntityType_UU">AD_属性值</value>
+  <value column="Name" original="AD_EntityType_UU">AD_EntityType_UU</value>
+  <value column="PrintName" original="AD_EntityType_UU">AD_EntityType_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31000,8 +31000,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54492" trl="Y">
-  <value column="Name" original="A_Depreciation_UU">A_折旧_转化</value>
-  <value column="PrintName" original="A_Depreciation_UU">A_折旧_转化</value>
+  <value column="Name" original="A_Depreciation_UU">A_Depreciation_UU</value>
+  <value column="PrintName" original="A_Depreciation_UU">A_Depreciation_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31010,8 +31010,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54493" trl="Y">
-  <value column="Name" original="A_Depreciation_Build_UU">A_折旧_生成_ID</value>
-  <value column="PrintName" original="A_Depreciation_Build_UU">A_折旧_生成_ID</value>
+  <value column="Name" original="A_Depreciation_Build_UU">A_Depreciation_Build_UU</value>
+  <value column="PrintName" original="A_Depreciation_Build_UU">A_Depreciation_Build_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31020,8 +31020,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54494" trl="Y">
-  <value column="Name" original="A_Depreciation_Convention_UU">A_折旧_规则_ID</value>
-  <value column="PrintName" original="A_Depreciation_Convention_UU">A_折旧_规则_ID</value>
+  <value column="Name" original="A_Depreciation_Convention_UU">A_Depreciation_Convention_UU</value>
+  <value column="PrintName" original="A_Depreciation_Convention_UU">A_Depreciation_Convention_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31030,8 +31030,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54495" trl="Y">
-  <value column="Name" original="A_Depreciation_Entry_UU">A_折旧_过账_清理</value>
-  <value column="PrintName" original="A_Depreciation_Entry_UU">A_折旧_过账_清理</value>
+  <value column="Name" original="A_Depreciation_Entry_UU">A_Depreciation_Entry_UU</value>
+  <value column="PrintName" original="A_Depreciation_Entry_UU">A_Depreciation_Entry_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31040,8 +31040,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54496" trl="Y">
-  <value column="Name" original="A_Depreciation_Exp_UU">A_折旧_费用_ID</value>
-  <value column="PrintName" original="A_Depreciation_Exp_UU">A_折旧_费用_ID</value>
+  <value column="Name" original="A_Depreciation_Exp_UU">A_Depreciation_Exp_UU</value>
+  <value column="PrintName" original="A_Depreciation_Exp_UU">A_Depreciation_Exp_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31050,8 +31050,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54497" trl="Y">
-  <value column="Name" original="A_Depreciation_Forecast_UU">A_折旧_预测_ID</value>
-  <value column="PrintName" original="A_Depreciation_Forecast_UU">A_折旧_预测_ID</value>
+  <value column="Name" original="A_Depreciation_Forecast_UU">A_Depreciation_Forecast_UU</value>
+  <value column="PrintName" original="A_Depreciation_Forecast_UU">A_Depreciation_Forecast_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31060,8 +31060,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54498" trl="Y">
-  <value column="Name" original="A_Depreciation_Method_UU">定义折旧方法</value>
-  <value column="PrintName" original="A_Depreciation_Method_UU">定义折旧方法</value>
+  <value column="Name" original="A_Depreciation_Method_UU">A_Depreciation_Method_UU</value>
+  <value column="PrintName" original="A_Depreciation_Method_UU">A_Depreciation_Method_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31070,8 +31070,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54499" trl="Y">
-  <value column="Name" original="A_Depreciation_Table_Detail_UU">A_折旧_表头_ID</value>
-  <value column="PrintName" original="A_Depreciation_Table_Detail_UU">A_折旧_表头_ID</value>
+  <value column="Name" original="A_Depreciation_Table_Detail_UU">A_Depreciation_Table_Detail_UU</value>
+  <value column="PrintName" original="A_Depreciation_Table_Detail_UU">A_Depreciation_Table_Detail_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31080,8 +31080,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54500" trl="Y">
-  <value column="Name" original="A_Depreciation_Table_Header_UU">A_折旧_表头_ID</value>
-  <value column="PrintName" original="A_Depreciation_Table_Header_UU">A_折旧_表头_ID</value>
+  <value column="Name" original="A_Depreciation_Table_Header_UU">A_Depreciation_Table_Header_UU</value>
+  <value column="PrintName" original="A_Depreciation_Table_Header_UU">A_Depreciation_Table_Header_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31090,8 +31090,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54501" trl="Y">
-  <value column="Name" original="A_Depreciation_Workfile_UU">A_折旧_工作文件_ID</value>
-  <value column="PrintName" original="A_Depreciation_Workfile_UU">A_折旧_工作文件_ID</value>
+  <value column="Name" original="A_Depreciation_Workfile_UU">A_Depreciation_Workfile_UU</value>
+  <value column="PrintName" original="A_Depreciation_Workfile_UU">A_Depreciation_Workfile_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31100,8 +31100,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54502" trl="Y">
-  <value column="Name" original="AD_Error_UU">编译版本错误</value>
-  <value column="PrintName" original="AD_Error_UU">编译版本错误</value>
+  <value column="Name" original="AD_Error_UU">AD_Error_UU</value>
+  <value column="PrintName" original="AD_Error_UU">AD_Error_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31110,8 +31110,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54503" trl="Y">
-  <value column="Name" original="AD_Field_UU">AD_字段 遮掩类型</value>
-  <value column="PrintName" original="AD_Field_UU">AD_字段 遮掩类型</value>
+  <value column="Name" original="AD_Field_UU">AD_Field_UU</value>
+  <value column="PrintName" original="AD_Field_UU">AD_Field_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31120,8 +31120,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54504" trl="Y">
-  <value column="Name" original="AD_FieldGroup_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_FieldGroup_UU">AD_属性值</value>
+  <value column="Name" original="AD_FieldGroup_UU">AD_FieldGroup_UU</value>
+  <value column="PrintName" original="AD_FieldGroup_UU">AD_FieldGroup_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31140,8 +31140,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54506" trl="Y">
-  <value column="Name" original="AD_Field_Trl_UU">AD_打印 字段对齐</value>
-  <value column="PrintName" original="AD_Field_Trl_UU">AD_打印 字段对齐</value>
+  <value column="Name" original="AD_Field_Trl_UU">AD_Field_Trl_UU</value>
+  <value column="PrintName" original="AD_Field_Trl_UU">AD_Field_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31150,8 +31150,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54507" trl="Y">
-  <value column="Name" original="AD_Find_UU">AD_查找 与或</value>
-  <value column="PrintName" original="AD_Find_UU">AD_查找 与或</value>
+  <value column="Name" original="AD_Find_UU">AD_Find_UU</value>
+  <value column="PrintName" original="AD_Find_UU">AD_Find_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31160,8 +31160,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54508" trl="Y">
-  <value column="Name" original="AD_Form_UU">AD_窗体访问</value>
-  <value column="PrintName" original="AD_Form_UU">AD_窗体访问</value>
+  <value column="Name" original="AD_Form_UU">AD_Form_UU</value>
+  <value column="PrintName" original="AD_Form_UU">AD_Form_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31170,8 +31170,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54509" trl="Y">
-  <value column="Name" original="AD_Form_Access_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_Form_Access_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_Form_Access_UU">AD_Form_Access_UU</value>
+  <value column="PrintName" original="AD_Form_Access_UU">AD_Form_Access_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31190,8 +31190,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54511" trl="Y">
-  <value column="Name" original="AD_HouseKeeping_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_HouseKeeping_UU">AD_属性值</value>
+  <value column="Name" original="AD_HouseKeeping_UU">AD_HouseKeeping_UU</value>
+  <value column="PrintName" original="AD_HouseKeeping_UU">AD_HouseKeeping_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31200,8 +31200,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54512" trl="Y">
-  <value column="Name" original="AD_Image_UU">二进位的图像数据</value>
-  <value column="PrintName" original="AD_Image_UU">二进位的图像数据</value>
+  <value column="Name" original="AD_Image_UU">AD_Image_UU</value>
+  <value column="PrintName" original="AD_Image_UU">AD_Image_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31210,8 +31210,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54513" trl="Y">
-  <value column="Name" original="AD_ImpFormat_UU">AD_导入格式 格式类型</value>
-  <value column="PrintName" original="AD_ImpFormat_UU">AD_导入格式 格式类型</value>
+  <value column="Name" original="AD_ImpFormat_UU">AD_ImpFormat_UU</value>
+  <value column="PrintName" original="AD_ImpFormat_UU">AD_ImpFormat_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31220,8 +31220,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54514" trl="Y">
-  <value column="Name" original="AD_ImpFormat_Row_UU">AD_导入格式_行类型</value>
-  <value column="PrintName" original="AD_ImpFormat_Row_UU">AD_导入格式_行类型</value>
+  <value column="Name" original="AD_ImpFormat_Row_UU">AD_ImpFormat_Row_UU</value>
+  <value column="PrintName" original="AD_ImpFormat_Row_UU">AD_ImpFormat_Row_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31230,8 +31230,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54515" trl="Y">
-  <value column="Name" original="AD_InfoColumn_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_InfoColumn_UU">AD_属性值</value>
+  <value column="Name" original="AD_InfoColumn_UU">AD_InfoColumn_UU</value>
+  <value column="PrintName" original="AD_InfoColumn_UU">AD_InfoColumn_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31250,8 +31250,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54517" trl="Y">
-  <value column="Name" original="AD_InfoWindow_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_InfoWindow_UU">AD_属性值</value>
+  <value column="Name" original="AD_InfoWindow_UU">AD_InfoWindow_UU</value>
+  <value column="PrintName" original="AD_InfoWindow_UU">AD_InfoWindow_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31270,8 +31270,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54519" trl="Y">
-  <value column="Name" original="AD_Issue_UU">自动问题报告</value>
-  <value column="PrintName" original="AD_Issue_UU">自动问题报告</value>
+  <value column="Name" original="AD_Issue_UU">AD_Issue_UU</value>
+  <value column="PrintName" original="AD_Issue_UU">AD_Issue_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31280,8 +31280,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54520" trl="Y">
-  <value column="Name" original="AD_LabelPrinter_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_LabelPrinter_UU">AD_属性值</value>
+  <value column="Name" original="AD_LabelPrinter_UU">AD_LabelPrinter_UU</value>
+  <value column="PrintName" original="AD_LabelPrinter_UU">AD_LabelPrinter_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31290,8 +31290,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54521" trl="Y">
-  <value column="Name" original="AD_LabelPrinterFunction_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_LabelPrinterFunction_UU">AD_属性值</value>
+  <value column="Name" original="AD_LabelPrinterFunction_UU">AD_LabelPrinterFunction_UU</value>
+  <value column="PrintName" original="AD_LabelPrinterFunction_UU">AD_LabelPrinterFunction_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31300,8 +31300,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54522" trl="Y">
-  <value column="Name" original="AD_Language_UU">AD_语言维护</value>
-  <value column="PrintName" original="AD_Language_UU">AD_语言维护</value>
+  <value column="Name" original="AD_Language_UU">AD_Language_UU</value>
+  <value column="PrintName" original="AD_Language_UU">AD_Language_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31310,8 +31310,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54523" trl="Y">
-  <value column="Name" original="AD_LdapAccess_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_LdapAccess_UU">AD_属性值</value>
+  <value column="Name" original="AD_LdapAccess_UU">AD_LdapAccess_UU</value>
+  <value column="PrintName" original="AD_LdapAccess_UU">AD_LdapAccess_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31320,8 +31320,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54524" trl="Y">
-  <value column="Name" original="AD_LdapProcessor_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_LdapProcessor_UU">AD_属性值</value>
+  <value column="Name" original="AD_LdapProcessor_UU">AD_LdapProcessor_UU</value>
+  <value column="PrintName" original="AD_LdapProcessor_UU">AD_LdapProcessor_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31330,8 +31330,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54525" trl="Y">
-  <value column="Name" original="AD_LdapProcessorLog_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_LdapProcessorLog_UU">AD_属性值</value>
+  <value column="Name" original="AD_LdapProcessorLog_UU">AD_LdapProcessorLog_UU</value>
+  <value column="PrintName" original="AD_LdapProcessorLog_UU">AD_LdapProcessorLog_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31340,8 +31340,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54526" trl="Y">
-  <value column="Name" original="AD_Menu_UU">AD_菜单 动作</value>
-  <value column="PrintName" original="AD_Menu_UU">AD_菜单 动作</value>
+  <value column="Name" original="AD_Menu_UU">AD_Menu_UU</value>
+  <value column="PrintName" original="AD_Menu_UU">AD_Menu_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31360,8 +31360,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54528" trl="Y">
-  <value column="Name" original="AD_Message_UU">AD_消息类型</value>
-  <value column="PrintName" original="AD_Message_UU">AD_消息类型</value>
+  <value column="Name" original="AD_Message_UU">AD_Message_UU</value>
+  <value column="PrintName" original="AD_Message_UU">AD_Message_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31380,8 +31380,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54530" trl="Y">
-  <value column="Name" original="AD_MigrationScript_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_MigrationScript_UU">AD_属性值</value>
+  <value column="Name" original="AD_MigrationScript_UU">AD_MigrationScript_UU</value>
+  <value column="PrintName" original="AD_MigrationScript_UU">AD_MigrationScript_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31390,8 +31390,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54531" trl="Y">
-  <value column="Name" original="AD_ModelValidator_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_ModelValidator_UU">AD_属性值</value>
+  <value column="Name" original="AD_ModelValidator_UU">AD_ModelValidator_UU</value>
+  <value column="PrintName" original="AD_ModelValidator_UU">AD_ModelValidator_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31400,8 +31400,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54532" trl="Y">
-  <value column="Name" original="AD_Modification_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_Modification_UU">AD_属性值</value>
+  <value column="Name" original="AD_Modification_UU">AD_Modification_UU</value>
+  <value column="PrintName" original="AD_Modification_UU">AD_Modification_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31410,8 +31410,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54533" trl="Y">
-  <value column="Name" original="AD_Note_UU">流动应付票据</value>
-  <value column="PrintName" original="AD_Note_UU">流动应付票据</value>
+  <value column="Name" original="AD_Note_UU">AD_Note_UU</value>
+  <value column="PrintName" original="AD_Note_UU">AD_Note_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31420,8 +31420,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54534" trl="Y">
-  <value column="Name" original="AD_Org_UU">AD_组织 (事务处理)</value>
-  <value column="PrintName" original="AD_Org_UU">AD_组织 (事务处理)</value>
+  <value column="Name" original="AD_Org_UU">AD_Org_UU</value>
+  <value column="PrintName" original="AD_Org_UU">AD_Org_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31430,8 +31430,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54535" trl="Y">
-  <value column="Name" original="AD_OrgInfo_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_OrgInfo_UU">AD_属性值</value>
+  <value column="Name" original="AD_OrgInfo_UU">AD_OrgInfo_UU</value>
+  <value column="PrintName" original="AD_OrgInfo_UU">AD_OrgInfo_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31440,8 +31440,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54536" trl="Y">
-  <value column="Name" original="AD_OrgType_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_OrgType_UU">AD_属性值</value>
+  <value column="Name" original="AD_OrgType_UU">AD_OrgType_UU</value>
+  <value column="PrintName" original="AD_OrgType_UU">AD_OrgType_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31450,8 +31450,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54537" trl="Y">
-  <value column="Name" original="AD_Package_Exp_UU">AD_包_Exp_DB</value>
-  <value column="PrintName" original="AD_Package_Exp_UU">AD_包_Exp_DB</value>
+  <value column="Name" original="AD_Package_Exp_UU">AD_Package_Exp_UU</value>
+  <value column="PrintName" original="AD_Package_Exp_UU">AD_Package_Exp_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31460,8 +31460,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54538" trl="Y">
-  <value column="Name" original="AD_Package_Exp_Common_UU">AD_包_Exp_Common_ID</value>
-  <value column="PrintName" original="AD_Package_Exp_Common_UU">AD_包_Exp_Common_ID</value>
+  <value column="Name" original="AD_Package_Exp_Common_UU">AD_Package_Exp_Common_UU</value>
+  <value column="PrintName" original="AD_Package_Exp_Common_UU">AD_Package_Exp_Common_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31470,8 +31470,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54539" trl="Y">
-  <value column="Name" original="AD_Package_Exp_Detail_UU">AD_包_Exp_Detail_ID</value>
-  <value column="PrintName" original="AD_Package_Exp_Detail_UU">AD_包_Exp_Detail_ID</value>
+  <value column="Name" original="AD_Package_Exp_Detail_UU">AD_Package_Exp_Detail_UU</value>
+  <value column="PrintName" original="AD_Package_Exp_Detail_UU">AD_Package_Exp_Detail_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31480,8 +31480,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54540" trl="Y">
-  <value column="Name" original="AD_Package_Imp_UU">AD_包_实施_ID</value>
-  <value column="PrintName" original="AD_Package_Imp_UU">AD_包_实施_ID</value>
+  <value column="Name" original="AD_Package_Imp_UU">AD_Package_Imp_UU</value>
+  <value column="PrintName" original="AD_Package_Imp_UU">AD_Package_Imp_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31490,8 +31490,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54541" trl="Y">
-  <value column="Name" original="AD_Package_Imp_Backup_UU">AD_包_实施_备份_ID</value>
-  <value column="PrintName" original="AD_Package_Imp_Backup_UU">AD_包_实施_备份_ID</value>
+  <value column="Name" original="AD_Package_Imp_Backup_UU">AD_Package_Imp_Backup_UU</value>
+  <value column="PrintName" original="AD_Package_Imp_Backup_UU">AD_Package_Imp_Backup_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31500,8 +31500,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54542" trl="Y">
-  <value column="Name" original="AD_Package_Imp_Detail_UU">AD_包_实施_明细_ID</value>
-  <value column="PrintName" original="AD_Package_Imp_Detail_UU">AD_包_实施_明细_ID</value>
+  <value column="Name" original="AD_Package_Imp_Detail_UU">AD_Package_Imp_Detail_UU</value>
+  <value column="PrintName" original="AD_Package_Imp_Detail_UU">AD_Package_Imp_Detail_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31510,8 +31510,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54543" trl="Y">
-  <value column="Name" original="AD_Package_Imp_Inst_UU">AD_包_实施_备份_ID</value>
-  <value column="PrintName" original="AD_Package_Imp_Inst_UU">AD_包_实施_备份_ID</value>
+  <value column="Name" original="AD_Package_Imp_Inst_UU">AD_Package_Imp_Inst_UU</value>
+  <value column="PrintName" original="AD_Package_Imp_Inst_UU">AD_Package_Imp_Inst_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31520,8 +31520,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54544" trl="Y">
-  <value column="Name" original="AD_Package_Imp_Proc_UU">AD_包_实施_Proc_ID</value>
-  <value column="PrintName" original="AD_Package_Imp_Proc_UU">AD_包_实施_Proc_ID</value>
+  <value column="Name" original="AD_Package_Imp_Proc_UU">AD_Package_Imp_Proc_UU</value>
+  <value column="PrintName" original="AD_Package_Imp_Proc_UU">AD_Package_Imp_Proc_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31530,8 +31530,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54545" trl="Y">
-  <value column="Name" original="AD_PInstance_UU">AD_流程实例_日志</value>
-  <value column="PrintName" original="AD_PInstance_UU">AD_流程实例_日志</value>
+  <value column="Name" original="AD_PInstance_UU">AD_PInstance_UU</value>
+  <value column="PrintName" original="AD_PInstance_UU">AD_PInstance_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31560,8 +31560,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54548" trl="Y">
-  <value column="Name" original="AD_Preference_UU">个性化的偏爱设置</value>
-  <value column="PrintName" original="AD_Preference_UU">个性化的偏爱设置</value>
+  <value column="Name" original="AD_Preference_UU">AD_Preference_UU</value>
+  <value column="PrintName" original="AD_Preference_UU">AD_Preference_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31570,8 +31570,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54549" trl="Y">
-  <value column="Name" original="AD_PrintColor_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PrintColor_UU">AD_属性值</value>
+  <value column="Name" original="AD_PrintColor_UU">AD_PrintColor_UU</value>
+  <value column="PrintName" original="AD_PrintColor_UU">AD_PrintColor_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31580,8 +31580,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54550" trl="Y">
-  <value column="Name" original="AD_PrintFont_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PrintFont_UU">AD_属性值</value>
+  <value column="Name" original="AD_PrintFont_UU">AD_PrintFont_UU</value>
+  <value column="PrintName" original="AD_PrintFont_UU">AD_PrintFont_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31590,8 +31590,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54551" trl="Y">
-  <value column="Name" original="AD_PrintForm_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PrintForm_UU">AD_属性值</value>
+  <value column="Name" original="AD_PrintForm_UU">AD_PrintForm_UU</value>
+  <value column="PrintName" original="AD_PrintForm_UU">AD_PrintForm_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31600,8 +31600,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54552" trl="Y">
-  <value column="Name" original="AD_PrintFormat_UU">AD_打印格式 检查</value>
-  <value column="PrintName" original="AD_PrintFormat_UU">AD_打印格式 检查</value>
+  <value column="Name" original="AD_PrintFormat_UU">AD_PrintFormat_UU</value>
+  <value column="PrintName" original="AD_PrintFormat_UU">AD_PrintFormat_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31610,8 +31610,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54553" trl="Y">
-  <value column="Name" original="AD_PrintFormatItem_UU">AD_打印格式项 条码类型</value>
-  <value column="PrintName" original="AD_PrintFormatItem_UU">AD_打印格式项 条码类型</value>
+  <value column="Name" original="AD_PrintFormatItem_UU">AD_PrintFormatItem_UU</value>
+  <value column="PrintName" original="AD_PrintFormatItem_UU">AD_PrintFormatItem_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31630,8 +31630,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54555" trl="Y">
-  <value column="Name" original="AD_PrintGraph_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PrintGraph_UU">AD_属性值</value>
+  <value column="Name" original="AD_PrintGraph_UU">AD_PrintGraph_UU</value>
+  <value column="PrintName" original="AD_PrintGraph_UU">AD_PrintGraph_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31640,8 +31640,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54556" trl="Y">
-  <value column="Name" original="AD_PrintLabel_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PrintLabel_UU">AD_属性值</value>
+  <value column="Name" original="AD_PrintLabel_UU">AD_PrintLabel_UU</value>
+  <value column="PrintName" original="AD_PrintLabel_UU">AD_PrintLabel_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31650,8 +31650,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54557" trl="Y">
-  <value column="Name" original="AD_PrintLabelLine_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PrintLabelLine_UU">AD_属性值</value>
+  <value column="Name" original="AD_PrintLabelLine_UU">AD_PrintLabelLine_UU</value>
+  <value column="PrintName" original="AD_PrintLabelLine_UU">AD_PrintLabelLine_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31670,8 +31670,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54559" trl="Y">
-  <value column="Name" original="AD_PrintPaper_UU">AD_打印纸 单位</value>
-  <value column="PrintName" original="AD_PrintPaper_UU">AD_打印纸 单位</value>
+  <value column="Name" original="AD_PrintPaper_UU">AD_PrintPaper_UU</value>
+  <value column="PrintName" original="AD_PrintPaper_UU">AD_PrintPaper_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31680,8 +31680,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54560" trl="Y">
-  <value column="Name" original="AD_PrintTableFormat_UU">AD_打印表格式 订单</value>
-  <value column="PrintName" original="AD_PrintTableFormat_UU">AD_打印表格式 订单</value>
+  <value column="Name" original="AD_PrintTableFormat_UU">AD_PrintTableFormat_UU</value>
+  <value column="PrintName" original="AD_PrintTableFormat_UU">AD_PrintTableFormat_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31690,8 +31690,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54561" trl="Y">
-  <value column="Name" original="AD_Private_Access_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_Private_Access_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_Private_Access_UU">AD_Private_Access_UU</value>
+  <value column="PrintName" original="AD_Private_Access_UU">AD_Private_Access_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31700,8 +31700,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54562" trl="Y">
-  <value column="Name" original="AD_Process_UU">AD_流程/报表</value>
-  <value column="PrintName" original="AD_Process_UU">AD_流程/报表</value>
+  <value column="Name" original="AD_Process_UU">AD_Process_UU</value>
+  <value column="PrintName" original="AD_Process_UU">AD_Process_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31710,8 +31710,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54563" trl="Y">
-  <value column="Name" original="AD_Process_Access_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_Process_Access_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_Process_Access_UU">AD_Process_Access_UU</value>
+  <value column="PrintName" original="AD_Process_Access_UU">AD_Process_Access_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31750,8 +31750,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54567" trl="Y">
-  <value column="Name" original="AD_Record_Access_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_Record_Access_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_Record_Access_UU">AD_Record_Access_UU</value>
+  <value column="PrintName" original="AD_Record_Access_UU">AD_Record_Access_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31760,8 +31760,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54568" trl="Y">
-  <value column="Name" original="AD_Reference_UU">AD_引用 表</value>
-  <value column="PrintName" original="AD_Reference_UU">AD_引用 表</value>
+  <value column="Name" original="AD_Reference_UU">AD_Reference_UU</value>
+  <value column="PrintName" original="AD_Reference_UU">AD_Reference_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31770,8 +31770,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54569" trl="Y">
-  <value column="Name" original="AD_Reference_Trl_UU">AD_引用 数据类型</value>
-  <value column="PrintName" original="AD_Reference_Trl_UU">AD_引用 数据类型</value>
+  <value column="Name" original="AD_Reference_Trl_UU">AD_Reference_Trl_UU</value>
+  <value column="PrintName" original="AD_Reference_Trl_UU">AD_Reference_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31800,8 +31800,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54572" trl="Y">
-  <value column="Name" original="AD_Ref_Table_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_Ref_Table_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_Ref_Table_UU">AD_Ref_Table_UU</value>
+  <value column="PrintName" original="AD_Ref_Table_UU">AD_Ref_Table_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31810,8 +31810,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54573" trl="Y">
-  <value column="Name" original="AD_Registration_UU">资产登记属性</value>
-  <value column="PrintName" original="AD_Registration_UU">资产登记属性</value>
+  <value column="Name" original="AD_Registration_UU">AD_Registration_UU</value>
+  <value column="PrintName" original="AD_Registration_UU">AD_Registration_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -31820,8 +31820,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54574" trl="Y">
-  <value column="Name" original="AD_RelationType_UU">AD_关联类型 角色</value>
-  <value column="PrintName" original="AD_RelationType_UU">AD_关联类型 角色</value>
+  <value column="Name" original="AD_RelationType_UU">AD_RelationType_UU</value>
+  <value column="PrintName" original="AD_RelationType_UU">AD_RelationType_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33320,8 +33320,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54724" trl="Y">
-  <value column="Name" original="C_ChargeType_DocType_UU">C_单据类型 MFG 成本归集</value>
-  <value column="PrintName" original="C_ChargeType_DocType_UU">C_单据类型 MFG 成本归集</value>
+  <value column="Name" original="C_ChargeType_DocType_UU">C_ChargeType_DocType_UU</value>
+  <value column="PrintName" original="C_ChargeType_DocType_UU">C_ChargeType_DocType_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33330,8 +33330,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54725" trl="Y">
-  <value column="Name" original="C_City_UU">账户城市</value>
-  <value column="PrintName" original="C_City_UU">账户城市</value>
+  <value column="Name" original="C_City_UU">C_City_UU</value>
+  <value column="PrintName" original="C_City_UU">C_City_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33340,8 +33340,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54726" trl="Y">
-  <value column="Name" original="C_Commission_UU">C_佣金 单据来源</value>
-  <value column="PrintName" original="C_Commission_UU">C_佣金 单据来源</value>
+  <value column="Name" original="C_Commission_UU">C_Commission_UU</value>
+  <value column="PrintName" original="C_Commission_UU">C_Commission_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33390,8 +33390,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54731" trl="Y">
-  <value column="Name" original="C_Conversion_Rate_UU">C_转换比率类型</value>
-  <value column="PrintName" original="C_Conversion_Rate_UU">C_转换比率类型</value>
+  <value column="Name" original="C_Conversion_Rate_UU">C_Conversion_Rate_UU</value>
+  <value column="PrintName" original="C_Conversion_Rate_UU">C_Conversion_Rate_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33410,8 +33410,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54733" trl="Y">
-  <value column="Name" original="C_Country_UU">账户国家</value>
-  <value column="PrintName" original="C_Country_UU">账户国家</value>
+  <value column="Name" original="C_Country_UU">C_Country_UU</value>
+  <value column="PrintName" original="C_Country_UU">C_Country_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33420,8 +33420,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54734" trl="Y">
-  <value column="Name" original="C_Country_Trl_UU">账户元素 翻译</value>
-  <value column="PrintName" original="C_Country_Trl_UU">账户元素 翻译</value>
+  <value column="Name" original="C_Country_Trl_UU">C_Country_Trl_UU</value>
+  <value column="PrintName" original="C_Country_Trl_UU">C_Country_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33430,8 +33430,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54735" trl="Y">
-  <value column="Name" original="C_Currency_UU">会计货币</value>
-  <value column="PrintName" original="C_Currency_UU">会计货币</value>
+  <value column="Name" original="C_Currency_UU">C_Currency_UU</value>
+  <value column="PrintName" original="C_Currency_UU">C_Currency_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33440,8 +33440,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54736" trl="Y">
-  <value column="Name" original="C_Currency_Acct_UU">货币调节账户</value>
-  <value column="PrintName" original="C_Currency_Acct_UU">货币调节账户</value>
+  <value column="Name" original="C_Currency_Acct_UU">C_Currency_Acct_UU</value>
+  <value column="PrintName" original="C_Currency_Acct_UU">C_Currency_Acct_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33450,8 +33450,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54737" trl="Y">
-  <value column="Name" original="C_Currency_Trl_UU">账户元素 翻译</value>
-  <value column="PrintName" original="C_Currency_Trl_UU">账户元素 翻译</value>
+  <value column="Name" original="C_Currency_Trl_UU">C_Currency_Trl_UU</value>
+  <value column="PrintName" original="C_Currency_Trl_UU">C_Currency_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33460,8 +33460,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54738" trl="Y">
-  <value column="Name" original="C_Cycle_UU">周期名</value>
-  <value column="PrintName" original="C_Cycle_UU">周期名</value>
+  <value column="Name" original="C_Cycle_UU">C_Cycle_UU</value>
+  <value column="PrintName" original="C_Cycle_UU">C_Cycle_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33490,8 +33490,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54741" trl="Y">
-  <value column="Name" original="C_DocType_UU">C_单据类型 单据基类</value>
-  <value column="PrintName" original="C_DocType_UU">C_单据类型 单据基类</value>
+  <value column="Name" original="C_DocType_UU">C_DocType_UU</value>
+  <value column="PrintName" original="C_DocType_UU">C_DocType_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33510,8 +33510,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54743" trl="Y">
-  <value column="Name" original="C_DocType_Trl_UU">账户元素 翻译</value>
-  <value column="PrintName" original="C_DocType_Trl_UU">账户元素 翻译</value>
+  <value column="Name" original="C_DocType_Trl_UU">C_DocType_Trl_UU</value>
+  <value column="PrintName" original="C_DocType_Trl_UU">C_DocType_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33520,8 +33520,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54744" trl="Y">
-  <value column="Name" original="C_Dunning_UU">C_催款函_抬头_v</value>
-  <value column="PrintName" original="C_Dunning_UU">C_催款函_抬头_v</value>
+  <value column="Name" original="C_Dunning_UU">C_Dunning_UU</value>
+  <value column="PrintName" original="C_Dunning_UU">C_Dunning_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33540,8 +33540,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54746" trl="Y">
-  <value column="Name" original="C_DunningLevel_Trl_UU">账户元素 翻译</value>
-  <value column="PrintName" original="C_DunningLevel_Trl_UU">账户元素 翻译</value>
+  <value column="Name" original="C_DunningLevel_Trl_UU">C_DunningLevel_Trl_UU</value>
+  <value column="PrintName" original="C_DunningLevel_Trl_UU">C_DunningLevel_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33580,8 +33580,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54750" trl="Y">
-  <value column="Name" original="C_Element_UU">账户元素</value>
-  <value column="PrintName" original="C_Element_UU">账户元素</value>
+  <value column="Name" original="C_Element_UU">C_Element_UU</value>
+  <value column="PrintName" original="C_Element_UU">C_Element_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33590,8 +33590,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54751" trl="Y">
-  <value column="Name" original="C_ElementValue_UU">C_要素值 (全部)</value>
-  <value column="PrintName" original="C_ElementValue_UU">C_要素值 (全部)</value>
+  <value column="Name" original="C_ElementValue_UU">C_ElementValue_UU</value>
+  <value column="PrintName" original="C_ElementValue_UU">C_ElementValue_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33600,8 +33600,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54752" trl="Y">
-  <value column="Name" original="C_ElementValue_Trl_UU">账户元素 翻译</value>
-  <value column="PrintName" original="C_ElementValue_Trl_UU">账户元素 翻译</value>
+  <value column="Name" original="C_ElementValue_Trl_UU">C_ElementValue_Trl_UU</value>
+  <value column="PrintName" original="C_ElementValue_Trl_UU">C_ElementValue_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33610,8 +33610,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54753" trl="Y">
-  <value column="Name" original="C_Greeting_UU">业务伙伴尊称</value>
-  <value column="PrintName" original="C_Greeting_UU">业务伙伴尊称</value>
+  <value column="Name" original="C_Greeting_UU">C_Greeting_UU</value>
+  <value column="PrintName" original="C_Greeting_UU">C_Greeting_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33620,8 +33620,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54754" trl="Y">
-  <value column="Name" original="C_Greeting_Trl_UU">账户元素 翻译</value>
-  <value column="PrintName" original="C_Greeting_Trl_UU">账户元素 翻译</value>
+  <value column="Name" original="C_Greeting_Trl_UU">C_Greeting_Trl_UU</value>
+  <value column="PrintName" original="C_Greeting_Trl_UU">C_Greeting_Trl_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33630,8 +33630,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54755" trl="Y">
-  <value column="Name" original="C_InterOrg_Acct_UU">A_资产_账户_ID</value>
-  <value column="PrintName" original="C_InterOrg_Acct_UU">A_资产_账户_ID</value>
+  <value column="Name" original="C_InterOrg_Acct_UU">C_InterOrg_Acct_UU</value>
+  <value column="PrintName" original="C_InterOrg_Acct_UU">C_InterOrg_Acct_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33640,8 +33640,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54756" trl="Y">
-  <value column="Name" original="C_Invoice_UU">** 未开发票 **</value>
-  <value column="PrintName" original="C_Invoice_UU">** 未开发票 **</value>
+  <value column="Name" original="C_Invoice_UU">C_Invoice_UU</value>
+  <value column="PrintName" original="C_Invoice_UU">C_Invoice_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33690,8 +33690,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54761" trl="Y">
-  <value column="Name" original="C_InvoiceSchedule_UU">C_发票计划 开票频率</value>
-  <value column="PrintName" original="C_InvoiceSchedule_UU">C_发票计划 开票频率</value>
+  <value column="Name" original="C_InvoiceSchedule_UU">C_InvoiceSchedule_UU</value>
+  <value column="PrintName" original="C_InvoiceSchedule_UU">C_InvoiceSchedule_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33710,8 +33710,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54763" trl="Y">
-  <value column="Name" original="C_Job_UU">人力资源工作</value>
-  <value column="PrintName" original="C_Job_UU">人力资源工作</value>
+  <value column="Name" original="C_Job_UU">C_Job_UU</value>
+  <value column="PrintName" original="C_Job_UU">C_Job_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33750,8 +33750,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54767" trl="Y">
-  <value column="Name" original="C_LandedCost_UU">C_到岸成本分配</value>
-  <value column="PrintName" original="C_LandedCost_UU">C_到岸成本分配</value>
+  <value column="Name" original="C_LandedCost_UU">C_LandedCost_UU</value>
+  <value column="PrintName" original="C_LandedCost_UU">C_LandedCost_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33770,8 +33770,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54769" trl="Y">
-  <value column="Name" original="C_Location_UU">C_业务伙伴 位置</value>
-  <value column="PrintName" original="C_Location_UU">C_业务伙伴 位置</value>
+  <value column="Name" original="C_Location_UU">C_Location_UU</value>
+  <value column="PrintName" original="C_Location_UU">C_Location_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33780,8 +33780,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54770" trl="Y">
-  <value column="Name" original="CM_AccessContainer_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessContainer_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessContainer_UU">CM_AccessContainer_UU</value>
+  <value column="PrintName" original="CM_AccessContainer_UU">CM_AccessContainer_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33790,8 +33790,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54771" trl="Y">
-  <value column="Name" original="CM_AccessListBPGroup_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessListBPGroup_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessListBPGroup_UU">CM_AccessListBPGroup_UU</value>
+  <value column="PrintName" original="CM_AccessListBPGroup_UU">CM_AccessListBPGroup_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33800,8 +33800,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54772" trl="Y">
-  <value column="Name" original="CM_AccessListRole_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessListRole_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessListRole_UU">CM_AccessListRole_UU</value>
+  <value column="PrintName" original="CM_AccessListRole_UU">CM_AccessListRole_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33810,8 +33810,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54773" trl="Y">
-  <value column="Name" original="CM_AccessMedia_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessMedia_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessMedia_UU">CM_AccessMedia_UU</value>
+  <value column="PrintName" original="CM_AccessMedia_UU">CM_AccessMedia_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33820,8 +33820,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54774" trl="Y">
-  <value column="Name" original="CM_AccessNewsChannel_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessNewsChannel_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessNewsChannel_UU">CM_AccessNewsChannel_UU</value>
+  <value column="PrintName" original="CM_AccessNewsChannel_UU">CM_AccessNewsChannel_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33830,8 +33830,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54775" trl="Y">
-  <value column="Name" original="CM_AccessProfile_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessProfile_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessProfile_UU">CM_AccessProfile_UU</value>
+  <value column="PrintName" original="CM_AccessProfile_UU">CM_AccessProfile_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33840,8 +33840,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54776" trl="Y">
-  <value column="Name" original="CM_AccessStage_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_AccessStage_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_AccessStage_UU">CM_AccessStage_UU</value>
+  <value column="PrintName" original="CM_AccessStage_UU">CM_AccessStage_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33850,8 +33850,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54777" trl="Y">
-  <value column="Name" original="CM_Ad_UU">AD_属性值</value>
-  <value column="PrintName" original="CM_Ad_UU">AD_属性值</value>
+  <value column="Name" original="CM_Ad_UU">CM_Ad_UU</value>
+  <value column="PrintName" original="CM_Ad_UU">CM_Ad_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33870,8 +33870,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54779" trl="Y">
-  <value column="Name" original="CM_BroadcastServer_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_BroadcastServer_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_BroadcastServer_UU">CM_BroadcastServer_UU</value>
+  <value column="PrintName" original="CM_BroadcastServer_UU">CM_BroadcastServer_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33880,8 +33880,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54780" trl="Y">
-  <value column="Name" original="CM_Chat_UU">协同管理聊天记录类型</value>
-  <value column="PrintName" original="CM_Chat_UU">协同管理聊天记录类型</value>
+  <value column="Name" original="CM_Chat_UU">CM_Chat_UU</value>
+  <value column="PrintName" original="CM_Chat_UU">CM_Chat_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33890,8 +33890,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54781" trl="Y">
-  <value column="Name" original="CM_ChatEntry_UU">协同管理聊天记录审核状态</value>
-  <value column="PrintName" original="CM_ChatEntry_UU">协同管理聊天记录审核状态</value>
+  <value column="Name" original="CM_ChatEntry_UU">CM_ChatEntry_UU</value>
+  <value column="PrintName" original="CM_ChatEntry_UU">CM_ChatEntry_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -33992,8 +33992,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54791" trl="Y">
-  <value column="Name" original="CM_CStage_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_CStage_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_CStage_UU">CM_CStage_UU</value>
+  <value column="PrintName" original="CM_CStage_UU">CM_CStage_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -34032,8 +34032,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54795" trl="Y">
-  <value column="Name" original="CM_CStageTTable_UU">协同管理容器阶段</value>
-  <value column="PrintName" original="CM_CStageTTable_UU">协同管理容器阶段</value>
+  <value column="Name" original="CM_CStageTTable_UU">CM_CStageTTable_UU</value>
+  <value column="PrintName" original="CM_CStageTTable_UU">CM_CStageTTable_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35102,8 +35102,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54902" trl="Y">
-  <value column="Name" original="GL_Journal_UU">总账日记账批</value>
-  <value column="PrintName" original="GL_Journal_UU">总账日记账批</value>
+  <value column="Name" original="GL_Journal_UU">GL_Journal_UU</value>
+  <value column="PrintName" original="GL_Journal_UU">GL_Journal_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35112,8 +35112,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54903" trl="Y">
-  <value column="Name" original="GL_JournalBatch_UU">总账账户</value>
-  <value column="PrintName" original="GL_JournalBatch_UU">总账账户</value>
+  <value column="Name" original="GL_JournalBatch_UU">GL_JournalBatch_UU</value>
+  <value column="PrintName" original="GL_JournalBatch_UU">GL_JournalBatch_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35122,8 +35122,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54904" trl="Y">
-  <value column="Name" original="GL_JournalLine_UU">总账账户</value>
-  <value column="PrintName" original="GL_JournalLine_UU">总账账户</value>
+  <value column="Name" original="GL_JournalLine_UU">GL_JournalLine_UU</value>
+  <value column="PrintName" original="GL_JournalLine_UU">GL_JournalLine_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35132,8 +35132,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54905" trl="Y">
-  <value column="Name" original="HR_Attribute_UU">AD_属性值</value>
-  <value column="PrintName" original="HR_Attribute_UU">AD_属性值</value>
+  <value column="Name" original="HR_Attribute_UU">HR_Attribute_UU</value>
+  <value column="PrintName" original="HR_Attribute_UU">HR_Attribute_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35162,8 +35162,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54908" trl="Y">
-  <value column="Name" original="HR_Concept_Category_UU">维护薪酬策略类别</value>
-  <value column="PrintName" original="HR_Concept_Category_UU">维护薪酬策略类别</value>
+  <value column="Name" original="HR_Concept_Category_UU">HR_Concept_Category_UU</value>
+  <value column="PrintName" original="HR_Concept_Category_UU">HR_Concept_Category_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35172,8 +35172,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54909" trl="Y">
-  <value column="Name" original="HR_Contract_UU">必填的质保日期</value>
-  <value column="PrintName" original="HR_Contract_UU">必填的质保日期</value>
+  <value column="Name" original="HR_Contract_UU">HR_Contract_UU</value>
+  <value column="PrintName" original="HR_Contract_UU">HR_Contract_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35182,8 +35182,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54910" trl="Y">
-  <value column="Name" original="HR_Department_UU">维护部门薪酬</value>
-  <value column="PrintName" original="HR_Department_UU">维护部门薪酬</value>
+  <value column="Name" original="HR_Department_UU">HR_Department_UU</value>
+  <value column="PrintName" original="HR_Department_UU">HR_Department_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35192,8 +35192,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54911" trl="Y">
-  <value column="Name" original="HR_Employee_UU">C_业务伙伴_雇员_账户</value>
-  <value column="PrintName" original="HR_Employee_UU">C_业务伙伴_雇员_账户</value>
+  <value column="Name" original="HR_Employee_UU">HR_Employee_UU</value>
+  <value column="PrintName" original="HR_Employee_UU">HR_Employee_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35202,8 +35202,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54912" trl="Y">
-  <value column="Name" original="HR_Job_UU">工作职位的分类</value>
-  <value column="PrintName" original="HR_Job_UU">工作职位的分类</value>
+  <value column="Name" original="HR_Job_UU">HR_Job_UU</value>
+  <value column="PrintName" original="HR_Job_UU">HR_Job_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35212,8 +35212,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54913" trl="Y">
-  <value column="Name" original="HR_List_UU">账户符号列表</value>
-  <value column="PrintName" original="HR_List_UU">账户符号列表</value>
+  <value column="Name" original="HR_List_UU">HR_List_UU</value>
+  <value column="PrintName" original="HR_List_UU">HR_List_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35252,8 +35252,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54917" trl="Y">
-  <value column="Name" original="HR_Movement_UU">(标准流程_移库)</value>
-  <value column="PrintName" original="HR_Movement_UU">(标准流程_移库)</value>
+  <value column="Name" original="HR_Movement_UU">HR_Movement_UU</value>
+  <value column="PrintName" original="HR_Movement_UU">HR_Movement_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -35652,8 +35652,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54957" trl="Y">
-  <value column="Name" original="K_Type_UU">关联类型的"类型"</value>
-  <value column="PrintName" original="K_Type_UU">关联类型的"类型"</value>
+  <value column="Name" original="K_Type_UU">K_Type_UU</value>
+  <value column="PrintName" original="K_Type_UU">K_Type_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -37882,9 +37882,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55244" trl="Y">
-  <value column="Name" original="Kanban controlled">单据控制</value>
-  <value column="PrintName" original="Kanban controlled">单据控制</value>
-  <value column="Description" original="This part is Kanban controlled">该列是记录标识的一部分</value>
+  <value column="Name" original="Kanban controlled">看板(KANBAN)控制</value>
+  <value column="PrintName" original="Kanban controlled">看板(KANBAN)控制</value>
+  <value column="Description" original="This part is Kanban controlled">该部分为看板(KANBAN)控制</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -39932,8 +39932,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200257" trl="Y">
-  <value column="Name" original="Archive Store">保存密码</value>
-  <value column="PrintName" original="Archive Store">保存密码</value>
+  <value column="Name" original="Archive Store">归档存储</value>
+  <value column="PrintName" original="Archive Store">归档存储</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55198,8 +55198,8 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202694" trl="N">
-  <value column="Name" original="Run as Job">Run as Job</value>
-  <value column="PrintName" original="Run as Job">Run as Job</value>
+  <value column="Name" original="Run as Job">作为后台批处理执行</value>
+  <value column="PrintName" original="Run as Job">作为后台批处理执行</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55208,8 +55208,8 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202698" trl="N">
-  <value column="Name" original="Default mail template">Default mail template</value>
-  <value column="PrintName" original="Default mail template">Default mail template</value>
+  <value column="Name" original="Default mail template">缺省邮件模板</value>
+  <value column="PrintName" original="Default mail template">缺省邮件模板</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
