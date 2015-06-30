@@ -65,7 +65,7 @@
   <value column="MsgTip" original="You don't have the privileges">您不具备权限</value>
  </row>
  <row id="117" trl="Y">
-  <value column="MsgText" original="Client &amp; Organization Data">实体与组织数据</value>
+  <value column="MsgText" original="Client &amp; Organization Data">实体 &amp; 组织数据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
@@ -493,7 +493,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="224" trl="Y">
-  <value column="MsgText" original="Category Discount invalid (above or below 100)">类别折扣无效 (100 以上或以下)</value>
+  <value column="MsgText" original="Category Discount invalid (above or below 100)">分类折扣无效(大于或小于100)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="225" trl="Y">
@@ -1169,7 +1169,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="393" trl="Y">
-  <value column="MsgText" original="Bank Check Number is not valid">银行支票号码无效</value>
+  <value column="MsgText" original="Bank Check Number is not valid">银行支票编号无效</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="394" trl="Y">
@@ -1218,7 +1218,7 @@
  </row>
  <row id="405" trl="Y">
   <value column="MsgText" original="No valid period for this accounting date.">没有该会计日期的有效期间</value>
-  <value column="MsgTip" original="Check your calendar setup.">请检查您的日历设置</value>
+  <value column="MsgTip" original="Check your calendar setup.">请检查日历设置</value>
  </row>
  <row id="406" trl="Y">
   <value column="MsgText" original="Pie Chart">饼形图</value>
@@ -1760,7 +1760,7 @@
  </row>
  <row id="539" trl="Y">
   <value column="MsgText" original="Could not find next Table ID sequence">无法找到下一表 ID 序号</value>
-  <value column="MsgTip" original="Check with your System Administrator">请联系您的系统管理员</value>
+  <value column="MsgTip" original="Check with your System Administrator">请联系系统管理员</value>
  </row>
  <row id="540" trl="Y">
   <value column="MsgText" original="Could not find Sequence for: ">序列未找到: </value>
@@ -1944,7 +1944,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="585" trl="Y">
-  <value column="MsgText" original="Is the payment print correct ?   If answered yes, then it will create and complete payments.">付款打印是否正确？</value>
+  <value column="MsgText" original="Is the payment print correct ?   If answered yes, then it will create and complete payments.">付款打印是否正确？如果确认正确，那么将创建并完成付款</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="586" trl="Y">
@@ -3131,7 +3131,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="50000" trl="Y">
-  <value column="MsgText" original="Close All Windows">关闭全部窗口</value>
+  <value column="MsgText" original="Close All Windows">关闭所有窗口</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="50001" trl="Y">
@@ -3559,7 +3559,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52092" trl="Y">
-  <value column="MsgText" original="Checkout">签出</value>
+  <value column="MsgText" original="Checkout">结帐</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52093" trl="Y">
@@ -3571,15 +3571,15 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52095" trl="Y">
-  <value column="MsgText" original="Cheque Amount Entered">支票金额</value>
+  <value column="MsgText" original="Cheque Amount Entered">输入支票金额</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52096" trl="Y">
-  <value column="MsgText" original="Cheque amount tendered">投标金额</value>
+  <value column="MsgText" original="Cheque amount tendered">投标支票金额</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52097" trl="Y">
-  <value column="MsgText" original="Cheque Amount Total">支票金额</value>
+  <value column="MsgText" original="Cheque Amount Total">支票金额合计</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52098" trl="Y">
@@ -3607,7 +3607,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52104" trl="Y">
-  <value column="MsgText" original="Close Till">关闭到</value>
+  <value column="MsgText" original="Close Till">直到关闭</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52105" trl="Y">
@@ -3615,11 +3615,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52106" trl="Y">
-  <value column="MsgText" original="Closing Balance">期末余额</value>
+  <value column="MsgText" original="Closing Balance">期末结余</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52107" trl="Y">
-  <value column="MsgText" original="CoGS">销货成本(COGS)</value>
+  <value column="MsgText" original="CoGS">已售商品成本(COGS)</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52108" trl="Y">
@@ -3963,15 +3963,15 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52193" trl="Y">
-  <value column="MsgText" original="Invoke">发票</value>
+  <value column="MsgText" original="Invoke">调用</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52194" trl="Y">
-  <value column="MsgText" original="Invoke">发票</value>
+  <value column="MsgText" original="Invoke">调用</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52195" trl="Y">
-  <value column="MsgText" original="Invoke Partial POS Order">发票伙伴</value>
+  <value column="MsgText" original="Invoke Partial POS Order">调用部分POS订单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52196" trl="Y">
@@ -4591,7 +4591,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52350" trl="Y">
-  <value column="MsgText" original="Check/Repair Database Integrity">创建数据库约束</value>
+  <value column="MsgText" original="Check/Repair Database Integrity">检查/修复数据库完整性</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52351" trl="Y">
@@ -4619,7 +4619,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52357" trl="Y">
-  <value column="MsgText" original="Invoke Credit Memo">供应商贷项通知单</value>
+  <value column="MsgText" original="Invoke Credit Memo">调用贷项通知单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52358" trl="Y">
@@ -4679,7 +4679,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52372" trl="Y">
-  <value column="MsgText" original="Invoke Customer Returned Order">客户退货</value>
+  <value column="MsgText" original="Invoke Customer Returned Order">调用客户退货订单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52373" trl="Y">
@@ -5423,7 +5423,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53083" trl="Y">
-  <value column="MsgText" original="Client Accounting is not enabled">实体会计引擎</value>
+  <value column="MsgText" original="Client Accounting is not enabled">未启用客户端会计</value>
   <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">为了执行产品规划流程，你需要使得客户端录入，可以通过windos系统配置，设置CLIENT_ACCOUNTING为[I]（紧急）或者CLIENT_ACCOUNTING为[Q]（队列）来完成，</value>
  </row>
  <row id="53084" trl="Y">
@@ -5512,7 +5512,7 @@
  </row>
  <row id="53122" trl="Y">
   <value column="MsgText" original="The table doesn't have associated button for the process">The table doesn't have associated button for the process</value>
-  <value column="MsgTip" original="Choose a table with a column associated to the process">Choose a table with a column associated to the process</value>
+  <value column="MsgTip" original="Choose a table with a column associated to the process">从相关联列的处理中创建一个表</value>
  </row>
  <row id="53123" trl="Y">
   <value column="MsgText" original="To use Record ID you need to choose a table">To use Record ID you need to choose a table</value>
@@ -5539,7 +5539,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53129" trl="Y">
-  <value column="MsgText" original="Class.Method">A_清理_方法</value>
+  <value column="MsgText" original="Class.Method">类.方法</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53130" trl="Y">
