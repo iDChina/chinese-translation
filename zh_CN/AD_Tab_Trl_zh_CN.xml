@@ -730,16 +730,16 @@
   <value column="Help" original="The Defaults Tab displays the Default accounts for an Accounting Schema.  These values will display when a new document is opened.  The user can override these defaults within the document.">默认页签显示了会计模式的默认账户。这些值将在新单据开启时显示。用户可在单据中覆盖这些默认值</value>
  </row>
  <row id="255" trl="Y">
-  <value column="Name" original="Inventory Count">盘点</value>
+  <value column="Name" original="Inventory Count">库存盘点</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Inventory Count">定义库存盘点</value>
   <value column="Help" original="The Inventory Count Tab defines the parameters for a manual count and adjustment of inventory.  When creating the inventory count list automatically, only the actual stored products are included. The exception is when you select the equals 0 (=0) option, then zero on hand records of all stocked products is created for that location.">库存盘点页签定义了库存的手工盘点和调整的参数。当自动创建库存盘点列表时，仅包含实际的在库产品。例外情形是，当您选择等于0 (=0) 选项时，为该位置创建的所有在库产品的现有数量是0</value>
  </row>
  <row id="256" trl="Y">
-  <value column="Name" original="Inventory Count Line">库存盘点行</value>
+  <value column="Name" original="Inventory Count Line">库存盘点明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Inventory Count Line">库存盘点行</value>
-  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.&#10;You can set the Organization, if it is a charge, otherwise it is set to the header organization.">库存盘点行定义了库存中各产品的盘点计数。通常您将自动创建库存盘点行。如果您手工创建它们，确保账存数量是正确的。如果是杂费，您可以设置组织；否则，设置为单据头的组织</value>
+  <value column="Description" original="Inventory Count Line">库存盘点明细</value>
+  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.&#10;You can set the Organization, if it is a charge, otherwise it is set to the header organization.">库存盘点明细定义了库存中各产品的盘点计数。通常您将自动创建库存盘点明细。如果您手工创建它们，确保账存数量是正确的。如果是杂费，您可以设置组织；否则，设置为单据头的组织</value>
  </row>
  <row id="257" trl="Y">
   <value column="Name" original="Shipment">发货单</value>
@@ -754,15 +754,15 @@
   <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">发货单行页签定义了发货单中的各项</value>
  </row>
  <row id="259" trl="Y">
-  <value column="Name" original="Move">移库</value>
+  <value column="Name" original="Move">移仓</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Inventory Movement">定义移库</value>
-  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">移库页签定义和标识了库存中货品的移动</value>
+  <value column="Description" original="Enter Inventory Movement">定义移仓</value>
+  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">移仓页签定义和标识了库存中货品的移动</value>
  </row>
  <row id="260" trl="Y">
-  <value column="Name" original="Move Line">移库行</value>
+  <value column="Name" original="Move Line">移仓明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Inventory Movement Line">定义移库行</value>
+  <value column="Description" original="Enter Inventory Movement Line">定义移仓明细</value>
   <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">"调拨行"页签定义调拨的产品和数量和调拨的来源和目标位置.</value>
  </row>
  <row id="262" trl="Y">
@@ -1389,8 +1389,8 @@
  <row id="388" trl="Y">
   <value column="Name" original="Desktop">桌面</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Desktop is a collection of Workbenches">桌面是工作台的集合</value>
-  <value column="Help" original="Desktop is a collection of Workbenches">桌面是工作台的集合</value>
+  <value column="Description" original="Desktop is a collection of Workbenches">桌面是工作台的汇集</value>
+  <value column="Help" original="Desktop is a collection of Workbenches">桌面是工作台的汇集</value>
  </row>
  <row id="389" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -1797,7 +1797,7 @@
  <row id="460" trl="Y">
   <value column="Name" original="Payment Schedule">付款日程</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Invoice Payment Schedule">发票支付计划</value>
+  <value column="Description" original="Invoice Payment Schedule">发票付款计划</value>
   <value column="Help" original=""/>
  </row>
  <row id="461" trl="Y">
@@ -3136,7 +3136,7 @@
  <row id="689" trl="Y">
   <value column="Name" original="Matched Invoices">匹配的发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Invoice Lines matched to this Material Receipt Line">与该供应商退货行进行匹配的发票行</value>
+  <value column="Description" original="Invoice Lines matched to this Material Receipt Line">已匹配到物料收货明细的发票明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="690" trl="Y">
@@ -4804,7 +4804,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53141" trl="Y">
-  <value column="Name" original="Create Disposal Entry">创建资产处置账目</value>
+  <value column="Name" original="Create Disposal Entry">创建处置账目</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5250,7 +5250,7 @@
  <row id="53275" trl="Y">
   <value column="Name" original="Matched Invoices">匹配的发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Invoice Lines matched to this Material Receipt Line">与该供应商退货行进行匹配的发票行</value>
+  <value column="Description" original="Invoice Lines matched to this Material Receipt Line">已匹配到物料收货明细的发票明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="53276" trl="Y">
@@ -5502,7 +5502,7 @@
  <row id="53373" trl="Y">
   <value column="Name" original="Payment Schedule">付款日程</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Invoice Payment Schedule">发票支付计划</value>
+  <value column="Description" original="Invoice Payment Schedule">发票付款计划</value>
   <value column="Help" original=""/>
  </row>
  <row id="53374" trl="Y">

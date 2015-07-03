@@ -21,7 +21,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="105" trl="Y">
-  <value column="Name" original="Create Inventory Count List ">创建库存盘点列表 </value>
+  <value column="Name" original="Create Inventory Count List ">创建库存盘点列表</value>
   <value column="Description" original="Create Inventory Count List">创建库存盘点列表</value>
   <value column="Help" original="The inventory count lines are generated.  You can add new lines or delete lines manually.">盘点清单已经生成。你可以手动对清单条目进行新增或删除</value>
  </row>
@@ -31,7 +31,7 @@
   <value column="Help" original="The Update Quantity Process will update the book quantity with the current book quantity.  ">更新数量进程 将会按当前的账存数量更新账存数量  </value>
  </row>
  <row id="107" trl="Y">
-  <value column="Name" original="Process Inventory Count ">盘点处理 </value>
+  <value column="Name" original="Process Inventory Count ">盘点处理</value>
   <value column="Description" original="Process Inventory count and update Inventory">处理库存盘点并更新库存</value>
   <value column="Help" original=""/>
  </row>
@@ -106,8 +106,8 @@
   <value column="Help" original="Orders with quantities to deliver (Backordered) or quantities to invoice">具有待交付 (补货) 数量的订单，或具有待开票数量的订单</value>
  </row>
  <row id="122" trl="Y">
-  <value column="Name" original="Process Movements">处理移库</value>
-  <value column="Description" original="Process Inventory Movements">处理库存移动</value>
+  <value column="Name" original="Process Movements">处理移仓</value>
+  <value column="Description" original="Process Inventory Movements">处理移仓</value>
   <value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">处理移库将基于在仓库或货位之间定义的移动，而更新库存数量</value>
  </row>
  <row id="123" trl="Y">
@@ -122,7 +122,7 @@
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Replenish Report">补仓报表</value>
-  <value column="Description" original="Inventory Replenish Report">库存补充报表</value>
+  <value column="Description" original="Inventory Replenish Report">库存补仓报表</value>
   <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。您需要手工选择一个当前供应商。<br>仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
  </row>
  <row id="126" trl="Y">
@@ -137,11 +137,11 @@
  </row>
  <row id="128" trl="Y">
   <value column="Name" original="Daily Invoice">日发票</value>
-  <value column="Description" original="Invoice Report per Day">按天的发票报表</value>
+  <value column="Description" original="Invoice Report per Day">每日的发票报表</value>
   <value column="Help" original="Invoiced amount by Organization and Sales Rep">各组织与销售代表的开票金额</value>
  </row>
  <row id="129" trl="Y">
-  <value column="Name" original="Monthly Invoice">月发票</value>
+  <value column="Name" original="Monthly Invoice">月度发票</value>
   <value column="Description" original="Invoice Report per Month">按月的发票报表</value>
   <value column="Help" original="Invoiced amount by Organization and Sales Rep">各组织与销售代表的开票金额</value>
  </row>
@@ -156,13 +156,13 @@
   <value column="Help" original="Invoiced Amount by Product Category">按产品类别的开票金额</value>
  </row>
  <row id="132" trl="Y">
-  <value column="Name" original="Monthly Invoice Prod Cat">月发票 (产品类别)</value>
-  <value column="Description" original="Invoice Report by Product Category per Month">按产品类别的月发票报表</value>
+  <value column="Name" original="Monthly Invoice Prod Cat">月度发票 (产品类别)</value>
+  <value column="Description" original="Invoice Report by Product Category per Month">按产品类别的月度发票报表</value>
   <value column="Help" original="Invoiced Amount by Product Category">按产品类别的开票金额</value>
  </row>
  <row id="133" trl="Y">
-  <value column="Name" original="Monthly Invoice Vendor">月发票 (供应商)</value>
-  <value column="Description" original="Invoice Report by Product Vendor per Month">按产品供应商的月发票报表</value>
+  <value column="Name" original="Monthly Invoice Vendor">月度发票 (供应商)</value>
+  <value column="Description" original="Invoice Report by Product Vendor per Month">按产品供应商的月度发票报表</value>
   <value column="Help" original="Invoiced Amount by Vendor and Product Category">按供应商与产品类别的开票金额</value>
  </row>
  <row id="134" trl="Y">
@@ -187,12 +187,12 @@
  </row>
  <row id="138" trl="Y">
   <value column="Name" original="Quarterly Invoice Customer by Product">季发票 (客户, 产品)</value>
-  <value column="Description" original="Invoice Report by Customer and Product Category per Quarter">按客户和产品类别的季发票报表</value>
+  <value column="Description" original="Invoice Report by Customer and Product Category per Quarter">按客户和产品类别的季度发票报表</value>
   <value column="Help" original="Invoiced Amount by Customer and Product Category">按客户和产品类别的开票金额</value>
  </row>
  <row id="139" trl="Y">
   <value column="Name" original="Quarterly Invoice Customer by Vendor">季发票 (客户, 供应商)</value>
-  <value column="Description" original="Invoice Report by Customer and Product Vendor per Quarter">按客户和产品供应商的季发票报表</value>
+  <value column="Description" original="Invoice Report by Customer and Product Vendor per Quarter">按客户和产品供应商季度发票报表</value>
   <value column="Help" original="Invoiced Amount by Customer and Vendor (what customer bought from which vendor)">按客户和供应商 (哪个客户从哪个供应商处购买) 的开票金额</value>
  </row>
  <row id="140" trl="Y">
@@ -247,7 +247,7 @@
  </row>
  <row id="152" trl="Y">
   <value column="Name" original="Invoice Detail &amp; Margin">发票明细与毛利</value>
-  <value column="Description" original="Invoice (Line) Detail and Margin Report">发票 (行) 行与毛利报表</value>
+  <value column="Description" original="Invoice (Line) Detail and Margin Report">发票明细和利润报表</value>
   <value column="Help" original="The Report lists Customer and Vendor Invoice Details with Margines.">此报表列出客户和供应商包括利润在内的发票明细信息</value>
  </row>
  <row id="153" trl="Y">
@@ -382,8 +382,8 @@
   <value column="Help" original="Recompile Functions, Procedures, Triggers, Views, etc.">重新编译函数、过程、触发器、视图等</value>
  </row>
  <row id="186" trl="Y">
-  <value column="Name" original="Create Sales Orders from Expense">从开支创建销售订单</value>
-  <value column="Description" original="Create Sales Orders for Customers from Expense Reports">从开支报表创建客户的销售订单</value>
+  <value column="Name" original="Create Sales Orders from Expense">从费用报表创建销售订单</value>
+  <value column="Description" original="Create Sales Orders for Customers from Expense Reports">从客户的费用报表中创建销售订单</value>
   <value column="Help" original=""/>
  </row>
  <row id="187" trl="Y">
@@ -770,7 +770,7 @@
  </row>
  <row id="259" trl="Y">
   <value column="Name" original="Create Orders">创建订单</value>
-  <value column="Description" original="Create orders based on Distribution List line items">基于配送清单行的物品创建订单</value>
+  <value column="Description" original="Create orders based on Distribution List line items">基于配送清单明细商品创建订单</value>
   <value column="Help" original="Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.">请注意，由于舍入的原因，订单总数可能高于输入的数量</value>
  </row>
  <row id="260" trl="Y">
@@ -781,7 +781,7 @@
  </row>
  <row id="261" trl="Y">
   <value column="Name" original="Create &amp; Invite">创建并邀请</value>
-  <value column="Description" original="Create RfQ and Invite Vendors">创建询价单并邀请供应商</value>
+  <value column="Description" original="Create RfQ and Invite Vendors">创建询价单并邀请业务伙伴回应</value>
   <value column="Help" original="Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ">创建 (缺失的) 询价单响应，并可选地向供应商发送 Email 邀请/提醒，要求他们响应询价单</value>
  </row>
  <row id="262" trl="Y">
@@ -927,14 +927,14 @@
   <value column="Help" original=""/>
  </row>
  <row id="290" trl="Y">
-  <value column="Name" original="Inventory Move Print">转仓打印</value>
+  <value column="Name" original="Inventory Move Print">移仓打印</value>
   <value column="Description" original="** Special ** Do not change **">** 系统专用 **不要更改**</value>
-  <value column="Help" original="Create/Copy your own Format and Process">创建/复制您自己的格式与流程</value>
+  <value column="Help" original="Create/Copy your own Format and Process">创建/复制自己的格式与流程</value>
  </row>
  <row id="291" trl="Y">
   <value column="Name" original="Physical Inventory Print">实地盘存打印</value>
   <value column="Description" original="** Special ** Do not change **">** 系统专用 **不要更改**</value>
-  <value column="Help" original="Create/Copy your own Format and Process">创建/复制您自己的格式与流程</value>
+  <value column="Help" original="Create/Copy your own Format and Process">创建/复制自己的格式与流程</value>
  </row>
  <row id="292" trl="Y">
   <value column="Name" original="Shipment Confirmation">发货单确认</value>
@@ -1182,7 +1182,7 @@
  </row>
  <row id="340" trl="Y">
   <value column="Name" original="Monthly Invoice Product">月发票(产品)</value>
-  <value column="Description" original="Invoice Report by Product per Month">按月对产品的发票报表</value>
+  <value column="Description" original="Invoice Report by Product per Month">每月按产品的发票报表</value>
   <value column="Help" original="Invoiced Amount by Product and Month">按产品和月份的开票金额</value>
  </row>
  <row id="341" trl="Y">
@@ -1871,7 +1871,7 @@ This process should be implemented when the users are not connected.</value>
  </row>
  <row id="53226" trl="Y">
   <value column="Name" original="Create Production">创建/过账生产</value>
-  <value column="Description" original="Create production lines">创建行源于</value>
+  <value column="Description" original="Create production lines">创建明细源于</value>
   <value column="Help" original="Create Production will generate the production lines.">Create Production will generate the production lines.</value>
  </row>
  <row id="53227" trl="Y">
@@ -1971,7 +1971,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
  </row>
  <row id="200007" trl="Y">
   <value column="Name" original="OrderLine Create Shipment">(标准流程_发货单)</value>
-  <value column="Description" original="Create Shipment for single ordered product">Create Shipment for single ordered product</value>
+  <value column="Description" original="Create Shipment for single ordered product">创建运费为单一订购产品</value>
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
@@ -2041,7 +2041,7 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
  </row>
  <row id="200024" trl="Y">
   <value column="Name" original="Process Shipment Online">(标准流程_发货单)</value>
-  <value column="Description" original="Create shipment using web services provided by shipper">Create shipment using web services provided by shipper</value>
+  <value column="Description" original="Create shipment using web services provided by shipper">通过承运人提供的WEB服务创建发货单</value>
   <value column="Help" original=""/>
  </row>
  <row id="200025" trl="Y">

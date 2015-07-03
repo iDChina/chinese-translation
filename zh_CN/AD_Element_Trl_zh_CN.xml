@@ -1092,8 +1092,8 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="246" trl="Y">
-  <value column="Name" original="Created By">创建者</value>
-  <value column="PrintName" original="Created By">创建者</value>
+  <value column="Name" original="Created By">创建人</value>
+  <value column="PrintName" original="Created By">创建人</value>
   <value column="Description" original="User who created this records">创建记录的用户</value>
   <value column="Help" original="The Created By field indicates the user who created this record.">创建者字段表示创建该记录的用户</value>
   <value column="PO_Description" original=""/>
@@ -1102,9 +1102,9 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="249" trl="Y">
-  <value column="Name" original="Number">号码</value>
-  <value column="PrintName" original="Number">号码</value>
-  <value column="Description" original="Credit Card Number ">信用卡号 </value>
+  <value column="Name" original="Number">卡号</value>
+  <value column="PrintName" original="Number">卡号</value>
+  <value column="Description" original="Credit Card Number ">信用卡号</value>
   <value column="Help" original="The Credit Card number indicates the number on the credit card, without blanks or spaces.">信用卡号码表示信用卡上的号码，不含空白或空格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -1865,10 +1865,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="363" trl="Y">
-  <value column="Name" original="Credit Approved">信用审批</value>
-  <value column="PrintName" original="Credit Approved">信用审批</value>
+  <value column="Name" original="Credit Approved">信用已审批</value>
+  <value column="PrintName" original="Credit Approved">信用已审批</value>
   <value column="Description" original="Credit  has been approved">信用已审批</value>
-  <value column="Help" original="Credit Approved indicates if the credit approval was successful for Orders">信用审批表示订单的信用审批是否成功</value>
+  <value column="Help" original="Credit Approved indicates if the credit approval was successful for Orders">信用已审批表示订单的信用审核是否通过</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3076,8 +3076,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="553" trl="Y">
-  <value column="Name" original="Credit Limit">信用限额</value>
-  <value column="PrintName" original="Credit Limit">信用限额</value>
+  <value column="Name" original="Credit Limit">信用额度</value>
+  <value column="PrintName" original="Credit Limit">信用额度</value>
   <value column="Description" original="Total outstanding invoice amounts allowed">允许的未结发票总额</value>
   <value column="Help" original="The Credit Limit indicates the total amount allowed &quot;on account&quot; in primary accounting currency.  If the Credit Limit is 0, no check is performed.  Credit Management is based on the Total Open Amount, which includes Vendor activities.">信用额度是指账面上能使用主货币的总数。如果设置为0将不执行信用额度控制。信用管理是基于总额开放的，包括供应商活动</value>
   <value column="PO_Description" original=""/>
@@ -4661,19 +4661,19 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1030" trl="Y">
-  <value column="Name" original="Inventory Move">移库</value>
-  <value column="PrintName" original="Move">移库</value>
-  <value column="Description" original="Movement of Inventory">库存移动</value>
-  <value column="Help" original="The Inventory Movement uniquely identifies a group of movement lines.">库存移动唯一标识了一组移动明细</value>
+  <value column="Name" original="Inventory Move">移仓</value>
+  <value column="PrintName" original="Move">移仓</value>
+  <value column="Description" original="Movement of Inventory">库存移仓</value>
+  <value column="Help" original="The Inventory Movement uniquely identifies a group of movement lines.">库存移仓唯一标识了一组移仓明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1031" trl="Y">
-  <value column="Name" original="Move Line">移库行</value>
-  <value column="PrintName" original="Move Line">移库行</value>
-  <value column="Description" original="Inventory Move document Line">存货的移库单据行</value>
+  <value column="Name" original="Move Line">移仓明细</value>
+  <value column="PrintName" original="Move Line">移仓明细</value>
+  <value column="Description" original="Inventory Move document Line">存货的移仓单据明细</value>
   <value column="Help" original="The Movement Line indicates the inventory movement document line (if applicable) for this transaction">移库行表示该事务处理的库存移动单据行 (如果可用)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4991,10 +4991,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1076" trl="Y">
-  <value column="Name" original="Invoice Line">发票行</value>
-  <value column="PrintName" original="Invoice Line">发票行</value>
-  <value column="Description" original="Invoice Detail Line">发票行行</value>
-  <value column="Help" original="The Invoice Line uniquely identifies a single line of an Invoice.">发票行唯一标识了发票的单独的行</value>
+  <value column="Name" original="Invoice Line">发票明细</value>
+  <value column="PrintName" original="Invoice Line">发票明细</value>
+  <value column="Description" original="Invoice Detail Line">发票明细</value>
+  <value column="Help" original="The Invoice Line uniquely identifies a single line of an Invoice.">发票明细唯一标识了发票的单独的明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7782,7 +7782,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1490" trl="Y">
-  <value column="Name" original="Create lines from">创建行源于</value>
+  <value column="Name" original="Create lines from">创建明细源于</value>
   <value column="PrintName" original="Create lines from">创建行源于</value>
   <value column="Description" original="Process which will generate a new document lines based on an existing document">将基于现存单据生成新的单据行的处理</value>
   <value column="Help" original="The Create From process will create a new document based on information in an existing document selected by the user.">创建行源于流程将基于用户所选的现存单据，生成新的单据行</value>
@@ -8914,8 +8914,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1628" trl="Y">
-  <value column="Name" original="Inventory Adjustment">库存调节</value>
-  <value column="PrintName" original="Inventory Adjustment">库存调节</value>
+  <value column="Name" original="Inventory Adjustment">库存调整</value>
+  <value column="PrintName" original="Inventory Adjustment">库存调整</value>
   <value column="Description" original="Account for Inventory value adjustments for Actual Costing">库存价值调整的实际成本帐户</value>
   <value column="Help" original="In actual costing systems, this account is used to post Inventory value adjustments. You could set it to the standard Inventory Asset account.">在实际的成本核算系统中，该账户用于过账库存价值调节。您可将它设置为标准的库存资产账户</value>
   <value column="PO_Description" original=""/>
@@ -8986,7 +8986,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1637" trl="Y">
   <value column="Name" original="Desktop">桌面</value>
   <value column="PrintName" original="Desktop">桌面</value>
-  <value column="Description" original="Collection of Workbenches">工作台的集合</value>
+  <value column="Description" original="Collection of Workbenches">工作台汇集</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -10904,9 +10904,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1851" trl="Y">
-  <value column="Name" original="Credit Available">有效信用</value>
-  <value column="PrintName" original="Credit Available">有效信用</value>
-  <value column="Description" original="Available Credit based on Credit Limit (not Total Open Balance) and Credit Used">基于信用额度（不是未结余额总额）和已用信用的可用信用</value>
+  <value column="Name" original="Credit Available">信用余额</value>
+  <value column="PrintName" original="Credit Available">信用余额</value>
+  <value column="Description" original="Available Credit based on Credit Limit (not Total Open Balance) and Credit Used">基于信用额度（不是未结余额总额）和已用信用的信用余额</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12284,9 +12284,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1995" trl="Y">
-  <value column="Name" original="Invoice Payment Schedule">发票支付计划</value>
+  <value column="Name" original="Invoice Payment Schedule">发票付款计划</value>
   <value column="PrintName" original="Invoice Pay Schedule">发票付款计划</value>
-  <value column="Description" original="Invoice Payment Schedule">发票支付计划</value>
+  <value column="Description" original="Invoice Payment Schedule">发票付款计划</value>
   <value column="Help" original="The Invoice Payment Schedule determines when partial payments are due.">发票付款计划决定部分型付款何时到期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14379,7 +14379,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2218" trl="Y">
   <value column="Name" original="Running Total Lines">运行时合计行</value>
   <value column="PrintName" original="RT Lines">运行时合计行</value>
-  <value column="Description" original="Create Running Total Lines (page break) every x lines">创建每 x 行的运行时合计行 (分页)</value>
+  <value column="Description" original="Create Running Total Lines (page break) every x lines">创建运行行总数（分页符）每x行</value>
   <value column="Help" original="When you want to print running totals, enter the number of lines per page after you want to create a running total line and page break. You should define running total only once per format.">当您希望打印运行时合计时，输入您希望创建运行时合计行及分页的每页行数。对于每个打印格式，您应当最多定义一次运行时合计</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -16008,9 +16008,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2398" trl="Y">
-  <value column="Name" original="Invited Vendors Only">仅受邀供应商</value>
-  <value column="PrintName" original="Invited Vendors">受邀供应商</value>
-  <value column="Description" original="Only invited vendors can respond to an RfQ">仅受到邀请的供应商才可响应询价单</value>
+  <value column="Name" original="Invited Vendors Only">仅受邀业务伙伴</value>
+  <value column="PrintName" original="Invited Vendors">受邀业务伙伴</value>
+  <value column="Description" original="Only invited vendors can respond to an RfQ">仅受到邀请的业务伙伴才可响应询价单</value>
   <value column="Help" original="The Request for Quotation is only visible to the invited vendors">询价单仅对被邀请的供应商可见</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -16328,8 +16328,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2430" trl="Y">
-  <value column="Name" original="Referenced Invoice Line">引用的发票行</value>
-  <value column="PrintName" original="Ref Invoice Line">引用发票行</value>
+  <value column="Name" original="Referenced Invoice Line">引用的发票明细</value>
+  <value column="PrintName" original="Ref Invoice Line">引用发票明细</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -16758,8 +16758,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2475" trl="Y">
-  <value column="Name" original="Invited">邀请于</value>
-  <value column="PrintName" original="Invited">邀请于</value>
+  <value column="Name" original="Invited">已邀请</value>
+  <value column="PrintName" original="Invited">已邀请</value>
   <value column="Description" original="Date when (last) invitation was sent">(上次) 发送邀请的日期</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -17468,9 +17468,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2553" trl="Y">
-  <value column="Name" original="Move Line Confirm">移库行确认</value>
-  <value column="PrintName" original="Move Line Confirm">移库行确认</value>
-  <value column="Description" original="Inventory Move Line Confirmation">移库行确认</value>
+  <value column="Name" original="Move Line Confirm">移库明细确认</value>
+  <value column="PrintName" original="Move Line Confirm">移库明细确认</value>
+  <value column="Description" original="Inventory Move Line Confirmation">移库明细确认</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18207,7 +18207,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2627" trl="Y">
   <value column="Name" original="Create">创建</value>
   <value column="PrintName" original="Create">创建</value>
-  <value column="Description" original="Create from Replenishment">从补仓创建</value>
+  <value column="Description" original="Create from Replenishment">从补仓单创建</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18568,7 +18568,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="2664" trl="Y">
   <value column="Name" original="IBAN">IBAN</value>
   <value column="PrintName" original="IBAN">IBAN</value>
-  <value column="Description" original="International Bank Account Number">国际银行账户号码</value>
+  <value column="Description" original="International Bank Account Number">国际银行帐号(IBAN)</value>
   <value column="Help" original="If your bank provides an International Bank Account Number, enter it here&#10;Details ISO 13616 and http://www.ecbs.org. The account number has the maximum length of 22 characters (without spaces). The IBAN is often printed with a apace after 4 characters. Do not enter the spaces in iDempiere.">如果您的银行提供了国际银行账户号码，请在此处输入它。
 明细 ISO 13616 请参见 http://www.ecbs.org。账户编号最大长度是22个字符（不包含空格）。IBAN 在打印时通常每4个字符之间用空格隔开。在iDempiere中请勿输入空格</value>
   <value column="PO_Description" original=""/>
@@ -18830,9 +18830,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2690" trl="Y">
-  <value column="Name" original="Invoice Batch">发票批</value>
-  <value column="PrintName" original="Invoice Batch">发票批</value>
-  <value column="Description" original="Expense Invoice Batch Header">费用发票批的标头</value>
+  <value column="Name" original="Invoice Batch">批开发票</value>
+  <value column="PrintName" original="Invoice Batch">批开发票</value>
+  <value column="Description" original="Expense Invoice Batch Header">费用批开发票的标头</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -18840,9 +18840,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2691" trl="Y">
-  <value column="Name" original="Invoice Batch Line">发票批行</value>
-  <value column="PrintName" original="Invoice Batch Line">发票批行</value>
-  <value column="Description" original="Expense Invoice Batch Line">费用发票批的行</value>
+  <value column="Name" original="Invoice Batch Line">批开发票明细</value>
+  <value column="PrintName" original="Invoice Batch Line">批开发票明细</value>
+  <value column="Description" original="Expense Invoice Batch Line">费用批开发票明细</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -22017,8 +22017,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3031" trl="Y">
-  <value column="Name" original="Invoice Rule">I发票规则</value>
-  <value column="PrintName" original="Invoice Rule">I发票规则</value>
+  <value column="Name" original="Invoice Rule">发票规则</value>
+  <value column="PrintName" original="Invoice Rule">发票规则</value>
   <value column="Description" original="Invoice Rule for the project">项目的发票规则</value>
   <value column="Help" original="The Invoice Rule for the project determines how orders (and consequently invoices) are created.  The selection on project level can be overwritten on Phase or Task">项目的发票规则决定了订单 (及随后的发票) 如何被创建。在项目级别作的选择可以在阶段或任务中覆盖</value>
   <value column="PO_Description" original=""/>
@@ -22807,8 +22807,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="50007" trl="Y">
-  <value column="Name" original="Creator">作者</value>
-  <value column="PrintName" original="Creator">作者</value>
+  <value column="Name" original="Creator">创建人</value>
+  <value column="PrintName" original="Creator">创建人</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -22817,8 +22817,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="50008" trl="Y">
-  <value column="Name" original="CreatorContact">作者联系方式</value>
-  <value column="PrintName" original="CreatorContact">作者联系方式</value>
+  <value column="Name" original="CreatorContact">创建人联系方式</value>
+  <value column="PrintName" original="CreatorContact">创建人联系方式</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -25201,8 +25201,8 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53336" trl="Y">
-  <value column="Name" original="Collapsed By Default">创建总账/默认</value>
-  <value column="PrintName" original="Collapsed By Default">创建总账/默认</value>
+  <value column="Name" original="Collapsed By Default">默认折叠</value>
+  <value column="PrintName" original="Collapsed By Default">默认折叠</value>
   <value column="Description" original="Flag to set the initial state of collapsible field group.">Flag to set the initial state of collapsible field group.</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28134,8 +28134,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53715" trl="Y">
-  <value column="Name" original="Collapsible">折叠</value>
-  <value column="PrintName" original="Collapsible">折叠</value>
+  <value column="Name" original="Collapsible">可折叠</value>
+  <value column="PrintName" original="Collapsible">可折叠</value>
   <value column="Description" original="Flag to indicate the state of the dashboard panel">起始日期表示范围的起始日期</value>
   <value column="Help" original="Flag to indicate the state of the dashboard panel (i.e. collapsible or static)">标志，以指示仪表板的面板状态(例如：活动的或静态的)</value>
   <value column="PO_Description" original=""/>
@@ -29550,8 +29550,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54169" trl="Y">
-  <value column="Name" original="Inventory No">无可用库存：</value>
-  <value column="PrintName" original="Inventory No">无可用库存：</value>
+  <value column="Name" original="Inventory No">无可用库存</value>
+  <value column="PrintName" original="Inventory No">无可用库存</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -29560,8 +29560,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54170" trl="Y">
-  <value column="Name" original="Asset Type">资产展开类型|</value>
-  <value column="PrintName" original="Asset Type">资产展开类型|</value>
+  <value column="Name" original="Asset Type">资产展开类型</value>
+  <value column="PrintName" original="Asset Type">资产展开类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38712,8 +38712,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200080" trl="Y">
-  <value column="Name" original="Create Shipment">客户发货</value>
-  <value column="PrintName" original="Create Shipment">客户发货</value>
+  <value column="Name" original="Create Shipment">创建发货</value>
+  <value column="PrintName" original="Create Shipment">创建发货</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
