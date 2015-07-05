@@ -76,7 +76,7 @@
   <value column="Name" original="Language">语言</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="System and User Languages">系统与用户语言</value>
-  <value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">如果想添加更多的用户界面语言，请选择“系统语言”。否则，系统允许您翻译打印单据的元素</value>
+  <value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">如果想添加更多的用户界面语言，请选择“系统语言”。否则，系统允许翻译打印单据的元素</value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -88,7 +88,7 @@
   <value column="Name" original="Field Translation">字段翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Menu Translation - May not need to be translated">菜单翻译 - 可能不需要翻译</value>
-  <value column="Help" original="Fields are automatically translated, if centrally maintained.  You only need to translate not centrally maintained Fields.">字段被自动翻译，如果集中维护。您仅需翻译未集中维护的字段</value>
+  <value column="Help" original="Fields are automatically translated, if centrally maintained.  You only need to translate not centrally maintained Fields.">字段被自动翻译，如果集中维护。仅需翻译未集中维护的字段</value>
  </row>
  <row id="116" trl="Y">
   <value column="Name" original="Tab Translation">页签翻译</value>
@@ -112,9 +112,9 @@
   <value column="Name" original="Role">角色</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define responsibility roles">定义权限角色</value>
-  <value column="Help" original="Define the role and add the client and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role."><![CDATA[定义角色，并添加该角色可访问的实体和组织。您可授予用户该角色，并修改该角色对窗口、窗体、流程、报表以及任务的访问权限。<br>如果角色用户级别是手工，则分配的访问权限不会自动更新 (例如，如果角色具有受限数量的窗口/流程访问权限)。您需要添加组织访问，除非角色拥有对全部组织的访问权限。SuperUser 与创建新角色的用户，被自动分配该角色。<br>
-如果您选择了组织树，用户有权访问汇总组织下面的页组织。
-备注：您不能更改系统管理员角色。]]></value>
+  <value column="Help" original="Define the role and add the client and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role."><![CDATA[定义角色，并添加该角色可访问的实体和组织。可授予用户该角色，并修改该角色对窗口、窗体、流程、报表以及任务的访问权限。<br>如果角色用户级别是手工，则分配的访问权限不会自动更新 (例如，如果角色具有受限数量的窗口/流程访问权限)。需要添加组织访问，除非角色拥有对全部组织的访问权限。SuperUser 与创建新角色的用户，被自动分配该角色。<br>
+如果选择了组织树，用户有权访问汇总组织下面的页组织。
+备注：不能更改系统管理员角色。]]></value>
  </row>
  <row id="120" trl="Y">
   <value column="Name" original="User Assignment">用户分配</value>
@@ -167,7 +167,7 @@
  <row id="128" trl="Y">
   <value column="Name" original="Calendar">日历</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define your calendar">定义您的日历</value>
+  <value column="Description" original="Define your calendar">定义日历</value>
   <value column="Help" original="The Calendar Tab defines each calendar that will be used by an Organization.">日历页签定义了将被组织使用的每个日历</value>
  </row>
  <row id="129" trl="Y">
@@ -204,13 +204,13 @@
   <value column="Name" original="Conversion">换算</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define standard Unit of Measure Conversion">定义标准计量单位换算</value>
-  <value column="Help" original="The Conversion Tab defines the rates for converting a Unit of Measure. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly)."><![CDATA[转换页签定义了用于计量单位转换的比率。系统提供计量单位间的某些自动转换 (如分、小时、天、工作日等)，如果它们未在此处明确定义。<p>转换必须是直接的。也就是说，如果您只有A-B之间的转换和B-C之间的转换，则系统无法完成A-C之间的转换，您必须明确定义它才行]]></value>
+  <value column="Help" original="The Conversion Tab defines the rates for converting a Unit of Measure. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly)."><![CDATA[转换页签定义了用于计量单位转换的比率。系统提供计量单位间的某些自动转换 (如分、小时、天、工作日等)，如果它们未在此处明确定义。<p>转换必须是直接的。也就是说，如果只有A-B之间的转换和B-C之间的转换，则系统无法完成A-C之间的转换，必须明确定义它才行]]></value>
  </row>
  <row id="135" trl="Y">
   <value column="Name" original="Country">国家/地区</value>
   <value column="CommitWarning" original="Please create a support request (http://www.idempiere.org/support/requests.html), if the country data is not correct.">如果国家有误，请提交支持请求(http://www.idempiere.org/support/requests.html)</value>
   <value column="Description" original="Define Country">定义国家</value>
-  <value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">国家页签定义了您开展业务的国家。此处输入的值在业务伙伴的位置记录中被引用</value>
+  <value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">国家页签定义了开展业务的国家。此处输入的值在业务伙伴的位置记录中被引用</value>
  </row>
  <row id="136" trl="Y">
   <value column="Name" original="Region">区域名称</value>
@@ -220,15 +220,15 @@
  </row>
  <row id="143" trl="Y">
   <value column="Name" original="Organization">组织</value>
-  <value column="CommitWarning" original="All not manually maintained Roles will automatically have access to the new Organziation.&#10;You need restart your application server for most changes made here to be effective.">所有没有勾选“手动”标记创建的角色都将能访问新建的组织。您必须重启应用服务器来让您的本次改动生效</value>
+  <value column="CommitWarning" original="All not manually maintained Roles will automatically have access to the new Organziation.&#10;You need restart your application server for most changes made here to be effective.">所有没有勾选“手动”标记创建的角色都将能访问新建的组织。必须重启应用服务器来让本次改动生效</value>
   <value column="Description" original="Define Organizations">定义组织</value>
-  <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization."><![CDATA[组织页签 用于定义一个组织。每个组织具有一个关键字、名称、以及描述（描述为可选项)。&lt;p&gt;当添加新的组织时，您必须重新登录才能访问新的组织]]></value>
+  <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization."><![CDATA[组织页签 用于定义一个组织。每个组织具有一个关键字、名称、以及描述（描述为可选项)。&lt;p&gt;当添加新的组织时，必须重新登录才能访问新的组织]]></value>
  </row>
  <row id="145" trl="Y">
   <value column="Name" original="Client">实体</value>
-  <value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">请使用“初始化实体设置”窗体新建实体。您只能在这里修改信息。您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效。对物料政策的更改，适用于未来的事务处理</value>
+  <value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">请使用“初始化实体设置”窗体新建实体。只能在这里修改信息。需要重新登录并重新启动应用服务器，此处所作的更改才会生效。对物料政策的更改，适用于未来的事务处理</value>
   <value column="Description" original="Client/Tenant Definition">实体/承租人 定义</value>
-  <value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">实体定义页签定义一个唯一的实体。不要在本窗口中创建新的实体，而要通过“初始化实体设置” (系统管理员角色) 完成所需安全与访问规则的设置。如果您在这里创建了新的实体，将无法看到它，也就无法完成所需的实体基础数据设置</value>
+  <value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">实体定义页签定义一个唯一的实体。不要在本窗口中创建新的实体，而要通过“初始化实体设置” (系统管理员角色) 完成所需安全与访问规则的设置。如果在这里创建了新的实体，将无法看到它，也就无法完成所需的实体基础数据设置</value>
  </row>
  <row id="146" trl="Y">
   <value column="Name" original="Sequence">顺序</value>
@@ -258,7 +258,7 @@
   <value column="Name" original="Currency">币种</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Currency">定义货币</value>
-  <value column="Help" original="The Currency Tab defines any currency you will transact with or report in.">货币页签定义了您将用于交易或报表中的货币</value>
+  <value column="Help" original="The Currency Tab defines any currency you will transact with or report in.">货币页签定义了将用于交易或报表中的货币</value>
  </row>
  <row id="152" trl="Y">
   <value column="Name" original="Test">测试中</value>
@@ -285,9 +285,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="157" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Project">定义服务项目</value>
+  <value column="Description" original="Define Project">定义项目</value>
   <value column="Help" original="The Project Tab is used to define the Value, Name and Description for each project.  It also is defines the tracks the amounts assigned to, committed to and used for this project. Note that when the project Type is changed, the Phases and Tasks are re-created.">项目页签用于定义每个项目的值、名称和描述。它也定义了追踪已分配给该项目、已承诺给该项目和已用于该项目的金额。注意，当项目类型改变时，阶段和任务被重新创建</value>
  </row>
  <row id="158" trl="Y">
@@ -322,13 +322,13 @@
  </row>
  <row id="169" trl="Y">
   <value column="Name" original="Client Info">实体信息</value>
-  <value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.">您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效</value>
+  <value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.">需要重新登录并重新启动应用服务器，此处所作的更改才会生效</value>
   <value column="Description" original="Client Info">实体信息</value>
   <value column="Help" original="The Client Info Tab defines the details for each client.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">定义各个客户(集团)的明细资料. 在这定义会计规则和高级默认值. 这日历用来确定一个周期是开启还是关闭</value>
  </row>
  <row id="170" trl="Y">
   <value column="Name" original="Organization Info">组织信息</value>
-  <value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.&#10;">您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效。
+  <value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.&#10;">需要重新登录并重新启动应用服务器，此处所作的更改才会生效。
 </value>
   <value column="Description" original="Organization Detail Information">组织明细信息</value>
   <value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">组织信息页签 用于定义组织的地址、DUNS码和税标识号</value>
@@ -355,7 +355,7 @@
   <value column="Name" original="Tax">税额</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax definition">税的定义</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果您有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，您需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
  </row>
  <row id="176" trl="Y">
   <value column="Name" original="Tax Category">税的类别</value>
@@ -367,7 +367,7 @@
   <value column="Name" original="Warehouse">仓库</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Warehouse">仓库</value>
-  <value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse.">仓库页签定义了用于存储产品的每个仓库。如果选择了源仓库，所有的产品补仓都来自那个仓库。如果您使用自定义的补仓机制，则需要定义经由仓库使用的类</value>
+  <value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse.">仓库页签定义了用于存储产品的每个仓库。如果选择了源仓库，所有的产品补仓都来自那个仓库。如果使用自定义的补仓机制，则需要定义经由仓库使用的类</value>
  </row>
  <row id="178" trl="Y">
   <value column="Name" original="Locator">库位</value>
@@ -385,19 +385,19 @@
   <value column="Name" original="Product">产品</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product">定义产品</value>
-  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">产品页签 定义了在价目表和订单里 使用的各个产品和它的识别符。这货位是在收到这存储产品时的默认货位</value>
+  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">产品页签 定义了在价格表和订单里 使用的各个产品和它的识别符。这货位是在收到这存储产品时的默认货位</value>
  </row>
  <row id="181" trl="Y">
   <value column="Name" original="Substitute">替代</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Substitute">替代</value>
+  <value column="Description" original="Define Substitute">定义替代</value>
   <value column="Help" original="The Substitute Tab defines products which may be used as a replacement for the selected product.">替代页签定义了将可以替代所选产品的替代品</value>
  </row>
  <row id="182" trl="Y">
   <value column="Name" original="Replenish">补仓</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Replenishment">定义产品补仓</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签，定义了补仓数量的类型。这用于自动订购。如果您选择了自定义的补仓类型，则需要创建一个实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签，定义了补仓数量的类型。这用于自动订购。如果选择了自定义的补仓类型，则需要创建一个实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
  </row>
  <row id="183" trl="Y">
   <value column="Name" original="Price">价格</value>
@@ -461,13 +461,13 @@
  </row>
  <row id="199" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
-  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">如果您更改币种或成本计算方法，则必须重置所有的会计事务处理。您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效</value>
-  <value column="Description" original="Define your Account Schema Structure">定义您的会计模式结构</value>
-  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">会计模式页签定义了会计中用到的控制。您可以为每个实体定义多个会计模式，实现并行的多账套。过账为会计模式而创建，如果会计模式有效、定义了总账和默认账户并且在添加/复制账户流程完成之后</value>
+  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">如果更改币种或成本计算方法，则必须重置所有的会计事务处理。需要重新登录并重新启动应用服务器，此处所作的更改才会生效</value>
+  <value column="Description" original="Define your Account Schema Structure">定义会计模式结构</value>
+  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">会计模式页签定义了会计中用到的控制。可以为每个实体定义多个会计模式，实现并行的多账套。过账为会计模式而创建，如果会计模式有效、定义了总账和默认账户并且在添加/复制账户流程完成之后</value>
  </row>
  <row id="200" trl="Y">
   <value column="Name" original="General Ledger">总账</value>
-  <value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server.">您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效</value>
+  <value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server.">需要重新登录并重新启动应用服务器，此处所作的更改才会生效</value>
   <value column="Description" original="Accounts for GL">总账账户</value>
   <value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">定义错误和使用的平衡处理以及过账到总账必要的账户.  </value>
  </row>
@@ -505,7 +505,7 @@
   <value column="Name" original="Sales Region">销售区域</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Sales Region">销售区域</value>
-  <value column="Help" original="The Sales Region Tab defines the different regions where you do business.  Sales Regions can be used when generating reports or calculating commissions.">销售区域页签定义了您开展业务的不同区域。销售区域可用于生成报表或计算佣金之时</value>
+  <value column="Help" original="The Sales Region Tab defines the different regions where you do business.  Sales Regions can be used when generating reports or calculating commissions.">销售区域页签定义了开展业务的不同区域。销售区域可用于生成报表或计算佣金之时</value>
  </row>
  <row id="207" trl="Y">
   <value column="Name" original="Combination">合并</value>
@@ -563,8 +563,8 @@
  </row>
  <row id="217" trl="Y">
   <value column="Name" original="Account Schema Dimensions">会计科目维度</value>
-  <value column="CommitWarning" original="ATTENTION: ANY CHANGES here will effect the structure of your chart of accounts!&#10;Depending what changes you did, you should reset accounting.&#10;For changes to become effective, you must re-login and re-start the Application Server.&#10;Saving/deleting the record starts processes which may take a while.">注意: 此处所作的任何更改将影响您的会计科目结构！ 您应该根据所做的修改重设会计参数。 您需要重新登录并重新启动您的应用服务器，此处所作的更改才会生效。 保存、删除数据记录的过程需要一定时间</value>
-  <value column="Description" original="Define the dimensions of your Account Key">定义您的账户关键字元素</value>
+  <value column="CommitWarning" original="ATTENTION: ANY CHANGES here will effect the structure of your chart of accounts!&#10;Depending what changes you did, you should reset accounting.&#10;For changes to become effective, you must re-login and re-start the Application Server.&#10;Saving/deleting the record starts processes which may take a while.">注意: 此处所作的任何更改将影响会计科目结构！ 应该根据所做的修改重设会计参数。 需要重新登录并重新启动应用服务器，此处所作的更改才会生效。 保存、删除数据记录的过程需要一定时间</value>
+  <value column="Description" original="Define the dimensions of your Account Key">定义您的账户关键字的维度</value>
   <value column="Help" original="The Account Schema Dimensions Tab defines the dimensions that comprise the account key. A name is defined which will display in documents.  Also the order of the dimensions and if they are balanced and mandatory are indicated.">账户模式元素页签定义了组织账户关键字的元素。将定义显示在单据中的名称。同时，指定元素的顺序、是否已平衡和必填</value>
  </row>
  <row id="220" trl="Y">
@@ -616,9 +616,9 @@
   <value column="Help" original="The Account Tab is used to define one or more accounts for a Bank.  Each account has a unique Account No and Currency.  The bank account organization is used for accounting.">账户页签用于定义银行的一个或多个账户。每个账户具有唯一的账户编号和货币。银行账户组织用于会计</value>
  </row>
  <row id="229" trl="Y">
-  <value column="Name" original="Withholding">预扣</value>
+  <value column="Name" original="Withholding">代扣代缴</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Withholding (Beta)">定义预扣</value>
+  <value column="Description" original="Define Withholding (Beta)">定义代扣代缴 (Beta)</value>
   <value column="Help" original="The Withholding Tab defines any withholding information for this business partner.">预扣页签定义了该业务伙伴的任何预扣信息</value>
  </row>
  <row id="230" trl="Y">
@@ -661,13 +661,13 @@
   <value column="Name" original="Charge">费用</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Charge">费用</value>
-  <value column="Help" original="The Charge Tab defines the unique charges that may be associated with a document.&#10;The optional Business Partner allows to create Purchase Orders from Requisitions.">杂费页签定义了可与单据关联的唯一的杂费。可选的业务伙伴允许您从申购单创建采购订单</value>
+  <value column="Help" original="The Charge Tab defines the unique charges that may be associated with a document.&#10;The optional Business Partner allows to create Purchase Orders from Requisitions.">杂费页签定义了可与单据关联的唯一的杂费。可选的业务伙伴允许从申购单创建采购订单</value>
  </row>
  <row id="238" trl="Y">
   <value column="Name" original="Version">版本</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain price list versions">维护价格表的版本</value>
-  <value column="Help" original="Price lists are automatically created based on Product Purchasing Information and the Vendor Category Discount.&#10;The other alternative is to copy them from existing pricelists and the re-calculate them.&#10;You can also re-calculate the pricelist by referencing no pricelist or referencing the same pricelist.  If no base price list is selected, the Procuct Purchase records are used as reference."><![CDATA[价格表基于产品采购信息和供应商类别折扣而自动创建。<br>其他备选方式是，从已存在的价格表中复制它们，然后重新计算它们。<br>您也可通过不引用价格表或引用相同的价格，而将价格表重新计算。如果没有选择基础价格表，则产品采购记录被用作引用。]]></value>
+  <value column="Help" original="Price lists are automatically created based on Product Purchasing Information and the Vendor Category Discount.&#10;The other alternative is to copy them from existing pricelists and the re-calculate them.&#10;You can also re-calculate the pricelist by referencing no pricelist or referencing the same pricelist.  If no base price list is selected, the Procuct Purchase records are used as reference."><![CDATA[价格表基于产品采购信息和供应商类别折扣而自动创建。<br>其他备选方式是，从已存在的价格表中复制它们，然后重新计算它们。<br>也可通过不引用价格表或引用相同的价格，而将价格表重新计算。如果没有选择基础价格表，则产品采购记录被用作引用。]]></value>
  </row>
  <row id="239" trl="Y">
   <value column="Name" original="Purchasing">采购</value>
@@ -724,7 +724,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="252" trl="Y">
-  <value column="Name" original="Defaults">缺省科目</value>
+  <value column="Name" original="Defaults">默认科目</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Default Accounts">默认账户</value>
   <value column="Help" original="The Defaults Tab displays the Default accounts for an Accounting Schema.  These values will display when a new document is opened.  The user can override these defaults within the document.">默认页签显示了会计模式的默认账户。这些值将在新单据开启时显示。用户可在单据中覆盖这些默认值</value>
@@ -733,19 +733,19 @@
   <value column="Name" original="Inventory Count">库存盘点</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Inventory Count">定义库存盘点</value>
-  <value column="Help" original="The Inventory Count Tab defines the parameters for a manual count and adjustment of inventory.  When creating the inventory count list automatically, only the actual stored products are included. The exception is when you select the equals 0 (=0) option, then zero on hand records of all stocked products is created for that location.">库存盘点页签定义了库存的手工盘点和调整的参数。当自动创建库存盘点列表时，仅包含实际的在库产品。例外情形是，当您选择等于0 (=0) 选项时，为该位置创建的所有在库产品的现有数量是0</value>
+  <value column="Help" original="The Inventory Count Tab defines the parameters for a manual count and adjustment of inventory.  When creating the inventory count list automatically, only the actual stored products are included. The exception is when you select the equals 0 (=0) option, then zero on hand records of all stocked products is created for that location.">库存盘点页签定义了库存的手工盘点和调整的参数。当自动创建库存盘点列表时，仅包含实际的在库产品。例外情形是，当选择等于0 (=0) 选项时，为该位置创建的所有在库产品的现有数量是0</value>
  </row>
  <row id="256" trl="Y">
   <value column="Name" original="Inventory Count Line">库存盘点明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Inventory Count Line">库存盘点明细</value>
-  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.&#10;You can set the Organization, if it is a charge, otherwise it is set to the header organization.">库存盘点明细定义了库存中各产品的盘点计数。通常您将自动创建库存盘点明细。如果您手工创建它们，确保账存数量是正确的。如果是杂费，您可以设置组织；否则，设置为单据头的组织</value>
+  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.&#10;You can set the Organization, if it is a charge, otherwise it is set to the header organization.">库存盘点明细定义了库存中各产品的盘点计数。通常将自动创建库存盘点明细。如果手工创建它们，确保账存数量是正确的。如果是杂费，可以设置组织；否则，设置为单据头的组织</value>
  </row>
  <row id="257" trl="Y">
   <value column="Name" original="Shipment">发货单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Shipments and Customer Returns">发货单与客户退货</value>
-  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">发货页签允许您为客户生成、维护、输入和处理发货至客户或从客户退货</value>
+  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">发货页签允许为客户生成、维护、输入和处理发货至客户或从客户退货</value>
  </row>
  <row id="258" trl="Y">
   <value column="Name" original="Shipment Line">收货单的行</value>
@@ -805,7 +805,7 @@
   <value column="Name" original="Revenue Recognition">输入确认</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Revenue Recognition">输入确认</value>
-  <value column="Help" original="The Revenue Recognition Tab defines the intervals at which revenue will be recognized.  You can also base the revenue recognition on provided Service Levels.">“营业收入确认”页签定义了时间间隔，在这期间的营业收入将会被确认。您也可以依据所提供的服务水平来进行收入确认</value>
+  <value column="Help" original="The Revenue Recognition Tab defines the intervals at which revenue will be recognized.  You can also base the revenue recognition on provided Service Levels.">“营业收入确认”页签定义了时间间隔，在这期间的营业收入将会被确认。也可以依据所提供的服务水平来进行收入确认</value>
  </row>
  <row id="273" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -829,13 +829,13 @@
   <value column="Name" original="Product Details">产品明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Product Details">产品明细</value>
-  <value column="Help" original="The Product Details Tab allows you to display and maintain all products for a selected Vendor.">产品明细页签允许您显示和维护所选供应商的全部产品</value>
+  <value column="Help" original="The Product Details Tab allows you to display and maintain all products for a selected Vendor.">产品明细页签允许显示和维护所选供应商的全部产品</value>
  </row>
  <row id="282" trl="Y">
   <value column="Name" original="Greeting">尊称</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Greeting">定义尊称</value>
-  <value column="Help" original="The Greeting Tab defines the manner in which you will address business partners on documents.">尊称页签定义了您将在单据中尊称业务伙伴的方式</value>
+  <value column="Help" original="The Greeting Tab defines the manner in which you will address business partners on documents.">尊称页签定义了将在单据中尊称业务伙伴的方式</value>
  </row>
  <row id="283" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -902,7 +902,7 @@
   <value column="Name" original="Material Receipt">物料收货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Receipts">收款之后</value>
-  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">发货页签允许您为供应商生成、维护、输入和处理供应商发货单</value>
+  <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">发货页签允许为供应商生成、维护、输入和处理供应商发货单</value>
  </row>
  <row id="297" trl="Y">
   <value column="Name" original="Receipt Line">收货单行</value>
@@ -1016,13 +1016,13 @@
   <value column="Name" original="Format Field">格式字段</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Format Fields">维护格式字段</value>
-  <value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;"><![CDATA[基于表定义，定义各字段。请注意，您必须确保常量具有正确的 SQL 数据类型 (即如果它是一个“字符串”，则您需要将它括起来，就像这样: '我的字符串')。<p>产品映射 (明细请参见<u>用户指南</u>): <pre> H_Item => 值 H_ItemDesc => 名称 / 描述 H_ItemDefn => 帮助 H_ItemType => 产品类别 H_PartnrID => 业务伙伴的值 H_Commodity1 => 供应商产品编号 H_Commodity2 => SKU H_ItemClass => 分类 (A,B,C..) V_OperAmt_T_Cur => 货币 V_OperAmt_T => 价格  </pre>]]></value>
+  <value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;"><![CDATA[基于表定义，定义各字段。请注意，必须确保常量具有正确的 SQL 数据类型 (即如果它是一个“字符串”，则需要将它括起来，就像这样: '我的字符串')。<p>产品映射 (明细请参见<u>用户指南</u>): <pre> H_Item => 值 H_ItemDesc => 名称 / 描述 H_ItemDefn => 帮助 H_ItemType => 产品类别 H_PartnrID => 业务伙伴的值 H_Commodity1 => 供应商产品编号 H_Commodity2 => SKU H_ItemClass => 分类 (A,B,C..) V_OperAmt_T_Cur => 货币 V_OperAmt_T => 价格  </pre>]]></value>
  </row>
  <row id="317" trl="Y">
   <value column="Name" original="Bill of Materials">物料清单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Bill of Material product lines">物料清单行</value>
-  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated"><![CDATA[物料清单页签定义了那些从其他产品生成的产品。物料清单 (BOM) 是一个或多个的产品或物料清单。<p> 可用数量:<br> - <u>存储的BOM</u>必须通过“生产”创建<br> - <u>非存储的BOM</u>，其可用数量是动态计算的<br> - 属性“已存储”在“产品”页签中定义<br> <p> 价格:<br> - BOM必须被列于价格表中<br> - 如果价格为0.00，则价格被动态计算<br> <p> 打印:<br> - 通常，仅BOM信息被打印<br> - 对于发票、交货单和提货单，您可选择打印明细<br> - 在明细中，数量被列出来 - 如果价格是动态计算出来的，也将列出]]></value>
+  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated"><![CDATA[物料清单页签定义了那些从其他产品生成的产品。物料清单 (BOM) 是一个或多个的产品或物料清单。<p> 可用数量:<br> - <u>存储的BOM</u>必须通过“生产”创建<br> - <u>非存储的BOM</u>，其可用数量是动态计算的<br> - 属性“已存储”在“产品”页签中定义<br> <p> 价格:<br> - BOM必须被列于价格表中<br> - 如果价格为0.00，则价格被动态计算<br> <p> 打印:<br> - 通常，仅BOM信息被打印<br> - 对于发票、交货单和提货单，可选择打印明细<br> - 在明细中，数量被列出来 - 如果价格是动态计算出来的，也将列出]]></value>
  </row>
  <row id="319" trl="Y">
   <value column="Name" original="Production Header">生产头</value>
@@ -1088,7 +1088,7 @@
   <value column="Name" original="Payment">付/收款</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Payment or Receipt">付款</value>
-  <value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge."><![CDATA[付款页签定义了业务伙伴完成的付款。如果它对应于单张发票，则可使用此屏幕直接分配至该发票。<p>您也可应用高于付款或低于付款:<br>如果您收到高于单张发票的款项，则使用高于收款。不必勾销差额 (也就是说，将是盈余)，您可让保持金额不分配，以将它用于以后的发票或信用备忘录。请注意，金额是付款金额，因此您需要输入高于付款为负金额。<br> 您也可接收部分型付款 (低于付款)。如果您决定不勾销余下的发票金额，请将低于付款作为正金额输入。]]></value>
+  <value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge."><![CDATA[付款页签定义了业务伙伴完成的付款。如果它对应于单张发票，则可使用此屏幕直接分配至该发票。<p>也可应用高于付款或低于付款:<br>如果收到高于单张发票的款项，则使用高于收款。不必勾销差额 (也就是说，将是盈余)，可让保持金额不分配，以将它用于以后的发票或信用备忘录。请注意，金额是付款金额，因此需要输入高于付款为负金额。<br> 也可接收部分型付款 (低于付款)。如果决定不勾销余下的发票金额，请将低于付款作为正金额输入。]]></value>
  </row>
  <row id="331" trl="Y">
   <value column="Name" original="Accounting">会计</value>
@@ -1172,7 +1172,7 @@
   <value column="Name" original="Request Processor">请求引擎</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Request Processor">请求引擎</value>
-  <value column="Help" original="The Request Processor Tab allows you to define processes that you want to occur and the frequency and timing of these processes. If no other user is found, the items are assigned to the supervisor. A Request Processor can be just for a specific Request Type or for all.">请求处理器页签允许您定义想要发生的流程，以及这些流程的频度和时效。如果未找到其他用户，这些项被分派给主管。请求处理器既可以用于特定的请求类型，也可以用于全部</value>
+  <value column="Help" original="The Request Processor Tab allows you to define processes that you want to occur and the frequency and timing of these processes. If no other user is found, the items are assigned to the supervisor. A Request Processor can be just for a specific Request Type or for all.">请求处理器页签允许定义想要发生的流程，以及这些流程的频度和时效。如果未找到其他用户，这些项被分派给主管。请求处理器既可以用于特定的请求类型，也可以用于全部</value>
  </row>
  <row id="347" trl="Y">
   <value column="Name" original="Mail Template">邮件模板</value>
@@ -1202,7 +1202,7 @@
   <value column="Name" original="Payment Selection">付款选择</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Payment">定义付款</value>
-  <value column="Help" original="The Payment Selection Tab defines the bank account and date of the payments to be made. You also create the payments here.">付款选择页签定义了要进行付款的银行账户和日期。您也在这里创建付款</value>
+  <value column="Help" original="The Payment Selection Tab defines the bank account and date of the payments to be made. You also create the payments here.">付款选择页签定义了要进行付款的银行账户和日期。也在这里创建付款</value>
  </row>
  <row id="353" trl="Y">
   <value column="Name" original="Payment Selection Line">付款选择行</value>
@@ -1225,8 +1225,8 @@
  <row id="356" trl="Y">
   <value column="Name" original="Commission Line">佣金行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define your commission calculation rule">定义您的佣金计算规则</value>
-  <value column="Help" original="Define the selection criteria for paying the commission. If you do not enter restricting parameters (e.g. for specific Business Partner (Groups) or Product (Categories), etc. all transactions for the period will be used to calculate the commission.&#10;&#10;After converting from the transaction to the commission currency,&#10;the formula for calculating the commission is:&#10;&#10;(Converted Amount - Subtract Amount) * Amount Multiplier&#10;+ (Actual Quantity - Subtract Quantity) * Quantity Multiplier&#10;&#10;You can choose, that only positive amounts (Converted Amount - Subtract Amount) and positive quantities (Actual Quantity - Subtract Quantity) are used in the calculation."><![CDATA[定义支付佣金的选择条件。如果您未输入限制参数 (例如为特定的业务伙伴、业务伙伴分组或产品、产品类别等)，则该期间的所有事务处理将用于计算佣金。 <p>从事务处理转换到佣金货币之后，计算佣金的公式是: <p>(兑换金额 - 减去金额) * 金额倍数<br>+ (实际数量 - 减去数量) * 数量倍数 <p>您可选择在计算中仅使用正数金额 (兑换金额 - 减去金额) 和正数数量 (实际数量 - 减去数量)。]]></value>
+  <value column="Description" original="Define your commission calculation rule">定义佣金计算规则</value>
+  <value column="Help" original="Define the selection criteria for paying the commission. If you do not enter restricting parameters (e.g. for specific Business Partner (Groups) or Product (Categories), etc. all transactions for the period will be used to calculate the commission.&#10;&#10;After converting from the transaction to the commission currency,&#10;the formula for calculating the commission is:&#10;&#10;(Converted Amount - Subtract Amount) * Amount Multiplier&#10;+ (Actual Quantity - Subtract Quantity) * Quantity Multiplier&#10;&#10;You can choose, that only positive amounts (Converted Amount - Subtract Amount) and positive quantities (Actual Quantity - Subtract Quantity) are used in the calculation."><![CDATA[定义支付佣金的选择条件。如果未输入限制参数 (例如为特定的业务伙伴、业务伙伴分组或产品、产品类别等)，则该期间的所有事务处理将用于计算佣金。 <p>从事务处理转换到佣金货币之后，计算佣金的公式是: <p>(兑换金额 - 减去金额) * 金额倍数<br>+ (实际数量 - 减去数量) * 数量倍数 <p>可选择在计算中仅使用正数金额 (兑换金额 - 减去金额) 和正数数量 (实际数量 - 减去数量)。]]></value>
  </row>
  <row id="358" trl="Y">
   <value column="Name" original="Project Cycle">项目周期</value>
@@ -1244,9 +1244,9 @@
  <row id="361" trl="Y">
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Project Lines">定义项目行</value>
+  <value column="Description" original="Define Project Lines">定义项目明细</value>
   <value column="Help" original="
-  this Project. This is an alternative to Project Phases. You would use lines, if you do not want to use a Project Type template with phases.">项目行页签用于定义与该项目相关联的行 (产品和/或服务)。这是项目阶段的备选。如果您不想使用含有阶段的项目类型模板，您将使用行</value>
+  this Project. This is an alternative to Project Phases. You would use lines, if you do not want to use a Project Type template with phases.">项目行页签用于定义与该项目相关联的行 (产品和/或服务)。这是项目阶段的备选。如果不想使用含有阶段的项目类型模板，将使用行</value>
  </row>
  <row id="362" trl="Y">
   <value column="Name" original="Commission Run">计算佣金</value>
@@ -1258,7 +1258,7 @@
   <value column="Name" original="Commission Amount">佣金额</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Commission line amounts">佣金明细金额</value>
-  <value column="Help" original="For each commission line, a line is generated.  You can overwrite the amount and quantity to modify the commission amount, but the suggested way is creating additional Commission Detail lines.  Please be aware that manual changes will not reconcile with the Commission Details.">对于每条佣金行，会生成一行。您可覆盖金额和数量，以修改佣金金额；但推荐的作法是创建更多的佣金行行。请留意，手工更改将不会与佣金行相一致</value>
+  <value column="Help" original="For each commission line, a line is generated.  You can overwrite the amount and quantity to modify the commission amount, but the suggested way is creating additional Commission Detail lines.  Please be aware that manual changes will not reconcile with the Commission Details.">对于每条佣金行，会生成一行。可覆盖金额和数量，以修改佣金金额；但推荐的作法是创建更多的佣金行行。请留意，手工更改将不会与佣金行相一致</value>
  </row>
  <row id="364" trl="Y">
   <value column="Name" original="Used in Column">用于列</value>
@@ -1270,7 +1270,7 @@
   <value column="Name" original="Commission Detail">佣金明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Commission Detail Information">佣金明细信息</value>
-  <value column="Help" original="You may alter the amount and quantity of the detail records, but the suggested way is to add new correcting lines.&#10;The amounts are converted from the transaction currency to the Commission Currency (defined in the Commission window) using the start date and the spot exchange rate.">您可调整行记录的金额和数量，但推荐的方式是添加新的调整行。金额使用起始日期和即期汇率，从事务处理货币转换为佣金货币 (在佣金窗口中定义)</value>
+  <value column="Help" original="You may alter the amount and quantity of the detail records, but the suggested way is to add new correcting lines.&#10;The amounts are converted from the transaction currency to the Commission Currency (defined in the Commission window) using the start date and the spot exchange rate.">可调整行记录的金额和数量，但推荐的方式是添加新的调整行。金额使用起始日期和即期汇率，从事务处理货币转换为佣金货币 (在佣金窗口中定义)</value>
  </row>
  <row id="367" trl="Y">
   <value column="Name" original="Performance Goal">绩效目标</value>
@@ -1281,7 +1281,7 @@
  <row id="369" trl="Y">
   <value column="Name" original="Performance Measure Calculation">绩效指标计算</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain your Performance Measure Calculation">维护您的绩效指标计算</value>
+  <value column="Description" original="Maintain your Performance Measure Calculation">维护绩效指标计算</value>
   <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table."><![CDATA[绩效指标计算定义了绩效指标将如何被计算。参见示例：&lt;brSELECT 定义必须包含大写的 SELECT 和 FROM 关键字，WHERE 定义必须包含大写的 WHERE 关键字。主表不允许有别名！WHERE 子句只能包含主表的值 (例如，当从头和行中选择时，只有头的变量可以用于 WHERE 子句)，且应当在多表情形下填写为完全验证 (“表.列”) 的格式]]></value>
  </row>
  <row id="370" trl="Y">
@@ -1372,13 +1372,13 @@
   <value column="Name" original="Print Form">打印表单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Print Form (Invoices, Checks, ..) information">维护打印表单(发票,支票...)信息</value>
-  <value column="Help" original="The selection determines what Print Format is used to print a particular Form for your Organization.">选择决定了为您的组织打印特定的窗体时，使用何种打印格式</value>
+  <value column="Help" original="The selection determines what Print Format is used to print a particular Form for your Organization.">选择决定了组织打印特定的窗体时，使用何种打印格式</value>
  </row>
  <row id="386" trl="Y">
   <value column="Name" original="Bank Account Document">银行账户凭证</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Bank Account Documents">维护银行账户单据</value>
-  <value column="Help" original="In this tab, you define the documents used for this bank account.  You define your check and other payment document (sequence) number as well as format.">在该页签中，您可定义用于该银行账户的单据。定义您的支票和任何付款单据的序号以及格式</value>
+  <value column="Help" original="In this tab, you define the documents used for this bank account.  You define your check and other payment document (sequence) number as well as format.">在该页签中，可定义用于该银行账户的单据。定义支票和任何付款单据的序号以及格式</value>
  </row>
  <row id="387" trl="Y">
   <value column="Name" original="System Color">颜色</value>
@@ -1407,7 +1407,7 @@
  <row id="391" trl="Y">
   <value column="Name" original="Image">图像</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Image or Icon link">图片链接</value>
+  <value column="Description" original="Image or Icon link">图片/图标链接</value>
   <value column="Help" original=""/>
  </row>
  <row id="393" trl="Y">
@@ -1522,7 +1522,7 @@
   <value column="Name" original="Report Line">报表行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Time and Expense Report Line">时间与开支报表行</value>
-  <value column="Help" original="Enter the expense items and billable or non-billable hours. If you enter a non-zero amount in Invoiced Amount, that amount will be used for billing the customer - otherwise the price on the current sales price list of the customer.">输入开支项和可开账单或不可开账单的小时。如果您在开票金额中输入非零金额，该金额将用于客户账单 - 否则使用当前客户销售价格表中的价格</value>
+  <value column="Help" original="Enter the expense items and billable or non-billable hours. If you enter a non-zero amount in Invoiced Amount, that amount will be used for billing the customer - otherwise the price on the current sales price list of the customer.">输入开支项和可开账单或不可开账单的小时。如果在开票金额中输入非零金额，该金额将用于客户账单 - 否则使用当前客户销售价格表中的价格</value>
  </row>
  <row id="414" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -1654,13 +1654,13 @@
   <value column="Name" original="Print Table Format">打印表格格式</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Report Table Format">定义表打印格式</value>
-  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic."><![CDATA[打印表格格式让您定义表标头及其他项如何被打印。如果您将输入项保持为空，则使用默认的颜色和字段: &lt;br&gt;字体会基于报表中使用的字体；页眉和表标头会用粗体，函数字体为粗斜体，页脚字体会小两号，参数字体为斜体。]]></value>
+  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic."><![CDATA[打印表格格式可定义表标头及其他项如何被打印。如果将输入项保持为空，则使用默认的颜色和字段: &lt;br&gt;字体会基于报表中使用的字体；页眉和表标头会用粗体，函数字体为粗斜体，页脚字体会小两号，参数字体为斜体。]]></value>
  </row>
  <row id="436" trl="Y">
   <value column="Name" original="Prepared Payment">安排的付款</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View Generated Prepared Payments (Checks)">查看已生成的安排付款 (支票)</value>
-  <value column="Help" original="You create the actual Payments via Payment Print/Export">您可以通过付款打印/输出创建真正的付款</value>
+  <value column="Help" original="You create the actual Payments via Payment Print/Export">可以通过付款打印/输出创建真正的付款</value>
  </row>
  <row id="437" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
@@ -1699,13 +1699,13 @@
   <value column="Help" original="Before importing, iDempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;iDempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import."><![CDATA[在导入之前，iDempiere检查计量单位 (如果未设置则默认)、产品类别 (如果未设置则默认)、业务伙伴、货币 (如果未设置则默认为会计货币)、产品类型 (仅条目和服务)、UPC (单品) 唯一性、关键字、供应商产品编号的唯一性及存在性。 <p>如果UPC、关键字、供应商产品编号匹配 (按此顺序)，那么iDempiere会尝试映射至现存产品。如果导入的记录可被匹配，产品字段值将仅在对应的导入字段已明确定义的情形下才被覆盖。例如: 产品类别将仅在导入中明确设置的情形下才被覆盖。]]></value>
  </row>
  <row id="443" trl="Y">
-  <value column="Name" original="Import Account">导入账户</value>
+  <value column="Name" original="Import Account">导入科目</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="444" trl="Y">
-  <value column="Name" original="Import Report Line Set">导入报表行集合</value>
+  <value column="Name" original="Import Report Line Set">导入报表明细集合</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -1713,7 +1713,7 @@
  <row id="445" trl="Y">
   <value column="Name" original="Select Language">选择语言</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select your Language">选择您的语言</value>
+  <value column="Description" original="Select your Language">选择语言</value>
   <value column="Help" original="The Language needs to be a (verified) System Language">语言要求是已验证过的系统语言</value>
  </row>
  <row id="446" trl="Y">
@@ -1804,7 +1804,7 @@
   <value column="Name" original="Attribute Set">属性组合</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Product Attribute Set">维护产品属性集</value>
-  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define an Attribute Set if you want to enable Serial and Lot Number and Guarantee Date tracking.  Note that the Guarantee Days here determine the Shelf Life of a product instance after manufacturing (the Guarantee Days on the product determines a Customer Service date after selling)&#10;If the Attribute Set is mandatory, a product instance needs to be selected/created before shipping.">定义产品属性集，以为产品添加额外的属性和值。如果您想启用序号和批号追踪，则需要定义一个属性集</value>
+  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define an Attribute Set if you want to enable Serial and Lot Number and Guarantee Date tracking.  Note that the Guarantee Days here determine the Shelf Life of a product instance after manufacturing (the Guarantee Days on the product determines a Customer Service date after selling)&#10;If the Attribute Set is mandatory, a product instance needs to be selected/created before shipping.">定义产品属性集，以为产品添加额外的属性和值。如果想启用序号和批号追踪，则需要定义一个属性集</value>
  </row>
  <row id="462" trl="Y">
   <value column="Name" original="Attribute">属性</value>
@@ -1930,19 +1930,19 @@
   <value column="Name" original="Table Access">表访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Table Access">维护表访问</value>
-  <value column="Help" original="If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a table and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).&#10;&lt;br&gt;Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaulated first and you only need to define the exceptions to these rules here.&#10;&lt;p&gt;&#10;Note that access information is cached and requires re-login or reset of cache. Be aware that if you use Include rules, that you need to include also several supporting entiries. As an alternative, grant access only to functionality required."><![CDATA[如果在此处列出，角色则可以或不可以访问该表的数据记录，即便角色具有功能访问权限。<br>如果您包含了对一个表的访问，并选中了只读，那么您只能读取数据 (否则可完全访问)。<br>如果您排除了对一个表的访问，并选中了只读，那么您只能读取数据 (否则不可访问)。<br>请注意，此处的表访问规则是对为表定义的数据访问级别和为角色定义的用户级别的补充。那些规则首先被估值，您只需要在这里定义那些规则的异常情形即可。<p>注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。您需要知道，如果使用了包含规则，则需要同时包含多个支持的表。作为备选，将权限只授予需要的功能。]]></value>
+  <value column="Help" original="If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a table and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).&#10;&lt;br&gt;Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaulated first and you only need to define the exceptions to these rules here.&#10;&lt;p&gt;&#10;Note that access information is cached and requires re-login or reset of cache. Be aware that if you use Include rules, that you need to include also several supporting entiries. As an alternative, grant access only to functionality required."><![CDATA[如果在此处列出，角色则可以或不可以访问该表的数据记录，即便角色具有功能访问权限。<br>如果包含了对一个表的访问，并选中了只读，那么只能读取数据 (否则可完全访问)。<br>如果排除了对一个表的访问，并选中了只读，那么只能读取数据 (否则不可访问)。<br>请注意，此处的表访问规则是对为表定义的数据访问级别和为角色定义的用户级别的补充。那些规则首先被估值，只需要在这里定义那些规则的异常情形即可。<p>注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。需要知道，如果使用了包含规则，则需要同时包含多个支持的表。作为备选，将权限只授予需要的功能。]]></value>
  </row>
  <row id="483" trl="Y">
   <value column="Name" original="Record Access">记录权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Record Access">维护记录访问</value>
-  <value column="Help" original="You create Record Access records by enabling &quot;Personal Lock&quot; for the administrative role and Ctl-Lock (holding the Ctrl key while clicking on the Lock button).&#10;&lt;p&gt;&#10;If listed here, the Role can(not) access the data records of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a record and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a recorf and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[通过启用管理角色的“个人锁定”选项以及 Ctrl + 锁定 (按住 Ctrl 键，点击工具栏上的锁定按钮)，您可以创建记录级访问权限。<p>如果列于此处，角色可以或不可以访问该表中的数据记录，即使该角色有权访问该功能。<br>如果您包含了对记录的访问权限，并选中了只读，那么您只能读取数据 (否则拥有完全访问的权限)。<br>如果您排除了对记录的访问权限，并选择了只读，您只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
+  <value column="Help" original="You create Record Access records by enabling &quot;Personal Lock&quot; for the administrative role and Ctl-Lock (holding the Ctrl key while clicking on the Lock button).&#10;&lt;p&gt;&#10;If listed here, the Role can(not) access the data records of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a record and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a recorf and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[通过启用管理角色的“个人锁定”选项以及 Ctrl + 锁定 (按住 Ctrl 键，点击工具栏上的锁定按钮)，可以创建记录级访问权限。<p>如果列于此处，角色可以或不可以访问该表中的数据记录，即使该角色有权访问该功能。<br>如果包含了对记录的访问权限，并选中了只读，那么只能读取数据 (否则拥有完全访问的权限)。<br>如果排除了对记录的访问权限，并选择了只读，只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
  </row>
  <row id="484" trl="Y">
   <value column="Name" original="Column Access">列访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Column Access">维护列访问</value>
-  <value column="Help" original="If listed here, the Role can(not) access the column of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a column and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a column and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[如果列于此处，角色可以或不可以访问该表中的列，即使该角色有权访问该功能。<br>如果您包含了对列的访问权限，并选中了只读，那么您只能读取数据 (否则拥有完全访问的权限)。<br>如果您排除了对列的访问权限，并选择了只读，您只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
+  <value column="Help" original="If listed here, the Role can(not) access the column of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a column and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a column and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[如果列于此处，角色可以或不可以访问该表中的列，即使该角色有权访问该功能。<br>如果包含了对列的访问权限，并选中了只读，那么只能读取数据 (否则拥有完全访问的权限)。<br>如果排除了对列的访问权限，并选择了只读，只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
  </row>
  <row id="485" trl="Y">
   <value column="Name" original="Role">角色</value>
@@ -1972,7 +1972,7 @@
   <value column="Name" original="Cost Type">成本类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Type of Cost (e.g. Current, Plan, Future)">成本的类型 (例如现有、计划、未来)</value>
-  <value column="Help" original="You can define multiple cost types. The cost type selected in an Accounting Schema is used for accounting.">您可以定义多种成本类型。在会计模式中选定的成本类型用于会计</value>
+  <value column="Help" original="You can define multiple cost types. The cost type selected in an Accounting Schema is used for accounting.">可以定义多种成本类型。在会计模式中选定的成本类型用于会计</value>
  </row>
  <row id="490" trl="Y">
   <value column="Name" original="Task">任务</value>
@@ -2008,7 +2008,7 @@
   <value column="Name" original="Click">点击</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Click Count">点击数量</value>
-  <value column="Help" original="Define the link / target you want to track.">定义您希望追踪的链接/目标</value>
+  <value column="Help" original="Define the link / target you want to track.">定义希望追踪的链接/目标</value>
  </row>
  <row id="498" trl="Y">
   <value column="Name" original="Individual Click">单独的点击</value>
@@ -2050,7 +2050,7 @@
   <value column="Name" original="Alert">提醒</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="iDempiere Alert">iDempiere提醒</value>
-  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of.">iDempiere 提醒 系统告警器允许按照您希望得到的提示来定义系统条件</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of.">iDempiere 提醒 系统告警器允许按照希望得到的提示来定义系统条件</value>
  </row>
  <row id="505" trl="Y">
   <value column="Name" original="Alert Rule">提醒规则</value>
@@ -2062,7 +2062,7 @@
   <value column="Name" original="Alert Recipient">提醒接收者</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Recipient of the Alert Notification">提醒通知的接收者</value>
-  <value column="Help" original="You can send the notifications to users or roles">您可发送通知给多个用户或角色</value>
+  <value column="Help" original="You can send the notifications to users or roles">可发送通知给多个用户或角色</value>
  </row>
  <row id="507" trl="Y">
   <value column="Name" original="Bank Statement">银行对账单</value>
@@ -2074,13 +2074,13 @@
   <value column="Name" original="General Ledger">总账</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import General Ledger">导入总账</value>
-  <value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences."><![CDATA[如果批的单据编号不同或会计模式不同，则会创建新的日记账批。如果单据编号、货币、单据类型、总账类别、过账类型或会计类型不同，则会创建新的日记账。您也可强制创建新的批或日记账，只需选择新建标识。<p>请注意，有三个组织字段: <br> (1) 单据组织是单据的拥有者，直接设置或由参数默认值设置。<br>(2) 组织是会计关键字的一部分，仅在未指定有效账户组合时才需要；如果未定义，则从单据组织继承。<br>(3) 事务处理组织是账户组合的一部分。<br>可选的余额检查适用于整个导入，而不是单个的批或日记账。<br>如果单据类型不是设置为手工顺序，则单据编号将被覆盖。]]></value>
+  <value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences."><![CDATA[如果批的单据编号不同或会计模式不同，则会创建新的日记账批。如果单据编号、货币、单据类型、总账类别、过账类型或会计类型不同，则会创建新的日记账。也可强制创建新的批或日记账，只需选择新建标识。<p>请注意，有三个组织字段: <br> (1) 单据组织是单据的拥有者，直接设置或由参数默认值设置。<br>(2) 组织是会计关键字的一部分，仅在未指定有效账户组合时才需要；如果未定义，则从单据组织继承。<br>(3) 事务处理组织是账户组合的一部分。<br>可选的余额检查适用于整个导入，而不是单个的批或日记账。<br>如果单据类型不是设置为手工顺序，则单据编号将被覆盖。]]></value>
  </row>
  <row id="510" trl="Y">
   <value column="Name" original="Invoice">发票</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import Invoices">导入发票</value>
-  <value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">您应提供单据类型名称 (或ID)。由于单据类型一旦弄错将产生一系列的后果，因此单据类型特意未使用完全继承。最佳方式是，将单据类型名称设置为导入文件格式中的常数，或者设置为文件中的一个导入字段</value>
+  <value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">应提供单据类型名称 (或ID)。由于单据类型一旦弄错将产生一系列的后果，因此单据类型特意未使用完全继承。最佳方式是，将单据类型名称设置为导入文件格式中的常数，或者设置为文件中的一个导入字段</value>
  </row>
  <row id="511" trl="Y">
   <value column="Name" original="Payment">付/收款</value>
@@ -2092,7 +2092,7 @@
   <value column="Name" original="Order">订单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import Orders">导入订单</value>
-  <value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">您应提供单据类型名称 (或ID)。由于单据类型一旦弄错将产生一系列的后果，因此单据类型特意未使用完全继承。最佳方式是，将单据类型名称设置为导入文件格式中的常数，或者设置为文件中的一个导入字段</value>
+  <value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">应提供单据类型名称 (或ID)。由于单据类型一旦弄错将产生一系列的后果，因此单据类型特意未使用完全继承。最佳方式是，将单据类型名称设置为导入文件格式中的常数，或者设置为文件中的一个导入字段</value>
  </row>
  <row id="513" trl="Y">
   <value column="Name" original="Freight">运费</value>
@@ -2110,49 +2110,49 @@
   <value column="Name" original="Business Partner Dimension">业务伙伴维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Business Partner Accounting Dimension Tree">维护业务伙伴会计维度树</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="516" trl="Y">
   <value column="Name" original="Product Dimension">产品维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Product Accounting Dimension Tree">维护产品会计维度树</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="517" trl="Y">
   <value column="Name" original="Activity Dimension">活动维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Activity Accounting Dimension Tree">维护活动会计多维树</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="518" trl="Y">
   <value column="Name" original="Project Dimension">项目维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Project Accounting Dimension Tree">维护项目会计维度树</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="519" trl="Y">
   <value column="Name" original="Organization Dimension">组织维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Organizationt Accounting Dimension Tree">维护组织多维树</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="520" trl="Y">
   <value column="Name" original="Sales Region Dimension">销售区域维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Sales Region Accounting Dimension Tree">维护销售区域会计维度</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="521" trl="Y">
   <value column="Name" original="Replication Target">复制目标</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Data Replication Target">数据复制到目标</value>
-  <value column="Help" original="Data Replication Target Details. Maintained on the central server. Make sure that the IP range is unique for every remote system - Otherwise you will loose data!!">数据复制目标的明细。在中央服务器上维护。请确保IP范围对于每个远程系统均唯一 - 否则您将丢失数据！！</value>
+  <value column="Help" original="Data Replication Target Details. Maintained on the central server. Make sure that the IP range is unique for every remote system - Otherwise you will loose data!!">数据复制目标明细。在中心服务器上维护。请确保IP范围对于每个远程系统均唯一 - 否则将丢失数据！！</value>
  </row>
  <row id="522" trl="Y">
   <value column="Name" original="Replication Run">复制运行</value>
@@ -2182,7 +2182,7 @@
   <value column="Name" original="Campaign Dimension">战役维度</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Marketing Campaign Accounting Dimension Tree">维护营销活动会计维度树</value>
-  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，您将无法在此窗口中创建新记录！
+  <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有用于所有必填值的默认集合，将无法在此窗口中创建新记录！
 </value>
  </row>
  <row id="527" trl="Y">
@@ -2246,7 +2246,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="537" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Sales Order Projects and Work Orders">维护销售订单和工单</value>
   <value column="Help" original="The Project Tab is used to define the Value, Name and Description for each project.  It also is defines the tracks the amounts assigned to, committed to and used for this project.">项目页签用于定义每个项目的值、名称和描述。它也定义了追踪已分配给该项目、已承诺给该项目和已用于该项目的金额</value>
@@ -2375,7 +2375,7 @@
   <value column="Name" original="Issues">问题</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Issues to the Project">项目投放</value>
-  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“发布到项目”进程对项目初始化时生成的事项。您可以发布收入、时间与开支，或存货</value>
+  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“发布到项目”进程对项目初始化时生成的事项。可以发布收入、时间与开支，或存货</value>
  </row>
  <row id="559" trl="Y">
   <value column="Name" original="Printer">打印机</value>
@@ -2441,7 +2441,7 @@
   <value column="Name" original="Conversion Type">兑换率类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Currency Conversion Rate Type">维护货币兑换率类型</value>
-  <value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">货币兑换率类型允许您定义不同的兑换率类型，如即期、公司和/或卖出/买入汇率</value>
+  <value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">货币兑换率类型允许定义不同的兑换率类型，如即期、公司和/或卖出/买入汇率</value>
  </row>
  <row id="571" trl="Y">
   <value column="Name" original="Statement Loader">对账单加载器</value>
@@ -2476,7 +2476,7 @@
  <row id="576" trl="Y">
   <value column="Name" original="Activity">活动</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Activities">您的工作流活动</value>
+  <value column="Description" original="Workflow Activities">工作流活动</value>
   <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动指在某个工作流过程实例中，实际的工作流节点</value>
  </row>
  <row id="577" trl="Y">
@@ -2513,7 +2513,7 @@
   <value column="Name" original="Event">事件</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Workflow Process Activity Event Audit Information">工作流流程活动事件的审计信息</value>
-  <value column="Help" original="History of chenges ov the Workflow Process Activity">History of chenges ov the Workflow Process活动</value>
+  <value column="Help" original="History of chenges ov the Workflow Process Activity">工作流流程活动的变更历史</value>
  </row>
  <row id="583" trl="Y">
   <value column="Name" original="Attribute">属性</value>
@@ -2548,8 +2548,8 @@
  <row id="588" trl="Y">
   <value column="Name" original="Org Type">组织类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Organization Type allows you to categorize your organizations">组织类型允许您划分组织</value>
-  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">组织类型允许您对组织分类，以方便生成报表</value>
+  <value column="Description" original="Organization Type allows you to categorize your organizations">组织类型允许划分组织</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">组织类型允许对组织分类，以方便生成报表</value>
  </row>
  <row id="589" trl="Y">
   <value column="Name" original="Schedule Process">计划流程</value>
@@ -2597,7 +2597,7 @@
   <value column="Name" original="Offer">报盘</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Offer for a Topic">主题的报盘</value>
-  <value column="Help" original="You can create an offer for a topic.">您可为主题创建报盘</value>
+  <value column="Help" original="You can create an offer for a topic.">可为主题创建报盘</value>
  </row>
  <row id="597" trl="Y">
   <value column="Name" original="Bid Funds">投标资金</value>
@@ -2645,7 +2645,7 @@
   <value column="Name" original="Offer">报盘</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Offer for a Topic">主题的报盘</value>
-  <value column="Help" original="You can create an offer for a topic.">您可为主题创建报盘</value>
+  <value column="Help" original="You can create an offer for a topic.">可为主题创建报盘</value>
  </row>
  <row id="605" trl="Y">
   <value column="Name" original="Buyer">买家</value>
@@ -2711,7 +2711,7 @@
   <value column="Name" original="Quantity">数量</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="RfQ Line Quantity">询价单行数量</value>
-  <value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">询价单数量 - 您可要求不同数量的报价</value>
+  <value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">询价单数量 - 可要求不同数量的报价</value>
  </row>
  <row id="618" trl="Y">
   <value column="Name" original="Response Quantity">响应数量</value>
@@ -2723,7 +2723,7 @@
   <value column="Name" original="Topic">主题</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Request for Quotation Topic">询价单主题</value>
-  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许您维护响应询价单之潜在供应商的订阅名单</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许维护响应询价单之潜在供应商的订阅名单</value>
  </row>
  <row id="620" trl="Y">
   <value column="Name" original="Subscriber">订阅者</value>
@@ -2756,9 +2756,9 @@
   <value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">配送清单包含业务伙伴和分发数量或创建订单的比率</value>
  </row>
  <row id="625" trl="Y">
-  <value column="Name" original="Distribution Line">配送行</value>
+  <value column="Name" original="Distribution Line">配送明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">含有业务伙伴和数量/百分比的配送清单行</value>
+  <value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">含有业务伙伴和数量/百分比的配送清单明细</value>
   <value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">分发可基于比率、固定数量或两者皆有。如果比率和数量非零，数量基于比率计算，但数量为最小值</value>
  </row>
  <row id="626" trl="Y">
@@ -2816,7 +2816,7 @@
   <value column="Help" original="Maintain details of the dunning letter to a business partner">维护给业务伙伴的催款函明细</value>
  </row>
  <row id="635" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Dinning Run Line">催款函明细</value>
   <value column="Help" original="Maintain the information of the dunning letter line">维护催款函的明细信息</value>
@@ -2843,7 +2843,7 @@
   <value column="Name" original="Scheduler Recipient">计划程序接收者</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Recipient of the Scheduler Notification">计划程序通知的接收者</value>
-  <value column="Help" original="You can send the notifications to users or roles">您可发送通知给多个用户或角色</value>
+  <value column="Help" original="You can send the notifications to users or roles">可发送通知给多个用户或角色</value>
  </row>
  <row id="640" trl="Y">
   <value column="Name" original="Tax ZIP">税邮编</value>
@@ -2896,7 +2896,7 @@
  <row id="649" trl="Y">
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Distribution Run Lines define Distribution List, the Product and Quantiries">配送发运行定义配送列表，产品和数量</value>
+  <value column="Description" original="Distribution Run Lines define Distribution List, the Product and Quantiries">配送发运明细定义配送列表，产品和数量</value>
   <value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">订单金额基于两者之中的校大的那一个：产品或配送清单的最小值，以及基于比率的数量</value>
  </row>
  <row id="650" trl="Y">
@@ -2915,7 +2915,7 @@
   <value column="Name" original="Counter Document">反向单据</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Counter Document Types">维护反向单据类型</value>
-  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;You can define conter documents for all organizations (of the original transaction) or for a specific organization.">当为组织间事务处理 (在链接某业务伙伴至某组织后) 使用外部单据时，您可根据原事务处理的单据类型判定反向单据的类型。例如：一张“标准订单”创建一张“标准采购订单”。如果您在此处定义关系，则覆盖了单据类型定义中的默认反向单据类型。这允许您定义特殊的映射。您可为所有组织 (原始事务处理) 或为特定的组织定义反向单据</value>
+  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;You can define conter documents for all organizations (of the original transaction) or for a specific organization.">当为组织间事务处理 (在链接某业务伙伴至某组织后) 使用外部单据时，可根据原事务处理的单据类型判定反向单据的类型。例如：一张“标准订单”创建一张“标准采购订单”。如果在此处定义关系，则覆盖了单据类型定义中的默认反向单据类型。这允许定义特殊的映射。可为所有组织 (原始事务处理) 或为特定的组织定义反向单据</value>
  </row>
  <row id="653" trl="Y">
   <value column="Name" original="Forecast">预测</value>
@@ -2936,16 +2936,16 @@
   <value column="Help" original="Material Demand can be based on Forecast, Requisitions, Open Orders">基于预测、采购申请、未完成订单的物料需求</value>
  </row>
  <row id="656" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Material Demand Line">物料需求行行</value>
+  <value column="Description" original="Material Demand Line">物料需求明细行</value>
   <value column="Help" original="Demand for a product in a period">在某期间内的产品需求</value>
  </row>
  <row id="657" trl="Y">
   <value column="Name" original="Detail">明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Material Demand Line Source Detail">物料需求行的来源行</value>
-  <value column="Help" original="Source Link for Material Demand Lines">物料需求行的来源链接</value>
+  <value column="Description" original="Material Demand Line Source Detail">物料需求明细的来源明细</value>
+  <value column="Help" original="Source Link for Material Demand Lines">物料需求明细的来源链接</value>
  </row>
  <row id="658" trl="Y">
   <value column="Name" original="Confirmation">确认</value>
@@ -3010,7 +3010,7 @@
  <row id="668" trl="Y">
   <value column="Name" original="Confirmation Lines">确认行</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Import Receipt/Shipment Confirmation Lines">导入收货单/发货单确认行</value>
+  <value column="Description" original="Import Receipt/Shipment Confirmation Lines">导入收货单/发货单确认明细</value>
   <value column="Help" original="Import Confirmation data of existing Receipt/Shipment Confirmations">导入现存收货单/发货单确认的确认数据</value>
  </row>
  <row id="669" trl="Y">
@@ -3077,7 +3077,7 @@
   <value column="Name" original="SLA Goal">服务级别协议目标</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Service Level Agreement Goal">服务级别协议目标</value>
-  <value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">业务伙伴服务级别协议条件的各目标</value>
+  <value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">业务伙伴服务级别协议(SLA)条件的指标</value>
  </row>
  <row id="680" trl="Y">
   <value column="Name" original="SLA Measure">服务级别协议评估</value>
@@ -3185,7 +3185,7 @@
   <value column="Name" original="Landed Costs">到岸成本</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Landed cost to be allocated to material receipts">待分配至物料收货单的到岸成本</value>
-  <value column="Help" original="Landed costs allow you to allocate costs to previously received material receipts. Examples are freight, excise tax, insurance, etc.&lt;br&gt;&#10;Select either a Receipt, Receipt Line or a specific Product to allocate the costs to."><![CDATA[到岸成本允许您将成本分配给已接收的物料收货单。例如运费、货物税、保险等。<br>选择收货单、收货单行或特定的产品，将成本分配之。]]></value>
+  <value column="Help" original="Landed costs allow you to allocate costs to previously received material receipts. Examples are freight, excise tax, insurance, etc.&lt;br&gt;&#10;Select either a Receipt, Receipt Line or a specific Product to allocate the costs to."><![CDATA[到岸成本允许将成本分配给已接收的物料收货单。例如运费、货物税、保险等。<br>选择收货单、收货单行或特定的产品，将成本分配之。]]></value>
  </row>
  <row id="698" trl="Y">
   <value column="Name" original="Landed Cost Allocation">到岸成本分配</value>
@@ -3197,7 +3197,7 @@
   <value column="Name" original="Cost Element">成本要素</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain product cost elements">维护产品的成本元素</value>
-  <value column="Help" original="You can maintain multiple Material Costs. Which of the Material Cost Types is used for accounting is determined by the costing method.&lt;br&gt;&#10;Define a Costing Method (for Material Elements) only if you want the cost calculated for that costing method. For accounting, the costing method defined in the Accounting Schema or Product Category Acct is used."><![CDATA[您可维护多项物料成本。哪一项物料成本类型用于会计，是由成本计算方法决定的。<br>仅当您希望为某成本计算方法而计算成本时，才定义一种成本计算方法（为物料元素）。对于会计来说，用到在会计模式或产品类别会计中定义的成本计算方法。]]></value>
+  <value column="Help" original="You can maintain multiple Material Costs. Which of the Material Cost Types is used for accounting is determined by the costing method.&lt;br&gt;&#10;Define a Costing Method (for Material Elements) only if you want the cost calculated for that costing method. For accounting, the costing method defined in the Accounting Schema or Product Category Acct is used."><![CDATA[可维护多项物料成本。哪一项物料成本类型用于会计，是由成本计算方法决定的。<br>仅当希望为某成本计算方法而计算成本时，才定义一种成本计算方法（为物料元素）。对于会计来说，用到在会计模式或产品类别会计中定义的成本计算方法。]]></value>
  </row>
  <row id="700" trl="Y">
   <value column="Name" original="Select Product">选择产品</value>
@@ -3262,7 +3262,7 @@
  <row id="710" trl="Y">
   <value column="Name" original="Web Store">网上商店</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Web Store">网上商店详细说明</value>
+  <value column="Description" original="Define Web Store">定义网上商店</value>
   <value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. ">定义网上商店的设置。Web 服务器上下文必须是唯一的，它决定了用于实际事务处理的设置。选中的仓库决定了组织。电子邮件设置与实体邮件设置一起被测试</value>
  </row>
  <row id="711" trl="Y">
@@ -3371,7 +3371,7 @@
   <value column="Name" original="Alternative Groups">备选分组</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Product BOM Alternative Group">产品物料清单备选分组</value>
-  <value column="Help" original="Alternative groups allow you to group Bill of Material components, which are exclusive (i.e. only one is valid). Examples different engine sizes.">备选分组允许您将物料清单部件进行分组，它们是排它的（亦即仅有一项有效）。例如，不同的发动机尺寸</value>
+  <value column="Help" original="Alternative groups allow you to group Bill of Material components, which are exclusive (i.e. only one is valid). Examples different engine sizes.">备选分组允许将物料清单部件进行分组，它们是排它的（亦即仅有一项有效）。例如，不同的发动机尺寸</value>
  </row>
  <row id="730" trl="Y">
   <value column="Name" original="Operation">运算</value>
@@ -3389,12 +3389,12 @@
   <value column="Name" original="Operation Resource">作业资源</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Product Operation Resources">产品操作资源</value>
-  <value column="Help" original="Resources for the Operation. You can have multiple resources (e.g. tool, labor) per operation.">操作的资源。您可在每个操作中包含多项资源（工具、劳动力等）</value>
+  <value column="Help" original="Resources for the Operation. You can have multiple resources (e.g. tool, labor) per operation.">操作的资源。可在每个操作中包含多项资源（工具、劳动力等）</value>
  </row>
  <row id="733" trl="Y">
   <value column="Name" original="Change Notice">变更通知</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Bill of Materials (Engineering) Change Notice (Version)">物料清单（工程）变更通知（版本）</value>
+  <value column="Description" original="Bill of Materials (Engineering) Change Notice (Version)">物料清单（项目）变更通知（版本）</value>
   <value column="Help" original=""/>
  </row>
  <row id="734" trl="Y">
@@ -3406,7 +3406,7 @@
  <row id="735" trl="Y">
   <value column="Name" original="BOM Change Request">物料清单变更请求</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="BOM (Engineering) Change Requests">物料清单 (工程) 变更请求</value>
+  <value column="Description" original="BOM (Engineering) Change Requests">物料清单 (项目) 变更请求</value>
   <value column="Help" original="Change requests for a Bill of Materials. They can be automatically created from Requests, if enabled in the Request Type and the Request Group referres to a Bill of Materials">对于一个物料清单的变更请求。如果在请求类型里面激活了且请求组别指示的是物料清单， 则BOM变更请求可以从请求自动创建</value>
  </row>
  <row id="736" trl="Y">
@@ -3442,7 +3442,7 @@
  <row id="741" trl="Y">
   <value column="Name" original="Change Notice">变更通知</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="(Engineering) Change Note (Version)">(工程) 变更通知 (版本)</value>
+  <value column="Description" original="(Engineering) Change Note (Version)">(项目) 变更通知 (版本)</value>
   <value column="Help" original=""/>
  </row>
  <row id="742" trl="Y">
@@ -3467,7 +3467,7 @@
   <value column="Name" original="Replenish">补仓</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Replenishment">定义产品补仓</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签，定义了补仓数量的类型。这用于自动订购。如果您选择了自定义的补仓类型，则需要创建一个实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">补仓页签，定义了补仓数量的类型。这用于自动订购。如果选择了自定义的补仓类型，则需要创建一个实现 org.compiere.util.ReplenishInterface 接口的类，并且把这个类设置到仓库级别上</value>
  </row>
  <row id="748" trl="Y">
   <value column="Name" original="Cost Details">成本明细</value>
@@ -3497,31 +3497,31 @@
   <value column="Name" original="Exclude">排除</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Exclude the ability to enter Attribute Sets">排除输入属性集的能力</value>
-  <value column="Help" original="Create a record, if you want to exclude the ability to enter Product Attribute Set information. &#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果您希望排除输入产品属性集信息的能力，则创建记录。注意，信息被缓存起来。您必须重新登录或重置高速缓存，方能生效</value>
+  <value column="Help" original="Create a record, if you want to exclude the ability to enter Product Attribute Set information. &#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果希望排除输入产品属性集信息的能力，则创建记录。注意，信息被缓存起来。必须重新登录或重置高速缓存，方能生效</value>
  </row>
  <row id="753" trl="Y">
   <value column="Name" original="Exclude">排除</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Exclude the ability to create Lots in Attribute Sets">排除在属性集中创建批次的能力</value>
-  <value column="Help" original="Create a record, if you want to exclude the ability to create Lots in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果您希望排除在产品属性集信息中创建批次的能力，则创建记录。注意，信息被缓存起来。您必须重新登录或重置高速缓存，方能生效</value>
+  <value column="Help" original="Create a record, if you want to exclude the ability to create Lots in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果希望排除在产品属性集信息中创建批次的能力，则创建记录。注意，信息被缓存起来。必须重新登录或重置高速缓存，方能生效</value>
  </row>
  <row id="754" trl="Y">
   <value column="Name" original="Exclude">排除</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Exclude the ability to create Serial Numbers in Attribute Sets">排除在属性集中创建序列号的能力</value>
-  <value column="Help" original="Create a record, if you want to exclude the ability to create Serial Numbers in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果您希望排除在产品属性集信息中创建序列号的能力，则创建记录。注意，信息被缓存起来。您必须重新登录或重置高速缓存，方能生效</value>
+  <value column="Help" original="Create a record, if you want to exclude the ability to create Serial Numbers in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果希望排除在产品属性集信息中创建序列号的能力，则创建记录。注意，信息被缓存起来。必须重新登录或重置高速缓存，方能生效</value>
  </row>
  <row id="755" trl="Y">
   <value column="Name" original="Allocate">分配付款</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Allocate Payments to Invoices">分配付款到发票</value>
-  <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization"><![CDATA[当创建付款时，您可将付款以相同币种直接分配给发票。注意您可以高于或低于分配付款。<b>当处理付款时，分配被创建。<b>组织被设置为发票组织。]]></value>
+  <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization"><![CDATA[当创建付款时，可将付款以相同币种直接分配给发票。注意可以高于或低于分配付款。<b>当处理付款时，分配被创建。<b>组织被设置为发票组织。]]></value>
  </row>
  <row id="756" trl="Y">
   <value column="Name" original="BP Access">业务伙伴访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Access of the User/Contact to Business Partner information and resources">用户/联系人对业务伙伴信息与资源的访问权限</value>
-  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">如果在用户级别未选择“完整的业务伙伴访问”，您需要在此处明确授予权限</value>
+  <value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">如果在用户级别未选择“完整的业务伙伴访问”，需要在此处明确授予权限</value>
  </row>
  <row id="757" trl="Y">
   <value column="Name" original="Queries">查询</value>
@@ -3563,13 +3563,13 @@
   <value column="Name" original="Declaration">申报单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define the declaration to the tax authorities">定义提交给税务主管机关的申报单</value>
-  <value column="Help" original="The tax declaration allows you to create supporting information and reconcile the documents with the accounting">税申报单允许您创建支持性的信息与对账单据</value>
+  <value column="Help" original="The tax declaration allows you to create supporting information and reconcile the documents with the accounting">税申报单允许创建支持性的信息与对账单据</value>
  </row>
  <row id="764" trl="Y">
   <value column="Name" original="Line">明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax Declaration Lines">税申报明细</value>
-  <value column="Help" original="The lines are created by the create process. You can delete them if you do not want to include them in a particular declaration.  You can create manual adjustment lines.">这些明细是由创建进程生成的。如果你不想把它们包括在某个特定的申报单中，你可以删除它们。您可以创建手工调整明细</value>
+  <value column="Help" original="The lines are created by the create process. You can delete them if you do not want to include them in a particular declaration.  You can create manual adjustment lines.">这些明细是由创建进程生成的。如果你不想把它们包括在某个特定的申报单中，你可以删除它们。可以创建手工调整明细</value>
  </row>
  <row id="765" trl="Y">
   <value column="Name" original="Accounting">会计及账簿</value>
@@ -3581,7 +3581,7 @@
   <value column="Name" original="Reporting Hierarchy">报表层级</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Reporting Hierarchy">报表层级</value>
-  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">报表层级允许您为报表选择不同的层级/树。会计分段，例如组织、账户、产品，可能具有多个层级，以满足不同的业务视图需要</value>
+  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">报表层级允许为报表选择不同的层级/树。会计分段，例如组织、账户、产品，可能具有多个层级，以满足不同的业务视图需要</value>
  </row>
  <row id="767" trl="Y">
   <value column="Name" original="Purchase Orders">采购订单</value>
@@ -3599,19 +3599,19 @@
   <value column="Name" original="Budget Control">预算控制</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Budget Controls">维护预算控制</value>
-  <value column="Help" original="Budget Control allows you to restrict the use of expenditures, commitments (Purchase Orders) and reservations (Requisitions). If defined, you mey not be able to approve Requisitions, Purchse Orders, or AP Invoices.">预算控制帮助你限制开支的使用、委托约定（采购订单）和保留单（采购申请）。如经设定，您就可能无法批准采购申请、采购订单或应付发票</value>
+  <value column="Help" original="Budget Control allows you to restrict the use of expenditures, commitments (Purchase Orders) and reservations (Requisitions). If defined, you mey not be able to approve Requisitions, Purchse Orders, or AP Invoices.">预算控制帮助你限制开支的使用、委托约定（采购订单）和保留单（采购申请）。如经设定，就可能无法批准采购申请、采购订单或应付发票</value>
  </row>
  <row id="770" trl="Y">
   <value column="Name" original="Fund">资金</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Fund Control">维护资金控制</value>
-  <value column="Help" original="General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.">总账资金控制允许您限制资金的使用。这与预算控制无关</value>
+  <value column="Help" original="General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.">总账资金控制允许限制资金的使用。这与预算控制无关</value>
  </row>
  <row id="771" trl="Y">
   <value column="Name" original="Restriction">限制</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Restriction of Funds">资金限制</value>
-  <value column="Help" original="If defined, you can use the fund only for the accounts selected. You can select summary values.">如果定义了它，您仅可使用选定账户的资金。您可选择汇总值</value>
+  <value column="Help" original="If defined, you can use the fund only for the accounts selected. You can select summary values.">如果定义了它，仅可使用选定账户的资金。可选择汇总值</value>
  </row>
  <row id="772" trl="Y">
   <value column="Name" original="Used in Column">用于列</value>
@@ -3641,7 +3641,7 @@
   <value column="Name" original="Client Share">实体共享</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Force (not) sharing of client/org entities">强迫(不) 共享实体/组织条目</value>
-  <value column="Help" original="Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Client and Org&quot; shared records is the default and is ignored."><![CDATA[业务伙伴即可定义于实体级别 (共享)，也可定义于组织级别 (不共享)。您可定义产品总是被共享 (即总是在组织“*”下面创建)，也可定义它们不能被共享 (即您不能在组织“*”下被输入)。<br>“实体与组织”共享记录的创建是默认选项，被忽略。]]></value>
+  <value column="Help" original="Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Client and Org&quot; shared records is the default and is ignored."><![CDATA[业务伙伴即可定义于实体级别 (共享)，也可定义于组织级别 (不共享)。可定义产品总是被共享 (即总是在组织“*”下面创建)，也可定义它们不能被共享 (即不能在组织“*”下被输入)。<br>“实体与组织”共享记录的创建是默认选项，被忽略。]]></value>
  </row>
  <row id="777" trl="Y">
   <value column="Name" original="System Issue">系统问题</value>
@@ -3758,16 +3758,16 @@
   <value column="Help" original="Maintain Project Lines on Phase Level">在阶段级别上维护项目明细</value>
  </row>
  <row id="800" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="A web project is the main datacontainer for Containers, URLs, Ads, Media etc.">Web 工程是容器、网址、广告、媒质等的主数据容器</value>
-  <value column="Help" original="A web project is the meta definition which will contain later on all data within the Web Content Management Project. ">Web 工程是未来包含 Web 内容管理工程中所有数据的元定义</value>
+  <value column="Description" original="A web project is the main datacontainer for Containers, URLs, Ads, Media etc.">Web 项目是容器、网址、广告、媒质等的主数据容器</value>
+  <value column="Help" original="A web project is the meta definition which will contain later on all data within the Web Content Management Project. ">Web 项目是未来包含 Web 内容管理项目中所有数据的元定义</value>
  </row>
  <row id="801" trl="Y">
   <value column="Name" original="Domain">域名</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Web Project Domains">维护Web项目的域名</value>
-  <value column="Help" original="Link between the Web Project and the public URLs (Domains)">链接 Web 工程和公共网址 (域名)</value>
+  <value column="Help" original="Link between the Web Project and the public URLs (Domains)">链接 Web 项目和公共网址 (域名)</value>
  </row>
  <row id="802" trl="Y">
   <value column="Name" original="Template">模板</value>
@@ -3778,8 +3778,8 @@
  <row id="804" trl="Y">
   <value column="Name" original="Media Server">媒质服务器</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Project Media Server">Web 工程媒质服务器</value>
-  <value column="Help" original="Media Server for the web project">Web 工程的媒质服务器</value>
+  <value column="Description" original="Web Project Media Server">Web 项目媒质服务器</value>
+  <value column="Help" original="Media Server for the web project">Web 项目的媒质服务器</value>
  </row>
  <row id="805" trl="Y">
   <value column="Name" original="News Channel">新闻频道</value>
@@ -3796,7 +3796,7 @@
  <row id="807" trl="Y">
   <value column="Name" original="Advertisement Category">广告类别</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Defines the categories to group Ads">定义类别，将广告分组</value>
+  <value column="Description" original="Defines the categories to group Ads">定义类别来对广告分组</value>
   <value column="Help" original=""/>
  </row>
  <row id="808" trl="Y">
@@ -3862,14 +3862,14 @@
  <row id="818" trl="Y">
   <value column="Name" original="Template">模板</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Project Template">Web 工程模板</value>
-  <value column="Help" original="CM Project Template">协同管理工程模板</value>
+  <value column="Description" original="Web Project Template">Web 项目模板</value>
+  <value column="Help" original="CM Project Template">协同管理项目模板</value>
  </row>
  <row id="819" trl="Y">
   <value column="Name" original="Chat Type">聊天类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Type of discussion / chat">维护讨论/会话的类型</value>
-  <value column="Help" original="Chat Type allows you to receive subscriptions for particular content of discussions. It is linked to a table.">聊天类型允许您接收特定讨论内容的订阅。它被链接至表</value>
+  <value column="Help" original="Chat Type allows you to receive subscriptions for particular content of discussions. It is linked to a table.">聊天类型允许接收特定讨论内容的订阅。它被链接至表</value>
  </row>
  <row id="820" trl="Y">
   <value column="Name" original="Updates">更新 (全部)</value>
@@ -3920,7 +3920,7 @@
   <value column="Help" original="Link to individual Record">链接至各记录</value>
  </row>
  <row id="828" trl="Y">
-  <value column="Name" original="Web Project">Web 工程</value>
+  <value column="Name" original="Web Project">Web 项目</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Select Media Project">选择媒质项目</value>
   <value column="Help" original=""/>
@@ -3953,7 +3953,7 @@
   <value column="Name" original="Web Access Profile">Web 访问档案</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Web Access Profile">维护 Web 访问档案</value>
-  <value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.&#10;If the profile is exclude (default), the assignees can view all but the defined content. If the profile is not exclude (include), the assigned roles and business partner groups can only view the listed content.">定义对协作管理内容的访问权限。您可以分配档案给内部角色，或将外部访问权分配给业务伙伴分组。如果档案被排除 (默认)，被分配者可查看除定义内容之外的全部。如果档案不是排除 (是包含)，被分配的角色和业务伙伴分组只能查看列出的内容</value>
+  <value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.&#10;If the profile is exclude (default), the assignees can view all but the defined content. If the profile is not exclude (include), the assigned roles and business partner groups can only view the listed content.">定义对协作管理内容的访问权限。可以分配档案给内部角色，或将外部访问权分配给业务伙伴分组。如果档案被排除 (默认)，被分配者可查看除定义内容之外的全部。如果档案不是排除 (是包含)，被分配的角色和业务伙伴分组只能查看列出的内容</value>
  </row>
  <row id="834" trl="Y">
   <value column="Name" original="List Role">列出角色</value>
@@ -4078,7 +4078,7 @@
  <row id="50002" trl="Y">
   <value column="Name" original="Object Backups">对象备份</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Details by column original values before the record was overwritten">Details by column original values before the record was overwritten</value>
+  <value column="Description" original="Details by column original values before the record was overwritten">记录被覆盖前的列的原始值的明细</value>
   <value column="Help" original="Displays values for each column for each record that was updated by a package install.  This backup is used in the package reversal process.">Displays values for each column for each record that was updated by a package install.  This backup is used in the package reversal process</value>
  </row>
  <row id="50003" trl="Y">
@@ -4114,7 +4114,7 @@
  <row id="50008" trl="Y">
   <value column="Name" original="PackIn">导入包</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Import a package created by PackOut">导入包</value>
+  <value column="Description" original="Import a package created by PackOut">导入包由PackOut创建</value>
   <value column="Help" original=""/>
  </row>
  <row id="50009" trl="Y">
@@ -4156,8 +4156,8 @@
  <row id="53013" trl="Y">
   <value column="Name" original="Document Action Access">单据操作权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define access to document type / document action / role combinations.">Define access to document type / document action / role combinations</value>
-  <value column="Help" original="Define access to document type / document action / role combinations.">Define access to document type / document action / role combinations</value>
+  <value column="Description" original="Define access to document type / document action / role combinations.">定义可访问的单据类型／单据操作／角色组合</value>
+  <value column="Help" original="Define access to document type / document action / role combinations.">定义可访问的单据类型／单据操作／角色组合</value>
  </row>
  <row id="53014" trl="Y">
   <value column="Name" original="Model Validator">模型验证</value>
@@ -4240,8 +4240,8 @@
  <row id="53028" trl="Y">
   <value column="Name" original="Parent Product">父产品</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define the Parent Product to this BOM &amp; Formula"><![CDATA[Define the Parent Product to this BOM & Formula]]></value>
-  <value column="Help" original="Define the Parent Product to this BOM &amp; Formula"><![CDATA[Define the Parent Product to this BOM & Formula]]></value>
+  <value column="Description" original="Define the Parent Product to this BOM &amp; Formula">为该物料清单 &amp; 配方定义父级产品</value>
+  <value column="Help" original="Define the Parent Product to this BOM &amp; Formula">为该物料清单 &amp; 配方定义父级产品</value>
  </row>
  <row id="53029" trl="Y">
   <value column="Name" original="Components of the BOM &amp; Formula">物料清单与配方的部件</value>
@@ -4339,7 +4339,7 @@
   <value column="Name" original="Product">产品</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product">定义产品</value>
-  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">产品页签 定义了在价目表和订单里 使用的各个产品和它的识别符。这货位是在收到这存储产品时的默认货位</value>
+  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">产品页签 定义了在价格表和订单里 使用的各个产品和它的识别符。这货位是在收到这存储产品时的默认货位</value>
  </row>
  <row id="53045" trl="Y">
   <value column="Name" original="Replenish">补仓</value>
@@ -4404,8 +4404,8 @@
  <row id="53055" trl="Y">
   <value column="Name" original="Distribution Order">配送单</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
-  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">分销订单允许创建仓库间订单以供应某个需求 </value>
+  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">分销订单允许创建仓库间订单以供应某个需求 </value>
  </row>
  <row id="53056" trl="Y">
   <value column="Name" original="Window">窗口</value>
@@ -4518,7 +4518,7 @@
  <row id="53076" trl="Y">
   <value column="Name" original="Tax Definition">税定义</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Lets you define different tax combinations.">让您定义不同的税组合</value>
+  <value column="Description" original="Lets you define different tax combinations.">让定义不同的税组合</value>
   <value column="Help" original="You can use the tax definition information to create the logic necessary to get the tax rate to your document.">You can use the tax definition information to create the logic necessary to get the tax rate to your document</value>
  </row>
  <row id="53077" trl="Y">
@@ -4531,13 +4531,13 @@
   <value column="Name" original="Tax Children">子税</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax definition">税的定义</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果您有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，您需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
  </row>
  <row id="53079" trl="Y">
   <value column="Name" original="Tax Parent">父税</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax definition">税的定义</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果您有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，您需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
  </row>
  <row id="53080" trl="Y">
   <value column="Name" original="Tax ZIP">税邮编</value>
@@ -4554,7 +4554,7 @@
  <row id="53082" trl="Y">
   <value column="Name" original="Tax Type">税类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax Types let you group taxes together.">税类型-让您将税分组集合</value>
+  <value column="Description" original="Tax Types let you group taxes together.">税类型-将税分组集合</value>
   <value column="Help" original=""/>
  </row>
  <row id="53083" trl="Y">
@@ -4908,7 +4908,7 @@
  <row id="53158" trl="Y">
   <value column="Name" original="Asset History">资产历史</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Detail asset transaction history">一次性事务处理</value>
+  <value column="Description" original="Detail asset transaction history">资产交易历史明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="53159" trl="Y">
@@ -5002,7 +5002,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53178" trl="Y">
-  <value column="Name" original="House Keeping">整理工作</value>
+  <value column="Name" original="House Keeping">系统后勤整理(House Keeping)</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5086,7 +5086,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53198" trl="Y">
-  <value column="Name" original="Import Price List">导入价目表</value>
+  <value column="Name" original="Import Price List">导入价格表</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import Price Lists">导入价格表</value>
   <value column="Help" original=""/>
@@ -5104,7 +5104,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53202" trl="Y">
-  <value column="Name" original="Group Line">组行</value>
+  <value column="Name" original="Group Line">组明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5227,7 +5227,7 @@
   <value column="Name" original="Customer Return">客户退货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Customer Returns">客户退货</value>
-  <value column="Help" original="The Customer Return Tab allows you to generate, maintain, enter and process Returns from a Customer. ">退货页签允许您维护、输入和处理来自客户的退货</value>
+  <value column="Help" original="The Customer Return Tab allows you to generate, maintain, enter and process Returns from a Customer. ">退货页签允许维护、输入和处理来自客户的退货</value>
  </row>
  <row id="53272" trl="Y">
   <value column="Name" original="Customer Return Line">客户退货明细</value>
@@ -5257,7 +5257,7 @@
   <value column="Name" original="Return to Vendor">供应商退货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Vendor Returns">供应商退货</value>
-  <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">退回供应商标签允许您生成、维护、输入和处理（由于退货造成的）发货单给供应商</value>
+  <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">退回供应商标签允许生成、维护、输入和处理（由于退货造成的）发货单给供应商</value>
  </row>
  <row id="53277" trl="Y">
   <value column="Name" original="Return to Vendor Line">收货单的行</value>
@@ -5317,7 +5317,7 @@
   <value column="Name" original="BOM">物料清单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Bill of Material product lines">物料清单行</value>
-  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated"><![CDATA[物料清单页签定义了那些从其他产品生成的产品。物料清单 (BOM) 是一个或多个的产品或物料清单。<p> 可用数量:<br> - <u>存储的BOM</u>必须通过“生产”创建<br> - <u>非存储的BOM</u>，其可用数量是动态计算的<br> - 属性“已存储”在“产品”页签中定义<br> <p> 价格:<br> - BOM必须被列于价格表中<br> - 如果价格为0.00，则价格被动态计算<br> <p> 打印:<br> - 通常，仅BOM信息被打印<br> - 对于发票、交货单和提货单，您可选择打印明细<br> - 在明细中，数量被列出来 - 如果价格是动态计算出来的，也将列出]]></value>
+  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated"><![CDATA[物料清单页签定义了那些从其他产品生成的产品。物料清单 (BOM) 是一个或多个的产品或物料清单。<p> 可用数量:<br> - <u>存储的BOM</u>必须通过“生产”创建<br> - <u>非存储的BOM</u>，其可用数量是动态计算的<br> - 属性“已存储”在“产品”页签中定义<br> <p> 价格:<br> - BOM必须被列于价格表中<br> - 如果价格为0.00，则价格被动态计算<br> <p> 打印:<br> - 通常，仅BOM信息被打印<br> - 对于发票、交货单和提货单，可选择打印明细<br> - 在明细中，数量被列出来 - 如果价格是动态计算出来的，也将列出]]></value>
  </row>
  <row id="53287" trl="Y">
   <value column="Name" original="Components">部件</value>
@@ -5446,7 +5446,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53335" trl="Y">
-  <value column="Name" original="Import Inventory Move">移库确认</value>
+  <value column="Name" original="Import Inventory Move">导入库存移动</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5734,9 +5734,9 @@
   <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">总账日记账行页签定义了组成日记账的各借项和贷项事务处理</value>
  </row>
  <row id="200009" trl="Y">
-  <value column="Name" original="Grid Sequence">更新序号</value>
+  <value column="Name" original="Grid Sequence">网格顺序</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Defined field order for grid layout">Defined field order for grid layout</value>
+  <value column="Description" original="Defined field order for grid layout">为列表格式定义字段</value>
   <value column="Help" original=""/>
  </row>
  <row id="200010" trl="Y">
@@ -5782,13 +5782,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="200021" trl="Y">
-  <value column="Name" original="Generator Line">新增行</value>
+  <value column="Name" original="Generator Line">生成明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200022" trl="Y">
-  <value column="Name" original="Generator Source">成本更新来源</value>
+  <value column="Name" original="Generator Source">生成源</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

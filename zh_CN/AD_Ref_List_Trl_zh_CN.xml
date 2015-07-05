@@ -338,7 +338,7 @@
  </row>
  <row id="188" trl="Y">
   <value column="Name" original="Re-activate">重激活</value>
-  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新开放单据，并逆转自动生成的单据；您需要在更改后重新完成事务处理</value>
+  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新开放单据，并逆转自动生成的单据；需要在更改后重新完成事务处理</value>
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="&lt;None&gt;"><![CDATA[<无>]]></value>
@@ -417,11 +417,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="214" trl="Y">
-  <value column="Name" original="After Order delivered">订单交付以后</value>
+  <value column="Name" original="After Order delivered">订单发货以后</value>
   <value column="Description" original="Invoice for every order">每订单开发票</value>
  </row>
  <row id="215" trl="Y">
-  <value column="Name" original="After Delivery">交付后</value>
+  <value column="Name" original="After Delivery">发货后</value>
   <value column="Description" original="Invoice per Delivery">每次交付开发票</value>
  </row>
  <row id="216" trl="Y">
@@ -445,7 +445,7 @@
   <value column="Description" original="As soon as all items of an order are available">只要订单上的所有物品可以供货，就允许发货</value>
  </row>
  <row id="221" trl="Y">
-  <value column="Name" original="Immediate">立即</value>
+  <value column="Name" original="Immediate">立即付款</value>
   <value column="Description" original="Immediate Invoice">立即发票</value>
  </row>
  <row id="222" trl="Y">
@@ -501,7 +501,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="235" trl="Y">
-  <value column="Name" original="Dime .10, .20, .30, ...">角 .10, .20, .30, ...</value>
+  <value column="Name" original="">角 .10, .20, .30, ...</value>
   <value column="Description" original=""/>
  </row>
  <row id="236" trl="Y">
@@ -657,8 +657,8 @@
   <value column="Description" original="Sales Region">销售区域</value>
  </row>
  <row id="280" trl="Y">
-  <value column="Name" original="Project">工程</value>
-  <value column="Description" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
+  <value column="Description" original="Project">项目</value>
  </row>
  <row id="281" trl="Y">
   <value column="Name" original="Campaign">营销活动</value>
@@ -681,7 +681,7 @@
   <value column="Description" original="Bill of Materials">物料清单</value>
  </row>
  <row id="286" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="Description" original=""/>
  </row>
  <row id="287" trl="Y">
@@ -1141,7 +1141,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="418" trl="Y">
-  <value column="Name" original="Discover">发现</value>
+  <value column="Name" original="Discover">Discover 信用卡</value>
   <value column="Description" original=""/>
  </row>
  <row id="419" trl="Y">
@@ -1365,7 +1365,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="483" trl="Y">
-  <value column="Name" original="Gradient">渐变的</value>
+  <value column="Name" original="Gradient">倾斜度</value>
   <value column="Description" original=""/>
  </row>
  <row id="484" trl="Y">
@@ -1689,7 +1689,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="567" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="Description" original=""/>
  </row>
  <row id="568" trl="Y">
@@ -2809,7 +2809,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="854" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="Description" original=""/>
  </row>
  <row id="855" trl="Y">
@@ -2865,7 +2865,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="868" trl="Y">
-  <value column="Name" original="Global Trade Item No GTIN UCC/EAN 128">Global Trade Item No GTIN UCC/EAN 128 条码</value>
+  <value column="Name" original="Global Trade Item No GTIN UCC/EAN 128">全球贸易项目标识代码(GTIN) EAN/UCC-128条形码</value>
   <value column="Description" original="Global Trade Name">全球贸易名称</value>
  </row>
  <row id="869" trl="Y">
@@ -2977,7 +2977,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="897" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="Description" original=""/>
  </row>
  <row id="898" trl="Y">
@@ -3846,7 +3846,7 @@
  </row>
  <row id="53361" trl="Y">
   <value column="Name" original="Disposals">处置</value>
-  <value column="Description" original="Disposal Entries for Fixed Asset">固定资产处置条目</value>
+  <value column="Description" original="Disposal Entries for Fixed Asset">对固定资产的处置条目</value>
  </row>
  <row id="53362" trl="Y">
   <value column="Name" original="Forecasts">预测</value>
@@ -3925,7 +3925,7 @@
   <value column="Description" original="Donated to Charity">已捐赠至慈善</value>
  </row>
  <row id="53381" trl="Y">
-  <value column="Name" original="Destroyed">已配置</value>
+  <value column="Name" original="Destroyed">已销毁</value>
   <value column="Description" original="Asset Destroyed">资产毁损</value>
  </row>
  <row id="53382" trl="Y">
@@ -4105,8 +4105,8 @@
   <value column="Description" original="Transaction Organization">事务处理组织</value>
  </row>
  <row id="53426" trl="Y">
-  <value column="Name" original="Project">工程</value>
-  <value column="Description" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
+  <value column="Description" original="Project">项目</value>
  </row>
  <row id="53427" trl="Y">
   <value column="Name" original="Product">产品</value>
@@ -4321,7 +4321,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53516" trl="Y">
-  <value column="Name" original="Data Storage">存储</value>
+  <value column="Name" original="Data Storage">数据存储</value>
   <value column="Description" original=""/>
  </row>
  <row id="53517" trl="Y">
@@ -4385,7 +4385,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53532" trl="Y">
-  <value column="Name" original="Data Speed">数据类型</value>
+  <value column="Name" original="Data Speed">数据速度</value>
   <value column="Description" original=""/>
  </row>
  <row id="53533" trl="Y">
@@ -4449,7 +4449,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53554" trl="Y">
-  <value column="Name" original="Implicit">Implicit</value>
+  <value column="Name" original="Implicit">隐含</value>
   <value column="Description" original=""/>
  </row>
  <row id="53555" trl="Y">
@@ -4521,7 +4521,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53595" trl="Y">
-  <value column="Name" original="Inbound">收入资产账目</value>
+  <value column="Name" original="Inbound">入库</value>
   <value column="Description" original=""/>
  </row>
  <row id="53596" trl="Y">
@@ -4557,7 +4557,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53604" trl="Y">
-  <value column="Name" original="Project">工程</value>
+  <value column="Name" original="Project">项目</value>
   <value column="Description" original=""/>
  </row>
  <row id="53605" trl="Y">
@@ -4590,7 +4590,7 @@
  </row>
  <row id="53612" trl="Y">
   <value column="Name" original="-">-</value>
-  <value column="Description" original="Don't know / Doesn't matter">Don't know / Doesn't matter</value>
+  <value column="Description" original="Don't know / Doesn't matter">不知道 / 无所谓</value>
  </row>
  <row id="53613" trl="Y">
   <value column="Name" original="- / Default Yes">是-否</value>
@@ -4950,35 +4950,35 @@
  </row>
  <row id="200045" trl="Y">
   <value column="Name" original="Just Once">仅一次</value>
-  <value column="Description" original="Message will be broadcasted one time">Message will be broadcasted one time</value>
+  <value column="Description" original="Message will be broadcasted one time">消息仅广播一次</value>
  </row>
  <row id="200046" trl="Y">
-  <value column="Name" original="Until Expiration">支付截止</value>
-  <value column="Description" original="Repeat it until message expiration value">Repeat it until message expiration value</value>
+  <value column="Name" original="Until Expiration">直到到期</value>
+  <value column="Description" original="Repeat it until message expiration value">消息过期为止重复广播</value>
  </row>
  <row id="200047" trl="Y">
   <value column="Name" original="Immediate">立即</value>
-  <value column="Description" original="show a modal popup dialog to all users connected">show a modal popup dialog to all users connected</value>
+  <value column="Description" original="show a modal popup dialog to all users connected">对所有已连接用户显示对话框(Modal)</value>
  </row>
  <row id="200048" trl="Y">
-  <value column="Name" original="Immediate + Login">自动登录</value>
-  <value column="Description" original="Immediate + Login">自动登录</value>
+  <value column="Name" original="Immediate + Login">立即+登录</value>
+  <value column="Description" original="Immediate + Login">立即+登录</value>
  </row>
  <row id="200049" trl="Y">
   <value column="Name" original="Login">登录</value>
-  <value column="Description" original="Shows a modal popup dialog at login time">Shows a modal popup dialog at login time</value>
+  <value column="Description" original="Shows a modal popup dialog at login time">登陆系统时显示对话框(Modal)</value>
  </row>
  <row id="200050" trl="Y">
   <value column="Name" original="Client">实体</value>
   <value column="Description" original="Client">实体</value>
  </row>
  <row id="200051" trl="Y">
-  <value column="Name" original="Everybody">Everybody</value>
-  <value column="Description" original="Everybody will receive message">AD_消息类型</value>
+  <value column="Name" original="Everybody">所有人</value>
+  <value column="Description" original="Everybody will receive message">所有人将收到该消息</value>
  </row>
  <row id="200052" trl="Y">
   <value column="Name" original="Role">角色</value>
-  <value column="Description" original="Message will reach out to all users with this role">Message will reach out to all users with this role</value>
+  <value column="Description" original="Message will reach out to all users with this role">为该角色的所有用户发布发布消息</value>
  </row>
  <row id="200053" trl="Y">
   <value column="Name" original="User">用户</value>
@@ -5061,7 +5061,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200074" trl="Y">
-  <value column="Name" original="Date Certain">账户日期</value>
+  <value column="Name" original="Date Certain">确定日期</value>
   <value column="Description" original=""/>
  </row>
  <row id="200075" trl="Y">
@@ -5117,12 +5117,12 @@
   <value column="Description" original=""/>
  </row>
  <row id="200088" trl="Y">
-  <value column="Name" original="Do Not Insure">不投保</value>
+  <value column="Name" original="Do Not Insure">请勿保险</value>
   <value column="Description" original=""/>
  </row>
  <row id="200089" trl="Y">
   <value column="Name" original="FOB Origin">FOB原产地的价格</value>
-  <value column="Description" original="Domestic FOB Origin - default for domestic shipping">Domestic FOB Origin - default for domestic shipping</value>
+  <value column="Description" original="Domestic FOB Origin - default for domestic shipping">国内原产地离岸价(FOB Origin) - 国内发运时默认</value>
  </row>
  <row id="200090" trl="Y">
   <value column="Name" original="Ex Works">卖方工厂交货</value>
@@ -5165,8 +5165,8 @@
   <value column="Description" original="DES - Delivered Ex Ship (sea shipments only)">DES - 船上交货(指定目的港)(仅用于海运)</value>
  </row>
  <row id="200100" trl="Y">
-  <value column="Name" original="Domestic FOB Destination">目标度量单位</value>
-  <value column="Description" original="Domestic FOB Destination">目标度量单位</value>
+  <value column="Name" original="Domestic FOB Destination">国内目的地离岸价(FOB Destination)</value>
+  <value column="Description" original="Domestic FOB Destination">国内目的地离岸价(FOB Destination)</value>
  </row>
  <row id="200101" trl="Y">
   <value column="Name" original="EXW - Ex Works (FedEx)">EXW - 卖方工厂交货 (FedEx)</value>

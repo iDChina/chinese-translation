@@ -283,7 +283,7 @@
  <row id="121" trl="Y">
   <value column="Name" original="X12DE98 Entity Identifier Code">X12DE98 实体标识码</value>
   <value column="Description" original="X12DE98 Entity Identifier Code list">X12DE98 实例标识码表</value>
-  <value column="Help" original="Identify organizational entity physical location property or individual list">标识组织组织级实体的物理位置财产或者独立体列表</value>
+  <value column="Help" original="Identify organizational entity physical location property or individual list">标识组织级实体的物理位置财产或者独立体列表</value>
  </row>
  <row id="122" trl="Y">
   <value column="Name" original="C_AcctSchema Costing Method">C_会计模式 成本计算方法</value>
@@ -546,9 +546,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="181" trl="Y">
-  <value column="Name" original="C_AcctSchema ElementType">C_会计模式 元素类型</value>
+  <value column="Name" original="C_AcctSchema ElementType">C_AcctSchema 元素类型</value>
   <value column="Description" original="Element Types for Accounting Elements">会计科目涉及的元素类型</value>
-  <value column="Help" original="Hardcoded Element Types">Hardcoded 元素打字</value>
+  <value column="Help" original="Hardcoded Element Types">硬编码的元素类型</value>
  </row>
  <row id="182" trl="Y">
   <value column="Name" original="C_ElementValue (all)">C_要素值 (全部)</value>
@@ -602,7 +602,7 @@
  </row>
  <row id="195" trl="Y">
   <value column="Name" original="_Payment Rule">_付款 规则</value>
-  <value column="Description" original="In &amp; Out Payment Options">导入付款</value>
+  <value column="Description" original="In &amp; Out Payment Options">入与出付款选项</value>
   <value column="Help" original=""/>
  </row>
  <row id="196" trl="Y">
@@ -2047,7 +2047,7 @@
  </row>
  <row id="53331" trl="Y">
   <value column="Name" original="AD_RelationType Role">AD_关联类型 角色</value>
-  <value column="Description" original="Defines the possible &quot;roles&quot; a the records of a relation can have">Defines the possible "roles" a the records of a relation can have</value>
+  <value column="Description" original="Defines the possible &quot;roles&quot; a the records of a relation can have">定义可能"角色"到存在某个关联的记录上</value>
   <value column="Help" original=""/>
  </row>
  <row id="53332" trl="Y">
@@ -2266,7 +2266,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
-  <value column="Name" original="C_ElementValue (trx) Not Doc Controlled">C_ElementValue (trx) Not Doc Controlled</value>
+  <value column="Name" original="C_ElementValue (trx) Not Doc Controlled">C_ElementValue (trx) 无单据控制</value>
   <value column="Description" original="Element Values">元素值</value>
   <value column="Help" original=""/>
  </row>
@@ -2336,7 +2336,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200025" trl="Y">
-  <value column="Name" original="HomeDeliveryPremiumType">HomeDeliveryPremiumType</value>
+  <value column="Name" original="HomeDeliveryPremiumType">送货到家高级类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2366,7 +2366,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200031" trl="Y">
-  <value column="Name" original="DeliveryConfirmationType">DeliveryConfirmationType</value>
+  <value column="Name" original="DeliveryConfirmationType">交货确认类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2496,7 +2496,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200070" trl="N">
-  <value column="Name" original="Database Data Type">Database Data Type</value>
+  <value column="Name" original="Database Data Type"数据库数据类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
