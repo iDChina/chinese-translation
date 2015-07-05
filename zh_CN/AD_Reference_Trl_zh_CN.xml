@@ -907,7 +907,7 @@
  </row>
  <row id="257" trl="Y">
   <value column="Name" original="AD_Column Integer">AD_Column 整数</value>
-  <value column="Description" original="Integer Type only (Name)">只有整数类型</value>
+  <value column="Description" original="Integer Type only (Name)">只有整数类型(名称)</value>
   <value column="Help" original=""/>
  </row>
  <row id="258" trl="Y">
@@ -1893,7 +1893,7 @@
  <row id="53277" trl="Y">
   <value column="Name" original="A_CapvsExp">A_CapvsExp</value>
   <value column="Description" original="Capital vs Expense">资本 vs 费用</value>
-  <value column="Help" original="Inidcates if charge is capital or expense">指明这是一笔费用</value>
+  <value column="Help" original="Inidcates if charge is capital or expense">表明这是一笔费用</value>
  </row>
  <row id="53278" trl="Y">
   <value column="Name" original="C_ValidCombination (Assets)">C_ValidCombination(资产)</value>
@@ -1926,9 +1926,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="53285" trl="Y">
-  <value column="Name" original="Scaling Factors">临时货位</value>
-  <value column="Description" original="Factors for scaling the results of financial reports.">Factors for scaling the results of financial reports.</value>
-  <value column="Help" original="Currently supported: thousand, million.">Currently supported: thousand, million.</value>
+  <value column="Name" original="Scaling Factors">比例因子</value>
+  <value column="Description" original="Factors for scaling the results of financial reports.">财务报告缩放结果因子</value>
+  <value column="Help" original="Currently supported: thousand, million.">目前支持：千、百万</value>
  </row>
  <row id="53287" trl="Y">
   <value column="Name" original="PP_CostCollectorType Transaction Manufacturing Management">PP_CostCollectorType (成本归集类型)事务生产管理</value>

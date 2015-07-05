@@ -57,7 +57,7 @@
  <row id="109" trl="Y">
   <value column="Name" original="Message">消息</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Information Error and Menu Messages">信息，错误和菜单文本</value>
+  <value column="Description" original="Information Error and Menu Messages">错误信息和菜单消息</value>
   <value column="Help" original="The Message Tab displays error message text and menu messages">消息页签显示了错误消息文本和菜单消息</value>
  </row>
  <row id="110" trl="Y">
@@ -790,10 +790,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="270" trl="Y">
-  <value column="Name" original="Invoice Line">发票行</value>
+  <value column="Name" original="Invoice Line">发票明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Customer Invoice Line">客户发票行</value>
-  <value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">发票行页签定义了发票上的各项或杂费</value>
+  <value column="Description" original="Customer Invoice Line">客户发票明细</value>
+  <value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">发票明细页签定义了发票上的各项或杂费</value>
  </row>
  <row id="271" trl="Y">
   <value column="Name" original="Invoice Tax">发票 税</value>
@@ -2630,10 +2630,10 @@
   <value column="Help" original="Everyone can give comments concerning a Bid Topic - e.g. Questions, Suggestions">每个人可以针对某竞标主题给出评注 - 如问题、建议等</value>
  </row>
  <row id="602" trl="Y">
-  <value column="Name" original="Seller">卖家</value>
+  <value column="Name" original="Seller">卖方</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Aution Seller Information">拍卖卖方信息</value>
-  <value column="Help" original="Information about a participant in an Auction as a Seller">参与拍卖的卖家信息</value>
+  <value column="Help" original="Information about a participant in an Auction as a Seller">参与拍卖的卖方信息</value>
  </row>
  <row id="603" trl="Y">
   <value column="Name" original="Funds">基金</value>
@@ -2651,7 +2651,7 @@
   <value column="Name" original="Buyer">买家</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Aution Buyer Information">拍卖买方信息</value>
-  <value column="Help" original="Information about a participant in an Auction as a Buyer">参与拍卖的买家信息</value>
+  <value column="Help" original="Information about a participant in an Auction as a Buyer">参与拍卖的买方信息</value>
  </row>
  <row id="606" trl="Y">
   <value column="Name" original="Funds">基金</value>
@@ -3023,7 +3023,7 @@
   <value column="Name" original="SLA Goal">服务级别协议目标</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Service Level Agreement Goal">服务级别协议目标</value>
-  <value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">业务伙伴服务级别协议条件的各目标</value>
+  <value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">业务伙伴服务等级协议(SLA)的单个目标</value>
  </row>
  <row id="671" trl="Y">
   <value column="Name" original="SLA Measure">服务级别协议评估</value>
@@ -3098,10 +3098,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="683" trl="Y">
-  <value column="Name" original="Internal Use Line">内部使用行</value>
+  <value column="Name" original="Internal Use Line">内部使用明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Internal Use Inventory Line">内部使用库存的行</value>
-  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory.">库存盘点行定义了库存各产品的数量</value>
+  <value column="Description" original="Internal Use Inventory Line">内部使用的库存明细</value>
+  <value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory.">库存盘点明细定义了库存各产品的数量</value>
  </row>
  <row id="684" trl="Y">
   <value column="Name" original="Allocation">分配</value>
@@ -4007,24 +4007,24 @@
   <value column="Name" original="Window">窗口</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Info and search/select Window">资料及搜索/选择窗口</value>
-  <value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">资料窗口用于搜索和选择记录，同时用于显示与选择项相关的信息</value>
+  <value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">信息窗口用于搜索和选择记录，同时用于显示与选择项相关的信息</value>
  </row>
  <row id="843" trl="Y">
   <value column="Name" original="Window Translation">窗口翻译</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Info Window Translation">资料窗口的翻译</value>
+  <value column="Description" original="Info Window Translation">信息窗口的翻译</value>
   <value column="Help" original=""/>
  </row>
  <row id="844" trl="Y">
   <value column="Name" original="Column">列</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Info Window Column">资料窗口的列</value>
-  <value column="Help" original="Column in the Info Window for display and/or selection.  If used for selection, the column cannot be a SQL expression. The SQL clause must be fully qualified based on the FROM clause in the Info Window definition">资料窗口中的列，用于显示和/或选择。如果用于选择，列不能是 SQL 表达式。SQL 语句必须基于资料窗口定义中的 FROM 子句完全验证</value>
+  <value column="Description" original="Info Window Column">信息窗口的列</value>
+  <value column="Help" original="Column in the Info Window for display and/or selection.  If used for selection, the column cannot be a SQL expression. The SQL clause must be fully qualified based on the FROM clause in the Info Window definition">信息窗口中的列，用于显示和/或选择。如果用于选择，列不能是 SQL 表达式。SQL 语句必须基于信息窗口定义中的 FROM 子句完全验证</value>
  </row>
  <row id="845" trl="Y">
   <value column="Name" original="Column Translation">列 翻译</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Infow Window Column Translation">资料窗口列的翻译</value>
+  <value column="Description" original="Infow Window Column Translation">信息窗口列的翻译</value>
   <value column="Help" original=""/>
  </row>
  <row id="846" trl="Y">
@@ -4920,7 +4920,7 @@
  <row id="53160" trl="Y">
   <value column="Name" original="Insurance Information">保险信息</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Insurance Information for asset">保险信息</value>
+  <value column="Description" original="Insurance Information for asset">资产保险信息</value>
   <value column="Help" original=""/>
  </row>
  <row id="53161" trl="Y">
@@ -5992,7 +5992,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200064" trl="Y">
-  <value column="Name" original="Info Access">访问审核</value>
+  <value column="Name" original="Info Access">信息访问</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
