@@ -338,7 +338,7 @@
  </row>
  <row id="188" trl="Y">
   <value column="Name" original="Re-activate">重激活</value>
-  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新开放单据，并逆转自动生成的单据；您需要在更改后重新完成事务处理。 </value>
+  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新开放单据，并逆转自动生成的单据；您需要在更改后重新完成事务处理</value>
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="&lt;None&gt;"><![CDATA[<无>]]></value>
@@ -2025,7 +2025,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="654" trl="Y">
-  <value column="Name" original="Dashed Line">划线</value>
+  <value column="Name" original="Dashed Line">虚线</value>
   <value column="Description" original=""/>
  </row>
  <row id="655" trl="Y">
@@ -4066,7 +4066,7 @@
  </row>
  <row id="53416" trl="Y">
   <value column="Name" original="Capital">股本</value>
-  <value column="Description" original="Indicates cost associated with this entry is capital">与该请求关联的金额</value>
+  <value column="Description" original="Indicates cost associated with this entry is capital">表示与该条目相关的成本是资本</value>
  </row>
  <row id="53417" trl="Y">
   <value column="Name" original="Expense">支出</value>
@@ -4430,7 +4430,7 @@
  </row>
  <row id="53545" trl="Y">
   <value column="Name" original="Balance (accounted sign)">余额累计</value>
-  <value column="Description" original="DR - CR">差异贷项</value>
+  <value column="Description" original="DR - CR">借 - 贷</value>
  </row>
  <row id="53546" trl="Y">
   <value column="Name" original="Quantity (accounted sign)">数量 (accounted sign)</value>
@@ -4833,19 +4833,19 @@
   <value column="Description" original=""/>
  </row>
  <row id="53726" trl="N">
-  <value column="Name" original="New">New</value>
+  <value column="Name" original="New">新</value>
   <value column="Description" original=""/>
  </row>
  <row id="53727" trl="N">
-  <value column="Name" original="Working">Working</value>
+  <value column="Name" original="Working">工作</value>
   <value column="Description" original=""/>
  </row>
  <row id="53728" trl="N">
-  <value column="Name" original="Expired">Expired</value>
+  <value column="Name" original="Expired">过期</value>
   <value column="Description" original=""/>
  </row>
  <row id="53729" trl="N">
-  <value column="Name" original="Recycled">Recycled</value>
+  <value column="Name" original="Recycled">再利用</value>
   <value column="Description" original=""/>
  </row>
  <row id="53744" trl="N">
@@ -4853,19 +4853,19 @@
   <value column="Description" original=""/>
  </row>
  <row id="53745" trl="N">
-  <value column="Name" original="Phone call">Phone call</value>
+  <value column="Name" original="Phone call">电话呼叫</value>
   <value column="Description" original=""/>
  </row>
  <row id="53746" trl="N">
-  <value column="Name" original="Meeting">Meeting</value>
+  <value column="Name" original="Meeting">会议</value>
   <value column="Description" original=""/>
  </row>
  <row id="53747" trl="N">
-  <value column="Name" original="Task">Task</value>
+  <value column="Name" original="Task">任务</value>
   <value column="Description" original=""/>
  </row>
  <row id="53748" trl="N">
-  <value column="Name" original="Converted">Converted</value>
+  <value column="Name" original="Converted">已转换</value>
   <value column="Description" original=""/>
  </row>
  <row id="200008" trl="Y">
@@ -4897,7 +4897,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="Charged">Charged</value>
+  <value column="Name" original="Charged">已收款</value>
   <value column="Description" original=""/>
  </row>
  <row id="200021" trl="Y">
@@ -4905,7 +4905,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200022" trl="Y">
-  <value column="Name" original="Replaced">Replaced</value>
+  <value column="Name" original="Replaced">更换</value>
   <value column="Description" original=""/>
  </row>
  <row id="200023" trl="Y">
@@ -5130,11 +5130,11 @@
  </row>
  <row id="200091" trl="Y">
   <value column="Name" original="CFR - Cost and Freight">CFR - 成本加运费(......指定目的地)</value>
-  <value column="Description" original="CFR - Cost and Freight (sea shipments only)">CFR - 成本加运费(......指定目的地)(只用于海运)</value>
+  <value column="Description" original="CFR - Cost and Freight (sea shipments only)">CFR - 成本加运费(......指定目的地)(仅用于海运)</value>
  </row>
  <row id="200092" trl="Y">
   <value column="Name" original="CIF - Cost, Insurance, and Freight (FedEx)">CIF - 成本加保险费、运费(......指定目的港) (FedEx)</value>
-  <value column="Description" original="CIF - Cost, Insurance, and Freight (sea shipments only)">CIF - 成本加保险费、运费(......指定目的港)(只用于海运)</value>
+  <value column="Description" original="CIF - Cost, Insurance, and Freight (sea shipments only)">CIF - 成本加保险费、运费(......指定目的港)(仅用于海运)</value>
  </row>
  <row id="200093" trl="Y">
   <value column="Name" original="CIP - Carriage and Insurance Paid To (FedEx)">CIP - 运费、保险费付至(......指定目的地) (FedEx)</value>
@@ -5158,11 +5158,11 @@
  </row>
  <row id="200098" trl="Y">
   <value column="Name" original="DEQ - Delivered Ex Quay">DEQ - 码头交货(指定目的港)</value>
-  <value column="Description" original="DEQ - Delivered Ex Quay (sea shipments only)">DEQ - 码头交货(指定目的港)(只用于海运)</value>
+  <value column="Description" original="DEQ - Delivered Ex Quay (sea shipments only)">DEQ - 码头交货(指定目的港)(仅用于海运)</value>
  </row>
  <row id="200099" trl="Y">
   <value column="Name" original="DES - Delivered Ex Ship">DES - 船上交货(指定目的港)</value>
-  <value column="Description" original="DES - Delivered Ex Ship (sea shipments only)">DES - 船上交货(指定目的港)(只用于海运)</value>
+  <value column="Description" original="DES - Delivered Ex Ship (sea shipments only)">DES - 船上交货(指定目的港)(仅用于海运)</value>
  </row>
  <row id="200100" trl="Y">
   <value column="Name" original="Domestic FOB Destination">目标度量单位</value>
@@ -5174,7 +5174,7 @@
  </row>
  <row id="200102" trl="Y">
   <value column="Name" original="FAS - Free Alongside Ship">FAS - 船边交货</value>
-  <value column="Description" original="FAS - Free Alongside Ship (sea shipments only)">FAS - 船边交货(......指定装运港)(只用于海运)</value>
+  <value column="Description" original="FAS - Free Alongside Ship (sea shipments only)">FAS - 船边交货(......指定装运港)(仅用于海运)</value>
  </row>
  <row id="200103" trl="Y">
   <value column="Name" original="FCA - Free Carrier (FedEx)">FCA - 货交承运人 (FedEx)</value>
@@ -5182,7 +5182,7 @@
  </row>
  <row id="200104" trl="Y">
   <value column="Name" original="FOB - Free on Board (FedEx)">FOB - 船上交货 (FedEx)</value>
-  <value column="Description" original="FOB - Free on Board (sea shipments only)">FOB - 船上交货(只用于海运)</value>
+  <value column="Description" original="FOB - Free on Board (sea shipments only)">FOB - 船上交货(仅用于海运)</value>
  </row>
  <row id="200105" trl="Y">
   <value column="Name" original="Adult">审计</value>

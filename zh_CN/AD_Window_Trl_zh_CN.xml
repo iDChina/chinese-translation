@@ -54,7 +54,7 @@
   <value column="Name" original="Client">实体</value>
   <value column="Description" original="Maintain Clients/Tenants">维护客户/主顾</value>
   <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">客户是最高层次的独立商业实体. 每个客户有一个或多个组织对他负责.  每个客户定义会计参数(会计模式, 树定义, 非货币度量单位). 要想创建新客户, 请以系统管理员角色运行“初始化客户设置”.
-不能在此窗口中创建新客户, 但使用“初始化客户设置”设置需要安全和访问规则. 如果您在这里创建新客户, 您将不能查看它；也没有设置必需的客户基础架构.</value>
+不能在此窗口中创建新客户, 但使用“初始化客户设置”设置需要安全和访问规则. 如果您在这里创建新客户, 您将不能查看它；也没有设置必需的客户基础架构</value>
  </row>
  <row id="110" trl="Y">
   <value column="Name" original="Organization">组织</value>
@@ -86,12 +86,12 @@
  <row id="115" trl="Y">
   <value column="Name" original="Currency">币种</value>
   <value column="Description" original="Maintain Currencies">维护货币</value>
-  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Client level only for statistical currencies (e.g. for instable currencies) ">此窗口定义用于文档和报表的各种货币，你应该在系统级定义使用的货币，在客户级增加仅用于统计的货币（如不稳定的货币）。 </value>
+  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Client level only for statistical currencies (e.g. for instable currencies) ">此窗口定义用于文档和报表的各种货币，你应该在系统级定义使用的货币，在客户级增加仅用于统计的货币（如不稳定的货币）</value>
  </row>
  <row id="116" trl="Y">
   <value column="Name" original="Currency Rate">汇率</value>
   <value column="Description" original="Maintain Currency Conversion Rates">维护汇率设置</value>
-  <value column="Help" original="The Conversion Rates window is used to define the conversion rates that will be used when converting document amounts from one currency to another. Note that only the multiply rate is used; The divide rate is for visualization only.">此窗口定义在从一种货币到另一种货币进行单据金额转换的时候的转换比率。注意 仅使用乘的比率。除的比率只是用作显示的.</value>
+  <value column="Help" original="The Conversion Rates window is used to define the conversion rates that will be used when converting document amounts from one currency to another. Note that only the multiply rate is used; The divide rate is for visualization only.">此窗口定义在从一种货币到另一种货币进行单据金额转换的时候的转换比率。注意 仅使用乘的比率。除的比率只是用作显示的</value>
  </row>
  <row id="117" trl="Y">
   <value column="Name" original="Calendar Year and Period">日历年和期间</value>
@@ -243,7 +243,7 @@
  <row id="153" trl="Y">
   <value column="Name" original="Account Combination">账户组合</value>
   <value column="Description" original="Maintain Valid Account Combinations ">维持有效的账户组合 </value>
-  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">定义账户组合窗口并且显示有效的账户组合。 </value>
+  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">定义账户组合窗口并且显示有效的账户组合</value>
  </row>
  <row id="154" trl="Y">
   <value column="Name" original="GL Budget">总账预算</value>
@@ -468,7 +468,7 @@
  <row id="213" trl="Y">
   <value column="Name" original="Performance Measure Calculation">绩效指标计算</value>
   <value column="Description" original="Define how you calculate your performance measures">定义如何计算您的绩效指标</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">请先在SQL上测试这个声明.	这个选择指令须要返加一个单一的值!	所有时间范围的限制, 组织, 业务伙伴, 产品将会通过完成 "绩效度量" 窗口.  这是一般的计算.	在这里要注意一些技术方面的东西, 这系统有一些预先确定的例子.</value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">请先在SQL上测试这个声明.	这个选择指令须要返加一个单一的值!	所有时间范围的限制, 组织, 业务伙伴, 产品将会通过完成 "绩效度量" 窗口.  这是一般的计算.	在这里要注意一些技术方面的东西, 这系统有一些预先确定的例子</value>
  </row>
  <row id="215" trl="Y">
   <value column="Name" original="Performance Measure">绩效指标</value>
@@ -533,7 +533,7 @@
  <row id="229" trl="Y">
   <value column="Name" original="Window Customization">窗口自定义</value>
   <value column="Description" original="Define Window Customization for Role/User">为角色/用户定义窗口的定制</value>
-  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">此处定义的自定义值，会覆盖/替换默认的系统定义 (如果已定义的话)</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">此处定义的定制值，会覆盖/替换默认的系统定义 (如果已定义的话)</value>
  </row>
  <row id="231" trl="Y">
   <value column="Name" original="Workbench">工作台</value>
@@ -568,7 +568,7 @@
  <row id="237" trl="Y">
   <value column="Name" original="Resource Type">资源类型</value>
   <value column="Description" original="Maintain Resource Types">维护资源类型</value>
-  <value column="Help" original="Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days.">Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days.</value>
+  <value column="Help" original="Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days.">Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days</value>
  </row>
  <row id="238" trl="Y">
   <value column="Name" original="Print Color">打印颜色</value>
@@ -810,7 +810,7 @@
  <row id="285" trl="Y">
   <value column="Name" original="Replication Strategy">复制策略</value>
   <value column="Description" original="Maintain Data Replication Strategy">维护数据复制策略</value>
-  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">数据备份策略决定哪些数据表及其如何被复制. 注意合并不会对应用程序目录进行同步.</value>
+  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">数据备份策略决定哪些数据表及其如何被复制. 注意合并不会对应用程序目录进行同步</value>
  </row>
  <row id="286" trl="Y">
   <value column="Name" original="Project (Lines/Issues)">项目 (明细/投放)</value>
@@ -865,7 +865,7 @@
  <row id="296" trl="Y">
   <value column="Name" original="Import Currency Rate">导入汇率</value>
   <value column="Description" original="Import Currency Conversion Rates">导入货币兑换率</value>
-  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">比率在通货和转变的确认之后被输入率类型和比率。 那繁殖比率被用。 如果互惠的比率是被产生, 那分开比率被用。 </value>
+  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">比率在通货和转变的确认之后被输入率类型和比率。 那繁殖比率被用。 如果互惠的比率是被产生, 那分开比率被用</value>
  </row>
  <row id="297" trl="Y">
   <value column="Name" original="Workflow Process">工作流过程监视</value>
@@ -1391,7 +1391,7 @@
  <row id="53005" trl="Y">
   <value column="Name" original="Manufacturing Workflows">生产工艺</value>
   <value column="Description" original="Maintain Manufacturing Workflows (Routing)">维护生产工艺</value>
-  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc</value>
  </row>
  <row id="53006" trl="Y">
   <value column="Name" original="Bill of Materials &amp; Formula ">物料清单与配方 </value>
@@ -1446,7 +1446,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53009" trl="Y">
   <value column="Name" original="Manufacturing Order">生产单</value>
   <value column="Description" original="Maintain Manufacturing Order">维护生产单</value>
-  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities</value>
  </row>
  <row id="53010" trl="Y">
   <value column="Name" original="Spare parts">零件</value>
@@ -1471,7 +1471,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53014" trl="Y">
   <value column="Name" original="Cost Collector">成本归集</value>
   <value column="Description" original="The cost collector is a repository of all the MO transactions.">组织持有资产</value>
-  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.</value>
+  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element</value>
  </row>
  <row id="53015" trl="Y">
   <value column="Name" original="ASP Modules">ASP 模块</value>
@@ -1500,7 +1500,7 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53020" trl="Y">
   <value column="Name" original="Tax Group">税组</value>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">税 Groups let you group the business partner with a reference tax.</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">税 Groups let you group the business partner with a reference tax</value>
   <value column="Help" original=""/>
  </row>
  <row id="53021" trl="Y">
@@ -1735,8 +1735,8 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53078" trl="Y">
   <value column="Name" original="Report Cube">报表立方体</value>
-  <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Define reporting cube for pre-calculation of summary accounting data.</value>
-  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..</value>
+  <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Define reporting cube for pre-calculation of summary accounting data</value>
+  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions</value>
  </row>
  <row id="53085" trl="Y">
   <value column="Name" original="MRP Notice (all)">MRP 通知(全部)</value>
@@ -1762,7 +1762,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53098" trl="Y">
   <value column="Name" original="Return to Vendor">供应商退货</value>
   <value column="Description" original="Vendor Returns">供应商退货</value>
-  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.</value>
+  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return</value>
  </row>
  <row id="53099" trl="Y">
   <value column="Name" original="Vendor RMA">供应商退货授权</value>
@@ -1862,7 +1862,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53128" trl="Y">
   <value column="Name" original="Parts and BOMs">安提瓜与巴布达</value>
   <value column="Description" original="Maintain Bill of Materials">维护BOM</value>
-  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.</value>
+  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing</value>
  </row>
  <row id="53134" trl="Y">
   <value column="Name" original="Cash Plan">现金计划</value>
@@ -1882,7 +1882,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53152" trl="N">
   <value column="Name" original="Contact">Contact</value>
   <value column="Description" original="Maintain Contacts">Maintain Contacts</value>
-  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact</value>
  </row>
  <row id="53153" trl="N">
   <value column="Name" original="Lead">Lead</value>
@@ -2022,12 +2022,12 @@ MRP - 110	 No exists Dem</value>
  <row id="200031" trl="Y">
   <value column="Name" original="Payments into Batch">批单据号</value>
   <value column="Description" original="Process Payments">处理付款</value>
-  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">The Process Receipts Window allows you to enter receipts for invoices.  If the payment is for a single invoice then it can be processed here.</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">The Process Receipts Window allows you to enter receipts for invoices.  If the payment is for a single invoice then it can be processed here</value>
  </row>
  <row id="200034" trl="Y">
   <value column="Name" original="Context Help"><![CDATA[帮助(&H)]]></value>
   <value column="Description" original="Maintain Context Helps">工作流流程上下文</value>
-  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.</value>
+  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">The Context Help window defines the context help message text to display in the help pane. It is for Web UI only</value>
  </row>
  <row id="200036" trl="N">
   <value column="Name" original="1099 Box">1099 Box</value>
