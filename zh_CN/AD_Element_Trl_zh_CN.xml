@@ -25310,9 +25310,9 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53347" trl="Y">
-  <value column="Name" original="Fail if Build Differ">Fail if Build Differ</value>
-  <value column="PrintName" original="Fail if Build Differ">Fail if Build Differ</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Fail if Build Differ">构筑版本差异时是否报错</value>
+  <value column="PrintName" original="Fail if Build Differ">构筑版本差异时是否报错</value>
+  <value column="Description" original="">该选项挑勾时，如果AD_SYSTEM.lastbuildinfo和MSysConfig.APPLICATION_MAIN_VERSION不一致，为了确保安全系统将无法启动</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
