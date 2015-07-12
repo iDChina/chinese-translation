@@ -1459,7 +1459,6 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Postal Code Format">邮编格式</value>
   <value column="PrintName" original="Postal Code Format">邮编格式</value>
   <value column="Description" original="Format of the postal code; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">邮编格式; 可包含固定格式元素, 变量: "_lLoOaAcCa09"</value>
-  
   <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>&lt;B&gt;验证元素：:&lt;/B&gt;</B>
 [tab]( 空格) 任意字符
 _[tab]空格 (固定字符)
@@ -2358,7 +2357,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Minimum Level">最低库存线</value>
   <value column="PrintName" original="Minimum Level">最低库存线</value>
   <value column="Description" original="Minimum Inventory level for this product">该产品的最高库存线</value>
-  <value column="Help" original="Indicates the minimum quantity of this product to be stocked in inventory.&#10;">表示该产品在库存中要存储的最低下限数量&#10;</value>
+  <value column="Help" original="Indicates the minimum quantity of this product to be stocked in inventory.&#10;">表示该产品在库存中要存储的最低下限数量
+</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5543,7 +5543,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Relative Priority">相对优先级</value>
   <value column="PrintName" original="Relative Priority">相对优先级</value>
   <value column="Description" original="Where inventory should be picked from first">库存应首先挑拣之处</value>
-  <value column="Help" original="The Relative Priority indicates the location to pick from first if an product is stored in more than one location.  (100 = highest priority, 0 = lowest).  For outgoing shipments, the location is picked with the highest priority where the entire quantity can be shipped from.  If there is no location, the location with the highest priority is used.&#10;The Priority is ignored for products with Guarantee Date (always the oldest first) or if a specific instance is selected.&#10;Incoming receipts are stored at the location with the highest priority, if not explicitly selected.">相对优先级表示如果产品被存储于多个库位时，哪个库位首先被挑拣。(100=最高优先级，0=最低优先级) 。对于发货单，可挑拣出完整数量的最高优先级库位将被用于出货；如果没有这样的库位，则使用具有最高优先级的库位（也就是说即使是这个库位不能挑拣出完整数量）&#10;下列情况中，优先级将被忽略：有质保日期 (总是先入先出)的产品，或者指定了特定实例的产品&#10;对于收货单，则将货物储存于最高优先级的位置，如果没有明确指定的话</value>
+  <value column="Help" original="The Relative Priority indicates the location to pick from first if an product is stored in more than one location.  (100 = highest priority, 0 = lowest).  For outgoing shipments, the location is picked with the highest priority where the entire quantity can be shipped from.  If there is no location, the location with the highest priority is used.&#10;The Priority is ignored for products with Guarantee Date (always the oldest first) or if a specific instance is selected.&#10;Incoming receipts are stored at the location with the highest priority, if not explicitly selected.">相对优先级表示如果产品被存储于多个库位时，哪个库位首先被挑拣。(100=最高优先级，0=最低优先级) 。对于发货单，可挑拣出完整数量的最高优先级库位将被用于出货；如果没有这样的库位，则使用具有最高优先级的库位（也就是说即使是这个库位不能挑拣出完整数量）
+下列情况中，优先级将被忽略：有质保日期 (总是先入先出)的产品，或者指定了特定实例的产品
+对于收货单，则将货物储存于最高优先级的位置，如果没有明确指定的话</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5773,7 +5775,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price Surcharge Amount">标准价格附加额</value>
   <value column="PrintName" original="Standard price Surcharge Amt">标准价格附加额</value>
   <value column="Description" original="Amount added to a price as a surcharge">加到价格中作为额外费的金额</value>
-  <value column="Help" original="The Standard Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.&#10;">"标准价格附加额"表示在相乘之前增加到价格上的金额&#10;</value>
+  <value column="Help" original="The Standard Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.&#10;">"标准价格附加额"表示在相乘之前增加到价格上的金额
+</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5783,7 +5786,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Standard price Base">标准价格基础</value>
   <value column="PrintName" original="Standard price Base">标准价格基础</value>
   <value column="Description" original="Base price for calculating new standard price">计算新的标准价格的基础价</value>
-  <value column="Help" original="The Standard Price Base indicates the price to use as the basis for the calculation of a new price standard.&#10;">标准价格基础，表示用作新价格标准计算基础的价格&#10;
+  <value column="Help" original="The Standard Price Base indicates the price to use as the basis for the calculation of a new price standard.&#10;">标准价格基础，表示用作新价格标准计算基础的价格
+
 </value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -13998,7 +14002,11 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Project Category">项目类别, 它决定着项目的行为: 通用, 服务, 工单, 资产</value>
   <value column="PrintName" original="Project Category">项目类别, 它决定着项目的行为: 通用, 服务, 工单, 资产</value>
   <value column="Description" original="Project Category">项目类别, 它决定着项目的行为: 通用, 服务, 工单, 资产</value>
-  <value column="Help" original="The Project Category determines the behavior of the project:&#10;General - no special accounting, e.g. for Presales or general tracking&#10;Service - no special accounting, e.g. for Service/Charge projects&#10;Work Order - creates Project/Job WIP transactions - ability to issue material&#10;Asset - create Project Asset transactions - ability to issue material">项目类别决定了项目的行为:&#10;  一般 - 没有特别的会计，如对于售前或一般性追踪&#10; 服务 - 没有特别的会计，如对于服务/收费项目&#10; 工单 - 创建项目/工作的在制品 (或称在建项目) 事务处理 - 投入物料的能力&#10; 资产 - 创建项目资产事务处理 - 投入物料的能力</value>
+  <value column="Help" original="The Project Category determines the behavior of the project:&#10;General - no special accounting, e.g. for Presales or general tracking&#10;Service - no special accounting, e.g. for Service/Charge projects&#10;Work Order - creates Project/Job WIP transactions - ability to issue material&#10;Asset - create Project Asset transactions - ability to issue material">项目类别决定了项目的行为:
+  一般 - 没有特别的会计，如对于售前或一般性追踪
+ 服务 - 没有特别的会计，如对于服务/收费项目
+ 工单 - 创建项目/工作的在制品 (或称在建项目) 事务处理 - 投入物料的能力
+ 资产 - 创建项目资产事务处理 - 投入物料的能力</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14109,7 +14117,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Encryption Class">加密类</value>
   <value column="PrintName" original="Encryption Class">加密类</value>
   <value column="Description" original="Encryption Class used for securing data content">用于保护数据内容安全的加密类</value>
-  <value column="Help" original="The class needs to implement the interface org.compiere.util.SecureInterface.&#10;You enable it by setting the COMPIERE_SECURE parameter of your Client and Server start scripts to the custom class.">该类需要实现 org.compiere.util.SecureInterface 接口&#10;如果要使其生效，你可以通过设置客户端与服务器端的启动脚本，将 COMPIERE_SECURE 参数指向自定义的类</value>
+  <value column="Help" original="The class needs to implement the interface org.compiere.util.SecureInterface.&#10;You enable it by setting the COMPIERE_SECURE parameter of your Client and Server start scripts to the custom class.">该类需要实现 org.compiere.util.SecureInterface 接口
+如果要使其生效，你可以通过设置客户端与服务器端的启动脚本，将 COMPIERE_SECURE 参数指向自定义的类</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14266,7 +14275,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2207" trl="Y">
-  <value column="Name" original="Calculate Maximum (?)">计算最大值 (？)</value>
+  <value column="Name" original="Calculate Maximum (↑)">计算最大值 (？)</value>
   <value column="PrintName" original="Calc Max">求最大值</value>
   <value column="Description" original="Calculate the maximum amount">计算最大金额</value>
   <value column="Help" original="Calculate the Maximum (↑)  of the data if the field is numeric, otherwise maximum length of the field.">如果字段是是数字型，则计算数据的最大值 (↑)；否则计算字段的最大长度</value>
@@ -16120,7 +16129,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Distribution List Line">配送清单明细</value>
   <value column="PrintName" original="Distribution List Line">配送清单明细</value>
   <value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">含有业务伙伴和数量/百分比的配送清单明细</value>
-  <value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">配送可基于比率、固定数量或两者皆有&#10;如果比率和数量不是0，(配送)数量基于比率计算，但是以该数量为最小值</value>
+  <value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">配送可基于比率、固定数量或两者皆有
+如果比率和数量不是0，(配送)数量基于比率计算，但是以该数量为最小值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -25933,8 +25943,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53458" trl="Y">
-  <value column="Name" original="DropShip_BPartner_ID">直送伙伴</value>
-  <value column="PrintName" original="DropShip_BPartner_ID">直送伙伴</value>
+  <value column="Name" original="Drop Ship Business Partner">直送伙伴</value>
+  <value column="PrintName" original="Drop Ship Business Partner">直送伙伴</value>
   <value column="Description" original="Business Partner to ship to">送货至业务伙伴</value>
   <value column="Help" original="If empty the business partner will be shipped to.">如果为空，开票业务伙伴则为发货业务伙伴</value>
   <value column="PO_Description" original=""/>
@@ -39453,6 +39463,16 @@ Product: used to quickly add products to POS order</value>
   <value column="PrintName" original="Login Role">登陆角色</value>
   <value column="Description" original=""/>
   <value column="Help" original="Role name of user logged in with">用户登陆后使用的用户角色</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="200199" trl="N">
+  <value column="Name" original="Quotation">Quotation</value>
+  <value column="PrintName" original="Quotation">Quotation</value>
+  <value column="Description" original="Quotation used for generating this order">Quotation used for generating this order</value>
+  <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55518,6 +55538,148 @@ column define in ParentRelatedColumn will replace key column</value>
  <row id="202809" trl="N">
   <value column="Name" original="Driven by Search Key">Driven by Search Key</value>
   <value column="PrintName" original="Defines if the tree is driven by the Search Key column">Defines if the tree is driven by the Search Key column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202868" trl="N">
+  <value column="Name" original="Days Reuse Password">Days Reuse Password</value>
+  <value column="PrintName" original="Days Reuse Password">Days Reuse Password</value>
+  <value column="Description" original="Define number of day can reuser password">Define number of day can reuser password</value>
+  <value column="Help" original="Each time change password, old password keep in history&#10;Example this value = 60. user can't reuse password in history has age &lt; 60&#10;"><![CDATA[Each time change password, old password keep in history
+Example this value = 60. user can't reuse password in history has age < 60
+]]></value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202870" trl="N">
+  <value column="Name" original="AD_Password_History_UU">AD_Password_History_UU</value>
+  <value column="PrintName" original="AD_Password_History_UU">AD_Password_History_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202871" trl="N">
+  <value column="Name" original="Password History ID">Password History ID</value>
+  <value column="PrintName" original="PasswordHistoryID">PasswordHistoryID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202876" trl="N">
+  <value column="Name" original="Set Initial Password">Set Initial Password</value>
+  <value column="PrintName" original="Set Initial Password">Set Initial Password</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202879" trl="N">
+  <value column="Name" original="Automatic Commit">Automatic Commit</value>
+  <value column="PrintName" original="Automatic Commit">Automatic Commit</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202880" trl="N">
+  <value column="Name" original="Automatic New Record">Automatic New Record</value>
+  <value column="PrintName" original="Automatic New Record">Automatic New Record</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202881" trl="N">
+  <value column="Name" original="AD_UserPreference_ID">AD_UserPreference_ID</value>
+  <value column="PrintName" original="AD_UserPreference_ID">AD_UserPreference_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202882" trl="N">
+  <value column="Name" original="AD_UserPreference_UU">AD_UserPreference_UU</value>
+  <value column="PrintName" original="AD_UserPreference_UU">AD_UserPreference_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202883" trl="N">
+  <value column="Name" original="Automatic Decimal Places For Amounts">Automatic Decimal Places For Amounts</value>
+  <value column="PrintName" original="Automatic Decimal Places For Amounts">Automatic Decimal Places For Amounts</value>
+  <value column="Description" original="Automatically insert a decimal point"/>
+  <value column="Help" original="i.e. &quot;Entering 2 only results in a value of 0.02 for the entry. If you use the &quot;.&quot; key during entry of a value, the decimal point is included at the place you specify. This mode has no effect on multiplication and division operations. If 0 is entered it will work as usual.&quot;"/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202886" trl="N">
+  <value column="Name" original="Available for Replenishment">Available for Replenishment</value>
+  <value column="PrintName" original="Available for Replenishment">Available for Replenishment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202887" trl="N">
+  <value column="Name" original="Available for Reservation">Available for Reservation</value>
+  <value column="PrintName" original="Available for Reservation">Available for Reservation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202888" trl="N">
+  <value column="Name" original="Available for Shipping">Available for Shipping</value>
+  <value column="PrintName" original="Available for Shipping">Available for Shipping</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202889" trl="N">
+  <value column="Name" original="Locator Type">Locator Type</value>
+  <value column="PrintName" original="Locator Type">Locator Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202890" trl="N">
+  <value column="Name" original="M_LocatorType_UU">M_LocatorType_UU</value>
+  <value column="PrintName" original="M_LocatorType_UU">M_LocatorType_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

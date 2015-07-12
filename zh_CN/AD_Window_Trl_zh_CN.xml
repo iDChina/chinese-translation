@@ -71,7 +71,8 @@
  <row id="112" trl="Y">
   <value column="Name" original="Document Sequence">单据序号</value>
   <value column="Description" original="Maintain System and Document Sequences">维护系统和单据的序号</value>
-  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号窗口 定义了单据编号将如何被排序&#10;更改单据编号的生成方法。可添加前缀或后缀，或者更改当前编号</value>
+  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号窗口 定义了单据编号将如何被排序
+更改单据编号的生成方法。可添加前缀或后缀，或者更改当前编号</value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
@@ -211,14 +212,14 @@
  <row id="146" trl="Y">
   <value column="Name" original="Price List">价格表</value>
   <value column="Description" original="Maintain Product Price Lists">维护产品价格表</value>
-  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version.">价格表窗口允许你为你的合作伙伴生成产品价格表。价格表决定货币和税务处理。价格表可以有多个版本，允许在不同的时间段维护并行价格表。日期最近的一张价格表将被采用（基于单据日期）。&lt;BR&gt;所有价格表都有三种价格: 公开价, 标准价和限制价&lt;BR&gt;
-  第一步是新建一个基础价格表，你可以手工添加产品和输入价格，或者自动新建它们。 基础价格表通常是采购价格表，包括标价 (“官方的” 零售价)，标准价(你的进货价格)。限价用于确认折扣、返还后的最终采购成本。&lt;BR&gt;
-  价格表能够被计算和复制。为加快计算，参数将被保存并用于创建新价格表版本</value>
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version."><![CDATA[价格表窗口允许你为你的合作伙伴生成产品价格表。价格表决定货币和税务处理。价格表可以有多个版本，允许在不同的时间段维护并行价格表。日期最近的一张价格表将被采用（基于单据日期）。<BR>所有价格表都有三种价格: 公开价, 标准价和限制价<BR>
+  第一步是新建一个基础价格表，你可以手工添加产品和输入价格，或者自动新建它们。 基础价格表通常是采购价格表，包括标价 (“官方的” 零售价)，标准价(你的进货价格)。限价用于确认折扣、返还后的最终采购成本。<BR>
+  价格表能够被计算和复制。为加快计算，参数将被保存并用于创建新价格表版本]]></value>
  </row>
  <row id="147" trl="Y">
   <value column="Name" original="Invoice Schedule">发票计划</value>
   <value column="Description" original="Maintain Invoicing Schedule">维护发票计划</value>
-  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer."><![CDATA[发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 如果客户需要多份发货单的单张发票，可定义相应的发票计划，并将它关联到客户]]></value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 如果客户需要多份发货单的单张发票，可定义相应的发票计划，并将它关联到客户</value>
  </row>
  <row id="149" trl="Y">
   <value column="Name" original="Marketing Campaign">营销活动</value>
@@ -453,7 +454,8 @@
  <row id="208" trl="Y">
   <value column="Name" original="Project Reporting">项目周期</value>
   <value column="Description" original="Maintain Project Reporting Cycles">维护项目报表周期</value>
-  <value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">项目周期窗口 定义与特定项目相关的步骤。&#10;你可能要定义几个计划周期来区分不同的项目种类。计划周期可能全部使用或使用方案情况的一个子集 (举例来说： 你的机会方案周期可能包含一些步骤来自期望的合同 - 这些服务周期可能包含一些步骤来自 安装的消费者承诺</value>
+  <value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">项目周期窗口 定义与特定项目相关的步骤。
+你可能要定义几个计划周期来区分不同的项目种类。计划周期可能全部使用或使用方案情况的一个子集 (举例来说： 你的机会方案周期可能包含一些步骤来自期望的合同 - 这些服务周期可能包含一些步骤来自 安装的消费者承诺</value>
  </row>
  <row id="210" trl="Y">
   <value column="Name" original="Commission Run">计算佣金</value>
@@ -2086,6 +2088,16 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="200063" trl="N">
   <value column="Name" original="Import Template">导入模板</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200073" trl="N">
+  <value column="Name" original="User Preference">User Preference</value>
+  <value column="Description" original="This window is use to set up the preferences entries for each user.">This window is use to set up the preferences entries for each user.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Locator Type">Locator Type</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

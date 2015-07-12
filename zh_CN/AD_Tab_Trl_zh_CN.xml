@@ -697,7 +697,8 @@
   <value column="Name" original="Report &amp; Process">报表与流程</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Report &amp; Process">定义报表与流程</value>
-  <value column="Help" original="The Report and Process Tab defines each report and process run in the system.  &#10;Please note that the Print Format is only used for Document Print when you want to share a common format defined on System level. For normal reports and formats, you would not define a Print Format here, but modify the generated print format and set it as the default.">报表与流程页签定义了系统中运行的每个报表和流程&#10;请注意：打印格式仅用于单据打印，当你希望共享定义在系统级别的通用格式时。对于普通的报表与格式，你不需要在这里定义打印格式，而只需要修改生成的打印格式，并反它设置为默认格式</value>
+  <value column="Help" original="The Report and Process Tab defines each report and process run in the system.  &#10;Please note that the Print Format is only used for Document Print when you want to share a common format defined on System level. For normal reports and formats, you would not define a Print Format here, but modify the generated print format and set it as the default.">报表与流程页签定义了系统中运行的每个报表和流程
+请注意：打印格式仅用于单据打印，当你希望共享定义在系统级别的通用格式时。对于普通的报表与格式，你不需要在这里定义打印格式，而只需要修改生成的打印格式，并反它设置为默认格式</value>
  </row>
  <row id="246" trl="Y">
   <value column="Name" original="Parameter">参数</value>
@@ -1178,7 +1179,9 @@
   <value column="Name" original="Mail Template">邮件模板</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Mail Template">维护邮件模板</value>
-  <value column="Help" original="A mail template can contain variables, e.g. @Name@.  &#10;The variables are replaced based on the context. First, the the User is searched to find the variables.&#10;Additional objects are used for dunning (business partner, dunning entry), asset delivery (asset) and invoice print (business partner, invoice)">邮件模板可以包括变量，例如 @Name@。&#10;变量基于环境上下文被替换。首先，搜索用户以匹配变量。&#10;更多的对象用于催款 (业务伙伴、催款记录)，资产交付 (资产) 和发票打印 (业务伙伴、发票)</value>
+  <value column="Help" original="A mail template can contain variables, e.g. @Name@.  &#10;The variables are replaced based on the context. First, the the User is searched to find the variables.&#10;Additional objects are used for dunning (business partner, dunning entry), asset delivery (asset) and invoice print (business partner, invoice)">邮件模板可以包括变量，例如 @Name@。
+变量基于环境上下文被替换。首先，搜索用户以匹配变量。
+更多的对象用于催款 (业务伙伴、催款记录)，资产交付 (资产) 和发票打印 (业务伙伴、发票)</value>
  </row>
  <row id="348" trl="Y">
   <value column="Name" original="History">历史记录</value>
@@ -1245,8 +1248,7 @@
   <value column="Name" original="Line">行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Project Lines">定义项目明细</value>
-  <value column="Help" original="
-  this Project. This is an alternative to Project Phases. You would use lines, if you do not want to use a Project Type template with phases.">项目行页签用于定义与该项目相关联的行 (产品和/或服务)。这是项目阶段的备选。如果不想使用含有阶段的项目类型模板，将使用行</value>
+  <value column="Help" original="The Project Lines Tab is used to define the lines (products and/or services) associated with this Project. This is an alternative to Project Phases. You would use lines, if you do not want to use a Project Type template with phases.">项目行页签用于定义与该项目相关联的行 (产品和/或服务)。这是项目阶段的备选。如果不想使用含有阶段的项目类型模板，将使用行</value>
  </row>
  <row id="362" trl="Y">
   <value column="Name" original="Commission Run">计算佣金</value>
@@ -4240,8 +4242,8 @@
  <row id="53028" trl="Y">
   <value column="Name" original="Parent Product">父产品</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define the Parent Product to this BOM &amp; Formula">为该物料清单 &amp; 配方定义父级产品</value>
-  <value column="Help" original="Define the Parent Product to this BOM &amp; Formula">为该物料清单 &amp; 配方定义父级产品</value>
+  <value column="Description" original="Define the Parent Product to this BOM &amp; Formula"><![CDATA[为该物料清单 & 配方定义父级产品]]></value>
+  <value column="Help" original="Define the Parent Product to this BOM &amp; Formula"><![CDATA[为该物料清单 & 配方定义父级产品]]></value>
  </row>
  <row id="53029" trl="Y">
   <value column="Name" original="Components of the BOM &amp; Formula">物料清单与配方的部件</value>
@@ -6329,6 +6331,18 @@
  </row>
  <row id="200168" trl="N">
   <value column="Name" original="Import Template Access">导入模板访问</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200189" trl="N">
+  <value column="Name" original="User Preference">User Preference</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200190" trl="N">
+  <value column="Name" original="Locator Type">Locator Type</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

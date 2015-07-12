@@ -65,7 +65,7 @@
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="117" trl="Y">
-  <value column="MsgText" original="Client &amp; Organization Data">实体 &amp; 组织数据</value>
+  <value column="MsgText" original="Client &amp; Organization Data"><![CDATA[实体 & 组织数据]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
@@ -770,7 +770,7 @@
  </row>
  <row id="293" trl="Y">
   <value column="MsgText" original="&amp;Home">工作台</value>
-  <value column="MsgTip" original="HOME"/>
+  <value column="MsgTip" original=""/>
  </row>
  <row id="294" trl="Y">
   <value column="MsgText" original="Host">主机</value>
@@ -945,7 +945,9 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="337" trl="Y">
-  <value column="MsgText" original="Message not sent.&#10;&#10;Problem: ">消息未发送。&#10;&#10;问题： </value>
+  <value column="MsgText" original="Message not sent.&#10;&#10;Problem: ">消息未发送。
+
+问题： </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="338" trl="Y">
@@ -1205,7 +1207,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="402" trl="Y">
-  <value column="MsgText" original="The amount is zero.&#10;Enter the payment after completing the transaction">金额为零&#10;请在完成交易后输入付款</value>
+  <value column="MsgText" original="The amount is zero.&#10;Enter the payment after completing the transaction">金额为零
+请在完成交易后输入付款</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="403" trl="Y">
@@ -2336,7 +2339,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="691" trl="Y">
-  <value column="MsgText" original="Merge From entity to To entity ?&#10;** NO Undo nor Trace -- You need to have a Backup **">请确认是否确定需要合并实体？&#10;** 该操作一旦执行将无法回滚，建议在操作之前务必进行相应的备份 **</value>
+  <value column="MsgText" original="Merge From entity to To entity ?&#10;** NO Undo nor Trace -- You need to have a Backup **">请确认是否确定需要合并实体？
+** 该操作一旦执行将无法回滚，建议在操作之前务必进行相应的备份 **</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="692" trl="Y">
@@ -6564,6 +6568,30 @@
  </row>
  <row id="200334" trl="N">
   <value column="MsgText" original="locked account has been reset">锁定的用户已被重置</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200349" trl="N">
+  <value column="MsgText" original="Force change on next login">Force change on next login</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200350" trl="N">
+  <value column="MsgText" original="More Preferences">More Preferences</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200351" trl="N">
+  <value column="MsgText" original="Processing... {0} of {1} ({2}%)">Processing... {0} of {1} ({2}%)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200352" trl="N">
+  <value column="MsgText" original="Checking for errors... {0} preprocessed.">Checking for errors... {0} preprocessed.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200353" trl="N">
+  <value column="MsgText" original="Locator not available for shipping">Locator not available for shipping</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200354" trl="N">
+  <value column="MsgText" original="Do you want to create a new account combination ?">Do you want to create a new account combination ?</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="Y">
