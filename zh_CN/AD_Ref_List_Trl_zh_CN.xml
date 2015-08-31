@@ -493,7 +493,7 @@
   <value column="Description" original="Number w/o decimals">不带小数点的数字</value>
  </row>
  <row id="233" trl="Y">
-  <value column="Name" original="No Rounding">无圆整</value>
+  <value column="Name" original="No Rounding">不四舍五入</value>
   <value column="Description" original=""/>
  </row>
  <row id="234" trl="Y">
@@ -601,7 +601,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="266" trl="Y">
-  <value column="Name" original="Draft">草案</value>
+  <value column="Name" original="Draft">草稿</value>
   <value column="Description" original=""/>
  </row>
  <row id="267" trl="Y">
@@ -889,7 +889,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="355" trl="Y">
-  <value column="Name" original="Draft">草案</value>
+  <value column="Name" original="Draft">草稿</value>
   <value column="Description" original=""/>
  </row>
  <row id="356" trl="Y">
@@ -3318,7 +3318,7 @@
  </row>
  <row id="50042" trl="Y">
   <value column="Name" original="Ending in 9/5">以9或5结尾</value>
-  <value column="Description" original="The price ends in either a 5 or 9 whole unit">The price ends in either a 5 or 9 whole unit</value>
+  <value column="Description" original="The price ends in either a 5 or 9 whole unit">以9或5结尾的价格</value>
  </row>
  <row id="50043" trl="Y">
   <value column="Name" original="Message">消息</value>
@@ -3453,7 +3453,7 @@
   <value column="Description" original="A Job Shop is characterized by the organitation of similar equipmnnet by function. As Job flow from Work Center to Work Center or Departament to Departament and the diferent type of operation is performance in each center or departament">车间的特点是由该组织同类设备的功能。作为工作中心的工作流工作中心或部门，部不同类型的操作在每个中心或部门表现</value>
  </row>
  <row id="53255" trl="Y">
-  <value column="Name" original="Mixed Repetitive Flow">Mixed Repetitive Flow</value>
+  <value column="Name" original="Mixed Repetitive Flow">混合重复生产</value>
   <value column="Description" original="Are also used to manufacture two or more However the chanover time between model is minimal (frequenctly zero) and different models are intermixed on the same line">Are also used to manufacture two or more However the chanover time between model is minimal (frequenctly zero) and different models are intermixed on the same line</value>
  </row>
  <row id="53256" trl="Y">
@@ -3838,7 +3838,7 @@
  </row>
  <row id="53359" trl="Y">
   <value column="Name" original="Yearly">每年</value>
-  <value column="Description" original="The amount entered into the manual depreciation field is for the year">The amount entered into the manual depreciation field is for the year</value>
+  <value column="Description" original="The amount entered into the manual depreciation field is for the year">按年数输入折旧</value>
  </row>
  <row id="53360" trl="Y">
   <value column="Name" original="Depreciation">折旧</value>
@@ -3874,7 +3874,7 @@
  </row>
  <row id="53368" trl="Y">
   <value column="Name" original="Year Balances">年余额</value>
-  <value column="Description" original="Revaluate current year to date balances and then revaluates the beginning balance">Revaluate current year to date balances and then revaluates the beginning balance</value>
+  <value column="Description" original="Revaluate current year to date balances and then revaluates the beginning balance">当前日的本年度余额定值，并以此为初始余额</value>
  </row>
  <row id="53369" trl="Y">
   <value column="Name" original="Factor">因子</value>
@@ -3989,16 +3989,16 @@
   <value column="Description" original=""/>
  </row>
  <row id="53397" trl="Y">
-  <value column="Name" original="Yearly on or before contract date">Yearly on or before contract date</value>
+  <value column="Name" original="Yearly on or before contract date">合同期当年或之前</value>
   <value column="Description" original=""/>
  </row>
  <row id="53398" trl="Y">
   <value column="Name" original="Addition">相加</value>
-  <value column="Description" original="Cost/quantity addition to asset">Cost/quantity addition to asset</value>
+  <value column="Description" original="Cost/quantity addition to asset">资产的附加成本或数量</value>
  </row>
  <row id="53399" trl="Y">
   <value column="Name" original="Balance">余额</value>
-  <value column="Description" original="Transaction updating the cost or accum depr balance">Transaction updating the cost or accum depr balance</value>
+  <value column="Description" original="Transaction updating the cost or accum depr balance">更新折旧账户余额的事务</value>
  </row>
  <row id="53400" trl="Y">
   <value column="Name" original="Create">创建</value>
@@ -4014,7 +4014,7 @@
  </row>
  <row id="53403" trl="Y">
   <value column="Name" original="Expense">支出</value>
-  <value column="Description" original="Expense invoice was recorded against this asset">Expense invoice was recorded against this asset</value>
+  <value column="Description" original="Expense invoice was recorded against this asset">记录资产的费用发票</value>
  </row>
  <row id="53404" trl="Y">
   <value column="Name" original="Forecast">预测</value>
@@ -4022,7 +4022,7 @@
  </row>
  <row id="53405" trl="Y">
   <value column="Name" original="Import">导入</value>
-  <value column="Description" original="Asset created by import">资产created by import</value>
+  <value column="Description" original="Asset created by import">导入创建资产</value>
  </row>
  <row id="53406" trl="Y">
   <value column="Name" original="Revaluation">重估</value>
@@ -4413,7 +4413,7 @@
   <value column="Description" original="Year for P &amp; L account, Total for Balance Sheet account"><![CDATA[Year for P & L account, Total for Balance Sheet account]]></value>
  </row>
  <row id="53541" trl="Y">
-  <value column="Name" original="Balance (expected sign)">数量</value>
+  <value column="Name" original="Balance (expected sign)">余额（期望值）</value>
   <value column="Description" original=""/>
  </row>
  <row id="53542" trl="Y">
@@ -4425,15 +4425,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="53544" trl="Y">
-  <value column="Name" original="Quantity (expected sign)">数量 (expected sign)</value>
+  <value column="Name" original="Quantity (expected sign)">数量 (期望值)</value>
   <value column="Description" original=""/>
  </row>
  <row id="53545" trl="Y">
-  <value column="Name" original="Balance (accounted sign)">余额累计</value>
+  <value column="Name" original="Balance (accounted sign)">余额 (账面值)</value>
   <value column="Description" original="DR - CR">借 - 贷</value>
  </row>
  <row id="53546" trl="Y">
-  <value column="Name" original="Quantity (accounted sign)">数量 (accounted sign)</value>
+  <value column="Name" original="Quantity (accounted sign)">数量 (账面值)</value>
   <value column="Description" original=""/>
  </row>
  <row id="53551" trl="Y">
@@ -4505,11 +4505,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="53591" trl="Y">
-  <value column="Name" original="Preservation">Preservation</value>
+  <value column="Name" original="Preservation">保留</value>
   <value column="Description" original=""/>
  </row>
  <row id="53592" trl="Y">
-  <value column="Name" original="Retired">Retired</value>
+  <value column="Name" original="Retired">已淘汰</value>
   <value column="Description" original=""/>
  </row>
  <row id="53593" trl="Y">
@@ -4985,7 +4985,7 @@
   <value column="Description" original="User will receive message">用户定义的消息</value>
  </row>
  <row id="200054" trl="Y">
-  <value column="Name" original="Class 1 - Explosives">级别1-强烈的</value>
+  <value column="Name" original="Class 1 - Explosives">级别1-爆炸物</value>
   <value column="Description" original=""/>
  </row>
  <row id="200055" trl="Y">
@@ -4993,11 +4993,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200056" trl="Y">
-  <value column="Name" original="2.1 - Flammable Gas">2.1 - Flammable Gas</value>
+  <value column="Name" original="2.1 - Flammable Gas">2.1 - 易燃气体</value>
   <value column="Description" original=""/>
  </row>
  <row id="200057" trl="Y">
-  <value column="Name" original="2.2 - Nonflammable Gas">2.2 - Nonflammable Gas</value>
+  <value column="Name" original="2.2 - Nonflammable Gas">2.2 - 不可燃气体</value>
   <value column="Description" original=""/>
  </row>
  <row id="200058" trl="Y">
@@ -5009,15 +5009,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="200060" trl="Y">
-  <value column="Name" original="4.1 - Flammable Solids">4.1 - Flammable Solids</value>
+  <value column="Name" original="4.1 - Flammable Solids">4.1 - 易燃固体</value>
   <value column="Description" original=""/>
  </row>
  <row id="200061" trl="Y">
-  <value column="Name" original="4.2 - Spontaneous Combustibles">4.2 - Spontaneous Combustibles</value>
+  <value column="Name" original="4.2 - Spontaneous Combustibles">4.2 - 可燃物</value>
   <value column="Description" original=""/>
  </row>
  <row id="200062" trl="Y">
-  <value column="Name" original="4.3 - Dangerous When Wet">需求的日期</value>
+  <value column="Name" original="4.3 - Dangerous When Wet">4.3 - 潮湿危险品</value>
   <value column="Description" original=""/>
  </row>
  <row id="200064" trl="Y">
@@ -5025,11 +5025,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200065" trl="Y">
-  <value column="Name" original="5.1 - Oxidizers">5.1 - Oxidizers</value>
+  <value column="Name" original="5.1 - Oxidizers">5.1 - 氧化性物质</value>
   <value column="Description" original=""/>
  </row>
  <row id="200066" trl="Y">
-  <value column="Name" original="5.2 - Organic Peroxides">5.2 - Organic Peroxides</value>
+  <value column="Name" original="5.2 - Organic Peroxides">5.2 - 有机过氧化物</value>
   <value column="Description" original=""/>
  </row>
  <row id="200067" trl="Y">
@@ -5037,11 +5037,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200068" trl="Y">
-  <value column="Name" original="6.1 - Toxic Substances">6.1 - Toxic Substances</value>
+  <value column="Name" original="6.1 - Toxic Substances">6.1 - 有毒物质</value>
   <value column="Description" original=""/>
  </row>
  <row id="200069" trl="Y">
-  <value column="Name" original="6.2 - Infectious Substances">6.2 - Infectious Substances</value>
+  <value column="Name" original="6.2 - Infectious Substances">6.2 - 传染性物质</value>
   <value column="Description" original=""/>
  </row>
  <row id="200070" trl="Y">
@@ -5065,24 +5065,24 @@
   <value column="Description" original=""/>
  </row>
  <row id="200075" trl="Y">
-  <value column="Name" original="Evening">Evening</value>
+  <value column="Name" original="Evening">晚上</value>
   <value column="Description" original=""/>
  </row>
  <row id="200076" trl="Y">
-  <value column="Name" original="Recipient">提醒接收者</value>
+  <value column="Name" original="Recipient">接收者</value>
   <value column="Description" original=""/>
  </row>
  <row id="200077" trl="Y">
-  <value column="Name" original="Recipient / Sender">提醒接收者</value>
+  <value column="Name" original="Recipient / Sender">接收者 / 发送者</value>
   <value column="Description" original=""/>
  </row>
  <row id="200078" trl="Y">
-  <value column="Name" original="Sender">Sender</value>
+  <value column="Name" original="Sender">发送者</value>
   <value column="Description" original=""/>
  </row>
  <row id="200079" trl="Y">
   <value column="Name" original="Eltron">Eltron</value>
-  <value column="Description" original="Print using eltron label printer language">Print using eltron label printer language</value>
+  <value column="Description" original="Print using eltron label printer language">使用Eltron标签打印编程语言</value>
  </row>
  <row id="200080" trl="Y">
   <value column="Name" original="Image">图像</value>
@@ -5090,7 +5090,7 @@
  </row>
  <row id="200081" trl="Y">
   <value column="Name" original="Zebra">Zebra</value>
-  <value column="Description" original="Print using zebra label printer language">Print using zebra label printer language</value>
+  <value column="Description" original="Print using zebra label printer language">使用Zebra标签打印编程语言</value>
  </row>
  <row id="200082" trl="Y">
   <value column="Name" original="Collect">集中</value>
@@ -5101,7 +5101,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200084" trl="Y">
-  <value column="Name" original="Consignee">Consignee</value>
+  <value column="Name" original="Consignee">收件人</value>
   <value column="Description" original=""/>
  </row>
  <row id="200085" trl="Y">
@@ -5126,7 +5126,7 @@
  </row>
  <row id="200090" trl="Y">
   <value column="Name" original="Ex Works">卖方工厂交货</value>
-  <value column="Description" original="Ex Works - default for international shipping">Ex Works - default for international shipping</value>
+  <value column="Description" original="Ex Works - default for international shipping">缺省国际运输</value>
  </row>
  <row id="200091" trl="Y">
   <value column="Name" original="CFR - Cost and Freight">CFR - 成本加运费(......指定目的地)</value>
@@ -5277,11 +5277,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200135" trl="N">
-  <value column="Name" original="All">All</value>
+  <value column="Name" original="All">全部</value>
   <value column="Description" original=""/>
  </row>
  <row id="200136" trl="N">
-  <value column="Name" original="Node">Node</value>
+  <value column="Name" original="Node">节点</value>
   <value column="Description" original=""/>
  </row>
  <row id="200137" trl="N">
@@ -5293,15 +5293,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="200139" trl="N">
-  <value column="Name" original="Fixed Assets Addition">Fixed Assets Addition</value>
+  <value column="Name" original="Fixed Assets Addition">固定资产添加</value>
   <value column="Description" original=""/>
  </row>
  <row id="200140" trl="N">
-  <value column="Name" original="Fixed Assets Disposal">Fixed Assets Disposal</value>
+  <value column="Name" original="Fixed Assets Disposal">固定资产处置</value>
   <value column="Description" original=""/>
  </row>
  <row id="200141" trl="N">
-  <value column="Name" original="Fixed Assets Depreciation">Fixed Assets Depreciation</value>
+  <value column="Name" original="Fixed Assets Depreciation">固定资产折旧</value>
   <value column="Description" original=""/>
  </row>
  <row id="200142" trl="N">

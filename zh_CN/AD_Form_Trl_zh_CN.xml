@@ -38,7 +38,7 @@
  <row id="107" trl="Y">
   <value column="Name" original="Payment Selection (manual)">付款选择 (手工)</value>
   <value column="Description" original="Manual Payment Selection">手工的付款选择</value>
-  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">Select vendor invoices for 付款</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择需支付的供应商发票。如果没有发票，请确保它尚未包含在未处理的付款选择中</value>
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购订单-收货单-发票</value>
@@ -113,22 +113,17 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
  <row id="53001" trl="Y">
   <value column="Name" original="BOM &amp; Formula Info">物料清单与配方信息</value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field</value>
-  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it"><![CDATA[The BOM & Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
-
-You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
-
-When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.
-
-You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
-
-The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it]]></value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it"><![CDATA[The BOM & 配方检查选项菜单在两个不同的面板中显示产品选项中指定产品的配件层次结构。
+  
+  你需要指定你想要查看其配件的产品然后点击确定按钮，接着拖拽面板的左边缘到右边，这样就有两个面板了。左边的面板以树状形式显示物料清单的层次结构。右边的面板则显示每一个关联该物料清单的产品信息。
+  
+  当你需要查看其内部信息，单击并选中你要查看的配件的展开内部复选框。]]></value>
  </row>
  <row id="53002" trl="Y">
   <value column="Name" original="Product Configuration BOM">产品配置 BOM</value>
   <value column="Description" original="This form let create a product configure with multy level using options and variants">This form let create a product configure with multy level using options and variants</value>
-  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">可配置BOM（CBOM）应用在产品具体多样性和可选性的行业。
-
-The CBOM is used to dynamically create "end-items" that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by "configurator" software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to "configure" an end-item</value>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">一个可配置的物料清单用于有多个选项和高度可配产品的行业。 
+ 可配置的物料清单用于动态创建公司销售的成品。使用可配置的物料清单结构的好处是它降低了维护产品结构的工作量。该清单通常使用一个“配置器”软件来管理，此外它也可以启用手动方式（手动维护并不常用因为这很难管理所有可行配置的排列与组合的数量）。可配置物料清单的开发依赖于其组成的模块物料清单结构（参考模块物料清单结构）。模块物料清单结构提供了用于配置成品的配件和子系统</value>
  </row>
  <row id="53003" trl="Y">
   <value column="Name" original="MRP Info">MRP 信息</value>
@@ -153,24 +148,22 @@ The CBOM is used to dynamically create "end-items" that a company sells. The ben
  <row id="53007" trl="Y">
   <value column="Name" original="Order Receipt &amp; Issue">生产单入库与发料</value>
   <value column="Description" original="Order Receipt &amp; Issue">生产单入库与发料</value>
-  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">上面的表单显示关于产品以及所需生产资料的相关信息，同时也显示生产单中的数量统计如原始数量和交付数量以及最新的生产单的交付数量。
+ 
+ 如果生产过程需要批量生产，那么生产批次数量显示车间需要加工的批次数，而每批生产数量则显示每一批次需要生产的数量。
+ 
+ 如果你想要在完成产品之前发布生产单中的配件，应该选择是否交付复选框。这是一个推荐的做法当你有较长或者比较长的生产准备阶段，并且你想要一个随时可靠的库存数量时。
+ 
+ 如果你的生产准备阶段很短，并且你希望节省员工时间，那么你应该选中是否回冲复选框，这时你将会在自动发布配件的同时完成产品。
+ 
+ 回冲分组选项会在你希望仅完成该分组下的配件时用到。（该特性还无法包含在当前版本中）
+ 
+ 在窗口的下面你可以看到每一个生产单配件的列表，你可以更加车间里真实的产品和数量修改改列表。
+ 
+ 配件列表第一列中的复选框可以选中需要发布配件的数量。如果真实数量与列表中要交付的数量不一致，你应该修改成正确的发布数量。
 
-If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.
-
-
-If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.
-
-If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components
-
-The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).
-
-At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.
-
-The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.
-
-Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.
-
-</value>
+  最后一个消息框询问你是否想要关闭生产单文档，如果生产单都已处理完并且需要关闭时你应该点击确定按钮
+ </value>
  </row>
  <row id="53008" trl="Y">
   <value column="Name" original="Generate Movement Manual">创建调拨单(手工)</value>
@@ -205,9 +198,9 @@ Finally a message box asks if you want to close the OM document, you should clic
  <row id="53017" trl="Y">
   <value column="Name" original="BOM Viewer">会计科目查看器</value>
   <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Shows the parent-component relationship for the product entered in the Product field</value>
-  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Selecting a product will display a hierarchy of components and sub-BOMs for that product.
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">选择一个产品后会显示该产品所需的配件及其物料清单的一个层次结构。
 
-Selecting the "Where Used" check box will display the BOMs that this product is used in</value>
+选择“用于该产品”复选框之后，将显示该产品用到的物料清单</value>
  </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Setup Wizard">会计设置</value>

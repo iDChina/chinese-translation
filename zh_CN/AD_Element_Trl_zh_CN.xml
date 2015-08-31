@@ -53149,9 +53149,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202188" trl="Y">
-  <value column="Name" original="Query Operator">执行查询</value>
-  <value column="PrintName" original="Query Operator">执行查询</value>
-  <value column="Description" original="Operator for database query">Operator for database query</value>
+  <value column="Name" original="Query Operator">查询操作</value>
+  <value column="PrintName" original="Query Operator">查询操作</value>
+  <value column="Description" original="Operator for database query">数据库查询操作</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -53159,18 +53159,18 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202189" trl="Y">
-  <value column="Name" original="Query Function">查询功能</value>
-  <value column="PrintName" original="Query Function">查询功能</value>
-  <value column="Description" original="Database function for query">数据库查询功能</value>
-  <value column="Help" original="Database function for user query. If the database function takes more than just the column name parameter, use ? to indicate where the column name should goes to. E.g: Upper, Trunc and To_Char(?,'MM')">Database function for user query. If the database function takes more than just the column name parameter, use ? to indicate where the column name should goes to. E.g: Upper, Trunc and To_Char(?,'MM')</value>
+  <value column="Name" original="Query Function">查询函数</value>
+  <value column="PrintName" original="Query Function">查询函数</value>
+  <value column="Description" original="Database function for query">数据库查询函数</value>
+  <value column="Help" original="Database function for user query. If the database function takes more than just the column name parameter, use ? to indicate where the column name should goes to. E.g: Upper, Trunc and To_Char(?,'MM')">用户查询数据库的函数，如果数据库函数所需要的不仅仅是列名的参数，使用？表示列名称的参数值。例如：Upper, Trunc 和 To_Char(?,'MM')</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202191" trl="Y">
-  <value column="Name" original="AD_InfoWindow_Access_UU">AD_表 权限级别</value>
-  <value column="PrintName" original="AD_InfoWindow_Access_UU">AD_表 权限级别</value>
+  <value column="Name" original="AD_InfoWindow_Access_UU">AD_InfoWindow_Access_UU</value>
+  <value column="PrintName" original="AD_InfoWindow_Access_UU">AD_InfoWindow_Access_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53179,9 +53179,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202193" trl="Y">
-  <value column="Name" original="Sales Region Key">任意销售区域</value>
-  <value column="PrintName" original="Sales Region Key">任意销售区域</value>
-  <value column="Description" original="Text key of the Sales Region">C_销售区域(无概要)</value>
+  <value column="Name" original="Sales Region Key">销售区域主键</value>
+  <value column="PrintName" original="Sales Region Key">销售区域主键</value>
+  <value column="Description" original="Text key of the Sales Region">销售区域文本主键</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -53199,8 +53199,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202195" trl="Y">
-  <value column="Name" original="Deposit Batch">存款日期</value>
-  <value column="PrintName" original="Deposit Batch">存款日期</value>
+  <value column="Name" original="Deposit Batch">存款批量</value>
+  <value column="PrintName" original="Deposit Batch">存款批量</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53259,8 +53259,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202201" trl="Y">
-  <value column="Name" original="Create From Batch">创建新的批</value>
-  <value column="PrintName" original="Create From Batch">创建新的批</value>
+  <value column="Name" original="Create From Batch">从批量创建</value>
+  <value column="PrintName" original="Create From Batch">从批量创建</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53269,10 +53269,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202202" trl="Y">
-  <value column="Name" original="Short list">控制列表</value>
-  <value column="PrintName" original="Short list">控制列表</value>
-  <value column="Description" original="This record is in the short list">This record is in the short list</value>
-  <value column="Help" original="The most used records could be set into the short list in order to be selected faster">The most used records could be set into the short list in order to be selected faster</value>
+  <value column="Name" original="Short list">候补列表</value>
+  <value column="PrintName" original="Short list">候补列表</value>
+  <value column="Description" original="This record is in the short list">该记录在候补列表中</value>
+  <value column="Help" original="The most used records could be set into the short list in order to be selected faster">将经常使用的记录设置到候补列表中，以便快速选择</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -53289,8 +53289,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202213" trl="Y">
-  <value column="Name" original="AD_CtxHelp_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_CtxHelp_UU">AD_属性值</value>
+  <value column="Name" original="AD_CtxHelp_UU">AD_CtxHelp_UU</value>
+  <value column="PrintName" original="AD_CtxHelp_UU">AD_CtxHelp_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53299,18 +53299,18 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202214" trl="Y">
-  <value column="Name" original="Context Type">关联类型的"类型"</value>
-  <value column="PrintName" original="Context Type">关联类型的"类型"</value>
-  <value column="Description" original="Type of Context Help">不显示帮助</value>
-  <value column="Help" original="The Context Type field indicates the type of context help (tab, process, form etc) this context help is defined as">The Context Type field indicates the type of context help (tab, process, form etc) this context help is defined as</value>
+  <value column="Name" original="Context Type">上下文类型</value>
+  <value column="PrintName" original="Context Type">上下文类型</value>
+  <value column="Description" original="Type of Context Help">上下文帮助类型</value>
+  <value column="Help" original="The Context Type field indicates the type of context help (tab, process, form etc) this context help is defined as">上下文类型字段表示这个上下文帮助的类型被定义为(标签, 过程, 表单等等)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202215" trl="Y">
-  <value column="Name" original="Context Help Message">AD_消息类型</value>
-  <value column="PrintName" original="Context Help Message">AD_消息类型</value>
+  <value column="Name" original="Context Help Message">上下文帮助信息</value>
+  <value column="PrintName" original="Context Help Message">上下文帮助信息</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53319,8 +53319,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202216" trl="Y">
-  <value column="Name" original="AD_CtxHelpMsg_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_CtxHelpMsg_UU">AD_属性值</value>
+  <value column="Name" original="AD_CtxHelpMsg_UU">AD_CtxHelpMsg_UU</value>
+  <value column="PrintName" original="AD_CtxHelpMsg_UU">AD_CtxHelpMsg_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53339,8 +53339,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202220" trl="N">
-  <value column="Name" original="Zoom condition">Zoom condition</value>
-  <value column="PrintName" original="Zoom Condition">Zoom Condition</value>
+  <value column="Name" original="Zoom condition">缩放条件</value>
+  <value column="PrintName" original="Zoom Condition">缩放条件</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53519,8 +53519,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202239" trl="N">
-  <value column="Name" original="Cut Date">Cut Date</value>
-  <value column="PrintName" original="Cut Date">Cut Date</value>
+  <value column="Name" original="Cut Date">截至期</value>
+  <value column="PrintName" original="Cut Date">截至期</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53529,8 +53529,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202240" trl="N">
-  <value column="Name" original="Cut Year">Cut Year</value>
-  <value column="PrintName" original="Cut Year">Cut Year</value>
+  <value column="Name" original="Cut Year">年终截止</value>
+  <value column="PrintName" original="Cut Year">年终截止</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53539,8 +53539,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202241" trl="N">
-  <value column="Name" original="Address">Address</value>
-  <value column="PrintName" original="Address">Address</value>
+  <value column="Name" original="Address">地址</value>
+  <value column="PrintName" original="Address">地址</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53549,8 +53549,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202242" trl="N">
-  <value column="Name" original="City State Zip">City State Zip</value>
-  <value column="PrintName" original="City State Zip">City State Zip</value>
+  <value column="Name" original="City State Zip">邮政编码</value>
+  <value column="PrintName" original="City State Zip">邮政编码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53559,8 +53559,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202243" trl="N">
-  <value column="Name" original="Region">Region</value>
-  <value column="PrintName" original="Region">Region</value>
+  <value column="Name" original="Region">区域</value>
+  <value column="PrintName" original="Region">区域</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53569,8 +53569,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202244" trl="N">
-  <value column="Name" original="Zip">Zip</value>
-  <value column="PrintName" original="Zip">Zip</value>
+  <value column="Name" original="Zip">邮政编码</value>
+  <value column="PrintName" original="Zip">邮政编码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53579,8 +53579,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202245" trl="N">
-  <value column="Name" original="Country">Country</value>
-  <value column="PrintName" original="Country">Country</value>
+  <value column="Name" original="Country">国家</value>
+  <value column="PrintName" original="Country">国家</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53589,8 +53589,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202246" trl="N">
-  <value column="Name" original="1099 Box">1099 Box</value>
-  <value column="PrintName" original="1099 Box">1099 Box</value>
+  <value column="Name" original="1099 Box">1099箱</value>
+  <value column="PrintName" original="1099 Box">1099箱</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53609,8 +53609,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202248" trl="N">
-  <value column="Name" original="Bucket">Bucket</value>
-  <value column="PrintName" original="Bucket">Bucket</value>
+  <value column="Name" original="Bucket">桶</value>
+  <value column="PrintName" original="Bucket">桶</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53619,8 +53619,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202249" trl="N">
-  <value column="Name" original="Default 1099 Box">Default 1099 Box</value>
-  <value column="PrintName" original="Default 1099 Box">Default 1099 Box</value>
+  <value column="Name" original="Default 1099 Box">默认1099箱</value>
+  <value column="PrintName" original="Default 1099 Box">默认1099箱</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53629,8 +53629,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202250" trl="N">
-  <value column="Name" original="1099 Vendor">1099 Vendor</value>
-  <value column="PrintName" original="1099 Vendor">1099 Vendor</value>
+  <value column="Name" original="1099 Vendor">1099供应商</value>
+  <value column="PrintName" original="1099 Vendor">1099供应商</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53639,8 +53639,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202251" trl="N">
-  <value column="Name" original="1099 Box Value">1099 Box Value</value>
-  <value column="PrintName" original="1099 Box Value">1099 Box Value</value>
+  <value column="Name" original="1099 Box Value">1099箱值</value>
+  <value column="PrintName" original="1099 Box Value">1099箱值</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53649,8 +53649,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202252" trl="N">
-  <value column="Name" original="Bank Register">Bank Register</value>
-  <value column="PrintName" original="Bank Register">Bank Register</value>
+  <value column="Name" original="Bank Register">银行注册</value>
+  <value column="PrintName" original="Bank Register">银行注册</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53669,8 +53669,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202254" trl="N">
-  <value column="Name" original="Business Partner">Business Partner</value>
-  <value column="PrintName" original="Business Partner">Business Partner</value>
+  <value column="Name" original="Business Partner">业务伙伴</value>
+  <value column="PrintName" original="Business Partner">业务伙伴</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53679,8 +53679,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202255" trl="N">
-  <value column="Name" original="Selected Product Name">Selected Product Name</value>
-  <value column="PrintName" original="Selected Product Name">Selected Product Name</value>
+  <value column="Name" original="Selected Product Name">选择产品名称</value>
+  <value column="PrintName" original="Selected Product Name">选择产品名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53689,8 +53689,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202256" trl="N">
-  <value column="Name" original="Selected Product Value">Selected Product Value</value>
-  <value column="PrintName" original="Selected Product Value">Selected Product Value</value>
+  <value column="Name" original="Selected Product Value">选择产品值</value>
+  <value column="PrintName" original="Selected Product Value">选择产品值</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53699,8 +53699,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202257" trl="N">
-  <value column="Name" original="Selected Product Description">Selected Product Description</value>
-  <value column="PrintName" original="Selected Product Description">Selected Product Description</value>
+  <value column="Name" original="Selected Product Description">选择产品描述</value>
+  <value column="PrintName" original="Selected Product Description">选择产品描述</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53709,8 +53709,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202258" trl="N">
-  <value column="Name" original="Financial Year Start Date">Financial Year Start Date</value>
-  <value column="PrintName" original="Financial Year Start Date">Financial Year Start Date</value>
+  <value column="Name" original="Financial Year Start Date">财年起始日期</value>
+  <value column="PrintName" original="Financial Year Start Date">财年起始日期</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53719,8 +53719,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202259" trl="N">
-  <value column="Name" original="Financial Month">Financial Month</value>
-  <value column="PrintName" original="Financial Month">Financial Month</value>
+  <value column="Name" original="Financial Month">财务月</value>
+  <value column="PrintName" original="Financial Month">财务月</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53729,8 +53729,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202260" trl="N">
-  <value column="Name" original="Financial Year">Financial Year</value>
-  <value column="PrintName" original="Financial Year">Financial Year</value>
+  <value column="Name" original="Financial Year">财务年</value>
+  <value column="PrintName" original="Financial Year">财务年</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53739,8 +53739,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202261" trl="N">
-  <value column="Name" original="Case">Case</value>
-  <value column="PrintName" original="Case">Case</value>
+  <value column="Name" original="Case">实例</value>
+  <value column="PrintName" original="Case">实例</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53749,8 +53749,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202262" trl="N">
-  <value column="Name" original="BS Date">BS Date</value>
-  <value column="PrintName" original="BS Date">BS Date</value>
+  <value column="Name" original="BS Date">BS日期</value>
+  <value column="PrintName" original="BS Date">BS日期</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53759,8 +53759,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202263" trl="N">
-  <value column="Name" original="BS Month">BS Month</value>
-  <value column="PrintName" original="BS Month">BS Month</value>
+  <value column="Name" original="BS Month">BS月份</value>
+  <value column="PrintName" original="BS Month">BS月份</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53769,8 +53769,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202264" trl="N">
-  <value column="Name" original="Financial Year">Financial Year</value>
-  <value column="PrintName" original="Financial Year">Financial Year</value>
+  <value column="Name" original="Financial Year">财务年</value>
+  <value column="PrintName" original="Financial Year">财务年</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53779,8 +53779,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202265" trl="N">
-  <value column="Name" original="Financial Month">Financial Month</value>
-  <value column="PrintName" original="Financial Month">Financial Month</value>
+  <value column="Name" original="Financial Month">财务月</value>
+  <value column="PrintName" original="Financial Month">财务月</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53789,8 +53789,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202266" trl="N">
-  <value column="Name" original="Table Name">Table Name</value>
-  <value column="PrintName" original="Table Name">Table Name</value>
+  <value column="Name" original="Table Name">表名</value>
+  <value column="PrintName" original="Table Name">表名</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53799,8 +53799,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202267" trl="N">
-  <value column="Name" original="Budget Name">Budget Name</value>
-  <value column="PrintName" original="Budget Name">Budget Name</value>
+  <value column="Name" original="Budget Name">预算名称</value>
+  <value column="PrintName" original="Budget Name">预算名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53809,8 +53809,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202268" trl="N">
-  <value column="Name" original="Tax Name">Tax Name</value>
-  <value column="PrintName" original="Tax Name">Tax Name</value>
+  <value column="Name" original="Tax Name">税名称</value>
+  <value column="PrintName" original="Tax Name">税名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53819,8 +53819,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202269" trl="N">
-  <value column="Name" original="Posting Type Name">Posting Type Name</value>
-  <value column="PrintName" original="Posting Type Name">Posting Type Name</value>
+  <value column="Name" original="Posting Type Name">过账类型名称</value>
+  <value column="PrintName" original="Posting Type Name">过账类型名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53829,8 +53829,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202270" trl="N">
-  <value column="Name" original="Currency">Currency</value>
-  <value column="PrintName" original="Currency">Currency</value>
+  <value column="Name" original="Currency">货币</value>
+  <value column="PrintName" original="Currency">货币</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53839,8 +53839,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202271" trl="N">
-  <value column="Name" original="Source Amount">Source Amount</value>
-  <value column="PrintName" original="Source Amount">Source Amount</value>
+  <value column="Name" original="Source Amount">来源金额</value>
+  <value column="PrintName" original="Source Amount">来源金额</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53879,8 +53879,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202275" trl="N">
-  <value column="Name" original="UOM Name">UOM Name</value>
-  <value column="PrintName" original="UOM Name">UOM Name</value>
+  <value column="Name" original="UOM Name">单位名称</value>
+  <value column="PrintName" original="UOM Name">单位名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53889,8 +53889,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202276" trl="N">
-  <value column="Name" original="AC Code">AC Code</value>
-  <value column="PrintName" original="AC Code">AC Code</value>
+  <value column="Name" original="AC Code">AC编码</value>
+  <value column="PrintName" original="AC Code">AC编码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53899,8 +53899,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202277" trl="N">
-  <value column="Name" original="AC Name">AC Name</value>
-  <value column="PrintName" original="AC Name">AC Name</value>
+  <value column="Name" original="AC Name">AC名称</value>
+  <value column="PrintName" original="AC Name">AC名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53919,8 +53919,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202279" trl="N">
-  <value column="Name" original="BS Type Name">BS Type Name</value>
-  <value column="PrintName" original="BS Type Name">BS Type Name</value>
+  <value column="Name" original="BS Type Name">BS类型名称</value>
+  <value column="PrintName" original="BS Type Name">BS类型名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53929,8 +53929,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202280" trl="N">
-  <value column="Name" original="PL Type Name">PL Type Name</value>
-  <value column="PrintName" original="PL Type Name">PL Type Name</value>
+  <value column="Name" original="PL Type Name">PL类型名称</value>
+  <value column="PrintName" original="PL Type Name">PL类型名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53939,8 +53939,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202281" trl="N">
-  <value column="Name" original="AC Group">AC Group</value>
-  <value column="PrintName" original="AC Group">AC Group</value>
+  <value column="Name" original="AC Group">AC 组</value>
+  <value column="PrintName" original="AC Group">AC 组</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53949,8 +53949,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202282" trl="N">
-  <value column="Name" original="BS Group">BS Group</value>
-  <value column="PrintName" original="BS Group">BS Group</value>
+  <value column="Name" original="BS Group">BS 组</value>
+  <value column="PrintName" original="BS Group">BS 组</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53959,8 +53959,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202283" trl="N">
-  <value column="Name" original="PL Group">PL Group</value>
-  <value column="PrintName" original="PL Group">PL Group</value>
+  <value column="Name" original="PL Group">PL 组</value>
+  <value column="PrintName" original="PL Group">PL 组</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53979,8 +53979,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202285" trl="N">
-  <value column="Name" original="Net Assets / Equity">Net Assets / Equity</value>
-  <value column="PrintName" original="Net Assets / Equity">Net Assets / Equity</value>
+  <value column="Name" original="Net Assets / Equity">净资产/净值</value>
+  <value column="PrintName" original="Net Assets / Equity">净资产/净值</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53989,8 +53989,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202286" trl="N">
-  <value column="Name" original="BP Code">BP Code</value>
-  <value column="PrintName" original="BP Code">BP Code</value>
+  <value column="Name" original="BP Code">业务伙伴编码</value>
+  <value column="PrintName" original="BP Code">业务伙伴编码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53999,8 +53999,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202287" trl="N">
-  <value column="Name" original="BP Code and Name">BP Code and Name</value>
-  <value column="PrintName" original="BP Code and Name">BP Code and Name</value>
+  <value column="Name" original="BP Code and Name">业务伙伴编码和名称</value>
+  <value column="PrintName" original="BP Code and Name">业务伙伴编码和名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54009,8 +54009,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202288" trl="N">
-  <value column="Name" original="BP Group Name">BP Group Name</value>
-  <value column="PrintName" original="BP Group Name">BP Group Name</value>
+  <value column="Name" original="BP Group Name">业务伙伴分组名称</value>
+  <value column="PrintName" original="BP Group Name">业务伙伴分组名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54019,8 +54019,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202289" trl="N">
-  <value column="Name" original="Sales Rep Name">Sales Rep Name</value>
-  <value column="PrintName" original="Sales Rep Name">Sales Rep Name</value>
+  <value column="Name" original="Sales Rep Name">销售代表名称</value>
+  <value column="PrintName" original="Sales Rep Name">销售代表名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54029,8 +54029,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202290" trl="N">
-  <value column="Name" original="Product Code">Product Code</value>
-  <value column="PrintName" original="Product Code">Product Code</value>
+  <value column="Name" original="Product Code">产品编码</value>
+  <value column="PrintName" original="Product Code">产品编码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54039,8 +54039,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202291" trl="N">
-  <value column="Name" original="Product Name">Product Name</value>
-  <value column="PrintName" original="Product Name">Product Name</value>
+  <value column="Name" original="Product Name">产品名称</value>
+  <value column="PrintName" original="Product Name">产品名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54049,8 +54049,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202292" trl="N">
-  <value column="Name" original="Product Category">Product Category</value>
-  <value column="PrintName" original="Product Category">Product Category</value>
+  <value column="Name" original="Product Category">产品分类</value>
+  <value column="PrintName" original="Product Category">产品分类</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54059,29 +54059,29 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202293" trl="N">
-  <value column="Name" original="Include source accounts with no transaction">Include source accounts with no transaction</value>
-  <value column="PrintName" original="Include source accounts with no transaction">Include source accounts with no transaction</value>
-  <value column="Description" original="Include source accounts with no transaction for list report line sources">Include source accounts with no transaction for list report line sources</value>
-  <value column="Help" original="List the Source Accounts with or without transactions for Summary Accounts selected">List the Source Accounts with or without transactions for Summary Accounts selected</value>
+  <value column="Name" original="Include source accounts with no transaction">包括没有交易的源帐户</value>
+  <value column="PrintName" original="Include source accounts with no transaction">包括没有交易的源帐户</value>
+  <value column="Description" original="Include source accounts with no transaction for list report line sources">在财务报表行上显示包括没有（过账）交易的帐户</value>
+  <value column="Help" original="List the Source Accounts with or without transactions for Summary Accounts selected">在财务报表汇总行/账户上显示包括没有（过账）交易的帐户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202294" trl="N">
-  <value column="Name" original="Operand 2 Line Name">Operand 2 Line Name</value>
-  <value column="PrintName" original="Operand 2 Line Name">Operand 2 Line Name</value>
-  <value column="Description" original="Name of the financial report line to take values from">Name of the financial report line to take values from</value>
-  <value column="Help" original="When specify this identified the name of the financial report line to take values from for column Oper_2_ID. No validation at entry time, value will be zero if the name doesn't match any line.">When specify this identified the name of the financial report line to take values from for column Oper_2_ID. No validation at entry time, value will be zero if the name doesn't match any line</value>
+  <value column="Name" original="Operand 2 Line Name">操作数2行名称</value>
+  <value column="PrintName" original="Operand 2 Line Name">操作数2行名称</value>
+  <value column="Description" original="Name of the financial report line to take values from">表示财务报告的列值从哪里得到的名称</value>
+  <value column="Help" original="When specify this identified the name of the financial report line to take values from for column Oper_2_ID. No validation at entry time, value will be zero if the name doesn't match any line.">当为财务报表行指定一个从列名字名称Oper_2_ID来的值时，当打开报表时系统没有对该列进行验证，如果没有名称与之相匹配，其值将被置为零</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202295" trl="N">
-  <value column="Name" original="Inverse Operation for Debit/Credit Only Column">Inverse Operation for Debit/Credit Only Column</value>
-  <value column="PrintName" original="Inverse Operation for Debit/Credit Only Column">Inverse Operation for Debit/Credit Only Column</value>
-  <value column="Description" original="Apply inverse operation to debit or credit only column">Apply inverse operation to debit or credit only column</value>
+  <value column="Name" original="Inverse Operation for Debit/Credit Only Column">逆操作借记/贷记(只在列上)</value>
+  <value column="PrintName" original="Inverse Operation for Debit/Credit Only Column">逆操作借记/贷记(只在列上)</value>
+  <value column="Description" original="Apply inverse operation to debit or credit only column">应用逆操作借记/贷记(只在列上)</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -54159,10 +54159,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202506" trl="N">
-  <value column="Name" original="Inv Sub Type">Inv Sub Type</value>
-  <value column="PrintName" original="Inv Sub Type">Inv Sub Type</value>
-  <value column="Description" original="Inventory Sub Type">Inventory Sub Type</value>
-  <value column="Help" original="The Inventory Sub Type indicates the type of inventory this document refers to.  This field only appears when the Document Base Type is Material Physical Inventory.  The selection made here will determine which window must be used and which data in the lines is relevant for the document.  Internal Use inventory (based on Internal Used Quantity) or Physical Inventory (based on difference between Qty Counted vs Qty Book)">The Inventory Sub Type indicates the type of inventory this document refers to.  This field only appears when the Document Base Type is Material Physical Inventory.  The selection made here will determine which window must be used and which data in the lines is relevant for the document.  Internal Use inventory (based on Internal Used Quantity) or Physical Inventory (based on difference between Qty Counted vs Qty Book)</value>
+  <value column="Name" original="Inv Sub Type">库存子类型</value>
+  <value column="PrintName" original="Inv Sub Type">库存子类型</value>
+  <value column="Description" original="Inventory Sub Type">库存子类型</value>
+  <value column="Help" original="The Inventory Sub Type indicates the type of inventory this document refers to.  This field only appears when the Document Base Type is Material Physical Inventory.  The selection made here will determine which window must be used and which data in the lines is relevant for the document.  Internal Use inventory (based on Internal Used Quantity) or Physical Inventory (based on difference between Qty Counted vs Qty Book)">库存子类型表示该文档是库存文档，该字段只在文档基本类型是物料库存盘点时出现。是否选中决定着该文档将使用哪个窗口与数据行，比如，内部使用库存（基于内部使用量）或者 库存盘点（基于盘盈盘亏数）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -54189,8 +54189,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202509" trl="N">
-  <value column="Name" original="Currency Description">Currency Description</value>
-  <value column="PrintName" original="Currency Description">Currency Description</value>
+  <value column="Name" original="Currency Description">货币说明</value>
+  <value column="PrintName" original="Currency Description">货币说明</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

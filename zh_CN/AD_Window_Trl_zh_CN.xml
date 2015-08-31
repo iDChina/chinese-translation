@@ -1393,7 +1393,7 @@
  <row id="53005" trl="Y">
   <value column="Name" original="Manufacturing Workflows">生产工艺</value>
   <value column="Description" original="Maintain Manufacturing Workflows (Routing)">维护生产工艺</value>
-  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">生产工艺路线是生产部件方法的详细信息集合。它包括在不同工作中心的作业顺序、标准设置和运行。在某些公司，工艺还包括工具技能等级、检验作业、测试需求等</value>
  </row>
  <row id="53006" trl="Y">
   <value column="Name" original="Bill of Materials &amp; Formula ">物料清单与配方 </value>
@@ -1404,51 +1404,35 @@ It answers the question, what are the components of the product?</value>
  <row id="53007" trl="Y">
   <value column="Name" original="Product Planning Data">产品计划数据</value>
   <value column="Description" original="Maintain Product Planning Data">维护产品计划数据</value>
-  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories</value>
+  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">“产品计划数据“窗口可以让你输入产品信息，依据MPS,未清订单和库存，这些信息将作为执行MRP算法的基础</value>
  </row>
  <row id="53008" trl="Y">
   <value column="Name" original="MRP Notice">MRP 通知</value>
   <value column="Description" original="View MRP Notices">查看MRP通知</value>
-  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">The system creates messages while performing processes. In this window you can view them.
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">运行此流程时系统将创建一条消息，您可以在这个窗口查看消息。
 
-MRP Notice
-It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the iDempiere session.
+MRP 通知
+MRP流程可以生成一组信息，它向调度员指出为达到MPP（主生产计划）所要达到的动作。这些动作信息作为一个通知报告给登录到系统的计划者。
 
-The possible action messages are:
+可能动作信息如下:
 
-MRP Code	 Action Message
-MRP - 001	 Beginning Quantity Less Than Zero.
-MRP - 020	 Create - A Supply Order should be created to satisfy a negative projected on hand balance.
-This message is only generate if Create Plan is No or if a new requirement appears the time fence.
-
-MRP - 030	 De Expedite - Indicates that a scheduled supply order is due before it is needed
-and should be delayed, or demand rescheduled to an earlier date.
-
-MRP - 040	 Expedite - Indicates that a scheduled supply order is due after is needed
-and should be rescheduled to an earlier date, or demand rescheduled to a later date.
-
-MRP - 050	 Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.
-MRP - 060	 Release Due For - Indicate that a schedule order should be released.
-MRP - 070	 Release Past Due For - Indicate that a supply order was not released when it was due,
-and should be either released or expedited now, or the demand rescheduled for a later date.
-
-MRP - 080	 Quantity Less than Minimum - Indicates that a supply order was created for
-a quantity less than the minimum quantity set in the product planning
-
-MRP - 090	 Quantity Less than Maximum - Indicates that a supply order was created for a quantity
-for a quantity greater than than maximum quantity set in the product planning
-
-MRP - 100	 Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside
-the planning time fence for this item. You should either manually schedule and expedite orders to
-
-fill this demand or delay fulfillment of the requirement that created the demand.
-
-MRP - 110	 No exists Dem</value>
+MRP 编码	 动作信息
+MRP - 001	 起始数量小于0.
+MRP - 020	新建 ———— 创建采购订单以满足负库存。只有当”新建计划“为否或者新需求生成时，这个通知才出现。
+MRP - 030	延缓 ———— 计划采购订单早于物料需求，而需要延缓采购，或者需求应该在更早的时间释放。
+MRP - 040	加快 ———— 计划采购订单早于物料需求，而需要提前计划，或者需求应该在更晚的时间释放。
+MRP - 050	取消 ———— 计划采购订单不要需要，应该被取消。
+MRP - 060	到期释放————  计划采购订单应该被释放。
+MRP - 070	过期释放———— 计划采购订单到期时没有释放，应该释放或者马上加速采购，或者物料需求再晚点。
+MRP - 080	小于最小数量———— 当数量少于产品计划中的最小值时，采购订单应该被创建。
+MRP - 090	小于最大数量———— 当数量少于产品计划中的最大值时，采购订单应该被创建。
+MRP - 100	过期时间间隔———— 在某个物品的计划时间间隔内，物料需求无法满足。要么手动计划或者加速采购以满足需求，或者延迟物料需求。
+MRP - 110	无需求</value>
  </row>
  <row id="53009" trl="Y">
   <value column="Name" original="Manufacturing Order">生产单</value>
   <value column="Description" original="Maintain Manufacturing Order">维护生产单</value>
-  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">生产计划是一个单据组，或者日程表，以授权生产一定数量的零件或产品</value>
  </row>
  <row id="53010" trl="Y">
   <value column="Name" original="Spare parts">零件</value>
@@ -1458,12 +1442,12 @@ MRP - 110	 No exists Dem</value>
  <row id="53011" trl="Y">
   <value column="Name" original="Activity Control Report">活动控制报表</value>
   <value column="Description" original="Activity Control">活动控制</value>
-  <value column="Help" original="This window is reported the real issue the shop floor">This window is reported the real issue the shop floor</value>
+  <value column="Help" original="This window is reported the real issue the shop floor">车间实际活动情况</value>
  </row>
  <row id="53012" trl="Y">
   <value column="Name" original="Distribution Order">配送单</value>
-  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
-  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">创建仓库内部订单以满足需求 </value>
+  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">创建仓库内部订单以满足需求 </value>
  </row>
  <row id="53013" trl="Y">
   <value column="Name" original="Quality Specifications">质量规格</value>
@@ -1472,8 +1456,8 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53014" trl="Y">
   <value column="Name" original="Cost Collector">成本归集</value>
-  <value column="Description" original="The cost collector is a repository of all the MO transactions.">组织持有资产</value>
-  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">所有生产工单事务的成本归集</value>
+  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">所有生产工单事务的汇总。为了比较成本差异，实际相关事务允许用标准事务对比</value>
  </row>
  <row id="53015" trl="Y">
   <value column="Name" original="ASP Modules">ASP 模块</value>
@@ -1502,13 +1486,13 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53020" trl="Y">
   <value column="Name" original="Tax Group">税组</value>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">税 Groups let you group the business partner with a reference tax</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">税组允许你分组业务伙伴的税种</value>
   <value column="Help" original=""/>
  </row>
  <row id="53021" trl="Y">
   <value column="Name" original="Tax Definition">税定义</value>
   <value column="Description" original="Lets you define different tax combinations.">定义不同的税组合</value>
-  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">You can use the tax dfinition information to create the logic necessary to get the tax rate to your document</value>
+  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">你可以使用税种定义信息去创建税率</value>
  </row>
  <row id="53022" trl="Y">
   <value column="Name" original="Tax Rate Parent">父级税率</value>
@@ -1523,7 +1507,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53024" trl="Y">
   <value column="Name" original="Tax Base">计税基数</value>
   <value column="Description" original="Defines tax base for a tax">定义税务基本信息</value>
-  <value column="Help" original="The Tax Base can be based on price , cost and quantity">The Tax Base can be based on price , cost and quantity</value>
+  <value column="Help" original="The Tax Base can be based on price , cost and quantity">可以基于价格，成本或者数量</value>
  </row>
  <row id="53025" trl="Y">
   <value column="Name" original="Export Format">导出格式</value>
@@ -1553,17 +1537,17 @@ MRP - 110	 No exists Dem</value>
  <row id="53032" trl="Y">
   <value column="Name" original="Payroll Contract">薪酬合同</value>
   <value column="Description" original="Maintain Payroll Contract">维护薪酬联系人</value>
-  <value column="Help" original="The Payroll Contract Window is used to define the laboral condition for the employes in a payroll">The Payroll Contract Window is used to define the laboral condition for the employes in a payroll</value>
+  <value column="Help" original="The Payroll Contract Window is used to define the laboral condition for the employes in a payroll">定义雇员薪酬的劳资条款</value>
  </row>
  <row id="53033" trl="Y">
   <value column="Name" original="Payroll Employee">职员薪酬</value>
   <value column="Description" original="Maintain Payroll Employee">维护职员薪酬</value>
-  <value column="Help" original="The Payroll Employee Window is used to define the Employees into the Organizational">The Payroll Employee Window is used to define the Employees into the Organizational</value>
+  <value column="Help" original="The Payroll Employee Window is used to define the Employees into the Organizational">定义组织内的雇员</value>
  </row>
  <row id="53034" trl="Y">
   <value column="Name" original="Payroll Department">部门薪酬</value>
   <value column="Description" original="Maintain Payroll Department">维护部门薪酬</value>
-  <value column="Help" original="The Payroll Departament Window is used to define the Organizational Structure for company">The Payroll Table Type Window is used to define the Table类型</value>
+  <value column="Help" original="The Payroll Departament Window is used to define the Organizational Structure for company">定义公司内的组织结构</value>
  </row>
  <row id="53035" trl="Y">
   <value column="Name" original="Payroll Job">薪酬职位</value>
@@ -1573,12 +1557,12 @@ MRP - 110	 No exists Dem</value>
  <row id="53036" trl="Y">
   <value column="Name" original="Payroll Concept Catalog">薪酬策略目录</value>
   <value column="Description" original="Maintain Payroll Concept Catalog">维护薪酬策略类别</value>
-  <value column="Help" original="The Payroll  Concept Catalog Window is used to define the concepts for a payroll ie ( salaries, wages, bonuses, and deductions.)">The Payroll  Concept Catalog Window is used to define the concepts for a payroll ie ( salaries, wages, bonuses, and deductions.)</value>
+  <value column="Help" original="The Payroll  Concept Catalog Window is used to define the concepts for a payroll ie ( salaries, wages, bonuses, and deductions.)">定义薪酬的分类，比如工资、福利、奖金、扣款等</value>
  </row>
  <row id="53037" trl="Y">
   <value column="Name" original="Payroll Process">薪酬处理</value>
   <value column="Description" original="Payroll Process">薪酬处理</value>
-  <value column="Help" original="The Payroll Processing Window is used to processing a Payroll, you can calculate for a Employee or All Employees">The Payroll Processing Window is used to processing a Payroll, you can calculate for a Employee or All Employees</value>
+  <value column="Help" original="The Payroll Processing Window is used to processing a Payroll, you can calculate for a Employee or All Employees">处理计算所有雇员的薪酬</value>
  </row>
  <row id="53038" trl="Y">
   <value column="Name" original="Payroll Definition">薪酬定义</value>
@@ -1588,22 +1572,22 @@ MRP - 110	 No exists Dem</value>
  <row id="53039" trl="Y">
   <value column="Name" original="Payroll Concept Category">薪酬策略类别</value>
   <value column="Description" original="Maintain Payroll Concept Category">维护薪酬策略类别</value>
-  <value column="Help" original="The Payroll Concept Category Window is use to grouping concepts for a type">The Payroll Concept Category Window is use to grouping concepts for a类型</value>
+  <value column="Help" original="The Payroll Concept Category Window is use to grouping concepts for a type">分组薪酬策略</value>
  </row>
  <row id="53040" trl="Y">
   <value column="Name" original="Payroll Table Type">薪酬表类型</value>
   <value column="Description" original="Maintain Payroll Table Type">维护薪酬单类型</value>
-  <value column="Help" original="The Payroll Table Type Window is used to define the Table Type">The Payroll Table Type Window is used to define the Table类型</value>
+  <value column="Help" original="The Payroll Table Type Window is used to define the Table Type">定义薪酬表类型</value>
  </row>
  <row id="53041" trl="Y">
   <value column="Name" original="Payroll Table">薪酬单</value>
   <value column="Description" original="Maintain Payroll Table">维护薪酬单</value>
-  <value column="Help" original="The Payroll Table Window is use to create Payroll Tables with version and range data">The Payroll Table Window is use to create Payroll Tables with version and range data</value>
+  <value column="Help" original="The Payroll Table Window is use to create Payroll Tables with version and range data">使用版本和范围数据创建薪酬表</value>
  </row>
  <row id="53042" trl="Y">
   <value column="Name" original="Payroll Movement">薪酬调整</value>
   <value column="Description" original="History of Payroll Movement">薪酬调整</value>
-  <value column="Help" original="The Payroll Movement Window is use to show the history the any calculated payroll">The Payroll Movement Window is use to show the history the any calculated payroll</value>
+  <value column="Help" original="The Payroll Movement Window is use to show the history the any calculated payroll">显示薪酬计算历史</value>
  </row>
  <row id="53044" trl="Y">
   <value column="Name" original="Asset Revaluation Processing">资产重估处理</value>
@@ -1612,8 +1596,8 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53045" trl="Y">
   <value column="Name" original="Asset Revaluation Index">资产重估索引</value>
-  <value column="Description" original="Set the Revaluate Assets Index or Factors">Set the Revaluate Assets Index or Factors</value>
-  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">设置重估资产的索引或因子</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">允许您设置资产重估时的索引或因子数值</value>
  </row>
  <row id="53046" trl="Y">
   <value column="Name" original="Transfer Asset Entry">资产转让账目</value>
@@ -1623,32 +1607,32 @@ MRP - 110	 No exists Dem</value>
  <row id="53047" trl="Y">
   <value column="Name" original="Disposed Asset Entry">处置资产条目</value>
   <value column="Description" original="Create Disposed Asset Entry">创建处置资产账目</value>
-  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL</value>
+  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">允许您创建和过账资产处置</value>
  </row>
  <row id="53048" trl="Y">
   <value column="Name" original="Asset Split">资产拆分</value>
   <value column="Description" original="Split Assets Process">分拆资产处理</value>
-  <value column="Help" original="The Asset Split window allows you to process asset splits">The Asset Split window allows you to process asset splits</value>
+  <value column="Help" original="The Asset Split window allows you to process asset splits">允许您过账资产分拆</value>
  </row>
  <row id="53049" trl="Y">
   <value column="Name" original="Asset Disposal2">资产处置</value>
   <value column="Description" original="Dispose of Assets">资产处置</value>
-  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset</value>
+  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">允许您创建必要的资产处置总账分录</value>
  </row>
  <row id="53050" trl="Y">
   <value column="Name" original="Asset Transfers">资产转移</value>
   <value column="Description" original="Process transfers of assets">转移资产处理</value>
-  <value column="Help" original="The Asset Transfer window allows you to transfer assets">订单窗口允许输入和修改销售订单</value>
+  <value column="Help" original="The Asset Transfer window allows you to transfer assets">允许您处理资产转移</value>
  </row>
  <row id="53051" trl="Y">
   <value column="Name" original="Split Asset Entry">分割资产账目</value>
   <value column="Description" original="Create Split Asset Entries">创建分拆资产条目</value>
-  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">The Split Asset Entry window allows you to create and post assets that have been split to the GL</value>
+  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">允许您创建和过账资产分拆</value>
  </row>
  <row id="53052" trl="Y">
   <value column="Name" original="Build Depreciation Workfile">建立折旧费用工作文件</value>
   <value column="Description" original="Build Depreciation Expense File">建立折旧费用文件</value>
-  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user</value>
+  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">对于不同的过账类型，允许您创建当前的折旧支出费用，比如实际预算和用户税费</value>
  </row>
  <row id="53053" trl="Y">
   <value column="Name" original="Post Depreciation Entry">折旧过账</value>
@@ -1663,12 +1647,12 @@ MRP - 110	 No exists Dem</value>
  <row id="53057" trl="Y">
   <value column="Name" original="Depreciation Period Spread Type">折旧期间展开类型</value>
   <value column="Description" original="Period Spread Type">期间展开类型</value>
-  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">The Period Spread Type window allows you to setup and review depreciation spread by period</value>
+  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">允许您按期间设置和审核折旧</value>
  </row>
  <row id="53058" trl="Y">
   <value column="Name" original="Depreciation Methods">折旧方法</value>
   <value column="Description" original="Depreciation Methods">折旧方法</value>
-  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">The Depreciation method windows allows the user to review the depreciation calculations available in iDempiere</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">允许用户审核折旧计算</value>
  </row>
  <row id="53059" trl="Y">
   <value column="Name" original="Depreciation Tables">折旧表</value>
@@ -1683,7 +1667,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53061" trl="Y">
   <value column="Name" original="Depreciation Calculation Method">折旧计提方法</value>
   <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">定义折旧费用的计提方法</value>
-  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled</value>
+  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">允许用户定义固定资产折旧</value>
  </row>
  <row id="53062" trl="Y">
   <value column="Name" original="Charge Type">费用类型</value>
@@ -1711,7 +1695,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53068" trl="Y">
-  <value column="Name" original="Web Service Security">强制客户端安全</value>
+  <value column="Name" original="Web Service Security">WEB服务安全</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1738,7 +1722,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53078" trl="Y">
   <value column="Name" original="Report Cube">报表立方体</value>
   <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">为预先计算会计报表数据定义报表立方体</value>
-  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions</value>
+  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">在选择日历中，分组所选择的维度，计算汇总数据</value>
  </row>
  <row id="53085" trl="Y">
   <value column="Name" original="MRP Notice (all)">MRP 通知(全部)</value>
@@ -1764,7 +1748,7 @@ MRP - 110	 No exists Dem</value>
  <row id="53098" trl="Y">
   <value column="Name" original="Return to Vendor">供应商退货</value>
   <value column="Description" original="Vendor Returns">供应商退货</value>
-  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return</value>
+  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">因供应商退货而创建的发货单</value>
  </row>
  <row id="53099" trl="Y">
   <value column="Name" original="Vendor RMA">供应商退货授权</value>
@@ -1822,7 +1806,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53117" trl="Y">
-  <value column="Name" original="Asset Funding Mode">语言维护模式</value>
+  <value column="Name" original="Asset Funding Mode">资产融资模式</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1843,12 +1827,12 @@ MRP - 110	 No exists Dem</value>
  </row>
  <row id="53121" trl="Y">
   <value column="Name" original="Import Inventory Move">导入库存移动</value>
-  <value column="Description" original="This window allow import Inventory Move transaction">This window allow import Inventory Move transaction</value>
+  <value column="Description" original="This window allow import Inventory Move transaction">这个窗口允许导入移库操作</value>
   <value column="Help" original=""/>
  </row>
  <row id="53124" trl="N">
-  <value column="Name" original="Chart">Chart</value>
-  <value column="Description" original="Chart Definition">Chart Definition</value>
+  <value column="Name" original="Chart">图表</value>
+  <value column="Description" original="Chart Definition">图表定义</value>
   <value column="Help" original=""/>
  </row>
  <row id="53125" trl="Y">
@@ -1857,14 +1841,14 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53127" trl="Y">
-  <value column="Name" original="Production (Single Product)">允许产品信息</value>
+  <value column="Name" original="Production (Single Product)">生产（单品）</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53128" trl="Y">
-  <value column="Name" original="Parts and BOMs">安提瓜与巴布达</value>
+  <value column="Name" original="Parts and BOMs">部件和材料明细表</value>
   <value column="Description" original="Maintain Bill of Materials">维护BOM</value>
-  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing</value>
+  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">物料清单窗口为轻量级制造组织定义所有产品的物料清单</value>
  </row>
  <row id="53134" trl="Y">
   <value column="Name" original="Cash Plan">现金计划</value>
@@ -1872,13 +1856,13 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53149" trl="Y">
-  <value column="Name" original="Quality Test">Email测试</value>
+  <value column="Name" original="Quality Test">质量检验</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53150" trl="Y">
-  <value column="Name" original="Part Type">关联类型的"类型"</value>
-  <value column="Description" original="Manufacturing Part Types">AD_窗体 类型</value>
+  <value column="Name" original="Part Type">部件类型</value>
+  <value column="Description" original="Manufacturing Part Types">制造部件类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="53152" trl="N">
@@ -1902,27 +1886,27 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="53156" trl="N">
-  <value column="Name" original="Sales Rep Dashboard">Sales Rep Dashboard</value>
+  <value column="Name" original="Sales Rep Dashboard">销售代表仪表盘</value>
   <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">The Sales Rep Dashboard provides a single location for managing sales opportunities</value>
   <value column="Help" original=""/>
  </row>
  <row id="53165" trl="N">
-  <value column="Name" original="Customer">Customer</value>
+  <value column="Name" original="Customer">客户</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200000" trl="Y">
-  <value column="Name" original="Toolbar Button">命令按钮 - 启动一个程序</value>
+  <value column="Name" original="Toolbar Button">工具栏按钮</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
-  <value column="Name" original="Role Toolbar Button Access">角色权限限制</value>
-  <value column="Description" original="Maintain toolbar button access rule">维护工具条按钮权限规则</value>
+  <value column="Name" original="Role Toolbar Button Access">角色工具栏按钮访问</value>
+  <value column="Description" original="Maintain toolbar button access rule">维护工具栏按钮权限规则</value>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
-  <value column="Name" original="Password Rule">提醒规则</value>
+  <value column="Name" original="Password Rule">密码规则</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1937,22 +1921,22 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="POS Payment">应付账款</value>
+  <value column="Name" original="POS Payment">POS 付款</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200009" trl="Y">
-  <value column="Name" original="POS Tender Type">C_付款 投标类型</value>
+  <value column="Name" original="POS Tender Type">POS 支付类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200012" trl="Y">
-  <value column="Name" original="Schedule">日程</value>
-  <value column="Description" original="Times for the scheduler">AD_计划任务 类型</value>
+  <value column="Name" original="Schedule">计划任务</value>
+  <value column="Description" original="Times for the scheduler">定时执行计划任务</value>
   <value column="Help" original=""/>
  </row>
  <row id="200013" trl="Y">
-  <value column="Name" original="GL Journal Generator">总账日记账批</value>
+  <value column="Name" original="GL Journal Generator">总账日记账生成器</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1972,13 +1956,13 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200018" trl="Y">
-  <value column="Name" original="Online Transaction History">一次性事务处理</value>
+  <value column="Name" original="Online Transaction History">联机事务历史</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="Setup Wizard Maintenance">AD_语言维护</value>
-  <value column="Description" original="Maintenance Setup Wizard window">Maintenance Setup Wizard window</value>
+  <value column="Name" original="Setup Wizard Maintenance">维护安装向导</value>
+  <value column="Description" original="Maintenance Setup Wizard window">维护安装向导窗口</value>
   <value column="Help" original=""/>
  </row>
  <row id="200022" trl="Y">
@@ -1989,7 +1973,7 @@ MRP - 110	 No exists Dem</value>
  <row id="200023" trl="Y">
   <value column="Name" original="Broadcast Message">广播消息</value>
   <value column="Description" original="Broadcast Message">广播消息</value>
-  <value column="Help" original="Window allows to enter broadcast messages">该窗口用户发布广播消息</value>
+  <value column="Help" original="Window allows to enter broadcast messages">窗口允许输入广播消息</value>
  </row>
  <row id="200024" trl="Y">
   <value column="Name" original="Shipping Processor">会计引擎</value>
@@ -2007,7 +1991,7 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200028" trl="Y">
-  <value column="Name" original="Shipping Processor Configuration">整理工作</value>
+  <value column="Name" original="Shipping Processor Configuration">装运引擎配置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2017,22 +2001,22 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200030" trl="Y">
-  <value column="Name" original="Shipping Transaction">事务处理金额</value>
-  <value column="Description" original="Shipping Transactions">现金事务处理</value>
+  <value column="Name" original="Shipping Transaction">装运事务</value>
+  <value column="Description" original="Shipping Transactions">装运事务</value>
   <value column="Help" original=""/>
  </row>
  <row id="200031" trl="Y">
-  <value column="Name" original="Payments into Batch">批单据号</value>
-  <value column="Description" original="Process Payments">处理付款</value>
-  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">The Process Receipts Window allows you to enter receipts for invoices.  If the payment is for a single invoice then it can be processed here</value>
+  <value column="Name" original="Payments into Batch">批量付款</value>
+  <value column="Description" original="Process Payments">批量付款</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">允许用户对发票付款，针对单张发票</value>
  </row>
  <row id="200034" trl="Y">
   <value column="Name" original="Context Help"><![CDATA[帮助(&H)]]></value>
-  <value column="Description" original="Maintain Context Helps">工作流流程上下文</value>
-  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">The Context Help window defines the context help message text to display in the help pane. It is for Web UI only</value>
+  <value column="Description" original="Maintain Context Helps">维护上下文帮助</value>
+  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">定义在”帮助“面板的上下文帮助信息，只针对WEB界面</value>
  </row>
  <row id="200036" trl="N">
-  <value column="Name" original="1099 Box">1099 Box</value>
+  <value column="Name" original="1099 Box">1099 箱</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2052,12 +2036,12 @@ MRP - 110	 No exists Dem</value>
   <value column="Help" original=""/>
  </row>
  <row id="200046" trl="N">
-  <value column="Name" original="Address Validation Configuration">Address Validation Configuration</value>
+  <value column="Name" original="Address Validation Configuration">地址验证配置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200047" trl="N">
-  <value column="Name" original="Address Validation">Address Validation</value>
+  <value column="Name" original="Address Validation">地址验证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

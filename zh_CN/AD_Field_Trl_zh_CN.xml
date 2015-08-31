@@ -269,7 +269,7 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  <row id="53375" trl="Y">
   <value column="Name" original="Resource">资源</value>
   <value column="Description" original="Resource">资源</value>
-  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">在你想要执行的操作上选择(先前定义的）生产资源；对于产品成本，资源率从产品成本窗口中定义成本元素获得</value>
  </row>
  <row id="53378" trl="Y">
   <value column="Name" original="Business Partner ">业务伙伴 </value>
@@ -279,14 +279,14 @@ The Accounting Date on Bank/Cash Statement Line is used for currency conversion 
  <row id="53380" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
   <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">有效起始日期表示日期范围的第一天
-When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">起始日期表示有效日期范围的第一天
+起始日期和终止日期表示在这段时间范围内该BOM可以在生产线中使用</value>
  </row>
  <row id="53381" trl="Y">
   <value column="Name" original="Valid to">有效截止</value>
   <value column="Description" original="Valid to including this date (last day)">有效截止日期, 包括当日 (最后一天)</value>
-  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid To date indicates the last day of a date range
-When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">起始日期表示有效日期范围的第一天，
+当你在字段中输入日期 起始日期 - 终止日期，我们指定在该时间范围内合成产品</value>
  </row>
  <row id="53449" trl="Y">
   <value column="Name" original="Start Node">起始节点</value>
@@ -315,33 +315,33 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="53513" trl="Y">
   <value column="Name" original="Resource">资源</value>
   <value column="Description" original="Resource">资源</value>
-  <value column="Help" original="A manufacturing resource is a place where a product will be made.">A manufacturing resource is a place where a product will be made</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">制造资源是一个生产产品的地方</value>
  </row>
  <row id="53517" trl="Y">
   <value column="Name" original="BOM &amp; Formula">物料清单与配方</value>
   <value column="Description" original=""/>
-  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product."><![CDATA[The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM & Formula for the entity will be the BOM/Formula which has the same name as the product.]]></value>
+  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product."><![CDATA[在该窗口中的BOM名称将被视为本组织（工厂、仓库）默认的BOM用来生产产品。如果你没有填写该字段，系统将根据产品的名称去获得默认的BOM]]></value>
  </row>
  <row id="53518" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
   <value column="Description" original="Workflow or combination of tasks">工作流或任务组合</value>
   <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">工作流字段标识系统中唯一的工作流
 
-The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product</value>
+在这个窗口中你输入工作流将被视为在这个组织（工厂/仓库）生产该产品的默认工作流。如果你未填写该字段，系统将具有相同产品名称的工作流设置为默认的工作流</value>
  </row>
  <row id="53523" trl="Y">
   <value column="Name" original="Promised Delivery Time">承诺交付时间</value>
   <value column="Description" original="Promised days between order and delivery">在订单与交付之间的承诺天数</value>
   <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">承诺交付时间表示订单日期与承诺交付日期之间的天数。
 
-You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse</value>
+必须输入平均天数（从你批准请购单或生产订单，直到仓库收到材料）；如果需求产品是指下采购订单，必须在日历中注册需求天数从你下采购订单到仓库收材料的。如果该产品指下生产单，必须注册工作天数，从你下生产单到产品入库</value>
  </row>
  <row id="53533" trl="Y">
   <value column="Name" original="Working Time">工作时间</value>
   <value column="Description" original="Workflow Simulation Execution Time">工作流模拟执行时间</value>
-  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Amount of time the performer of the activity needs to perform the task in Duration Unit
-
-In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">活动执行者的时间值，即执行任务所需的时长 (以持续时间单位计)。
+  
+  在工作时间字段里输入该产品用于物料清单关键路径上的累计时间（用承诺交付时间计算）。这是生产该产品所必需花的时间，就好像你没有任何配件一切从头开始一样</value>
  </row>
  <row id="53653" trl="Y">
   <value column="Name" original="Acknowledge">确认</value>
@@ -394,8 +394,8 @@ This field shows the sum of the amounts of the product that have had movements</
  <row id="54140" trl="Y">
   <value column="Name" original="Date Promised">承诺日期</value>
   <value column="Description" original="Date Order was promised">订单被承诺的日期</value>
-  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">The Date Promised indicates the date, if any, that an Order was promised for.
-Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">承诺的日期（如果存在）表示订单承诺交付的日期，
+承诺日期是我们承诺订单到仓库的日期，如果生产单是手动创建的，承诺日期默认为系统日期；如果生产单是的MRP生产的，承诺日期由MRP算法计算所得</value>
  </row>
  <row id="54145" trl="Y">
   <value column="Name" original="Date Start">开始日期</value>
@@ -544,7 +544,7 @@ Date Promised Is the date we commit to give the order to the warehouse. If the M
   <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)</value>
   <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">有效起始日期表示日期范围的第一天
 
-The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order</value>
+起始日期和终止日期表示在这段时间范围内该BOM可以在生产线中使用</value>
  </row>
  <row id="58771" trl="Y">
   <value column="Name" original="Import Product Planning Data">导入产品计划</value>
@@ -592,9 +592,9 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="62016" trl="Y">
-  <value column="Name" original="Complete Production">生产成本</value>
-  <value column="Description" original="Complete Production">生产成本</value>
-  <value column="Help" original="Indication that this is complete">指出这是已完成</value>
+  <value column="Name" original="Complete Production">完成生产</value>
+  <value column="Description" original="Complete Production">完成生产</value>
+  <value column="Help" original="Indication that this is complete">表明生产已经完成</value>
  </row>
  <row id="62236" trl="N">
   <value column="Name" original="Sales Rep Name">销售代表的名字</value>
@@ -632,7 +632,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">可覆盖显示类型，但仅当明确产生的效果时才去使用它</value>
  </row>
  <row id="200948" trl="Y">
-  <value column="Name" original="Attachment Store">保存密码</value>
+  <value column="Name" original="Attachment Store">附件存储</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -642,7 +642,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original="Actual Date/Time of Shipment (pick up)">实际的发货日期/时间 (提货)</value>
  </row>
  <row id="201255" trl="Y">
-  <value column="Name" original="Duties Shipper Account (For FedEx only)">Duties Shipper Account (For FedEx only)</value>
+  <value column="Name" original="Duties Shipper Account (For FedEx only)">承运人帐户(联邦快递FedEx专用)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -702,7 +702,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="201273" trl="Y">
-  <value column="Name" original="Hold At Location (For FedEx only)">Hold At Location (For FedEx only)</value>
+  <value column="Name" original="Hold At Location (For FedEx only)">保持位置(联邦快递FedEx专用)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -712,7 +712,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="201354" trl="Y">
-  <value column="Name" original="Added Handling (For UPS only)">添加处理（仅适用于UPS）</value>
+  <value column="Name" original="Added Handling (For UPS only)">添加处理(仅适用于UPS)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -722,7 +722,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original=""/>
  </row>
  <row id="201358" trl="Y">
-  <value column="Name" original="Verbal Confirmation (For UPS only)">Verbal Confirmation (For UPS only)</value>
+  <value column="Name" original="Verbal Confirmation (For UPS only)">口头确认(仅适用于UPS)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

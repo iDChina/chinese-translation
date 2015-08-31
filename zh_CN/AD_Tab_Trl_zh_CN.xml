@@ -445,7 +445,7 @@
   <value column="Name" original="Product Price">产品价格</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Product Prices">维护产品价格</value>
-  <value column="Help" original="The Price List Tab displays the prices for a product based on the selected price list.">			</value>
+  <value column="Help" original="The Price List Tab displays the prices for a product based on the selected price list.">价格表页签显示了基于所选价格表的产品价格</value>
  </row>
  <row id="193" trl="Y">
   <value column="Name" original="Invoice Schedule">发票计划</value>
@@ -5403,7 +5403,7 @@
   <value column="Name" original="Asset Change account">资产变更帐户</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
-  <value column="Help" original="This table holds all necessary information to process asset transfers and create the appropriate entry">This table holds all necessary information to process asset transfers and create the appropriate entry</value>
+  <value column="Help" original="This table holds all necessary information to process asset transfers and create the appropriate entry">本表拥有所有必要的关于处理资产转让的信息并创建相应的条目</value>
  </row>
  <row id="53328" trl="Y">
   <value column="Name" original="Class">类</value>
@@ -5486,7 +5486,7 @@
  <row id="53346" trl="Y">
   <value column="Name" original="Part">选项</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="The Product that will be produced from this Bill of Materials">The Product that will be produced from this Bill of Materials</value>
+  <value column="Description" original="The Product that will be produced from this Bill of Materials">该产品将根据这个物料清单生产</value>
   <value column="Help" original=""/>
  </row>
  <row id="53347" trl="Y">
@@ -5696,7 +5696,7 @@
  <row id="200000" trl="Y">
   <value column="Name" original="Cost Movement">产生调拨单</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Show movement of cost by transaction">Show movement of cost by transaction</value>
+  <value column="Description" original="Show movement of cost by transaction">显示交易成本的变动</value>
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
@@ -5859,7 +5859,7 @@
   <value column="Name" original="Shipping Processor">会计引擎</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Shipping Processors">发货费用</value>
-  <value column="Help" original="Shipping processor tab to define integration details with online shipping services.">Shipping processor tab to define integration details with online shipping services</value>
+  <value column="Help" original="Shipping processor tab to define integration details with online shipping services.">在发货处理标签定义与在线发货服务集成的细节</value>
  </row>
  <row id="200037" trl="Y">
   <value column="Name" original="Packaging">应用程序包</value>
@@ -5871,12 +5871,12 @@
   <value column="Name" original="Label Type">标签类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Label Types Supported by the Shipper.">承运人所支持的标签类型</value>
-  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">Used when booking a shipment online to define the label format that will be printed</value>
+  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">可以使用在线预订发货定义标签的打印格式</value>
  </row>
  <row id="200039" trl="Y">
   <value column="Name" original="Pickup Types">分拣类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Methods that the Shipper will support for picking up from your location">Methods that the Shipper will support for picking up from your location</value>
+  <value column="Description" original="Methods that the Shipper will support for picking up from your location">发货人将根据您的位置提供合适的挑库发运方法</value>
   <value column="Help" original=""/>
  </row>
  <row id="200040" trl="Y">
@@ -5892,13 +5892,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="200045" trl="Y">
-  <value column="Name" original="MPS Lines">主生产计划明细</value>
+  <value column="Name" original="MPS Lines">主物料计划明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200046" trl="Y">
-  <value column="Name" original="Package Lines">确认行</value>
+  <value column="Name" original="Package Lines">包装线</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5910,7 +5910,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200048" trl="Y">
-  <value column="Name" original="MPS Lines">主生产计划明细</value>
+  <value column="Name" original="MPS Lines">主物料计划明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5922,16 +5922,16 @@
   <value column="Help" original=""/>
  </row>
  <row id="200050" trl="Y">
-  <value column="Name" original="Commodity Shipment">客户发货</value>
+  <value column="Name" original="Commodity Shipment">商品发运</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200051" trl="Y">
-  <value column="Name" original="Shipping Processor">会计引擎</value>
+  <value column="Name" original="Shipping Processor">发货处理</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipping Processors">发货费用</value>
-  <value column="Help" original="Shipping processor tab to define integration details with online shipping services.">Shipping processor tab to define integration details with online shipping services</value>
+  <value column="Description" original="Shipping Processors">发货处理</value>
+  <value column="Help" original="Shipping processor tab to define integration details with online shipping services.">航运处理器选项卡在线航运服务定义集成的细节</value>
  </row>
  <row id="200052" trl="Y">
   <value column="Name" original="Shipper">承运人</value>
@@ -5942,19 +5942,19 @@
  <row id="200053" trl="Y">
   <value column="Name" original="Packaging">应用程序包</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Packaging Options supported by the Shipper">Packaging Options supported by the Shipper</value>
+  <value column="Description" original="Packaging Options supported by the Shipper">包装选项由发货人提供</value>
   <value column="Help" original=""/>
  </row>
  <row id="200054" trl="Y">
   <value column="Name" original="Label Type">标签类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Label Types Supported by the Shipper.">承运人所支持的标签类型</value>
-  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">Used when booking a shipment online to define the label format that will be printed</value>
+  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">可以使用在线预订发货定义标签的打印格式</value>
  </row>
  <row id="200055" trl="Y">
   <value column="Name" original="Pickup Types">分拣类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Methods that the Shipper will support for picking up from your location">Methods that the Shipper will support for picking up from your location</value>
+  <value column="Description" original="Methods that the Shipper will support for picking up from your location">发货人将根据位置提供合适的分拣发运方法</value>
   <value column="Help" original=""/>
  </row>
  <row id="200057" trl="Y">
@@ -5964,31 +5964,31 @@
   <value column="Help" original="The Shippers Tab defines any entity who will provide shipping to or shipping from an Organization.">定义提供发货到或从一个组织机构发货服务的任何实体</value>
  </row>
  <row id="200058" trl="Y">
-  <value column="Name" original="Packaging">应用程序包</value>
+  <value column="Name" original="Packaging">包装</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Packaging Options supported by the Shipper">Packaging Options supported by the Shipper</value>
+  <value column="Description" original="Packaging Options supported by the Shipper">包装选项由发货人提供</value>
   <value column="Help" original=""/>
  </row>
  <row id="200059" trl="Y">
   <value column="Name" original="Label Type">标签类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Label Types Supported by the Shipper.">承运人所支持的标签类型</value>
-  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">Used when booking a shipment online to define the label format that will be printed</value>
+  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">可以使用在线预订发货定义标签的打印格式</value>
  </row>
  <row id="200060" trl="Y">
   <value column="Name" original="Pickup Types">分拣类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Methods that the Shipper will support for picking up from your location">Methods that the Shipper will support for picking up from your location</value>
+  <value column="Description" original="Methods that the Shipper will support for picking up from your location">发货人将根据您的位置提供合适的分拣发运方法</value>
   <value column="Help" original=""/>
  </row>
  <row id="200061" trl="Y">
-  <value column="Name" original="Shipping Transaction">事务处理金额</value>
+  <value column="Name" original="Shipping Transaction">送货事务</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200062" trl="Y">
-  <value column="Name" original="Shipping Transaction Line">事务处理行 ID (内部)</value>
+  <value column="Name" original="Shipping Transaction Line">送货事务明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6003,13 +6003,13 @@
   <value column="Name" original="RMA Tax">C_税 SPPO 类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="RMA Tax">C_税 SPPO 类型</value>
-  <value column="Help" original="The RMA Tax Tab displays the tax amount for a RMA based on the lines entered.">订单税页签显示了基于输入行的订单税额</value>
+  <value column="Help" original="The RMA Tax Tab displays the tax amount for a RMA based on the lines entered.">RMA税标签页中显示税的总额是根据输入的行计算出来的</value>
  </row>
  <row id="200066" trl="Y">
   <value column="Name" original="RMA Tax">C_税 SPPO 类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="RMA Tax">C_税 SPPO 类型</value>
-  <value column="Help" original="The RMA Tax Tab displays the tax associated with the RMA Lines.">订单税页签显示了与该订单明细相关联的税</value>
+  <value column="Help" original="The RMA Tax Tab displays the tax associated with the RMA Lines.">RMA税标签页中显示的税与行里的税是相关的</value>
  </row>
  <row id="200067" trl="Y">
   <value column="Name" original="Batch">批</value>
@@ -6027,7 +6027,7 @@
   <value column="Name" original="Context Help"><![CDATA[帮助(&H)]]></value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Context Helps">网页内容</value>
-  <value column="Help" original="The Context Help tab defines the type of context help">The Context Help tab defines the type of context help</value>
+  <value column="Help" original="The Context Help tab defines the type of context help">上下文帮助标签定义上下文帮助的类型</value>
  </row>
  <row id="200075" trl="Y">
   <value column="Name" original="Message">消息</value>
@@ -6042,19 +6042,19 @@
   <value column="Help" original=""/>
  </row>
  <row id="200077" trl="N">
-  <value column="Name" original="Zoom Condition">ZOOM条件</value>
+  <value column="Name" original="Zoom Condition">缩放条件</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200078" trl="N">
-  <value column="Name" original="1099 Box">1099 Box</value>
+  <value column="Name" original="1099 Box">1099 箱</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200079" trl="N">
-  <value column="Name" original="Used in Field">Used in Field</value>
+  <value column="Name" original="Used in Field">已在字段中使用</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
