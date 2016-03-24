@@ -12637,19 +12637,19 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2034" trl="Y">
-  <value column="Name" original="Recurring">经常性单据</value>
-  <value column="PrintName" original="Recurring">经常性单据</value>
-  <value column="Description" original="Recurring Document">经常性单据</value>
-  <value column="Help" original="Recurring Documents">经常性单据</value>
+  <value column="Name" original="Recurring">经常性单据生成</value>
+  <value column="PrintName" original="Recurring">经常性单据生成</value>
+  <value column="Description" original="Recurring Document">经常性单据生成</value>
+  <value column="Help" original="Recurring Documents">经常性单据生成</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2035" trl="Y">
-  <value column="Name" original="Recurring Run">经常性单据计算</value>
-  <value column="PrintName" original="Recurring Run">经常性单据计算</value>
-  <value column="Description" original="Recurring Document Run">经常性单据计算</value>
+  <value column="Name" original="Recurring Run">生成经常性单据</value>
+  <value column="PrintName" original="Recurring Run">生成经常性单据</value>
+  <value column="Description" original="Recurring Document Run">计算经常性单据</value>
   <value column="Help" original="History of Recurring Document Generation">经常性单据的生成历史</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -23756,8 +23756,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52026" trl="Y">
-  <value column="Name" original="Args">Args</value>
-  <value column="PrintName" original="Args">Args</value>
+  <value column="Name" original="Args">参数(Args)</value>
+  <value column="PrintName" original="Args">参数(Args)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30309,8 +30309,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54268" trl="N">
-  <value column="Name" original="Chart">Chart</value>
-  <value column="PrintName" original="Chart">Chart</value>
+  <value column="Name" original="Chart">图表</value>
+  <value column="PrintName" original="Chart">图表</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30319,8 +30319,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54269" trl="N">
-  <value column="Name" original="Chart Datasource">Chart Datasource</value>
-  <value column="PrintName" original="Chart Datasource">Chart Datasource</value>
+  <value column="Name" original="Chart Datasource">图表数据源</value>
+  <value column="PrintName" original="Chart Datasource">图表数据源</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38429,9 +38429,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200030" trl="Y">
-  <value column="Name" original="Whitespace">Whitespace</value>
-  <value column="PrintName" original="Whitespace">Whitespace</value>
-  <value column="Description" original="Whitespace validation">动态验证</value>
+  <value column="Name" original="Whitespace">空格</value>
+  <value column="PrintName" original="Whitespace">空格</value>
+  <value column="Description" original="Whitespace validation">空格验证</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -38589,9 +38589,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200066" trl="Y">
-  <value column="Name" original="Non Alpha Numeric Character">Non Alpha Numeric Character</value>
-  <value column="PrintName" original="Non Alpha Numeric Character">Non Alpha Numeric Character</value>
-  <value column="Description" original="Require at least # non-alphanumeric char">Require at least # non-alphanumeric char</value>
+  <value column="Name" original="Non Alpha Numeric Character">非字母数字字符</value>
+  <value column="PrintName" original="Non Alpha Numeric Character">非字母数字字符</value>
+  <value column="Description" original="Require at least # non-alphanumeric char">至少需要多少个非字母数字字符</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -54419,8 +54419,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202570" trl="N">
-  <value column="Name" original="Fill UUID">Fill UUID</value>
-  <value column="PrintName" original="Fill UUID">Fill UUID</value>
+  <value column="Name" original="Fill UUID">填补UUID</value>
+  <value column="PrintName" original="Fill UUID">填补UUID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54429,8 +54429,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202572" trl="N">
-  <value column="Name" original="Default Focus">Default Focus</value>
-  <value column="PrintName" original="Default Focus">Default Focus</value>
+  <value column="Name" original="Default Focus">缺省光标</value>
+  <value column="PrintName" original="Default Focus">缺省光标</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54559,8 +54559,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202588" trl="N">
-  <value column="Name" original="Address Validation Configuration">Address Validation Configuration</value>
-  <value column="PrintName" original="Address Validation Configuration">Address Validation Configuration</value>
+  <value column="Name" original="Address Validation Configuration">地址验证配置</value>
+  <value column="PrintName" original="Address Validation Configuration">地址验证配置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54579,8 +54579,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202590" trl="N">
-  <value column="Name" original="Address Validation Class">Address Validation Class</value>
-  <value column="PrintName" original="Address Validation Class">Address Validation Class</value>
+  <value column="Name" original="Address Validation Class">地址验证类</value>
+  <value column="PrintName" original="Address Validation Class">地址验证类</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54589,8 +54589,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202591" trl="N">
-  <value column="Name" original="Address Validation">Address Validation</value>
-  <value column="PrintName" original="Address Validation">Address Validation</value>
+  <value column="Name" original="Address Validation">地址验证</value>
+  <value column="PrintName" original="Address Validation">地址验证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55295,8 +55295,8 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202716" trl="N">
-  <value column="Name" original="Preference For">Preference For</value>
-  <value column="PrintName" original="Preference For">Preference For</value>
+  <value column="Name" original="Preference For">偏爱设置对象</value>
+  <value column="PrintName" original="Preference For">偏爱设置对象</value>
   <value column="Description" original="Type of preference, it can window, info window or parameter process">Type of preference, it can window, info window or parameter process</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55315,8 +55315,8 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202755" trl="N">
-  <value column="Name" original="Recurring Group">Recurring Group</value>
-  <value column="PrintName" original="Recurring Group">Recurring Group</value>
+  <value column="Name" original="Recurring Group">经常性单据组</value>
+  <value column="PrintName" original="Recurring Group">经常性单据组</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55546,11 +55546,11 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202868" trl="N">
-  <value column="Name" original="Days Reuse Password">Days Reuse Password</value>
-  <value column="PrintName" original="Days Reuse Password">Days Reuse Password</value>
-  <value column="Description" original="Define number of day can reuser password">Define number of day can reuser password</value>
-  <value column="Help" original="Each time change password, old password keep in history&#10;Example this value = 60. user can't reuse password in history has age &lt; 60&#10;"><![CDATA[Each time change password, old password keep in history
-Example this value = 60. user can't reuse password in history has age < 60
+  <value column="Name" original="Days Reuse Password">密码最大持续使用天数</value>
+  <value column="PrintName" original="Days Reuse Password">密码最大持续使用天数</value>
+  <value column="Description" original="Define number of day can reuser password">定义密码最大持续使用天数</value>
+  <value column="Help" original="Each time change password, old password keep in history&#10;Example this value = 60. user can't reuse password in history has age &lt; 60&#10;"><![CDATA[定义密码最大持续使用天数
+例如该参数配置成60天的话，密码最长使用天数只能小于60天
 ]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -55588,8 +55588,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202879" trl="N">
-  <value column="Name" original="Automatic Commit">Automatic Commit</value>
-  <value column="PrintName" original="Automatic Commit">Automatic Commit</value>
+  <value column="Name" original="Automatic Commit">自动提交</value>
+  <value column="PrintName" original="Automatic Commit">自动提交</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55598,8 +55598,8 @@ Example this value = 60. user can't reuse password in history has age < 60
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202880" trl="N">
-  <value column="Name" original="Automatic New Record">Automatic New Record</value>
-  <value column="PrintName" original="Automatic New Record">Automatic New Record</value>
+  <value column="Name" original="Automatic New Record">自动新建记录</value>
+  <value column="PrintName" original="Automatic New Record">自动新建记录</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

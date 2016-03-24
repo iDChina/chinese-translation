@@ -489,7 +489,7 @@
  <row id="205" trl="Y">
   <value column="Name" original="Cache Reset">清除缓存</value>
   <value column="Description" original="Reset Cache of the System ** Close all Windows before proceeding **">重置系统的高速缓存 ** 在继续以前请关闭所有窗口 **</value>
-  <value column="Help" original="To increase performance, iDempiere caches repeatedly used data. This process clears the local cache.">为了提高性能,iDempiere缓存重复使用的数据。此过程清除本地缓存</value>
+  <value column="Help" original="To increase performance, iDempiere caches repeatedly used data. This process clears the local cache.">为了提高性能,iDempiere缓存了一些会重复使用的数据。该处理将重置缓存</value>
  </row>
  <row id="206" trl="Y">
   <value column="Name" original="Import Orders">导入订单</value>
@@ -2177,8 +2177,8 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200074" trl="N">
-  <value column="Name" original="Recurring Run">Recurring Run</value>
-  <value column="Description" original="Recurring Run">Recurring Run</value>
+  <value column="Name" original="Recurring Run">生成经常性单据</value>
+  <value column="Description" original="Recurring Run">生成经常性单据</value>
   <value column="Help" original=""/>
  </row>
  <row id="200076" trl="N">
