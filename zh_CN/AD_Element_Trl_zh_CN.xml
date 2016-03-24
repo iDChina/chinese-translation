@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 2.1_2014-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Element">
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Element">
  <row id="101" trl="Y">
   <value column="Name" original="Attachment">附件</value>
   <value column="PrintName" original="Attachment">附件</value>
@@ -55545,13 +55545,23 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="202814" trl="N">
+  <value column="Name" original="Report Type">Report Type</value>
+  <value column="PrintName" original="Report Type">Report Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="202868" trl="N">
   <value column="Name" original="Days Reuse Password">密码最大持续使用天数</value>
   <value column="PrintName" original="Days Reuse Password">密码最大持续使用天数</value>
   <value column="Description" original="Define number of day can reuser password">定义密码最大持续使用天数</value>
-  <value column="Help" original="Each time change password, old password keep in history&#10;Example this value = 60. user can't reuse password in history has age &lt; 60&#10;"><![CDATA[定义密码最大持续使用天数
+  <value column="Help" original="Each time change password, old password keep in history&#10;Example this value = 60. user can't reuse password in history has age &lt; 60&#10;">定义密码最大持续使用天数
 例如该参数配置成60天的话，密码最长使用天数只能小于60天
-]]></value>
+</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55680,6 +55690,46 @@ column define in ParentRelatedColumn will replace key column</value>
  <row id="202890" trl="N">
   <value column="Name" original="M_LocatorType_UU">M_LocatorType_UU</value>
   <value column="PrintName" original="M_LocatorType_UU">M_LocatorType_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202897" trl="N">
+  <value column="Name" original="Load Page Num">Load Page Num</value>
+  <value column="PrintName" original="Load Page Num">Load Page Num</value>
+  <value column="Description" original="When load data for info window, also load number of paging">When load data for info window, also load number of paging</value>
+  <value column="Help" original="Load number of paging maybe affect to performance when info window is join of many table">Load number of paging maybe affect to performance when info window is join of many table</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202909" trl="N">
+  <value column="Name" original="Product Price">Product Price</value>
+  <value column="PrintName" original="Product Price">Product Price</value>
+  <value column="Description" original="Intersection between a Product and a Price List Version">Intersection between a Product and a Price List Version</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202920" trl="N">
+  <value column="Name" original="Toggle on Double Click">Toggle on Double Click</value>
+  <value column="PrintName" original="Toggle on Double Click">Toggle on Double Click</value>
+  <value column="Description" original="Defines if double click in a field on grid mode switch to form view">Defines if double click in a field on grid mode switch to form view</value>
+  <value column="Help" original="Defines if double click in a field on grid mode switch to form view">Defines if double click in a field on grid mode switch to form view</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="202975" trl="N">
+  <value column="Name" original="Copy Components From View">Copy Components From View</value>
+  <value column="PrintName" original="Copy Components From View">Copy Components From View</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

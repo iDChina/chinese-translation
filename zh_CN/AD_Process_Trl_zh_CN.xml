@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 2.1_2014-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process">
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process">
  <row id="100" trl="Y">
   <value column="Name" original="Create Periods ">创建分期 </value>
   <value column="Description" original="Create 12 standard calendar periods.">新建标准年度期间</value>
@@ -1308,7 +1308,7 @@
  <row id="53006" trl="Y">
   <value column="Name" original="Multi Level BOM &amp; Formula Detail">多层物料清单与配方 明细</value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">显示在两个不同的面板，在产品领域的产品进入父组件的关系</value>
-  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it."><![CDATA[BOM和配方审查选项菜单表示在两个不同的面板显示父（“产品”字段中输入父产品）子组件的关系；
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.">BOM和配方审查选项菜单表示在两个不同的面板显示父（“产品”字段中输入父产品）子组件的关系；
 
 您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。
 
@@ -1316,7 +1316,7 @@
 
 您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。
 
-左边的面板显示BOM层次结构树，右侧的面板显示的该BOM组件的详细信息。]]></value>
+左边的面板显示BOM层次结构树，右侧的面板显示的该BOM组件的详细信息。</value>
  </row>
  <row id="53008" trl="Y">
   <value column="Name" original="Mutiple Components Change">多种成份变化</value>
@@ -1497,11 +1497,11 @@ DRP使用几个变量：
  <row id="53062" trl="Y">
   <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP">物料清单与配方 成本滚动计算法</value>
   <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost">该流程允许集成物料清单与配方的成本</value>
-  <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;&#10;Total BOM Cost = Sum every Element Cost"><![CDATA[这个过程将整合BOM配方的成本
+  <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;&#10;Total BOM Cost = Sum every Element Cost">这个过程将整合BOM配方的成本
 
 改成产品成本要素 = 本层的成本要素 + 本层以下的成本要素 
 
-总BOM成本 = 每个成本要素之和]]></value>
+总BOM成本 = 每个成本要素之和</value>
  </row>
  <row id="53063" trl="Y">
   <value column="Name" original="Create Report (Jasper)">创建报表(Jasper)</value>
@@ -2189,6 +2189,11 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
  <row id="200077" trl="N">
   <value column="Name" original="Generate Production from Project">从项目产生的生产</value>
   <value column="Description" original="Generate Production from Project Line(s)">从项目行产生的生产</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200086" trl="N">
+  <value column="Name" original="Copy Components From View">Copy Components From View</value>
+  <value column="Description" original="Create dictionary view components for a table taking another as base">Create dictionary view components for a table taking another as base</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
