@@ -54219,8 +54219,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202542" trl="N">
-  <value column="Name" original="Table Index">Table Index</value>
-  <value column="PrintName" original="Table Index">Table Index</value>
+  <value column="Name" original="Table Index">表索引</value>
+  <value column="PrintName" original="Table Index">表索引</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54239,8 +54239,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202544" trl="N">
-  <value column="Name" original="Create Constraint">Create Constraint</value>
-  <value column="PrintName" original="Create Constraint">Create Constraint</value>
+  <value column="Name" original="Create Constraint">创建约束</value>
+  <value column="PrintName" original="Create Constraint">创建约束</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54249,8 +54249,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202545" trl="N">
-  <value column="Name" original="Unique">Unique</value>
-  <value column="PrintName" original="Unique">Unique</value>
+  <value column="Name" original="Unique">唯一索引</value>
+  <value column="PrintName" original="Unique">唯一索引</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54259,8 +54259,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202546" trl="N">
-  <value column="Name" original="Table Index Column">Table Index Column</value>
-  <value column="PrintName" original="Table Index Column">Table Index Column</value>
+  <value column="Name" original="Table Index Column">表索引列</value>
+  <value column="PrintName" original="Table Index Column">表索引列</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54349,8 +54349,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202557" trl="N">
-  <value column="Name" original="Related Info Window">Related Info Window</value>
-  <value column="PrintName" original="Related Info Window">Related Info Window</value>
+  <value column="Name" original="Related Info Window">相关信息窗口</value>
+  <value column="PrintName" original="Related Info Window">相关信息窗口</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54359,8 +54359,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202558" trl="N">
-  <value column="Name" original="Related Info Column">Related Info Column</value>
-  <value column="PrintName" original="Related Info Column">Related Info Column</value>
+  <value column="Name" original="Related Info Column">相关信息窗口列</value>
+  <value column="PrintName" original="Related Info Column">相关信息窗口列</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54789,23 +54789,23 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202611" trl="N">
-  <value column="Name" original="Title Logic">Title Logic</value>
-  <value column="PrintName" original="Title Logic">Title Logic</value>
-  <value column="Description" original="The result determines the title to be displayed for this window">The result determines the title to be displayed for this window</value>
-  <value column="Help" original="The result determines the title to be displayed for this Window, used also as the label for Recent Items.&#13;&#10;Format is just one or several context variables surrounded by @, examples:&#13;&#10;@TaxID@&#13;&#10;@DocumentNo@&#13;&#10;@Value@ @Name@&#13;&#10;if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist.">The result determines the title to be displayed for this Window, used also as the label for Recent Items.&#13;
-Format is just one or several context variables surrounded by @, examples:&#13;
+  <value column="Name" original="Title Logic">标题逻辑</value>
+  <value column="PrintName" original="Title Logic">标题逻辑</value>
+  <value column="Description" original="The result determines the title to be displayed for this window">该处设定值定义了该窗口的标题显示内容</value>
+  <value column="Help" original="The result determines the title to be displayed for this Window, used also as the label for Recent Items.&#13;&#10;Format is just one or several context variables surrounded by @, examples:&#13;&#10;@TaxID@&#13;&#10;@DocumentNo@&#13;&#10;@Value@ @Name@&#13;&#10;if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist.">该处设定值定义了该窗口的标题显示内容, 或者显示在最近打开的信息中.&#13;
+定义的格式可以在前后两个@中填写上下文变量, 例如:&#13;
 @TaxID@&#13;
 @DocumentNo@&#13;
 @Value@ @Name@&#13;
-if this field is left empty a default title/label is created using the DocumentNo, Value and Name fields if they exist</value>
+如果没有定义该字段，系统默认的使用单据号码，值、名称字段来显示</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202612" trl="N">
-  <value column="Name" original="Constraint Name">Constraint Name</value>
-  <value column="PrintName" original="Constraint Name">Constraint Name</value>
+  <value column="Name" original="Constraint Name">约束名称</value>
+  <value column="PrintName" original="Constraint Name">约束名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54814,8 +54814,8 @@ if this field is left empty a default title/label is created using the DocumentN
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202613" trl="N">
-  <value column="Name" original="Constraint Type">Constraint Type</value>
-  <value column="PrintName" original="Constraint Type">Constraint Type</value>
+  <value column="Name" original="Constraint Type">约束类型</value>
+  <value column="PrintName" original="Constraint Type">约束类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54824,8 +54824,8 @@ if this field is left empty a default title/label is created using the DocumentN
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202614" trl="N">
-  <value column="Name" original="Manage Business Partners">Manage Business Partners</value>
-  <value column="PrintName" original="Manage Business Partners">Manage Business Partners</value>
+  <value column="Name" original="Manage Business Partners">管理业务伙伴</value>
+  <value column="PrintName" original="Manage Business Partners">管理业务伙伴</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54834,8 +54834,8 @@ if this field is left empty a default title/label is created using the DocumentN
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202615" trl="N">
-  <value column="Name" original="Manage Products">Manage Products</value>
-  <value column="PrintName" original="Manage Products">Manage Products</value>
+  <value column="Name" original="Manage Products">管理产品</value>
+  <value column="PrintName" original="Manage Products">管理产品</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54854,8 +54854,8 @@ if this field is left empty a default title/label is created using the DocumentN
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202618" trl="N">
-  <value column="Name" original="Export Dictionary Entity">Export Dictionary Entity</value>
-  <value column="PrintName" original="Export Dictionary Entity">Export Dictionary Entity</value>
+  <value column="Name" original="Export Dictionary Entity">导出数据字典对象实体</value>
+  <value column="PrintName" original="Export Dictionary Entity">导出数据字典对象实体</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55275,10 +55275,10 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202714" trl="N">
-  <value column="Name" original="LayoutType">LayoutType</value>
-  <value column="PrintName" original="Layout Type">Layout Type</value>
-  <value column="Description" original="Layout type of info process">Layout type of info process</value>
-  <value column="Help" original="Process info can display as button, list, menu">Process info can display as button, list, menu</value>
+  <value column="Name" original="LayoutType">显示类型</value>
+  <value column="PrintName" original="Layout Type">显示类型</value>
+  <value column="Description" original="Layout type of info process">流程在信息窗口中的显示类型</value>
+  <value column="Help" original="Process info can display as button, list, menu">流程的显示类型（布局类型）可以为按钮、列表、菜单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55546,8 +55546,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202814" trl="N">
-  <value column="Name" original="Report Type">Report Type</value>
-  <value column="PrintName" original="Report Type">Report Type</value>
+  <value column="Name" original="Report Type">报表类型</value>
+  <value column="PrintName" original="Report Type">报表类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55588,8 +55588,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202876" trl="N">
-  <value column="Name" original="Set Initial Password">Set Initial Password</value>
-  <value column="PrintName" original="Set Initial Password">Set Initial Password</value>
+  <value column="Name" original="Set Initial Password">设置初始密码</value>
+  <value column="PrintName" original="Set Initial Password">设置初始密码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55698,18 +55698,18 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202897" trl="N">
-  <value column="Name" original="Load Page Num">Load Page Num</value>
-  <value column="PrintName" original="Load Page Num">Load Page Num</value>
-  <value column="Description" original="When load data for info window, also load number of paging">When load data for info window, also load number of paging</value>
-  <value column="Help" original="Load number of paging maybe affect to performance when info window is join of many table">Load number of paging maybe affect to performance when info window is join of many table</value>
+  <value column="Name" original="Load Page Num">加载页码</value>
+  <value column="PrintName" original="Load Page Num">加载页码</value>
+  <value column="Description" original="When load data for info window, also load number of paging">信息窗口加载数据的同时也加载页码信息</value>
+  <value column="Help" original="Load number of paging maybe affect to performance when info window is join of many table">当信息窗口和多个表有关联时，该设定可能会影响到性能</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202909" trl="N">
-  <value column="Name" original="Product Price">Product Price</value>
-  <value column="PrintName" original="Product Price">Product Price</value>
+  <value column="Name" original="Product Price">产品价格</value>
+  <value column="PrintName" original="Product Price">产品价格</value>
   <value column="Description" original="Intersection between a Product and a Price List Version">Intersection between a Product and a Price List Version</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

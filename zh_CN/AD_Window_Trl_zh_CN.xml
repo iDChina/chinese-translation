@@ -1329,11 +1329,11 @@
  <row id="50002" trl="Y">
   <value column="Name" original="Package Maintenance">包维护</value>
   <value column="Description" original="Package installation history and maintenance">包安装历史和维护</value>
-  <value column="Help" original="Review package installation.  Also perform package rollback if required">Review package installation.  Also perform package rollback if required</value>
+  <value column="Help" original="Review package installation.  Also perform package rollback if required">检验包安装.如果需要的话执行包回滚</value>
  </row>
  <row id="50003" trl="Y">
-  <value column="Name" original="Pack Out">出库</value>
-  <value column="Description" original="Create 2pack package">导出包 - 创建一个部件包</value>
+  <value column="Name" original="Pack Out">导出包(PackOut)</value>
+  <value column="Description" original="Create 2pack package">导出包(PackOut) - 创建一个部件包</value>
   <value column="Help" original=""/>
  </row>
  <row id="50004" trl="Y">
@@ -1342,7 +1342,7 @@
   <value column="Help" original="Create and maintain common package element details">创建和维护常用包元素明细</value>
  </row>
  <row id="50005" trl="Y">
-  <value column="Name" original="Pack In">以9或5结尾</value>
+  <value column="Name" original="Pack In">导入包(PackIn)</value>
   <value column="Description" original="Imports a package">导入包</value>
   <value column="Help" original="Imports a package previously created by PackOut">导入一个先前由PackOut创建的包</value>
  </row>
