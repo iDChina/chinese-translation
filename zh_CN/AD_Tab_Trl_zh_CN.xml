@@ -430,7 +430,7 @@
   <value column="Help" original="The Order Line Tab defines the individual line items that comprise an Order.">订单明细页签定义了构成订单的各明细行</value>
  </row>
  <row id="189" trl="Y">
-  <value column="Name" original="Product Category">产品分类</value>
+  <value column="Name" original="Product Category">产品类别</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Category">定义产品类别</value>
   <value column="Help" original="The Product Category defines unique groupings of products.  Product categories can be used in building price lists.">产品类别定义了唯一的产品分组。产品类别可用于建立价格表</value>
@@ -1698,7 +1698,7 @@
   <value column="Name" original="Import Product">导入产品</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Import Products">导入产品</value>
-  <value column="Help" original="Before importing, iDempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;iDempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import."><![CDATA[在导入之前，iDempiere检查计量单位 (如果未设置则默认)、产品类别 (如果未设置则默认)、业务伙伴、货币 (如果未设置则默认为会计货币)、产品类型 (仅条目和服务)、UPC (单品) 唯一性、关键字、供应商产品编号的唯一性及存在性。 <p>如果UPC、关键字、供应商产品编号匹配 (按此顺序)，那么iDempiere会尝试映射至现存产品。如果导入的记录可被匹配，产品字段值将仅在对应的导入字段已明确定义的情形下才被覆盖。例如: 产品类别将仅在导入中明确设置的情形下才被覆盖。]]></value>
+  <value column="Help" original="Before importing, iDempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;iDempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import."><![CDATA[在导入之前，iDempiere检查计量单位 (如果未设置则默认)、产品类别 (如果未设置则默认)、业务伙伴、货币 (如果未设置则默认为会计货币)、产品类型 (仅商品和服务)、UPC (单品) 唯一性、关键字、供应商产品编号的唯一性及存在性。 <p>如果UPC、关键字、供应商产品编号匹配 (按此顺序)，那么iDempiere会尝试映射至现存产品。如果导入的记录可被匹配，产品字段值将仅在对应的导入字段已明确定义的情形下才被覆盖。例如: 产品类别将仅在导入中明确设置的情形下才被覆盖]]></value>
  </row>
  <row id="443" trl="Y">
   <value column="Name" original="Import Account">导入科目</value>
@@ -1758,7 +1758,7 @@
   <value column="Name" original="Asset Group">资产分组</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Group of Assets">资产的分组</value>
-  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。 如果一个资产分组在产品种类中被选择，资产就会在交付时被创建</value>
+  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。 如果一个资产分组在产品类别中被选择，资产就会在交付时被创建</value>
  </row>
  <row id="453" trl="Y">
   <value column="Name" original="Training">培训</value>

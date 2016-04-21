@@ -1045,7 +1045,7 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="Name" original="Costing Method">成本计算方法</value>
   <value column="PrintName" original="Costing Method">成本计算方法</value>
   <value column="Description" original="Indicates how Costs will be calculated">表示如何计算成本</value>
-  <value column="Help" original="The Costing Method indicates how costs will be calculated (Standard, Average, Lifo, FiFo).  The default costing method is defined on accounting schema level and can be optionally overwritten in the product category.  The costing method cannot conflict with the Material Movement Policy (defined on Product Category).">成本方法指如何计算成本(标准成本、平均成本、后进先出、先进先出)。默认成本方法在会计模式级别中定义，可以在产品分类级别中覆盖。成本方法不得与物料移转策略相冲突(在产品分类中定义)</value>
+  <value column="Help" original="The Costing Method indicates how costs will be calculated (Standard, Average, Lifo, FiFo).  The default costing method is defined on accounting schema level and can be optionally overwritten in the product category.  The costing method cannot conflict with the Material Movement Policy (defined on Product Category).">成本方法指如何计算成本(标准成本、平均成本、后进先出、先进先出)。默认成本方法在会计模式级别中定义，可以在产品类别级别中覆盖。成本方法不得与物料移转策略相冲突(在产品类别中定义)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3663,7 +3663,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Partner Category">供应商类别</value>
   <value column="PrintName" original="BPartner Category">业务伙伴类别</value>
   <value column="Description" original="Product Category of the Business Partner">供应商的产品类别</value>
-  <value column="Help" original="The Business Partner Category identifies the category used by the Business Partner for this product.">供应商类别表示供应商使用的产品类别</value>
+  <value column="Help" original="The Business Partner Category identifies the category used by the Business Partner for this product.">供应商类别表示供应商使用的产品</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23386,8 +23386,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="50070" trl="Y">
-  <value column="Name" original="Parent Product Category">上级产品分类</value>
-  <value column="PrintName" original="Parent Product Category">上级产品分类</value>
+  <value column="Name" original="Parent Product Category">上级产品类别</value>
+  <value column="PrintName" original="Parent Product Category">上级产品类别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54049,8 +54049,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202292" trl="N">
-  <value column="Name" original="Product Category">产品分类</value>
-  <value column="PrintName" original="Product Category">产品分类</value>
+  <value column="Name" original="Product Category">产品类别</value>
+  <value column="PrintName" original="Product Category">产品类别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
