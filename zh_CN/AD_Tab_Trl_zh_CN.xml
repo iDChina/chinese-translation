@@ -299,20 +299,20 @@
  <row id="159" trl="Y">
   <value column="Name" original="Batch">批</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Journal Batch">总账日记账批</value>
-  <value column="Help" original="The GL Journal Batch Tab defines the control parameters for a Journal Batch.  A Batch can consist of multiple Journals.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">总账日记账批页签定义了日记账批的参数。批可由多个日记账组成。如果控制金额不为零，则与总借项金额比较。控制/借项/贷项金额以源单据币种计</value>
+  <value column="Description" original="General Ledger Journal Batch">凭证批</value>
+  <value column="Help" original="The GL Journal Batch Tab defines the control parameters for a Journal Batch.  A Batch can consist of multiple Journals.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">凭证批页签定义了凭证批的参数。批可由多个凭证组成。如果控制金额不为零，则与总借项金额比较。控制/借项/贷项金额以源单据币种计</value>
  </row>
  <row id="160" trl="Y">
-  <value column="Name" original="Journal">分类账</value>
+  <value column="Name" original="Journal">凭证</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Journal">总账日记账</value>
-  <value column="Help" original="The GL Journal Tab defines the control parameters for a single GL Journal.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">总账日记账页签定义了单个总账日记账的控制参数。如果控制金额不为零，则与总借项金额比较。控制/借项/贷项金额以源单据币种计</value>
+  <value column="Description" original="General Ledger Journal">凭证</value>
+  <value column="Help" original="The GL Journal Tab defines the control parameters for a single GL Journal.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">凭证页签定义了单个坪镇的控制参数。如果控制金额不为零，则与总借项金额比较。控制/借项/贷项金额以源单据币种计</value>
  </row>
  <row id="161" trl="Y">
   <value column="Name" original="Line">明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Journal Line">总账日记账明细</value>
-  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">总账日记账明细页签定义了组成日记账的各借项和贷项事务处理</value>
+  <value column="Description" original="General Ledger Journal Line">凭证明细</value>
+  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">凭证明细页签定义了组成日记账的各借项和贷项事务处理</value>
  </row>
  <row id="167" trl="Y">
   <value column="Name" original="Document Type">单据类型</value>
@@ -5724,16 +5724,16 @@
   <value column="Help" original=""/>
  </row>
  <row id="200007" trl="Y">
-  <value column="Name" original="Journal">分类账</value>
+  <value column="Name" original="Journal">凭证</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Journal">总账日记账</value>
+  <value column="Description" original="General Ledger Journal">凭证</value>
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
   <value column="Name" original="Line">明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Journal Line">总账日记账明细</value>
-  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">总账日记账行页签定义了组成日记账的各借项和贷项事务处理</value>
+  <value column="Description" original="General Ledger Journal Line">凭证明细</value>
+  <value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">凭证明细页签定义了组成日记账的各借项和贷项事务处理</value>
  </row>
  <row id="200009" trl="Y">
   <value column="Name" original="Grid Sequence">网格顺序</value>
@@ -5778,7 +5778,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="GL Journal Generator">总账日记账批</value>
+  <value column="Name" original="GL Journal Generator">生成凭证</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

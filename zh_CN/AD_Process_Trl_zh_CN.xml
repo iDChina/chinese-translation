@@ -1113,7 +1113,7 @@
  <row id="326" trl="Y">
   <value column="Name" original="Invoice Not Realized Gain/Loss">未实现盈利/亏损的发票</value>
   <value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">未实现盈利/亏损发票的报表</value>
-  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[报表列出未完全付款的发票，包括未结金额、总账金额和重估金额。如果发票是部分付款的，未结金额的百分比用于计算重新估值的金额<br>如果选择了一种货币，则只有对应于该币种的发票才会被包括在内；如果选择了包括所有币种，所有的发票都会被包括在内，可以使用报表进行应付、应收科目的对账<br>如果选择了一个总账单据类型，一个总账日记账就会被创建<br>注意：该报表只包含已过账的发票]]></value>
+  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[报表列出未完全付款的发票，包括未结金额、总账金额和重估金额。如果发票是部分付款的，未结金额的百分比用于计算重新估值的金额<br>如果选择了一种货币，则只有对应于该币种的发票才会被包括在内；如果选择了包括所有币种，所有的发票都会被包括在内，可以使用报表进行应付、应收科目的对账<br>如果选择了一个总账单据类型，一个凭证就会被创建<br>注意：该报表只包含已过账的发票]]></value>
  </row>
  <row id="327" trl="Y">
   <value column="Name" original="Test EMail">测试电子邮件</value>
@@ -1979,7 +1979,7 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original="Select a locked user from the list to unlock it.  Alternatively you can run the process without selecting any user, in this case the process will unlock all locked users from the client applying accordingly the policies configured for &quot;max account lock&quot; and &quot;max inactive period&quot;."/>
  </row>
  <row id="200010" trl="Y">
-  <value column="Name" original="Generate GL Journal">总账日记账批</value>
+  <value column="Name" original="Generate GL Journal">生成凭证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

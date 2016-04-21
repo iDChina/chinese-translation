@@ -155,9 +155,9 @@
   <value column="Help" original="The GL Category Window allows you to define categories to be used in journals.  These categories provide a method of optionally grouping and reporting on journals.">总账类别窗口允许定义用在日记账中的类别。可选地，这些类别提供了关于日记账分组或报表的方法</value>
  </row>
  <row id="132" trl="Y">
-  <value column="Name" original="GL Journal Batch">总账日记账批</value>
-  <value column="Description" original="Enter and change Manual Journal Entries">输入并更改手工日记账分录</value>
-  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">总账日记账批窗口允许成批地输入或修改手工日记账分录</value>
+  <value column="Name" original="GL Journal Batch">凭证批</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">输入并更改手工凭证分录</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">凭证批窗口允许成批地输入或修改手工凭证分录</value>
  </row>
  <row id="134" trl="Y">
   <value column="Name" original="Activity (ABC)">作业成本法 (ABC)</value>
@@ -775,9 +775,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="278" trl="Y">
-  <value column="Name" original="Import GL Journal">导入总账日记账</value>
-  <value column="Description" original="Import General Ledger Journals">导入总账日记账</value>
-  <value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">可能希望在导入以前用“仅验证”检查导入的余额。未平衡的日记账被导入; 基于为过账流程所作的设置而进行处理。可选的余额检查会检查整个导入，而不是单个的批或日记账</value>
+  <value column="Name" original="Import GL Journal">导入凭证</value>
+  <value column="Description" original="Import General Ledger Journals">导入凭证</value>
+  <value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">可能希望在导入以前用“仅验证”检查导入的余额。未平衡的凭证被导入; 基于为过账流程所作的设置而进行处理。可选的余额检查会检查整个导入，而不是单个的批或凭证</value>
  </row>
  <row id="279" trl="Y">
   <value column="Name" original="Import Invoice">导入发票</value>
@@ -1911,9 +1911,9 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="200005" trl="Y">
-  <value column="Name" original="GL Journal">总账日记账</value>
-  <value column="Description" original="Enter and change Manual Journal Entries">输入并更改手工日记账分录</value>
-  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">总账日记账批窗口允许成批地输入或修改手工日记账分录</value>
+  <value column="Name" original="GL Journal">凭证</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">输入并更改手工凭证分录</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">凭证批窗口允许成批地输入或修改手工凭证分录</value>
  </row>
  <row id="200006" trl="Y">
   <value column="Name" original="Dashboard Preference">偏爱设置级别</value>
@@ -1936,7 +1936,7 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="200013" trl="Y">
-  <value column="Name" original="GL Journal Generator">总账日记账生成器</value>
+  <value column="Name" original="GL Journal Generator">凭证生成器</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

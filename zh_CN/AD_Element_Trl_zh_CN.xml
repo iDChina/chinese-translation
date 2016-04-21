@@ -1567,37 +1567,37 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="GL Category">总账类别</value>
   <value column="PrintName" original="GL Category">总账类别</value>
   <value column="Description" original="General Ledger Category">总账分类</value>
-  <value column="Help" original="The General Ledger Category is an optional, user defined method of grouping journal lines.">总账分类是可选的、用户自定义的日记账行的分组方法</value>
+  <value column="Help" original="The General Ledger Category is an optional, user defined method of grouping journal lines.">总账分类是可选的、用户自定义的日记账明细的分组方法</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="313" trl="Y">
-  <value column="Name" original="Journal Batch">日记账批</value>
-  <value column="PrintName" original="Journal Batch">日记账批</value>
-  <value column="Description" original="General Ledger Journal Batch">总账日记账批</value>
-  <value column="Help" original="The General Ledger Journal Batch identifies a group of journals to be processed as a group.">总账日记账批标识按组处理的一组日记账</value>
+  <value column="Name" original="Journal Batch">凭证批</value>
+  <value column="PrintName" original="Journal Batch">凭证批</value>
+  <value column="Description" original="General Ledger Journal Batch">凭证批</value>
+  <value column="Help" original="The General Ledger Journal Batch identifies a group of journals to be processed as a group.">凭证批标识按组处理的一组凭证</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="314" trl="Y">
-  <value column="Name" original="Journal Line">日记账明细</value>
-  <value column="PrintName" original="Journal Line">日记账明细</value>
-  <value column="Description" original="General Ledger Journal Line">总账日记账明细</value>
-  <value column="Help" original="The General Ledger Journal Line identifies a single transaction in a journal.">总账日记账明细标识日记账中单个的事务处理</value>
+  <value column="Name" original="Journal Line">凭证明细</value>
+  <value column="PrintName" original="Journal Line">凭证明细</value>
+  <value column="Description" original="General Ledger Journal Line">凭证明细</value>
+  <value column="Help" original="The General Ledger Journal Line identifies a single transaction in a journal.">凭证明细标识凭证中单个的事务处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="315" trl="Y">
-  <value column="Name" original="Journal">日记账</value>
-  <value column="PrintName" original="Journal">日记账</value>
-  <value column="Description" original="General Ledger Journal">总账日记账</value>
-  <value column="Help" original="The General Ledger Journal identifies a group of journal lines which represent a logical business transaction">总账日记账标识一组日记账行，它们体现了逻辑上的业务事务处理</value>
+  <value column="Name" original="Journal">凭证</value>
+  <value column="PrintName" original="Journal">凭证</value>
+  <value column="Description" original="General Ledger Journal">凭证</value>
+  <value column="Help" original="The General Ledger Journal identifies a group of journal lines which represent a logical business transaction">凭证标识一组凭证明细，它们体现了逻辑上的业务事务处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1996,8 +1996,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="380" trl="Y">
   <value column="Name" original="Generated">已生成</value>
   <value column="PrintName" original="Generated">已生成</value>
-  <value column="Description" original="This Line is generated">该行是否生成</value>
-  <value column="Help" original="The Generated checkbox identifies a journal line that was generated from a source document.  Lines could also be entered manually or imported.">已生成复选框标识从源单据生成的日记账行。行也可手工输入或导入</value>
+  <value column="Description" original="This Line is generated">该明细是否生成</value>
+  <value column="Help" original="The Generated checkbox identifies a journal line that was generated from a source document.  Lines could also be entered manually or imported.">已生成复选框标识从源单据生成的日记账明细。明细也可手工输入或导入</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2817,7 +2817,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="514" trl="Y">
   <value column="Name" original="PostingType">过账类型</value>
   <value column="PrintName" original="PostingType">过账类型</value>
-  <value column="Description" original="The type of posted amount for the transaction">金额被日记账更新的类型</value>
+  <value column="Description" original="The type of posted amount for the transaction">业务单据金额的过账类型</value>
   <value column="Help" original="The Posting Type indicates the type of amount (Actual, Budget, Reservation, Commitment, Statistical) the transaction.">过账类型表示交易金额类型 (实际、预算、保留、合同、统计)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -3419,7 +3419,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Total Credit">总贷记</value>
   <value column="PrintName" original="Total Credit">总贷记</value>
   <value column="Description" original="Total Credit in document currency">用单据货币表示的总贷记</value>
-  <value column="Help" original="The Total Credit indicates the total credit amount for a journal or journal batch in the source currency">总贷记表示针对源币种的日记账或日记账批的总贷记账户</value>
+  <value column="Help" original="The Total Credit indicates the total credit amount for a journal or journal batch in the source currency">总贷记表示针对源币种的凭证或凭证批的总贷记账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3429,7 +3429,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Total Debit">总借记</value>
   <value column="PrintName" original="Total Debit">总借记</value>
   <value column="Description" original="Total debit in document currency">用单据货币表示的总借记</value>
-  <value column="Help" original="The Total Debit indicates the total debit amount for a journal or journal batch in the source currency">总借记表示针对源币种的日记账或日记账批的总借记账户</value>
+  <value column="Help" original="The Total Debit indicates the total debit amount for a journal or journal batch in the source currency">总借记表示针对源币种的凭证或凭证批的总借记账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13288,9 +13288,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2103" trl="Y">
-  <value column="Name" original="Import GL Journal">导入总账日记账</value>
-  <value column="PrintName" original="Import GL Journal">导入总账日记账</value>
-  <value column="Description" original="Import General Ledger Journal">导入总账日记账</value>
+  <value column="Name" original="Import GL Journal">导入凭证</value>
+  <value column="PrintName" original="Import GL Journal">导入凭证</value>
+  <value column="Description" original="Import General Ledger Journal">导入凭证</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -39049,8 +39049,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200134" trl="Y">
-  <value column="Name" original="GL Journal Generator">总账日记账批</value>
-  <value column="PrintName" original="GL Journal Generator">总账日记账批</value>
+  <value column="Name" original="GL Journal Generator">生成凭证</value>
+  <value column="PrintName" original="GL Journal Generator">生成凭证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39079,8 +39079,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200137" trl="Y">
-  <value column="Name" original="Generate GL Journal">总账日记账批</value>
-  <value column="PrintName" original="Generate GL Journal">总账日记账批</value>
+  <value column="Name" original="Generate GL Journal">生成凭证</value>
+  <value column="PrintName" original="Generate GL Journal">生成凭证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
