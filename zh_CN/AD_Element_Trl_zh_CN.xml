@@ -13999,9 +13999,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2179" trl="Y">
-  <value column="Name" original="Project Category">项目类别, 它决定着项目的行为: 通用, 服务, 工单, 资产</value>
-  <value column="PrintName" original="Project Category">项目类别, 它决定着项目的行为: 通用, 服务, 工单, 资产</value>
-  <value column="Description" original="Project Category">项目类别, 它决定着项目的行为: 通用, 服务, 工单, 资产</value>
+  <value column="Name" original="Project Category">项目类别</value>
+  <value column="PrintName" original="Project Category">项目类别</value>
+  <value column="Description" original="Project Category">项目类别</value>
   <value column="Help" original="The Project Category determines the behavior of the project:&#10;General - no special accounting, e.g. for Presales or general tracking&#10;Service - no special accounting, e.g. for Service/Charge projects&#10;Work Order - creates Project/Job WIP transactions - ability to issue material&#10;Asset - create Project Asset transactions - ability to issue material">项目类别决定了项目的行为:
   一般 - 没有特别的会计，如对于售前或一般性追踪
  服务 - 没有特别的会计，如对于服务/收费项目
@@ -28587,8 +28587,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53802" trl="Y">
-  <value column="Name" original="Promotion">提升</value>
-  <value column="PrintName" original="Promotion">提升</value>
+  <value column="Name" original="Promotion">促销</value>
+  <value column="PrintName" original="Promotion">促销</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28727,10 +28727,10 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53816" trl="Y">
-  <value column="Name" original="Reward Type">Reward类型</value>
-  <value column="PrintName" original="Reward Type">Reward类型</value>
+  <value column="Name" original="Reward Type">奖励类型</value>
+  <value column="PrintName" original="Reward Type">奖励类型</value>
   <value column="Description" original="Type of reward which consists of percentage discount, flat discount or absolute amount">Type of reward which consists of percentage discount, flat discount or absolute 金额</value>
-  <value column="Help" original=""/>
+  <value column="Help" original=""/>`
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38919,9 +38919,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200117" trl="Y">
-  <value column="Name" original="Master Role">AD_角色</value>
-  <value column="PrintName" original="Master Role">AD_角色</value>
-  <value column="Description" original="A master role cannot be assigned to users, it is intended to define access to menu option and documents and inherit to other roles">主角色不能分配给用户，它的功能是定义菜单选项和访问文件以及继承其他角色</value>
+  <value column="Name" original="Master Role">主人角色</value>
+  <value column="PrintName" original="Master Role">主人角色</value>
+  <value column="Description" original="A master role cannot be assigned to users, it is intended to define access to menu option and documents and inherit to other roles">主人角色不能分配给用户，它的功能是定义菜单选项和访问文件以及继承其他角色</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -38929,8 +38929,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200118" trl="Y">
-  <value column="Name" original="POS Tender Type">C_付款 投标类型</value>
-  <value column="PrintName" original="POS Tender Type">C_付款 投标类型</value>
+  <value column="Name" original="POS Tender Type">POS付款类型</value>
+  <value column="PrintName" original="POS Tender Type">POS付款类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39119,8 +39119,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200141" trl="Y">
-  <value column="Name" original="Type of BP Dimension">C_业务伙伴_EDI EDI 类型</value>
-  <value column="PrintName" original="Type of BP Dimension">C_业务伙伴_EDI EDI 类型</value>
+  <value column="Name" original="Type of BP Dimension">业务伙伴维度类型</value>
+  <value column="PrintName" original="Type of BP Dimension">业务伙伴维度类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55648,8 +55648,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202886" trl="N">
-  <value column="Name" original="Available for Replenishment">Available for Replenishment</value>
-  <value column="PrintName" original="Available for Replenishment">Available for Replenishment</value>
+  <value column="Name" original="Available for Replenishment">可供补货</value>
+  <value column="PrintName" original="Available for Replenishment">可供补货</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55658,8 +55658,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202887" trl="N">
-  <value column="Name" original="Available for Reservation">Available for Reservation</value>
-  <value column="PrintName" original="Available for Reservation">Available for Reservation</value>
+  <value column="Name" original="Available for Reservation">可供预订</value>
+  <value column="PrintName" original="Available for Reservation">可供预订</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55668,8 +55668,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202888" trl="N">
-  <value column="Name" original="Available for Shipping">Available for Shipping</value>
-  <value column="PrintName" original="Available for Shipping">Available for Shipping</value>
+  <value column="Name" original="Available for Shipping">可供发货</value>
+  <value column="PrintName" original="Available for Shipping">可供发货</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55678,8 +55678,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202889" trl="N">
-  <value column="Name" original="Locator Type">Locator Type</value>
-  <value column="PrintName" original="Locator Type">Locator Type</value>
+  <value column="Name" original="Locator Type">货位类型</value>
+  <value column="PrintName" original="Locator Type">货位类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

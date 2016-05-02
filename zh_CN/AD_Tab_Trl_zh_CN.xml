@@ -1473,9 +1473,9 @@
   <value column="Help" original="Trade discount schema calculates the trade discount percentage">批发折扣轮廓计算批发折扣百分比</value>
  </row>
  <row id="405" trl="Y">
-  <value column="Name" original="Schema Line">模式行</value>
+  <value column="Name" original="Schema Line">价格表计划明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Trade Discount Price List Lines">交易折扣价格表行</value>
+  <value column="Description" original="Trade Discount Price List Lines">交易折扣价格表明细</value>
   <value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round"><![CDATA[价格表基于产品采购和类别折扣而创建。这里列出的参数允许复制和计算价格表。<p>计算:<UL><LI>从引用的价格表复制和转换价格<LI>结果加上附加额<LI>结果减去折扣<LI>如果结果价格低于原始限制价格加最低毛利，则使用该价格 (仅当毛利不为0时) <LI>如果结果价格高于原始限制价格加最高毛利，则使用该价格 (仅当毛利不为0时) <LI>将结果价格作舍入处理 </UL> <B>公式:</B><BR> 新价格 = (转换(基础价格) + 附加额) * (100-折扣) / 100;<BR> <i>如果</i> 最低毛利 &lt;&gt; 0 <i>则</i> 新价格 = 取最大值 (新价格, 转换(原始限制价格) + 最低毛利);<BR> <i>如果</i> 最高毛利 &lt;&gt; 0 <i>则</i> 新价格 = 取最小值 (新价格, 转换(原始限制价格) + 最高毛利);<BR>  <BR> <B>示例:</B> (假定币种相同)<BR> 原价:  列表价格=300, 标准价格=250, 限制价格=200;<BR> 新的列表价: 基础价格=列表价格, 附加额=0, 折扣=0, 舍入]]></value>
  </row>
  <row id="406" trl="Y">
@@ -5112,7 +5112,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53203" trl="Y">
-  <value column="Name" original="Promotion">提升</value>
+  <value column="Name" original="Promotion">促销</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5754,19 +5754,19 @@
   <value column="Help" original=""/>
  </row>
  <row id="200014" trl="Y">
-  <value column="Name" original="POS Tender Type">C_付款 投标类型</value>
+  <value column="Name" original="POS Tender Type">POS付款类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200015" trl="Y">
-  <value column="Name" original="POS Payment">应付账款</value>
+  <value column="Name" original="POS Payment">POS付款</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200016" trl="Y">
-  <value column="Name" original="POS Payment">应付账款</value>
+  <value column="Name" original="POS Payment">POS付款</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6342,7 +6342,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200190" trl="N">
-  <value column="Name" original="Locator Type">Locator Type</value>
+  <value column="Name" original="Locator Type">货位类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
