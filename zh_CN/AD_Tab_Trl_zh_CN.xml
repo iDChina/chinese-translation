@@ -749,10 +749,10 @@
   <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">发货页签允许为客户生成、维护、输入和处理发货至客户或从客户退货</value>
  </row>
  <row id="258" trl="Y">
-  <value column="Name" original="Shipment Line">收货单的行</value>
+  <value column="Name" original="Shipment Line">发货单明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipment Line">收货单的行</value>
-  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">发货单行页签定义了发货单中的各项</value>
+  <value column="Description" original="Shipment Line">发货单明细</value>
+  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">发货单明细页签定义了发货明细的各项内容</value>
  </row>
  <row id="259" trl="Y">
   <value column="Name" original="Move">移仓</value>
@@ -906,10 +906,10 @@
   <value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.">发货页签允许为供应商生成、维护、输入和处理供应商发货单</value>
  </row>
  <row id="297" trl="Y">
-  <value column="Name" original="Receipt Line">收货单行</value>
+  <value column="Name" original="Receipt Line">收货单明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipment Line">收货单的行</value>
-  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">发货单行页签定义了发货单中的各项</value>
+  <value column="Description" original="Shipment Line">收货单明细</value>
+  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">发货单明细页签定义了发货单中的各项</value>
  </row>
  <row id="298" trl="Y">
   <value column="Name" original="EDI Definition">EDI 定义</value>
@@ -1503,28 +1503,28 @@
   <value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines">查看与发票明细和物料收货明细相匹配的采购订单明细</value>
  </row>
  <row id="410" trl="Y">
-  <value column="Name" original="Expense Type">开支类型</value>
+  <value column="Name" original="Expense Type">费用类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Expense Report Type">维护开支报表类型</value>
+  <value column="Description" original="Maintain Expense Report Type">维护费用报表类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="411" trl="Y">
-  <value column="Name" original="Expense Product">开支产品</value>
+  <value column="Name" original="Expense Product">费用产品</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product definition of Expense Type">开支类型的产品定义</value>
+  <value column="Description" original="Product definition of Expense Type">费用类型的产品定义</value>
   <value column="Help" original=""/>
  </row>
  <row id="412" trl="Y">
-  <value column="Name" original="Expense Report">开支报表</value>
+  <value column="Name" original="Expense Report">费用报表</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Time and Expense Report">时间与开支报表</value>
-  <value column="Help" original="Enter the time and expenses for the Employee or Contractor (Business Partner). &lt;br&gt;&#10;The price list determines the default costs of the expenses, products or resource to be reimbursed. In that sense, it is a &quot;Purchase Price&quot; list. The Warehouse is used to correct the inventory of items invoiced to customers (i.e. if not invoiced, the inventory is not adjusted).&lt;br&gt;&#10;Please note that the Business Partner &lt;b&gt;must&lt;/b&gt; be an Employee with an Address and Contact!"><![CDATA[输入员工或签约人 (业务伙伴) 的时间和开支。<br> 价格表决定待报销的开支、产品或资源的默认成本。从该意义来说，它是一个“采购价格”表。仓库用于调整已开票给客户的条目库存 (即: 如果未开票，则库存不会被调整)。<br> 请注意，业务伙伴<b>必须</b>是含有地址和联系人的员工！]]></value>
+  <value column="Description" original="Time and Expense Report">时间与费用报表</value>
+  <value column="Help" original="Enter the time and expenses for the Employee or Contractor (Business Partner). &lt;br&gt;&#10;The price list determines the default costs of the expenses, products or resource to be reimbursed. In that sense, it is a &quot;Purchase Price&quot; list. The Warehouse is used to correct the inventory of items invoiced to customers (i.e. if not invoiced, the inventory is not adjusted).&lt;br&gt;&#10;Please note that the Business Partner &lt;b&gt;must&lt;/b&gt; be an Employee with an Address and Contact!"><![CDATA[输入员工或签约人 (业务伙伴) 的时间和费用。<br> 价格表决定待报销的费用、产品或资源的默认成本。从该意义来说，它是一个“采购价格”表。仓库用于调整已开票给客户的条目库存 (即: 如果未开票，则库存不会被调整)。<br> 请注意，业务伙伴<b>必须</b>是含有地址和联系人的员工！]]></value>
  </row>
  <row id="413" trl="Y">
-  <value column="Name" original="Report Line">报表行</value>
+  <value column="Name" original="Report Line">报表明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Time and Expense Report Line">时间与开支报表行</value>
-  <value column="Help" original="Enter the expense items and billable or non-billable hours. If you enter a non-zero amount in Invoiced Amount, that amount will be used for billing the customer - otherwise the price on the current sales price list of the customer.">输入开支项和可开账单或不可开账单的小时。如果在开票金额中输入非零金额，该金额将用于客户账单 - 否则使用当前客户销售价格表中的价格</value>
+  <value column="Description" original="Time and Expense Report Line">时间与费用报表明细</value>
+  <value column="Help" original="Enter the expense items and billable or non-billable hours. If you enter a non-zero amount in Invoiced Amount, that amount will be used for billing the customer - otherwise the price on the current sales price list of the customer.">输入费用项和可开账单或不可开账单的小时。如果在开票金额中输入非零金额，该金额将用于客户账单 - 否则使用当前客户销售价格表中的价格</value>
  </row>
  <row id="414" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -1560,12 +1560,12 @@
   <value column="Name" original="Accounting">会计</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Accounting Parameters">定义会计参数</value>
-  <value column="Help" original="The Accounting Tab defines the defaults to use when generating accounting transactions for orders and invoices which contain this Expense Type. Not all accounts apply.">会计页签定义了当为包含该开支的订单和发票生成会计事务处理时用到的默认值。不是所有的账户都应用于开支</value>
+  <value column="Help" original="The Accounting Tab defines the defaults to use when generating accounting transactions for orders and invoices which contain this Expense Type. Not all accounts apply.">会计页签定义了当为包含该费用的订单和发票生成会计事务处理时用到的默认值。不是所有的账户都应用于费用</value>
  </row>
  <row id="420" trl="Y">
   <value column="Name" original="Price">价格</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Expense Type Pricing">开支类型定价</value>
+  <value column="Description" original="Expense Type Pricing">费用类型定价</value>
   <value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">定价页签显示了包含产品的每个价格表中的列表价格、标准价格和限制价格</value>
  </row>
  <row id="421" trl="Y">
@@ -1635,10 +1635,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="432" trl="Y">
-  <value column="Name" original="Report Line">报表行</value>
+  <value column="Name" original="Report Line">报表明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Time and Expense Report Line (not invoiced)">时间与开支报表行 (未开票)</value>
-  <value column="Help" original="View and modify Time and Expense Report Lines.  It lists expense items for the business partner on the expense line where the expense lines have no orders yet. (Sales Orders are created).">查看和修改时间与开支报表行。它在开支行列出了业务伙伴的开支项，这里开支行还没有订单 (销售订单被创建) </value>
+  <value column="Description" original="Time and Expense Report Line (not invoiced)">时间与明细报表明细 (未开票)</value>
+  <value column="Help" original="View and modify Time and Expense Report Lines.  It lists expense items for the business partner on the expense line where the expense lines have no orders yet. (Sales Orders are created).">查看和修改时间与费用报表明细。它在费用明细列出了业务伙伴的费用项，这里费用明细还没有订单 (销售订单被创建) </value>
  </row>
  <row id="433" trl="Y">
   <value column="Name" original="Item Translation">格式项翻译</value>
@@ -1779,10 +1779,10 @@
   <value column="Help" original="Select the business partner to be reimbursed.">选择要报销的业务伙伴</value>
  </row>
  <row id="457" trl="Y">
-  <value column="Name" original="Report Line">报表行</value>
+  <value column="Name" original="Report Line">报表明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Time and Expense Report Line (not reimbursed)">时间与开支报表行 (未报销)</value>
-  <value column="Help" original="View and modify Time and Expense Report Lines. It lists expense items for the business partner on the expense header where the expense lines were not invoiced yet.">查看和修改时间与开支报表行。它在开支标头列出了业务伙伴的开支项，这里开支行还未被开票</value>
+  <value column="Description" original="Time and Expense Report Line (not reimbursed)">时间与费用报表明细 (未报销)</value>
+  <value column="Help" original="View and modify Time and Expense Report Lines. It lists expense items for the business partner on the expense header where the expense lines were not invoiced yet.">查看和修改时间与费用报表明细。它在费用标头列出了业务伙伴的费用项，这里费用明细还未被开票</value>
  </row>
  <row id="458" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -2317,7 +2317,7 @@
   <value column="Name" original="Knowledge Synonym">知识同义字</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Knowlege Keyword Synonym">知识关键字的同义词</value>
-  <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">搜索知识关键字的同义词。例如: 产品 = 条目；开支 = 费用；打印机 = 印表机</value>
+  <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">搜索知识关键字的同义词。例如: 产品 = 条目</value>
  </row>
  <row id="549" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -2377,7 +2377,7 @@
   <value column="Name" original="Issues">问题</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Issues to the Project">项目投放</value>
-  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“发布到项目”进程对项目初始化时生成的事项。可以发布收入、时间与开支，或存货</value>
+  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“发布到项目”进程对项目初始化时生成的事项。可以发布收入、时间与费用，或存货</value>
  </row>
  <row id="559" trl="Y">
   <value column="Name" original="Printer">打印机</value>
@@ -5262,15 +5262,15 @@
   <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">退回供应商标签允许生成、维护、输入和处理（由于退货造成的）发货单给供应商</value>
  </row>
  <row id="53277" trl="Y">
-  <value column="Name" original="Return to Vendor Line">收货单的行</value>
+  <value column="Name" original="Return to Vendor Line">供应商退货单明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Return to Vendor Line">收货单的行</value>
-  <value column="Help" original="The Return to Vendor Line Tab defines the individual items in a Return to Vendor.">发货单行页签定义了发货单中的各项</value>
+  <value column="Description" original="Return to Vendor Line">供应商退货单明细</value>
+  <value column="Help" original="The Return to Vendor Line Tab defines the individual items in a Return to Vendor.">供应商退货单明细页签定义了退货明细中的各项</value>
  </row>
  <row id="53278" trl="Y">
   <value column="Name" original="Confirmations">确认</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Optional Confirmations of Return to Vendor Lines">可选的发货单行确认</value>
+  <value column="Description" original="Optional Confirmations of Return to Vendor Lines">可选的供应商退货单明细确认</value>
   <value column="Help" original="The quantities are in the storage Unit of Measure!">数量以库存计量单位计</value>
  </row>
  <row id="53279" trl="Y">
@@ -5286,9 +5286,9 @@
   <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
  </row>
  <row id="53281" trl="Y">
-  <value column="Name" original="RMA Line">退货授权行</value>
+  <value column="Name" original="RMA Line">退货授权明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Return Material Authorization Line">退料授权行</value>
+  <value column="Description" original="Return Material Authorization Line">退料授权明细</value>
   <value column="Help" original="Detail information about the returned goods">退货商品的明细信息</value>
  </row>
  <row id="53282" trl="Y">

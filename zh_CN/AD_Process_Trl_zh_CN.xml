@@ -372,7 +372,7 @@
   <value column="Help" original="For Standard Costs you can set/recalculate the current or future cost price (for the cost type of the accounting schema). If the Costing Level of the Accounting Schema is set to Client, missing cost records are created. The historical costs are calculated based on the accumulated amount/quantity of the costing method.">对于标准成本，可以设置/重新计算当前或未来成本价格 (针对会计模式的成本类型)。如果会计模式的成本计算级别被设置为实体，缺失的成本记录将被创建。历史成本基于成本计算方法的累计金额/数量进行计算</value>
  </row>
  <row id="184" trl="Y">
-  <value column="Name" original="Process Expenses">处理开支</value>
+  <value column="Name" original="Process Expenses">处理费用</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -387,7 +387,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="187" trl="Y">
-  <value column="Name" original="Create AP Expense Invoices">创建应付开支发票</value>
+  <value column="Name" original="Create AP Expense Invoices">创建应付费用发票</value>
   <value column="Description" original="Create AP Invoices from Expenses to be paid to employees">从要支付给员工的支出创建应付发票</value>
   <value column="Help" original=""/>
  </row>
@@ -402,9 +402,9 @@
   <value column="Help" original="Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.">将列复制到该列集合的末尾。请注意，需要重新设置计算的操作符</value>
  </row>
  <row id="190" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Report Lines from other Line Set">从其他行集合复制报表行</value>
-  <value column="Help" original="Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.">将行复制到该行集合的末尾。请注意，需要重新设置计算的操作符</value>
+  <value column="Name" original="Copy Lines">复制明细</value>
+  <value column="Description" original="Copy Report Lines from other Line Set">从其他明细集合复制报表明细</value>
+  <value column="Help" original="Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.">将明细复制到该明细集合的末尾。请注意，需要重新设置计算的操作符</value>
  </row>
  <row id="191" trl="Y">
   <value column="Name" original="Set Print Format">设置打印格式</value>
@@ -1075,7 +1075,7 @@
   <value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">包含已分配和可用金额的已调整付款（收款为正、付款为负）</value>
  </row>
  <row id="319" trl="Y">
-  <value column="Name" original="Business Partner Open">业务伙伴未结</value>
+  <value column="Name" original="Business Partner Open">业务伙伴未结金额</value>
   <value column="Description" original="Business Partner Open Amount">业务伙伴未结金额</value>
   <value column="Help" original="The report lists open invoices and payments">报表列出未结的发票和付款</value>
  </row>
@@ -1945,9 +1945,9 @@ DRP使用几个变量：
   <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#13;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。需要手工选择一个当前供应商。<br>仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
  </row>
  <row id="53276" trl="N">
-  <value column="Name" original="Convert Lead">Convert Lead</value>
-  <value column="Description" original="Convert Lead to BP and Opportunity">Convert Lead to BP and Opportunity</value>
-  <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity">Convert Lead into a Business Partner and (optional) Sales Opportunity</value>
+  <value column="Name" original="Convert Lead">转换销售线索</value>
+  <value column="Description" original="Convert Lead to BP and Opportunity">把销售线索转换成一个业务伙伴和销售机会</value>
+  <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity">把销售线索转换成一个业务伙伴和(可选择)销售机会</value>
  </row>
  <row id="200000" trl="Y">
   <value column="Name" original="FA_ProjectCreateAsset">分类账</value>

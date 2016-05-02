@@ -553,14 +553,14 @@
   <value column="Help" original="Trade discount schema calculates the trade discount percentage">批发折扣轮廓计算批发折扣百分比</value>
  </row>
  <row id="234" trl="Y">
-  <value column="Name" original="Expense Type">开支类型</value>
-  <value column="Description" original="Maintain Expense Report Types">维护开支报表类型</value>
+  <value column="Name" original="Expense Type">费用类型</value>
+  <value column="Description" original="Maintain Expense Report Types">维护费用报表类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="235" trl="Y">
-  <value column="Name" original="Expense Report">开支报表</value>
-  <value column="Description" original="Time and Expense Report">时间与开支报表</value>
-  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">时间和开支报表允许捕获花费在项目上的时间、收费的时间和收取的费用</value>
+  <value column="Name" original="Expense Report">费用报表</value>
+  <value column="Description" original="Time and Expense Report">时间与费用报表</value>
+  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">时间和费用报表允许捕获花费在项目上的时间、收费的时间和收取的费用</value>
  </row>
  <row id="236" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -593,9 +593,9 @@
   <value column="Help" original="Printer Paper Size, Orientation and Margins">打印机纸张的尺寸、方向和边距</value>
  </row>
  <row id="242" trl="Y">
-  <value column="Name" original="Expenses (to be invoiced)">开支 (待开发票)</value>
-  <value column="Description" original="View expenses and charges not invoiced to customers">查看未开票给客户的开支和杂费</value>
-  <value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">在开票给客户以前，检查要开票的支出行</value>
+  <value column="Name" original="Expenses (to be invoiced)">费用 (待开发票)</value>
+  <value column="Description" original="View expenses and charges not invoiced to customers">查看未开票给客户的费用和杂费</value>
+  <value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">在开票给客户以前，检查要开票的支出明细</value>
  </row>
  <row id="243" trl="Y">
   <value column="Name" original="Print Table Format">打印表格格式</value>
@@ -653,9 +653,9 @@
   <value column="Help" original="The training may have multiple actual classes">培训可具有多个实际的培训班</value>
  </row>
  <row id="254" trl="Y">
-  <value column="Name" original="Expenses (not reimbursed)">开支 (未报销)</value>
-  <value column="Description" original="View expenses and charges not reimbursed">查看未报销的开支和杂费</value>
-  <value column="Help" original="Before reimbursing expenses, check the open expense items">在报销费用以前，检查未结的开支项</value>
+  <value column="Name" original="Expenses (not reimbursed)">费用 (未报销)</value>
+  <value column="Description" original="View expenses and charges not reimbursed">查看未报销的费用和杂费</value>
+  <value column="Help" original="Before reimbursing expenses, check the open expense items">在报销费用以前，检查未结的费用项</value>
  </row>
  <row id="255" trl="Y">
   <value column="Name" original="Accounting Fact Balances">会计分录平衡</value>
@@ -693,9 +693,9 @@
   <value column="Help" original="Attributes are specific to a Product Attribute Set (e.g. Size for T-Shirts: S,M,L). If you have multiple attributes and want to search under a common sttribute, you define a search sttribute. Example: have one Size search attribute combining the values of all different sizes (Size for Dress Shirt  XL,L,M,S,XS). The Attribute Search allows you to have all values available for selection.  This eases the maintenance of the individual product attribute.">对产品属性组属性是特定的 ( 举例来说为圆领汗衫按规定尺寸制作: S , M,L). 如果你有多样的属性并且想要在通常的 sttribute 之下搜寻,你定义搜寻 sttribute 。 例子: 一已经按规定尺寸制作搜寻联合所有不同的大小价值的属性吗。 ( 大小对于洋装衬衫 XL ， L ， M ， S,XS) 属性搜寻允许你让选择可用的所有价值。  这减轻个别的产品属性的维护</value>
  </row>
  <row id="262" trl="Y">
-  <value column="Name" original="Expense Invoice (Alpha)">开支发票 (Alpha)</value>
+  <value column="Name" original="Expense Invoice (Alpha)">费用发票 (Alpha)</value>
   <value column="Description" original="Payables expense invoices - This is Alpha Functionality">可付的费用发票 - 这是Alpha测试功能</value>
-  <value column="Help" original="Enter expense invoices from your vendors">输入从供应商处得到的开支发票</value>
+  <value column="Help" original="Enter expense invoices from your vendors">输入从供应商处得到的费用发票</value>
  </row>
  <row id="263" trl="Y">
   <value column="Name" original="Print Label">打印标签</value>
@@ -837,7 +837,7 @@
  <row id="290" trl="Y">
   <value column="Name" original="Knowledge Synonym">知识同义字</value>
   <value column="Description" original="Knowlege Keyword Synonym">知识关键字的同义词</value>
-  <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">搜索知识关键字的同义词。例如: 产品 = 条目；开支 = 费用；打印机 = 印表机</value>
+  <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">搜索知识关键字的同义词。例如: 产品 = 条目</value>
  </row>
  <row id="291" trl="Y">
   <value column="Name" original="Business Partner Info">业务伙伴信息</value>
@@ -1866,23 +1866,23 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="53152" trl="N">
-  <value column="Name" original="Contact">Contact</value>
-  <value column="Description" original="Maintain Contacts">Maintain Contacts</value>
+  <value column="Name" original="Contact">接触 </value>
+  <value column="Description" original="Maintain Contacts">维护接触</value>
   <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact</value>
  </row>
  <row id="53153" trl="N">
-  <value column="Name" original="Lead">Lead</value>
-  <value column="Description" original="Maintain Leads">Maintain Leads</value>
+  <value column="Name" original="Lead">线索</value>
+  <value column="Description" original="Maintain Leads">维护线索</value>
   <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. </value>
  </row>
  <row id="53154" trl="N">
-  <value column="Name" original="Sales Stage">Sales Stage</value>
+  <value column="Name" original="Sales Stage">销售阶段</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53155" trl="N">
-  <value column="Name" original="Sales Opportunity">Sales Opportunity</value>
-  <value column="Description" original="A potential sale">A potential sale</value>
+  <value column="Name" original="Sales Opportunity">销售机会</value>
+  <value column="Description" original="A potential sale">一个潜在的销售机会</value>
   <value column="Help" original=""/>
  </row>
  <row id="53156" trl="N">
