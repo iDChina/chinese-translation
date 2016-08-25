@@ -831,7 +831,7 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="211" trl="Y">
-  <value column="Name" original="Tax Category">税的类别</value>
+  <value column="Name" original="Tax Category">税种</value>
   <value column="PrintName" original="Tax Category">税的类别</value>
   <value column="Description" original="Tax Category">税的类别</value>
   <value column="Help" original="The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.">税种提供了将相似的税进行分级的方法。例如，营业税或增值税</value>
@@ -861,10 +861,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="215" trl="Y">
-  <value column="Name" original="UOM">度量单位</value>
-  <value column="PrintName" original="UOM">度量单位</value>
-  <value column="Description" original="Unit of Measure">度量单位</value>
-  <value column="Help" original="The UOM defines a unique non monetary Unit of Measure">计量单位定义了唯一的非货币计量单位</value>
+  <value column="Name" original="UOM">计量单位</value>
+  <value column="PrintName" original="UOM">计量单位</value>
+  <value column="Description" original="Unit of Measure">计量单位</value>
+  <value column="Help" original="The UOM defines a unique non monetary Unit of Measure">计量单位定义了唯一的非货币性的计量单位。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1152,9 +1152,9 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="260" trl="Y">
-  <value column="Name" original="D-U-N-S">D-U-N-S邓白氏编码</value>
-  <value column="PrintName" original="D-U-N-S">D-U-N-S邓白氏编码</value>
-  <value column="Description" original="Dun &amp; Bradstreet Number">D-U-N-S邓白氏编码</value>
+  <value column="Name" original="D-U-N-S">邓白氏编码</value>
+  <value column="PrintName" original="D-U-N-S">D-U-N-S</value>
+  <value column="Description" original="Dun &amp; Bradstreet Number">D-U-N-S 邓白氏编码</value>
   <value column="Help" original="Used for EDI - For details see   www.dnb.com/dunsno/list.htm">用于 EDI - 明细信息请查看 www.dnb.com/dunsno/list.htm</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -1252,8 +1252,8 @@ Callout 是一个 Java 类，执行 org.compiere.model.Callout 的 call 方法�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="275" trl="Y">
-  <value column="Name" original="Description">仅描述</value>
-  <value column="PrintName" original="Description">仅描述</value>
+  <value column="Name" original="Description">描述</value>
+  <value column="PrintName" original="Description">描述</value>
   <value column="Description" original="Optional short description of the record">记录的 (可选) 简短描述</value>
   <value column="Help" original="A description is limited to 255 characters.">描述被限定不超过255个字符</value>
   <value column="PO_Description" original=""/>
@@ -2034,10 +2034,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="387" trl="Y">
-  <value column="Name" original="Invoiced">开票数量</value>
-  <value column="PrintName" original="Invoiced">开票数量</value>
+  <value column="Name" original="Invoiced">开票</value>
+  <value column="PrintName" original="Invoiced">是否开票</value>
   <value column="Description" original="Is this invoiced?">是否开票？</value>
-  <value column="Help" original="If selected, invoices are created">如果选中，则发票已创建</value>
+  <value column="Help" original="If selected, invoices are created">如果选中，则需要创建发票。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2875,8 +2875,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="524" trl="Y">
-  <value column="Name" original="Process Now">现在处理</value>
-  <value column="PrintName" original="Process Now">现在处理</value>
+  <value column="Name" original="Process Now">处理中</value>
+  <value column="PrintName" original="Process Now">处理中</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -3025,10 +3025,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="546" trl="Y">
-  <value column="Name" original="Result">结果</value>
-  <value column="PrintName" original="Result">结果</value>
+  <value column="Name" original="Result">行动结果</value>
+  <value column="PrintName" original="Result">行动结果</value>
   <value column="Description" original="Result of the action taken">所采取行动的结果</value>
-  <value column="Help" original="The Result indicates the result of any action taken on this request.">结果表示对该请求所采取的任何行动的结果</value>
+  <value column="Help" original="The Result indicates the result of any action taken on this request.">对该请求所采取的任何行动的结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3466,7 +3466,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="602" trl="Y">
-  <value column="Name" original="Symbol">货币符号</value>
+  <value column="Name" original="Symbol">单位符号</value>
   <value column="PrintName" original="UoM">计量单位</value>
   <value column="Description" original="Symbol for a Unit of Measure">计量单位的符号</value>
   <value column="Help" original="The Symbol identifies the Symbol to be displayed and printed for a Unit of Measure">符号是指将被显示和打印的计量单位符号</value>
@@ -3670,10 +3670,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="623" trl="Y">
-  <value column="Name" original="Partner Product Key">伙伴产品主键</value>
-  <value column="PrintName" original="BPartner Product Key">业务伙伴产品关键字</value>
-  <value column="Description" original="Product Key of the Business Partner">业务伙伴的产品关键字</value>
-  <value column="Help" original="The Business Partner Product Key identifies the number used by the Business Partner for this product. It can be printed on orders and invoices when you include the Product Key in the print format.">业务伙伴产品关键字标识业务伙伴用到的该产品编码。当在打印格式中包含了产品关键字时，它可被打印于订单和发票上</value>
+  <value column="Name" original="Partner Product Key">产品编码</value>
+  <value column="PrintName" original="BPartner Product Key">业务伙伴的产品编码</value>
+  <value column="Description" original="Product Key of the Business Partner">业务伙伴的产品编码</value>
+  <value column="Help" original="The Business Partner Product Key identifies the number used by the Business Partner for this product. It can be printed on orders and invoices when you include the Product Key in the print format.">业务伙伴定义的产品编码。当在打印格式中包含了产品编码时，它可被打印于订单和发票上。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3980,7 +3980,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="881" trl="Y">
-  <value column="Name" original="EMail Address">电子邮件地址</value>
+  <value column="Name" original="EMail Address">电子邮件</value>
   <value column="PrintName" original="EMail">电子邮件</value>
   <value column="Description" original="Electronic Mail Address">电子邮件地址</value>
   <value column="Help" original="The Email Address is the Electronic Mail ID for this User and should be fully qualified (e.g. joe.smith@company.com). The Email Address is used to access the self service application functionality from the web.">Email 地址是该用户的电子邮件ID，应完全符合要求 (如 joe.smith@company.com)。Email 地址用于从 Web 访问自助服务的应用程序功能</value>
@@ -4490,10 +4490,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1005" trl="Y">
-  <value column="Name" original="Activity">活动</value>
-  <value column="PrintName" original="Activity">活动</value>
-  <value column="Description" original="Business Activity">商业活动</value>
-  <value column="Help" original="Activities indicate tasks that are performed and used to utilize Activity based Costing">活动表示了执行的任务，利用作业成本法 (ABC) 时用到</value>
+  <value column="Name" original="Activity">作业</value>
+  <value column="PrintName" original="Activity">作业</value>
+  <value column="Description" original="Business Activity">作业为执行任务的对象，成本归集单元，使用作业成本法 (ABC) 时用到</value>
+  <value column="Help" original="Activities indicate tasks that are performed and used to utilize Activity based Costing">在一个组织内为了某一目的而进行的耗费资源动作，它是作业成本计算系统中最小的成本归集单元。作业贯穿产品生产经营的全过程，从产品设计、原料采购、生产加工，直至产品的发运销售。在这一过程中，每个环节、每道工序都可以视为一项作业。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5230,10 +5230,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1106" trl="Y">
-  <value column="Name" original="Sales Transaction">销售事务处理</value>
-  <value column="PrintName" original="Sales Transaction">销售事务处理</value>
-  <value column="Description" original="This is a Sales Transaction">这是一个销售事务处理</value>
-  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction.">"销售事务处理"复选框表示该项是否为一个销售事务处理</value>
+  <value column="Name" original="Sales Transaction">销售事务</value>
+  <value column="PrintName" original="Sales Transaction">销售事务</value>
+  <value column="Description" original="This is a Sales Transaction">这是一个销售事务</value>
+  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction.">表示该项是否为一个销售事务</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7305,9 +7305,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1428" trl="Y">
-  <value column="Name" original="Result">结果</value>
-  <value column="PrintName" original="Result">结果</value>
-  <value column="Description" original="Result of transmission">传输的结果</value>
+  <value column="Name" original="Result">交易结果</value>
+  <value column="PrintName" original="Result">交易结果</value>
+  <value column="Description" original="Result of transmission">交易的结果</value>
   <value column="Help" original="The Response Result indicates the result of the transmission to the Credit Card Company.">响应结果表示信用卡公司的交易结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -7907,8 +7907,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1504" trl="Y">
   <value column="Name" original="Due type">到期类型</value>
   <value column="PrintName" original="Due type">到期类型</value>
-  <value column="Description" original="Status of the next action for this Request">该请求下次行动的状态</value>
-  <value column="Help" original="The Due Type indicates if this request is Due, Overdue or Scheduled.">这个请求是否到期,过期或预定的</value>
+  <value column="Description" original="Status of the next action for this Request">与下次行动时间相比，该请求的到期状态</value>
+  <value column="Help" original="The Due Type indicates if this request is Due, Overdue or Scheduled.">这个请求是否到期，过期或计划进展中。如果时间未到“下次行动日期”，为“计划中”，到了未超过允许宽限天数，为“到期”，超过允许宽限天数，为“超期”。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8227,7 +8227,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1547" trl="Y">
-  <value column="Name" original="Commission">佣金标识</value>
+  <value column="Name" original="Commission">佣金</value>
   <value column="PrintName" original="Commission">佣金标识</value>
   <value column="Description" original="Commission">佣金标识</value>
   <value column="Help" original="The Commission Rules or internal or external company agents, sales reps or vendors.">内部或外部的公司代理、销售代表或供应商的佣金规则</value>
@@ -8877,9 +8877,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1623" trl="Y">
-  <value column="Name" original="Post Trade Discount">过账批发折扣</value>
-  <value column="PrintName" original="Trade Discount">批发折扣</value>
-  <value column="Description" original="Generate postings for trade discounts">为交易折扣生成过账</value>
+  <value column="Name" original="Post Trade Discount">生成折扣分录</value>
+  <value column="PrintName" original="Trade Discount">生成折扣分录</value>
+  <value column="Description" original="Generate postings for trade discounts">是否将交易折扣单独生成分录并过账</value>
   <value column="Help" original="If the invoice is based on an item with a list price, the amount based on the list price and the discount is posted instead of the net amount.&#10;Example: Quantity 10 - List Price: 20 - Actual Price: 17&#10;If selected for a sales invoice 200 is posted to Product Revenue and 30 to Discount Granted - rather than 170 to Product Revenue.&#10;The same applies to vendor invoices."><![CDATA[如果发票基于带有列表价格的商品，则金额基于列表价格，折扣被过账而非净额。<p>举例: 数量10 - 列表价格: 20 - 实际价格: 17<br>如果选择为销售发票，则过账200给产品收入，过账30给准许的折扣 - 而非170过账给产品收入。<p>供应商发票的情形，与之相同。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -14047,7 +14047,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="Name" original="Description Only">仅描述</value>
   <value column="PrintName" original="Description">仅描述</value>
   <value column="Description" original="if true, the line is just description and no transaction">如果这是真的，此行只是描述没有交易</value>
-  <value column="Help" original="If a line is Description Only, e.g. Product Inventory is not corrected. No accounting transactions are created and the amount or totals are not included in the document.  This for including descriptive detail lines, e.g. for an Work Order.">如果某行是仅描述，比如产品库存不正确。那么不会创建会计事务处理，金额或总额不会被包含于单据中。只会包含描述性的行行，如工单</value>
+  <value column="Help" original="If a line is Description Only, e.g. Product Inventory is not corrected. No accounting transactions are created and the amount or totals are not included in the document.  This for including descriptive detail lines, e.g. for an Work Order.">如果某行是仅描述，比如产品库存不正确。那么不会创建会计事务处理，金额或总额不会被包含于单据中。只会包含描述性的行行，如工单。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17147,10 +17147,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2514" trl="Y">
-  <value column="Name" original="Activity Tree">活动树</value>
-  <value column="PrintName" original="Activity Tree">活动树</value>
-  <value column="Description" original="Trees are used for (financial) reporting">树被用于 (财务) 报表</value>
-  <value column="Help" original="Trees are used for (finanial) reporting">树是用来(财务)报表</value>
+  <value column="Name" original="Activity Tree">作业树</value>
+  <value column="PrintName" original="Activity Tree">作业树</value>
+  <value column="Description" original="Trees are used for (financial) reporting">用于 (财务) 报表</value>
+  <value column="Help" original="Trees are used for (finanial) reporting">用来(财务)报表</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18789,10 +18789,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2685" trl="Y">
-  <value column="Name" original="Material Policy">物料政策</value>
-  <value column="PrintName" original="Mat Policy">物料政策</value>
-  <value column="Description" original="Material Movement Policy">物料移库的政策</value>
-  <value column="Help" original="The Material Movement Policy determines how the stock is flowing (FiFo or LiFo) if a specific Product Instance was not selected.  The policy can not contradict the costing method (e.g. FiFo movement policy and LiFo costing method).">物料移库政策决定了未选择特定的产品实例时库存如何流动（先进先出 FiFo、后进先出 LiFo）。该政策与成本计算方法不抵触（如先入先出移库政策与后入先出成本计算方法相兼容）</value>
+  <value column="Name" original="Material Policy">物料策略</value>
+  <value column="PrintName" original="Mat Policy">物料策略</value>
+  <value column="Description" original="Material Movement Policy">物料移库的策略</value>
+  <value column="Help" original="The Material Movement Policy determines how the stock is flowing (FiFo or LiFo) if a specific Product Instance was not selected.  The policy can not contradict the costing method (e.g. FiFo movement policy and LiFo costing method).">物料移库策略决定了未选择特定的产品实例时库存如何流动（先进先出 FiFo、后进先出 LiFo）。该政策与成本计算方法不抵触（如先入先出移库政策与后入先出成本计算方法相兼容）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18980,19 +18980,19 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2707" trl="Y">
-  <value column="Name" original="Resolution">解决方案</value>
-  <value column="PrintName" original="Resolution">解决方案</value>
-  <value column="Description" original="Request Resolution">请求的解决方案</value>
-  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">状况确定 ( 举例来说确定的，拒绝,..)</value>
+  <value column="Name" original="Resolution">请求结果</value>
+  <value column="PrintName" original="Resolution">请求结果</value>
+  <value column="Description" original="Request Resolution">请求的解决结果</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">比如：已驳回，已搁置，已取消，已解决。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2708" trl="Y">
-  <value column="Name" original="User Importance">用户重要</value>
-  <value column="PrintName" original="User Importance">用户重要</value>
-  <value column="Description" original="Priority of the issue for the User">对用户的问题的优先级</value>
+  <value column="Name" original="User Importance">用户优先级</value>
+  <value column="PrintName" original="User Importance">用户优先级</value>
+  <value column="Description" original="Priority of the issue for the User">用户端对请求的优先级别。</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -19030,10 +19030,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2712" trl="Y">
-  <value column="Name" original="Standard Response">标准响应</value>
-  <value column="PrintName" original="Std Response">标准响应</value>
-  <value column="Description" original="Request Standard Response ">请求标准回应 </value>
-  <value column="Help" original="Text blocks to be copied into request response text">将被复制到请求响应文本的文本块</value>
+  <value column="Name" original="Standard Response">响应模版</value>
+  <value column="PrintName" original="Std Response">响应模版</value>
+  <value column="Description" original="Request Standard Response ">预定制的标准响应内容</value>
+  <value column="Help" original="Text blocks to be copied into request response text">该响应内容将复制到请求结果。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21004,9 +21004,9 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2918" trl="Y">
-  <value column="Name" original="Benchmark">基准测试</value>
-  <value column="PrintName" original="Benchmark">基准测试</value>
-  <value column="Description" original="Performance Benchmark">绩效基准测试</value>
+  <value column="Name" original="Benchmark">绩效基准</value>
+  <value column="PrintName" original="Benchmark">绩效基准</value>
+  <value column="Description" original="Performance Benchmark">绩效基准</value>
   <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">用于把（如股票价格等）与内部绩效相比较的数据序列</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -21045,9 +21045,9 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2922" trl="Y">
-  <value column="Name" original="Benchmark Data">基准测试数据</value>
-  <value column="PrintName" original="Benchmark Data">基准测试数据</value>
-  <value column="Description" original="Performance Benchmark Data Point">绩效基准测试数据点</value>
+  <value column="Name" original="Benchmark Data">绩效基准数据</value>
+  <value column="PrintName" original="Benchmark Data">绩效基准数据</value>
+  <value column="Description" original="Performance Benchmark Data Point">绩效基准数据点</value>
   <value column="Help" original="Data Series Point to compare internal performance with (e.g. stock price, ...)">将内部绩效与之比较的数据序列点 (如股票价格)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -21055,9 +21055,9 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2923" trl="Y">
-  <value column="Name" original="Date">事务处理日期</value>
-  <value column="PrintName" original="Date">事务处理日期</value>
-  <value column="Description" original="Benchmark Date">基准测试日期</value>
+  <value column="Name" original="Date">绩效基准日期</value>
+  <value column="PrintName" original="Date">绩效基准日期</value>
+  <value column="Description" original="Benchmark Date">绩效基准日期</value>
   <value column="Help" original="Date of the Benchmark Data Point">基准测试数据点的日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -21065,9 +21065,9 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2924" trl="Y">
-  <value column="Name" original="Value">类别值</value>
-  <value column="PrintName" original="Value">类别值</value>
-  <value column="Description" original="Benchmark Value">基准测试值</value>
+  <value column="Name" original="Value">绩效基准值</value>
+  <value column="PrintName" original="Value">绩效基准值</value>
+  <value column="Description" original="Benchmark Value">绩效基准值</value>
   <value column="Help" original="Value of the Benchmark Data Point">基准测试数据点的值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -23766,8 +23766,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52027" trl="Y">
-  <value column="Name" original="isPresentForProduct">是赠品</value>
-  <value column="PrintName" original="Present for Product">产品附带的赠品</value>
+  <value column="Name" original="isPresentForProduct">赠品</value>
+  <value column="PrintName" original="Present for Product">是否为产品附带的赠品</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24066,8 +24066,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53222" trl="Y">
-  <value column="Name" original="Activity Key"><![CDATA[活动关键字(&K)]]></value>
-  <value column="PrintName" original="Activity Key"><![CDATA[活动关键字(&K)]]></value>
+  <value column="Name" original="Activity Key"><![CDATA[作业关键字(&K)]]></value>
+  <value column="PrintName" original="Activity Key"><![CDATA[作业关键字(&K)]]></value>
   <value column="Description" original="Text key for Activity">基于作业成本法的活动(ABC)</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24219,8 +24219,8 @@ O - org configurable parameter</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53237" trl="Y">
-  <value column="Name" original="Is Milestone">是里程碑</value>
-  <value column="PrintName" original="Is Milestone">是里程碑</value>
+  <value column="Name" original="Is Milestone">里程碑</value>
+  <value column="PrintName" original="Is Milestone">是否为里程碑</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24379,9 +24379,9 @@ When Material Plan is calculated MRP generate a Manufacturing Order meet to dema
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53251" trl="Y">
-  <value column="Name" original="Is Critical Component">是关键子件</value>
-  <value column="PrintName" original="Is Critical Component">是关键子件</value>
-  <value column="Description" original="Indicate that a Manufacturing Order can not begin without have this component">若该子件未备好，则该生产单不能开工</value>
+  <value column="Name" original="Is Critical Component">关键部件</value>
+  <value column="PrintName" original="Is Critical Component">是否关键部件</value>
+  <value column="Description" original="Indicate that a Manufacturing Order can not begin without have this component">若该部件未备好，则该生产单不能开工</value>
   <value column="Help" original="Indicate that a Manufacturing Order can not begin without have this component">若该子件未备好，则该生产单不能开工</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -24471,8 +24471,8 @@ Use the field Backflush Group for grouping the component in a Backflush Method</
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53261" trl="Y">
-  <value column="Name" original="Is MPS">是主生产计划(MPS)</value>
-  <value column="PrintName" original="Is MPS">是主生产计划(MPS)</value>
+  <value column="Name" original="Is MPS">主生产计划</value>
+  <value column="PrintName" original="Is MPS">是否为主生产计划(MPS)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24541,8 +24541,8 @@ Use the field Backflush Group for grouping the component in a Backflush Method</
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53269" trl="Y">
-  <value column="Name" original="Planner">计划员</value>
-  <value column="PrintName" original="Planner">计划员</value>
+  <value column="Name" original="Planner">计划员ID</value>
+  <value column="PrintName" original="Planner">计划员ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24561,8 +24561,8 @@ Use the field Backflush Group for grouping the component in a Backflush Method</
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53271" trl="Y">
-  <value column="Name" original="Transfert Time">移转时间</value>
-  <value column="PrintName" original="Transfert Time">移转时间</value>
+  <value column="Name" original="Transfer Time">移转时间</value>
+  <value column="PrintName" original="Transfer Time">移转时间</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24693,8 +24693,8 @@ Take care when setting yield to anything but 100% particularly when yied is used
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53284" trl="Y">
-  <value column="Name" original="Duration Requiered">需要的持续时间</value>
-  <value column="PrintName" original="Duration Requiered">需要的持续时间</value>
+  <value column="Name" original="Duration Required">需要的持续时间</value>
+  <value column="PrintName" original="Duration Required">需要的持续时间</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -24733,7 +24733,7 @@ Take care when setting yield to anything but 100% particularly when yied is used
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53288" trl="Y">
-  <value column="Name" original="Qty Requiered">需求数量</value>
+  <value column="Name" original="Qty Required">需求数量</value>
   <value column="PrintName" original="Qty Required">需求数量</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -24763,8 +24763,8 @@ Take care when setting yield to anything but 100% particularly when yied is used
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53291" trl="Y">
-  <value column="Name" original="Setup Time Requiered">预计安装时间</value>
-  <value column="PrintName" original="Setup Time Requiered">预计安装时间</value>
+  <value column="Name" original="Setup Time Required">预计安装时间</value>
+  <value column="PrintName" original="Setup Time Required">预计安装时间</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -26093,8 +26093,8 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53475" trl="Y">
-  <value column="Name" original="Description">仅描述</value>
-  <value column="PrintName" original="Description">仅描述</value>
+  <value column="Name" original="Description">描述</value>
+  <value column="PrintName" original="Description">描述</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28103,10 +28103,10 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53691" trl="Y">
-  <value column="Name" original="Suppress Repeats">支持请求</value>
-  <value column="PrintName" original="Suppress Repeats">支持请求</value>
-  <value column="Description" original="Suppress repeated elements in column.">Suppress repeated elements in column</value>
-  <value column="Help" original="Determines whether repeated elements in a column are repeated in a printed table.">Determines whether repeated elements in a column are repeated in a printed table</value>
+  <value column="Name" original="Suppress Repeats">抑制相关列</value>
+  <value column="PrintName" original="Suppress Repeats">抑制相关列</value>
+  <value column="Description" original="Suppress repeated elements in column.">抑制相关列</value>
+  <value column="Help" original="Determines whether repeated elements in a column are repeated in a printed table.">确定是否打印相关的重复列</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28730,7 +28730,7 @@ Credit Work in Process Account ]]></value>
   <value column="Name" original="Reward Type">奖励类型</value>
   <value column="PrintName" original="Reward Type">奖励类型</value>
   <value column="Description" original="Type of reward which consists of percentage discount, flat discount or absolute amount">Type of reward which consists of percentage discount, flat discount or absolute 金额</value>
-  <value column="Help" original=""/>`
+  <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28747,9 +28747,9 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53822" trl="Y">
-  <value column="Name" original="Activity Dimension">活动维度</value>
-  <value column="PrintName" original="Activity Dimension">活动维度</value>
-  <value column="Description" original="Include Activity as a cube dimension">包含活动，作为一个立方体维度</value>
+  <value column="Name" original="Activity Dimension">作业维度</value>
+  <value column="PrintName" original="Activity Dimension">作业维度</value>
+  <value column="Description" original="Include Activity as a cube dimension">是否为作业维度</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -29187,9 +29187,9 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54078" trl="Y">
-  <value column="Name" original="Is Manufacturer">是制造商</value>
-  <value column="PrintName" original="Is Manufacturer">是制造商</value>
-  <value column="Description" original="Indicate role of this Business partner as Manufacturer">表示该业务伙伴是否为制造商的角色</value>
+  <value column="Name" original="Is Manufacturer">制造商</value>
+  <value column="PrintName" original="Is Manufacturer">是否为制造商</value>
+  <value column="Description" original="Indicate role of this Business partner as Manufacturer">表示该业务伙伴是否为制造商</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -29357,8 +29357,8 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54122" trl="Y">
-  <value column="Name" original="Planner Key">关键的计划员</value>
-  <value column="PrintName" original="Planner Key">关键的计划员</value>
+  <value column="Name" original="Planner Key">计划员</value>
+  <value column="PrintName" original="Planner Key">计划员</value>
   <value column="Description" original="Search Key of the Planning">业务伙伴的搜索关键字</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30179,9 +30179,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54231" trl="Y">
-  <value column="Name" original="Is Depreciable">是折旧</value>
-  <value column="PrintName" original="Is Depreciable">是折旧</value>
-  <value column="Description" original="This asset CAN be depreciated">该资产可在线处理</value>
+  <value column="Name" original="Is Depreciable">折旧</value>
+  <value column="PrintName" original="Is Depreciable">是否折旧</value>
+  <value column="Description" original="This asset CAN be depreciated">该资产需要折旧</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -30249,8 +30249,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54239" trl="Y">
-  <value column="Name" original="Locator To Key">主键-仓库库位</value>
-  <value column="PrintName" original="Locator To Key">主键-仓库库位</value>
+  <value column="Name" original="Locator To Key">目标库位主键</value>
+  <value column="PrintName" original="Locator To Key">目标库位主键</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -30469,7 +30469,7 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54392" trl="Y">
-  <value column="Name" original="Payment Term Usage">主键-付款条件</value>
+  <value column="Name" original="Payment Term Usage">支付条款用于</value>
   <value column="PrintName" original="Payment Term Usage">主键-付款条件</value>
   <value column="Description" original="Payment term usage indicates if this payment term is used for sales, purchases or both.">Payment term usage indicates if this payment term is used for sales, purchases or both</value>
   <value column="Help" original=""/>
@@ -37759,8 +37759,338 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55168" trl="Y">
-  <value column="Name" original="IsFixedAssetInvoice">是固定资产发票</value>
-  <value column="PrintName" original="IsFixedAssetInvoice">是固定资产发票</value>
+  <value column="Name" original="IsFixedAssetInvoice">固定资产发票</value>
+  <value column="PrintName" original="IsFixedAssetInvoice">是否固定资产发票</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55185" trl="N">
+  <value column="Name" original="Work Order (OT) Request">Work Order (OT) Request</value>
+  <value column="PrintName" original="Work Order (OT) Request">Work Order (OT) Request</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55186" trl="N">
+  <value column="Name" original="Standard Job">Standard Job</value>
+  <value column="PrintName" original="Standard Job">Standard Job</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55187" trl="N">
+  <value column="Name" original="(OT) Request Type">(OT) Request Type</value>
+  <value column="PrintName" original="(OT) Request Type">(OT) Request Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55188" trl="N">
+  <value column="Name" original="Meter">Meter</value>
+  <value column="PrintName" original="Meter">Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55189" trl="N">
+  <value column="Name" original="Day Maximum">Day Maximum</value>
+  <value column="PrintName" original="Day Maximum">Day Maximum</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55190" trl="N">
+  <value column="Name" original="Standard Job Type">Standard Job Type</value>
+  <value column="PrintName" original="Standard Job Type">Standard Job Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55191" trl="N">
+  <value column="Name" original="Maintain Area">Maintain Area</value>
+  <value column="PrintName" original="Maintain Area">Maintain Area</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55192" trl="N">
+  <value column="Name" original="Standard Job Task">Standard Job Task</value>
+  <value column="PrintName" original="Standard Job Task">Standard Job Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55193" trl="N">
+  <value column="Name" original="Standard Job Resource">Standard Job Resource</value>
+  <value column="PrintName" original="Standard Job Resource">Standard Job Resource</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55194" trl="N">
+  <value column="Name" original="ResourceQty">ResourceQty</value>
+  <value column="PrintName" original="ResourceQty">ResourceQty</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55195" trl="N">
+  <value column="Name" original="ResourceType">ResourceType</value>
+  <value column="PrintName" original="ResourceType">ResourceType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55196" trl="N">
+  <value column="Name" original="Maintenance">Maintenance</value>
+  <value column="PrintName" original="Maintenance">Maintenance</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55197" trl="N">
+  <value column="Name" original="IsChild">IsChild</value>
+  <value column="PrintName" original="IsChild">IsChild</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55198" trl="N">
+  <value column="Name" original="currentmp">currentmp</value>
+  <value column="PrintName" original="currentmp">currentmp</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55199" trl="N">
+  <value column="Name" original="DateLastOT">DateLastOT</value>
+  <value column="PrintName" original="DateLastOT">DateLastOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55200" trl="N">
+  <value column="Name" original="datelastrunmp">datelastrunmp</value>
+  <value column="PrintName" original="datelastrunmp">datelastrunmp</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55201" trl="N">
+  <value column="Name" original="Interval">Interval</value>
+  <value column="PrintName" original="Interval">Interval</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55202" trl="N">
+  <value column="Name" original="lastmp">lastmp</value>
+  <value column="PrintName" original="lastmp">lastmp</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55203" trl="N">
+  <value column="Name" original="lastread">lastread</value>
+  <value column="PrintName" original="lastread">lastread</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55204" trl="N">
+  <value column="Name" original="MP_MaintainParent_ID">MP_MaintainParent_ID</value>
+  <value column="PrintName" original="MP_MaintainParent_ID">MP_MaintainParent_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55205" trl="N">
+  <value column="Name" original="nextmp">nextmp</value>
+  <value column="PrintName" original="nextmp">nextmp</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55206" trl="N">
+  <value column="Name" original="ProgrammingType">ProgrammingType</value>
+  <value column="PrintName" original="ProgrammingType">ProgrammingType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55207" trl="N">
+  <value column="Name" original="promuse">promuse</value>
+  <value column="PrintName" original="promuse">promuse</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55208" trl="N">
+  <value column="Name" original="Range">Range</value>
+  <value column="PrintName" original="Range">Range</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55209" trl="N">
+  <value column="Name" original="Maintenance Task">Maintenance Task</value>
+  <value column="PrintName" original="Maintenance Task">Maintenance Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55210" trl="N">
+  <value column="Name" original="Maintenance Resource">Maintenance Resource</value>
+  <value column="PrintName" original="Maintenance Resource">Maintenance Resource</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55211" trl="N">
+  <value column="Name" original="Work Order (OT)">Work Order (OT)</value>
+  <value column="PrintName" original="Work Order (OT)">Work Order (OT)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55212" trl="N">
+  <value column="Name" original="Work Order Task">Work Order Task</value>
+  <value column="PrintName" original="Work Order Task">Work Order Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55213" trl="N">
+  <value column="Name" original="Work Order (OT) Resource">Work Order (OT) Resource</value>
+  <value column="PrintName" original="Work Order (OT) Resource">Work Order (OT) Resource</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55214" trl="N">
+  <value column="Name" original="Asset Meter">Asset Meter</value>
+  <value column="PrintName" original="Asset Meter">Asset Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55215" trl="N">
+  <value column="Name" original="MP_AssetMeter_Log">MP_AssetMeter_Log</value>
+  <value column="PrintName" original="MP_AssetMeter_Log">MP_AssetMeter_Log</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55216" trl="N">
+  <value column="Name" original="CurrentAmt">CurrentAmt</value>
+  <value column="PrintName" original="CurrentAmt">CurrentAmt</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="55217" trl="N">
+  <value column="Name" original="MP_AssetMeterSearch_ID">MP_AssetMeterSearch_ID</value>
+  <value column="PrintName" original="MP_AssetMeterSearch_ID">MP_AssetMeterSearch_ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38098,10 +38428,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="55354" trl="N">
-  <value column="Name" original="Activity Type">活动类型</value>
-  <value column="PrintName" original="Activity Type">活动类型</value>
-  <value column="Description" original="Type of activity, e.g. task, email, phone call">活动类型，例如：任务、电子邮件、拨打电话</value>
+ <row id="55354" trl="Y">
+  <value column="Name" original="Activity Type">作业类型</value>
+  <value column="PrintName" original="Activity Type">作业类型</value>
+  <value column="Description" original="Type of activity, e.g. task, email, phone call">联系作业类型，例如：任务、电子邮件、拨打电话</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -38309,9 +38639,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200018" trl="Y">
-  <value column="Name" original="Service Component Name">AD_列 名字</value>
-  <value column="PrintName" original="Service Component Name">AD_列 名字</value>
-  <value column="Description" original="The service component name that implements the interface for toolbar actions">The service component name that implements the interface for toolbar actions</value>
+  <value column="Name" original="Service Component Name">图标名字</value>
+  <value column="PrintName" original="Service Component Name">服务组件名字将应用到图标名字</value>
+  <value column="Description" original="The service component name that implements the interface for toolbar actions"/>
   <value column="Help" original="The OSGi service component name that implements the IAction interface for toolbar action">The OSGi service component name that implements the IAction interface for toolbar action</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -38359,8 +38689,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200023" trl="Y">
-  <value column="Name" original="Auto expand menu">AD_菜单 动作</value>
-  <value column="PrintName" original="Auto expand menu">AD_菜单 动作</value>
+  <value column="Name" original="Auto expand menu">菜单展开</value>
+  <value column="PrintName" original="Auto expand menu">如果勾选，则菜单会自动展开</value>
   <value column="Description" original="If ticked, the menu is automatically expanded">如果勾选，则菜单会自动展开</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38479,8 +38809,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200055" trl="Y">
-  <value column="Name" original="AD_RecentItem_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_RecentItem_UU">AD_属性值</value>
+  <value column="Name" original="AD_RecentItem_UU">AD_RecentItem_UU</value>
+  <value column="PrintName" original="AD_RecentItem_UU">AD_RecentItem_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38489,8 +38819,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200056" trl="Y">
-  <value column="Name" original="AD_ToolBarButton_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_ToolBarButton_UU">AD_属性值</value>
+  <value column="Name" original="AD_ToolBarButton_UU">AD_ToolBarButton_UU</value>
+  <value column="PrintName" original="AD_ToolBarButton_UU">AD_ToolBarButton_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38499,8 +38829,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200057" trl="Y">
-  <value column="Name" original="AD_ToolBarButtonRestrict_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_ToolBarButtonRestrict_UU">AD_属性值</value>
+  <value column="Name" original="AD_ToolBarButtonRestrict_UU">AD_ToolBarButtonRestrict_UU</value>
+  <value column="PrintName" original="AD_ToolBarButtonRestrict_UU">AD_ToolBarButtonRestrict_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38639,8 +38969,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200071" trl="Y">
-  <value column="Name" original="AD_PasswordRule_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_PasswordRule_UU">AD_属性值</value>
+  <value column="Name" original="AD_PasswordRule_UU">AD_PasswordRule_UU</value>
+  <value column="PrintName" original="AD_PasswordRule_UU">AD_PasswordRule_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38799,8 +39129,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200093" trl="Y">
-  <value column="Name" original="AD_WizardProcess_UU">AD_属性值</value>
-  <value column="PrintName" original="AD_WizardProcess_UU">AD_属性值</value>
+  <value column="Name" original="AD_WizardProcess_UU">AD_WizardProcess_UU</value>
+  <value column="PrintName" original="AD_WizardProcess_UU">AD_WizardProcess_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -38809,8 +39139,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200094" trl="Y">
-  <value column="Name" original="Wizard Status">ASP 状态</value>
-  <value column="PrintName" original="Wizard Status">ASP 状态</value>
+  <value column="Name" original="Wizard Status">向导状态</value>
+  <value column="PrintName" original="Wizard Status">向导状态</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39259,8 +39589,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200176" trl="Y">
-  <value column="Name" original="IsFixedAsset">是固定资产</value>
-  <value column="PrintName" original="Fixed Asset ?">是固定资产？</value>
+  <value column="Name" original="IsFixedAsset">固定资产</value>
+  <value column="PrintName" original="Fixed Asset ?">是否为固定资产</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39309,8 +39639,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200181" trl="Y">
-  <value column="Name" original="Void Message">AD_消息</value>
-  <value column="PrintName" original="Void Message">AD_消息</value>
+  <value column="Name" original="Void Message">R_VoidMsg</value>
+  <value column="PrintName" original="Void Message">R_VoidMsg</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39769,8 +40099,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200238" trl="Y">
-  <value column="Name" original="Storage Provider">存储提供者</value>
-  <value column="PrintName" original="Storage Provider">存储提供者</value>
+  <value column="Name" original="Storage Provider">存储服务商</value>
+  <value column="PrintName" original="Storage Provider">存储服务商</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -39889,9 +40219,9 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200250" trl="Y">
-  <value column="Name" original="Expire Now">现在处理</value>
-  <value column="PrintName" original="Expire Now">现在处理</value>
-  <value column="Description" original="Expire the broadcast message">现在处理广播消息</value>
+  <value column="Name" original="Expire Now">设置消息过期</value>
+  <value column="PrintName" original="Expire Now">设置消息过期</value>
+  <value column="Description" original="Expire the broadcast message">设置广播消息过期。</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -40499,8 +40829,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200313" trl="Y">
-  <value column="Name" original="Master Tracking No"><![CDATA[单据编号(&D)]]></value>
-  <value column="PrintName" original="Master Tracking No"><![CDATA[单据编号(&D)]]></value>
+  <value column="Name" original="Master Tracking No">单据编号</value>
+  <value column="PrintName" original="Master Tracking No">单据编号</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -40609,8 +40939,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200324" trl="Y">
-  <value column="Name" original="Notification Message">AD_消息</value>
-  <value column="PrintName" original="Notification Message">AD_消息</value>
+  <value column="Name" original="Notification Message">提醒</value>
+  <value column="PrintName" original="Notification Message">提醒消息</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53119,10 +53449,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202184" trl="N">
-  <value column="Name" original="Date  Material Policy">物料政策适用日期</value>
-  <value column="PrintName" original="Date  Material Policy">物料政策适用日期</value>
+  <value column="Name" original="Date  Material Policy">物料策略适用日期</value>
+  <value column="PrintName" original="Date  Material Policy">物料策略适用日期</value>
   <value column="Description" original="Time used for LIFO and FIFO Material Policy">先进先出和后进后出物料政策的适用日期</value>
-  <value column="Help" original="This field is used to record time used for LIFO and FIFO material policy">此字段用于记录先进先出和后进后出物料政策的适用日期</value>
+  <value column="Help" original="This field is used to record time used for LIFO and FIFO material policy">此字段用于记录先进先出和后进后出物料策略的适用日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -53589,8 +53919,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202246" trl="N">
-  <value column="Name" original="1099 Box">1099箱</value>
-  <value column="PrintName" original="1099 Box">1099箱</value>
+  <value column="Name" original="1099 Box">1099报税</value>
+  <value column="PrintName" original="1099 Box">1099报税</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53609,8 +53939,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202248" trl="N">
-  <value column="Name" original="Bucket">桶</value>
-  <value column="PrintName" original="Bucket">桶</value>
+  <value column="Name" original="Bucket">项目</value>
+  <value column="PrintName" original="Bucket">项目</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -53639,8 +53969,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202251" trl="N">
-  <value column="Name" original="1099 Box Value">1099箱值</value>
-  <value column="PrintName" original="1099 Box Value">1099箱值</value>
+  <value column="Name" original="1099 Box Value">1099报税</value>
+  <value column="PrintName" original="1099 Box Value">1099报税</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54469,8 +54799,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202579" trl="N">
-  <value column="Name" original="Tax Provider Configuration">税提供者的配置</value>
-  <value column="PrintName" original="Tax Provider Configuration">税提供者的配置</value>
+  <value column="Name" original="Tax Provider Configuration">电子税务配置</value>
+  <value column="PrintName" original="Tax Provider Configuration">电子税务配置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54489,8 +54819,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202581" trl="N">
-  <value column="Name" original="Tax Provider Class">税提供者类</value>
-  <value column="PrintName" original="Tax Provider Class">税提供者类</value>
+  <value column="Name" original="Tax Provider Class">电子税务接口类</value>
+  <value column="PrintName" original="Tax Provider Class">电子税务接口类</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54499,8 +54829,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202582" trl="N">
-  <value column="Name" original="Tax Provider">税提供者</value>
-  <value column="PrintName" original="Tax Provider">税提供者</value>
+  <value column="Name" original="Tax Provider">电子税务接口</value>
+  <value column="PrintName" original="Tax Provider">电子税务接口</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -54609,8 +54939,8 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202593" trl="N">
-  <value column="Name" original="Address Transaction">Address Transaction</value>
-  <value column="PrintName" original="Address Transaction">Address Transaction</value>
+  <value column="Name" original="Address Transaction">地址事务ID</value>
+  <value column="PrintName" original="Address Transaction">地址事务ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55215,8 +55545,8 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202694" trl="N">
-  <value column="Name" original="Run as Job">作为后台批处理执行</value>
-  <value column="PrintName" original="Run as Job">作为后台批处理执行</value>
+  <value column="Name" original="Run as Job">后台执行</value>
+  <value column="PrintName" original="Run as Job">后台执行</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -55638,9 +55968,9 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202883" trl="N">
-  <value column="Name" original="Automatic Decimal Places For Amounts">金额/价格栏位自动添加小数点位的指定</value>
-  <value column="PrintName" original="Automatic Decimal Places For Amounts">金额/价格栏位自动添加小数点位的指定</value>
-  <value column="Description" original="Automatically insert a decimal point"/>
+  <value column="Name" original="Automatic Decimal Places For Amounts">小数点后位数</value>
+  <value column="PrintName" original="Automatic Decimal Places For Amounts">小数点后位数</value>
+  <value column="Description" original="Automatically insert a decimal point">对乘法或者除法运算的数不起效果，如果设置为0，将保持输入的小数点后位数。</value>
   <value column="Help" original="i.e. &quot;Entering 2 only results in a value of 0.02 for the entry. If you use the &quot;.&quot; key during entry of a value, the decimal point is included at the place you specify. This mode has no effect on multiplication and division operations. If 0 is entered it will work as usual.&quot;"/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -55730,6 +56060,1106 @@ column define in ParentRelatedColumn will replace key column</value>
  <row id="202975" trl="N">
   <value column="Name" original="Copy Components From View">Copy Components From View</value>
   <value column="PrintName" original="Copy Components From View">Copy Components From View</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203005" trl="N">
+  <value column="Name" original="Style">Style</value>
+  <value column="PrintName" original="Style">Style</value>
+  <value column="Description" original="CSS style for field and label">CSS style for field and label</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203006" trl="N">
+  <value column="Name" original="Style">Style</value>
+  <value column="PrintName" original="Style">Style</value>
+  <value column="Description" original="CSS Style for field and label">CSS Style for field and label</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203007" trl="N">
+  <value column="Name" original="Style Line">Style Line</value>
+  <value column="PrintName" original="Style Line">Style Line</value>
+  <value column="Description" original="CSS Style Line">CSS Style Line</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203008" trl="N">
+  <value column="Name" original="Style Line">Style Line</value>
+  <value column="PrintName" original="Style Line">Style Line</value>
+  <value column="Description" original="CSS Style Line">CSS Style Line</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203009" trl="N">
+  <value column="Name" original="Inline Style">Inline Style</value>
+  <value column="PrintName" original="Inline Style">Inline Style</value>
+  <value column="Description" original="CSS Inline Style">CSS Inline Style</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203010" trl="N">
+  <value column="Name" original="Theme">Theme</value>
+  <value column="PrintName" original="Theme">Theme</value>
+  <value column="Description" original="Theme name">Theme name</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203011" trl="N">
+  <value column="Name" original="Label Style">Label Style</value>
+  <value column="PrintName" original="Label Style">Label Style</value>
+  <value column="Description" original="Label CSS Style">Label CSS Style</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203012" trl="N">
+  <value column="Name" original="Field Style">Field Style</value>
+  <value column="PrintName" original="Field Style">Field Style</value>
+  <value column="Description" original="Field CSS Style ">Field CSS Style </value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d2395ce0-d0dd-4be4-a212-b8a33e137a21">
+  <value column="Name" original="Inbound &amp; Outbound Rule"><![CDATA[Inbound & Outbound Rule]]></value>
+  <value column="PrintName" original="Inbound &amp; Outbound Rule"><![CDATA[Inbound & Outbound Rule]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="224faa5d-5f33-4cb9-9bd3-243aa324a91b">
+  <value column="Name" original="Inbound &amp; Outbound Type"><![CDATA[Inbound & Outbound Type]]></value>
+  <value column="PrintName" original="Inbound &amp; Outbound Type"><![CDATA[Inbound & Outbound Type]]></value>
+  <value column="Description" original="Inbound &amp; Outbound Type"><![CDATA[Inbound & Outbound Type]]></value>
+  <value column="Help" original="The Inbound &amp; Outbound Type defines the type of In &amp; Out Operation to be Putaway or Picking."><![CDATA[The Inbound & Outbound Type defines the type of In & Out Operation to be Putaway or Picking.]]></value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="3895169e-e671-4b74-9b88-58e7e134a0ac">
+  <value column="Name" original="Inbound &amp; Outbound Rule"><![CDATA[Inbound & Outbound Rule]]></value>
+  <value column="PrintName" original="Inbound &amp; Outbound Rule"><![CDATA[Inbound & Outbound Rule]]></value>
+  <value column="Description" original="Inbound &amp; Outbound Rule determinated the putaway or pick location for goods stocked in the warehouse"><![CDATA[Inbound & Outbound Rule determinated the putaway or pick location for goods stocked in the warehouse]]></value>
+  <value column="Help" original="Inbound &amp; Outbound Rule are used to define which locators should be considered for putaway or picking."><![CDATA[Inbound & Outbound Rule are used to define which locators should be considered for putaway or picking.]]></value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ea3120c5-d4e0-49c1-b3d1-ed66af0248fe">
+  <value column="Name" original="Inbound &amp; Outbound Class"><![CDATA[Inbound & Outbound Class]]></value>
+  <value column="PrintName" original="Ă‚Â© Class">Ă‚Â© Class</value>
+  <value column="Description" original="Custom class to implemeted new Inbound &amp; Outbound Rule logic"><![CDATA[Custom class to implemeted new Inbound & Outbound Rule logic]]></value>
+  <value column="Help" original="If you select a custom Inbound &amp; Outbound type, you need to create a class implementing org.eevolution.util.IInOutboundRule and set that on Inbound &amp; Outbound Rule."><![CDATA[If you select a custom Inbound & Outbound type, you need to create a class implementing org.eevolution.util.IInOutboundRule and set that on Inbound & Outbound Rule.]]></value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f4cd86da-93d2-443b-928f-b98a04d22faa">
+  <value column="Name" original="WM_Rule_UU">WM_Rule_UU</value>
+  <value column="PrintName" original="WM_Rule_UU">WM_Rule_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="bf234046-7900-400d-b424-2c821bec87fe">
+  <value column="Name" original="Inboud &amp; Outbound Definition"><![CDATA[Inboud & Outbound Definition]]></value>
+  <value column="PrintName" original="Inboud &amp; Outbound Definition"><![CDATA[Inboud & Outbound Definition]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="4873029c-b8c9-4b3d-bbae-4b86ff9f6025">
+  <value column="Name" original="Warehouse Managamet Strategy">Warehouse Managamet Strategy</value>
+  <value column="PrintName" original="Warehouse Managamet Strategy">Warehouse Managamet Strategy</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="c7017f98-dfa8-49e5-9827-b934328ab16c">
+  <value column="Name" original="Warehouse Area Type">Warehouse Area Type</value>
+  <value column="PrintName" original="Warehouse Area Type">Warehouse Area Type</value>
+  <value column="Description" original="The Warehouse Area Type Tab defines different Warehouse Area used for different purpose in a Warehouse.">The Warehouse Area Type Tab defines different Warehouse Area used for different purpose in a Warehouse.</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="c7631de1-fbaa-4f12-88b3-ef85ee56b75e">
+  <value column="Name" original="Warehouse Section Type">Warehouse Section Type</value>
+  <value column="PrintName" original="Warehouse Section Type">Warehouse Section Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ed32f559-8bbc-42e3-b850-fae03536e872">
+  <value column="Name" original="Planned Qty To Lot Qty">Planned Qty To Lot Qty</value>
+  <value column="PrintName" original="Set Planned Qty to Lot Qty">Set Planned Qty to Lot Qty</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="54459fc6-a1b3-4357-b0c0-19ecb4fb8985">
+  <value column="Name" original="WM_Definition_UU">WM_Definition_UU</value>
+  <value column="PrintName" original="WM_Definition_UU">WM_Definition_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="633197e4-79e1-4cb3-aad5-8cad7e0877b5">
+  <value column="Name" original="Capacity Validation">Capacity Validation</value>
+  <value column="PrintName" original="Capacity Validation">Capacity Validation</value>
+  <value column="Description" original="Identifies how are capacities of locations determined">Identifies how are capacities of locations determined</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="446d320d-73fb-460e-8fb1-8056b40fdc01">
+  <value column="Name" original="Warehouse Area">Warehouse Area</value>
+  <value column="PrintName" original="Warehouse Area">Warehouse Area</value>
+  <value column="Description" original="Define Warehouse Area">Define Warehouse Area</value>
+  <value column="Help" original="A Warehouse Area represents a physical area within the warehouse space, therefore it is required to have at least one to implement the Warehouse Management System.">A Warehouse Area represents a physical area within the warehouse space, therefore it is required to have at least one to implement the Warehouse Management System.</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7a3ef298-182b-471a-89cf-bc7f3c1c9e4e">
+  <value column="Name" original="Warehouse Section">Warehouse Section</value>
+  <value column="PrintName" original="Warehouse Section">Warehouse Section</value>
+  <value column="Description" original="The Warehouse Section is an grouping of Locators with similar features.">The Warehouse Section is an grouping of Locators with similar features.</value>
+  <value column="Help" original="The criteria for grouping the locators can be for Moving Type (Fast, Slow ), heavy part, bulky Material ">The criteria for grouping the locators can be for Moving Type (Fast, Slow ), heavy part, bulky Material </value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="2984ef26-7b0c-49b9-870f-6b76d5129702">
+  <value column="Name" original="Replenish">Replenish</value>
+  <value column="PrintName" original="Replenish">Replenish</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f0f9beff-94df-4a4e-8bad-4b24b488c9c0">
+  <value column="Name" original="Pick Ordered Quantity">Pick Ordered Quantity</value>
+  <value column="PrintName" original="Pick Ordered Quantity">Pick Ordered Quantity</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Only Ordered quantity will be picked and moved to transit warehouse.">Only Ordered quantity will be picked and moved to transit warehouse.</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="66e3a20e-004e-4a1e-a7a5-989bbfa9b59b">
+  <value column="Name" original="Inboud &amp; Outbound Definition Schema"><![CDATA[Inboud & Outbound Definition Schema]]></value>
+  <value column="PrintName" original="Inboud &amp; Outbound Definition Schema"><![CDATA[Inboud & Outbound Definition Schema]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="62d866cb-8189-4f4d-a4c9-2e3d4ae39f94">
+  <value column="Name" original="WM_DefinitionSchema_UU">WM_DefinitionSchema_UU</value>
+  <value column="PrintName" original="WM_DefinitionSchema_UU">WM_DefinitionSchema_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="98aca53e-b9ed-4846-932f-9bc6a2c5b6f7">
+  <value column="Name" original="Area Name">Area Name</value>
+  <value column="PrintName" original="Area Name">Area Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="edb8595f-3ecc-42f5-b168-2e53a7a38184">
+  <value column="Name" original="Area Description">Area Description</value>
+  <value column="PrintName" original="Area Description">Area Description</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="16f779e1-b848-4357-bd1a-c56dfb81d1fd">
+  <value column="Name" original="Section Name">Section Name</value>
+  <value column="PrintName" original="Section Name">Section Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="49517184-5347-4bf4-8294-3418c3cc6340">
+  <value column="Name" original="Section Description">Section Description</value>
+  <value column="PrintName" original="Section Description">Section Description</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="9e0b2780-bac7-4903-a64c-b2242c4746ea">
+  <value column="Name" original="Section Active">Section Active</value>
+  <value column="PrintName" original="Section Active">Section Active</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="6d56c728-2a98-464f-b95b-06335fad4493">
+  <value column="Name" original="Sectiondetail Active">Sectiondetail Active</value>
+  <value column="PrintName" original="Sectiondetail Active">Sectiondetail Active</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="3cfa2d1b-5aeb-4a49-8539-da80d76f642c">
+  <value column="Name" original="Area Active">Area Active</value>
+  <value column="PrintName" original="Area Active">Area Active</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="dcb41947-0fd1-4d4c-9b12-6625224b4949">
+  <value column="Name" original="WM_Area_Type_UU">WM_Area_Type_UU</value>
+  <value column="PrintName" original="WM_Area_Type_UU">WM_Area_Type_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="3a0e630b-5480-451e-9b04-cae79e1b43e9">
+  <value column="Name" original="WM_Section_Type_UU">WM_Section_Type_UU</value>
+  <value column="PrintName" original="WM_Section_Type_UU">WM_Section_Type_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d1f636c0-1e58-4f6c-8665-93eb8fccb515">
+  <value column="Name" original="Pack Type ID">Pack Type ID</value>
+  <value column="PrintName" original="Pack Type ID">Pack Type ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="9c7901a2-9c26-4d06-8172-dbe1d17efffb">
+  <value column="Name" original="Warehouse Section Detail">Warehouse Section Detail</value>
+  <value column="PrintName" original="Warehouse Section Detail">Warehouse Section Detail</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="fe750859-3218-4bfb-b088-8966d978344c">
+  <value column="Name" original="WM_Section_Detail_UU">WM_Section_Detail_UU</value>
+  <value column="PrintName" original="WM_Section_Detail_UU">WM_Section_Detail_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="1cc04261-70b0-4335-9cff-32bfc2a610af">
+  <value column="Name" original="WM_Area_UU">WM_Area_UU</value>
+  <value column="PrintName" original="WM_Area_UU">WM_Area_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="23ba3682-1393-46b9-b862-806135a36268">
+  <value column="Name" original="WM_Section_UU">WM_Section_UU</value>
+  <value column="PrintName" original="WM_Section_UU">WM_Section_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="4884538e-0e6f-47ab-9ba1-080f02f81acb">
+  <value column="Name" original="WM_Strategy_UU">WM_Strategy_UU</value>
+  <value column="PrintName" original="WM_Strategy_UU">WM_Strategy_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="77c81c2c-8ef1-44e8-b9b9-aacd7b842693">
+  <value column="Name" original="Inbound &amp; Outbound Strategy Detail ID"><![CDATA[Inbound & Outbound Strategy Detail ID]]></value>
+  <value column="PrintName" original="Inbound &amp; Outbound Strategy Detail ID"><![CDATA[Inbound & Outbound Strategy Detail ID]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="466f0acb-a2af-45ca-afb5-ce1c96b923f4">
+  <value column="Name" original="WM_Strategy_Detail_UU">WM_Strategy_Detail_UU</value>
+  <value column="PrintName" original="WM_Strategy_Detail_UU">WM_Strategy_Detail_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="b4ee222c-c38a-450a-95b9-2d7279372863">
+  <value column="Name" original="Load">Load</value>
+  <value column="PrintName" original="Load">Load</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="2b1406a7-2509-49ad-b6ff-e82434b35f9c">
+  <value column="Name" original="Packaging Instructions">Packaging Instructions</value>
+  <value column="PrintName" original="Packaging Instructions">Packaging Instructions</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="04b55f3c-f239-4355-ab64-dc95272cd53e">
+  <value column="Name" original="Gross Width">Gross Width</value>
+  <value column="PrintName" original="Gross Width">Gross Width</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="11945071-0c1a-4d93-87f4-a586de1f1a86">
+  <value column="Name" original="Reusable">Reusable</value>
+  <value column="PrintName" original="Reusable">Reusable</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="efc7f1c7-df8d-408e-9def-7ea4d8f4e009">
+  <value column="Name" original="M_PackType_UU">M_PackType_UU</value>
+  <value column="PrintName" original="M_PackType_UU">M_PackType_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="25f5f497-8054-473a-a33f-a45e2314936d">
+  <value column="Name" original="Vendor Pack Reference">Vendor Pack Reference</value>
+  <value column="PrintName" original="Vendor Pack Reference">Vendor Pack Reference</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="66d43777-9c49-4f5c-a1dc-d1b12c9b40fe">
+  <value column="Name" original="Pack Job ID">Pack Job ID</value>
+  <value column="PrintName" original="Pack Job ID">Pack Job ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="24a144e9-bfb6-4d98-86fd-26121a8f1985">
+  <value column="Name" original="Pack Instance ID">Pack Instance ID</value>
+  <value column="PrintName" original="Pack Instance ID">Pack Instance ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="b88cf1ec-a3cc-4b95-9b68-05f04858c135">
+  <value column="Name" original="M_PackJob_UU">M_PackJob_UU</value>
+  <value column="PrintName" original="M_PackJob_UU">M_PackJob_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7cdfc478-5333-4749-9944-0a9345f1bd3b">
+  <value column="Name" original="Pack Job Line ID">Pack Job Line ID</value>
+  <value column="PrintName" original="Pack Job Line ID">Pack Job Line ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ad47fde9-543a-4395-90f7-d9dff4896edc">
+  <value column="Name" original="Handling Unit">Handling Unit</value>
+  <value column="PrintName" original="Handling Unit">Handling Unit</value>
+  <value column="Description" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. ">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. </value>
+  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f5597606-c880-4415-92fd-d9d48c963606">
+  <value column="Name" original="M_PackJobLine_UU">M_PackJobLine_UU</value>
+  <value column="PrintName" original="M_PackJobLine_UU">M_PackJobLine_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="a83bdd68-9e4c-4bae-b844-a72021af67b1">
+  <value column="Name" original="Allowed Products ID">Allowed Products ID</value>
+  <value column="PrintName" original="Allowed Products ID">Allowed Products ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="35214061-c969-4861-98ab-a2da7ee2a39d">
+  <value column="Name" original="Is Allowed">Is Allowed</value>
+  <value column="PrintName" original="Is Allowed">Is Allowed</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="b15daa47-42f2-44e5-ad85-14b3ec532a6d">
+  <value column="Name" original="Quantity Max">Quantity Max</value>
+  <value column="PrintName" original="Quantity Max">Quantity Max</value>
+  <value column="Description" original="Maximum Quantity">Maximum Quantity</value>
+  <value column="Help" original="Maximum Quantity of Specified product to Storage">Maximum Quantity of Specified product to Storage</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="729abcbf-4df6-4878-b122-ed589525ef8c">
+  <value column="Name" original="M_AllowedProducts_UU">M_AllowedProducts_UU</value>
+  <value column="PrintName" original="M_AllowedProducts_UU">M_AllowedProducts_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="88d0c621-4751-4906-8296-7e76d0bd183c">
+  <value column="Name" original="M_PackInstance_UU">M_PackInstance_UU</value>
+  <value column="PrintName" original="M_PackInstance_UU">M_PackInstance_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="8251802e-84a0-4cca-9efe-26de42ca6170">
+  <value column="Name" original="Handling Unit Line ID">Handling Unit Line ID</value>
+  <value column="PrintName" original="Handling Unit Line ID">Handling Unit Line ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f3d38a57-644c-4ec0-821e-aca7b979834f">
+  <value column="Name" original="M_HandlingUnitLine_UU">M_HandlingUnitLine_UU</value>
+  <value column="PrintName" original="M_HandlingUnitLine_UU">M_HandlingUnitLine_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="328d4225-a1d7-446f-8d0f-566bade3bcbc">
+  <value column="Name" original="Recalculate Usage">Recalculate Usage</value>
+  <value column="PrintName" original="Recalculate Usage">Recalculate Usage</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7bde11f6-ad25-4341-86e2-fa343130812c">
+  <value column="Name" original="External Reference">External Reference</value>
+  <value column="PrintName" original="External Reference">External Reference</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="50c96516-2920-4dc3-8c9b-97ec8f5a909d">
+  <value column="Name" original="Deactivate Handling Unit">Deactivate Handling Unit</value>
+  <value column="PrintName" original="Deactivate HU">Deactivate HU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="19abd651-14f4-488d-9d40-fb173fa95808">
+  <value column="Name" original="M_HandlingUnit_UU">M_HandlingUnit_UU</value>
+  <value column="PrintName" original="M_HandlingUnit_UU">M_HandlingUnit_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d0129baa-53b1-4945-9bd9-910613cda35c">
+  <value column="Name" original="In &amp; Out Bound Order"><![CDATA[In & Out Bound Order]]></value>
+  <value column="PrintName" original="In &amp; Out Bound Order"><![CDATA[In & Out Bound Order]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="2dbeffad-cadb-4b8c-8a42-612b5034ae52">
+  <value column="Name" original="WM_InOutBound_UU">WM_InOutBound_UU</value>
+  <value column="PrintName" original="WM_InOutBound_UU">WM_InOutBound_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="588ceeb5-049d-4cb1-9d41-43bcef8c37a3">
+  <value column="Name" original="Internal Note">Internal Note</value>
+  <value column="PrintName" original="Internal Note">Internal Note</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="8e3dd79e-534d-47a0-9e48-52bb5a86a2ed">
+  <value column="Name" original="Warehouse Note">Warehouse Note</value>
+  <value column="PrintName" original="Warehouse Note">Warehouse Note</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="b8fd73c5-04b5-44b3-b825-7b419d738e5c">
+  <value column="Name" original="Shipping Note">Shipping Note</value>
+  <value column="PrintName" original="Shipping Note">Shipping Note</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="dd6291b3-22f9-4069-a9fa-a4eeeb219e00">
+  <value column="Name" original="Picking Note">Picking Note</value>
+  <value column="PrintName" original="Picking Note">Picking Note</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="1ab64c71-fced-46d5-b8b8-51cc7634391e">
+  <value column="Name" original="Inbound &amp; Outbound Order Line"><![CDATA[Inbound & Outbound Order Line]]></value>
+  <value column="PrintName" original="Inbound &amp; Outbound Order Line"><![CDATA[Inbound & Outbound Order Line]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="3aef7821-4382-4996-ac0d-a06efe904eca">
+  <value column="Name" original="WM_InOutBoundLine_UU">WM_InOutBoundLine_UU</value>
+  <value column="PrintName" original="WM_InOutBoundLine_UU">WM_InOutBoundLine_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="07898cee-7d57-4faf-b44c-598270507ea9">
+  <value column="Name" original="Scan Batch">Scan Batch</value>
+  <value column="PrintName" original="Scan Batch">Scan Batch</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d26037e2-fecb-4908-b237-65b8118fb2e4">
+  <value column="Name" original="M_ScanBatchLine_UU">M_ScanBatchLine_UU</value>
+  <value column="PrintName" original="M_ScanBatchLine_UU">M_ScanBatchLine_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="05d320d3-783e-4185-b98c-e3e56b79c838">
+  <value column="Name" original="M_ScanBatch_UU">M_ScanBatch_UU</value>
+  <value column="PrintName" original="M_ScanBatch_UU">M_ScanBatch_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="82d3c73a-8192-46fb-8549-e72fd4830955">
+  <value column="Name" original="Scan Batch Line">Scan Batch Line</value>
+  <value column="PrintName" original="Scan Batch Line">Scan Batch Line</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="cfe5b43f-7d35-4d2e-b523-09d9bdb2f522">
+  <value column="Name" original="HandlingUnit">HandlingUnit</value>
+  <value column="PrintName" original="HandlingUnit">HandlingUnit</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="e947ce85-d45a-4e93-a7ee-602998743530">
+  <value column="Name" original="Pack Instance">Pack Instance</value>
+  <value column="PrintName" original="Pack Instance">Pack Instance</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7646b0f0-b97a-4063-9087-219a7fd59f9a">
+  <value column="Name" original="Handling Unit To">Handling Unit To</value>
+  <value column="PrintName" original="Handling Unit To">Handling Unit To</value>
+  <value column="Description" original="New create Handling Unit">New create Handling Unit</value>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="4b35b755-c28b-40d3-a487-177d19ce9eb2">
+  <value column="Name" original="Routing Rule">Routing Rule</value>
+  <value column="PrintName" original="Routing Rule">Routing Rule</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="6bb5ff9d-1053-4184-93f7-ff451fc8c1f0">
+  <value column="Name" original="In/OutBound Detail">In/OutBound Detail</value>
+  <value column="PrintName" original="In/OutBound Detail">In/OutBound Detail</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="7e349140-ab1c-40c0-b156-3157608b71e4">
+  <value column="Name" original="DropShip Order Reference">DropShip Order Reference</value>
+  <value column="PrintName" original="DropShip Order Reference">DropShip Order Reference</value>
+  <value column="Description" original="Transaction Reference Number (Sales Order, Purchase Order) of your Business Partner">Transaction Reference Number (Sales Order, Purchase Order) of your Business Partner</value>
+  <value column="Help" original="The business partner order reference is the order reference for this specific transaction; Often Purchase Order numbers are given to print on Invoices for easier reference.  A standard number can be defined in the Business Partner (Customer) window.">The business partner order reference is the order reference for this specific transaction; Often Purchase Order numbers are given to print on Invoices for easier reference.  A standard number can be defined in the Business Partner (Customer) window.</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="0a6652ac-af69-4386-915c-81d35e90bb6f">
+  <value column="Name" original="order_docstatus">order_docstatus</value>
+  <value column="PrintName" original="order_docstatus">order_docstatus</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="aa24fffb-ade2-401e-906f-3daa4f95ed04">
+  <value column="Name" original="Delivery Status">Delivery Status</value>
+  <value column="PrintName" original="Delivery Status">Delivery Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="04592812-2dd8-457a-95bf-707771dcdc1b">
+  <value column="Name" original="Empty Weight">Empty Weight</value>
+  <value column="PrintName" original="Empty Weight">Empty Weight</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="9df45d18-08d4-4a31-86f8-783d2af1942f">
+  <value column="Name" original="Used Weight">Used Weight</value>
+  <value column="PrintName" original="Used Weight">Used Weight</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="e5bafeb4-4c3b-4b19-8d07-fe25a999a1b9">
+  <value column="Name" original="Used Volume">Used Volume</value>
+  <value column="PrintName" original="Used Volume">Used Volume</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="cc918d82-2b17-40f6-adc0-12a320841de2">
+  <value column="Name" original="Empty Volume">Empty Volume</value>
+  <value column="PrintName" original="Empty Volume">Empty Volume</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d55a386d-2256-414c-90cb-c8d00de4ed63">
+  <value column="Name" original="Used Width">Used Width</value>
+  <value column="PrintName" original="Used Width">Used Width</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ee681679-06b4-44f2-9617-5a8d21ef581b">
+  <value column="Name" original="Empty Width">Empty Width</value>
+  <value column="PrintName" original="Empty Width">Empty Width</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="e4a5a6e3-7fd9-4361-9364-00bd5b85ec73">
+  <value column="Name" original="Empty Positions">Empty Positions</value>
+  <value column="PrintName" original="Empty Positions">Empty Positions</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f2f480c8-8604-482c-9534-9037ed15953b">
+  <value column="Name" original="T_EmptyLocators_UU">T_EmptyLocators_UU</value>
+  <value column="PrintName" original="T_EmptyLocators_UU">T_EmptyLocators_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ef089433-639e-41b2-bd9c-7e458cfe0918">
+  <value column="Name" original="MP_Meter_UU">MP_Meter_UU</value>
+  <value column="PrintName" original="MP_Meter_UU">MP_Meter_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="bc2aaf69-e052-4f95-8644-995b5db8d32c">
+  <value column="Name" original="MP_AssetMeter_UU">MP_AssetMeter_UU</value>
+  <value column="PrintName" original="MP_AssetMeter_UU">MP_AssetMeter_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="006ec76e-6d21-4bfc-a320-23e1235aad26">
+  <value column="Name" original="MP_JobStandar_UU">MP_JobStandar_UU</value>
+  <value column="PrintName" original="MP_JobStandar_UU">MP_JobStandar_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="ad564143-af9c-4101-84dd-b4808dfa681b">
+  <value column="Name" original="MP_JobStandar_Task_UU">MP_JobStandar_Task_UU</value>
+  <value column="PrintName" original="MP_JobStandar_Task_UU">MP_JobStandar_Task_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="b587e972-c8ec-4710-9b2b-d3494c04b972">
+  <value column="Name" original="MP_Maintain_UU">MP_Maintain_UU</value>
+  <value column="PrintName" original="MP_Maintain_UU">MP_Maintain_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="72d1ae2e-9af0-44d9-b0cb-30b358dda88f">
+  <value column="Name" original="MP_Maintain_Task_UU">MP_Maintain_Task_UU</value>
+  <value column="PrintName" original="MP_Maintain_Task_UU">MP_Maintain_Task_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="20435702-8598-4aa9-ad14-03da35fe604f">
+  <value column="Name" original="MP_OT_Request_UU">MP_OT_Request_UU</value>
+  <value column="PrintName" original="MP_OT_Request_UU">MP_OT_Request_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f52e9841-ddb2-427c-b0c6-4e12f7c9ca69">
+  <value column="Name" original="MP_OT_UU">MP_OT_UU</value>
+  <value column="PrintName" original="MP_OT_UU">MP_OT_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="2ffbdc5f-7eaa-488c-a83e-1334123b0838">
+  <value column="Name" original="MP_OT_Task_UU">MP_OT_Task_UU</value>
+  <value column="PrintName" original="MP_OT_Task_UU">MP_OT_Task_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="a7b6dc98-5b59-4f68-b56d-b9b2d7963613">
+  <value column="Name" original="MP_OT_Resource_UU">MP_OT_Resource_UU</value>
+  <value column="PrintName" original="MP_OT_Resource_UU">MP_OT_Resource_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="e6c0e980-9708-42fd-9bb9-b39b1fbd9db3">
+  <value column="Name" original="Prognosis (Forecast)">Prognosis (Forecast)</value>
+  <value column="PrintName" original="Prognosis (Forecast)">Prognosis (Forecast)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="9c53b067-1713-4943-957e-094d01f5a74e">
+  <value column="Name" original="ciclo">ciclo</value>
+  <value column="PrintName" original="ciclo">ciclo</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="f0a82fcf-896e-4673-81fa-195f86da51cd">
+  <value column="Name" original="selected">selected</value>
+  <value column="PrintName" original="selected">selected</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d0cbd92f-d2b3-4efa-a0a9-b09a55d71ea8">
+  <value column="Name" original="MP_JobStandar_Resource_UU">MP_JobStandar_Resource_UU</value>
+  <value column="PrintName" original="MP_JobStandar_Resource_UU">MP_JobStandar_Resource_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="af7c8836-04a0-41da-ad65-c7e354f63d8d">
+  <value column="Name" original="MP_Maintain_Resource_UU">MP_Maintain_Resource_UU</value>
+  <value column="PrintName" original="MP_Maintain_Resource_UU">MP_Maintain_Resource_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="9dac95ec-ed03-46db-ae32-5e34ed1bbc94">
+  <value column="Name" original="MP_AssetMeter_Log_UU">MP_AssetMeter_Log_UU</value>
+  <value column="PrintName" original="MP_AssetMeter_Log_UU">MP_AssetMeter_Log_UU</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

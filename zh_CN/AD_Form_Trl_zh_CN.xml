@@ -202,8 +202,18 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
 
 选择“用于该产品”复选框之后，将显示该产品用到的物料清单</value>
  </row>
+ <row id="53021" trl="N">
+  <value column="Name" original="VMPGenerateOT">VMPGenerateOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53023" trl="N">
+  <value column="Name" original="VMPRequestOT">VMPRequestOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200000" trl="Y">
-  <value column="Name" original="Setup Wizard">会计设置</value>
+  <value column="Name" original="Setup Wizard">实体设置向导</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -231,5 +241,20 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
   <value column="Name" original="Captured Process Parameter">捕获处理参数</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="69183964-d95d-4f61-a4d7-44cbd3425c4a">
+  <value column="Name" original="Packing Process">Packing Process</value>
+  <value column="Description" original="Pack Handling Unites from Purchase Orders">Pack Handling Unites from Purchase Orders</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b17782dc-d2a0-400d-bcce-280712c22782">
+  <value column="Name" original="Repacking Process">Repacking Process</value>
+  <value column="Description" original="Repack Handling Unites and generate Inventory Move">Repack Handling Unites and generate Inventory Move</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4a7edac6-cd1a-4e76-a564-ef574b1fc503">
+  <value column="Name" original="Generate Shipments from HU">Generate Shipments from HU</value>
+  <value column="Description" original="Generate Shipments from Handling Unites">Generate Shipments from Handling Unites</value>
+  <value column="Help" original="Users are able to create Shipments from specified Warehouse (e.g. Standing) based on pre-crested Handling Units.">Users are able to create Shipments from specified Warehouse (e.g. Standing) based on pre-crested Handling Units.</value>
  </row>
 </idempiereTrl>

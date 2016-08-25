@@ -72,7 +72,7 @@
  </row>
  <row id="19" trl="Y">
   <value column="Name" original="Table Direct">直接访问表</value>
-  <value column="Description" original="Direct Table Access">直接访问表</value>
+  <value column="Description" original="Direct Table Access">直接访问表，字段命名必须是“表名_ID”</value>
   <value column="Help" original=""/>
  </row>
  <row id="20" trl="Y">
@@ -491,7 +491,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="170" trl="Y">
-  <value column="Name" original="C_DocType">C_单据类型</value>
+  <value column="Name" original="C_DocType">C_DocType</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2230,6 +2230,91 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53393" trl="N">
+  <value column="Name" original="MP Request Status">MP Request Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53394" trl="N">
+  <value column="Name" original="MP_JobStandar">MP_JobStandar</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53395" trl="N">
+  <value column="Name" original="MP OT_Request_Type">MP OT_Request_Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53396" trl="N">
+  <value column="Name" original="MP_JobStandarType">MP_JobStandarType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53397" trl="N">
+  <value column="Name" original="MP_MaintainArea">MP_MaintainArea</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53398" trl="N">
+  <value column="Name" original="MP_JobStandar_Task">MP_JobStandar_Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53399" trl="N">
+  <value column="Name" original="MP ResourceType">MP ResourceType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53400" trl="N">
+  <value column="Name" original="MP_Maintain Status">MP_Maintain Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53401" trl="N">
+  <value column="Name" original="MP_Maintain">MP_Maintain</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53402" trl="N">
+  <value column="Name" original="MP_ProgrammingType">MP_ProgrammingType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53403" trl="N">
+  <value column="Name" original="MP_Meter">MP_Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53404" trl="N">
+  <value column="Name" original="MP_Maintain_Task">MP_Maintain_Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53405" trl="N">
+  <value column="Name" original="MP_OT_Request">MP_OT_Request</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53406" trl="N">
+  <value column="Name" original="MP_OT">MP_OT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53407" trl="N">
+  <value column="Name" original="MP OT Status">MP OT Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53408" trl="N">
+  <value column="Name" original="MP_OT_Task">MP_OT_Task</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53409" trl="N">
+  <value column="Name" original="MP_AssetMeter">MP_AssetMeter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="53410" trl="N">
   <value column="Name" original="PriceOverrideType">价格重载类型</value>
   <value column="Description" original="Price Override Type">价格重载类型</value>
@@ -2552,6 +2637,81 @@
  </row>
  <row id="200099" trl="N">
   <value column="Name" original="IsToolbarButton">是工具条按钮</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200121" trl="N">
+  <value column="Name" original="AD_Style">AD_Style</value>
+  <value column="Description" original="CSS Style">CSS Style</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4625375d-3828-480e-aeb1-08a16e9f7e00">
+  <value column="Name" original="Locator Label Types">Locator Label Types</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="01adb833-695f-4575-bec5-17bdb87da53b">
+  <value column="Name" original="M_Locator Aisle (X) ">M_Locator Aisle (X) </value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2070bbf6-8a2d-4f9a-819e-a89cc2a891cb">
+  <value column="Name" original="M_Locator Bin (Y)">M_Locator Bin (Y)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="cb4f5838-0109-4bde-8416-fcdb0e2d0782">
+  <value column="Name" original="M_Locator Level (Z)">M_Locator Level (Z)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c7bc732c-0460-4f2c-b0f2-26bd5832b66c">
+  <value column="Name" original="WM_InOutBound InOutboundType">WM_InOutBound InOutboundType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="7a89c41a-192f-47f2-b40b-24aa282b1847">
+  <value column="Name" original="WM_InOutBound Inbound &amp; Outbound Rule"><![CDATA[WM_InOutBound Inbound & Outbound Rule]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6ab45ad5-209a-4fa5-b6a3-f1c0a31cb263">
+  <value column="Name" original="Capacity Validation WMS">Capacity Validation WMS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f77029dd-29c7-4216-9ea1-b014598c2350">
+  <value column="Name" original="HandlingUnitStatus">HandlingUnitStatus</value>
+  <value column="Description" original="Handling Unit Status">Handling Unit Status</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9e5689d8-0810-420a-89e2-384c9adc6b82">
+  <value column="Name" original="PrintFormatZebra">PrintFormatZebra</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a2d6b767-4b34-4ecd-970f-e0dd5f7b9651">
+  <value column="Name" original="LocatorPrintSortBy">LocatorPrintSortBy</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c5b95ab6-1230-4f01-abf5-87ec0d631a7a">
+  <value column="Name" original="Locator_X">Locator_X</value>
+  <value column="Description" original="All X Position of Locators">All X Position of Locators</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bb0a6404-830e-4b59-b95d-371c04930bf7">
+  <value column="Name" original="ScanBatchLineStatus">ScanBatchLineStatus</value>
+  <value column="Description" original="ScanBatch Line Status">ScanBatch Line Status</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="308a21f4-0771-4abe-9509-4d1245be1b0b">
+  <value column="Name" original="Category Tree">Category Tree</value>
+  <value column="Description" original="Category Tree">Category Tree</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="62e5edcf-6b2f-47d3-90ac-c3d173f13915">
+  <value column="Name" original="RoutingRule">RoutingRule</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

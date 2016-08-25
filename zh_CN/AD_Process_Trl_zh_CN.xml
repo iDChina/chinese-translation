@@ -1478,7 +1478,7 @@ DRP使用几个变量：
  <row id="53058" trl="Y">
   <value column="Name" original="Workflow Cost Roll-Up">工艺卷积成本</value>
   <value column="Description" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow ">This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow </value>
-  <value column="Help" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow &#10;&#10;Labor Cost Operation = (Setup Time / Qty Batch Size) * Duration * Labor Rate to this Resource &#10;Overhead Cost Operation =  (Setup Time / Qty Batch Size) * Duration * Overhead Rate to this Resource &#10;&#10;Labor Cost Workflow = Sum of every the Labor Cost Operation&#10;Overhead Cost Workflow = Sum of every the Overhead Cost Operation&#10;&#10;Cost Workflow = Labor Cost Workflow + Overhead Cost Workflow&#10;">这个过程将整合人力和管理成本到制造流程
+  <value column="Help" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow &#10;Labor Cost Operation = (Setup Time / Qty Batch Size) * Duration * Labor Rate to this Resource &#10;Overhead Cost Operation =  (Setup Time / Qty Batch Size) * Duration * Overhead Rate to this Resource &#10;Labor Cost Workflow = Sum of every the Labor Cost Operation&#10;Overhead Cost Workflow = Sum of every the Overhead Cost Operation&#10;Cost Workflow = Labor Cost Workflow + Overhead Cost Workflow">这个过程将整合人力和管理成本到制造流程
 
 人工成本运作 = (设定时间 / 批次数量) * 工作持续时间 * 本资源劳动率
 间接费用运作 =  (设定时间 / 批次数量) * 工作持续时间 * 本资源间接费用费率
@@ -1497,7 +1497,7 @@ DRP使用几个变量：
  <row id="53062" trl="Y">
   <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP">物料清单与配方 成本滚动计算法</value>
   <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost">该流程允许集成物料清单与配方的成本</value>
-  <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;&#10;Total BOM Cost = Sum every Element Cost">这个过程将整合BOM配方的成本
+  <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;Total BOM Cost = Sum every Element Cost">这个过程将整合BOM配方的成本
 
 改成产品成本要素 = 本层的成本要素 + 本层以下的成本要素 
 
@@ -1917,6 +1917,26 @@ DRP使用几个变量：
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53255" trl="N">
+  <value column="Name" original="MP Prognosis">MP Prognosis</value>
+  <value column="Description" original="Review past logs and make forecast for Work Orders">Review past logs and make forecast for Work Orders</value>
+  <value column="Help" original="Access Meter Logs corelates with Asset, Asset Meter, and Maintain records. Dates of logs between 40 days (Meter) and 60 days (Calendar) ago till to-date (plus number of periods given now).">Access Meter Logs corelates with Asset, Asset Meter, and Maintain records. Dates of logs between 40 days (Meter) and 60 days (Calendar) ago till to-date (plus number of periods given now).</value>
+ </row>
+ <row id="53256" trl="N">
+  <value column="Name" original="ProcessRequestOT">ProcessRequestOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53257" trl="N">
+  <value column="Name" original="MPCopyFromSJ">MPCopyFromSJ</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53258" trl="N">
+  <value column="Name" original="MPProcessOT">MPProcessOT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="53259" trl="Y">
   <value column="Name" original="Convert passwords to hashes">加密用户密码</value>
   <value column="Description" original="Convert existing plain text/encrypted user passwords to one way hash">将现有的文本/加密的用户密码，单向散列</value>
@@ -2009,17 +2029,17 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200018" trl="Y">
-  <value column="Name" original="Expire Broadcast Message">创建并邀请</value>
-  <value column="Description" original="Expire Broadcast Message">创建并邀请</value>
+  <value column="Name" original="Expire Broadcast Message">设置消息过期</value>
+  <value column="Description" original="Expire Broadcast Message">设置广播消息过期</value>
   <value column="Help" original="Selecting OK will expire current message. Do you want to expire message?">你确定要使该消息过期吗？选择OK目前的消息将过期</value>
  </row>
  <row id="200019" trl="Y">
-  <value column="Name" original="Publish Broadcast message">AD_消息类型</value>
-  <value column="Description" original="Publish Broadcast message">AD_消息类型</value>
+  <value column="Name" original="Publish Broadcast message">发布广播消息</value>
+  <value column="Description" original="Publish Broadcast message">发布广播消息</value>
   <value column="Help" original="Selecting ok will publish message.  Do you want to publish message?">你确定要发布广播消息吗？选择OK将发布广播</value>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="Test Broadcast Message">AD_消息类型</value>
+  <value column="Name" original="Test Broadcast Message">测试广播消息</value>
   <value column="Description" original="Test and verify message before broadcasting">在广播前测试和验证消息</value>
   <value column="Help" original=""/>
  </row>
@@ -2194,6 +2214,77 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
  <row id="200086" trl="N">
   <value column="Name" original="Copy Components From View">Copy Components From View</value>
   <value column="Description" original="Create dictionary view components for a table taking another as base">Create dictionary view components for a table taking another as base</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="88bf44d5-87d7-4034-92d7-fcc96148d7fc">
+  <value column="Name" original="Print Locator Labels">Print Locator Labels</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bc1054c3-b519-4496-8da2-f05239440b40">
+  <value column="Name" original="Warehouse Structure Overview">Warehouse Structure Overview</value>
+  <value column="Description" original="Summarise Section, Areas, Locations">Summarise Section, Areas, Locations</value>
+  <value column="Help" original="This report showing complete Warehouse structure definition including Areas, Sections and Section Details">This report showing complete Warehouse structure definition including Areas, Sections and Section Details</value>
+ </row>
+ <row trl="N" uuid="3f7952ac-0658-4f52-8958-bfc04b3d5d3e">
+  <value column="Name" original="Deactivate Handling Unit">Deactivate Handling Unit</value>
+  <value column="Description" original="Deactivate Handling Unit header and lines">Deactivate Handling Unit header and lines</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2e84ae93-ba88-4fdf-8a0d-7ea7c81c09d3">
+  <value column="Name" original="Label Print By Locator">Label Print By Locator</value>
+  <value column="Description" original="Print Label for Handling Unit by Locator">Print Label for Handling Unit by Locator</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bb0d6e53-063e-4d4f-83f5-62856dd990f0">
+  <value column="Name" original="Scan Batch Lines">Scan Batch Lines</value>
+  <value column="Description" original="Read file from scanner and insert into Scan Batch table">Read file from scanner and insert into Scan Batch table</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="8265825c-8e99-4109-af3e-9408aa32586d">
+  <value column="Name" original="Create Files For Scanner">Create Files For Scanner</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="132a672c-45c7-41d9-8596-e1e9aca869f6">
+  <value column="Name" original="Confirm Distribution Order Lines From Scanner">Confirm Distribution Order Lines From Scanner</value>
+  <value column="Description" original="Confirm Distribution Order lines by Scanner generate Movements from Transit Warehouse to Destination Warehouse">Confirm Distribution Order lines by Scanner generate Movements from Transit Warehouse to Destination Warehouse</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="39bdb176-1f69-4fe0-b831-5e44f7c9abd8">
+  <value column="Name" original="Load Distribution Order Lines">Load Distribution Order Lines</value>
+  <value column="Description" original="Load generated file from Scanner and update Distribution Order lines">Load generated file from Scanner and update Distribution Order lines</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a6c2b987-a105-43b0-b491-bd224cd75f2e">
+  <value column="Name" original="Empty Storage ">Empty Storage </value>
+  <value column="Description" original="Create Inventory Move base on Input Parameters">Create Inventory Move base on Input Parameters</value>
+  <value column="Help" original="Create Inventory Movements based on Routing Rule, definition or warehouse layout scope (location, axis, zones, warehouse) and by defining output - target location. (i.e. within a warehouse move goods from work-center to open pallets location)">Create Inventory Movements based on Routing Rule, definition or warehouse layout scope (location, axis, zones, warehouse) and by defining output - target location. (i.e. within a warehouse move goods from work-center to open pallets location)</value>
+ </row>
+ <row trl="N" uuid="69b3ee2a-95b5-4fb5-8383-e4a9cdbae46c">
+  <value column="Name" original="In/OutBound Detail">In/OutBound Detail</value>
+  <value column="Description" original="Warehouse Detail Information">Warehouse Detail Information</value>
+  <value column="Help" original="The report provides In/Outbound Header and Line information.  You can use the report to review warehouse order delivery status">The report provides In/Outbound Header and Line information.  You can use the report to review warehouse order delivery status</value>
+ </row>
+ <row trl="N" uuid="50b20050-0f47-4f29-b1e6-e317a8c6dbb9">
+  <value column="Name" original="Empty Locators">Empty Locators</value>
+  <value column="Description" original="Find Empty Locators for Material Receipt">Find Empty Locators for Material Receipt</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ec95e288-8119-468b-a602-4c082426e73b">
+  <value column="Name" original="Process In/Out Bound">Process In/Out Bound</value>
+  <value column="Description" original="Process In/Out Bound">Process In/Out Bound</value>
+  <value column="Help" original="Process In/Out Bound will create the Picking or Putaway  Order to pick or put the products into of Locators">Process In/Out Bound will create the Picking or Putaway  Order to pick or put the products into of Locators</value>
+ </row>
+ <row trl="N" uuid="7ff51105-8e1b-4b16-b4fa-5e51719db045">
+  <value column="Name" original="Calculate Material Plan">Calculate Material Plan</value>
+  <value column="Description" original="This process calculate the demand, approved and open orders for a product">This process calculate the demand, approved and open orders for a product</value>
+  <value column="Help" original="Called within the InfoWindow embedded process by MRP Info (ZK). &#10;Will process only the selected records">Called within the InfoWindow embedded process by MRP Info (ZK). 
+Will process only the selected records</value>
+ </row>
+ <row trl="N" uuid="8095f024-7cc5-4c59-8c14-684db411023a">
+  <value column="Name" original="Process Order PEP">Process Order PEP</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

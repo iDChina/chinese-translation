@@ -69,10 +69,9 @@
 注意：访问权限信息会被缓存起来，更新后的访问权限要在重新登录或重置缓存后才能生效</value>
  </row>
  <row id="112" trl="Y">
-  <value column="Name" original="Document Sequence">单据序号</value>
+  <value column="Name" original="Document Sequence">序号定义</value>
   <value column="Description" original="Maintain System and Document Sequences">维护系统和单据的序号</value>
-  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号窗口 定义了单据编号将如何被排序
-更改单据编号的生成方法。可添加前缀或后缀，或者更改当前编号</value>
+  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号定义窗口定义了单据编号将如何被排序更改单据编号的生成方法。可添加前缀或后缀，或者更改当前编号</value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
@@ -105,9 +104,9 @@
   <value column="Help" original="The Account Element Window is used to define and maintain the Accounting Element and User Defined Elements. &#10;One of the account segments is your natural account segment (Chart of Account). You may add a new account element for parallel reporting or for user defined accounting segments.">账户元素窗口用于定义和维护会计元素和用户自定义的元素。账户分段之一是自然账户分段 (会计科目表)。可为并行报表或用户自定义的会计分段增加新的账户元素</value>
  </row>
  <row id="120" trl="Y">
-  <value column="Name" original="Unit of Measure">度量单位</value>
-  <value column="Description" original="Maintain Unit of Measure ">维护度量单位 </value>
-  <value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">此窗口用于定义非金钱的度量单位。它也定义度量单位之间是否有转换关系以及如何转换。系统提供了一些度量单位之间的自动转换(如分钟，小时，日，工作日等)，如果他们没有在这里被另外显式的定义的话。		转换必须是直接的(例如 A-B和B-C存在转换关系，系统并不自动转换A-C，你必须显式的进行定义)</value>
+  <value column="Name" original="Unit of Measure">计量单位</value>
+  <value column="Description" original="Maintain Unit of Measure ">维护计量单位 </value>
+  <value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">此窗口用于定义非货币性的计量单位。它也定义计量单位之间是否有转换关系以及如何转换。系统提供了一些计量单位之间的自动转换(如分钟，小时，日，工作日等)，如果他们没有在这里被另外显式的定义的话。		转换必须是直接的(例如 A-B和B-C存在转换关系，系统并不自动转换A-C，你必须显式的进行定义)</value>
  </row>
  <row id="121" trl="Y">
   <value column="Name" original="Location">位置/地址</value>
@@ -175,7 +174,7 @@
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
  </row>
  <row id="138" trl="Y">
-  <value column="Name" original="Tax Category">税的类别</value>
+  <value column="Name" original="Tax Category">税种</value>
   <value column="Description" original="Maintain Tax Categories">维护税种</value>
   <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用于输入和维护税收的类别。每个产品与税种相关联，它使得更改税率后的处理得以简化</value>
  </row>
@@ -190,9 +189,9 @@
   <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">产品窗口允许定义组织中使用的所有产品。产品包括这些：出售给客户的产品；用于制造产品的产品，以销售给客户；组织采购的产品</value>
  </row>
  <row id="141" trl="Y">
-  <value column="Name" original="Payment Term">付款条件</value>
-  <value column="Description" original="Maintain Payment Terms">维护付款条件</value>
-  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">付款条件窗口定义了给客户的报盘以及来自供应商的询盘的不同付款条件。每张发票必须包含一个付款条件。在标准发票上，付款条件的名称和单据附注被打印出来</value>
+  <value column="Name" original="Payment Term">支付条款</value>
+  <value column="Description" original="Maintain Payment Terms">维护支付条款</value>
+  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">支付条款窗口定义了给客户的报盘以及来自供应商的询盘的不同付款条件。每张发票必须包含一个支付条款。在标准发票上，支付条款的名称和单据附注被打印出来</value>
  </row>
  <row id="142" trl="Y">
   <value column="Name" original="Shipper">承运人</value>
@@ -217,9 +216,9 @@
   价格表能够被计算和复制。为加快计算，参数将被保存并用于创建新价格表版本]]></value>
  </row>
  <row id="147" trl="Y">
-  <value column="Name" original="Invoice Schedule">发票计划</value>
-  <value column="Description" original="Maintain Invoicing Schedule">维护发票计划</value>
-  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">发票计划窗口定义了生成汇总发票的频度和分段 (截止) 日期。 如果客户需要多份发货单的单张发票，可定义相应的发票计划，并将它关联到客户</value>
+  <value column="Name" original="Invoice Schedule">开票计划</value>
+  <value column="Description" original="Maintain Invoicing Schedule">维护发票的开票计划</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">如果客户需要多份发货单的单张发票，可定义相应的开票计划，并将它关联到客户。</value>
  </row>
  <row id="149" trl="Y">
   <value column="Name" original="Marketing Campaign">营销活动</value>
@@ -252,9 +251,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="158" trl="Y">
-  <value column="Name" original="Bank / Cash">现金金额</value>
-  <value column="Description" original="Maintain Bank / Cash">维护现金簿</value>
-  <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner</value>
+  <value column="Name" original="Bank / Cash">银行设置</value>
+  <value column="Description" original="Maintain Bank / Cash">维护组织或者合作伙伴的银行和帐户</value>
+  <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">维护组织或者合作伙伴的银行和帐户。</value>
  </row>
  <row id="159" trl="Y">
   <value column="Name" original="Dunning">催款</value>
@@ -347,7 +346,7 @@
   <value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">供应商发票窗口允许显示和输入来自供应商的发票。供应商发票也可从采购订单或交货收据生成</value>
  </row>
  <row id="184" trl="Y">
-  <value column="Name" original="Material Receipt">物料收货</value>
+  <value column="Name" original="Material Receipt">收货单</value>
   <value column="Description" original="Vendor Shipments (Receipts)">供应商发货单 (收货单)</value>
   <value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">供应商发货单窗口定义了来自供应商的产品或物料收货。发货单可以是手工输入的，也可以是从采购订单或供应商发票自动生成的</value>
  </row>
@@ -447,7 +446,7 @@
   <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">付款选择窗口允许你选择和处理你的货物发票和你想要支付方式。	(a) 你可以新建一个选择支付和选择手动发票或产生基标准的提议。你可以改变总计支付或你不能支付删除发票。	(b) 你果你觉得支付方式适当的,你可以创建支付.	(c) 你可打印或导出你的支付在支付窗口的 打印/导出</value>
  </row>
  <row id="207" trl="Y">
-  <value column="Name" original="Commission">佣金标识</value>
+  <value column="Name" original="Commission">佣金</value>
   <value column="Description" original="Maintain Commissions and Royalties">维护佣金和特许权使用费</value>
   <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group)."><![CDATA[定义和维护用于计算的佣金和特许权使用费。定义想要佣金被计算的方法和时间，以及支付给谁。<p>佣金窗口允许定义如何支付佣金和许权使用费。可为业务伙伴和销售代表设置佣金，他们可以是外部的。使用本功能，可处理特许授权。可为相同的订单或发票支付多份佣金，例如分别支付给输入事务处理的人、负责产品销售的人以及业务伙伴 (分组 )。]]></value>
  </row>
@@ -545,12 +544,12 @@
  <row id="232" trl="Y">
   <value column="Name" original="Request (all)">全部请求</value>
   <value column="Description" original="View and work on all requests">查看和处理全部请求</value>
-  <value column="Help" original="This Request window is used to view all available requests">请求窗口用于查看所有的有效请求</value>
+  <value column="Help" original="This Request window is used to view all available requests">请求窗口用于查看所有的有效请求。</value>
  </row>
  <row id="233" trl="Y">
-  <value column="Name" original="Discount Schema">价格表模式</value>
-  <value column="Description" original="Maintain Trade Discount Schema">维护交易折扣模式</value>
-  <value column="Help" original="Trade discount schema calculates the trade discount percentage">批发折扣轮廓计算批发折扣百分比</value>
+  <value column="Name" original="Discount Schema">折扣模式</value>
+  <value column="Description" original="Maintain Trade Discount Schema">定义交易折扣模式</value>
+  <value column="Help" original="Trade discount schema calculates the trade discount percentage">定义交易折扣模式。</value>
  </row>
  <row id="234" trl="Y">
   <value column="Name" original="Expense Type">费用类型</value>
@@ -765,9 +764,9 @@
   <value column="Help" original="Maintain Payment Schedule of unpaid invoices">维护未支付发票的付款计划</value>
  </row>
  <row id="276" trl="Y">
-  <value column="Name" original="Alert">提醒</value>
-  <value column="Description" original="iDempiere Alert">iDempiere提醒</value>
-  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">iDempiere注意允许你以你想要被提醒为条件来定义系统</value>
+  <value column="Name" original="Alert">业务预警</value>
+  <value column="Description" original="iDempiere Alert">设置系统或者业务的预警信息</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">允许你自定义条件来设置系统预警</value>
  </row>
  <row id="277" trl="Y">
   <value column="Name" original="Import Bank Statement">导入银行对账单</value>
@@ -1072,8 +1071,8 @@
   <value column="Help" original="Maintain Service Level Agreements for Business Partners">维护业务伙伴的服务级别协议(SLA)</value>
  </row>
  <row id="337" trl="Y">
-  <value column="Name" original="Price List Schema">价格表计划</value>
-  <value column="Description" original="Maintain Price List Schema">维护价格表计划</value>
+  <value column="Name" original="Price List Schema">价格表模式</value>
+  <value column="Description" original="Maintain Price List Schema">维护价格表的模式</value>
   <value column="Help" original="Price List schema defines calculation rules for price lists">价格表模式定义价格表的计算规则</value>
  </row>
  <row id="338" trl="Y">
@@ -1122,14 +1121,14 @@
   <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">组的请求 ( 举例来说版本号，责任,.。.)</value>
  </row>
  <row id="347" trl="Y">
-  <value column="Name" original="Request Resolution">请求的解决方案</value>
-  <value column="Description" original="Maintain Request Resolutions">维护请求的解决方案</value>
-  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">状况确定 ( 举例来说确定的，拒绝,..)</value>
+  <value column="Name" original="Request Resolution">请求结果</value>
+  <value column="Description" original="Maintain Request Resolutions">维护请求的结果方案。</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">比如：驳回、搁置、解决。</value>
  </row>
  <row id="348" trl="Y">
-  <value column="Name" original="Request Standard Response">标准请求响应</value>
-  <value column="Description" original="Maintain Request Standard Response ">一般请求响应维护 </value>
-  <value column="Help" original="Text blocks to be copied into request response text">将被复制到请求响应文本的文本块</value>
+  <value column="Name" original="Request Standard Response">响应模版</value>
+  <value column="Description" original="Maintain Request Standard Response ">请求相应的标准模版</value>
+  <value column="Help" original="Text blocks to be copied into request response text">模版内容将复制到响应结果区。</value>
  </row>
  <row id="349" trl="Y">
   <value column="Name" original="Request Status">请求状态</value>
@@ -1207,9 +1206,9 @@
   <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。iDempiere支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)</value>
  </row>
  <row id="365" trl="Y">
-  <value column="Name" original="Performance Benchmark">绩效基准测试</value>
-  <value column="Description" original="Performance Benchmark">绩效基准测试</value>
-  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">用于把（如股票价格等）与内部绩效相比较的数据序列</value>
+  <value column="Name" original="Performance Benchmark">绩效基准</value>
+  <value column="Description" original="Performance Benchmark">绩效基准</value>
+  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">用于把绩效基准与内部绩效相比较</value>
  </row>
  <row id="366" trl="Y">
   <value column="Name" original="Performance Ratio">绩效比率</value>
@@ -1391,9 +1390,9 @@
 一个具体的生产设施中的一个或多个人员和/或机器，它可以被认为是一个单位而言，的容量requiremets规划和详细的调度</value>
  </row>
  <row id="53005" trl="Y">
-  <value column="Name" original="Manufacturing Workflows">生产工艺</value>
-  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">维护生产工艺</value>
-  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">生产工艺路线是生产部件方法的详细信息集合。它包括在不同工作中心的作业顺序、标准设置和运行。在某些公司，工艺还包括工具技能等级、检验作业、测试需求等</value>
+  <value column="Name" original="Manufacturing Workflows">生产工作流</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">维护生产工作流</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">生产工作流（工艺路线）是生产部件方法的详细信息集合。它包括在不同工作中心的作业顺序、标准设置和运行。在某些公司，工艺还包括工具技能等级、检验作业、测试需求等</value>
  </row>
  <row id="53006" trl="Y">
   <value column="Name" original="Bill of Materials &amp; Formula ">物料清单与配方 </value>
@@ -1855,6 +1854,31 @@ MRP - 110	无需求</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53141" trl="N">
+  <value column="Name" original="Request OT">Request OT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53142" trl="N">
+  <value column="Name" original="Meter">Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="N">
+  <value column="Name" original="Job Standard">Job Standard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53144" trl="N">
+  <value column="Name" original="Preventive Maintenance">Preventive Maintenance</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53145" trl="N">
+  <value column="Name" original="Work Order">Work Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="53149" trl="Y">
   <value column="Name" original="Quality Test">质量检验</value>
   <value column="Description" original=""/>
@@ -1866,9 +1890,9 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="53152" trl="N">
-  <value column="Name" original="Contact">接触 </value>
-  <value column="Description" original="Maintain Contacts">维护接触</value>
-  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact</value>
+  <value column="Name" original="Contact">客户联系</value>
+  <value column="Description" original="Maintain Contacts">管理日常客户联系记录</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">管理日常客户联系记录</value>
  </row>
  <row id="53153" trl="N">
   <value column="Name" original="Lead">线索</value>
@@ -1891,7 +1915,7 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="53165" trl="N">
-  <value column="Name" original="Customer">客户</value>
+  <value column="Name" original="Customer">客户维护</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1951,18 +1975,18 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="200017" trl="Y">
-  <value column="Name" original="Payment Transaction">事务处理金额</value>
-  <value column="Description" original="Payment Transactions">现金事务处理</value>
+  <value column="Name" original="Payment Transaction">支付事务</value>
+  <value column="Description" original="Payment Transactions">支付事务历史</value>
   <value column="Help" original=""/>
  </row>
  <row id="200018" trl="Y">
-  <value column="Name" original="Online Transaction History">联机事务历史</value>
+  <value column="Name" original="Online Transaction History">在线事务历史</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="Setup Wizard Maintenance">维护安装向导</value>
-  <value column="Description" original="Maintenance Setup Wizard window">维护安装向导窗口</value>
+  <value column="Name" original="Setup Wizard Maintenance">向导设置记录</value>
+  <value column="Description" original="Maintenance Setup Wizard window">实体向导的设置记录</value>
   <value column="Help" original=""/>
  </row>
  <row id="200022" trl="Y">
@@ -1976,8 +2000,8 @@ MRP - 110	无需求</value>
   <value column="Help" original="Window allows to enter broadcast messages">窗口允许输入广播消息</value>
  </row>
  <row id="200024" trl="Y">
-  <value column="Name" original="Shipping Processor">会计引擎</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Shipping Processor">电子物流接口</value>
+  <value column="Description" original="">配置电子物流的参数</value>
   <value column="Help" original=""/>
  </row>
  <row id="200025" trl="Y">
@@ -1986,23 +2010,23 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="200026" trl="Y">
-  <value column="Name" original="Commodity Shipment">客户发货</value>
+  <value column="Name" original="Commodity Shipment">出口发货</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200028" trl="Y">
-  <value column="Name" original="Shipping Processor Configuration">装运引擎配置</value>
+  <value column="Name" original="Shipping Processor Configuration">电子物流配置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200029" trl="Y">
-  <value column="Name" original="Shipper Configuration">配置级别</value>
+  <value column="Name" original="Shipper Configuration">承运人设置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200030" trl="Y">
-  <value column="Name" original="Shipping Transaction">装运事务</value>
-  <value column="Description" original="Shipping Transactions">装运事务</value>
+  <value column="Name" original="Shipping Transaction">物流事务</value>
+  <value column="Description" original="Shipping Transactions">物流事务记录</value>
   <value column="Help" original=""/>
  </row>
  <row id="200031" trl="Y">
@@ -2011,12 +2035,12 @@ MRP - 110	无需求</value>
   <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">允许用户对发票付款，针对单张发票</value>
  </row>
  <row id="200034" trl="Y">
-  <value column="Name" original="Context Help"><![CDATA[帮助(&H)]]></value>
+  <value column="Name" original="Context Help">自定义帮助</value>
   <value column="Description" original="Maintain Context Helps">维护上下文帮助</value>
   <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">定义在”帮助“面板的上下文帮助信息，只针对WEB界面</value>
  </row>
  <row id="200036" trl="N">
-  <value column="Name" original="1099 Box">1099 箱</value>
+  <value column="Name" original="1099 Box">1099 报税</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2026,12 +2050,12 @@ MRP - 110	无需求</value>
   <value column="Help" original="The Cost Adjustment Window allow user to enter cost adjustment for products">该窗口可以对产品进库存成本调整</value>
  </row>
  <row id="200044" trl="N">
-  <value column="Name" original="Tax Provider Configuration">税提供者的配置</value>
+  <value column="Name" original="Tax Provider Configuration">电子税务配置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200045" trl="N">
-  <value column="Name" original="Tax Provider">税提供者</value>
+  <value column="Name" original="Tax Provider">电子税务接口</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2046,7 +2070,7 @@ MRP - 110	无需求</value>
   <value column="Help" original=""/>
  </row>
  <row id="200048" trl="N">
-  <value column="Name" original="Address Transaction">Address Transaction</value>
+  <value column="Name" original="Address Transaction">地址校验记录</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2084,5 +2108,93 @@ MRP - 110	无需求</value>
   <value column="Name" original="Locator Type">货位类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+ </row>
+ <row id="200086" trl="N">
+  <value column="Name" original="CSS Style">CSS Style</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e11f7c35-81b4-473a-8aca-4129d0036861">
+  <value column="Name" original="Inbound/Outbound Rule">Inbound/Outbound Rule</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Rule">Maintain Warehouse Inbound/Outbound Rule</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
+ </row>
+ <row trl="N" uuid="f8e215f5-1e77-4a0a-a02f-54a26fd23efd">
+  <value column="Name" original="Inbound/Outbound Definition">Inbound/Outbound Definition</value>
+  <value column="Description" original="Maintain Inbound/Outbound Definition">Maintain Inbound/Outbound Definition</value>
+  <value column="Help" original="Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, &#10;product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location">Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, 
+product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location</value>
+ </row>
+ <row trl="N" uuid="a5c5289b-1733-47b1-9084-3cf1b1e5e636">
+  <value column="Name" original="Inbound/Outbound Definition Schema">Inbound/Outbound Definition Schema</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition Schemas">Maintain Warehouse Inbound/Outbound Definition Schemas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a4c2655c-71ae-48af-bcf3-024a154c39fd">
+  <value column="Name" original="Product Inbound/Outbound Definition">Product Inbound/Outbound Definition</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition for Products">Maintain Warehouse Inbound/Outbound Definition for Products</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="69db9d42-1f28-42a4-abbf-8da492b5a326">
+  <value column="Name" original="Warehouse Area Type">存储区域</value>
+  <value column="Description" original="Maintain Warehouse Area Type">设置存储区域</value>
+  <value column="Help" original="The Area Type allows to define several area types within the Warehouse, according to the use of the space e.g. some types for technical purposes or as put away space, open area">存储区域可以是物理的也可以是逻辑的区域，是根据仓储技术（例如自动仓，半自动仓，高架货架等），使用空间区域，组织形式或者功能等对复杂的仓库进行 的分割定义单元。</value>
+ </row>
+ <row trl="N" uuid="9524586c-6d3a-44a3-9ea6-0af988ab0e85">
+  <value column="Name" original="Warehouse Section Type">仓库分区</value>
+  <value column="Description" original="Maintain Warehouse Section Type">Maintain Warehouse Section Type</value>
+  <value column="Help" original="The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)">The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)</value>
+ </row>
+ <row trl="N" uuid="f0cd1739-447a-43be-bae3-6c418570dad4">
+  <value column="Name" original="Warehouse Structure">Warehouse Structure</value>
+  <value column="Description" original="Maintain Warehouse Structure">Maintain Warehouse Structure</value>
+  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.&#10;&#10;Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.
+
+Finally, warehouse sections can be grouped into different locations and section types.</value>
+ </row>
+ <row trl="N" uuid="9ca92738-4eaa-46f2-9a88-cae6e8e687d4">
+  <value column="Name" original="Inbound/Outbound Strategy">Inbound/Outbound Strategy</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Strategy">Maintain Warehouse Inbound/Outbound Strategy</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.">The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.</value>
+ </row>
+ <row trl="N" uuid="cdd45eef-9616-4603-8e15-f8764c44f9f1">
+  <value column="Name" original="Pack Type">Pack Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b5437baa-94dd-4c73-9e9f-014405c0df61">
+  <value column="Name" original="Handling Unit">Handling Unit</value>
+  <value column="Description" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. ">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. </value>
+  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.</value>
+ </row>
+ <row trl="N" uuid="28b6490b-065e-4083-9bcc-148c1162afc5">
+  <value column="Name" original="Inbound Order">Inbound Order</value>
+  <value column="Description" original="Inbound Order starts Warehouse Putaway Process">Inbound Order starts Warehouse Putaway Process</value>
+  <value column="Help" original="Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.">Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.</value>
+ </row>
+ <row trl="N" uuid="db2700f3-4c6a-4783-a613-e05dffcafad6">
+  <value column="Name" original="Outbound Order">Outbound Order</value>
+  <value column="Description" original="Outbound Order starts Warehouse Picking Process">Outbound Order starts Warehouse Picking Process</value>
+  <value column="Help" original="Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.">Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.</value>
+ </row>
+ <row trl="N" uuid="860981c3-46e3-4f96-9bce-1bbfb13f66eb">
+  <value column="Name" original="Scan Batch">Scan Batch</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e881372b-2187-44ee-a257-8c1eb3ad20e9">
+  <value column="Name" original="Meter Log">Meter Log</value>
+  <value column="Description" original="Independent Meter Log Management">Independent Meter Log Management</value>
+  <value column="Help" original="Enter your meter readings separate operations control">Enter your meter readings separate operations control</value>
+ </row>
+ <row trl="N" uuid="a4f048c0-a5a8-415e-9875-2c8a774d77b4">
+  <value column="Name" original="MRP">MRP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="aae447ae-cb00-484a-8868-e2040ccee9c0">
+  <value column="Name" original="Sales Order in PEP">销售订单@PEP</value>
+  <value column="Description" original="Enter and change sales orders  in PEP">输入与更改销售订单</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders in PEP.  ">此窗口用于录入和修改销售订单。  </value>
  </row>
 </idempiereTrl>
