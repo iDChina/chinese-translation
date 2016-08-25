@@ -85,11 +85,11 @@
   <value column="Description" original="Service Management">服务管理</value>
  </row>
  <row id="272" trl="Y">
-  <value column="Name" original="Sales and Marketing">销售与营销规则</value>
+  <value column="Name" original="Sales and Marketing">销售设置</value>
   <value column="Description" original=""/>
  </row>
  <row id="278" trl="Y">
-  <value column="Name" original="Performance Analysis">绩效分析</value>
+  <value column="Name" original="Performance Analysis">绩效管理</value>
   <value column="Description" original=""/>
  </row>
  <row id="280" trl="Y">
@@ -97,11 +97,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="326" trl="Y">
-  <value column="Name" original="Printing">正在打印</value>
+  <value column="Name" original="Printing">打印设置</value>
   <value column="Description" original="Print Definition">打印定义</value>
  </row>
  <row id="345" trl="Y">
-  <value column="Name" original="Assets">资产</value>
+  <value column="Name" original="Assets">资产管理</value>
   <value column="Description" original=""/>
  </row>
  <row id="357" trl="Y">
@@ -133,7 +133,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="459" trl="Y">
-  <value column="Name" original="Shipments">发货单</value>
+  <value column="Name" original="Shipments">发货业务</value>
   <value column="Description" original=""/>
  </row>
  <row id="460" trl="Y">
@@ -149,7 +149,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="528" trl="Y">
-  <value column="Name" original="Request">请求</value>
+  <value column="Name" original="Request">请求管理</value>
   <value column="Description" original=""/>
  </row>
  <row id="566" trl="Y">
@@ -169,15 +169,15 @@
   <value column="Description" original="Manufacturing">生产</value>
  </row>
  <row id="53016" trl="Y">
-  <value column="Name" original="Engineering Management">技术管理</value>
-  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">生产技术管理是指组织对生产、工艺、技术和产品的管理</value>
+  <value column="Name" original="Engineering Management">工程管理</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">工程管理是指组织对生产、工艺、技术和产品的管理</value>
  </row>
  <row id="53017" trl="Y">
-  <value column="Name" original="Resource Manufacturing">生产资源管理</value>
+  <value column="Name" original="Resource Manufacturing">资源管理</value>
   <value column="Description" original="Resource Manufacturing">生产资源管理</value>
  </row>
  <row id="53019" trl="Y">
-  <value column="Name" original="Manufacturing Workflow">生产工艺</value>
+  <value column="Name" original="Manufacturing Workflow">生产工作流</value>
   <value column="Description" original=""/>
  </row>
  <row id="53022" trl="Y">
@@ -221,8 +221,8 @@
   <value column="Description" original="Activity Control">活动控制</value>
  </row>
  <row id="53066" trl="Y">
-  <value column="Name" original="Distribution Management">分销管理</value>
-  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">分销资源计划(Distribution Resource Planning)(DRP)是管理企业的分销网络的系统，目的是使企业具有对订单和供货具有快速反应和持续补充库存的能力。它主要解决分销物资的供应计划和调度问题，达到保证有效地满足市场需要又使得配置费用最省的目的，是MRP原理与方法在物品配送中的运用</value>
+  <value column="Name" original="Distribution Management">配送管理</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. "><![CDATA[http://wiki.mbalib.com/wiki/DRP，配送需求计划（distribution requirement planning）简称DRP，是一种既保证有效地满足市场需要，又使得物流资源配置费用最少的计划方法，是MRP原理与方法在物品配送中的运用。它是流通领域中的一种物流技术，是MRP在流通领域应用的直接结果。它主要解决分销物资的供应计划和调度问题，达到保证有效地满足市场需要又使得配置费用最省的目的。<br /> DRP输入：需求数量、库存数量、可供数量，输出：送货计划、采购计划。]]></value>
  </row>
  <row id="53071" trl="Y">
   <value column="Name" original="Quality Management">质量管理</value>
@@ -293,11 +293,47 @@
   <value column="Description" original=""/>
  </row>
  <row id="53363" trl="N">
-  <value column="Name" original="Sales Management">销售管理</value>
+  <value column="Name" original="Sales Management">客户关系</value>
   <value column="Description" original=""/>
  </row>
  <row id="200095" trl="N">
   <value column="Name" original="Import Template">导入模板</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="16e65553-8c01-4ebe-b0a5-2186c8611186">
+  <value column="Name" original="Warehouse Management (WMS)">Warehouse Management (WMS)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="22f22127-cbcb-4d07-a020-df82675ccc4d">
+  <value column="Name" original="Warehouse Management Setup">Warehouse Management Setup</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="7a65c714-928e-43f5-bf5f-bce0fc190a72">
+  <value column="Name" original="Packing &amp; Handling Units"><![CDATA[Packing & Handling Units]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f951a6fa-726c-4065-8aa1-5271f5fc6f1a">
+  <value column="Name" original="Inbound Operations">Inbound Operations</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="847d3b65-dd06-4be6-be85-8390d4e0f4e5">
+  <value column="Name" original="Outbound Operations">Outbound Operations</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="cd0a7594-42a1-4bb7-adc2-b7dd0a8c7dc3">
+  <value column="Name" original="Release Operations">Release Operations</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="1f986384-8696-47b6-9bf0-a47af53ace8c">
+  <value column="Name" original="Scanner Operations">Scanner Operations</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="08a9c5df-544d-48c5-b975-22ee0311b2dd">
+  <value column="Name" original="Warehouse Reports">Warehouse Reports</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="edea0849-893a-4bc3-8353-d5c3942c8970">
+  <value column="Name" original="BOM Drop">BOM Drop</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

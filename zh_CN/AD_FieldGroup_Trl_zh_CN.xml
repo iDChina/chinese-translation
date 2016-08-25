@@ -91,7 +91,7 @@
   <value column="Name" original="Delivery">交付</value>
  </row>
  <row id="131" trl="Y">
-  <value column="Name" original="Invoicing">开发票</value>
+  <value column="Name" original="Invoicing">发票</value>
  </row>
  <row id="132" trl="Y">
   <value column="Name" original="Only ..">仅 ..</value>
@@ -106,7 +106,7 @@
   <value column="Name" original="Access">权限</value>
  </row>
  <row id="50000" trl="Y">
-  <value column="Name" original="Allow Info In Role">允许角色信息</value>
+  <value column="Name" original="Allow Info In Role">特殊权限</value>
  </row>
  <row id="50001" trl="Y">
   <value column="Name" original="Accounts">账户</value>
@@ -178,7 +178,7 @@
   <value column="Name" original="Sales Information">销售信息</value>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="Document Preferences">单据偏好设置</value>
+  <value column="Name" original="Document Preferences">单据偏好</value>
  </row>
  <row id="200009" trl="Y">
   <value column="Name" original="Charge Account">费用账户</value>
@@ -206,5 +206,8 @@
  </row>
  <row id="200018" trl="N">
   <value column="Name" original="Background Job">后台批处理</value>
+ </row>
+ <row trl="N" uuid="201206ac-01a4-4372-88df-be8bfe16fec4">
+  <value column="Name" original="Notes">Notes</value>
  </row>
 </idempiereTrl>

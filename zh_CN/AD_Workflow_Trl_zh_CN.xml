@@ -11,7 +11,7 @@
   <value column="Help" original="Define a new language as a system language.">在系统语言中定义新的语言</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Initial Client Setup Review">初始化实体设置检查</value>
+  <value column="Name" original="Initial Client Setup Review">实体设置工作流</value>
   <value column="Description" original="Review of system level setup of a new  Client">检查新实体的系统级设置</value>
   <value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup">This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.
 You may want to check also the following Workflows:
@@ -133,12 +133,12 @@ The system converts the measures into percentages (based on the target and achie
   <value column="Help" original=""/>
  </row>
  <row id="121" trl="Y">
-  <value column="Name" original="Process_Journal">流程_日记账</value>
+  <value column="Name" original="Process_Journal">流程_凭证</value>
   <value column="Description" original="(Standard Process Journal)">(标准流程_日记账)</value>
   <value column="Help" original=""/>
  </row>
  <row id="122" trl="Y">
-  <value column="Name" original="Process_JournalBatch">流程_日记账批</value>
+  <value column="Name" original="Process_JournalBatch">流程_凭证批</value>
   <value column="Description" original="(Standard Process Jornal Batch)">(标准流程_日记账批处理)</value>
   <value column="Help" original=""/>
  </row>
@@ -186,7 +186,7 @@ The system converts the measures into percentages (based on the target and achie
   <value column="Name" original="Business Partner Approval">业务伙伴审批</value>
   <value column="Description" original="Example Document based workflow">示范基于单据值的工作流</value>
   <value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">When a new Business Partner is created, it is forwarded for review and credit check</value>
- </row>
+ </row> 
  <row id="50000" trl="Y">
   <value column="Name" original="Manufacturing Management Setup">生产管理设置</value>
   <value column="Description" original="Setup Manufacturing Management">设置生产管理</value>
@@ -198,7 +198,7 @@ The system converts the measures into percentages (based on the target and achie
   <value column="Help" original="This workflow defines the Manufacturing Workflow  Setup">This workflow defines the Manufacturing Workflow  Setup</value>
  </row>
  <row id="50002" trl="Y">
-  <value column="Name" original="Bill of Material &amp; Formula Setup">物料清单与配方 设置</value>
+  <value column="Name" original="Bill of Material &amp; Formula Setup">物料清单与配方设置</value>
   <value column="Description" original="Setup Bill of Material &amp; Formula">设置物料清单 配方</value>
   <value column="Help" original="This workflow defines the Bill of Material &amp; Formula"><![CDATA[This workflow defines the Bill of Material & Formula]]></value>
  </row>
@@ -315,33 +315,43 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Help" original=""/>
  </row>
  <row id="50020" trl="Y">
-  <value column="Name" original="Process_Asset_Adition">Process_Asset_Adition</value>
+  <value column="Name" original="Process_Asset_Adition">流程_资产新增</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50021" trl="Y">
-  <value column="Name" original="Process_Asset_Disposed">Process_Asset_Disposed</value>
+  <value column="Name" original="Process_Asset_Disposed">流程_资产作废</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50022" trl="Y">
-  <value column="Name" original="Process_Asset_Transfer">Process_Asset_Transfer</value>
+  <value column="Name" original="Process_Asset_Transfer">流程_资产转移</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50023" trl="Y">
-  <value column="Name" original="Process_Asset_Reval">Process_Asset_Reval</value>
+  <value column="Name" original="Process_Asset_Reval">流程_资产重估</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50024" trl="Y">
-  <value column="Name" original="Process Asset Depreciation Entry">建立资产转移账目</value>
+  <value column="Name" original="Process Asset Depreciation Entry">流程_资产折旧</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="N">
-  <value column="Name" original="Process_Production">Process_Production</value>
+  <value column="Name" original="Process_Production">流程_生产</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c9bfa589-c69c-4179-b936-444a4fcec7f5">
+  <value column="Name" original="WMS - Outbound &amp; Picking"><![CDATA[WMS - Outbound & Picking]]></value>
+  <value column="Description" original="This Workflow Describe the entire WMS Outbound Process">This Workflow Describe the entire WMS Outbound Process</value>
+  <value column="Help" original="By following this Workflow Users are able to manage his WMS Outbound process including receive customer demand (Sales Order)  to generate order against Storage(Outbound Order) then Wave Process (Release Outbound) including Material Transfer Directly to Standing zone to Dispatch and load to Truck.">By following this Workflow Users are able to manage his WMS Outbound process including receive customer demand (Sales Order)  to generate order against Storage(Outbound Order) then Wave Process (Release Outbound) including Material Transfer Directly to Standing zone to Dispatch and load to Truck.</value>
+ </row>
+ <row trl="N" uuid="7b7cea63-f303-4501-8af6-99b5bd9e1bd3">
+  <value column="Name" original="Process_InOutBound_Order">Process_InOutBound_Order</value>
+  <value column="Description" original="(Standard Process InOutBound Order)">(Standard Process InOutBound Order)</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
