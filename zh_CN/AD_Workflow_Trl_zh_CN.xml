@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Workflow">
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Workflow">
  <row id="101" trl="Y">
   <value column="Name" original="Project Setup and Use">项目设置与使用</value>
   <value column="Description" original="Setup of projects and project reporting">项目与项目报表的设置</value>
@@ -186,7 +186,7 @@ The system converts the measures into percentages (based on the target and achie
   <value column="Name" original="Business Partner Approval">业务伙伴审批</value>
   <value column="Description" original="Example Document based workflow">示范基于单据值的工作流</value>
   <value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">When a new Business Partner is created, it is forwarded for review and credit check</value>
- </row> 
+ </row>
  <row id="50000" trl="Y">
   <value column="Name" original="Manufacturing Management Setup">生产管理设置</value>
   <value column="Description" original="Setup Manufacturing Management">设置生产管理</value>
@@ -342,16 +342,6 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
  <row id="200002" trl="N">
   <value column="Name" original="Process_Production">流程_生产</value>
   <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="c9bfa589-c69c-4179-b936-444a4fcec7f5">
-  <value column="Name" original="WMS - Outbound &amp; Picking"><![CDATA[WMS - Outbound & Picking]]></value>
-  <value column="Description" original="This Workflow Describe the entire WMS Outbound Process">This Workflow Describe the entire WMS Outbound Process</value>
-  <value column="Help" original="By following this Workflow Users are able to manage his WMS Outbound process including receive customer demand (Sales Order)  to generate order against Storage(Outbound Order) then Wave Process (Release Outbound) including Material Transfer Directly to Standing zone to Dispatch and load to Truck.">By following this Workflow Users are able to manage his WMS Outbound process including receive customer demand (Sales Order)  to generate order against Storage(Outbound Order) then Wave Process (Release Outbound) including Material Transfer Directly to Standing zone to Dispatch and load to Truck.</value>
- </row>
- <row trl="N" uuid="7b7cea63-f303-4501-8af6-99b5bd9e1bd3">
-  <value column="Name" original="Process_InOutBound_Order">Process_InOutBound_Order</value>
-  <value column="Description" original="(Standard Process InOutBound Order)">(Standard Process InOutBound Order)</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
  <row id="1546" trl="Y">
   <value column="Name" original="Link Column">链接字段</value>
   <value column="Description" original="Link Column for Multi-Parent tables">用于多父表的链接列</value>
@@ -325,14 +325,14 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="53518" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
   <value column="Description" original="Workflow or combination of tasks">工作流或任务组合</value>
-  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">工作流字段标识系统中唯一的工作流
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">工作流字段标识系统中唯一的工作流
 
 在这个窗口中你输入工作流将被视为在这个组织（工厂/仓库）生产该产品的默认工作流。如果你未填写该字段，系统将具有相同产品名称的工作流设置为默认的工作流</value>
  </row>
  <row id="53523" trl="Y">
   <value column="Name" original="Promised Delivery Time">承诺交付时间</value>
   <value column="Description" original="Promised days between order and delivery">在订单与交付之间的承诺天数</value>
-  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">承诺交付时间表示订单日期与承诺交付日期之间的天数。
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">承诺交付时间表示订单日期与承诺交付日期之间的天数。
 
 必须输入平均天数（从你批准请购单或生产订单，直到仓库收到材料）；如果需求产品是指下采购订单，必须在日历中注册需求天数从你下采购订单到仓库收材料的。如果该产品指下生产单，必须注册工作天数，从你下生产单到产品入库</value>
  </row>

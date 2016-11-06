@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Window">
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Window">
  <row id="100" trl="Y">
   <value column="Name" original="Table and Column">表与列</value>
   <value column="Description" original="Maintain Tables and Columns">维护表与列</value>
@@ -1854,31 +1854,6 @@ MRP - 110	无需求</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53141" trl="N">
-  <value column="Name" original="Request OT">Request OT</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53142" trl="N">
-  <value column="Name" original="Meter">Meter</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53143" trl="N">
-  <value column="Name" original="Job Standard">Job Standard</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53144" trl="N">
-  <value column="Name" original="Preventive Maintenance">Preventive Maintenance</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53145" trl="N">
-  <value column="Name" original="Work Order">Work Order</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="53149" trl="Y">
   <value column="Name" original="Quality Test">质量检验</value>
   <value column="Description" original=""/>
@@ -2109,92 +2084,14 @@ MRP - 110	无需求</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200083" trl="N">
+  <value column="Name" original="Menu favourites">Menu favourites</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200086" trl="N">
   <value column="Name" original="CSS Style">CSS Style</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="e11f7c35-81b4-473a-8aca-4129d0036861">
-  <value column="Name" original="Inbound/Outbound Rule">Inbound/Outbound Rule</value>
-  <value column="Description" original="Maintain Warehouse Inbound/Outbound Rule">Maintain Warehouse Inbound/Outbound Rule</value>
-  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
- </row>
- <row trl="N" uuid="f8e215f5-1e77-4a0a-a02f-54a26fd23efd">
-  <value column="Name" original="Inbound/Outbound Definition">Inbound/Outbound Definition</value>
-  <value column="Description" original="Maintain Inbound/Outbound Definition">Maintain Inbound/Outbound Definition</value>
-  <value column="Help" original="Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, &#10;product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location">Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, 
-product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location</value>
- </row>
- <row trl="N" uuid="a5c5289b-1733-47b1-9084-3cf1b1e5e636">
-  <value column="Name" original="Inbound/Outbound Definition Schema">Inbound/Outbound Definition Schema</value>
-  <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition Schemas">Maintain Warehouse Inbound/Outbound Definition Schemas</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="a4c2655c-71ae-48af-bcf3-024a154c39fd">
-  <value column="Name" original="Product Inbound/Outbound Definition">Product Inbound/Outbound Definition</value>
-  <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition for Products">Maintain Warehouse Inbound/Outbound Definition for Products</value>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="69db9d42-1f28-42a4-abbf-8da492b5a326">
-  <value column="Name" original="Warehouse Area Type">存储区域</value>
-  <value column="Description" original="Maintain Warehouse Area Type">设置存储区域</value>
-  <value column="Help" original="The Area Type allows to define several area types within the Warehouse, according to the use of the space e.g. some types for technical purposes or as put away space, open area">存储区域可以是物理的也可以是逻辑的区域，是根据仓储技术（例如自动仓，半自动仓，高架货架等），使用空间区域，组织形式或者功能等对复杂的仓库进行 的分割定义单元。</value>
- </row>
- <row trl="N" uuid="9524586c-6d3a-44a3-9ea6-0af988ab0e85">
-  <value column="Name" original="Warehouse Section Type">仓库分区</value>
-  <value column="Description" original="Maintain Warehouse Section Type">Maintain Warehouse Section Type</value>
-  <value column="Help" original="The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)">The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)</value>
- </row>
- <row trl="N" uuid="f0cd1739-447a-43be-bae3-6c418570dad4">
-  <value column="Name" original="Warehouse Structure">Warehouse Structure</value>
-  <value column="Description" original="Maintain Warehouse Structure">Maintain Warehouse Structure</value>
-  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.&#10;&#10;Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.
-
-Finally, warehouse sections can be grouped into different locations and section types.</value>
- </row>
- <row trl="N" uuid="9ca92738-4eaa-46f2-9a88-cae6e8e687d4">
-  <value column="Name" original="Inbound/Outbound Strategy">Inbound/Outbound Strategy</value>
-  <value column="Description" original="Maintain Warehouse Inbound/Outbound Strategy">Maintain Warehouse Inbound/Outbound Strategy</value>
-  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.">The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.</value>
- </row>
- <row trl="N" uuid="cdd45eef-9616-4603-8e15-f8764c44f9f1">
-  <value column="Name" original="Pack Type">Pack Type</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="b5437baa-94dd-4c73-9e9f-014405c0df61">
-  <value column="Name" original="Handling Unit">Handling Unit</value>
-  <value column="Description" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. ">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. </value>
-  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.</value>
- </row>
- <row trl="N" uuid="28b6490b-065e-4083-9bcc-148c1162afc5">
-  <value column="Name" original="Inbound Order">Inbound Order</value>
-  <value column="Description" original="Inbound Order starts Warehouse Putaway Process">Inbound Order starts Warehouse Putaway Process</value>
-  <value column="Help" original="Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.">Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.</value>
- </row>
- <row trl="N" uuid="db2700f3-4c6a-4783-a613-e05dffcafad6">
-  <value column="Name" original="Outbound Order">Outbound Order</value>
-  <value column="Description" original="Outbound Order starts Warehouse Picking Process">Outbound Order starts Warehouse Picking Process</value>
-  <value column="Help" original="Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.">Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.</value>
- </row>
- <row trl="N" uuid="860981c3-46e3-4f96-9bce-1bbfb13f66eb">
-  <value column="Name" original="Scan Batch">Scan Batch</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row trl="N" uuid="e881372b-2187-44ee-a257-8c1eb3ad20e9">
-  <value column="Name" original="Meter Log">Meter Log</value>
-  <value column="Description" original="Independent Meter Log Management">Independent Meter Log Management</value>
-  <value column="Help" original="Enter your meter readings separate operations control">Enter your meter readings separate operations control</value>
- </row>
- <row trl="N" uuid="a4f048c0-a5a8-415e-9875-2c8a774d77b4">
-  <value column="Name" original="MRP">MRP</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row trl="Y" uuid="aae447ae-cb00-484a-8868-e2040ccee9c0">
-  <value column="Name" original="Sales Order in PEP">销售订单@PEP</value>
-  <value column="Description" original="Enter and change sales orders  in PEP">输入与更改销售订单</value>
-  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders in PEP.  ">此窗口用于录入和修改销售订单。  </value>
  </row>
 </idempiereTrl>
