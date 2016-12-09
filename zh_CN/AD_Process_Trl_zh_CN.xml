@@ -1930,7 +1930,7 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53265" trl="Y">
-  <value column="Name" original="Universal substitution">Universal substitution</value>
+  <value column="Name" original="Universal substitution">BOM构成品通用替换</value>
   <value column="Description" original="Substitute one product for another in all BOMs">在所有的BOM替换一个产品</value>
   <value column="Help" original=""/>
  </row>
@@ -1940,8 +1940,8 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53267" trl="Y">
-  <value column="Name" original="Replenish Report incl. Production">Replenish Report incl. Production</value>
-  <value column="Description" original="Inventory Replenish Report">库存补充报表</value>
+  <value column="Name" original="Replenish Report incl. Production">补仓报表(包含生产)</value>
+  <value column="Description" original="Inventory Replenish Report">库存补仓报表</value>
   <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#13;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。需要手工选择一个当前供应商。<br>仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
  </row>
  <row id="53276" trl="N">
