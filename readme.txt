@@ -1,8 +1,6 @@
 --------------------------------------
-2015-04-02 创建基于iDempiere 3.0开发版的翻译文件
-           基于分支： https://launchpad.net/idempiere-localize
-		   文件版本：zh_CN for iDempiere 1.0c alpha
-		   许可协议：基于GNU GPL v2 <2013> iDempiere Community
+2016-12-09 创建基于iDempiere 4.1开发版的翻译文件
+2015-04-02 创建基于iDempiere 3.1开发版的翻译文件
 --------------------------------------
 
 --------------------------------------
