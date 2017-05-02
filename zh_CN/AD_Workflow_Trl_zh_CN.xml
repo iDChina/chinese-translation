@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Workflow">
  <row id="101" trl="Y">
-  <value column="Name" original="Project Setup and Use">项目设置与使用</value>
+  <value column="Name" original="Project Setup and Use">设置_项目</value>
   <value column="Description" original="Setup of projects and project reporting">项目与项目报表的设置</value>
   <value column="Help" original="Projects allow to monitor the status and progress of sales opportunities, service projects and investment projects. A Project is a process that is undertaken which can involve multiple steps or phases and require resources from more than one area.">Projects allow to monitor the status and progress of sales opportunities, service projects and investment projects. A Project is a process that is undertaken which can involve multiple steps or phases and require resources from more than one area</value>
  </row>
  <row id="103" trl="Y">
-  <value column="Name" original="Language Setup">语言设置</value>
+  <value column="Name" original="Language Setup">设置_语言</value>
   <value column="Description" original="Setup a new Language of the system and translate elements">设置系统的新语言并翻译元素</value>
   <value column="Help" original="Define a new language as a system language.">在系统语言中定义新的语言</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Initial Client Setup Review">实体设置工作流</value>
+  <value column="Name" original="Initial Client Setup Review">设置_实体</value>
   <value column="Description" original="Review of system level setup of a new  Client">检查新实体的系统级设置</value>
   <value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup">This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.
 You may want to check also the following Workflows:
@@ -23,27 +23,27 @@ You may want to check also the following Workflows:
 - Tax Setup</value>
  </row>
  <row id="105" trl="Y">
-  <value column="Name" original="Accounting Setup">会计设置</value>
+  <value column="Name" original="Accounting Setup">设置_会计</value>
   <value column="Description" original="Review and change Accounting Setup">审核与更改会计设置</value>
   <value column="Help" original="This workflow allows you to review and change your Accounting Rules. ">This workflow allows you to review and change your Accounting Rules. </value>
  </row>
  <row id="106" trl="Y">
-  <value column="Name" original="Business Partner Setup">业务伙伴设置</value>
+  <value column="Name" original="Business Partner Setup">设置_业务伙伴</value>
   <value column="Description" original="Setup Business Partner Rules">设置业务伙伴规则</value>
   <value column="Help" original="This workflow defines the Business Partners and the supporting rules.">This workflow defines the Business Partners and the supporting rules</value>
  </row>
  <row id="107" trl="Y">
-  <value column="Name" original="Product Setup">产品设置</value>
+  <value column="Name" original="Product Setup">设置_产品</value>
   <value column="Description" original="Set up Products">设置产品</value>
   <value column="Help" original="Define your products manually. You should verify the settings especially if you import your products.">Define your products manually. You should verify the settings especially if you import your products</value>
  </row>
  <row id="108" trl="Y">
-  <value column="Name" original="Price List Setup">价格表设置</value>
+  <value column="Name" original="Price List Setup">设置_价格表</value>
   <value column="Description" original="Define your Price Lists and Discounts">定义价格表与折扣</value>
   <value column="Help" original="You define your price lists after entering or importing your products. In addition to price lists, you can define discounts for business partners.  Assign specific Price Lists and Discounst to Business Partners.">You define your price lists after entering or importing your products. In addition to price lists, you can define discounts for business partners.  Assign specific Price Lists and Discounst to Business Partners</value>
  </row>
  <row id="109" trl="Y">
-  <value column="Name" original="Replication Setup">复制设置</value>
+  <value column="Name" original="Replication Setup">设置_复制</value>
   <value column="Description" original="Setup of data replication">设置数据复制</value>
   <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Define Replication per Remote&lt;br&gt;&#10;- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;&#10;- Initially Start the Replication Run to setup Remote&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- Start the Replication Run when required"><![CDATA[Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.<p>
 <b>Central System:</b><br>
@@ -66,17 +66,17 @@ You may want to check also the following Workflows:
 - Start the Replication Run when required]]></value>
  </row>
  <row id="110" trl="Y">
-  <value column="Name" original="Tax Setup">税设置</value>
+  <value column="Name" original="Tax Setup">设置_税</value>
   <value column="Description" original="Setup tax calculation">设置税的计算</value>
   <value column="Help" original="Setup the tax calculation for products, services and charges">Setup the tax calculation for products, services and charges</value>
  </row>
  <row id="111" trl="Y">
-  <value column="Name" original="Sales Setup">销售设置</value>
+  <value column="Name" original="Sales Setup">设置_销售</value>
   <value column="Description" original="Setup Sales">销售设置</value>
   <value column="Help" original="Setting up Sales Representatives, Commissions as well as Marketing Channels and Campaigns.">设立销售代表、佣金以及营销渠道和活动</value>
  </row>
  <row id="112" trl="Y">
-  <value column="Name" original="Performance Measurement Setup">绩效分析设置</value>
+  <value column="Name" original="Performance Measurement Setup">设置_绩效分析</value>
   <value column="Description" original="Setup your Performance Measurement">设置绩效评估</value>
   <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)">This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.
 
@@ -93,12 +93,12 @@ You have three ways measuring performance:
 The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)</value>
  </row>
  <row id="113" trl="Y">
-  <value column="Name" original="Request Setup">请求设置</value>
+  <value column="Name" original="Request Setup">设置_请求</value>
   <value column="Description" original="Set up the client to process requests">设置实体以处理请求</value>
   <value column="Help" original=""/>
  </row>
  <row id="114" trl="Y">
-  <value column="Name" original="Requisition Setup">采购申请设置</value>
+  <value column="Name" original="Requisition Setup">设置_采购申请</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -183,27 +183,27 @@ The system converts the measures into percentages (based on the target and achie
   <value column="Help" original=""/>
  </row>
  <row id="131" trl="Y">
-  <value column="Name" original="Business Partner Approval">业务伙伴审批</value>
+  <value column="Name" original="Business Partner Approval">单据值_业务伙伴审批</value>
   <value column="Description" original="Example Document based workflow">示范基于单据值的工作流</value>
   <value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">When a new Business Partner is created, it is forwarded for review and credit check</value>
  </row>
  <row id="50000" trl="Y">
-  <value column="Name" original="Manufacturing Management Setup">生产管理设置</value>
+  <value column="Name" original="Manufacturing Management Setup">设置_生产管理</value>
   <value column="Description" original="Setup Manufacturing Management">设置生产管理</value>
   <value column="Help" original="This workflow defines the Manufacturing Management and the supporting rules.">This workflow defines the Manufacturing Management and the supporting rules</value>
  </row>
  <row id="50001" trl="Y">
-  <value column="Name" original="Manufacturing Workflow Setup">生产工艺设置</value>
+  <value column="Name" original="Manufacturing Workflow Setup">设置_生产工艺</value>
   <value column="Description" original="Setup Manufacturing Workflow">设置生产工艺</value>
   <value column="Help" original="This workflow defines the Manufacturing Workflow  Setup">This workflow defines the Manufacturing Workflow  Setup</value>
  </row>
  <row id="50002" trl="Y">
-  <value column="Name" original="Bill of Material &amp; Formula Setup">物料清单与配方设置</value>
+  <value column="Name" original="Bill of Material &amp; Formula Setup">设置_物料清单与配方</value>
   <value column="Description" original="Setup Bill of Material &amp; Formula">设置物料清单 配方</value>
   <value column="Help" original="This workflow defines the Bill of Material &amp; Formula"><![CDATA[This workflow defines the Bill of Material & Formula]]></value>
  </row>
  <row id="50003" trl="Y">
-  <value column="Name" original="Planning Management Setup">计划管理设置</value>
+  <value column="Name" original="Planning Management Setup">设置_计划管理</value>
   <value column="Description" original="Setup Planning Management">设置计划管理</value>
   <value column="Help" original="Before the production processes can be done, it is necessary to plan the activities which must be accomplished to assure the products can be gotten at the right time in order not to remain a long time in the warehouse, or at the contrary, to cause delays in shipments because components shortages in the manufacturing order.&#10;&#10;Another subject to take into account are the production cost and the capacity of shipping good quality products.&#10;&#10;Using Planning Management you answer the question: When and How Many products we must get?">Before the production processes can be done, it is necessary to plan the activities which must be accomplished to assure the products can be gotten at the right time in order not to remain a long time in the warehouse, or at the contrary, to cause delays in shipments because components shortages in the manufacturing order.
 
@@ -212,22 +212,22 @@ Another subject to take into account are the production cost and the capacity of
 Using Planning Management you answer the question: When and How Many products we must get?</value>
  </row>
  <row id="50004" trl="Y">
-  <value column="Name" original="Material Requirement Planning Setup">物料需求计划设置</value>
+  <value column="Name" original="Material Requirement Planning Setup">设置_物料需求计划</value>
   <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求计划(MRP) ,是一种利用物料清单,库存数据,和主生产计划来计算物料需求的技术</value>
   <value column="Help" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials. It create planned orders to balance demand ans supply for products and it issues recommendations to receipt material with the right quantities and at the right dates to satisfy the Master Production Schedule in the most efficient way.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials. It create planned orders to balance demand ans supply for products and it issues recommendations to receipt material with the right quantities and at the right dates to satisfy the Master Production Schedule in the most efficient way</value>
  </row>
  <row id="50005" trl="Y">
-  <value column="Name" original="Capacity Requirement Planning Setup">能力需求计划设置</value>
+  <value column="Name" original="Capacity Requirement Planning Setup">设置_能力需求计划</value>
   <value column="Description" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">计算产能计划的过程中，可以让我们知道可用的时间，以及在每个制造资源所需的时间，以满足主生产计划</value>
   <value column="Help" original="It is a set of techniques which uses the planned orders by MRP, open manufacturing orders, manufacturing resources and the work-flows to calculate the required time for each resource along with the available time. With this information, we are able to balance the time demand with the available time. Through the knowledge of the required and available capacities it is possible to adjust the Master Production Schedule(MPS) until we arrive at a realistic one.">It is a set of techniques which uses the planned orders by MRP, open manufacturing orders, manufacturing resources and the work-flows to calculate the required time for each resource along with the available time. With this information, we are able to balance the time demand with the available time. Through the knowledge of the required and available capacities it is possible to adjust the Master Production Schedule(MPS) until we arrive at a realistic one</value>
  </row>
  <row id="50006" trl="Y">
-  <value column="Name" original="Distribution Resource Planning Setup">配送资源计划设置</value>
+  <value column="Name" original="Distribution Resource Planning Setup">设置_配送资源计划</value>
   <value column="Description" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">是一种用在供应链计划订单的企业管理的方法。DRP使用户可以设置一定的库存控制参数（如安全库存）和计算时间分阶段的库存要求</value>
   <value column="Help" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements</value>
  </row>
  <row id="50007" trl="Y">
-  <value column="Name" original="Discrete Manufacturing Setup">离散制造设置</value>
+  <value column="Name" original="Discrete Manufacturing Setup">设置_离散制造</value>
   <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">一旦生产计划过程完成后，生产控制过程是为了让我们检查确保执行活动能够达到物料计划</value>
   <value column="Help" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.&#10;&#10;Each time you need to release an order you need to be sure the components are complete in the warehouse, this is obtained by tracking the release and due dates for every component, this is easy to get using the shortages reports and from this module.&#10;&#10;This module mainly answer the question:&#10;&#10;What do I need to do to accomplish the&#10;MPS?&#10;&#10;If you cannot cover the MPS as you had planned, this module gives you information needed to decrease the effect on the costs and on the customer service.">Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.
 
@@ -251,7 +251,7 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Help" original=""/>
  </row>
  <row id="50010" trl="Y">
-  <value column="Name" original="Distribution Management Setup">配送管理设置</value>
+  <value column="Name" original="Distribution Management Setup">设置_配送管理</value>
   <value column="Description" original="Setup Distribution Management">设置配送管理</value>
   <value column="Help" original=""/>
  </row>
@@ -261,7 +261,7 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Help" original=""/>
  </row>
  <row id="50012" trl="Y">
-  <value column="Name" original="Setup Replication">设置复制</value>
+  <value column="Name" original="Setup Replication">设置_复制</value>
   <value column="Description" original="Setup of data replication">设置数据复制</value>
   <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;"><![CDATA[Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.<p>
 <b>Central System:</b><br>
@@ -290,27 +290,27 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Help" original=""/>
  </row>
  <row id="50014" trl="Y">
-  <value column="Name" original="Setup Human Resource &amp; Payroll">设置人力资源与薪酬</value>
+  <value column="Name" original="Setup Human Resource &amp; Payroll">设置_人力资源与薪酬</value>
   <value column="Description" original="Setup Human Resource &amp; Payroll">设置人力资源与薪酬</value>
   <value column="Help" original=""/>
  </row>
  <row id="50015" trl="Y">
-  <value column="Name" original="Patio Chair">户外椅</value>
+  <value column="Name" original="Patio Chair">工艺路线_户外椅</value>
   <value column="Description" original="Routing for Assembly the Patio Chair">装配路线</value>
   <value column="Help" original=""/>
  </row>
  <row id="50016" trl="Y">
-  <value column="Name" original="Lawn Fertilizer">草坪化肥</value>
+  <value column="Name" original="Lawn Fertilizer">工艺路线_草坪化肥</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50017" trl="Y">
-  <value column="Name" original="Fertilizer Packing Process">化肥包装加工</value>
+  <value column="Name" original="Fertilizer Packing Process">工艺路线_化肥包装加工</value>
   <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">包装 50、70公斤化肥的生产线 </value>
   <value column="Help" original=""/>
  </row>
  <row id="50018" trl="Y">
-  <value column="Name" original="Patio Furniture Set">户外装饰套件</value>
+  <value column="Name" original="Patio Furniture Set">工艺路线_户外装饰套件</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

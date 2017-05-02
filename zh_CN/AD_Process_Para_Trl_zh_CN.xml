@@ -16,7 +16,7 @@
   <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">付款规则指此发票会如何处置，你可以在发票覆盖该值</value>
  </row>
  <row id="315" trl="Y">
-  <value column="Name" original="From User">从用户</value>
+  <value column="Name" original="From User">发件人</value>
   <value column="Description" original="Send EMail from user">来自于用户的邮件</value>
   <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">邮件被发送到选择的用户 - 否则，邮件被发送到客户端的请求电子邮件地址</value>
  </row>
@@ -66,13 +66,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="50001" trl="Y">
-  <value column="Name" original="Role To">到...角色</value>
-  <value column="Description" original="Responsibility Role">责任角色</value>
+  <value column="Name" original="Role To">目的角色</value>
+  <value column="Description" original="Responsibility Role">目的角色</value>
   <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
  </row>
  <row id="50002" trl="Y">
-  <value column="Name" original="Role From">从...角色</value>
-  <value column="Description" original="Responsibility Role">责任角色</value>
+  <value column="Name" original="Role From">来源角色</value>
+  <value column="Description" original="Responsibility Role">来源角色</value>
   <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
  </row>
  <row id="50008" trl="Y">
@@ -116,22 +116,22 @@
   <value column="Help" original=""/>
  </row>
  <row id="53032" trl="Y">
-  <value column="Name" original="Action">行动</value>
+  <value column="Name" original="Action">动作</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53066" trl="Y">
-  <value column="Name" original="Is Print Pack &amp; Tools List">是打印拣货和工具清单</value>
+  <value column="Name" original="Is Print Pack &amp; Tools List">打印工具/包装单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53068" trl="Y">
-  <value column="Name" original="Is Print Pick List">是打印拣货清单</value>
+  <value column="Name" original="Is Print Pick List">打印拣货清单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53069" trl="Y">
-  <value column="Name" original="Is Print Workflow">是打印工作流</value>
+  <value column="Name" original="Is Print Workflow">打印工艺路线</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -176,12 +176,12 @@
   <value column="Help" original="The Valid From date indicates the first day of a date range">有效起始日期表示日期范围的第一天</value>
  </row>
  <row id="53246" trl="Y">
-  <value column="Name" original="Bank Account From">从...银行存款</value>
+  <value column="Name" original="Bank Account From">汇出账户</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53247" trl="Y">
-  <value column="Name" original="Bank Account To">到...银行存款</value>
+  <value column="Name" original="Bank Account To">汇入账户</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -241,7 +241,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53314" trl="Y">
-  <value column="Name" original="Full rebuild">全部重建</value>
+  <value column="Name" original="Full rebuild">全部重算</value>
   <value column="Description" original="Delete all existing summary data and recalculate.">删除所有存在的汇总数据并重新计算</value>
   <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">如果没有选择，只有最近期间过账的会计记录会被重新计算</value>
  </row>
@@ -271,8 +271,8 @@
   <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
  </row>
  <row id="53526" trl="Y">
-  <value column="Name" original="Is Kanban">是看板(KANBAN)</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Is Kanban">看板产品</value>
+  <value column="Description" original="">是否为看板产品</value>
   <value column="Help" original=""/>
  </row>
  <row id="53582" trl="N">
@@ -286,12 +286,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="200007" trl="Y">
-  <value column="Name" original="Reset Existing Access">列 权限</value>
-  <value column="Description" original="Reset Existing Access">列 权限</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Reset Existing Access">重置已有权限</value>
+  <value column="Description" original="Reset Existing Access">重置用户已存在的权限访问记录</value>
+  <value column="Help" original="">重置用户已存在的权限访问记录</value>
  </row>
  <row id="200055" trl="N">
-  <value column="Name" original="Product">商品</value>
+  <value column="Name" original="Product">产品</value>
   <value column="Description" original="Please enter the product (component) you wish to search for">请输入你要搜索的产品（组件）</value>
   <value column="Help" original=""/>
  </row>
@@ -336,8 +336,8 @@
   <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
  </row>
  <row id="200086" trl="N">
-  <value column="Name" original="Inactivate Defaults">Inactivate Defaults</value>
-  <value column="Description" original="Inactivate Defaults after Created">Inactivate Defaults after Created</value>
+  <value column="Name" original="Inactivate Defaults">无效缺省值</value>
+  <value column="Description" original="Inactivate Defaults after Created"/>
   <value column="Help" original=""/>
  </row>
  <row id="200102" trl="N">
@@ -346,8 +346,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="200121" trl="N">
-  <value column="Name" original="Inbox As Root Folder">Inbox As Root Folder</value>
-  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">True if other folder (request, error,..) occupy in inbox folder</value>
+  <value column="Name" original="Inbox As Root Folder">收件箱根目录</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder"/>
   <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
 this field define where request, error,.. occupy.</value>
  </row>

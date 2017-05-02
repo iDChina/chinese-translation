@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
  <row id="1" trl="Y">
-  <value column="Name" original="AD_Reference Data Types">AD_Reference 数据类型</value>
-  <value column="Description" original="Data Type selection">数据类型选择</value>
+  <value column="Name" original="AD_Reference Data Types">AD数据引用类型</value>
+  <value column="Description" original="Data Type selection">AD_Reference Data Types，AD数据类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="2" trl="Y">
@@ -41,7 +41,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="13" trl="Y">
-  <value column="Name" original="ID">身份证</value>
+  <value column="Name" original="ID">ID</value>
   <value column="Description" original="10 Digit Identifier">10位数字标识</value>
   <value column="Help" original=""/>
  </row>
@@ -51,7 +51,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="15" trl="Y">
-  <value column="Name" original="Date">事务处理日期</value>
+  <value column="Name" original="Date">日期</value>
   <value column="Description" original="Date mm/dd/yyyy">日期 mm/dd/yyyy</value>
   <value column="Help" original=""/>
  </row>
@@ -61,7 +61,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="17" trl="Y">
-  <value column="Name" original="List">列表</value>
+  <value column="Name" original="List">引用</value>
   <value column="Description" original="Reference List">引用列表</value>
   <value column="Help" original=""/>
  </row>
@@ -71,13 +71,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="19" trl="Y">
-  <value column="Name" original="Table Direct">直接访问表</value>
-  <value column="Description" original="Direct Table Access">直接访问表，字段命名必须是“表名_ID”</value>
+  <value column="Name" original="Table Direct">表直接</value>
+  <value column="Description" original="Direct Table Access">字段命名必须是“表_ID”</value>
   <value column="Help" original=""/>
  </row>
  <row id="20" trl="Y">
-  <value column="Name" original="Yes-No">是-否</value>
-  <value column="Description" original="CheckBox">检查框</value>
+  <value column="Name" original="Yes-No">Yes-No</value>
+  <value column="Description" original="CheckBox">Boolean的引用为“”Y“或者N”字符</value>
   <value column="Help" original=""/>
  </row>
  <row id="21" trl="Y">
@@ -86,7 +86,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="22" trl="Y">
-  <value column="Name" original="Number">号码</value>
+  <value column="Name" original="Number">数字</value>
   <value column="Description" original="Float Number">浮点数</value>
   <value column="Help" original=""/>
  </row>
@@ -126,12 +126,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="30" trl="Y">
-  <value column="Name" original="Search">搜索记录</value>
+  <value column="Name" original="Search">搜索</value>
   <value column="Description" original="Search Field">搜索字段</value>
   <value column="Help" original=""/>
  </row>
  <row id="31" trl="Y">
-  <value column="Name" original="Locator (WH)">库位(WH)</value>
+  <value column="Name" original="Locator (WH)">库位</value>
   <value column="Description" original="Warehouse Locator Data type">储入仓库货位数据类型</value>
   <value column="Help" original=""/>
  </row>
@@ -141,7 +141,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="33" trl="Y">
-  <value column="Name" original="Assignment">分配</value>
+  <value column="Name" original="Assignment">资源分配</value>
   <value column="Description" original="Resource Assignment">资源分配</value>
   <value column="Help" original=""/>
  </row>
@@ -256,8 +256,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="115" trl="Y">
-  <value column="Name" original="C_Period Type">C_期间类型</value>
-  <value column="Description" original="Period Type list">分期类型列表</value>
+  <value column="Name" original="C_Period Type">期间类型</value>
+  <value column="Description" original="Period Type list">期间类型列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="116" trl="Y">
@@ -311,7 +311,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="128" trl="Y">
-  <value column="Name" original="AD_Sequence for Documents">AD_序号 用于单据</value>
+  <value column="Name" original="AD_Sequence for Documents">单据序号</value>
   <value column="Description" original="Sequence for Document selection">单据选择的顺序</value>
   <value column="Help" original=""/>
  </row>
@@ -571,7 +571,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="189" trl="Y">
-  <value column="Name" original="M_Transaction Movement Type">M_Transaction 移动类型</value>
+  <value column="Name" original="M_Transaction Movement Type">M_Transaction 移库类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -626,7 +626,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200" trl="Y">
-  <value column="Name" original="C_Charge">C_费用</value>
+  <value column="Name" original="C_Charge">杂费</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -651,12 +651,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="205" trl="Y">
-  <value column="Name" original="AD_Find Operation">AD_查找 操作</value>
+  <value column="Name" original="AD_Find Operation">AD_查找 运算符</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="206" trl="Y">
-  <value column="Name" original="AD_Table Posting">AD_Table 过账</value>
+  <value column="Name" original="AD_Table Posting">AD_Table 过账表</value>
   <value column="Description" original="Posting Tables">过账表</value>
   <value column="Help" original=""/>
  </row>
@@ -741,7 +741,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="224" trl="Y">
-  <value column="Name" original="C_Commission DocBasis">C_Commission 单据来源</value>
+  <value column="Name" original="C_Commission DocBasis">C_Commission 佣金依据</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1541,7 +1541,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="395" trl="Y">
-  <value column="Name" original="CM_Chat ModerationType">CM_Chat ModerationType</value>
+  <value column="Name" original="CM_Chat ModerationType">CM_Chat 审核类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1856,7 +1856,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53270" trl="Y">
-  <value column="Name" original="A_Disposal_Method">A_清理_方法</value>
+  <value column="Name" original="A_Disposal_Method">处置方法</value>
   <value column="Description" original="Method of Disposals">资产处置</value>
   <value column="Help" original=""/>
  </row>
@@ -1866,7 +1866,7 @@
   <value column="Help" original="List of financing methods for assets">资产融资方式一览</value>
  </row>
  <row id="53272" trl="Y">
-  <value column="Name" original="A_Payment_Due">A_Payment_Due</value>
+  <value column="Name" original="A_Payment_Due">付款日</value>
   <value column="Description" original="Payment due every">每个付款到期日</value>
   <value column="Help" original=""/>
  </row>
@@ -1951,7 +1951,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53291" trl="Y">
-  <value column="Name" original="SearchType">Search类型</value>
+  <value column="Name" original="SearchType">搜索类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2351,7 +2351,7 @@
   <value column="Help" original="Label print methods - Image, Zebra or Eltron">标签打印方法 - 图像，Zebra或者Eltron标签打印机</value>
  </row>
  <row id="200028" trl="Y">
-  <value column="Name" original="Freight Charges">生成杂费</value>
+  <value column="Name" original="Freight Charges">运费</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2557,7 +2557,22 @@
  </row>
  <row id="200121" trl="N">
   <value column="Name" original="AD_Style">AD_Style</value>
-  <value column="Description" original="CSS Style">CSS样式</value>
+  <value column="Description" original="CSS Style">CSS Style</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200122" trl="Y">
+  <value column="Name" original="Dashboard Content">仪表盘内容</value>
+  <value column="Description" original="Dashboard Content">仪表盘内容</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200127" trl="Y">
+  <value column="Name" original="Single Selection Grid">单选网格</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200128" trl="Y">
+  <value column="Name" original="Multiple Selection Grid">多选网格</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process">
  <row id="100" trl="Y">
-  <value column="Name" original="Create Periods ">创建分期 </value>
+  <value column="Name" original="Create Periods ">创建期间</value>
   <value column="Description" original="Create 12 standard calendar periods.">新建标准年度期间</value>
   <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. ">以指定的日期为起始日期新建年度期间。 如果没有指定起始日期，将会默认为1月1日。期间名称将有通过使用JAVA类SimpleDateFormat从起始日期值中得到</value>
  </row>
@@ -71,9 +71,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="115" trl="Y">
-  <value column="Name" original="Vendor Selection">供应商选择</value>
-  <value column="Description" original="Products with more than one vendor">产品具有多个供应商</value>
-  <value column="Help" original="Vendor Selection is initiated when there is a product that is supplied by more than one vendor.  It allows the selection of a specific vendor for a Purchase Order.">当存在超过1个供应商供应的产品时，供应商选择被初始化。它允许为采购订单选择特定的供应商</value>
+  <value column="Name" original="Vendor Selection">首选供应商明细</value>
+  <value column="Description" original="Products with more than one vendor">首选供应商明细报表</value>
+  <value column="Help" original="Vendor Selection is initiated when there is a product that is supplied by more than one vendor.  It allows the selection of a specific vendor for a Purchase Order.">产品有多个供应商供货，应选择一个指定的供应商，以让采购订单能选择到首选。</value>
  </row>
  <row id="116" trl="Y">
   <value column="Name" original="Invoice Print ">发票打印 </value>
@@ -96,7 +96,7 @@
   <value column="Help" original="Invoices for open Orders are created based on the invoice rule of the Order.&#10;If several Orders of a business partner have the same bill location, the orders can be consolidated into one Invoice.">未结订单的发票基于订单的发票规则而创建。如果一个业务伙伴的多个订单具有相同的发票位置，那么这些订单可以被合并至相同的单一发票中</value>
  </row>
  <row id="120" trl="Y">
-  <value column="Name" original="Order Transactions">订单事务处理</value>
+  <value column="Name" original="Order Transactions">订单事务</value>
   <value column="Description" original="Order Transactions">订单事务处理</value>
   <value column="Help" original="With this report we can verify the detail of every Manufacturing Order transaction executed with a Manufacturing Order including information like document number, quantities, products and the date in which the transactions were made, etc.">在这份报告中，我们可以验证每一个生产订单交易的细节，包括文档编号，数量，产品的交易日期等信息</value>
  </row>
@@ -116,13 +116,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="124" trl="Y">
-  <value column="Name" original="Product Transaction Summary">产品事务处理汇总</value>
-  <value column="Description" original="Product Transaction Summary">产品事务处理汇总</value>
+  <value column="Name" original="Product Transaction Summary">产品事务汇总</value>
+  <value column="Description" original="Product Transaction Summary">产品事务汇总</value>
   <value column="Help" original="The report shows transaction summary for stored products">报表显示所存储的产品的事务处理摘要</value>
  </row>
  <row id="125" trl="Y">
-  <value column="Name" original="Replenish Report">补仓报表</value>
-  <value column="Description" original="Inventory Replenish Report">库存补仓报表</value>
+  <value column="Name" original="Replenish Report">补货报表</value>
+  <value column="Description" original="Inventory Replenish Report">库存补货报表</value>
   <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。需要手工选择一个当前供应商。<br>仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
  </row>
  <row id="126" trl="Y">
@@ -131,37 +131,37 @@
   <value column="Help" original=""/>
  </row>
  <row id="127" trl="Y">
-  <value column="Name" original="Invoice Transactions (Acct)">发票事务处理 (账户)</value>
+  <value column="Name" original="Invoice Transactions (Acct)">发票事务 (记账日期)</value>
   <value column="Description" original="Invoice Transactions by Accounting Date">按会计日期的发票事务处理</value>
   <value column="Help" original="The report lists the invoice transactions by accounting date">报表按会计日期列出发票事务处理</value>
  </row>
  <row id="128" trl="Y">
-  <value column="Name" original="Daily Invoice">日发票</value>
+  <value column="Name" original="Daily Invoice">每日发票</value>
   <value column="Description" original="Invoice Report per Day">每日的发票报表</value>
   <value column="Help" original="Invoiced amount by Organization and Sales Rep">各组织与销售代表的开票金额</value>
  </row>
  <row id="129" trl="Y">
-  <value column="Name" original="Monthly Invoice">月度发票</value>
+  <value column="Name" original="Monthly Invoice">每月发票</value>
   <value column="Description" original="Invoice Report per Month">按月的发票报表</value>
   <value column="Help" original="Invoiced amount by Organization and Sales Rep">各组织与销售代表的开票金额</value>
  </row>
  <row id="130" trl="Y">
-  <value column="Name" original="Weekly Invoice">周发票</value>
+  <value column="Name" original="Weekly Invoice">每周发票</value>
   <value column="Description" original="Invoice Report per Week">按周的发票报表</value>
   <value column="Help" original="Invoiced amount by Organization and Sales Rep">各组织与销售代表的开票金额</value>
  </row>
  <row id="131" trl="Y">
-  <value column="Name" original="Weekly Invoice Prod Cat">周发票 (产品类别)</value>
+  <value column="Name" original="Weekly Invoice Prod Cat">每周发票 (产品类别)</value>
   <value column="Description" original="Invoice Report by Product Category per Week">按产品类别的周发票报表</value>
   <value column="Help" original="Invoiced Amount by Product Category">按产品类别的开票金额</value>
  </row>
  <row id="132" trl="Y">
-  <value column="Name" original="Monthly Invoice Prod Cat">月度发票 (产品类别)</value>
+  <value column="Name" original="Monthly Invoice Prod Cat">每月发票 (产品类别)</value>
   <value column="Description" original="Invoice Report by Product Category per Month">按产品类别的月度发票报表</value>
   <value column="Help" original="Invoiced Amount by Product Category">按产品类别的开票金额</value>
  </row>
  <row id="133" trl="Y">
-  <value column="Name" original="Monthly Invoice Vendor">月度发票 (供应商)</value>
+  <value column="Name" original="Monthly Invoice Vendor">每月发票 (供应商)</value>
   <value column="Description" original="Invoice Report by Product Vendor per Month">按产品供应商的月度发票报表</value>
   <value column="Help" original="Invoiced Amount by Vendor and Product Category">按供应商与产品类别的开票金额</value>
  </row>
@@ -186,12 +186,12 @@
   <value column="Help" original="Create/Post Production will generate the production lines and process the production.  If the production lines already exists, the production will be processed">“创建/过账生产”将生成生产行并处理生产,如果生产行已存在，则处理它</value>
  </row>
  <row id="138" trl="Y">
-  <value column="Name" original="Quarterly Invoice Customer by Product">季发票 (客户, 产品)</value>
+  <value column="Name" original="Quarterly Invoice Customer by Product">季度发票 (产品)</value>
   <value column="Description" original="Invoice Report by Customer and Product Category per Quarter">按客户和产品类别的季度发票报表</value>
   <value column="Help" original="Invoiced Amount by Customer and Product Category">按客户和产品类别的开票金额</value>
  </row>
  <row id="139" trl="Y">
-  <value column="Name" original="Quarterly Invoice Customer by Vendor">季发票 (客户, 供应商)</value>
+  <value column="Name" original="Quarterly Invoice Customer by Vendor">季度发票 (客户+供应商)</value>
   <value column="Description" original="Invoice Report by Customer and Product Vendor per Quarter">按客户和产品供应商季度发票报表</value>
   <value column="Help" original="Invoiced Amount by Customer and Vendor (what customer bought from which vendor)">按客户和供应商 (哪个客户从哪个供应商处购买) 的开票金额</value>
  </row>
@@ -211,8 +211,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="145" trl="Y">
-  <value column="Name" original="Open Items">未清项</value>
-  <value column="Description" original="Open Item (Invoice) List">未清项（发票）清单</value>
+  <value column="Name" original="Open Items">未清发票</value>
+  <value column="Description" original="Open Item (Invoice) List">未清发票清单</value>
   <value column="Help" original="Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.">显示给定业务伙伴和日期范围条件下的所有未付发票。请注意，现金支付的发票将显示在开放账目中，直到现金日记账被处理</value>
  </row>
  <row id="146" trl="Y">
@@ -241,7 +241,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="151" trl="Y">
-  <value column="Name" original="Invoice Transactions (Doc)">发票事务处理 (单据)</value>
+  <value column="Name" original="Invoice Transactions (Doc)">发票事务 (开票日期)</value>
   <value column="Description" original="Invoice Transactions by Invoice Date">按单据日期的发票事务处理</value>
   <value column="Help" original="The report lists the invoice transactiobs by invoice date">报表按单据日期列出发票事务处理</value>
  </row>
@@ -276,8 +276,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="161" trl="Y">
-  <value column="Name" original="Product Transaction Value">产品事务处理值</value>
-  <value column="Description" original="Product Transaction Value">产品事务处理值</value>
+  <value column="Name" original="Product Transaction Value">物料事务金额</value>
+  <value column="Description" original="Product Transaction Value">物料事务金额</value>
   <value column="Help" original="The report shows product transactions with current vendor prices">报表显示包含价值的产品事务处理</value>
  </row>
  <row id="162" trl="Y">
@@ -321,9 +321,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="171" trl="Y">
-  <value column="Name" original="Receivables Write-Off">应收勾销</value>
-  <value column="Description" original="Write off open receivables">勾销未结的应收款</value>
-  <value column="Help" original="Write-off receivables causes the invoices selected by the criteria to be marked as paid and the open invoice amount to be written off.  Alternatively you can create payments.">勾销应收会使得依据条件选取的发票被标记为已支付，且未结发票金额被勾销。可选地，可以创建付款</value>
+  <value column="Name" original="Receivables Write-Off">往来勾销</value>
+  <value column="Description" original="Write off open receivables">勾销未结的应收/应付款</value>
+  <value column="Help" original="Write-off receivables causes the invoices selected by the criteria to be marked as paid and the open invoice amount to be written off.  Alternatively you can create payments.">往来勾销会使得依据条件选取的发票被标记为已支付，且未结发票金额被勾销。可选创建付款</value>
  </row>
  <row id="172" trl="Y">
   <value column="Name" original="Synchronize Terminology">同步术语</value>
@@ -341,7 +341,7 @@
   <value column="Help" original="Based on the table columns of this Tab, this procedure creates the missing Fields">基于该页签的表，此过程创建缺失的字段</value>
  </row>
  <row id="175" trl="Y">
-  <value column="Name" original="Resubmit Posting">重过账</value>
+  <value column="Name" original="Resubmit Posting">重新过账</value>
   <value column="Description" original="Resubmit posting of documents with posting errors or locked documents">重新提交带过账错误的单据过账</value>
   <value column="Help" original="After resubmitting, the accounting engine will try to post the document again. You resubmit documents, if they are locked or when the document had posting errors - after fixing the cause (e.g. opening period).">在会计引擎下次运行之时，含有过账错误的单据被复位和过账 - 在修复原因之后 (如打开期间)</value>
  </row>
@@ -357,8 +357,8 @@
 注意增加缺少的翻译记录是使用系统语言（英语）的副本创建他们.  在处理之后，需要应用语言包.  在导入翻译后，运行“同步术语”</value>
  </row>
  <row id="180" trl="Y">
-  <value column="Name" original="Inventory Valuation Report">库存重估报表</value>
-  <value column="Description" original="Inventory Valuation Report">库存重估报表</value>
+  <value column="Name" original="Inventory Valuation Report">库存估值报表</value>
+  <value column="Description" original="Inventory Valuation Report">库存估值报表</value>
   <value column="Help" original="Report lists products with their on-hand quantity and values at the valuation date. In addition to several prices, standard costs and an optional other cost element is used to calculate the inventory of the particular warehouse.">报表列出了产品的现有数量和在估值日期对应的价值。除多个价格外，标准成本和可选的其他成本元素用于计算特定仓库的库存</value>
  </row>
  <row id="181" trl="Y">
@@ -367,7 +367,7 @@
   <value column="Help" original="When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.">当选定时,这数据库列定义是根据你的输入的应用字典的列定义更新.注意不是所有的改变信息都被数据库支持和可能导致错误</value>
  </row>
  <row id="182" trl="Y">
-  <value column="Name" original="Standard Cost Update">标准成本更新</value>
+  <value column="Name" original="Standard Cost Update">更新标准成本</value>
   <value column="Description" original="Set standard and future cost price">设置标准成本价格和未来成本价格</value>
   <value column="Help" original="For Standard Costs you can set/recalculate the current or future cost price (for the cost type of the accounting schema). If the Costing Level of the Accounting Schema is set to Client, missing cost records are created. The historical costs are calculated based on the accumulated amount/quantity of the costing method.">对于标准成本，可以设置/重新计算当前或未来成本价格 (针对会计模式的成本类型)。如果会计模式的成本计算级别被设置为实体，缺失的成本记录将被创建。历史成本基于成本计算方法的累计金额/数量进行计算</value>
  </row>
@@ -467,8 +467,8 @@
 备注: 如果仅输入一个单据号的值，会打印出所有的单据号大于或等于此单据号值的发票; 可以选择使用“%”字符作为通配符.]]></value>
  </row>
  <row id="201" trl="Y">
-  <value column="Name" original="Deliver Assets">交付资产</value>
-  <value column="Description" original="Deliver Customer Assets electronically">电子地递送客户资产</value>
+  <value column="Name" original="Deliver Assets">发送资产报告</value>
+  <value column="Description" original="Deliver Customer Assets electronically">发送客户资产报告</value>
   <value column="Help" original="Send Mail to customers and attach new delivery (optional).">发送邮件给客户，并将新的交付附加上去 (可选地)</value>
  </row>
  <row id="202" trl="Y">
@@ -482,8 +482,8 @@
   <value column="Help" original="This process is run automatically">此流程是自动运行的</value>
  </row>
  <row id="204" trl="Y">
-  <value column="Name" original="Statement of Accounts">账户对账单</value>
-  <value column="Description" original="Report Account Statement Beginning Balance and Transactions">账户对账单期初余额和事务处理的报表</value>
+  <value column="Name" original="Statement of Accounts">账户状况表</value>
+  <value column="Description" original="Report Account Statement Beginning Balance and Transactions">账户期初余额和事务处理的报表</value>
   <value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. You can select an alternative Reporting Hierarchy.">选择一个期间(如果为空即为目前期间)或收入一个会计日期范围，并选择一个报表层次</value>
  </row>
  <row id="205" trl="Y">
@@ -574,7 +574,7 @@
  </row>
  <row id="222" trl="Y">
   <value column="Name" original="Customer Assets">客户资产</value>
-  <value column="Description" original="Report Customer Assets with Delivery Count">有转移次数的客户资产报表</value>
+  <value column="Description" original="Report Customer Assets with Delivery Count">客户资产报表</value>
   <value column="Help" original="The report lists the assets of business partners with the total asset delivery count.">报表列出了带总资产交付数的业务伙伴资产</value>
  </row>
  <row id="223" trl="Y">
@@ -634,10 +634,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="233" trl="Y">
-  <value column="Name" original="Verify Document Types">验证单据类型</value>
-  <value column="Description" original="Verify Document Types and Period Controls">验证单据类型</value>
-  <value column="Help" original="Makes sure that there is a DocumentType for all Document Base Types&lt;br&gt;&#10;Creates missing Period Controls for Document Type (You may have to open them)"><![CDATA[确认这是全部单据基本类型中的一种单据类型<br>
-为单据类型创建缺少的期间控制(需要打开他们)]]></value>
+  <value column="Name" original="Verify Document Types">校验单据类型</value>
+  <value column="Description" original="Verify Document Types and Period Controls">校验单据类型</value>
+  <value column="Help" original="Makes sure that there is a DocumentType for all Document Base Types&lt;br&gt;&#10;Creates missing Period Controls for Document Type (You may have to open them)"><![CDATA[确认所有的单据基础类型都有一个单据类型<br>为单据类型创建丢失的期间控制记录(需要打开他们)]]></value>
  </row>
  <row id="234" trl="Y">
   <value column="Name" original="Project Margin (Work Order)">项目毛利 (工单)</value>
@@ -650,13 +649,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="236" trl="Y">
-  <value column="Name" original="Storage Detail">仓储明细</value>
-  <value column="Description" original="Storage Detail Report">仓储明细报表</value>
-  <value column="Help" original="The report shows storage details including product instance (Lot, Serial No) info">此报表显示仓储的明细信息，包括产品实例(批，序列号)信息</value>
+  <value column="Name" original="Storage Detail">库存明细</value>
+  <value column="Description" original="Storage Detail Report">库存明细报表</value>
+  <value column="Help" original="The report shows storage details including product instance (Lot, Serial No) info">此报表显示库存的明细信息，包括产品实例(批，序列号)信息</value>
  </row>
  <row id="237" trl="Y">
-  <value column="Name" original="Transaction Detail">事务处理明细</value>
-  <value column="Description" original="Transaction Detail Report">事务处理明细报表</value>
+  <value column="Name" original="Transaction Detail">物料事务明细</value>
+  <value column="Description" original="Transaction Detail Report">物料事务明细报表</value>
   <value column="Help" original="The report shows transaction details (receipts, shipments, inventory, movements, ...) including product instance (Lot, Serial No) info">该报表显示事务处理明细 (收货、发货、库存、移库...)，包括产品实例 (批、序列号) 的资料</value>
  </row>
  <row id="238" trl="Y">
@@ -729,8 +728,8 @@
 </value>
  </row>
  <row id="251" trl="Y">
-  <value column="Name" original="Invoice Tax">发票 税</value>
-  <value column="Description" original="Invoice Tax Reconciliation">发票税的核销</value>
+  <value column="Name" original="Invoice Tax">发票税额报告</value>
+  <value column="Description" original="Invoice Tax Reconciliation">发票税额报告</value>
   <value column="Help" original="The Report lists Invoice Tax lines with Business Partner Tax information.">报表列出发票税的行，含有业务伙伴的纳税信息</value>
  </row>
  <row id="252" trl="Y">
@@ -739,7 +738,7 @@
   <value column="Help" original="Report with detail accounting details.">会计情况的明细报表</value>
  </row>
  <row id="253" trl="Y">
-  <value column="Name" original="Accounting Fact Daily">会计明细日报</value>
+  <value column="Name" original="Accounting Fact Daily">会计明细日报表</value>
   <value column="Description" original="Accounting Fact Details summarized by Accounting Date">根据记账日期显示会计分录明细汇总表</value>
   <value column="Help" original="The report lists the daily summary of accounting transactions">报表列出会计事务处理的每日汇总信息</value>
  </row>
@@ -774,10 +773,10 @@
   <value column="Help" original="Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.">请注意，由于舍入的原因，订单总数可能高于输入的数量</value>
  </row>
  <row id="260" trl="Y">
-  <value column="Name" original="Link Organization">链接机构</value>
-  <value column="Description" original="Link Business Partner to an Organization">链接业务伙伴到组织</value>
-  <value column="Help" original="If the Business Partner is another Organization, select the Organization or set to empty to create a new Organization.  You link a Business Partner to an Organization to create explicit Documents for Inter-Org transaction.&#10;If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.">如果业务伙伴是另一组织,选择组织或设置为空新建组织. 连接业务伙伴到组织用于为组织间交易显式地创建单据.
-如果新建组织，需要提供组织类型.  如果选择角色，新组织的访问权限限制到该角色,否则主顾的全部(非手工)角色将拥有对新组织的访问权限</value>
+  <value column="Name" original="Link Organization">更新组织归属</value>
+  <value column="Description" original="Link Business Partner to an Organization">分配业务伙伴到新组织</value>
+  <value column="Help" original="If the Business Partner is another Organization, select the Organization or set to empty to create a new Organization.  You link a Business Partner to an Organization to create explicit Documents for Inter-Org transaction.&#10;If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.">如果业务伙伴是另一组织，选择组织或设置为空新建组织，此操作将创建显式的单据。
+如果新建组织，需要提供组织类型。如果选择角色，新组织的访问权限限制到该角色，否则实体的全部(非手工)角色将拥有对新组织的访问权限。</value>
  </row>
  <row id="261" trl="Y">
   <value column="Name" original="Create &amp; Invite">创建并邀请</value>
@@ -795,9 +794,9 @@
   <value column="Help" original="Lists Responses of active RfQs (not closed/processed) where the Response is not marked as complete. ">列出有效询价(RfQ)的没有标记完成的回应. </value>
  </row>
  <row id="264" trl="Y">
-  <value column="Name" original="RfQ Response">询价单回应</value>
+  <value column="Name" original="RfQ Response">询价单响应</value>
   <value column="Description" original="Detail RfQ Responses">询价单响应明细</value>
-  <value column="Help" original="Lists detail Responses of active RfQs (not closed/processed) where the Response is marked as complete. ">列出有效询价(RfQ)的标记为完成的回应的明细信息. </value>
+  <value column="Help" original="Lists detail Responses of active RfQs (not closed/processed) where the Response is marked as complete. ">列出有效询价(RfQ)的已完成响应明细信息.。</value>
  </row>
  <row id="265" trl="Y">
   <value column="Name" original="Rank Responses">响应评级</value>
@@ -827,7 +826,7 @@
   <value column="Help" original="Close the RfQ and all it's Responses">结束询价以及相关的全部询价单回应</value>
  </row>
  <row id="270" trl="Y">
-  <value column="Name" original="Open Requisitions">未清采购申请</value>
+  <value column="Name" original="Open Requisitions">未清请购明细</value>
   <value column="Description" original="Detail Open Requisition Information">未清采购申请的明细信息</value>
   <value column="Help" original=""/>
  </row>
@@ -897,14 +896,14 @@
   <value column="Help" original=""/>
  </row>
  <row id="284" trl="Y">
-  <value column="Name" original="Open Confirmation Details">开放的确认明细</value>
-  <value column="Description" original="Open Shipment or Receipt Confirmation Details">开放的发货单或收货单确认明细</value>
+  <value column="Name" original="Open Confirmation Details">未清确认明细</value>
+  <value column="Description" original="Open Shipment or Receipt Confirmation Details">未清的发货单或收货单确认明细</value>
   <value column="Help" original="The Report lists the open confirmation lines">报表列出开放的确认行</value>
  </row>
  <row id="285" trl="Y">
-  <value column="Name" original="Open Confirmations">开放的确认</value>
-  <value column="Description" original="Open Shipment or Receipt Confirmations">开放的发货单或收货单确认</value>
-  <value column="Help" original="The report lists the open confirmations">报表列出开放的确认</value>
+  <value column="Name" original="Open Confirmations">未清确认单</value>
+  <value column="Description" original="Open Shipment or Receipt Confirmations">未清的发货单或收货单确认</value>
+  <value column="Help" original="The report lists the open confirmations">报表列出开放的确认单</value>
  </row>
  <row id="286" trl="Y">
   <value column="Name" original="Process Confirmation">流程确认</value>
@@ -1029,7 +1028,7 @@
   <value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">安全架构不允许将实体特定的更改/自定义添加至现有的标准工作流中。该流程将在系统级别所完成的定制移至该实体，并添加实体特定的明细</value>
  </row>
  <row id="310" trl="Y">
-  <value column="Name" original="Trial Balance">试算平衡</value>
+  <value column="Name" original="Trial Balance">试算平衡表</value>
   <value column="Description" original="Trial Balance for a period or date range">某期间或日期范围的试算平衡表</value>
   <value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. If an account is selected, the balance is calculated based on the account type and the primary calendar of the client (i.e. for revenue/expense accounts from the beginning of the year). If no account is selected, the balance is the sum of all transactions before the selected account range or first day of the period selected. You can select an alternative Reporting Hierarchy.">选择一个期间(如果为空默认当前期间)或输入一个会计日期范围. 如果选中一个科目,则仅计算该科目类型和客户主日历的余额(比如 从年度开始对输入/费用科目). 如果没有选择科目, 则余额是所选会计日期范围或所选期间的第一天之前的全部交易的总和. 可选一个报表层次</value>
  </row>
@@ -1106,9 +1105,9 @@
   <value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">创建发票请求类型，包含可选的请求分组、业务伙伴类别。如果用于开票使用的产品未定义，则使用参数中定义的产品</value>
  </row>
  <row id="325" trl="Y">
-  <value column="Name" original="Storage Cleanup">仓储清理</value>
-  <value column="Description" original="Inventory Storage Cleanup">库存仓储清理</value>
-  <value column="Help" original="Create Inventory Movements for unbalanced Inventory Location Storage (i.e. within a warehouse move inventory to locations with negative on hand quantity).">为未平衡的库存位置仓储（例如在仓库内移库至一个位置，现有数量为负）创建移库</value>
+  <value column="Name" original="Storage Cleanup">库存清理</value>
+  <value column="Description" original="Inventory Storage Cleanup">库存清理</value>
+  <value column="Help" original="Create Inventory Movements for unbalanced Inventory Location Storage (i.e. within a warehouse move inventory to locations with negative on hand quantity).">为不平货位的存货创建移库单（例如负数货位）。</value>
  </row>
  <row id="326" trl="Y">
   <value column="Name" original="Invoice Not Realized Gain/Loss">未实现盈利/亏损的发票</value>
@@ -1131,8 +1130,8 @@
   <value column="Help" original="The Product Cost  report lists the product costs for the product, cost type and cost element">产品成本报表列出了产品、成本类型和成本元素的的产品成本</value>
  </row>
  <row id="330" trl="Y">
-  <value column="Name" original="Product Cost Summary">产品成本合计</value>
-  <value column="Description" original="Product Cost Summary Report">产品成本汇总报表</value>
+  <value column="Name" original="Product Cost Summary">产品成本总表</value>
+  <value column="Description" original="Product Cost Summary Report">产品成本明细表</value>
   <value column="Help" original="The Product Cost  report lists the summarized product costs for the product">产品成本汇总报表列出了产品的汇总成本</value>
  </row>
  <row id="331" trl="Y">
@@ -1156,9 +1155,9 @@
   <value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">报表列出了业务伙伴、地址与联系人的明细</value>
  </row>
  <row id="335" trl="Y">
-  <value column="Name" original="Create Costing Records">创建成本计算记录</value>
-  <value column="Description" original="Create Costing Records">创建成本计算记录</value>
-  <value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">成本计算记录 在需要时创建，或成批地创建。可以在这里强制创建成本计算信息</value>
+  <value column="Name" original="Create Costing Records">创建成本记录</value>
+  <value column="Description" original="Create Costing Records">创建成本记录</value>
+  <value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">成本记录 在需要时创建，或成批地创建。可以在这里强制创建成本计算信息</value>
  </row>
  <row id="336" trl="Y">
   <value column="Name" original="Create Tax Declaration">创建税申报单</value>
@@ -1166,8 +1165,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="337" trl="Y">
-  <value column="Name" original="Create PO from Requisition">从采购申请创建采购订单</value>
-  <value column="Description" original="Create Purchase Orders from Requisitions">从采购申请创建采购订单</value>
+  <value column="Name" original="Create PO from Requisition">从请购单创建采购订单</value>
+  <value column="Description" original="Create Purchase Orders from Requisitions">从请购单创建采购订单</value>
   <value column="Help" original="Create Purchase orders from Purchase Requisitions.">从采购申请创建采购订单</value>
  </row>
  <row id="338" trl="Y">
@@ -1181,12 +1180,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="340" trl="Y">
-  <value column="Name" original="Monthly Invoice Product">月发票(产品)</value>
+  <value column="Name" original="Monthly Invoice Product">每月发票(产品)</value>
   <value column="Description" original="Invoice Report by Product per Month">每月按产品的发票报表</value>
   <value column="Help" original="Invoiced Amount by Product and Month">按产品和月份的开票金额</value>
  </row>
  <row id="341" trl="Y">
-  <value column="Name" original="Quarter Invoice Product">季度发票产品</value>
+  <value column="Name" original="Quarter Invoice Product">季度发票 (产品)</value>
   <value column="Description" original="Invoice Report by Product per Quarter">每季度按产品分类的发票报表</value>
   <value column="Help" original="Invoiced Amount by Product and Quarter">每季度按产品分类的发票报表</value>
  </row>
@@ -1271,8 +1270,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="50012" trl="Y">
-  <value column="Name" original="Request EMail Processor">请求 EMail 引擎</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Request EMail Processor">请求EMail服务器</value>
+  <value column="Description" original="">请求EMail服务器的参数设置</value>
   <value column="Help" original=""/>
  </row>
  <row id="52000" trl="Y">
@@ -1306,37 +1305,27 @@
   <value column="Help" original="This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines">这个过程将要从选中的BOM复制行到当前的，被选中的BOM必须存在行</value>
  </row>
  <row id="53006" trl="Y">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail">多层物料清单与配方 明细</value>
-  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">显示在两个不同的面板，在产品领域的产品进入父组件的关系</value>
-  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.">BOM和配方审查选项菜单表示在两个不同的面板显示父（“产品”字段中输入父产品）子组件的关系；
-
-您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。
-
-当您需要查看组件被那些BOM使用时，单击选中展开选框，并输入你想查看的组件。
-
-您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。
-
-左边的面板显示BOM层次结构树，右侧的面板显示的该BOM组件的详细信息。</value>
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail">多层BOM明细</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">在二个窗口中显示产品的父子组件关系</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.">在两个不同的面板显示父（“产品”字段中输入父产品）子组件的关系；您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。当您需要查看组件被那些BOM使用时，单击选中展开选框，并输入你想查看的组件。您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。左边的面板显示BOM层次结构树，右侧的面板显示的该BOM组件的详细信息。</value>
  </row>
  <row id="53008" trl="Y">
-  <value column="Name" original="Mutiple Components Change">多种成份变化</value>
+  <value column="Name" original="Mutiple Components Change">BOM子件变更</value>
   <value column="Description" original="This option allows the change of any component into BOM or Formula">此选项允许修改BOM或公式的任何组件</value>
   <value column="Help" original="This option allows the change of any component into BOM or Formula">此选项允许修改BOM或公式的任何组件</value>
  </row>
  <row id="53010" trl="Y">
   <value column="Name" original="Create Product Planning">创建产品计划</value>
-  <value column="Description" original="This process will create the data plannig register for every product">这个过程将为每一个产品创建数据计划注册</value>
-  <value column="Help" original="In order to facilitate to load the data planning of similar products, you can run the process Create product Planning and this process will create the data plannig register for every product which fits the parameters: Product category, Warehouse and Resource.&#10;&#10;You must indicate the planning parameters defined in the last section for every Product category, Warehouse, and Resource set. Every product which fit these three parameters will have a data planning record with the same data planning values you enter in this form.">为了方便的加载规划同类产品的数据，你可以执行创建产品规划的流程，该流程将为匹配：产品类别,仓库及资源的每一个产品提供创建数据规划服务。
-
-你必须指明定义在每一类产品，仓库及资源集最后一部分的规划参数。每一个匹配这三个参数的产品将获得一份和你以同样形式录入数据一样规划记录值</value>
+  <value column="Description" original="This process will create the data plannig register for every product">快速为每个产品创建计划数据</value>
+  <value column="Help" original="In order to facilitate to load the data planning of similar products, you can run the process Create product Planning and this process will create the data plannig register for every product which fits the parameters: Product category, Warehouse and Resource.&#10;&#10;You must indicate the planning parameters defined in the last section for every Product category, Warehouse, and Resource set. Every product which fit these three parameters will have a data planning record with the same data planning values you enter in this form.">指定“产品类别”,“仓库”及“资源”，过程将对符合条件的每个产品创建设定的计划数据。</value>
  </row>
  <row id="53012" trl="Y">
-  <value column="Name" original="Calculate Low Level">计算子物料清单</value>
-  <value column="Description" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">这个过程计算并标记了产品物料清单最底层的节点. 这在物料需求计划(MRP)的计算中被使用到, 并且,当你新建一个bom的时候,这个计算过程也会执行</value>
-  <value column="Help" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">这个过程计算并标记了产品物料清单最底层的节点. 这在物料需求计划(MRP)的计算中被使用到, 并且,当你新建一个bom的时候,这个计算过程也会执行</value>
+  <value column="Name" original="Calculate Low Level">计算子件层数</value>
+  <value column="Description" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">计算并登记BOM各子件的最底层数。顶层为0，依次类推。子件处于多处，取最底层数。</value>
+  <value column="Help" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">物料需求计划(MRP)计算前需要运行，当你新建BOM或者改变BOM结构的时候，这个过程也需要执行。</value>
  </row>
  <row id="53014" trl="Y">
-  <value column="Name" original="Create Record MRP">创建 MRP 记录</value>
+  <value column="Name" original="Create Record MRP">创建MRP记录</value>
   <value column="Description" original="This process recreate the demand, approved and open orders for a product.">这个过程将重新创建订单的需求，审批和未完成的订单</value>
   <value column="Help" original="This process recreate the demand, approved and open orders for a product.&#10;&#10;Generally, this process is only performed during the implementation of MRP">这个过程将重新创建订单的需求，审批和未完成的订单。
 
@@ -1348,8 +1337,8 @@
   <value column="Help" original="This process calcualte the demand, approved and open orders for a product.">这个过程将计算订单的需求，审批和未完成的订单</value>
  </row>
  <row id="53018" trl="Y">
-  <value column="Name" original="MRP Details">MRP明细</value>
-  <value column="Description" original="Show the detail of MRP calculation">显示 MRP 计算明细</value>
+  <value column="Name" original="MRP Details">MRP报表</value>
+  <value column="Description" original="Show the detail of MRP calculation">MRP记录的报表</value>
   <value column="Help" original="Show the detail of MRP calculation">显示 MRP 计算明细</value>
  </row>
  <row id="53020" trl="Y">
@@ -1358,30 +1347,18 @@
   <value column="Help" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">能力计划计算的过程使我们能够知道每个制造资源可用的时间，以及所需的时间，以满足主生产计划</value>
  </row>
  <row id="53022" trl="Y">
-  <value column="Name" original="Calculate Distribution Plan">计算分销计划</value>
-  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">分销资源计划（DRP）是一种用于企业管理为计划订单的供应链中的方法</value>
-  <value column="Help" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. &#10;&#10;DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.&#10;&#10;DRP uses several variables:&#10;the on-hand inventory at the end of a period.&#10;the backordered demand at the end of a period.&#10;the required quantity of product needed at the beginning of a period.&#10;the constrained quantity of product available at the beginning of a period.&#10;the recommended order quantity at the beginning of a period.&#10;&#10;DRP needs the following information:&#10;the demand in a future period.&#10;the scheduled receipts at the beginning of a period.&#10;the safety stock requirement for a period.&#10;the on-hand inventory at the beginning of a period.&#10;">分销资源计划（DRP）是一种用于企业管理为计划订单的供应链中的方法。 
-
-DRP使用户能够设置一定的库存控制参数（如安全库存）和计算时间分阶段的库存要求。
-
-DRP使用几个变量：
-在区间末的库存现有量；
-在区间末的补购的需求量；
-在区间始的的需求量；
-在区间始的的可用量；
-在区间始的的建议订货；
-
-+DRP需要以下信息：
-今后一个时期的需求量；
-在区间始的计划的接收量；
-一段时间内的安全库存量；
-在区间始的库存现有量；
-</value>
+  <value column="Name" original="Calculate Distribution Plan">计算配送计划</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">DRP常用于供应链的计划订单管理，通过设置相应的库存参数，计算得出不同时段的库存需求。 </value>
+  <value column="Help" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. &#10;&#10;DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.&#10;&#10;DRP uses several variables:&#10;the on-hand inventory at the end of a period.&#10;the backordered demand at the end of a period.&#10;the required quantity of product needed at the beginning of a period.&#10;the constrained quantity of product available at the beginning of a period.&#10;the recommended order quantity at the beginning of a period.&#10;&#10;DRP needs the following information:&#10;the demand in a future period.&#10;the scheduled receipts at the beginning of a period.&#10;the safety stock requirement for a period.&#10;the on-hand inventory at the beginning of a period.&#10;"><![CDATA[DRP常用于供应链的计划订单管理，通过设置相应的库存参数，计算得出不同时段的库存需求。 
+<br />
+DRP的常见输入：期末在手库存，期末延期需量、期初产品需量、期初产品限制量、期初推荐订单量。
+<br />
+DRP的常见参数：下期需量，期初计划入库量、下期安全库存、期初在手库存。]]></value>
  </row>
  <row id="53024" trl="Y">
-  <value column="Name" original="DRP Details">DRP 明细</value>
-  <value column="Description" original="Show the detail of DRP calculation">显示 DRP 计算明细</value>
-  <value column="Help" original="Show the detail of DRP calculation">显示 DRP 计算明细</value>
+  <value column="Name" original="DRP Details">DRP明细</value>
+  <value column="Description" original="Show the detail of DRP calculation">显示DRP计算结果</value>
+  <value column="Help" original="Show the detail of DRP calculation">DRP 计算结果报表。</value>
  </row>
  <row id="53026" trl="Y">
   <value column="Name" original="Process Manufacturing Order">生产单流程</value>
@@ -1394,7 +1371,7 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53030" trl="Y">
-  <value column="Name" original="Manufacturing Orders Review  ">生产单复查  </value>
+  <value column="Name" original="Manufacturing Orders Review  ">生产工单报表</value>
   <value column="Description" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">这是一份根据用户的使用习惯（预设置过滤条件）所生成的生产单报表</value>
   <value column="Help" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">这是一份根据用户的使用习惯（预设置过滤条件）所生成的生产单报表</value>
  </row>
@@ -1404,26 +1381,22 @@ DRP使用几个变量：
   <value column="Help" original="Before you complete a MO it is necessary to validate the components are available in the warehouse, in order to track the components availability you get a report which shows among other data: the Required Quantity for the MO, the Reserved Quantity, the On Hand Quantity and the Available Quantity.">在你完成一个生产单时，必须验证库存组件是否足够用。为了追踪组件是否足够，你必须得到一份显示本生产单所需组件数量，库存预留量，现有数量和可用数量报告</value>
  </row>
  <row id="53034" trl="Y">
-  <value column="Name" original="Print &amp; Release Order">原销售订单</value>
-  <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">一旦MRP生成的生产计划订单被审批通过，已到达预定开始生产的时间，并且所需组件存在，订单将被发出到工厂进行生产</value>
-  <value column="Help" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture. If you wish to print the warehouse and shop floor documentation you must tick the adequate check box:&#10;&#10;If you tick the Print Pick List check box you will get a report with the required components and quantities to help the warehouse clerk to issue the material to the shop floor. The next report is an example of this:&#10;&#10;If you tick the Print Pack List check box you will get a report with the required components and containing the material with a Component Type of Packing and Tools recorded in the BOM Window.&#10;&#10;Another report which is part of the Manufacturing Order Release Package is the Workflow(Routing). &#10;&#10;You can print this report with tick in the Print Workflow check box and it shows to the shop floor personnel the necessary steps for the manufacture of the product. &#10;&#10;This Report contains the place where the product should be made, the standard times, the tools and necessary devices. &#10;&#10;If you wish to print this report tick the check box Print Workflow.">一旦制造由MRP生成的计划订单（已通过审批的，到达生产日期，并存在所需的组件），该订单即被排放到工厂生产制造。如果你要打印仓库和车间文档，你必须打勾的"足够的”复选框：
+  <value column="Name" original="Print &amp; Release Order">发布工单</value>
+  <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">一旦MRP生成的生产工单被审批通过，已到达预定开始生产的时间，并且子件齐套，工单将被发出到工厂进行生产</value>
+  <value column="Help" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture. If you wish to print the warehouse and shop floor documentation you must tick the adequate check box:&#10;&#10;If you tick the Print Pick List check box you will get a report with the required components and quantities to help the warehouse clerk to issue the material to the shop floor. The next report is an example of this:&#10;&#10;If you tick the Print Pack List check box you will get a report with the required components and containing the material with a Component Type of Packing and Tools recorded in the BOM Window.&#10;&#10;Another report which is part of the Manufacturing Order Release Package is the Workflow(Routing). &#10;&#10;You can print this report with tick in the Print Workflow check box and it shows to the shop floor personnel the necessary steps for the manufacture of the product. &#10;&#10;This Report contains the place where the product should be made, the standard times, the tools and necessary devices. &#10;&#10;If you wish to print this report tick the check box Print Workflow."><![CDATA[一旦MRP生成的生产工单已审批，并到达投产时间，且子件齐套，该订单即被下发到工厂制造。<br />
 
-如果你打勾了“打印提货单”复选框，您将得到所需的组件和数量的报告，以帮助仓库文员发出材料到车间。下一份报告是这样的一个例子：
+如果你选择了“打印领料单”复选框，您将得到所需的子件和数量的报告，以帮助仓库发出材料到车间。<br />
 
-如果你打勾了“打印包装列表”复选框，您将得到一份报告所需的组件，包含材料类型与（记录在BOM窗口）包装工具。
+如果你选择了“打印工具/包装单”复选框，您将得到一份报告所需的组件和相应包装工具的处理单元。<br />
 
-另一份报告是（生产单下达包装的一部分）工作流程（路由）。 
+如果你选择了“打印工艺路线”复选框并打印一份报告，这份报告显示车间工作人员制造的产品的必需步骤。<br />
 
-你可以打勾“打印工作流程”复选框并打印一份报告，这份报告显示车间工作人员制造的产品的必需步骤。
-
-本报告包含产品应在什么地方生产，标准时间，工具和必要的设备。
-
-如果你想打印此报告，请打勾“打印工作流程”复选框</value>
+本报告包含产品应在什么地方生产，标准时间，工具和必要的设备。<br />]]></value>
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Inventory in Process">库存处理报表</value>
-  <value column="Description" original="This report show the inventory in process">报表按单据日期列出发票事务处理</value>
-  <value column="Help" original="This report show the inventory in process">报表按单据日期列出发票事务处理</value>
+  <value column="Description" original="This report show the inventory in process">报表按单据日期列出生产库存变动</value>
+  <value column="Help" original="This report show the inventory in process">报表按单据日期列出生产库存变动</value>
  </row>
  <row id="53038" trl="Y">
   <value column="Name" original="Process Cost Collector">成本采集流程</value>
@@ -1431,8 +1404,8 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53040" trl="Y">
-  <value column="Name" original="Shop Floor Transaction Details">车间调拨明细</value>
-  <value column="Description" original="Show the Shop Floor Transaction Details">显示车间交易明细</value>
+  <value column="Name" original="Shop Floor Transaction Details">车间活动明细</value>
+  <value column="Description" original="Show the Shop Floor Transaction Details">显示车间事务明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="53042" trl="Y">
@@ -1466,7 +1439,7 @@ DRP使用几个变量：
   <value column="Help" original="With this process is possible to create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.">该过程将为组织，会计模式，仓库，资源，成本类型和产品穿件每一个成本元素</value>
  </row>
  <row id="53054" trl="Y">
-  <value column="Name" original="Product Costing">产品成本计算</value>
+  <value column="Name" original="Product Costing">产品成本</value>
   <value column="Description" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type">查看产品集，组织，会计模式，仓库，资源和成本类型的成本元素</value>
   <value column="Help" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type.&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;">查看产品集，组织，会计模式，仓库，资源和成本类型的成本元素												</value>
  </row>
@@ -1534,7 +1507,7 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53072" trl="Y">
-  <value column="Name" original="C_Invoice Calculate Tax">C_发票 计算税</value>
+  <value column="Name" original="C_Invoice Calculate Tax">计算发票税额</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1624,7 +1597,7 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53109" trl="Y">
-  <value column="Name" original="Depreciation Expense Entry">折旧费用条目</value>
+  <value column="Name" original="Depreciation Expense Entry">未过账折旧费用</value>
   <value column="Description" original="Used to review Depreciation Expense Entry not yet booked">用于复查未记账的折旧费用</value>
   <value column="Help" original=""/>
  </row>
@@ -1743,7 +1716,7 @@ DRP使用几个变量：
   <value column="Help" original="This process allows Enable the native sequences based in the current AD_Sequence.&#10;&#10;This process should be implemented when the users are not connected.">允许基于当前AD_Sequence的自然序号，但用户无法连接时应用</value>
  </row>
  <row id="53159" trl="Y">
-  <value column="Name" original="Cost BOM Multi Level Review">成本BOM多级审查</value>
+  <value column="Name" original="Cost BOM Multi Level Review">成本BOM多级报告</value>
   <value column="Description" original="This report show every cost element to a Multi Level BOM or Formula ">这个报表显示了多级BOM或配方的每一个成本元素</value>
   <value column="Help" original="This report show every cost element to a Multi Level BOM or Formula ">这个报表显示了多级BOM或配方的每一个成本元素</value>
  </row>
@@ -1778,13 +1751,13 @@ DRP使用几个变量：
   <value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">从选定的报表（或过程）复制设置到当前的报表（或过程），这将覆盖现有的设置和翻译</value>
  </row>
  <row id="53187" trl="Y">
-  <value column="Name" original="Client Accounting Processor">实体会计引擎</value>
-  <value column="Description" original="Client Accounting Processor">实体会计引擎</value>
-  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">实体会计引擎允许用户运行一个客户端会话的会计引擎，系统配置参数 CLIENT_ACCOUNTING 必须可用 (配置为[I](立即) or [Q](队列))</value>
+  <value column="Name" original="Client Accounting Processor">客户端会计引擎</value>
+  <value column="Description" original="Client Accounting Processor">客户端会计引擎</value>
+  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">允许用户运行一个客户端会话的会计引擎，系统配置参数 CLIENT_ACCOUNTING 必须可用 (配置为[I](立即) or [Q](队列))</value>
  </row>
  <row id="53189" trl="Y">
-  <value column="Name" original="Storage per Product">储存每产品</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Storage per Product">产品存货报表</value>
+  <value column="Description" original="">产品存货报表</value>
   <value column="Help" original=""/>
  </row>
  <row id="53197" trl="Y">
@@ -1804,13 +1777,13 @@ DRP使用几个变量：
  </row>
  <row id="53202" trl="Y">
   <value column="Name" original="POS Key Generate">POS 功能键</value>
-  <value column="Description" original="Generate POS Keys from products.">cong其他产品生成POS功能键</value>
+  <value column="Description" original="Generate POS Keys from products.">从其他产品生成POS功能键</value>
   <value column="Help" original=""/>
  </row>
  <row id="53206" trl="Y">
   <value column="Name" original="Copy from product">复制产品</value>
-  <value column="Description" original="Copy prices etc from other product">从其他产品拷贝价格等</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="Copy prices etc from other product">从其他产品复制相关信息</value>
+  <value column="Help" original="">复制其他产品的相关记录，比如相关产品，替代 ，产品价格，业务伙伴，补货，下载记录，当前版本不复制采购信息和会计记账信息。</value>
  </row>
  <row id="53207" trl="Y">
   <value column="Name" original="Update depreciation">A_折旧_转化</value>
@@ -1858,12 +1831,12 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53220" trl="Y">
-  <value column="Name" original="Unreconciled accounting facts">查询会计情况</value>
+  <value column="Name" original="Unreconciled accounting facts">未核销分录报表</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53221" trl="Y">
-  <value column="Name" original="Automatic account reconciliation">发票税对账</value>
+  <value column="Name" original="Automatic account reconciliation">总账核销</value>
   <value column="Description" original="Reconcile account transactions according to standard rules">根据标准规则调节账户交易</value>
   <value column="Help" original=""/>
  </row>
@@ -1883,9 +1856,9 @@ DRP使用几个变量：
   <value column="Help" original="The Validate BOM Flags process checks that all Products with bills of materials are correctly flagged.">验证BOM标记过程将检查所有产品的物料清单是否有正确的标记</value>
  </row>
  <row id="53229" trl="Y">
-  <value column="Name" original="Verify BOM Structure">验证物料清单结构</value>
-  <value column="Description" original="Verify BOM for correctness">验证树的完整性与正确性</value>
-  <value column="Help" original="The Verify BOM process checks for circular BOMs (unsupported).">验证 BOM 结构会检查循环物料清单（不支持）</value>
+  <value column="Name" original="Verify BOM Structure">验证BOM结构</value>
+  <value column="Description" original="Verify BOM for correctness">验证BOM结构的正确性</value>
+  <value column="Help" original="The Verify BOM process checks for circular BOMs (unsupported).">流程将检查BOM子件的循环错误。</value>
  </row>
  <row id="53230" trl="Y">
   <value column="Name" original="Rollup BOM Cost">物料清单行</value>
@@ -1908,7 +1881,7 @@ DRP使用几个变量：
   <value column="Help" original=""/>
  </row>
  <row id="53248" trl="Y">
-  <value column="Name" original="Cash Flow Report">现金簿报表</value>
+  <value column="Name" original="Cash Flow Report">现金流报表</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1925,23 +1898,23 @@ DRP使用几个变量：
 （注：如果您的密码是目前加密，散列也将被加密）</value>
  </row>
  <row id="53264" trl="Y">
-  <value column="Name" original="Production Plan">生产计划</value>
+  <value column="Name" original="Production Plan">简单生产工单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53265" trl="Y">
-  <value column="Name" original="Universal substitution">BOM构成品通用替换</value>
+  <value column="Name" original="Universal substitution">物料替代</value>
   <value column="Description" original="Substitute one product for another in all BOMs">在所有的BOM替换一个产品</value>
   <value column="Help" original=""/>
  </row>
  <row id="53266" trl="Y">
-  <value column="Name" original="Indented Bill of Material">物料清单的使用</value>
-  <value column="Description" original="Indented BOM report">BOM缩进报表</value>
+  <value column="Name" original="Indented Bill of Material">缩进BOM报表</value>
+  <value column="Description" original="Indented BOM report">缩进BOM报表</value>
   <value column="Help" original=""/>
  </row>
  <row id="53267" trl="Y">
-  <value column="Name" original="Replenish Report incl. Production">补仓报表(包含生产)</value>
-  <value column="Description" original="Inventory Replenish Report">库存补仓报表</value>
+  <value column="Name" original="Replenish Report incl. Production">补货报表（含生产）</value>
+  <value column="Description" original="Inventory Replenish Report">包含生产的产品补货报表</value>
   <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#13;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。需要手工选择一个当前供应商。<br>仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
  </row>
  <row id="53276" trl="N">
@@ -1950,13 +1923,13 @@ DRP使用几个变量：
   <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity">把销售线索转换成一个业务伙伴和(可选择)销售机会</value>
  </row>
  <row id="200000" trl="Y">
-  <value column="Name" original="FA_ProjectCreateAsset">分类账</value>
+  <value column="Name" original="FA_ProjectCreateAsset">项目转成资产</value>
   <value column="Description" original="This process creates asset from project and automatically close the project">此过程将从项目创建资产，并自动关闭该项目</value>
-  <value column="Help" original="There are four parameters:&#10;a. Project, is the Project that will be converted to asset. This project will be closed after this process completes&#10;b. Product, is the asset product that will be act as the base for the newly created asset&#10;c. UseLifeYears, is an optional parameter. Use this if you want a different use life years for the newly created asset, instead of the default uselifeyears from asset group accounting.&#10;d. Transaction Date, will become in-service-date for the newly created asset.">有四个参数:
-a. 项目，该项目将被转换为资产。这个过程完成后，该项目将被关闭
-b. 产品，是资产的产品，将作为新创建的资产的基础
-c. 使用年限，是一个可选的参数。如果你想使用不同的使用年限来给新创建的资产，而不是从资产组的会计那里得到默认的使用年限。
-d. 交易日期，将成为新创建的资产的服务日期</value>
+  <value column="Help" original="There are four parameters:&#10;a. Project, is the Project that will be converted to asset. This project will be closed after this process completes&#10;b. Product, is the asset product that will be act as the base for the newly created asset&#10;c. UseLifeYears, is an optional parameter. Use this if you want a different use life years for the newly created asset, instead of the default uselifeyears from asset group accounting.&#10;d. Transaction Date, will become in-service-date for the newly created asset."><![CDATA[有四个参数:<br />
+a. 项目，该项目将被转换为资产。这个过程完成后，该项目将被关闭。<br />
+b. 产品，是资产的产品，将作为新创建的资产的基础。<br />
+c. 使用年限，是一个可选的参数。如果你想使用不同的使用年限来给新创建的资产，而不是从资产组的会计那里得到默认的使用年限。<br />
+d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
  </row>
  <row id="200005" trl="Y">
   <value column="Name" original="Copy Details">复制明细</value>
@@ -1974,8 +1947,8 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="Reset Locked Account">重置已锁定账户</value>
-  <value column="Description" original="Reset Locked Account for User">重置被锁账号</value>
+  <value column="Name" original="Reset Locked Account">重置锁定用户</value>
+  <value column="Description" original="Reset Locked Account for User">重置已被锁定的用户账号</value>
   <value column="Help" original="Select a locked user from the list to unlock it.  Alternatively you can run the process without selecting any user, in this case the process will unlock all locked users from the client applying accordingly the policies configured for &quot;max account lock&quot; and &quot;max inactive period&quot;."/>
  </row>
  <row id="200010" trl="Y">
@@ -1994,7 +1967,7 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200015" trl="Y">
-  <value column="Name" original="Tab Editor">脚本编辑器</value>
+  <value column="Name" original="Tab Editor">页签编辑器</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2034,12 +2007,12 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200023" trl="Y">
-  <value column="Name" original="Print Shipping Label">打印标签格式</value>
-  <value column="Description" original="Print shipping label">打印标签格式</value>
+  <value column="Name" original="Print Shipping Label">打印发货标签</value>
+  <value column="Description" original="Print shipping label">打印发货标签</value>
   <value column="Help" original="Print shipping label return from online shipping services.">在在线发运服务打印货运标签</value>
  </row>
  <row id="200024" trl="Y">
-  <value column="Name" original="Process Shipment Online">(标准流程_发货单)</value>
+  <value column="Name" original="Process Shipment Online">在线处理发货</value>
   <value column="Description" original="Create shipment using web services provided by shipper">通过承运人提供的WEB服务创建发货单</value>
   <value column="Help" original=""/>
  </row>
@@ -2049,8 +2022,8 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200026" trl="Y">
-  <value column="Name" original="Void Shipment Online">在线支付失败</value>
-  <value column="Description" original="Void shipment using web services provided by shipper">作废发货所提供的Web服务</value>
+  <value column="Name" original="Void Shipment Online">在线取消发货</value>
+  <value column="Description" original="Void shipment using web services provided by shipper">在线取消发货记录</value>
   <value column="Help" original=""/>
  </row>
  <row id="200028" trl="Y">
@@ -2064,7 +2037,7 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200030" trl="Y">
-  <value column="Name" original="Online Shipping Sales Order Rate Inquiry">发件销售订单利率在线查询</value>
+  <value column="Name" original="Online Shipping Sales Order Rate Inquiry">运费在线查询</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2084,13 +2057,13 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200035" trl="N">
-  <value column="Name" original="Bank Register Report">银行登记报告</value>
+  <value column="Name" original="Bank Register Report">银行账户报告</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200036" trl="N">
-  <value column="Name" original="Product/Component Where Used">产品/组件的使用</value>
-  <value column="Description" original="Product/Component Where Used">产品/组件的使用</value>
+  <value column="Name" original="Product/Component Where Used">子件反查</value>
+  <value column="Description" original="Product/Component Where Used">子件/组件的BOM反查</value>
   <value column="Help" original="Enter a product/component below, and the system will check for BOM(s) that contain that product/component.  This report is non-recursive.  In other words, it will only show one parent level above the product/component.">输入下面的产品/组件，系统将检查BOM（包括该产品/组件），但是本报告只会显示一个父级以上的产品/组件</value>
  </row>
  <row id="200037" trl="N">
@@ -2187,8 +2160,8 @@ d. 交易日期，将成为新创建的资产的服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="200077" trl="N">
-  <value column="Name" original="Generate Production from Project">从项目产生的生产</value>
-  <value column="Description" original="Generate Production from Project Line(s)">从项目行产生的生产</value>
+  <value column="Name" original="Generate Production from Project">从项目生成生产工单</value>
+  <value column="Description" original="Generate Production from Project Line(s)">从项目明细生成生产工单</value>
   <value column="Help" original=""/>
  </row>
  <row id="200086" trl="N">

@@ -2,27 +2,27 @@
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormatItem">
  <row id="2147" trl="Y">
   <value column="Name" original="Rectangle">矩形</value>
-  <value column="PrintName" original=""/>
+  <value column="PrintName" original="">矩形</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="2148" trl="Y">
   <value column="Name" original="Product Image">附加图片</value>
-  <value column="PrintName" original=""/>
+  <value column="PrintName" original="">附加图片</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="2325" trl="Y">
   <value column="Name" original="DocumentNo Barcode">单据号条形码</value>
-  <value column="PrintName" original=""/>
+  <value column="PrintName" original="">单据号条形码</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="2326" trl="Y">
   <value column="Name" original="UPC">条码</value>
-  <value column="PrintName" original=""/>
+  <value column="PrintName" original="">条码</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="2327" trl="Y">
   <value column="Name" original="Postal">邮寄地址</value>
-  <value column="PrintName" original=""/>
+  <value column="PrintName" original="">邮寄地址</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="50477" trl="Y">
@@ -31,8 +31,8 @@
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="50992" trl="Y">
-  <value column="Name" original="Setup T">设置</value>
-  <value column="PrintName" original="Setup">设置</value>
+  <value column="Name" original="Setup T">设置时间</value>
+  <value column="PrintName" original="Setup">设置时间</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="51001" trl="Y">
@@ -100,9 +100,9 @@
   <value column="PrintName" original="Help">帮助</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row id="51337" trl="Y">
-  <value column="Name" original="PP_Order_Node_ID">PP_产品计划单策略</value>
-  <value column="PrintName" original="">PP_产品计划单策略</value>
+ <row id="51337" trl="N">
+  <value column="Name" original="PP_Order_Node_ID">PP_Order_Node_ID</value>
+  <value column="PrintName" original=""/>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200010" trl="Y">
@@ -146,8 +146,8 @@
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200073" trl="Y">
-  <value column="Name" original="Label Locator">库位(WH)</value>
-  <value column="PrintName" original="Locator">库位(WH)</value>
+  <value column="Name" original="Label Locator">预留库位</value>
+  <value column="PrintName" original="Locator">预留库位</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200074" trl="Y">
@@ -156,8 +156,8 @@
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200075" trl="Y">
-  <value column="Name" original="Part Type">关联类型的"类型"</value>
-  <value column="PrintName" original="">关联类型的"类型"</value>
+  <value column="Name" original="Part Type">部件类型</value>
+  <value column="PrintName" original="">部件类型</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200076" trl="Y">
@@ -195,7 +195,7 @@
   <value column="PrintName" original="BOM Verified">验证BOM标签</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row id="200153" trl="N">
+ <row id="200153" trl="Y">
   <value column="Name" original="Master BOM">主BOM</value>
   <value column="PrintName" original="Master BOM">主BOM</value>
   <value column="PrintNameSuffix" original=""/>
