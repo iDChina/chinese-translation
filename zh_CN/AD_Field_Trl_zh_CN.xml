@@ -23,7 +23,7 @@
  <row id="4121" trl="N">
   <value column="Name" original="Account Conversion Date">对账行日期</value>
   <value column="Description" original="Accounting Conversion Date">汇率转换日期</value>
-  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">表示单据的过账日期，在对账单中该日期通常用于汇率转换和报表显示。</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">表示单据的过账日期，在对账单中该日期通常用于汇率转换和报表显示</value>
  </row>
  <row id="4462" trl="Y">
   <value column="Name" original="Business Partner / Sales Rep">业务伙伴/销售代表</value>
@@ -148,7 +148,7 @@
  <row id="50077" trl="Y">
   <value column="Name" original="Create Date">创建时间</value>
   <value column="Description" original="Date when Package was created">该记录的创建时间</value>
-  <value column="Help" original="">创建时间字段指出记录是什么时间创建的。</value>
+  <value column="Help" original="">创建时间字段指出记录是什么时间创建的</value>
  </row>
  <row id="50080" trl="Y">
   <value column="Name" original="Processed By">更新人</value>
@@ -158,7 +158,7 @@
  <row id="50081" trl="Y">
   <value column="Name" original="Processed Date">更新时间</value>
   <value column="Description" original="Date when the package was processed">该记录的更新时间</value>
-  <value column="Help" original="">更新时间字段指出记录是什么时间更新的。</value>
+  <value column="Help" original="">更新时间字段指出记录是什么时间更新的</value>
  </row>
  <row id="50082" trl="Y">
   <value column="Name" original="Description of Package">组件包的描述</value>
@@ -171,7 +171,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="50086" trl="Y">
-  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_包_Exp_Detail_ID</value>
+  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -333,7 +333,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Promised days between order and delivery">在订单与交付之间的承诺天数</value>
   <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse."><![CDATA[表示订单日期与承诺交付日期之间的天数。必须输入平均天数（从批准请购单或生产工单，直到仓库收到材料）。<br />
 如果需求产品是采购订单完成，从你生成采购订单到仓库收料的天数。<br />
-如果需求产品是生产工单完成，从你生成生产工单到产品入库的天数。]]></value>
+如果需求产品是生产工单完成，从你生成生产工单到产品入库的天数]]></value>
  </row>
  <row id="53533" trl="Y">
   <value column="Name" original="Working Time">工作时间</value>

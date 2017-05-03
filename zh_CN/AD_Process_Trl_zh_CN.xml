@@ -1307,7 +1307,7 @@
  <row id="53006" trl="Y">
   <value column="Name" original="Multi Level BOM &amp; Formula Detail">多层BOM明细</value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">在二个窗口中显示产品的父子组件关系</value>
-  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.">在两个不同的面板显示父（“产品”字段中输入父产品）子组件的关系；您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。当您需要查看组件被那些BOM使用时，单击选中展开选框，并输入你想查看的组件。您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。左边的面板显示BOM层次结构树，右侧的面板显示的该BOM组件的详细信息。</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.">在两个不同的面板显示父（“产品”字段中输入父产品）子组件的关系；您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。当您需要查看组件被那些BOM使用时，单击选中展开选框，并输入你想查看的组件。您需要引入您想查看的父产品及其组件，然后单击“确定”按钮，拖动面板的左边空白处到右侧，你将可查看这两个面板。左边的面板显示BOM层次结构树，右侧的面板显示的该BOM组件的详细信息</value>
  </row>
  <row id="53008" trl="Y">
   <value column="Name" original="Mutiple Components Change">BOM子件变更</value>
@@ -1317,7 +1317,7 @@
  <row id="53010" trl="Y">
   <value column="Name" original="Create Product Planning">创建产品计划</value>
   <value column="Description" original="This process will create the data plannig register for every product">快速为每个产品创建计划数据</value>
-  <value column="Help" original="In order to facilitate to load the data planning of similar products, you can run the process Create product Planning and this process will create the data plannig register for every product which fits the parameters: Product category, Warehouse and Resource.&#10;&#10;You must indicate the planning parameters defined in the last section for every Product category, Warehouse, and Resource set. Every product which fit these three parameters will have a data planning record with the same data planning values you enter in this form.">指定“产品类别”,“仓库”及“资源”，过程将对符合条件的每个产品创建设定的计划数据。</value>
+  <value column="Help" original="In order to facilitate to load the data planning of similar products, you can run the process Create product Planning and this process will create the data plannig register for every product which fits the parameters: Product category, Warehouse and Resource.&#10;&#10;You must indicate the planning parameters defined in the last section for every Product category, Warehouse, and Resource set. Every product which fit these three parameters will have a data planning record with the same data planning values you enter in this form.">指定“产品类别”,“仓库”及“资源”，过程将对符合条件的每个产品创建设定的计划数据</value>
  </row>
  <row id="53012" trl="Y">
   <value column="Name" original="Calculate Low Level">计算子件层数</value>
@@ -1351,9 +1351,9 @@
   <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">DRP常用于供应链的计划订单管理，通过设置相应的库存参数，计算得出不同时段的库存需求。 </value>
   <value column="Help" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. &#10;&#10;DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.&#10;&#10;DRP uses several variables:&#10;the on-hand inventory at the end of a period.&#10;the backordered demand at the end of a period.&#10;the required quantity of product needed at the beginning of a period.&#10;the constrained quantity of product available at the beginning of a period.&#10;the recommended order quantity at the beginning of a period.&#10;&#10;DRP needs the following information:&#10;the demand in a future period.&#10;the scheduled receipts at the beginning of a period.&#10;the safety stock requirement for a period.&#10;the on-hand inventory at the beginning of a period.&#10;"><![CDATA[DRP常用于供应链的计划订单管理，通过设置相应的库存参数，计算得出不同时段的库存需求。 
 <br />
-DRP的常见输入：期末在手库存，期末延期需量、期初产品需量、期初产品限制量、期初推荐订单量。
+DRP的常见输入：期末在手库存，期末延期需量、期初产品需量、期初产品限制量、期初推荐订单量
 <br />
-DRP的常见参数：下期需量，期初计划入库量、下期安全库存、期初在手库存。]]></value>
+DRP的常见参数：下期需量，期初计划入库量、下期安全库存、期初在手库存]]></value>
  </row>
  <row id="53024" trl="Y">
   <value column="Name" original="DRP Details">DRP明细</value>
@@ -1391,7 +1391,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
 
 如果你选择了“打印工艺路线”复选框并打印一份报告，这份报告显示车间工作人员制造的产品的必需步骤。<br />
 
-本报告包含产品应在什么地方生产，标准时间，工具和必要的设备。<br />]]></value>
+本报告包含产品应在什么地方生产，标准时间，工具和必要的设备<br />]]></value>
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Inventory in Process">库存处理报表</value>
@@ -1421,7 +1421,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  <row id="53046" trl="Y">
   <value column="Name" original="Generate Movement">产生调拨单</value>
   <value column="Description" original="Generate and print Movement from open Distribution Orders">从未清配送单产生和打印调拨单</value>
-  <value column="Help" original="Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Distribution Orders of a business partner have the same location, the Distribution orders can be consolidated into one Movement.&lt;br&gt;&#10;You can also include Distibution orders who have outstanding confirmations (e.g. ordered=10 - not confirmed movements=4 - would create a new movement of 6 if available)."><![CDATA[开放订单的发货单基于订单的交付规则和相对顺序优先级而创建。如果选择了一个承诺日期，那么只有截至 (包括) 该日期的订单被选中。<br>如果一个业务伙伴的多个订单具有相同的位置，那么这些订单可以被合并至相同的单一发货单中。<br>也可包括订单，它们具有未完成的确认 (例如订购数量=10，未确认发货=4，那么创建新的发货单时使用可供发货的数量6）。]]></value>
+  <value column="Help" original="Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Distribution Orders of a business partner have the same location, the Distribution orders can be consolidated into one Movement.&lt;br&gt;&#10;You can also include Distibution orders who have outstanding confirmations (e.g. ordered=10 - not confirmed movements=4 - would create a new movement of 6 if available)."><![CDATA[开放订单的发货单基于订单的交付规则和相对顺序优先级而创建。如果选择了一个承诺日期，那么只有截至 (包括) 该日期的订单被选中。<br>如果一个业务伙伴的多个订单具有相同的位置，那么这些订单可以被合并至相同的单一发货单中。<br>也可包括订单，它们具有未完成的确认 (例如订购数量=10，未确认发货=4，那么创建新的发货单时使用可供发货的数量6）]]></value>
  </row>
  <row id="53048" trl="Y">
   <value column="Name" original="Print Test Results">打印测试结果</value>
