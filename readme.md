@@ -44,7 +44,7 @@
 
 1. iDempiere 4.X时代
    组织者：OSSSME
-   主要贡献人：不小
+   主要贡献人：不小(z5k1)
    项目地址：https://bitbucket.org/iDChina/chinese-translation
 
 1. iDempiere 3.X时代
@@ -74,5 +74,5 @@
    项目网址：http://www.adempiere.com/ZH/TranslationProject
 
 1. Compiere时代
-   感谢第一批为Compiere推广做出卓越贡献的人们，
+   感谢第一批为Compiere推广做出卓越贡献的人们!
    成员列表：目前无法考证，等待您提供成员信息
