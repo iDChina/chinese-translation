@@ -43,15 +43,21 @@
 （注：由于只能从公网收集部分信息，请知情者提交贡献人员名单）
 
 1. iDempiere 4.X时代
+
    组织者：OSSSME
+
    主要贡献人：不小(z5k1)
+
    项目地址：https://bitbucket.org/iDChina/chinese-translation
 
 1. iDempiere 3.X时代
+
    组织者：OSSSME
+
    项目地址：https://bitbucket.org/iDChina/chinese-translation
 
 1. iDempiere 2.X时代
+
    组织者：花生(PeanutBlake)
 
    成员列表：OSSSME、深海(hero9840)、Peanut Blake、sum1201、yourday
@@ -59,6 +65,7 @@
    项目地址：https://translations.launchpad.net/idempiere-localize
 
 1. iDempiere 1.0时代
+
    组织者：Alex(alex yang)
 
    成员列表：mg0432062、Min Yang、hb hu、 alex yang、Wenming Huang、Kevin yang、hwm18、yu shifei、等待您提供其他成员信息
@@ -76,3 +83,10 @@
 1. Compiere时代
    感谢第一批为Compiere推广做出卓越贡献的人们!
    成员列表：目前无法考证，等待您提供成员信息
+
+### 拓展阅读
+---------------------------------
+
+小白皇后玉照披露
+
+![小白](https://static.oschina.net/uploads/img/201705/04053152_cKM1.jpg)
