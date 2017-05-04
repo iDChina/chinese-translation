@@ -34,7 +34,7 @@
 > 在导入时需指定GardenWorld Client后导入
 
 1. zh_CN 标准翻译包
-> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
+> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_CN_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
 
 ---------------------------------
 ### 鸣谢
