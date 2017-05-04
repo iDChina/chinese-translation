@@ -27,19 +27,19 @@
 
 ---------------------------------
 ### 文件结构说明
-1. zh_System 系统Client翻译包
+1. zh_CN_System 系统Client翻译包
 > 在导入时需指定System Client后导入
 
 1. zh_CN_GardenWorld GardenWorld翻译包
 > 在导入时需指定GardenWorld Client后导入
 
 1. zh_CN 标准翻译包
-> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_System，zh_CN_GardenWorld保持同步状态，建议使用zh_System、zh_CN_GardenWorld分Client进行导入。
+> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
 
 ---------------------------------
 ### 鸣谢
 
-**感谢从1999年至今的所有汉化贡献着者和其中一个人的宠物狗-小白**
+**感谢从1999年至今的所有汉化贡献者和其中一个人的宠物狗-小白**
 
 （注：由于只能从公网收集部分信息，请知情者提交贡献人员名单）
 
@@ -57,7 +57,9 @@
 
 1. iDempiere 2.X时代
 > 组织者：花生(PeanutBlake)
+>
 > 成员列表：OSSSME、深海(hero9840)、Peanut Blake、sum1201、yourday
+>
 > 项目地址：https://translations.launchpad.net/idempiere-localize
 
 1. iDempiere 1.0时代
