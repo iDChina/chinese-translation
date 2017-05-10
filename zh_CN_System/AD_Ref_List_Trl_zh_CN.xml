@@ -217,8 +217,8 @@
   <value column="Description" original="Standard Purchase Order Price Costing">标准采购订单成本计算</value>
  </row>
  <row id="147" trl="Y">
-  <value column="Name" original="Average PO">加权平均采购订单</value>
-  <value column="Description" original="Weighted Average Purchase Order Price Costing">加权平均采购订单价格成本计算</value>
+  <value column="Name" original="Average PO">移动平均采购订单</value>
+  <value column="Description" original="Weighted Average Purchase Order Price Costing">移动平均采购订单价格成本计算</value>
  </row>
  <row id="148" trl="Y">
   <value column="Name" original="Lifo">后进先出</value>
@@ -325,12 +325,12 @@
   <value column="Description" original="Finally close this transaction. It cannot be re-activated.">最终关闭该事务处理。无法再次被激活</value>
  </row>
  <row id="184" trl="Y">
-  <value column="Name" original="Reverse - Correct">逆向调整(负数记账)</value>
-  <value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">使用负数数量/金额生成同日单据，负数记账来反转事务</value>
+  <value column="Name" original="Reverse - Correct">红字更正</value>
+  <value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">生成一张负数数量（或金额）的同日单据来反转事务，俗称红字调整</value>
  </row>
  <row id="185" trl="Y">
-  <value column="Name" original="Reverse - Accrual">逆向累计(借贷互换)</value>
-  <value column="Description" original="Reverse by switching Dr/Cr with current date">使用负数数量/金额生成同日单据，互换借贷记账来反转事务</value>
+  <value column="Name" original="Reverse - Accrual">借贷更正</value>
+  <value column="Description" original="Reverse by switching Dr/Cr with current date">生成一张互换账户借贷方向的同日单据来反转事务</value>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Invalidate">使无效</value>
@@ -377,7 +377,7 @@
   <value column="Description" original="Manual Rate">手工兑换率</value>
  </row>
  <row id="204" trl="Y">
-  <value column="Name" original="On Credit Order">信用订单</value>
+  <value column="Name" original="On Credit Order">赊销订单</value>
   <value column="Description" original=""/>
  </row>
  <row id="205" trl="Y">
@@ -417,7 +417,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="214" trl="Y">
-  <value column="Name" original="After Order delivered">按订单</value>
+  <value column="Name" original="After Order delivered">按订单开票</value>
   <value column="Description" original="Invoice for every order">每订单开发票</value>
  </row>
  <row id="215" trl="Y">
@@ -757,7 +757,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="320" trl="Y">
-  <value column="Name" original="Return Material">退货订单</value>
+  <value column="Name" original="Return Material">退货单</value>
   <value column="Description" original=""/>
  </row>
  <row id="322" trl="Y">
@@ -1465,7 +1465,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="510" trl="Y">
-  <value column="Name" original="Average PO">加权平均采购订单</value>
+  <value column="Name" original="Average PO">移动平均采购订单</value>
   <value column="Description" original=""/>
  </row>
  <row id="511" trl="Y">
@@ -1593,7 +1593,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="542" trl="Y">
-  <value column="Name" original="Expense type">费用类型</value>
+  <value column="Name" original="Expense type">费用</value>
   <value column="Description" original=""/>
  </row>
  <row id="543" trl="Y">
@@ -1785,7 +1785,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="591" trl="Y">
-  <value column="Name" original="Accessing">一般访问</value>
+  <value column="Name" original="Accessing">访问</value>
   <value column="Description" original="General Access">一般性访问</value>
  </row>
  <row id="592" trl="Y">
@@ -1793,7 +1793,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="593" trl="Y">
-  <value column="Name" original="Exporting">导出中</value>
+  <value column="Name" original="Exporting">导出</value>
   <value column="Description" original=""/>
  </row>
  <row id="594" trl="Y">
@@ -2122,7 +2122,7 @@
  </row>
  <row id="678" trl="Y">
   <value column="Name" original="Force">强制发货（负库存）</value>
-  <value column="Description" original="meaning that the Shipment will be generated regardless of the inventory stock level (this may mean that the stock level goes to a negative level).">不管存货数量，强制发货将可能导致负库存。</value>
+  <value column="Description" original="meaning that the Shipment will be generated regardless of the inventory stock level (this may mean that the stock level goes to a negative level).">不管存货数量，强制发货将可能导致负库存</value>
  </row>
  <row id="679" trl="Y">
   <value column="Name" original="Alternative">可选</value>
@@ -2269,7 +2269,7 @@
   <value column="Description" original="">加工过程中的管理成本</value>
  </row>
  <row id="716" trl="Y">
-  <value column="Name" original="Burden (M.Overhead)">材料j</value>
+  <value column="Name" original="Burden (M.Overhead)">材料间接费用</value>
   <value column="Description" original="Material Overhead">和材料相关的间接费用成本</value>
  </row>
  <row id="717" trl="Y">
@@ -2433,7 +2433,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="758" trl="Y">
-  <value column="Name" original="Internal">内部机密</value>
+  <value column="Name" original="Internal">内部信息</value>
   <value column="Description" original=""/>
  </row>
  <row id="759" trl="Y">
@@ -2501,8 +2501,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="776" trl="Y">
-  <value column="Name" original="Average Invoice">加权平均发票</value>
-  <value column="Description" original="Weighted Average Purchase Invoice Price Costing">加权平均的采购发票价格成本计算</value>
+  <value column="Name" original="Average Invoice">移动平均发票</value>
+  <value column="Description" original="Weighted Average Purchase Invoice Price Costing">移动平均的采购发票价格成本计算</value>
  </row>
  <row id="777" trl="Y">
   <value column="Name" original="Last Invoice">上次发票</value>
@@ -2641,7 +2641,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="811" trl="Y">
-  <value column="Name" original="Average Invoice">加权平均发票</value>
+  <value column="Name" original="Average Invoice">移动平均发票</value>
   <value column="Description" original=""/>
  </row>
  <row id="812" trl="Y">
@@ -2801,7 +2801,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="852" trl="Y">
-  <value column="Name" original="Production">生产单</value>
+  <value column="Name" original="Production">生产</value>
   <value column="Description" original=""/>
  </row>
  <row id="853" trl="Y">
@@ -2961,15 +2961,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="893" trl="Y">
-  <value column="Name" original="Committed Amount">委托金额</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Committed Amount">提交金额</value>
+  <value column="Description" original="">已采购金额</value>
  </row>
  <row id="894" trl="Y">
-  <value column="Name" original="Time&amp;Material max Comitted">时间和最大委托物料</value>
+  <value column="Name" original="Time&amp;Material max Comitted">最大提交金额（时间和材料）</value>
   <value column="Description" original=""/>
  </row>
  <row id="895" trl="Y">
-  <value column="Name" original="Time&amp;Material">时间与材料</value>
+  <value column="Name" original="Time&amp;Material">时间和材料</value>
   <value column="Description" original=""/>
  </row>
  <row id="896" trl="Y">
@@ -3085,11 +3085,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="924" trl="Y">
-  <value column="Name" original="Dunning">催款</value>
+  <value column="Name" original="Dunning">催讨</value>
   <value column="Description" original=""/>
  </row>
  <row id="925" trl="Y">
-  <value column="Name" original="Collection Agency">托收代理</value>
+  <value column="Name" original="Collection Agency">代理收票</value>
   <value column="Description" original=""/>
  </row>
  <row id="926" trl="Y">
@@ -3097,7 +3097,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="927" trl="Y">
-  <value column="Name" original="Uncollectable">不可托收</value>
+  <value column="Name" original="Uncollectable">无法回票</value>
   <value column="Description" original=""/>
  </row>
  <row id="928" trl="Y">
@@ -3318,7 +3318,7 @@
  </row>
  <row id="50042" trl="Y">
   <value column="Name" original="Ending in 9/5">以5或9结尾</value>
-  <value column="Description" original="The price ends in either a 5 or 9 whole unit">以9或5结尾的价格</value>
+  <value column="Description" original="The price ends in either a 5 or 9 whole unit">以5或9结尾的价格</value>
  </row>
  <row id="50043" trl="Y">
   <value column="Name" original="Message">消息</value>
@@ -3605,7 +3605,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53293" trl="Y">
-  <value column="Name" original="Callout">调用</value>
+  <value column="Name" original="Callout">Callout调用</value>
   <value column="Description" original=""/>
  </row>
  <row id="53294" trl="Y">
@@ -3613,7 +3613,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53295" trl="Y">
-  <value column="Name" original="Model Validator Table Event">模型验证</value>
+  <value column="Name" original="Model Validator Table Event">模型验证表事件</value>
   <value column="Description" original=""/>
  </row>
  <row id="53296" trl="Y">
@@ -3621,7 +3621,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53297" trl="Y">
-  <value column="Name" original="Model Validator Login Event">模型验证</value>
+  <value column="Name" original="Model Validator Login Event">模型验证登录事件</value>
   <value column="Description" original=""/>
  </row>
  <row id="53299" trl="Y">
@@ -3665,11 +3665,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="53309" trl="Y">
-  <value column="Name" original="Document Before Reverse Correct">单据逆向调整之前</value>
+  <value column="Name" original="Document Before Reverse Correct">单据红字更正之前</value>
   <value column="Description" original=""/>
  </row>
  <row id="53310" trl="Y">
-  <value column="Name" original="Document Before Reverse Accrual">单据逆向累计之前</value>
+  <value column="Name" original="Document Before Reverse Accrual">单据借贷更正之前</value>
   <value column="Description" original=""/>
  </row>
  <row id="53311" trl="Y">
@@ -3697,11 +3697,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="53317" trl="Y">
-  <value column="Name" original="Document After Reverse Correct">单据逆向调整之后</value>
+  <value column="Name" original="Document After Reverse Correct">单据红字更正之后</value>
   <value column="Description" original=""/>
  </row>
  <row id="53318" trl="Y">
-  <value column="Name" original="Document After Reverse Accrual">单据逆向累计之后</value>
+  <value column="Name" original="Document After Reverse Accrual">单据借贷更正之后</value>
   <value column="Description" original=""/>
  </row>
  <row id="53319" trl="Y">
@@ -5524,9 +5524,9 @@
   <value column="Name" original="Custom Table">自定义表</value>
   <value column="Description" original="Custom Table">Custom Table</value>
  </row>
- <row id="200318" trl="N">
-  <value column="Name" original="Detail">明细行</value>
-  <value column="Description" original="">明细行</value>
+ <row id="200318" trl="Y">
+  <value column="Name" original="Detail">其他细节</value>
+  <value column="Description" original="">其他细节</value>
  </row>
  <row id="200345" trl="Y">
   <value column="Name" original="Payment">收/付款</value>

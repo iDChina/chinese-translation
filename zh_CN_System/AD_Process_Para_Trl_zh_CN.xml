@@ -81,8 +81,8 @@
   <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">也可包含这样的订单，它们有未处理的确认（如：下单数量 = 10，未确认发货 = 4，如果可供货则将创建新的发货数量 6）</value>
  </row>
  <row id="50001" trl="Y">
-  <value column="Name" original="Role To">目的角色</value>
-  <value column="Description" original="Responsibility Role">目的角色</value>
+  <value column="Name" original="Role To">目标角色</value>
+  <value column="Description" original="Responsibility Role">目标角色</value>
   <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
  </row>
  <row id="50002" trl="Y">
@@ -216,43 +216,43 @@
   <value column="Help" original=""/>
  </row>
  <row id="53285" trl="Y">
-  <value column="Name" original="Normal User Name">正常用户名</value>
+  <value column="Name" original="Normal User Name">普通用户名</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53289" trl="Y">
   <value column="Name" original="City Name">城市名称</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">可直接输入城市名称</value>
+  <value column="Help" original="">区域列表无法找到目标城市，可直接输入城市名称</value>
  </row>
  <row id="53291" trl="Y">
-  <value column="Name" original="BP Accounting">伙伴科目</value>
-  <value column="Description" original="Use BP accounting dimension">使用伙伴科目维度</value>
+  <value column="Name" original="BP Accounting">业务伙伴维度</value>
+  <value column="Description" original="Use BP accounting dimension">使用业务伙伴维度</value>
   <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用业务伙伴科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
  </row>
  <row id="53292" trl="Y">
-  <value column="Name" original="Product Accounting">产品科目</value>
-  <value column="Description" original="Use Product accounting dimension">使用产品科目维度</value>
+  <value column="Name" original="Product Accounting">产品维度</value>
+  <value column="Description" original="Use Product accounting dimension">使用产品维度</value>
   <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用产品科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
  </row>
  <row id="53293" trl="Y">
-  <value column="Name" original="Project Accounting">项目科目</value>
-  <value column="Description" original="Use Project accounting dimension">使用项目科目维度</value>
+  <value column="Name" original="Project Accounting">项目维度</value>
+  <value column="Description" original="Use Project accounting dimension">使用项目维度</value>
   <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用项目科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
  </row>
  <row id="53294" trl="Y">
-  <value column="Name" original="Campaign Accounting">营销会计科目</value>
-  <value column="Description" original="Use Campaign accounting dimension">使用营销会计科目维度</value>
+  <value column="Name" original="Campaign Accounting">营销活动维度</value>
+  <value column="Description" original="Use Campaign accounting dimension">使用营销活动维度</value>
   <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用竞标科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
  </row>
  <row id="53295" trl="Y">
-  <value column="Name" original="Sales Region Accounting">销售区域科目</value>
-  <value column="Description" original="Use Sales Region accounting dimension">使用销售区域科目维度</value>
+  <value column="Name" original="Sales Region Accounting">销售区域维度</value>
+  <value column="Description" original="Use Sales Region accounting dimension">使用销售区域维度</value>
   <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用销售区域科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
  </row>
  <row id="53296" trl="Y">
-  <value column="Name" original="Chart of Accounts File">会计科目表文件</value>
-  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">此实体使用会计科目表的存放位置。在这个阶段，只创建默认会计科目</value>
+  <value column="Name" original="Chart of Accounts File">科目表文件</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">此实体使用会计科目表文件的存放位置。在这个阶段，只创建默认会计科目</value>
   <value column="Help" original=""/>
  </row>
  <row id="53314" trl="Y">
@@ -330,8 +330,8 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200075" trl="N">
-  <value column="Name" original="Normal User Email">一般用户邮箱</value>
+ <row id="200075" trl="Y">
+  <value column="Name" original="Normal User Email">普通用户邮箱</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -341,17 +341,17 @@
   <value column="Help" original=""/>
  </row>
  <row id="200084" trl="N">
-  <value column="Name" original="Use Default CoA">使用默认的账户图表</value>
-  <value column="Description" original="Use Default Chart of Accounts">使用默认的账户图表</value>
+  <value column="Name" original="Use Default CoA">使用默认的科目表</value>
+  <value column="Description" original="Use Default Chart of Accounts">使用默认的科目表（美国）</value>
   <value column="Help" original=""/>
  </row>
  <row id="200085" trl="N">
-  <value column="Name" original="Activity Accounting">活动账户</value>
-  <value column="Description" original="Use Activity accounting dimension">Use Activity accounting dimension</value>
+  <value column="Name" original="Activity Accounting">作业维度</value>
+  <value column="Description" original="Use Activity accounting dimension">使用作业维度</value>
   <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
  </row>
- <row id="200086" trl="N">
-  <value column="Name" original="Inactivate Defaults">无效缺省值</value>
+ <row id="200086" trl="Y">
+  <value column="Name" original="Inactivate Defaults">不使用缺省科目</value>
   <value column="Description" original="Inactivate Defaults after Created"/>
   <value column="Help" original=""/>
  </row>

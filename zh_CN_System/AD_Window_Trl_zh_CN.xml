@@ -129,8 +129,8 @@
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计模式窗口定义了会计方法，以及将组成账户结构的元素。为业务伙伴、产品、地址等的明细会计创建并激活元素。<p>复核并更改总账和默认账户。用于事务处理的实际账户依赖于执行组织; 大多数信息从上下文中继承获得。]]></value>
  </row>
  <row id="127" trl="Y">
-  <value column="Name" original="Test">测试中</value>
-  <value column="Description" original="Test Screen">测试屏幕</value>
+  <value column="Name" original="Test">测试窗口</value>
+  <value column="Description" original="Test Screen">测试界面窗口</value>
   <value column="Help" original=""/>
  </row>
  <row id="128" trl="Y">
@@ -139,7 +139,7 @@
   <value column="Help" original="For System Maintenance Only.  The Maintain Attachments window is used for diagnostic purposes to display the attributes of an attachment.">仅用于系统维护。维护附件窗口用于诊断目的，显示附件的属性</value>
  </row>
  <row id="129" trl="Y">
-  <value column="Name" original="Preference">系统偏爱设置</value>
+  <value column="Name" original="Preference">系统首选值</value>
   <value column="Description" original="Maintain System Client Org and User Preferences">维护系统实体组织与用户的偏爱值</value>
   <value column="Help" original="System Admin use only.">仅系统管理员使用</value>
  </row>
@@ -169,12 +169,12 @@
   <value column="Help" original="The Document Type Window defines any document to be used in the system.  Each document type provides the basis for processing of each document and controls the printed name and document sequence used.  ">此窗口定义了系统中所使用的任意文档每个文档类型都提供了每个文档处理的基础，控制了打印名称和所用的文档序列。。  </value>
  </row>
  <row id="137" trl="Y">
-  <value column="Name" original="Tax Rate">税种</value>
-  <value column="Description" original="Maintain Taxes and their Rates">维护税和税率</value>
+  <value column="Name" original="Tax Rate">税目</value>
+  <value column="Description" original="Maintain Taxes and their Rates">维护税目和税率</value>
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
  </row>
  <row id="138" trl="Y">
-  <value column="Name" original="Tax Category">税类别</value>
+  <value column="Name" original="Tax Category">税种</value>
   <value column="Description" original="Maintain Tax Categories">维护税的分类</value>
   <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用于输入和维护税收的类别。每个产品与税种相关联，它使得更改税率后的处理得以简化</value>
  </row>
@@ -200,8 +200,8 @@
  </row>
  <row id="143" trl="Y">
   <value column="Name" original="Sales Order">销售订单</value>
-  <value column="Description" original="Enter and change sales orders"/>
-  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  "/>
+  <value column="Description" original="Enter and change sales orders">输入与更改销售订单</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  ">此窗口用于录入和修改销售订单</value>
  </row>
  <row id="144" trl="Y">
   <value column="Name" original="Product Category">产品类别</value>
@@ -266,8 +266,8 @@
   <value column="Help" original="The Withholding Window defines the rule used for calculating withholding amounts.">预扣窗口定义了用于计算预扣金额的规则</value>
  </row>
  <row id="161" trl="Y">
-  <value column="Name" original="Charge">费用</value>
-  <value column="Description" original="Maintain Charges">维护费用</value>
+  <value column="Name" original="Charge">杂费</value>
+  <value column="Description" original="Maintain Charges">维护杂费</value>
   <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">杂费窗口定义了可能产生的不同杂费。这些可包含银行手续费、供应商杂费和手工处理费等</value>
  </row>
  <row id="162" trl="Y">
@@ -722,8 +722,8 @@
   <value column="Help" original="Validate and Import Inventory Transactions">验证并导入库存事务处理</value>
  </row>
  <row id="268" trl="Y">
-  <value column="Name" original="Role Data Access">角色访问权限</value>
-  <value column="Description" original="Maintain Data Access Rules">维护角色的数据访问规则</value>
+  <value column="Name" original="Role Data Access">角色数据权限</value>
+  <value column="Description" original="Maintain Data Access Rules">维护角色的数据访问规则（表-字段-记录）</value>
   <value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">维护角色/职责的数据访问规则
 注意：该信息被缓存，需要重新登录或重置缓存方可生效</value>
  </row>
@@ -814,8 +814,8 @@
   <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">数据备份策略决定哪些数据表及其如何被复制. 注意合并不会对应用程序目录进行同步</value>
  </row>
  <row id="286" trl="Y">
-  <value column="Name" original="Project (Lines/Issues)">项目（发料）</value>
-  <value column="Description" original="Maintain Sales Order and Work Order Details">维护销售订单和工单明细</value>
+  <value column="Name" original="Project (Lines/Issues)">项目投放</value>
+  <value column="Description" original="Maintain Sales Order and Work Order Details">查看项目投放的销售订单和工单明细信息</value>
   <value column="Help" original="The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks">项目窗口是用来维护各阶段/任务的项目明细和物料等信息</value>
  </row>
  <row id="287" trl="Y">
@@ -869,8 +869,8 @@
   <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">比率在通货和转变的确认之后被输入率类型和比率。 那繁殖比率被用。 如果互惠的比率是被产生, 那分开比率被用</value>
  </row>
  <row id="297" trl="Y">
-  <value column="Name" original="Workflow Process">工作流实例</value>
-  <value column="Description" original="Monitor workflow processes">监视工作流流程实例</value>
+  <value column="Name" original="Workflow Process">工作流流程</value>
+  <value column="Description" original="Monitor workflow processes">查看工作流流程实例</value>
   <value column="Help" original="View and Maintain Workflow Process Instance Information"/>
  </row>
  <row id="298" trl="Y">
@@ -1286,8 +1286,8 @@
   <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">个体（entity）类型决定了应用字典项目的所有权。“字典”与“iDempiere”类型不应被使用，并且由iDempiere维护（例如，在迁移时所有的变更都会被回退到当前的定义）</value>
  </row>
  <row id="383" trl="Y">
-  <value column="Name" original="Web Access">Web 访问</value>
-  <value column="Description" original="Maintain Web Access">维护 Web 访问</value>
+  <value column="Name" original="Web Access">Web 权限</value>
+  <value column="Description" original="Maintain Web Access">Web 权限</value>
   <value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.">定义协作管理内容的访问。你可以分配该配置文件给一个内部或外部角色以获得业务伙伴组访问权限</value>
  </row>
  <row id="384" trl="Y">
@@ -1351,8 +1351,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="50007" trl="Y">
-  <value column="Name" original="Dashboard Content">仪表板内容编辑</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Dashboard Content">仪表盘内容</value>
+  <value column="Description" original="">维护仪表盘内容项目</value>
   <value column="Help" original=""/>
  </row>
  <row id="52000" trl="Y">
@@ -1667,8 +1667,8 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original=""/>
  </row>
  <row id="53063" trl="Y">
-  <value column="Name" original="House Keeping">系统后勤整理(House Keeping)</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="House Keeping">系统清理</value>
+  <value column="Description" original="">清理系统临时表</value>
   <value column="Help" original=""/>
  </row>
  <row id="53064" trl="Y">
@@ -1682,8 +1682,8 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original=""/>
  </row>
  <row id="53067" trl="Y">
-  <value column="Name" original="Web Service Definition">账户元素定义</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Web Service Definition">Web Service定义</value>
+  <value column="Description" original="">定义Web Service的配置和方法</value>
   <value column="Help" original=""/>
  </row>
  <row id="53068" trl="Y">
@@ -1903,7 +1903,7 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original=""/>
  </row>
  <row id="53156" trl="Y">
-  <value column="Name" original="Sales Rep Dashboard">销售代表仪表盘</value>
+  <value column="Name" original="Sales Rep Dashboard">销售仪表盘</value>
   <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">The Sales Rep Dashboard provides a single location for managing sales opportunities</value>
   <value column="Help" original=""/>
  </row>
@@ -1933,7 +1933,7 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">凭证批窗口允许成批地输入或修改手工凭证分录</value>
  </row>
  <row id="200006" trl="Y">
-  <value column="Name" original="Dashboard Preference">偏爱设置级别</value>
+  <value column="Name" original="Dashboard Preference">仪表盘设置</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1978,7 +1978,7 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original=""/>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="Setup Wizard Maintenance">向导设置记录</value>
+  <value column="Name" original="Setup Wizard Maintenance">实体设置记录</value>
   <value column="Description" original="Maintenance Setup Wizard window">实体向导的设置记录</value>
   <value column="Help" original=""/>
  </row>
@@ -2088,13 +2088,13 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original=""/>
  </row>
  <row id="200063" trl="Y">
-  <value column="Name" original="Import Template">导入模板</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Import Template">导入CSV模板</value>
+  <value column="Description" original="">导入CSV文件头定义</value>
   <value column="Help" original=""/>
  </row>
  <row id="200073" trl="Y">
-  <value column="Name" original="User Preference">用户偏爱设置</value>
-  <value column="Description" original="This window is use to set up the preferences entries for each user.">This window is use to set up the preferences entries for each user.</value>
+  <value column="Name" original="User Preference">用户首选项</value>
+  <value column="Description" original="This window is use to set up the preferences entries for each user.">用户在系统中的偏爱设置</value>
   <value column="Help" original=""/>
  </row>
  <row id="200074" trl="Y">
@@ -2102,10 +2102,10 @@ It answers the question, what are the components of the product?</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200083" trl="N">
-  <value column="Name" original="Menu favourites">Menu favourites</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+ <row id="200083" trl="Y">
+  <value column="Name" original="Menu favourites">常用菜单</value>
+  <value column="Description" original="">配置登入系统时自动打开菜单的功能</value>
+  <value column="Help" original="">登陆系统后把每次都要使用的常用菜单功能都自动的打开</value>
  </row>
  <row id="200086" trl="Y">
   <value column="Name" original="CSS Style">CSS 样式</value>

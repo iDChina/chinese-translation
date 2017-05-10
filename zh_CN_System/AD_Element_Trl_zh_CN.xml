@@ -21,10 +21,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Column">列</value>
-  <value column="PrintName" original="Column">列</value>
-  <value column="Description" original="Column in the table">在表中的列</value>
-  <value column="Help" original="Link to the database column of the table">链接到该表对应的数据库的列</value>
+  <value column="Name" original="Column">数据库列</value>
+  <value column="PrintName" original="Column">数据库列</value>
+  <value column="Description" original="Column in the table">数据库表中的列</value>
+  <value column="Help" original="Link to the database column of the table">数据库表中的列</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -121,10 +121,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="116" trl="Y">
-  <value column="Name" original="Preference">偏爱设置</value>
-  <value column="PrintName" original="Preference">偏爱设置</value>
-  <value column="Description" original="Personal Value Preference">个性化的偏爱设置</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Preference">首选值</value>
+  <value column="PrintName" original="Preference">首选值</value>
+  <value column="Description" original="Personal Value Preference">系统的首选值</value>
+  <value column="Help" original="">系统的首选值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -211,10 +211,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="126" trl="Y">
-  <value column="Name" original="Table">表</value>
-  <value column="PrintName" original="Table">表</value>
-  <value column="Description" original="Database Table information">数据库表信息</value>
-  <value column="Help" original="The Database Table provides the information of the table definition">表是包含一个或多个字段的数据库表</value>
+  <value column="Name" original="Table">数据库表</value>
+  <value column="PrintName" original="Table">数据库表</value>
+  <value column="Description" original="Database Table information">数据库的表</value>
+  <value column="Help" original="The Database Table provides the information of the table definition">数据库中的表</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -312,7 +312,7 @@
  </row>
  <row id="138" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
-  <value column="PrintName" original="User">用户</value>
+  <value column="PrintName" original="User">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部或业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。用户可以是某个内部用户，或者是某个业务伙伴联系人</value>
   <value column="PO_Description" original=""/>
@@ -811,10 +811,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="209" trl="Y">
-  <value column="Name" original="Region">区域名称</value>
-  <value column="PrintName" original="Region">区域名称</value>
-  <value column="Description" original="Identifies a geographical Region">标识一个地理区域</value>
-  <value column="Help" original="The Region identifies a unique Region for this Country.">区域标识该国家的唯一区域</value>
+  <value column="Name" original="Region">区域</value>
+  <value column="PrintName" original="Region">区域</value>
+  <value column="Description" original="Identifies a geographical Region">省或者区域</value>
+  <value column="Help" original="The Region identifies a unique Region for this Country.">省或者区域</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -831,20 +831,20 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="211" trl="Y">
-  <value column="Name" original="Tax Category">税类别</value>
-  <value column="PrintName" original="Tax Category">税类别</value>
+  <value column="Name" original="Tax Category">税种</value>
+  <value column="PrintName" original="Tax Category">税种</value>
   <value column="Description" original="Tax Category">税的分类</value>
-  <value column="Help" original="The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.">税种的分类</value>
+  <value column="Help" original="The Tax Category provides a method of grouping similar taxes.  For example, Sales Tax or Value Added Tax.">税的分类</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="213" trl="Y">
-  <value column="Name" original="Tax">税种</value>
-  <value column="PrintName" original="Tax">税种</value>
-  <value column="Description" original="Tax identifier">税标识</value>
-  <value column="Help" original="The Tax indicates the type of tax used in document line.">具体税率的税标识</value>
+  <value column="Name" original="Tax">税目</value>
+  <value column="PrintName" original="Tax">税目</value>
+  <value column="Description" original="Tax identifier">具体税目</value>
+  <value column="Help" original="The Tax indicates the type of tax used in document line.">具体税目</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1954,10 +1954,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="374" trl="Y">
-  <value column="Name" original="Encrypted">显示已加密</value>
-  <value column="PrintName" original="Encrypted">显示已加密</value>
-  <value column="Description" original="Display or Storage is encrypted">显示已用 '*' 加密 - 与数据存储加密无关</value>
-  <value column="Help" original="Display encryption (in Window/Tab/Field) - all characters are displayed as '*' - in the database it is stored in clear text. You will not be able to report on these columns.&lt;br&gt;&#10;Data storage encryption (in Table/Column) - data is stored encrypted in the database (dangerous!) and you will not be able to report on those columns. Independent from Display encryption.">显示加密 - 所有字符显示为星号 (*)。数据存储加密 (即将无法通过报表工具生成数据的报表) 在列定义中设置</value>
+  <value column="Name" original="Encrypted">加密显示</value>
+  <value column="PrintName" original="Encrypted">加密显示</value>
+  <value column="Description" original="Display or Storage is encrypted">使用*符号显示字段信息，-- 与数据存储加密无关</value>
+  <value column="Help" original="Display encryption (in Window/Tab/Field) - all characters are displayed as '*' - in the database it is stored in clear text. You will not be able to report on these columns.&lt;br&gt;&#10;Data storage encryption (in Table/Column) - data is stored encrypted in the database (dangerous!) and you will not be able to report on those columns. Independent from Display encryption.">所有字符显示为星号 (*)，但数据库中仍按明文存储加密 。加密显示字段无法用于报表</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2004,10 +2004,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="381" trl="Y">
-  <value column="Name" original="Heading only">仅页眉</value>
-  <value column="PrintName" original="Heading only">仅页眉</value>
-  <value column="Description" original="Field without Column - Only label is displayed">没有列的字段 - 仅显示标签</value>
-  <value column="Help" original="The Heading Only checkbox indicates if just the label will display on the screen">仅标头复选框表示是否仅在屏幕中显示标签</value>
+  <value column="Name" original="Heading only">仅标签</value>
+  <value column="PrintName" original="Heading only">仅标签</value>
+  <value column="Description" original="Field without Column - Only label is displayed">仅显示字段标签</value>
+  <value column="Help" original="The Heading Only checkbox indicates if just the label will display on the screen">仅显示字段标签</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2204,10 +2204,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="413" trl="Y">
-  <value column="Name" original="Single Row Layout">单记录布局</value>
-  <value column="PrintName" original="Single Row Layout">单记录布局</value>
-  <value column="Description" original="Default for toggle between Single- and Multi-Row (Grid) Layout">页签以单记录明细方式布局，非网格布局</value>
-  <value column="Help" original="The Single Row Layout checkbox indicates if the default display type for this window is a single row as opposed to multi row.">页签以单记录明细方式布局，非网格布局</value>
+  <value column="Name" original="Single Row Layout">单记录视图</value>
+  <value column="PrintName" original="Single Row Layout">单记录视图</value>
+  <value column="Description" original="Default for toggle between Single- and Multi-Row (Grid) Layout">以单行记录显示的布局视图</value>
+  <value column="Help" original="The Single Row Layout checkbox indicates if the default display type for this window is a single row as opposed to multi row.">以单行记录显示的布局视图</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3045,10 +3045,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="549" trl="Y">
-  <value column="Name" original="SKU">单品编码SKU</value>
-  <value column="PrintName" original="SKU">单品编码SKU</value>
+  <value column="Name" original="SKU">SKU</value>
+  <value column="PrintName" original="SKU">SKU</value>
   <value column="Description" original="Stock Keeping Unit">产品的型号编码。SKU 表示用户自定义的库存保持单位，按照自定义的规则编码</value>
-  <value column="Help" original="The SKU indicates a user defined stock keeping unit.  It may be used for an additional bar code symbols or your own schema.">SKU即库存进出计量的单位，可以是以件，盒，托盘等为单位。SKU目前被引申为产品统一编号，因此SKU也可以用作额外的条形码或自己的图样</value>
+  <value column="Help" original="The SKU indicates a user defined stock keeping unit.  It may be used for an additional bar code symbols or your own schema.">SKU即库存进出计量的单位，可以是以件，盒，托盘等为单位。SKU目前被引申为产品统一编号，因此SKU也可以用作额外的条形码或自定义编码</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3105,9 +3105,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="558" trl="Y">
-  <value column="Name" original="Order">订单</value>
-  <value column="PrintName" original="Order">订单</value>
-  <value column="Description" original="Order">订单</value>
+  <value column="Name" original="Order">销售订单</value>
+  <value column="PrintName" original="Order">销售订单</value>
+  <value column="Description" original="Order">销售订单</value>
   <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">订单是一种控制单据。当下单数量与收货数量和开票数量相同时，采购订单被完成。当关闭采购订单时，未收 (补) 货数量被取消</value>
   <value column="PO_Description" original="Purchase Order">采购订单</value>
   <value column="PO_Help" original="The Purchase Order is a control document.  The Purchase Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">采购订单是一种控制单据。当下单数量与收货数量和开票数量相同时，采购订单被完成。当关闭采购订单时，未收 (补) 货数量被取消</value>
@@ -3225,11 +3225,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="573" trl="Y">
-  <value column="Name" original="Record Sort No">记录顺序号</value>
-  <value column="PrintName" original="Record Sort No">记录顺序号</value>
-  <value column="Description" original="Determines in what order the records are displayed">决定记录以什么顺序显示</value>
-  <value column="Help" original="The Record Sort No indicates the ascending sort sequence of the records. If the number is negative, the records are sorted descending. &#10;Example: A tab with C_DocType_ID (1), DocumentNo (-2) will be sorted ascending by document type and descending by document number (SQL: ORDER BY C_DocType, DocumentNo DESC)">记录顺序号表示记录的升序顺序。如果数字为负，则记录按降序排列。
-示例：某页签包含 C_DocType_ID (1) 和 DocumentNo (-2)，它将按单据类型升序排列，然后按单据编号降序排列 (SQL语句为: ORDER BY C_DocType, DocumentNo DESC)</value>
+  <value column="Name" original="Record Sort No">排序顺序</value>
+  <value column="PrintName" original="Record Sort No">排序顺序</value>
+  <value column="Description" original="Determines in what order the records are displayed">该字段作为排序字段的顺序号</value>
+  <value column="Help" original="The Record Sort No indicates the ascending sort sequence of the records. If the number is negative, the records are sorted descending. &#10;Example: A tab with C_DocType_ID (1), DocumentNo (-2) will be sorted ascending by document type and descending by document number (SQL: ORDER BY C_DocType, DocumentNo DESC)"><![CDATA[记录顺序号表示记录的升序顺序。如果数字为负，则记录按降序排列。<br />示例：某页签包含 C_DocType_ID (1) 和 DocumentNo (-2)，它将按单据类型升序排列，然后按单据编号降序排列 (SQL语句为: ORDER BY C_DocType, DocumentNo DESC)]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3356,10 +3355,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="586" trl="Y">
-  <value column="Name" original="Number">号码</value>
-  <value column="PrintName" original="Number">号码</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Number">数字</value>
+  <value column="PrintName" original="Number">数字</value>
+  <value column="Description" original="">数字类型</value>
+  <value column="Help" original="">字段为数字类型</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3376,10 +3375,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="590" trl="Y">
-  <value column="Name" original="Tax ID">税号</value>
-  <value column="PrintName" original="Tax ID">税号</value>
-  <value column="Description" original="Tax Identification">税标识</value>
-  <value column="Help" original="The Tax ID field identifies the legal Identification number of this Entity.">税ID字段标识了该记录的法律标识号</value>
+  <value column="Name" original="Tax ID">税目</value>
+  <value column="PrintName" original="Tax ID">税目</value>
+  <value column="Description" original="Tax Identification">具体税目</value>
+  <value column="Help" original="The Tax ID field identifies the legal Identification number of this Entity.">具体税目</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4170,10 +4169,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="923" trl="Y">
-  <value column="Name" original="Own Bank">我方银行</value>
-  <value column="PrintName" original="Own Bank">我方银行</value>
-  <value column="Description" original="Bank for this Organization">该组织的银行</value>
-  <value column="Help" original="The Own Bank field indicates if this bank is for this Organization as opposed to a Bank for a Business Partner.">我方银行字段 表示该银行是否为我方组织的银行，而非业务伙伴的银行</value>
+  <value column="Name" original="Own Bank">内部银行</value>
+  <value column="PrintName" original="Own Bank">内部银行</value>
+  <value column="Description" original="Bank for this Organization">组织内部使用的银行</value>
+  <value column="Help" original="The Own Bank field indicates if this bank is for this Organization as opposed to a Bank for a Business Partner.">相对外部的业务伙伴，只供组织内部使用的银行。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4562,8 +4561,9 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="1018" trl="Y">
   <value column="Name" original="SO Sub Type">销售订单子类型</value>
   <value column="PrintName" original="SO Sub Type">销售订单子类型</value>
-  <value column="Description" original="Sales Order Sub Type">销售订单子类型</value>
-  <value column="Help" original="The SO Sub Type indicates the type of sales order this document refers to.  This field only appears when the Document Base Type is Sales Order.  The selection made here will determine which documents will be generated when an order is processed and which documents must be generated manually or in batches.  &lt;br&gt;&#10;The following outlines this process.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Standard Order&lt;/b&gt; will generate just the &lt;b&gt;Order&lt;/b&gt; document when the order is processed.  &lt;br&gt;&#10;The &lt;b&gt;Delivery Note&lt;/b&gt;, &lt;b&gt;Invoice&lt;/b&gt; and &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.  &lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Warehouse Order&lt;/b&gt; will generate the &lt;b&gt;Order&lt;/b&gt; and &lt;b&gt;Delivery Note&lt;/b&gt;. &lt;br&gt; The &lt;b&gt;Invoice&lt;/b&gt; and &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Credit Order&lt;/b&gt; will generate the &lt;b&gt;Order&lt;/b&gt;, &lt;b&gt;Delivery Note&lt;/b&gt; and &lt;b&gt;Invoice&lt;/b&gt;. &lt;br&gt; The &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;POS&lt;/b&gt; (Point of Sale) will generate all document"><![CDATA[采购订单子类型表示该单据引用的销售订单类型。该字段仅当单据基础类型为销售订单时才显示出来。此处做出的选择将决定当处理订单时将生成哪些单据，以及哪些单据必须手工生成或按批生成。  <p> 下面概述了此流程。<p><b>标准订单</b>：批获取，它自动保留库存。发货单和发票可手工生成。<br> <b>仓库订单</b>：物品由提货单提走。该类型自动生成发货单或提货单。可以手工创建发票。<br> <b>信用订单</b>：物品由发票提走。该类型自动生成发货单和发票。一旦物品被付款，需要手工输入付款。<br> <b>POS订单</b>：该单据类型的灵活性更强。物品由发票提走，是否付款均可。付款条件也可以是分期付款。该类型自动生成发货单、发票以及依据付款条件的付款。]]></value>
+  <value column="Description" original="Sales Order Sub Type">销售订单子类型，不同类型产生不同单据作业</value>
+  <value column="Help" original="The SO Sub Type indicates the type of sales order this document refers to.  This field only appears when the Document Base Type is Sales Order.  The selection made here will determine which documents will be generated when an order is processed and which documents must be generated manually or in batches.  &lt;br&gt;&#10;The following outlines this process.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Standard Order&lt;/b&gt; will generate just the &lt;b&gt;Order&lt;/b&gt; document when the order is processed.  &lt;br&gt;&#10;The &lt;b&gt;Delivery Note&lt;/b&gt;, &lt;b&gt;Invoice&lt;/b&gt; and &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.  &lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Warehouse Order&lt;/b&gt; will generate the &lt;b&gt;Order&lt;/b&gt; and &lt;b&gt;Delivery Note&lt;/b&gt;. &lt;br&gt; The &lt;b&gt;Invoice&lt;/b&gt; and &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;Credit Order&lt;/b&gt; will generate the &lt;b&gt;Order&lt;/b&gt;, &lt;b&gt;Delivery Note&lt;/b&gt; and &lt;b&gt;Invoice&lt;/b&gt;. &lt;br&gt; The &lt;b&gt;Receipt&lt;/b&gt; must be generated via other processes.&lt;br&gt;&#10;SO Sub Type of &lt;b&gt;POS&lt;/b&gt; (Point of Sale) will generate all document"><![CDATA[采购订单子类型表示该单据引用的销售订单类型。该字段仅当单据基础类型为销售订单时才显示出来。此处做出的选择将决定当处理订单时将生成哪些单据，以及哪些单据必须手工生成或自动生成。  <p> <b>标准订单</b>：批处理，它自动保留库存。发货单和发票可手工生成。<br> <b>仓库订单</b>：该类型自动生成发货单或提货单，物品由发货单提走，可以手工创建发票。<br> <b>信用订单</b>：物品由发票提走。该类型自动生成发货单和发票。一旦物品被付款，需要手工输入付款。<br> <b>POS订单</b>：该单据类型的灵活性更强。物品由发票提走，是否付款均可。付款条件也可以是分期付款。该类型自动生成发货单、发票以及依据付款条件的付款。
+<b>预付订单</b>：发票在发货前付款。付款单直接连接订单或者订单直接链接付款。付款后，自动生成发货单。该单据通常用于网店销售<br><b>报价方案</b>：非实盘报价方案，不保留库存，可以转换为其他销售单据。<br><b>报价单</b>：实盘报价，保留库存，可以转换为其他销售单据。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4610,20 +4610,20 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1025" trl="Y">
-  <value column="Name" original="Shipment/Receipt">收发单</value>
-  <value column="PrintName" original="Shipment/Receipt">收发单</value>
-  <value column="Description" original="Material Shipment Document">物料发货单/收货单</value>
-  <value column="Help" original="The Material Shipment / Receipt ">物料发货 / 收货 </value>
+  <value column="Name" original="Shipment/Receipt">发货单</value>
+  <value column="PrintName" original="Shipment/Receipt">发货单</value>
+  <value column="Description" original="Material Shipment Document">物料发货单</value>
+  <value column="Help" original="The Material Shipment / Receipt ">物料发货单</value>
   <value column="PO_Description" original="Material Receipt Document">物料收货单</value>
-  <value column="PO_Help" original="The Material Shipment / Receipt ">物料发货 / 收货 </value>
+  <value column="PO_Help" original="The Material Shipment / Receipt ">物料收货单 </value>
   <value column="PO_Name" original="Receipt">收货单</value>
   <value column="PO_PrintName" original="Receipt">收货单</value>
  </row>
  <row id="1026" trl="Y">
-  <value column="Name" original="Shipment/Receipt Line">收发单明细</value>
-  <value column="PrintName" original="Shipment/Receipt Line">收发单明细</value>
-  <value column="Description" original="Line on Shipment or Receipt document">入库单或发货单明细行</value>
-  <value column="Help" original="The Shipment/Receipt Line indicates a unique line in a Shipment/Receipt document">入库单或发货单明细行</value>
+  <value column="Name" original="Shipment/Receipt Line">发货单明细</value>
+  <value column="PrintName" original="Shipment/Receipt Line">发货单明细</value>
+  <value column="Description" original="Line on Shipment or Receipt document">发货单明细行</value>
+  <value column="Help" original="The Shipment/Receipt Line indicates a unique line in a Shipment/Receipt document">发货单明细行</value>
   <value column="PO_Description" original="Line on Receipt document">收货单明细</value>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original="Receipt Line">收货单明细</value>
@@ -4820,10 +4820,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1056" trl="Y">
-  <value column="Name" original="Vendor Liability">供应商负债</value>
-  <value column="PrintName" original="Vendor Liability">供应商负债</value>
-  <value column="Description" original="Account for Vendor Liability">应付账款的会计科目</value>
-  <value column="Help" original="The Vendor Liability account indicates the account used for recording transactions for vendor liabilities">供应商负债账户表示用于记录供应商负债事务处理的账户</value>
+  <value column="Name" original="Vendor Liability">应付账款</value>
+  <value column="PrintName" original="Vendor Liability">应付账款</value>
+  <value column="Description" original="Account for Vendor Liability">记录应付账款账户</value>
+  <value column="Help" original="The Vendor Liability account indicates the account used for recording transactions for vendor liabilities">记录应付账款账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5030,10 +5030,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1081" trl="Y">
-  <value column="Name" original="Committed Amount">委托金额</value>
-  <value column="PrintName" original="Committed Amt">委托金额</value>
-  <value column="Description" original="The (legal) commitment amount">(法定的) 承诺金额</value>
-  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">承诺金额独立于计划金额的。可为现实估计而使用计划金额，它可能高于或低于承诺金额</value>
+  <value column="Name" original="Committed Amount">提交金额</value>
+  <value column="PrintName" original="Committed Amt">提交金额</value>
+  <value column="Description" original="The (legal) commitment amount">已采购金额</value>
+  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">提交金额与计划金额无关，计划金额用于实际估算，可能会多于或少于提交金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5330,10 +5330,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1117" trl="Y">
-  <value column="Name" original="Not-invoiced Receipts">未开票收款</value>
-  <value column="PrintName" original="Not-invoiced Receipts">未开票收款</value>
-  <value column="Description" original="Account for not-invoiced Material Receipts">未开票收款账户</value>
-  <value column="Help" original="The Not Invoiced Receipts account indicates the account used for recording receipts for materials that have not yet been invoiced.">用于记录尚未开票的收款账户</value>
+  <value column="Name" original="Not-invoiced Receipts">未开票收货</value>
+  <value column="PrintName" original="Not-invoiced Receipts">未开票收货</value>
+  <value column="Description" original="Account for not-invoiced Material Receipts">已收货，未收到供应商发票</value>
+  <value column="Help" original="The Not Invoiced Receipts account indicates the account used for recording receipts for materials that have not yet been invoiced.">已收货，未收到供应商发票的账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5490,10 +5490,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1135" trl="Y">
-  <value column="Name" original="Tax Indicator">税种</value>
-  <value column="PrintName" original="Tax Indicator">税种</value>
-  <value column="Description" original="Short form for Tax to be printed on documents">税率的税标识</value>
-  <value column="Help" original="The Tax Indicator identifies the short name that will print on documents referencing this tax.">具体税率的税标识</value>
+  <value column="Name" original="Tax Indicator">税目代码</value>
+  <value column="PrintName" original="Tax Indicator">税目代码</value>
+  <value column="Description" original="Short form for Tax to be printed on documents">具体税目的代码</value>
+  <value column="Help" original="The Tax Indicator identifies the short name that will print on documents referencing this tax.">具体税目的代码</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6975,10 +6975,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1387" trl="Y">
-  <value column="Name" original="Charge Account">杂费费用</value>
-  <value column="PrintName" original="Charge Account">杂费费用</value>
-  <value column="Description" original="Charge Account">杂费费用记录账户</value>
-  <value column="Help" original="The Charge Account identifies the account to use when recording charges">杂费费用记录账户</value>
+  <value column="Name" original="Charge Account">杂费支出</value>
+  <value column="PrintName" original="Charge Account">杂费支出</value>
+  <value column="Description" original="Charge Account">记录杂费的支出账户</value>
+  <value column="Help" original="The Charge Account identifies the account to use when recording charges">记录杂费的支出账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8357,10 +8357,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1564" trl="Y">
-  <value column="Name" original="Planned Amount">已计划金额</value>
-  <value column="PrintName" original="Planned Amt">已计划金额</value>
-  <value column="Description" original="Planned amount for this project">该产品的计划金额</value>
-  <value column="Help" original="The Planned Amount indicates the anticipated amount for this project or project line.">计划金额表示该项目或项目行的预计金额</value>
+  <value column="Name" original="Planned Amount">计划金额</value>
+  <value column="PrintName" original="Planned Amt">计划金额</value>
+  <value column="Description" original="Planned amount for this project">项目的计划金额</value>
+  <value column="Help" original="The Planned Amount indicates the anticipated amount for this project or project line.">项目的预计金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8897,20 +8897,20 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1625" trl="Y">
-  <value column="Name" original="Trade Discount Granted">准许的交易折扣</value>
-  <value column="PrintName" original="Trade Discount Grant">准许的交易折扣</value>
-  <value column="Description" original="Trade Discount Granted Account">准许的交易折扣账户</value>
-  <value column="Help" original="The Trade Discount Granted Account indicates the account for granted trade discount in sales invoices">交易折扣授予帐户表示用于在销售发票中授予交易折扣的账户</value>
+  <value column="Name" original="Trade Discount Granted">应付折扣</value>
+  <value column="PrintName" original="Trade Discount Grant">应付折扣</value>
+  <value column="Description" original="Trade Discount Granted Account">账户记录应该给予客户的折扣</value>
+  <value column="Help" original="The Trade Discount Granted Account indicates the account for granted trade discount in sales invoices">比如：销售发票分录，借方=应收账款80+应付折扣20，贷方=主营收入100，即财务应该支付的折扣账户。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1626" trl="Y">
-  <value column="Name" original="Trade Discount Received">交易折扣应收</value>
-  <value column="PrintName" original="Trade Discount Received">交易折扣应收</value>
-  <value column="Description" original="Trade Discount Receivable Account">交易折扣应收账户</value>
-  <value column="Help" original="The Trade Discount Receivables Account indicates the account for received trade discounts in vendor invoices">交易折扣应收账户表示针对供应商发票中收入交易折扣率的账户</value>
+  <value column="Name" original="Trade Discount Received">应收折扣</value>
+  <value column="PrintName" original="Trade Discount Received">应收折扣</value>
+  <value column="Description" original="Trade Discount Receivable Account">账户记录供应商应该给予的折扣</value>
+  <value column="Help" original="The Trade Discount Receivables Account indicates the account for received trade discounts in vendor invoices">比如：采购发票分录，借方=存货结算100，贷方=应付账款80+应收折扣20，即财务应该收到的折扣账户。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10107,10 +10107,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1761" trl="Y">
-  <value column="Name" original="Expense Amount">开支金额</value>
-  <value column="PrintName" original="Expense Amount">开支金额</value>
-  <value column="Description" original="Amount for this expense">开支金额</value>
-  <value column="Help" original="Expense amount in currency">货币表示的开支金额</value>
+  <value column="Name" original="Expense Amount">费用价格</value>
+  <value column="PrintName" original="Expense Amount">费用价格</value>
+  <value column="Description" original="Amount for this expense">费用的单价</value>
+  <value column="Help" original="Expense amount in currency">费用的单价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11717,10 +11717,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1936" trl="Y">
-  <value column="Name" original="Guarantee Date">保质期满日期</value>
-  <value column="PrintName" original="Guarantee date">质保期满日期</value>
-  <value column="Description" original="Date when guarantee expires">质保期满日期</value>
-  <value column="Help" original="Date when the normal guarantee or availability expires">正常质保期满日期</value>
+  <value column="Name" original="Guarantee Date">保质日期</value>
+  <value column="PrintName" original="Guarantee date">保质日期</value>
+  <value column="Description" original="Date when guarantee expires">保证产品质量的截止日期</value>
+  <value column="Help" original="Date when the normal guarantee or availability expires">可以为产品设定保质日期或过期日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12437,10 +12437,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2011" trl="Y">
-  <value column="Name" original="Guarantee Date">保质期满日期</value>
-  <value column="PrintName" original="Guarantee Date">保质期满日期</value>
-  <value column="Description" original="Product has Guarantee or Expiry Date">产品的保质日期或过期日期</value>
-  <value column="Help" original="For individual products, you can define a guarantee or expiry date">你可以为每个产品，设定保质日期或过期日期</value>
+  <value column="Name" original="Guarantee Date">保质日期</value>
+  <value column="PrintName" original="Guarantee Date">保质日期</value>
+  <value column="Description" original="Product has Guarantee or Expiry Date">保证产品质量的截止日期</value>
+  <value column="Help" original="For individual products, you can define a guarantee or expiry date">可以为产品属性设定保质日期或过期日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12657,10 +12657,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2036" trl="Y">
-  <value column="Name" original="Committed Quantity">承诺数量</value>
-  <value column="PrintName" original="Committed Qty">承诺数量</value>
-  <value column="Description" original="The (legal) commitment Quantity">(法定的) 承诺数量</value>
-  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">承诺金额独立于计划金额的。可为现实估计而使用计划金额，它可能高于或低于承诺金额</value>
+  <value column="Name" original="Committed Quantity">提交数量</value>
+  <value column="PrintName" original="Committed Qty">提交数量</value>
+  <value column="Description" original="The (legal) commitment Quantity">已采购的数量</value>
+  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">已采购的数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13478,10 +13478,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2122" trl="Y">
-  <value column="Name" original="Release No">发布版本号</value>
-  <value column="PrintName" original="Release No">发布版本号</value>
-  <value column="Description" original="Internal Release Number">内部发部版本号</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Release No">版本号</value>
+  <value column="PrintName" original="Release No">版本号</value>
+  <value column="Description" original="Internal Release Number">发行的版本号</value>
+  <value column="Help" original="">idempiere发行的版本号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14775,10 +14775,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2261" trl="Y">
-  <value column="Name" original="Mandatory Guarantee Date">必填的保质日期</value>
-  <value column="PrintName" original="Mandatory Guarantee Date">必填的保质日期</value>
-  <value column="Description" original="The entry of a Guarantee Date is mandatory when creating a Product Instance">当创建一个产品时，必须填写保质日期</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Mandatory Guarantee Date">必填保质日期</value>
+  <value column="PrintName" original="Mandatory Guarantee Date">必填保质日期</value>
+  <value column="Description" original="The entry of a Guarantee Date is mandatory when creating a Product Instance">保质日期必填</value>
+  <value column="Help" original="">产品属性中必须填写保质日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15225,10 +15225,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2312" trl="Y">
-  <value column="Name" original="Workflow Process">工作流过程</value>
-  <value column="PrintName" original="Wf Process">工作流过程</value>
-  <value column="Description" original="Actual Workflow Process Instance">实际的工作流过程实例</value>
-  <value column="Help" original="Instance of a workflow execution">工作流执行的实例</value>
+  <value column="Name" original="Workflow Process">工作流流程</value>
+  <value column="PrintName" original="Wf Process">工作流流程</value>
+  <value column="Description" original="Actual Workflow Process Instance">工作流触发的流程实例</value>
+  <value column="Help" original="Instance of a workflow execution">工作流触发的流程实例</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18494,10 +18494,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2656" trl="Y">
-  <value column="Name" original="Preference Level">偏爱设置级别</value>
-  <value column="PrintName" original="Preference Level">偏爱设置级别</value>
-  <value column="Description" original="Determines what preferences the user can set">决定用户能够设置什么样的偏爱设置</value>
-  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Client, you can see the Record Info Change Log.">偏爱设置允许定义默认值。如果设置为无，不能设置任何偏爱设置或值偏爱设置。仅当设置为实体时，才能够查看记录信息更改日志</value>
+  <value column="Name" original="Preference Level">首选级别</value>
+  <value column="PrintName" original="Preference Level">首选级别</value>
+  <value column="Description" original="Determines what preferences the user can set">决定用户能够设置首选值的范围</value>
+  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Client, you can see the Record Info Change Log.">决定用户能够设置首选值的范围</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18867,10 +18867,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2693" trl="Y">
-  <value column="Name" original="Multi Row Only">仅多行</value>
-  <value column="PrintName" original="Multi Row Only">仅多行</value>
-  <value column="Description" original="This applies to Multi-Row view only">这应用于仅多行的视图</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Multi Row Only">仅网格视图</value>
+  <value column="PrintName" original="Multi Row Only">仅网格视图</value>
+  <value column="Description" original="This applies to Multi-Row view only">仅显示为网格视图</value>
+  <value column="Help" original="">仅显示为网格多行式视图</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18998,10 +18998,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2709" trl="Y">
-  <value column="Name" original="Confidentiality">机密</value>
-  <value column="PrintName" original="Confidentiality">机密</value>
+  <value column="Name" original="Confidentiality">机密类型</value>
+  <value column="PrintName" original="Confidentiality">机密类型</value>
   <value column="Description" original="Type of Confidentiality">机密类型</value>
-  <value column="Help" original=""/>
+  <value column="Help" original="">机密类型</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20529,10 +20529,10 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2870" trl="Y">
-  <value column="Name" original="Sales Tax">销项税</value>
-  <value column="PrintName" original="Sales Tax">销项税</value>
-  <value column="Description" original="This is a sales tax (i.e. not a value added tax)">这是一项销售税 (亦即不是增值税)</value>
-  <value column="Help" original="If selected AP tax is handled as expense, otherwise it is handled as a VAT credit.">如果选中，则将应付税处理为费用；否则，被处理为增值税抵扣</value>
+  <value column="Name" original="Sales Tax">消费税</value>
+  <value column="PrintName" original="Sales Tax">消费税</value>
+  <value column="Description" original="This is a sales tax (i.e. not a value added tax)">流转税类型，不是增值税</value>
+  <value column="Help" original="If selected AP tax is handled as expense, otherwise it is handled as a VAT credit.">如果选中，则将应付税处理为费用；否则，被处理为增值税抵扣VAT credit。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20740,10 +20740,10 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2891" trl="Y">
-  <value column="Name" original="Request Document No">请求单据编号</value>
-  <value column="PrintName" original="Request Document No">请求单据编号</value>
-  <value column="Description" original="iDempiere Request Document No">iDempiere请求单据号</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Request Document No">报告单号</value>
+  <value column="PrintName" original="Request Document No">报告单号</value>
+  <value column="Description" original="iDempiere Request Document No">问题报告的单据编号</value>
+  <value column="Help" original="">问题报告的单据编号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21193,10 +21193,10 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2939" trl="Y">
-  <value column="Name" original="Release Tag">版本发布标签</value>
-  <value column="PrintName" original="Release Tag">版本发布标签</value>
-  <value column="Description" original="Release Tag">版本发布标签</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Release Tag">版本标签</value>
+  <value column="PrintName" original="Release Tag">版本标签</value>
+  <value column="Description" original="Release Tag">版本的标签TAG</value>
+  <value column="Help" original="">版本的标签TAG</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23497,19 +23497,19 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
   <value column="Name" original="Dashboard Content">仪表盘内容</value>
   <value column="PrintName" original="Dashboard Content">仪表盘内容</value>
   <value column="Description" original="">仪表盘内容</value>
-  <value column="Help" original="">工作台仪表盘内容，比如日历、地图、看板、代办事宜。</value>
+  <value column="Help" original="">仪表盘内容</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52000" trl="Y">
-  <value column="Name" original="Shipment/Receipt">收发单确认</value>
-  <value column="PrintName" original="Shipment/Receipt">收发单确认</value>
-  <value column="Description" original="MaterialShipment Document">物料发货/收货单据</value>
-  <value column="Help" original="The Material Shipment / Receipt ">物料发货 / 收货 </value>
+  <value column="Name" original="Shipment/Receipt">发货单</value>
+  <value column="PrintName" original="Shipment/Receipt">发货单</value>
+  <value column="Description" original="MaterialShipment Document">发货单单据</value>
+  <value column="Help" original="The Material Shipment / Receipt ">发货单单据</value>
   <value column="PO_Description" original="Material Receipt Document">物料收货单</value>
-  <value column="PO_Help" original="The Material Shipment / Receipt ">物料发货 / 收货 </value>
+  <value column="PO_Help" original="The Material Shipment / Receipt ">物料收货单</value>
   <value column="PO_Name" original="Receipt">收货单</value>
   <value column="PO_PrintName" original="Receipt">收货单</value>
  </row>
@@ -27501,10 +27501,10 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53620" trl="Y">
-  <value column="Name" original="Asset Policy No">资产政策编号</value>
-  <value column="PrintName" original="Asset Policy No">资产政策编号</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Asset Policy No">资产保单号</value>
+  <value column="PrintName" original="Asset Policy No">资产保单号</value>
+  <value column="Description" original="">资产的保险单编号</value>
+  <value column="Help" original="">资产的保险单编号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28041,10 +28041,10 @@ http://en.wikipedia.org/wiki/Safety_stock</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53684" trl="Y">
-  <value column="Name" original="Save In Historic">将信息保存于浏览器 Cookies 中</value>
-  <value column="PrintName" original="Save In Historic">将信息保存于浏览器 Cookies 中</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Save In Historic">重要事件</value>
+  <value column="PrintName" original="Save In Historic">重要事件</value>
+  <value column="Description" original="">该操作为重要事件</value>
+  <value column="Help" original="">该操作为重要事件</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28445,20 +28445,20 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53768" trl="Y">
-  <value column="Name" original="Web Service Type">网页容器类型</value>
-  <value column="PrintName" original="Web Service Type">网页容器类型</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Web Service Type">Web Service 类型</value>
+  <value column="PrintName" original="Web Service Type">Web Service 类型</value>
+  <value column="Description" original="">Web Service 类型</value>
+  <value column="Help" original="">Web Service 类型</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53769" trl="Y">
-  <value column="Name" original="Web Service Parameters">定义会计参数</value>
-  <value column="PrintName" original="Web Service Parameters">定义会计参数</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Web Service Parameters">Web Service 参数</value>
+  <value column="PrintName" original="Web Service Parameters">Web Service 参数</value>
+  <value column="Description" original="">Web Service 参数</value>
+  <value column="Help" original="">Web Service 参数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28655,10 +28655,10 @@ Credit Work in Process Account ]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53809" trl="Y">
-  <value column="Name" original="Promotion Code">促销编码</value>
-  <value column="PrintName" original="Promotion Code">促销编码</value>
-  <value column="Description" original="User entered promotion code at sales time">User entered promotion code at sales time</value>
-  <value column="Help" original="If present, user entered the promotion code at sales time to get this promotion">如果存在，在销售时用户输入促销代码获得此促销</value>
+  <value column="Name" original="Promotion Code">促销码</value>
+  <value column="PrintName" original="Promotion Code">促销码</value>
+  <value column="Description" original="User entered promotion code at sales time">销售时获得的促销代码</value>
+  <value column="Help" original="If present, user entered the promotion code at sales time to get this promotion">使用促销码得到促销</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38987,10 +38987,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200074" trl="Y">
-  <value column="Name" original="Show in Dashboard">活动面板显示</value>
-  <value column="PrintName" original="Show in Dashboard">活动面板显示</value>
-  <value column="Description" original="Show the dashlet in the dashboard">是否在桌面的活动面板显示</value>
-  <value column="Help" original="">是否在桌面的活动面板显示</value>
+  <value column="Name" original="Show in Dashboard">仪表盘显示</value>
+  <value column="PrintName" original="Show in Dashboard">仪表盘显示</value>
+  <value column="Description" original="Show the dashlet in the dashboard">在仪表盘中显示</value>
+  <value column="Help" original="">在仪表盘中显示</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39007,10 +39007,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200076" trl="Y">
-  <value column="Name" original="Process Parameters">会计参数</value>
-  <value column="PrintName" original="Process Parameters">会计参数</value>
-  <value column="Description" original="Comma separated process parameter list">Comma separated process parameter list</value>
-  <value column="Help" original="A list of name value pair process parameter separated by comma">A list of name value pair process parameter separated by comma</value>
+  <value column="Name" original="Process Parameters">流程参数</value>
+  <value column="PrintName" original="Process Parameters">流程参数</value>
+  <value column="Description" original="Comma separated process parameter list">流程参数</value>
+  <value column="Help" original="A list of name value pair process parameter separated by comma">流程参数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39077,10 +39077,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200083" trl="Y">
-  <value column="Name" original="Show in Grid"><![CDATA[网格切换(&O)]]></value>
-  <value column="PrintName" original="Show in Grid"><![CDATA[网格切换(&O)]]></value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Show in Grid">网格中显示</value>
+  <value column="PrintName" original="Show in Grid">网格中显示</value>
+  <value column="Description" original="">在网格布局中显示该字段</value>
+  <value column="Help" original="">在网格布局中显示该字段</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39157,10 +39157,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200097" trl="Y">
-  <value column="Name" original="Dashboard Preference">仪表板偏爱设置</value>
-  <value column="PrintName" original="Dashboard Preference">仪表板偏爱设置</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Dashboard Preference">仪表盘内容首选项</value>
+  <value column="PrintName" original="Dashboard Preference">仪表盘内容首选项</value>
+  <value column="Description" original="">仪表盘内容首选项</value>
+  <value column="Help" original="">仪表盘内容首选项</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39277,20 +39277,20 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200120" trl="Y">
-  <value column="Name" original="Guarantee">保证</value>
-  <value column="PrintName" original="Guarantee">保证</value>
-  <value column="Description" original="Guarantee for a Credit">信贷担保</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Guarantee">担保文书</value>
+  <value column="PrintName" original="Guarantee">担保文书</value>
+  <value column="Description" original="Guarantee for a Credit">用于承诺付款或者风险担保的商业函件</value>
+  <value column="Help" original="">如果选择，该支付方式不会在POS订单后自动生成发票，因为买家可能无法付款</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200121" trl="Y">
-  <value column="Name" original="Post Dated">实际过账</value>
-  <value column="PrintName" original="Post Dated">实际过账</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Post Dated">远期票据</value>
+  <value column="PrintName" original="Post Dated">远期票据</value>
+  <value column="Description" original="">比如远期支票(Post-dated Check)</value>
+  <value column="Help" original="">一种风险较高票据支付方式的，开票日N天后才能兑换</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -53456,11 +53456,11 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="202185" trl="N">
+ <row id="202185" trl="Y">
   <value column="Name" original="Use Guarantee Date for Material Policy">使用保质日期</value>
-  <value column="PrintName" original="Use Guarantee Date for Material Policy">Use Guarantee Date for Material Policy</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="PrintName" original="Use Guarantee Date for Material Policy">使用保质日期</value>
+  <value column="Description" original="">产品的属性集实例，加入保质日期信息</value>
+  <value column="Help" original="">无ASI产品，系统使用单据日期作为属性集实例。同日不同质保期的产品如果加入保质日期信息，可以更好的支持FEFO(过期先出)物料策略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55623,10 +55623,10 @@ Strings may be in single quotes (optional)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202716" trl="Y">
-  <value column="Name" original="Preference For">偏爱设置对象</value>
-  <value column="PrintName" original="Preference For">偏爱设置对象</value>
-  <value column="Description" original="Type of preference, it can window, info window or parameter process">Type of preference, it can window, info window or parameter process</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Preference For">首选对象</value>
+  <value column="PrintName" original="Preference For">首选对象</value>
+  <value column="Description" original="Type of preference, it can window, info window or parameter process">决定首选值的应用目标</value>
+  <value column="Help" original="">首选值的应用目标，比如窗口或者流程参数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55784,20 +55784,20 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202796" trl="Y">
-  <value column="Name" original="CSV Header">CSV头</value>
-  <value column="PrintName" original="CSV Header">CSV头</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="CSV Header">CSV表头</value>
+  <value column="PrintName" original="CSV Header">CSV表头</value>
+  <value column="Description" original="">使用数据库字段名称组成的表头行</value>
+  <value column="Help" original="">输入CSV表头行，即选择你要导入的字段，比如AD_Org_ID[Name],DocumentNo/K,Description,M_Warehouse_ID[Value]</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202797" trl="Y">
-  <value column="Name" original="CSV Alias Header">CSV头的别名</value>
-  <value column="PrintName" original="CSV Alias Header">CSV头的别名</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="CSV Alias Header">CSV别名表头</value>
+  <value column="PrintName" original="CSV Alias Header">CSV别名表头</value>
+  <value column="Description" original="">使用字段别名而不是数据库的字段名</value>
+  <value column="Help" original="">某些字段可以使用别名来供其他字段引用，以防止多表字段名称混淆，比如父表表头OrgName,DocumentNo/K,Description,WHValue，子表可以直接使用OrgName</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56026,10 +56026,10 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202897" trl="Y">
-  <value column="Name" original="Load Page Num">加载页码</value>
-  <value column="PrintName" original="Load Page Num">加载页码</value>
-  <value column="Description" original="When load data for info window, also load number of paging">信息窗口加载数据的同时也加载页码信息</value>
-  <value column="Help" original="Load number of paging maybe affect to performance when info window is join of many table">当信息窗口和多个表有关联时，该设定可能会影响到性能</value>
+  <value column="Name" original="Load Page Num">按页查询</value>
+  <value column="PrintName" original="Load Page Num">按页查询</value>
+  <value column="Description" original="When load data for info window, also load number of paging">只查询默认页数的记录</value>
+  <value column="Help" original="Load number of paging maybe affect to performance when info window is join of many table">系统默认页数为5，查询按需求页数进行加载以加快显示。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56055,21 +56055,21 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="202958" trl="N">
-  <value column="Name" original="Favourite">Favourite</value>
-  <value column="PrintName" original="Favourite">Favourite</value>
-  <value column="Description" original="This record is a favourite">This record is a favourite</value>
-  <value column="Help" original=""/>
+ <row id="202958" trl="Y">
+  <value column="Name" original="Favourite">已收藏</value>
+  <value column="PrintName" original="Favourite">已收藏</value>
+  <value column="Description" original="This record is a favourite">这是一个已收藏的项目</value>
+  <value column="Help" original="">这是一个已收藏的项目</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="202959" trl="N">
-  <value column="Name" original="Login automatic open sequence">Login automatic open sequence</value>
-  <value column="PrintName" original="Login automatic open sequence">Login automatic open sequence</value>
-  <value column="Description" original="Determine the order items will be automatically opened when user logs in">Determine the order items will be automatically opened when user logs in</value>
-  <value column="Help" original=""/>
+ <row id="202959" trl="Y">
+  <value column="Name" original="Login automatic open sequence">登录打开顺序</value>
+  <value column="PrintName" original="Login automatic open sequence">登录打开顺序</value>
+  <value column="Description" original="Determine the order items will be automatically opened when user logs in">登录后自动打开菜单项的顺序</value>
+  <value column="Help" original="">当用户登录后，指定菜单项自动打开的顺序</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56086,9 +56086,9 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203005" trl="N">
-  <value column="Name" original="Style">样式</value>
-  <value column="PrintName" original="Style">样式</value>
-  <value column="Description" original="CSS style for field and label">CSS style for field and label</value>
+  <value column="Name" original="Style">CSS样式</value>
+  <value column="PrintName" original="Style">CSS样式</value>
+  <value column="Description" original="CSS style for field and label">为字段标签或者字段本身配置的CSS样式</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -56106,9 +56106,9 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203007" trl="N">
-  <value column="Name" original="Style Line">样式行</value>
-  <value column="PrintName" original="Style Line">样式行</value>
-  <value column="Description" original="CSS Style Line">CSS Style Line</value>
+  <value column="Name" original="Style Line">CSS样式明细</value>
+  <value column="PrintName" original="Style Line">CSS样式明细</value>
+  <value column="Description" original="CSS Style Line">CSS样式明细</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -56125,10 +56125,10 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="203009" trl="N">
-  <value column="Name" original="Inline Style">Inline Style</value>
-  <value column="PrintName" original="Inline Style">Inline Style</value>
-  <value column="Description" original="CSS Inline Style">CSS Inline Style</value>
+ <row id="203009" trl="Y">
+  <value column="Name" original="Inline Style">CSS内联样式</value>
+  <value column="PrintName" original="Inline Style">CSS内联样式</value>
+  <value column="Description" original="CSS Inline Style">CSS内联样式</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -56138,7 +56138,7 @@ column define in ParentRelatedColumn will replace key column</value>
  <row id="203010" trl="N">
   <value column="Name" original="Theme">主题</value>
   <value column="PrintName" original="Theme">主题</value>
-  <value column="Description" original="Theme name">Theme name</value>
+  <value column="Description" original="Theme name">主题名称</value>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -56146,8 +56146,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203011" trl="Y">
-  <value column="Name" original="Label Style">标签样式</value>
-  <value column="PrintName" original="Label Style">标签样式</value>
+  <value column="Name" original="Label Style">标签CSS样式</value>
+  <value column="PrintName" original="Label Style">标签CSS样式</value>
   <value column="Description" original="Label CSS Style">标签的CSS样式</value>
   <value column="Help" original="">标签的CSS样式</value>
   <value column="PO_Description" original=""/>
@@ -56156,8 +56156,8 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203012" trl="Y">
-  <value column="Name" original="Field Style">字段样式</value>
-  <value column="PrintName" original="Field Style">字段样式</value>
+  <value column="Name" original="Field Style">字段CSS样式</value>
+  <value column="PrintName" original="Field Style">字段CSS样式</value>
   <value column="Description" original="Field CSS Style ">字段的CSS样式</value>
   <value column="Help" original="">字段的CSS样式</value>
   <value column="PO_Description" original=""/>
@@ -56165,9 +56165,9 @@ column define in ParentRelatedColumn will replace key column</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="203069" trl="N">
-  <value column="Name" original="Document Status">Document Status</value>
-  <value column="PrintName" original="Document Status">Document Status</value>
+ <row id="203069" trl="Y">
+  <value column="Name" original="Document Status">单据状态</value>
+  <value column="PrintName" original="Document Status">单据状态</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

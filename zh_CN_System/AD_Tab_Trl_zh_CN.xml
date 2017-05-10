@@ -103,7 +103,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="118" trl="Y">
-  <value column="Name" original="User Contact">用户联系人</value>
+  <value column="Name" original="User Contact">用户</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User or Business Partner Contact">维护用户或业务伙伴联系人</value>
   <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">用户页签定义了拥有访问系统权限的登录用户。如需访问应用服务，用户需要被分配至少一个角色</value>
@@ -213,7 +213,7 @@
   <value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">国家页签定义了开展业务的国家。此处输入的值在业务伙伴的位置记录中被引用</value>
  </row>
  <row id="136" trl="Y">
-  <value column="Name" original="Region">区域名称</value>
+  <value column="Name" original="Region">区域</value>
   <value column="CommitWarning" original="Please create a support request (http://www.idempiere.org/support/requests.html), if the region info is not correct/incomplete.">请提交一个支持请求，如果区域信息不正确</value>
   <value column="Description" original="Define Regions">定义区域</value>
   <value column="Help" original="The Region Tab  defines a Region within a Country.  This tab is enabled only if the Has Region checkbox is selected for the Country.">"区域页签"定义国家内的区域。当”有区域“选择框被选中时，该页签才会启用</value>
@@ -261,7 +261,7 @@
   <value column="Help" original="The Currency Tab defines any currency you will transact with or report in.">货币页签定义了将用于交易或报表中的货币</value>
  </row>
  <row id="152" trl="Y">
-  <value column="Name" original="Test">测试中</value>
+  <value column="Name" original="Test">测试界面</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -279,7 +279,7 @@
   <value column="Help" original="The Location Tab defines the location of an Organization.">位置页签定义了组织的位置</value>
  </row>
  <row id="156" trl="Y">
-  <value column="Name" original="Preference">系统偏爱设置</value>
+  <value column="Name" original="Preference">系统首选值</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain System Client Org and User Preferences">维护系统实体组织与用户的偏爱值</value>
   <value column="Help" original=""/>
@@ -334,7 +334,7 @@
   <value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">组织信息页签 用于定义组织的地址、DUNS码和税标识号</value>
  </row>
  <row id="171" trl="Y">
-  <value column="Name" original="Reference Translation">引用翻译</value>
+  <value column="Name" original="Reference Translation">翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -352,13 +352,13 @@
   <value column="Help" original="The Attachment tab displays the attributes of an attachment.">附件页签显示了附件的属性</value>
  </row>
  <row id="174" trl="Y">
-  <value column="Name" original="Tax">税种</value>
+  <value column="Name" original="Tax">税目</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax definition">维护税种和税率的定义</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. &#10;&#10;When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税种的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
+  <value column="Description" original="Tax definition">维护税目和税率的定义</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. &#10;&#10;When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[税率窗口定义用于每个税目的不同的税。例如，销售税必须对适用的每个州进行定义。<br>如果有多个税，可创建含有相应总税率和实际税率的汇总级别的税，并将汇总级别的税作为多个税的父。当输入订单或发票行时将估计税，单据被处理时正确的税就会被计算出来。税总是依据行净额而计算。如果一种税基于行净额和另一种税，需要调整百分比以获得正确的金额。<br>有效起始/结束由父税决定。]]></value>
  </row>
  <row id="176" trl="Y">
-  <value column="Name" original="Tax Category">税类别</value>
+  <value column="Name" original="Tax Category">税种</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax Category">税的分类</value>
   <value column="Help" original="The Tax Category Tab is used to define and maintain Tax Categories.  Each Product is associated with a Tax Category.  This facilitates adapting to changes in taxation.">税种页签用于定义和维护税种。每个产品与一个税种相关联。这便于在税收改变时调整</value>
@@ -658,9 +658,9 @@
   <value column="Help" original="The Order Tax Tab displays the tax amount for an Order based on the lines entered.">订单税页签 显示了基于输入行的订单税额</value>
  </row>
  <row id="237" trl="Y">
-  <value column="Name" original="Charge">费用</value>
+  <value column="Name" original="Charge">杂费</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Charge">费用</value>
+  <value column="Description" original="Charge">杂费</value>
   <value column="Help" original="The Charge Tab defines the unique charges that may be associated with a document.&#10;The optional Business Partner allows to create Purchase Orders from Requisitions.">杂费页签定义了可与单据关联的唯一的杂费。可选的业务伙伴允许从申购单创建采购订单</value>
  </row>
  <row id="238" trl="Y">
@@ -713,7 +713,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="248" trl="Y">
-  <value column="Name" original="Report Translation">报表翻译</value>
+  <value column="Name" original="Report Translation">翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -942,21 +942,21 @@
   <value column="Help" original=""/>
  </row>
  <row id="304" trl="Y">
-  <value column="Name" original="Window Access">窗口访问</value>
+  <value column="Name" original="Window Access">窗口权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Window Access">窗口访问</value>
+  <value column="Description" original="Window Access">窗口访问权限</value>
   <value column="Help" original="The Window Access Tab defines the Windows and type of access that this Role is granted.">窗口访问页签定义了该角色被授予的窗口和访问类型</value>
  </row>
  <row id="305" trl="Y">
-  <value column="Name" original="Process Access">流程访问</value>
+  <value column="Name" original="Process Access">流程与报表权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process Access">流程访问</value>
+  <value column="Description" original="Process Access">流程访问权限</value>
   <value column="Help" original="The Process Access Tab defines the Processes and type of access that this Role is granted.">流程访问页签定义了流程和该角色被授予的访问类型</value>
  </row>
  <row id="306" trl="Y">
-  <value column="Name" original="Form Access">窗体访问</value>
+  <value column="Name" original="Form Access">窗体权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Form Access">窗体访问</value>
+  <value column="Description" original="Form Access">窗体访问权限</value>
   <value column="Help" original="The Form Access Tab defines the Forms and type of access that this Role is granted.">窗体访问页签定义了窗体和该角色被授予的访问类型</value>
  </row>
  <row id="307" trl="Y">
@@ -966,19 +966,19 @@
   <value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">工作流访问页签定义了该角色被授予的工作流和访问类型</value>
  </row>
  <row id="308" trl="Y">
-  <value column="Name" original="Report Access">报表访问</value>
+  <value column="Name" original="Report Access">权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Report Access">报表访问</value>
-  <value column="Help" original="The Report Access Tab determines who can access a report or process">报表访问页签定义了可访问报表或流程的人</value>
+  <value column="Description" original="Report Access"><![CDATA[流程&报表的访问权限]]></value>
+  <value column="Help" original="The Report Access Tab determines who can access a report or process">定义了可访问报表或流程的角色</value>
  </row>
  <row id="309" trl="Y">
-  <value column="Name" original="Access">窗体访问</value>
+  <value column="Name" original="Access">窗体权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Form Access">窗体访问权限</value>
   <value column="Help" original="The Forms Access Tab defines the access rules for this form">窗体访问页签定义了对该窗体的访问权限规则</value>
  </row>
  <row id="310" trl="Y">
-  <value column="Name" original="Access">权限</value>
+  <value column="Name" original="Access">任务权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Task Access">任务权限</value>
   <value column="Help" original="The Task Access Tab defines the Roles that will have access to this task and the type of access each Role is granted.">任务访问页签定义了将具有对该任务访问权限的角色，以及每个角色被授予的访问类型</value>
@@ -986,7 +986,7 @@
  <row id="311" trl="Y">
   <value column="Name" original="Access">权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Window Access">窗口访问</value>
+  <value column="Description" original="Window Access">窗口访问权限</value>
   <value column="Help" original="The Window Access Tab defines the Roles which have access to this Window.">窗口访问页签定义了什么角色具有访问该窗口的权限</value>
  </row>
  <row id="312" trl="Y">
@@ -996,7 +996,7 @@
   <value column="Help" original="The Workflow Access Tab defines the Roles who have access to this Workflow. ">定义这角色允许访问的工作流和类型. </value>
  </row>
  <row id="313" trl="Y">
-  <value column="Name" original="Task Access">任务权限</value>
+  <value column="Name" original="Task Access">权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Task Access">任务权限</value>
   <value column="Help" original="The Task Access Tab defines the Task and type of access that this Role is granted.">任务访问页签定义了任务，以及该角色被授予的访问类型 (权限)</value>
@@ -1201,7 +1201,7 @@
   <value column="Help" original="View Allocation Line Details">查看分配明细</value>
  </row>
  <row id="351" trl="Y">
-  <value column="Name" original="Org Access">组织访问</value>
+  <value column="Name" original="Org Access">组织权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Role Org Access">维护角色组织访问权限</value>
   <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[添加用户有权访问的实体和组织。如果用户组织访问被选中或角色有权访问所有组织，则忽略此处的项。<br>注意，访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
@@ -1420,8 +1420,8 @@
  <row id="393" trl="Y">
   <value column="Name" original="Window Customization">自定义窗口</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="Window Customization">设置自定义窗口</value>
+  <value column="Help" original="Window Customization">用户可以窗口选项</value>
  </row>
  <row id="394" trl="Y">
   <value column="Name" original="Tab Customization">定制页签</value>
@@ -1671,7 +1671,7 @@
  </row>
  <row id="437" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
-  <value column="CommitWarning" original=""/>
+  <value column="CommitWarning" original="YES OR NO ?"/>
   <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">请求类型 (例如 查询, 投诉, ..)</value>
   <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">请求类型用于处理和分类请求。选择项包括账户查询、质保问题等</value>
  </row>
@@ -1802,7 +1802,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="460" trl="Y">
-  <value column="Name" original="Payment Schedule">付款日程</value>
+  <value column="Name" original="Payment Schedule">付款计划</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Invoice Payment Schedule">发票付款计划</value>
   <value column="Help" original=""/>
@@ -1934,21 +1934,21 @@
   <value column="Help" original="Validate and Import Inventory Transactions. The Locator is primarily determined by the Locator Key, then the Warehouse and X,Y,Z fields.&lt;p&gt;&#10;A Physical Inventory is created per Warehouse and Movement Date."><![CDATA[验证和导入库存事务处理。货位主要由货位关键字决定，然后是仓库和X、Y、Z字段。<p>每个仓库、每一移库日期都会创建实地盘存。]]></value>
  </row>
  <row id="482" trl="Y">
-  <value column="Name" original="Table Access">表访问</value>
+  <value column="Name" original="Table Access">表权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Table Access">维护表访问</value>
+  <value column="Description" original="Maintain Table Access">维护表访问权限</value>
   <value column="Help" original="If listed here, the Role can(not) access all data of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a table and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a table and select Read Only, you can only read data (otherwise no access).&#10;&lt;br&gt;Please note that table access rules here are in addition to the Data Access Levels defined for a Table and the User Level defined for a Role. These rules are evaulated first and you only need to define the exceptions to these rules here.&#10;&lt;p&gt;&#10;Note that access information is cached and requires re-login or reset of cache. Be aware that if you use Include rules, that you need to include also several supporting entiries. As an alternative, grant access only to functionality required."><![CDATA[如果在此处列出，角色则可以或不可以访问该表的数据记录，即便角色具有功能访问权限。<br>如果包含了对一个表的访问，并选中了只读，那么只能读取数据 (否则可完全访问)。<br>如果排除了对一个表的访问，并选中了只读，那么只能读取数据 (否则不可访问)。<br>请注意，此处的表访问规则是对为表定义的数据访问级别和为角色定义的用户级别的补充。那些规则首先被估值，只需要在这里定义那些规则的异常情形即可。<p>注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。需要知道，如果使用了包含规则，则需要同时包含多个支持的表。作为备选，将权限只授予需要的功能。]]></value>
  </row>
  <row id="483" trl="Y">
   <value column="Name" original="Record Access">记录权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Record Access">维护记录访问</value>
+  <value column="Description" original="Maintain Record Access">维护记录访问权限</value>
   <value column="Help" original="You create Record Access records by enabling &quot;Personal Lock&quot; for the administrative role and Ctl-Lock (holding the Ctrl key while clicking on the Lock button).&#10;&lt;p&gt;&#10;If listed here, the Role can(not) access the data records of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a record and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a recorf and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[通过启用管理角色的“个人锁定”选项以及 Ctrl + 锁定 (按住 Ctrl 键，点击工具栏上的锁定按钮)，可以创建记录级访问权限。<p>如果列于此处，角色可以或不可以访问该表中的数据记录，即使该角色有权访问该功能。<br>如果包含了对记录的访问权限，并选中了只读，那么只能读取数据 (否则拥有完全访问的权限)。<br>如果排除了对记录的访问权限，并选择了只读，只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
  </row>
  <row id="484" trl="Y">
-  <value column="Name" original="Column Access">列访问</value>
+  <value column="Name" original="Column Access">列权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Column Access">维护列访问</value>
+  <value column="Description" original="Maintain Column Access">维护列访问权限</value>
   <value column="Help" original="If listed here, the Role can(not) access the column of this table, even if the role has access to the functionality.&#10;&lt;br&gt;If you Include Access to a column and select Read Only, you can only read data (otherwise full access).&#10;&lt;br&gt;If you Exclude Access to a column and select Read Only, you can only read data (otherwise no access).&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[如果列于此处，角色可以或不可以访问该表中的列，即使该角色有权访问该功能。<br>如果包含了对列的访问权限，并选中了只读，那么只能读取数据 (否则拥有完全访问的权限)。<br>如果排除了对列的访问权限，并选择了只读，只能读取数据 (否则无权访问)。注意：访问权限信息被缓存起来，需要重新登录或重置缓存才会生效。]]></value>
  </row>
  <row id="485" trl="Y">
@@ -2235,7 +2235,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="534" trl="Y">
-  <value column="Name" original="Workflow Node Translation">工作流节点翻译</value>
+  <value column="Name" original="Workflow Node Translation">节点翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -2331,43 +2331,43 @@
   <value column="Help" original=""/>
  </row>
  <row id="550" trl="Y">
-  <value column="Name" original="Partner Selection">伙伴选择</value>
+  <value column="Name" original="Partner Selection">业务伙伴</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Selection">业务伙伴选择</value>
   <value column="Help" original=""/>
  </row>
  <row id="551" trl="Y">
-  <value column="Name" original="Partner Orders">伙伴订单</value>
+  <value column="Name" original="Partner Orders">订单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Orders">业务伙伴订单</value>
   <value column="Help" original=""/>
  </row>
  <row id="552" trl="Y">
-  <value column="Name" original="Partner Shipments">伙伴发货单</value>
+  <value column="Name" original="Partner Shipments">收发单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Shipments">业务伙伴发货单</value>
   <value column="Help" original=""/>
  </row>
  <row id="553" trl="Y">
-  <value column="Name" original="Partner Invoices">伙伴发票</value>
+  <value column="Name" original="Partner Invoices">发票</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Invoices">业务伙伴发票</value>
   <value column="Help" original=""/>
  </row>
  <row id="554" trl="Y">
-  <value column="Name" original="Partner Payments">伙伴付款</value>
+  <value column="Name" original="Partner Payments">付款</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Payments">业务伙伴付款</value>
   <value column="Help" original=""/>
  </row>
  <row id="555" trl="Y">
-  <value column="Name" original="Partner Assets">伙伴资产</value>
+  <value column="Name" original="Partner Assets">资产</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Assets">业务伙伴资产</value>
   <value column="Help" original=""/>
  </row>
  <row id="556" trl="Y">
-  <value column="Name" original="Partner Requests">伙伴请求</value>
+  <value column="Name" original="Partner Requests">请求</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Business Partner Requests">业务伙伴请求</value>
   <value column="Help" original=""/>
@@ -2379,10 +2379,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="558" trl="Y">
-  <value column="Name" original="Issues">项目发料</value>
+  <value column="Name" original="Issues">项目投放</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Issues to the Project">项目发料</value>
-  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“发料到项目”过程对项目初始化时生成的事项。可以是收料单、时间与费用，或存货。</value>
+  <value column="Description" original="Issues to the Project">项目投放的收发单/费用等信息</value>
+  <value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">页签列出了“项目投放”流程对项目初始化时生成的事项。可以是收料单、时间与费用，或存货。</value>
  </row>
  <row id="559" trl="Y">
   <value column="Name" original="Printer">打印机</value>
@@ -2475,7 +2475,7 @@
   <value column="Help" original="Instance of a workflow execution">工作流过程执行的实例</value>
  </row>
  <row id="575" trl="Y">
-  <value column="Name" original="Activity">活动</value>
+  <value column="Name" original="Activity">节点活动</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Workflow Activity">工作流活动</value>
   <value column="Help" original="The Workflow Activity is the actual Workflow Node in a Workflow Process instance">工作流活动指在某个工作流过程实例中，实际的工作流节点</value>
@@ -2517,9 +2517,9 @@
   <value column="Help" original="Activity Result of the execution of the Workflow Process Instrance">工作流过程实例的执行结果</value>
  </row>
  <row id="582" trl="Y">
-  <value column="Name" original="Event">事件</value>
+  <value column="Name" original="Event">事件审计</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Process Activity Event Audit Information">工作流流程活动事件的审计信息</value>
+  <value column="Description" original="Workflow Process Activity Event Audit Information">工作流流程的节点活动事件审计信息</value>
   <value column="Help" original="History of chenges ov the Workflow Process Activity">工作流流程活动的变更历史</value>
  </row>
  <row id="583" trl="Y">
@@ -2847,7 +2847,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="639" trl="Y">
-  <value column="Name" original="Scheduler Recipient">任务接收者</value>
+  <value column="Name" original="Scheduler Recipient">计划任务接收者</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Recipient of the Scheduler Notification">计划任务通知的接收者</value>
   <value column="Help" original="You can send the notifications to users or roles">可发送通知给多个用户或角色</value>
@@ -3183,7 +3183,7 @@
   <value column="Help" original="A new invoice is created, if there is a different Document Number, Business Partner or Location (address).&#10;Note that the Document Number may be overwritten - depending on the Number control of the selected Document Type.">如果有不同的单据编号、业务伙伴或位置（地址），则创建新的发票。注意，单据编号可能被覆盖 - 依据于所选单据类型的编号控制</value>
  </row>
  <row id="696" trl="Y">
-  <value column="Name" original="Org Access">组织访问</value>
+  <value column="Name" original="Org Access">组织权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User Org Access">维护用户组织访问</value>
   <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache."><![CDATA[添加用户可访问的实体和组织。此处的输入被忽略，如果在角色中的用户组织访问未启用，或角色可访问所有角色。<br>注意，访问信息被缓存起来，需要重新登录或复位缓存才能生效。]]></value>
@@ -3273,7 +3273,7 @@
   <value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. ">定义网上商店的设置。Web 服务器上下文必须是唯一的，它决定了用于实际事务处理的设置。选中的仓库决定了组织。电子邮件设置与实体邮件设置一起被测试</value>
  </row>
  <row id="711" trl="Y">
-  <value column="Name" original="Store Translation">保存翻译</value>
+  <value column="Name" original="Store Translation">网店翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -3759,9 +3759,9 @@
   <value column="Help" original="Maintain Project Level Lines">维护项目级别明细</value>
  </row>
  <row id="799" trl="Y">
-  <value column="Name" original="Phase Line">阶段行</value>
+  <value column="Name" original="Phase Line">阶段明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Project Lines of Phase">项目阶段行</value>
+  <value column="Description" original="Project Lines of Phase">项目阶段明细</value>
   <value column="Help" original="Maintain Project Lines on Phase Level">在阶段级别上维护项目明细</value>
  </row>
  <row id="800" trl="Y">
@@ -3957,45 +3957,45 @@
   <value column="Help" original="Description of the System modification or extension">系统修改或扩展的描述</value>
  </row>
  <row id="833" trl="Y">
-  <value column="Name" original="Web Access Profile">Web访问档案</value>
+  <value column="Name" original="Web Access Profile">Web 权限配置</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Web Access Profile">维护 Web 访问档案</value>
+  <value column="Description" original="Maintain Web Access Profile">维护  Web 权限配置</value>
   <value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.&#10;If the profile is exclude (default), the assignees can view all but the defined content. If the profile is not exclude (include), the assigned roles and business partner groups can only view the listed content.">定义对协作管理内容的访问权限。可以分配档案给内部角色，或将外部访问权分配给业务伙伴分组。如果档案被排除 (默认)，被分配者可查看除定义内容之外的全部。如果档案不是排除 (是包含)，被分配的角色和业务伙伴分组只能查看列出的内容</value>
  </row>
  <row id="834" trl="Y">
-  <value column="Name" original="List Role">列出角色</value>
+  <value column="Name" original="List Role">角色</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access for Role">对角色的 Web 访问</value>
+  <value column="Description" original="Web Access for Role">列出所有角色</value>
   <value column="Help" original="Maintain the list of Roles with Access to this profile.">维护能够访问该档案的角色列表</value>
  </row>
  <row id="835" trl="Y">
-  <value column="Name" original="List BPartner Group">列出业务伙伴分组</value>
+  <value column="Name" original="List BPartner Group">业务伙伴分组</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access for Business Partner Group">业务伙伴分组的 Web 访问</value>
+  <value column="Description" original="Web Access for Business Partner Group">列出业务伙伴分组</value>
   <value column="Help" original="Maintain the list of Roles with Access to this profile.">维护能够访问该档案的业务伙伴列表</value>
  </row>
  <row id="836" trl="Y">
-  <value column="Name" original="Access Stage">访问阶段</value>
+  <value column="Name" original="Access Stage">阶段权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access to Container Stage">到容器阶段的 Web 访问</value>
+  <value column="Description" original="Web Access to Container Stage">设置到容器阶段的访问权限</value>
   <value column="Help" original="Maintain the access to container stage">维护到容器阶段的访问</value>
  </row>
  <row id="837" trl="Y">
-  <value column="Name" original="Access Container">访问容器</value>
+  <value column="Name" original="Access Container">容器权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access to Container">到容器的 Web 访问</value>
+  <value column="Description" original="Web Access to Container">容器的 Web 访问权限</value>
   <value column="Help" original="Maintain the access to container">维护到容器的Web访问</value>
  </row>
  <row id="838" trl="Y">
-  <value column="Name" original="Access News Channel">访问新闻渠道</value>
+  <value column="Name" original="Access News Channel">新闻渠道权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access to News Channel">到新闻频道的 Web 访问</value>
+  <value column="Description" original="Web Access to News Channel">新闻频道的 Web 访问权限</value>
   <value column="Help" original="Maintain the access to news channel">维护到新闻频道的访问</value>
  </row>
  <row id="839" trl="Y">
-  <value column="Name" original="Access Media">访问媒介</value>
+  <value column="Name" original="Access Media">媒介权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Web Access to Media">到媒介的 Web 访问</value>
+  <value column="Description" original="Web Access to Media">媒介的 Web 访问权限</value>
   <value column="Help" original="Maintain the access to media">维护对媒介的访问</value>
  </row>
  <row id="840" trl="Y">
@@ -4065,15 +4065,15 @@
   <value column="Help" original=""/>
  </row>
  <row id="851" trl="Y">
-  <value column="Name" original="LDAP Access">LDAP访问</value>
+  <value column="Name" original="LDAP Access">LDAP权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="User Access via LDAP">用户通过 LDAP 访问</value>
+  <value column="Description" original="User Access via LDAP">用户通过 LDAP 访问权限</value>
   <value column="Help" original=""/>
  </row>
  <row id="852" trl="Y">
-  <value column="Name" original="LDAP Access">LDAP访问</value>
+  <value column="Name" original="LDAP Access">LDAP权限</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="User Access via LDAP">用户通过 LDAP 访问</value>
+  <value column="Description" original="User Access via LDAP">用户通过 LDAP 访问权限</value>
   <value column="Help" original=""/>
  </row>
  <row id="50001" trl="Y">
@@ -4131,7 +4131,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="50010" trl="Y">
-  <value column="Name" original="Dashboard Content">仪表板内容</value>
+  <value column="Name" original="Dashboard Content">仪表盘内容</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -4161,7 +4161,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53013" trl="Y">
-  <value column="Name" original="Document Action Access">单据操作权限</value>
+  <value column="Name" original="Document Action Access">单据权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define access to document type / document action / role combinations.">定义可访问的单据类型／单据操作／角色组合</value>
   <value column="Help" original="Define access to document type / document action / role combinations.">定义可访问的单据类型／单据操作／角色组合</value>
@@ -4191,7 +4191,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53019" trl="Y">
-  <value column="Name" original="Manufacturing Workflows Translation">生产工作流翻译</value>
+  <value column="Name" original="Manufacturing Workflows Translation">工艺路线翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -4526,7 +4526,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53069" trl="Y">
-  <value column="Name" original="Table Script Validator">表脚本校验</value>
+  <value column="Name" original="Table Script Validator">表脚本验证</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5042,7 +5042,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53178" trl="Y">
-  <value column="Name" original="House Keeping">系统整理(House Keeping)</value>
+  <value column="Name" original="House Keeping">系统清理</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5066,7 +5066,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53185" trl="Y">
-  <value column="Name" original="Web Service">客户服务</value>
+  <value column="Name" original="Web Service">Web Service定义</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5102,7 +5102,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53191" trl="Y">
-  <value column="Name" original="Web Service Access">Web Service访问控制</value>
+  <value column="Name" original="Web Service Access">Web Service权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5586,7 +5586,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53375" trl="Y">
-  <value column="Name" original="Payment Schedule">付款日程</value>
+  <value column="Name" original="Payment Schedule">付款计划</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Order Payment Schedule">发票支付计划</value>
   <value column="Help" original=""/>
@@ -5604,67 +5604,67 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53401" trl="N">
-  <value column="Name" original="Request">Request</value>
+  <value column="Name" original="Request">请求</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53402" trl="N">
-  <value column="Name" original="Meter">Meter</value>
+  <value column="Name" original="Meter">计量</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53403" trl="N">
-  <value column="Name" original="Job Standard">Job Standard</value>
+  <value column="Name" original="Job Standard">作业标准</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53404" trl="N">
-  <value column="Name" original="Task">Task</value>
+  <value column="Name" original="Task">任务</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53405" trl="N">
-  <value column="Name" original="Resource">Resource</value>
+  <value column="Name" original="Resource">资源</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53406" trl="N">
-  <value column="Name" original="Maintenance">Maintenance</value>
+  <value column="Name" original="Maintenance">维护</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53407" trl="N">
-  <value column="Name" original="Tasks">Tasks</value>
+  <value column="Name" original="Tasks">任务</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53408" trl="N">
-  <value column="Name" original="Resources">Resources</value>
+  <value column="Name" original="Resources">资源</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53409" trl="N">
-  <value column="Name" original="Order">Order</value>
+  <value column="Name" original="Order">订单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53410" trl="N">
-  <value column="Name" original="Tasks">Tasks</value>
+  <value column="Name" original="Tasks">任务</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53411" trl="N">
-  <value column="Name" original="Resources">Resources</value>
+  <value column="Name" original="Resources">资源</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5862,7 +5862,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200003" trl="Y">
-  <value column="Name" original="Toolbar Button Access">工具栏按钮权限</value>
+  <value column="Name" original="Toolbar Button Access">权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5898,7 +5898,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200011" trl="Y">
-  <value column="Name" original="Preference">偏爱设置</value>
+  <value column="Name" original="Preference">仪表盘设置</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -5982,7 +5982,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200031" trl="Y">
-  <value column="Name" original="Setup Wizard">向导设置</value>
+  <value column="Name" original="Setup Wizard">实体设置记录</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Setup Wizard">向导设置</value>
   <value column="Help" original=""/>
@@ -6144,7 +6144,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200064" trl="Y">
-  <value column="Name" original="Info Access">信息访问</value>
+  <value column="Name" original="Info Access">信息权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6210,9 +6210,9 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200095" trl="Y">
-  <value column="Name" original="City (Without Regions)">城市(不包含于地区)</value>
+  <value column="Name" original="City (Without Regions)">无区域的城市</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Cities without Region">城市(不包含于地区)</value>
+  <value column="Description" original="Cities without Region">不属于任何区域的城市</value>
   <value column="Help" original=""/>
  </row>
  <row id="200096" trl="Y">
@@ -6300,7 +6300,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original="">地址验证结果</value>
  </row>
  <row id="200112" trl="Y">
-  <value column="Name" original="Dashboard Content Access">仪表板内容访问</value>
+  <value column="Name" original="Dashboard Content Access">权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6438,7 +6438,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200144" trl="Y">
-  <value column="Name" original="Role Access">角色访问</value>
+  <value column="Name" original="Role Access">角色权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6474,19 +6474,19 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200167" trl="Y">
-  <value column="Name" original="Import Template">导入模板</value>
+  <value column="Name" original="Import Template">导入CSV模板</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
+  <value column="Description" original="">导入CSV文件头定义</value>
   <value column="Help" original=""/>
  </row>
  <row id="200168" trl="Y">
-  <value column="Name" original="Import Template Access">导入模板访问</value>
+  <value column="Name" original="Import Template Access">权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200189" trl="Y">
-  <value column="Name" original="User Preference">用户偏爱设置</value>
+  <value column="Name" original="User Preference">用户首选项</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6504,21 +6504,21 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200209" trl="Y">
-  <value column="Name" original="收藏夹">收藏夹</value>
+  <value column="Name" original="Menu favourites">收藏夹</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="收藏夹偏好设置">收藏夹偏好设置</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="Menu favourites by user">收藏夹偏好设置</value>
+  <value column="Help" original="Show all menu favourties by user."/>
  </row>
  <row id="200213" trl="N">
-  <value column="Name" original="CSS Style">CSS Style</value>
+  <value column="Name" original="CSS Style">CSS样式</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="CSS Inline Style Definitions">CSS Inline Style Definitions</value>
   <value column="Help" original=""/>
  </row>
  <row id="200214" trl="N">
-  <value column="Name" original="Style Line">Style Line</value>
+  <value column="Name" original="Style Line">CSS样式明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="CSS Style Lines">CSS Style Lines</value>
+  <value column="Description" original="CSS Style Lines">CSS样式明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="200222" trl="N">
@@ -6528,7 +6528,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200223" trl="Y">
-  <value column="Name" original="Document Status Translation">单据状态翻译</value>
+  <value column="Name" original="Document Status Translation">翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6552,7 +6552,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original="The Inbound(Putaway) and Outbound(Picking) definition tab allows to define a set of conditions in order to select the Inbound(Putaway) and Outbound(Picking) Strategy from a given sequence ordered by priority.">The Inbound(Putaway) and Outbound(Picking) definition tab allows to define a set of conditions in order to select the Inbound(Putaway) and Outbound(Picking) Strategy from a given sequence ordered by priority.</value>
  </row>
  <row trl="N" uuid="02f4f360-cb89-49aa-8dff-4dfad3682972">
-  <value column="Name" original="Inbound/Outbound Definition Schema">Inbound/Outbound Definition Schema</value>
+  <value column="Name" original="Inbound/Outbound Definition Schema">出入规则</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition Schemas">Maintain Warehouse Inbound/Outbound Definition Schemas</value>
   <value column="Help" original=""/>
@@ -6600,9 +6600,9 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original="The Warehouse Area Type Tab defines different Warehouse Area used for different purpose in a Warehouse.">存储区域可以是物理的也可以是逻辑的区域，是根据仓储技术（例如自动仓，半自动仓，高架货架等），使用空间区域，组织形式或者功能等对复杂的仓库进行 的分割定义单元。</value>
  </row>
  <row trl="N" uuid="5418e419-aa84-4ded-9430-9c08e581ac14">
-  <value column="Name" original="Warehouse Section Type">Warehouse Section Type</value>
+  <value column="Name" original="Warehouse Section Type">仓库分区类型</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Warehouse Section Type">Warehouse Section Type</value>
+  <value column="Description" original="Warehouse Section Type">仓库分区类型</value>
   <value column="Help" original="The Warehouse Section Type Tab defines different Warehouse Section used for different purpose in a Warehouse.">The Warehouse Section Type Tab defines different Warehouse Section used for different purpose in a Warehouse.</value>
  </row>
  <row trl="N" uuid="52c5b017-ac12-493d-97a7-8a50a5b3897c">
@@ -6643,7 +6643,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="1716e9ff-085f-4553-9a3d-4b647a752d36">
-  <value column="Name" original="Pack Type">Pack Type</value>
+  <value column="Name" original="Pack Type">包装类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6721,7 +6721,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="e5527177-67ff-45fb-a481-9fd6e3204c72">
-  <value column="Name" original="Meter Log">Meter Log</value>
+  <value column="Name" original="Meter Log">计量日志</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="For independent Meter Log maintenance">For independent Meter Log maintenance</value>
   <value column="Help" original="Use this meter Log data entry for separate work without reference to the Asset Meter. You can search for the Asset Meter later">Use this meter Log data entry for separate work without reference to the Asset Meter. You can search for the Asset Meter later</value>
@@ -6781,9 +6781,9 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.</value>
  </row>
  <row trl="N" uuid="7caa19b7-c3fc-47d7-8e8e-49bd87c43662">
-  <value column="Name" original="Shipping Region">Shipping Region</value>
+  <value column="Name" original="Shipping Region">发货区域</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipping Region">Shipping Region</value>
+  <value column="Description" original="Shipping Region">发货区域</value>
   <value column="Help" original="The Shipping Region Tab defines the different regions where you ship goods.  Shipping Regions can be used when generating reports or calculating optimal routes.">The Shipping Region Tab defines the different regions where you ship goods.  Shipping Regions can be used when generating reports or calculating optimal routes.</value>
  </row>
  <row trl="Y" uuid="fb6d77e4-0961-435d-a8be-0ded02941d59">

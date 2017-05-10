@@ -69,7 +69,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
-  <value column="MsgText" original="You cannot delete records of this file for audit reasons">由于审核的原因，无法删除该文件记录</value>
+  <value column="MsgText" original="You cannot delete records of this file for audit reasons">因内在审计要求۠，无法删除该记录</value>
   <value column="MsgTip" original="If not a transaction, you can deactivate the recorrd with deselecting the 'Active' flag ">如果纪录不一个交易, 你可以取消 ' 有效' 标记的选择，从而将记录置为无效 </value>
  </row>
  <row id="119" trl="Y">
@@ -197,7 +197,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="150" trl="Y">
-  <value column="MsgText" original="Do you want to delete this (complete) Attachment?">（彻底）删除该附件吗？</value>
+  <value column="MsgText" original="Do you want to delete this (complete) Attachment?">是否（彻底）删除该附件？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="151" trl="Y">
@@ -273,7 +273,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="169" trl="Y">
-  <value column="MsgText" original="You cannot delete this record (you might be able to e-activate it)">不能删除此记录，请将其改成无效</value>
+  <value column="MsgText" original="You cannot delete this record (you might be able to e-activate it)">不能删除此记录，请设置为无效记录（不勾选"有效"选项）</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="170" trl="Y">
@@ -465,7 +465,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="217" trl="Y">
-  <value column="MsgText" original="Do you want to delete the record?">删除该记录吗？</value>
+  <value column="MsgText" original="Do you want to delete the record?">是否删除该记录？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="218" trl="Y">
@@ -529,7 +529,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="233" trl="Y">
-  <value column="MsgText" original="EMail to Support">EMail 寻求支持</value>
+  <value column="MsgText" original="EMail to Support">EMail反馈</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="234" trl="Y">
@@ -585,7 +585,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="247" trl="Y">
-  <value column="MsgText" original="Expires (MMYY)">过期 (MMYY)</value>
+  <value column="MsgText" original="Expires (MMYY)">有效日期 (MMYY)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="248" trl="Y">
@@ -925,7 +925,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="332" trl="Y">
-  <value column="MsgText" original="Matched">匹配的</value>
+  <value column="MsgText" original="Matched">已匹配</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="333" trl="Y">
@@ -987,7 +987,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="347" trl="Y">
-  <value column="MsgText" original="&amp;New Record">新建</value>
+  <value column="MsgText" original="New">新建</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="348" trl="Y">
@@ -1272,11 +1272,11 @@
   <value column="MsgTip" original="(Re-) Open Period or change Accounting Date">(重新-)打开期间或改变会计日期</value>
  </row>
  <row id="418" trl="Y">
-  <value column="MsgText" original="Preference">偏爱设置</value>
+  <value column="MsgText" original="Preference">首选设置</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="419" trl="Y">
-  <value column="MsgText" original="Preferences">偏好设置</value>
+  <value column="MsgText" original="Preferences">首选项</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="420" trl="Y">
@@ -1348,7 +1348,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="437" trl="Y">
-  <value column="MsgText" original="Process">流程</value>
+  <value column="MsgText" original="Process">开始处理</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="438" trl="Y">
@@ -1484,7 +1484,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="471" trl="Y">
-  <value column="MsgText" original="Remaining">剩余的</value>
+  <value column="MsgText" original="Remaining">事后余额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="472" trl="Y">
@@ -1586,11 +1586,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="495" trl="Y">
-  <value column="MsgText" original="Same Product">产品相同</value>
+  <value column="MsgText" original="Same Product">相同产品</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="496" trl="Y">
-  <value column="MsgText" original="Same Quantity">数量相同</value>
+  <value column="MsgText" original="Same Quantity">相同数量</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="497" trl="Y">
@@ -1606,7 +1606,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="500" trl="Y">
-  <value column="MsgText" original="Could not save changes: ">不能保存所做的改动: </value>
+  <value column="MsgText" original="Could not save changes: ">输入的信息无法保存</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="501" trl="Y">
@@ -1666,7 +1666,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="515" trl="Y">
-  <value column="MsgText" original="Search records">搜索记录</value>
+  <value column="MsgText" original="Search records">搜索</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="516" trl="Y">
@@ -1806,7 +1806,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="550" trl="Y">
-  <value column="MsgText" original="Do you want to start the Process?">需要启动处理吗？</value>
+  <value column="MsgText" original="Do you want to start the Process?"><![CDATA[请检查必填的（*）流程参数，是否确认开始流程？<br />点击右下角“OK”开始运行并返回结果，点击“取消”关闭窗口。]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="551" trl="Y">
@@ -1979,23 +1979,23 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="593" trl="Y">
-  <value column="MsgText" original="Value Preference">偏爱的值</value>
+  <value column="MsgText" original="Value Preference">首选值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="594" trl="Y">
-  <value column="MsgText" original="Preference Value deleted">偏爱的值已删除</value>
+  <value column="MsgText" original="Preference Value deleted">已删除首选值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="595" trl="Y">
-  <value column="MsgText" original="Preference Value set">偏爱的值已设置</value>
+  <value column="MsgText" original="Preference Value set">已设置首选值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="596" trl="Y">
-  <value column="MsgText" original="Preference Value NOT found">未找到偏爱值</value>
+  <value column="MsgText" original="Preference Value NOT found">未找到首选值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="597" trl="Y">
-  <value column="MsgText" original="Preference Value NOT set">偏爱的值未设置</value>
+  <value column="MsgText" original="Preference Value NOT set">未设置首选值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="598" trl="Y">
@@ -2376,7 +2376,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="700" trl="Y">
-  <value column="MsgText" original="Reset">复位</value>
+  <value column="MsgText" original="Reset">重置</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="701" trl="Y">
@@ -2548,7 +2548,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="745" trl="Y">
-  <value column="MsgText" original="Do you want to delete this Attachment entry?">需要删除该附件录入吗？</value>
+  <value column="MsgText" original="Do you want to delete this Attachment entry?">是否删除该附件录入？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="746" trl="Y">
@@ -2835,7 +2835,7 @@
   <value column="MsgTip" original="Run Processes on Application Server (slow communication lines)">在应用服务器上运行流程（慢速的通信线路）</value>
  </row>
  <row id="815" trl="Y">
-  <value column="MsgText" original="Create New Request">创建新的请求</value>
+  <value column="MsgText" original="Create New Request">请求反馈</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="816" trl="Y">
@@ -4311,11 +4311,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52279" trl="Y">
-  <value column="MsgText" original="Themes">用户界面主题</value>
+  <value column="MsgText" original="Themes">界面主题</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52280" trl="Y">
-  <value column="MsgText" original="Preferences">偏好设置</value>
+  <value column="MsgText" original="Preferences">首选项</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52281" trl="Y">
@@ -4711,7 +4711,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52379" trl="Y">
-  <value column="MsgText" original="Preferences">偏好设置</value>
+  <value column="MsgText" original="Preferences">首选设置</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52380" trl="Y">
@@ -5579,7 +5579,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53148" trl="Y">
-  <value column="MsgText" original="Add">增加</value>
+  <value column="MsgText" original="Add">发送</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53149" trl="Y">
@@ -5611,7 +5611,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200005" trl="Y">
-  <value column="MsgText" original="Remove all items from tree ?">从主目录删除所有的项目？</value>
+  <value column="MsgText" original="Remove all items from tree ?">是否从主目录删除所有的项目吗？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200006" trl="Y">
@@ -5627,7 +5627,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200009" trl="Y">
-  <value column="MsgText" original="Select Role">角色选择</value>
+  <value column="MsgText" original="Select Role">更换角色</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200010" trl="Y">
@@ -5831,7 +5831,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200070" trl="Y">
-  <value column="MsgText" original="Confirm New EMail User Password">确认新电子邮件用户密码</value>
+  <value column="MsgText" original="Confirm New EMail User Password">新密码确认</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200071" trl="Y">
@@ -5839,11 +5839,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200072" trl="Y">
-  <value column="MsgText" original="New EMail User">新的邮件用户 ID</value>
+  <value column="MsgText" original="New EMail User">新电子邮件用户</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200073" trl="Y">
-  <value column="MsgText" original="New EMail User Password">新的邮件用户 ID</value>
+  <value column="MsgText" original="New EMail User Password">新电子邮件密码</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200074" trl="Y">
@@ -5895,7 +5895,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200086" trl="Y">
-  <value column="MsgText" original="{0} not resolved = ({1})"> 0% 未开始</value>
+  <value column="MsgText" original="{0} not resolved = ({1})">{0} 无法解析 = ({1})</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200087" trl="Y">
@@ -6071,7 +6071,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200139" trl="Y">
-  <value column="MsgText" original="Getting Started">快速入门</value>
+  <value column="MsgText" original="Getting Started">如何开始</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200140" trl="Y">
@@ -6147,7 +6147,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200158" trl="Y">
-  <value column="MsgText" original="Event">事件</value>
+  <value column="MsgText" original="Event">请求事件</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200159" trl="Y">
@@ -6206,16 +6206,16 @@
   <value column="MsgText" original="Start Time, must be less than End Time">开始时间必须小于结束时间</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200175" trl="N">
-  <value column="MsgText" original="The reference of an encrypted field cannot be changed">The reference of an encrypted field cannot be changed</value>
+ <row id="200175" trl="Y">
+  <value column="MsgText" original="The reference of an encrypted field cannot be changed">不能改变加密字段的引用</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200176" trl="N">
-  <value column="MsgText" original="Inactive payment processor">Inactive payment processor</value>
+ <row id="200176" trl="Y">
+  <value column="MsgText" original="Inactive payment processor">付款引擎无效</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200177" trl="N">
-  <value column="MsgText" original="Posting">Posting</value>
+ <row id="200177" trl="Y">
+  <value column="MsgText" original="Posting">过账中</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200178" trl="Y">
@@ -6226,12 +6226,12 @@
   <value column="MsgText" original="Insert after">移动之后</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200180" trl="N">
-  <value column="MsgText" original="Please fill in required data for:">Please fill in required data for:</value>
+ <row id="200180" trl="Y">
+  <value column="MsgText" original="Please fill in required data for:">请填入以下数据：</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200183" trl="Y">
-  <value column="MsgText" original="Feedback">意见反馈</value>
+  <value column="MsgText" original="Feedback">请求支持</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200184" trl="Y">
@@ -6315,8 +6315,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200207" trl="Y">
-  <value column="MsgText" original="There are records that haven't been saved yet. ">有尚未保存的数据</value>
-  <value column="MsgTip" original="Do you still want to proceed?">确认继续退出吗？</value>
+  <value column="MsgText" original="There are records that haven't been saved yet. ">数据尚未保存，确认退出吗？</value>
+  <value column="MsgTip" original="Do you still want to proceed?"/>
  </row>
  <row id="200208" trl="Y">
   <value column="MsgText" original="You're trying to close this tab.">正在尝试关闭该页签</value>
@@ -6331,11 +6331,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200211" trl="Y">
-  <value column="MsgText" original="Manage Gadgets">管理桌面工具</value>
+  <value column="MsgText" original="Manage Gadgets">仪表盘设置</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200212" trl="Y">
-  <value column="MsgText" original="Dashboard Gadgets">仪表板工具</value>
+  <value column="MsgText" original="Dashboard Gadgets">仪表盘内容</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200215" trl="Y">
@@ -6346,16 +6346,16 @@
   <value column="MsgText" original="No costing record.">无成本记录</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200217" trl="N">
-  <value column="MsgText" original="The database operation timed out. Please try again later.">The database operation timed out. Please try again later</value>
+ <row id="200217" trl="Y">
+  <value column="MsgText" original="The database operation timed out. Please try again later.">数据库操作超时，请稍后再试</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200218" trl="Y">
   <value column="MsgText" original="Sent by iDempiereMail">==请求由iDempiere系统发送==</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200220" trl="N">
-  <value column="MsgText" original="Only one @C_Tax_ID@ per @C_TaxCategory_ID@ can be marked as Default!">Only one @C_Tax_ID@ per @C_TaxCategory_ID@ can be marked as Default!</value>
+ <row id="200220" trl="Y">
+  <value column="MsgText" original="Only one @C_Tax_ID@ per @C_TaxCategory_ID@ can be marked as Default!">每种@C_TaxCategory_ID@中的@C_Tax_ID@只能存在一个缺省值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200221" trl="Y">
@@ -6399,7 +6399,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200238" trl="Y">
-  <value column="MsgText" original="There are unsaved changes - are you sure to close?">有尚未保存的变更，确认关闭吗？</value>
+  <value column="MsgText" original="There are unsaved changes - are you sure to close?">修改尚未保存，确认关闭吗？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200239" trl="N">
@@ -6418,24 +6418,24 @@
   <value column="MsgText" original="Could not save parameters.">无法保存参数</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200243" trl="N">
-  <value column="MsgText" original="Price list cannot be changed because the order contains product lines">Price list cannot be changed because the order contains product lines</value>
+ <row id="200243" trl="Y">
+  <value column="MsgText" original="Price list cannot be changed because the order contains product lines">订单已包含产品明细，不能更改产品价格表</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200244" trl="N">
-  <value column="MsgText" original="Date Ordered cannot be changed because the order contains product lines and the change falls in a differente price list version">Date Ordered cannot be changed because the order contains product lines and the change falls in a differente price list version</value>
+ <row id="200244" trl="Y">
+  <value column="MsgText" original="Date Ordered cannot be changed because the order contains product lines and the change falls in a differente price list version">订单已包含产品明细，不能更改订购日期而导致价格表冲突</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200245" trl="N">
-  <value column="MsgText" original="Price list cannot be changed because the invoice contains product lines">Price list cannot be changed because the invoice contains product lines</value>
+ <row id="200245" trl="Y">
+  <value column="MsgText" original="Price list cannot be changed because the invoice contains product lines">发票已包含产品明细，不能更改产品价格表</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200246" trl="N">
-  <value column="MsgText" original="Date Invoiced cannot be changed because the invoice contains product lines and the change falls in a differente price list version">Date Invoiced cannot be changed because the invoice contains product lines and the change falls in a differente price list version</value>
+ <row id="200246" trl="Y">
+  <value column="MsgText" original="Date Invoiced cannot be changed because the invoice contains product lines and the change falls in a differente price list version">发票已包含产品明细，不能更改订购日期而导致价格表冲突</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200251" trl="Y">
-  <value column="MsgText" original="Quick Info">快速信息</value>
+  <value column="MsgText" original="Quick Info">小信息</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200252" trl="Y">
@@ -6534,8 +6534,8 @@
   <value column="MsgText" original="Select tab to export">选择导出页签</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200306" trl="N">
-  <value column="MsgText" original="This process creates and complete payments automatically, do you want to print and at the same time create/complete payments?">This process creates and complete payments automatically, do you want to print and at the same time create/complete payments?</value>
+ <row id="200306" trl="Y">
+  <value column="MsgText" original="This process creates and complete payments automatically, do you want to print and at the same time create/complete payments?">本次流程已自动创建并完成支付单，是否现在打印？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200326" trl="Y">
@@ -6575,7 +6575,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200350" trl="Y">
-  <value column="MsgText" original="More Preferences">更详细的偏爱设置</value>
+  <value column="MsgText" original="More Preferences">更多首选项</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200351" trl="N">
@@ -6590,48 +6590,48 @@
   <value column="MsgText" original="Locator not available for shipping">该货位不可以用户发货占用</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200354" trl="N">
-  <value column="MsgText" original="Do you want to create a new account combination ?">Do you want to create a new account combination ?</value>
+ <row id="200354" trl="Y">
+  <value column="MsgText" original="Do you want to create a new account combination ?">是否创建新的账户组合？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200355" trl="N">
-  <value column="MsgText" original="Selected {0} rows">Selected {0} rows</value>
+  <value column="MsgText" original="Selected {0} rows">已选择 {0} 行</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200393" trl="N">
-  <value column="MsgText" original="Could not convert currency {0} to project currency {1} - conversion type : {2} / conversion date : {3,date,short}">Could not convert currency {0} to project currency {1} - conversion type : {2} / conversion date : {3,date,short}</value>
+ <row id="200393" trl="Y">
+  <value column="MsgText" original="Could not convert currency {0} to project currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法转换货币 {0}到项目货币 {1} - 汇率类型 : {2} / 转换日期 : {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200394" trl="N">
-  <value column="MsgText" original="Could not convert currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">Could not convert currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}</value>
+ <row id="200394" trl="Y">
+  <value column="MsgText" original="Could not convert currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法转换货币 {0}到账套本币 {1} - 汇率类型 : {2} / 转换日期 : {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200395" trl="N">
-  <value column="MsgText" original="Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}">Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}</value>
+ <row id="200395" trl="Y">
+  <value column="MsgText" original="Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}">无法转换分配货币 {0}到账套本币 {1} - 汇率类型 : {2} / 转换日期 : {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200396" trl="N">
-  <value column="MsgText" original="Could not convert invoice currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">Could not convert invoice currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}</value>
+ <row id="200396" trl="Y">
+  <value column="MsgText" original="Could not convert invoice currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法转换发票货币 {0}到账套本币 {1} - 汇率类型 : {2} / 转换日期 : {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200397" trl="N">
-  <value column="MsgText" original="Target table must not have view components">Target table must not have view components</value>
+ <row id="200397" trl="Y">
+  <value column="MsgText" original="Target table must not have view components">目标表不能拥有视图对象</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200398" trl="N">
-  <value column="MsgText" original="Target table must not have columns">Target table must not have columns</value>
+ <row id="200398" trl="Y">
+  <value column="MsgText" original="Target table must not have columns">目标表不能拥有列</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200404" trl="N">
-  <value column="MsgText" original="Clear Selection">Clear Selection</value>
-  <value column="MsgTip" original="Clear current selections">Clear current selections</value>
+ <row id="200404" trl="Y">
+  <value column="MsgText" original="Clear Selection">取消选择</value>
+  <value column="MsgTip" original="Clear current selections">取消选择</value>
  </row>
  <row id="200405" trl="N">
   <value column="MsgText" original="{0} resolved multiple times = ({1})">{0} resolved multiple times = ({1})</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="200414" trl="N">
-  <value column="MsgText" original="@#System_Name@ Trace Information">@#System_Name@ Trace Information</value>
+ <row id="200414" trl="Y">
+  <value column="MsgText" original="@#System_Name@ Trace Information">@#System_Name@ 日志和截图</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="Y">

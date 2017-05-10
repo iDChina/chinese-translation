@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
  <row id="1546" trl="Y">
-  <value column="Name" original="Link Column">链接列</value>
-  <value column="Description" original="Link Column for Multi-Parent tables">用于多父表的链接列</value>
-  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">链接列代表了作为主键的列，此情形下有超过一个父时。仅在表拥有超过一个父列时 (例如 AD_User_Roles)，才定义它</value>
+  <value column="Name" original="Link Column">数据库列</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">数据库表中的列</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">数据库表中的列</value>
  </row>
  <row id="2124" trl="Y">
   <value column="Name" original="Language">语言</value>
@@ -36,9 +36,9 @@
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留</value>
  </row>
  <row id="5092" trl="Y">
-  <value column="Name" original="Driving Column">驱动列</value>
-  <value column="Description" original="Column which controls all tabs in the workbench">控制工作台中所有页签的列</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Driving Column">数据库列</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">数据库表中的列</value>
+  <value column="Help" original="">数据库表中的列</value>
  </row>
  <row id="5899" trl="Y">
   <value column="Name" original="System Name">系统名称</value>
@@ -226,9 +226,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="50103" trl="Y">
-  <value column="Name" original="Table">表</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Table">数据库表</value>
+  <value column="Description" original="">数据库的表</value>
+  <value column="Help" original="">数据库中的表</value>
  </row>
  <row id="50108" trl="Y">
   <value column="Name" original="Form">窗体</value>

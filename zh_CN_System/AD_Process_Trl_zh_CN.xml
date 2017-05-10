@@ -583,8 +583,8 @@
   <value column="Help" original="The report lists the details of Asset Deliveries for the records selected.">报表列出了所选记录的资产交付明细</value>
  </row>
  <row id="224" trl="Y">
-  <value column="Name" original="Issue to Project">投放给项目</value>
-  <value column="Description" original="Issue Material to Project from Receipt or manual Inventory Location">从收货单或手工库存位置投放物料给项目</value>
+  <value column="Name" original="Issue to Project">投放到项目</value>
+  <value column="Description" original="Issue Material to Project from Receipt or manual Inventory Location">对工单项目或者资产项目，从收货单或手工库存位置投放物料给项目</value>
   <value column="Help" original="Select a Project and either&#10;&lt;br&gt;- Material Receipt&#10;&lt;br&gt;- Expense Report&#10;&lt;br&lt;- Inventory Location and Project Line not issued yet&#10;&lt;br&gt;- Inventory Location, Product and Quantity&#10;The default Movement Date is today's date."><![CDATA[选择一个项目和以下任意一个
 <br>- 物料收货
 <br>- 费用报表
@@ -639,9 +639,9 @@
   <value column="Help" original="Makes sure that there is a DocumentType for all Document Base Types&lt;br&gt;&#10;Creates missing Period Controls for Document Type (You may have to open them)"><![CDATA[确认所有的单据基础类型都有一个单据类型<br>为单据类型创建丢失的期间控制记录(需要打开他们)]]></value>
  </row>
  <row id="234" trl="Y">
-  <value column="Name" original="Project Margin (Work Order)">项目毛利 (工单)</value>
+  <value column="Name" original="Project Margin (Work Order)">项目毛利</value>
   <value column="Description" original="Work Order Project Lines (planned revenue) vs. Project Issues (costs)">工单项目行 (预计收入) 对比于项目投放 (成本)</value>
-  <value column="Help" original="The Project Margin Report for Work Orders compares the Project lines (planned revenue) against the Project issues (actual effort and costs). The margin amount is calculated by subtracting the costs (issue) from the revenue (line).&#10;The costs are in the currency of the Accounting Schema - the lines are in the currency of the price list of the project."><![CDATA[项目毛利报表 (工单) 将项目行 (计划收入) 与项目投放 (实际成果和成本) 相比较。毛利额为收入 (行) 减去成本 (投放) ，计算而得。 <p>成本用会计模式的货币表示 - 行则用项目价格表的货币表示]]></value>
+  <value column="Help" original="The Project Margin Report for Work Orders compares the Project lines (planned revenue) against the Project issues (actual effort and costs). The margin amount is calculated by subtracting the costs (issue) from the revenue (line).&#10;The costs are in the currency of the Accounting Schema - the lines are in the currency of the price list of the project.">项目毛利报表 (工单) 将项目明细 (计划收入) 与项目投放 (实际投入和成本) 相比较，毛利额为收入 (明细) 减去成本 (投放) 。其中，成本用会计模式的货币表示，明细则用项目价格表的货币表示。</value>
  </row>
  <row id="235" trl="Y">
   <value column="Name" original="Verify Tree">验证树</value>
@@ -951,7 +951,7 @@
   <value column="Help" original="The report provides Material Shipment Header and Line with locator information.  You can use the report to create a Consolidated Picking List.">报表提供含有货位信息的物料发货页头和各行。可使用该报表创建统一的提货单</value>
  </row>
  <row id="295" trl="Y">
-  <value column="Name" original="Role Access Update">角色访问更新</value>
+  <value column="Name" original="Role Access Update">角色权限更新</value>
   <value column="Description" original="Update the access rights of a role or roles of a client">更新实体的一个或多个角色的访问权限</value>
   <value column="Help" original="Update the access rights of a role or all roles of a client to windows, forms, processes and workflows. If run for System, all roles of all clients are updated. Note that a role is only updated if it is not marked as manual.">更新实体的一个或多个角色对窗口、窗体、流程和工作流的访问授权。如果运行于系统实体, 则所有角色和所有实体都被更新。注意, 角色仅当未标识为人工的时候才被更新</value>
  </row>
@@ -1084,10 +1084,10 @@
   <value column="Help" original="Commission Run, Amount Details with Order/Invoice details">佣金运行，包含订单/发票明细的金额明细</value>
  </row>
  <row id="321" trl="Y">
-  <value column="Name" original="Synchronize Doc Translation">同步文档翻译</value>
-  <value column="Description" original="Synchronize Document Translation">同步文档翻译</value>
-  <value column="Help" original="This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has multi-lingual documents enabled, then the main record is copied to the client language (defined in Client window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records."><![CDATA[如果当前主顾不允许多语言单据,对单据的翻译就是与主记录同步(比如 复制主记录的内容到翻译记录).  当切换到单语言环境时，并且翻译记录中并没有这些术语，此程序是有必要运行的.<br>
-应用到客户定义的文档翻译, 比如 对度量单位, 付款条件, 产品信息, 等等.]]></value>
+  <value column="Name" original="Synchronize Doc Translation">同步单据翻译</value>
+  <value column="Description" original="Synchronize Document Translation">同步单据翻译</value>
+  <value column="Help" original="This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has multi-lingual documents enabled, then the main record is copied to the client language (defined in Client window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records."><![CDATA[比如 度量单位，付款条件，产品信息等用户单据词条，系统支持多语种翻译。<br />
+如果未开启“多语言单据”选项，该单据的翻译词条将与主语言词条相同（系统自动复制主语言词条到选定语言）。由于不同语言可能存在词条缺失，运行此流程可以同步主语言记录到其他语言的翻译记录。]]></value>
  </row>
  <row id="322" trl="Y">
   <value column="Name" original="Material Reference">物料引用</value>
@@ -1270,8 +1270,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="50012" trl="Y">
-  <value column="Name" original="Request EMail Processor">请求EMail服务器</value>
-  <value column="Description" original="">请求EMail服务器的参数设置</value>
+  <value column="Name" original="Request EMail Processor">请求邮件服务器</value>
+  <value column="Description" original="">请求邮件服务器的参数设置</value>
   <value column="Help" original=""/>
  </row>
  <row id="52000" trl="Y">
@@ -1468,7 +1468,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original="This report show every cost element to a BOM or Formula ">这个报表显示了多级物料清单或配方的每一个成本元素</value>
  </row>
  <row id="53062" trl="Y">
-  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP">物料清单与配方 成本滚动计算法</value>
+  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP">BOM成本累加</value>
   <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost">该流程允许集成物料清单与配方的成本</value>
   <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;Total BOM Cost = Sum every Element Cost">这个过程将整合BOM配方的成本
 
@@ -1701,8 +1701,8 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53154" trl="Y">
-  <value column="Name" original="HouseKeeping">系统后勤整理(House Keeping)</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="HouseKeeping">运行系统清理</value>
+  <value column="Description" original="">选择指定的系统清理作业</value>
   <value column="Help" original=""/>
  </row>
  <row id="53155" trl="Y">
@@ -2002,18 +2002,18 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200018" trl="Y">
-  <value column="Name" original="Expire Broadcast Message">设置消息过期</value>
-  <value column="Description" original="Expire Broadcast Message">设置广播消息过期</value>
-  <value column="Help" original="Selecting OK will expire current message. Do you want to expire message?">你确定要使该消息过期吗？选择OK目前的消息将过期</value>
+  <value column="Name" original="Expire Broadcast Message">消息到期</value>
+  <value column="Description" original="Expire Broadcast Message">设置广播消息到期？</value>
+  <value column="Help" original="Selecting OK will expire current message. Do you want to expire message?">选择OK，消息将标记为过期状态。</value>
  </row>
  <row id="200019" trl="Y">
   <value column="Name" original="Publish Broadcast message">发布广播消息</value>
-  <value column="Description" original="Publish Broadcast message">发布广播消息</value>
-  <value column="Help" original="Selecting ok will publish message.  Do you want to publish message?">你确定要发布广播消息吗？选择OK将发布广播</value>
+  <value column="Description" original="Publish Broadcast message">确定要发布广播消息吗？</value>
+  <value column="Help" original="Selecting ok will publish message.  Do you want to publish message?">选择OK将立即发布广播。</value>
  </row>
  <row id="200020" trl="Y">
   <value column="Name" original="Test Broadcast Message">测试广播消息</value>
-  <value column="Description" original="Test and verify message before broadcasting">在广播前测试和验证消息</value>
+  <value column="Description" original="Test and verify message before broadcasting">立即发送消息到本机，是否测试？</value>
   <value column="Help" original=""/>
  </row>
  <row id="200021" trl="Y">
@@ -2174,9 +2174,9 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Description" original="Recurring Run">生成经常性单据</value>
   <value column="Help" original=""/>
  </row>
- <row id="200076" trl="N">
-  <value column="Name" original="Import CSV Process">导入CSV的处理</value>
-  <value column="Description" original=""/>
+ <row id="200076" trl="Y">
+  <value column="Name" original="Import CSV Process">CSV导入流程</value>
+  <value column="Description" original="">选择CSV模板导入用户数据</value>
   <value column="Help" original=""/>
  </row>
  <row id="200077" trl="N">

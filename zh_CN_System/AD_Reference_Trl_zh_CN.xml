@@ -101,8 +101,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="25" trl="Y">
-  <value column="Name" original="Account">会计科目</value>
-  <value column="Description" original="Account Element">会计科目</value>
+  <value column="Name" original="Account">账户元素</value>
+  <value column="Description" original="Account Element">账户元素</value>
   <value column="Help" original=""/>
  </row>
  <row id="26" trl="Y">
@@ -286,7 +286,7 @@
   <value column="Help" original="Identify organizational entity physical location property or individual list">标识组织级实体的物理位置财产或者独立体列表</value>
  </row>
  <row id="122" trl="Y">
-  <value column="Name" original="C_AcctSchema Costing Method">C_会计模式 成本计算方法</value>
+  <value column="Name" original="C_AcctSchema Costing Method">会计模式成本计算方法</value>
   <value column="Description" original="Costing Method list">成本计算方法目录</value>
   <value column="Help" original=""/>
  </row>
@@ -301,7 +301,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="125" trl="Y">
-  <value column="Name" original="_Posting Type">_过账中 类型</value>
+  <value column="Name" original="_Posting Type">_过账类型</value>
   <value column="Description" original="Posting Type (Actual Budget etc.) list">过账类型(当前预算等)列表</value>
   <value column="Help" original=""/>
  </row>
@@ -326,7 +326,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="131" trl="Y">
-  <value column="Name" original="_Document Status">_单据 状态</value>
+  <value column="Name" original="_Document Status">_单据状态</value>
   <value column="Description" original="Document Status list">单据状态清单</value>
   <value column="Help" original=""/>
  </row>
@@ -346,7 +346,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="135" trl="Y">
-  <value column="Name" original="_Document Action">_单据 动作</value>
+  <value column="Name" original="_Document Action">_单据动作</value>
   <value column="Description" original="Document action list">单据动作清单</value>
   <value column="Help" original=""/>
  </row>
@@ -416,13 +416,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="153" trl="Y">
-  <value column="Name" original="C_Order FreightCostRule">C_订单 运费规则</value>
+  <value column="Name" original="C_Order FreightCostRule">订单运费规则</value>
   <value column="Description" original="Freight cost Rule list">运费规则列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="154" trl="Y">
   <value column="Name" original="_PriorityRule">_优先级规则</value>
-  <value column="Description" original="Priority scale list">优先权刻度目录</value>
+  <value column="Description" original="Priority scale list">优先级规则</value>
   <value column="Help" original=""/>
  </row>
  <row id="155" trl="Y">
@@ -601,7 +601,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="195" trl="Y">
-  <value column="Name" original="_Payment Rule">_付款 规则</value>
+  <value column="Name" original="_Payment Rule">_付款规则</value>
   <value column="Description" original="In &amp; Out Payment Options">入与出付款选项</value>
   <value column="Help" original=""/>
  </row>
@@ -791,7 +791,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="234" trl="Y">
-  <value column="Name" original="_Posted Status">_已过账 状态</value>
+  <value column="Name" original="_Posted Status">_过账状态</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -846,7 +846,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="245" trl="Y">
-  <value column="Name" original="_Entity Type">_Entity 类型</value>
+  <value column="Name" original="_Entity Type">_Entity类型</value>
   <value column="Description" original="Entity Type (Dictionary, ..)">实体类型(字典, ..)</value>
   <value column="Help" original=""/>
  </row>
@@ -1271,8 +1271,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="335" trl="Y">
-  <value column="Name" original="_MMPolicy">_物料政策</value>
-  <value column="Description" original="Material Movement Policy">物料移库的政策</value>
+  <value column="Name" original="_MMPolicy">_物料策略</value>
+  <value column="Description" original="Material Movement Policy">物料移库的策略</value>
   <value column="Help" original=""/>
  </row>
  <row id="336" trl="Y">
@@ -1286,12 +1286,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="338" trl="Y">
-  <value column="Name" original="M_CostElement Type">M_CostElement 类型</value>
+  <value column="Name" original="M_CostElement Type">成本元素 类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="339" trl="Y">
-  <value column="Name" original="C_LandedCost Distribution">C_LandedCost 分配</value>
+  <value column="Name" original="C_LandedCost Distribution">到岸成本分摊</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1371,7 +1371,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="355" trl="Y">
-  <value column="Name" original="C_AcctSchema CostingLevel">C_会计模式 成本计算级别</value>
+  <value column="Name" original="C_AcctSchema CostingLevel">会计模式成本计算级别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1611,8 +1611,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="52002" trl="Y">
-  <value column="Name" original="_TransferType">_Transfer类型</value>
-  <value column="Description" original="Where money should be transfered to">选择需要转移的资产</value>
+  <value column="Name" original="_TransferType">_转账类型</value>
+  <value column="Description" original="Where money should be transfered to">转账类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="52004" trl="Y">
@@ -1661,7 +1661,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53229" trl="Y">
-  <value column="Name" original="_MRP Order Type">_MRP 订单类型</value>
+  <value column="Name" original="_MRP Order Type">_MRP订单类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1696,7 +1696,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53236" trl="Y">
-  <value column="Name" original="AD_Rule_EventType">AD_规则_事件类型</value>
+  <value column="Name" original="AD_Rule_EventType">规则_事件类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2006,7 +2006,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53316" trl="Y">
-  <value column="Name" original="PA_DashboardContent GoalDisplay">PA_仪表板内容_目标显示</value>
+  <value column="Name" original="PA_DashboardContent GoalDisplay">仪表盘内容_目标显示</value>
   <value column="Description" original="Type of goal display on dashboard">指标类型显示在仪表板</value>
   <value column="Help" original=""/>
  </row>
