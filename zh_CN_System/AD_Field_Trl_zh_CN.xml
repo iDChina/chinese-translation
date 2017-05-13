@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
  <row id="1546" trl="Y">
-  <value column="Name" original="Link Column">数据库列</value>
-  <value column="Description" original="Link Column for Multi-Parent tables">数据库表中的列</value>
-  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">数据库表中的列</value>
+  <value column="Name" original="Link Column">链接列</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">一对多关系的子表需指定具体的外键列</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">子表有多个父表时，指定子表的列来链接两表关系。</value>
  </row>
  <row id="2124" trl="Y">
   <value column="Name" original="Language">语言</value>
@@ -166,8 +166,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="50085" trl="Y">
-  <value column="Name" original="Export Package">导出包</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Export Package">导出包(PackOut)</value>
+  <value column="Description" original="">该流程用于创建导出包</value>
   <value column="Help" original=""/>
  </row>
  <row id="50086" trl="Y">
@@ -420,8 +420,8 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">仓库标识存储产品或提供服务的唯一仓库</value>
  </row>
  <row id="55187" trl="Y">
-  <value column="Name" original="Create from a Window">从一个窗口创建</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Create from a Window">导出格式产生器</value>
+  <value column="Description" original="">基于一个窗口创建多个导出格式</value>
   <value column="Help" original=""/>
  </row>
  <row id="56011" trl="Y">
@@ -542,9 +542,9 @@ This field shows the sum of the amounts of the product that have had movements</
 起始日期和终止日期表示在这段时间范围内该BOM可以在生产线中使用</value>
  </row>
  <row id="58771" trl="Y">
-  <value column="Name" original="Import Product Planning Data">导入产品计划</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Import Product Planning Data">导入产品计划和预测</value>
+  <value column="Description" original="">导入产品计划和预测</value>
+  <value column="Help" original="">导入和更新产品计划和预测数据</value>
  </row>
  <row id="59028" trl="Y">
   <value column="Name" original="Account Date">记账日期</value>
@@ -582,9 +582,9 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="Copy From Another Cash Plan">从另一张现金计划复制明细</value>
  </row>
  <row id="62015" trl="Y">
-  <value column="Name" original="Create/Update Production lines">创建/更新子工单</value>
-  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">Process which will create production lines based on BOM, or recreate with an optional adjusted quantity</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Create/Update Production lines">创建生产工单明细</value>
+  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">创建生产工单的所有明细记录</value>
+  <value column="Help" original="">创建生产工单的所有明细记录</value>
  </row>
  <row id="62016" trl="Y">
   <value column="Name" original="Complete Production">完成生产</value>
@@ -612,7 +612,7 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">"仅该币种字段" 表示 这个银行账户只接受此处标明的币种</value>
  </row>
  <row id="200723" trl="Y">
-  <value column="Name" original="Void It">是否作废</value>
+  <value column="Name" original="Void It">作废在线授权付款交易</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

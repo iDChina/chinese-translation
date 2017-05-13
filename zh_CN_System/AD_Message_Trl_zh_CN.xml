@@ -93,8 +93,13 @@
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="124" trl="Y">
-  <value column="MsgText" original="With your current role and settings, you cannot view this information">在当前的角色和设置下，无法查看此信息</value>
-  <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">没有访问权限 (当前角色不允许访问该信息) -或- 设置偏爱设置 (例如，如果希望查看会计记录，则必须选中“显示会计”复选框)</value>
+  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无此项访问权限，请与管理员联系。</value>
+  <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">当前角色的用户无访问权限，可能原因有：
+1. 用户登录实体与数据访问级别不符。
+2. 用户无此AD对象的访问权限。
+3. 用户无info窗口访问或者高级功能权限。
+
+出错信息：</value>
  </row>
  <row id="125" trl="Y">
   <value column="MsgText" original="iDempiere, Inc.">iDempiere公司</value>
@@ -987,7 +992,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="347" trl="Y">
-  <value column="MsgText" original="New">新建</value>
+  <value column="MsgText" original="New">快速新建</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="348" trl="Y">
@@ -1364,7 +1369,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="441" trl="Y">
-  <value column="MsgText" original="Process finished successful">处理成功完成</value>
+  <value column="MsgText" original="Process finished successful">流程处理成功完成</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="442" trl="Y">
@@ -1826,7 +1831,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="555" trl="Y">
-  <value column="MsgText" original="Process completed successfully">处理成功完成</value>
+  <value column="MsgText" original="Process completed successfully">处理成功完成。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="556" trl="Y">
@@ -1894,7 +1899,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="572" trl="Y">
-  <value column="MsgText" original="Update">更新</value>
+  <value column="MsgText" original="Update">快速更新</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="573" trl="Y">
@@ -1959,7 +1964,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="588" trl="Y">
-  <value column="MsgText" original="No Bank Account with Document (e.g. Check)">无银行账户单据 (如支票)</value>
+  <value column="MsgText" original="No Bank Account with Document (e.g. Check)">未设置银行账号，请检查银行设置！</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="589" trl="Y">
@@ -2987,7 +2992,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="853" trl="Y">
-  <value column="MsgText" original="Automatic New Record">自动新建记录</value>
+  <value column="MsgText" original="Automatic New Record">自动新建</value>
   <value column="MsgTip" original="When no record exists, automatically create a New Record">当不存在记录时，自动新建一条记录</value>
  </row>
  <row id="854" trl="Y">
@@ -3783,7 +3788,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52147" trl="Y">
-  <value column="MsgText" original="Discount">折扣</value>
+  <value column="MsgText" original="Discount">折扣金额</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52148" trl="Y">
@@ -5163,7 +5168,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="52495" trl="Y">
-  <value column="MsgText" original="Discount Amount">折扣金额</value>
+  <value column="MsgText" original="Discount Amount">订单折扣金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="52496" trl="Y">
@@ -6215,7 +6220,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200177" trl="Y">
-  <value column="MsgText" original="Posting">过账中</value>
+  <value column="MsgText" original="Posting">账户信息（Acc Info）</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200178" trl="Y">

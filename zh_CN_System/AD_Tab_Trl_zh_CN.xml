@@ -996,7 +996,7 @@
   <value column="Help" original="The Workflow Access Tab defines the Roles who have access to this Workflow. ">定义这角色允许访问的工作流和类型. </value>
  </row>
  <row id="313" trl="Y">
-  <value column="Name" original="Task Access">权限</value>
+  <value column="Name" original="Task Access">任务权限</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Task Access">任务权限</value>
   <value column="Help" original="The Task Access Tab defines the Task and type of access that this Role is granted.">任务访问页签定义了任务，以及该角色被授予的访问类型 (权限)</value>
@@ -1004,7 +1004,7 @@
  <row id="314" trl="Y">
   <value column="Name" original="Error Message">错误消息</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Error Message">错误消息</value>
+  <value column="Description" original="Error Message">定义错误消息</value>
   <value column="Help" original="The Error Message Tab displays error messages that have been generated.  They can be deleted with an automated clean up process.">错误消息页签显示了已生成的错误消息。它们可用自动清除流程加以删除</value>
  </row>
  <row id="315" trl="Y">
@@ -6504,10 +6504,10 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="200209" trl="Y">
-  <value column="Name" original="Menu favourites">收藏夹</value>
+  <value column="Name" original="Menu favourites">用户收藏夹</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Menu favourites by user">收藏夹偏好设置</value>
-  <value column="Help" original="Show all menu favourties by user."/>
+  <value column="Description" original="Menu favourites by user">查看用户收藏的菜单项</value>
+  <value column="Help" original="Show all menu favourties by user.">查看用户收藏的菜单项，并可以设置登录启动</value>
  </row>
  <row id="200213" trl="N">
   <value column="Name" original="CSS Style">CSS样式</value>

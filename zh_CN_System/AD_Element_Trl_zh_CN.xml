@@ -2046,8 +2046,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="389" trl="Y">
   <value column="Name" original="Key column">主键列</value>
   <value column="PrintName" original="Key column">主键列</value>
-  <value column="Description" original="This column is the key in this table">该列是表中的关键列</value>
-  <value column="Help" original="The key column must also be display sequence 0 in the field definition and may be hidden.">主键列在字段定义中的显示顺序也必须是 0，可能被隐藏</value>
+  <value column="Description" original="This column is the key in this table">与数据库主键同样，主键列用于标识记录唯一性</value>
+  <value column="Help" original="The key column must also be display sequence 0 in the field definition and may be hidden.">主键通常是_ID，如果显示在窗口中，主键列可以显示（顺序为0），也可以隐藏。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2076,8 +2076,8 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
  <row id="395" trl="Y">
   <value column="Name" original="Parent link column">父链接列</value>
   <value column="PrintName" original="Parent link column">父链接列</value>
-  <value column="Description" original="This column is a link to the parent table (e.g. header from lines) - incl. Association key columns">该列是一个到父表的链接 (如来源于行的标头) - 包含关联关键字列</value>
-  <value column="Help" original="The Parent checkbox indicates if this column is a link to the parent table.">父复选框表示该列是否为到父表的链接</value>
+  <value column="Description" original="This column is a link to the parent table (e.g. header from lines) - incl. Association key columns">子表中，链接到父表的列</value>
+  <value column="Help" original="The Parent checkbox indicates if this column is a link to the parent table.">表示该列将用于链接父表。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12587,10 +12587,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2029" trl="Y">
-  <value column="Name" original="Session">登录会话</value>
-  <value column="PrintName" original="Session">登录会话</value>
-  <value column="Description" original="User Session Online or Web">在线的用户登录会话</value>
-  <value column="Help" original="Online or Web Session Information">在线或Web会话信息</value>
+  <value column="Name" original="Session">会话</value>
+  <value column="PrintName" original="Session">会话</value>
+  <value column="Description" original="User Session Online or Web">用户登录到服务器的会话</value>
+  <value column="Help" original="Online or Web Session Information">在线的服务器会话或者web会话。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23126,8 +23126,8 @@ Web 上下文通常以 / 开始，并要求是有效的上下文名称 (未检�
  <row id="50040" trl="Y">
   <value column="Name" original="Copy Columns From Table">从表复制列</value>
   <value column="PrintName" original="Copy Columns From Table">从表复制列</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">从AD其他表复制列定义</value>
+  <value column="Help" original="">选择字典中的其他表，复制到本表</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -25308,10 +25308,10 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53347" trl="Y">
-  <value column="Name" original="Fail if Build Differ">构筑版本差异时是否报错</value>
-  <value column="PrintName" original="Fail if Build Differ">构筑版本差异时是否报错</value>
-  <value column="Description" original="">该选项挑勾时，如果AD_SYSTEM.lastbuildinfo和MSysConfig.APPLICATION_MAIN_VERSION不一致，为了确保安全系统将无法启动</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Fail if Build Differ">构建版本差异时失败</value>
+  <value column="PrintName" original="Fail if Build Differ">构建版本差异时失败</value>
+  <value column="Description" original="">构建数据库版本差异时，系统将失败停止</value>
+  <value column="Help" original="">该选项挑勾时，如果AD_SYSTEM.lastbuildinfo和MSysConfig.APPLICATION_MAIN_VERSION不一致，为了确保安全，系统将无法启动</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39087,10 +39087,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200084" trl="Y">
-  <value column="Name" original="Grid Sequence No">网格顺序号码</value>
-  <value column="PrintName" original="Grid Sequence No">网格顺序号码</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Grid Sequence No">网格顺序号</value>
+  <value column="PrintName" original="Grid Sequence No">网格顺序号</value>
+  <value column="Description" original="">网格布局中的字段显示顺序</value>
+  <value column="Help" original="">网格布局中的字段显示顺序。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39967,10 +39967,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200216" trl="Y">
-  <value column="Name" original="Quick Entry">快速入门</value>
-  <value column="PrintName" original="Quick Entry">快速入门</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Quick Entry">快速新建</value>
+  <value column="PrintName" original="Quick Entry">快速新建</value>
+  <value column="Description" original="">该字段被选择作为快速新建字段</value>
+  <value column="Help" original="">比如选中，该字段右键菜单会弹出“快速新建”选项。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -53527,10 +53527,10 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202195" trl="Y">
-  <value column="Name" original="Deposit Batch">存款批量</value>
-  <value column="PrintName" original="Deposit Batch">存款批量</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Deposit Batch">批量支付</value>
+  <value column="PrintName" original="Deposit Batch">批量支付</value>
+  <value column="Description" original="">批量付/收款单</value>
+  <value column="Help" original="">批量付款单或者批量收款单。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -53547,20 +53547,20 @@ Product: used to quickly add products to POS order</value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202197" trl="Y">
-  <value column="Name" original="Deposit Date">账户日期</value>
-  <value column="PrintName" original="Deposit Date">账户日期</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Deposit Date">支付日期</value>
+  <value column="PrintName" original="Deposit Date">支付日期</value>
+  <value column="Description" original="">批量付/收款的支付日期</value>
+  <value column="Help" original="">批量付款单的支付日期，或者批量收款单的支付日期。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202198" trl="Y">
-  <value column="Name" original="Deposit Amount">存款金额</value>
-  <value column="PrintName" original="Deposit Amount">存款金额</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Deposit Amount">支付金额</value>
+  <value column="PrintName" original="Deposit Amount">支付金额</value>
+  <value column="Description" original="">批量付/收款的支付金额</value>
+  <value column="Help" original="">批量付款单的支付金额，或者批量收款单的支付金额。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
