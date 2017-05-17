@@ -61,12 +61,12 @@
   <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)">如果你拷贝和改写当前默认值，你可能要重复以前更新 (如 设置接收账户, ...)</value>
  </row>
  <row id="113" trl="Y">
-  <value column="Name" original="Copy Window Tabs">复制窗口页签</value>
+  <value column="Name" original="Copy Window Tabs">复制页签</value>
   <value column="Description" original="Copy all Tabs and Fields from other Window">从其他窗口复制全部的页签和字段</value>
   <value column="Help" original=""/>
  </row>
  <row id="114" trl="Y">
-  <value column="Name" original="Copy Tab Fields">复制页签字段</value>
+  <value column="Name" original="Copy Tab Fields">复制字段</value>
   <value column="Description" original="Copy Fields from other Tab">从其他页签复制字段</value>
   <value column="Help" original=""/>
  </row>
@@ -171,8 +171,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="135" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Lines from other Import Format">从其他导入格式复制行</value>
+  <value column="Name" original="Copy Lines">复制导入格式</value>
+  <value column="Description" original="Copy Lines from other Import Format">从其他导入格式复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="136" trl="Y">
@@ -291,8 +291,8 @@
   <value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">生成订单流程将基于项目阶段生成新的订单单据。价格表和仓库/服务点必须在项目中定义</value>
  </row>
  <row id="165" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Commission Lines from other Commission">从其他佣金复制佣金行</value>
+  <value column="Name" original="Copy Lines">复制佣金明细</value>
+  <value column="Description" original="Copy Commission Lines from other Commission">从其他佣金复制佣金明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="166" trl="Y">
@@ -397,13 +397,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="189" trl="Y">
-  <value column="Name" original="Copy Columns">复制列</value>
-  <value column="Description" original="Copy Report Columns from other Column Set">从其他列集合复制报表列</value>
+  <value column="Name" original="Copy Columns">复制列集合</value>
+  <value column="Description" original="Copy Report Columns from other Column Set">从其他报表列集合复制</value>
   <value column="Help" original="Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.">将列复制到该列集合的末尾。请注意，需要重新设置计算的操作符</value>
  </row>
  <row id="190" trl="Y">
-  <value column="Name" original="Copy Lines">复制明细</value>
-  <value column="Description" original="Copy Report Lines from other Line Set">从其他明细集合复制报表明细</value>
+  <value column="Name" original="Copy Lines">复制行集合</value>
+  <value column="Description" original="Copy Report Lines from other Line Set">从其他报表行集合复制</value>
   <value column="Help" original="Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.">将明细复制到该明细集合的末尾。请注意，需要重新设置计算的操作符</value>
  </row>
  <row id="191" trl="Y">
@@ -412,8 +412,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="192" trl="Y">
-  <value column="Name" original="Copy/Create">复制/创建</value>
-  <value column="Description" original="Copy existing OR create Print Format from Table">复制已存在的或从表创建打印格式</value>
+  <value column="Name" original="Copy/Create">复制/创建打印格式</value>
+  <value column="Description" original="Copy existing OR create Print Format from Table">复制已存在的打印格式，或创建打印格式</value>
   <value column="Help" original="Select either a table to create a print format [creates initial rough layout]&#10;OR a print format to copy into the current print format [copies layout].">选择要创建打印格式的表 [创建初始的大致布局]，或选择要复制到当前打印格式中的打印格式 [复制布局]</value>
  </row>
  <row id="193" trl="Y">
@@ -512,18 +512,18 @@
   <value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User."><![CDATA[选择兴趣领域的订阅者，并以所选用户身份发送邮件。或者，可发送邮件给业务伙伴分组的联系人。<br>发送出邮件的用户需要具有有效的电子邮件信息。如果未选择用户，那么邮件从实体的请求邮件用户发出]]></value>
  </row>
  <row id="210" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Lines from other Invoice">从其他发票复制行</value>
+  <value column="Name" original="Copy Lines">复制发票明细</value>
+  <value column="Description" original="Copy Lines from other Invoice">从其他发票复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="211" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Lines from other Order">从其他订单复制行</value>
+  <value column="Name" original="Copy Lines">复制订单明细</value>
+  <value column="Description" original="Copy Lines from other Order">从其他订单复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="212" trl="Y">
-  <value column="Name" original="Copy Details">复制明细</value>
-  <value column="Description" original="Copy Lines/Phases/Tasks from other Project">从其他项目复制行/阶段/任务</value>
+  <value column="Name" original="Copy Details">复制项目明细</value>
+  <value column="Description" original="Copy Lines/Phases/Tasks from other Project">从其他项目复制项目明细/阶段/任务</value>
   <value column="Help" original=""/>
  </row>
  <row id="213" trl="Y">
@@ -532,8 +532,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="214" trl="Y">
-  <value column="Name" original="Copy Details">复制明细</value>
-  <value column="Description" original="Copy Journal/Lines from other Journal Batch">从其他日记账批复制日记账/行</value>
+  <value column="Name" original="Copy Details">复制日记账批明细</value>
+  <value column="Description" original="Copy Journal/Lines from other Journal Batch">从其他日记账批复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="215" trl="Y">
@@ -738,8 +738,8 @@
   <value column="Help" original="Report with detail accounting details.">会计情况的明细报表</value>
  </row>
  <row id="253" trl="Y">
-  <value column="Name" original="Accounting Fact Daily">会计明细日报表</value>
-  <value column="Description" original="Accounting Fact Details summarized by Accounting Date">根据记账日期显示会计分录明细汇总表</value>
+  <value column="Name" original="Accounting Fact Daily">会计分录日报表</value>
+  <value column="Description" original="Accounting Fact Details summarized by Accounting Date">根据记账日期显示分录明细汇总表</value>
   <value column="Help" original="The report lists the daily summary of accounting transactions">报表列出会计事务处理的每日汇总信息</value>
  </row>
  <row id="254" trl="Y">
@@ -816,8 +816,8 @@
   <value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">销售订单为输入的业务伙伴而创建。销售订单明细针对每个询价单行的数量而创建，即“报盘数量”被选中之处。如果基于询价单行数量，输入了报盘金额 (非0)，则使用该价格。如果基于询价单行数量而输入了利润，那么它覆盖一般利润。利润是最佳响应金额的百分比加成</value>
  </row>
  <row id="268" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Lines from another RfQ">从另一张询价单复制行</value>
+  <value column="Name" original="Copy Lines">复制询价单明细</value>
+  <value column="Description" original="Copy Lines from another RfQ">从其他询价单复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="269" trl="Y">
@@ -1261,12 +1261,12 @@
  </row>
  <row id="50010" trl="Y">
   <value column="Name" original="Copy Role">复制角色</value>
-  <value column="Description" original="Copy Role">复制角色</value>
+  <value column="Description" original="Copy Role">复制其他角色</value>
   <value column="Help" original="Copy role access records from one role to another.  The existing access records for the destination role will be deleted.  This process can be executed just by advanced roles.">复制角色访问记录从一个到另一个角色，现有的目标角色的访问记录将被删除</value>
  </row>
  <row id="50011" trl="Y">
-  <value column="Name" original="Copy Columns from Table">自表复制列</value>
-  <value column="Description" original="Create Dictionary Columns for a Table taking another as base">为表格创建字典列，以其他表格为基础</value>
+  <value column="Name" original="Copy Columns from Table">复制列</value>
+  <value column="Description" original="Create Dictionary Columns for a Table taking another as base">从其他表复制列</value>
   <value column="Help" original=""/>
  </row>
  <row id="50012" trl="Y">
@@ -1301,7 +1301,7 @@
  </row>
  <row id="53004" trl="Y">
   <value column="Name" original="PP_Product_BOM CopyFrom">复制BOM</value>
-  <value column="Description" original="">从选中的BOM复制BOM明细到当前行</value>
+  <value column="Description" original="">从其他BOM复制明细到当前行</value>
   <value column="Help" original="This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines">从选中的BOM复制BOM明细到当前行，被选中的BOM必须存在明细</value>
  </row>
  <row id="53006" trl="Y">
@@ -1746,8 +1746,8 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53179" trl="Y">
-  <value column="Name" original="Copy From Report and Process">从报表和流程复制</value>
-  <value column="Description" original="Copy settings from one report and process to another.">从其他报表和流程复制明细</value>
+  <value column="Name" original="Copy From Report and Process">复制报表或流程</value>
+  <value column="Description" original="Copy settings from one report and process to another.">从其他报表或流程复制</value>
   <value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">从选定的报表（或过程）复制设置到当前的报表（或过程），这将覆盖现有的设置和翻译</value>
  </row>
  <row id="53187" trl="Y">
@@ -1782,7 +1782,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  </row>
  <row id="53206" trl="Y">
   <value column="Name" original="Copy from product">复制产品</value>
-  <value column="Description" original="Copy prices etc from other product">从其他产品复制相关信息</value>
+  <value column="Description" original="Copy prices etc from other product">复制默认产品</value>
   <value column="Help" original="">复制其他产品的相关记录，比如相关产品，替代 ，产品价格，业务伙伴，补货，下载记录，当前版本不复制采购信息和会计记账信息。</value>
  </row>
  <row id="53207" trl="Y">
@@ -1871,7 +1871,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53246" trl="Y">
-  <value column="Name" original="Copy from Cash Plan">从现金计划复制</value>
+  <value column="Name" original="Copy from Cash Plan">复制现金计划明细</value>
   <value column="Description" original="Copy Lines from other Cash Plan">从其他现金计划复制明细</value>
   <value column="Help" original=""/>
  </row>
@@ -1952,8 +1952,8 @@ c. 使用年限，是一个可选的参数。如果你想使用不同的使用�
 d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
  </row>
  <row id="200005" trl="Y">
-  <value column="Name" original="Copy Details">复制明细</value>
-  <value column="Description" original="Copy Journal/Lines from other Journal">从其他日记账批复制日记账/行</value>
+  <value column="Name" original="Copy Details">复制日记账明细</value>
+  <value column="Description" original="Copy Journal/Lines from other Journal">从其他日记账复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="200006" trl="Y">
@@ -1977,8 +1977,8 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200012" trl="Y">
-  <value column="Name" original="Copy Lines">复制行</value>
-  <value column="Description" original="Copy Lines from other bank statement">从其他日记账批复制日记账/行</value>
+  <value column="Name" original="Copy Lines">复制对账单明细</value>
+  <value column="Description" original="Copy Lines from other bank statement">从其他银行对账单复制明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="200014" trl="Y">
@@ -2052,8 +2052,8 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200029" trl="Y">
-  <value column="Name" original="Shipper Copy From ...">复制于记录</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Shipper Copy From ...">复制承运人配置</value>
+  <value column="Description" original="">复制承运人配置的包装服务，打印标签，取货服务信息</value>
   <value column="Help" original=""/>
  </row>
  <row id="200030" trl="Y">
@@ -2086,8 +2086,8 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Description" original="Product/Component Where Used">子件/组件的BOM反查</value>
   <value column="Help" original="Enter a product/component below, and the system will check for BOM(s) that contain that product/component.  This report is non-recursive.  In other words, it will only show one parent level above the product/component.">输入下面的产品/组件，系统将检查BOM（包括该产品/组件），但是本报告只会显示一个父级以上的产品/组件</value>
  </row>
- <row id="200037" trl="N">
-  <value column="Name" original="Simple Fact View">简单会计分录视图</value>
+ <row id="200037" trl="Y">
+  <value column="Name" original="Simple Fact View">会计分录简单视图</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2096,9 +2096,9 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200039" trl="N">
-  <value column="Name" original="Verify Language Configuration">验证语言配置</value>
-  <value column="Description" original=""/>
+ <row id="200039" trl="Y">
+  <value column="Name" original="Verify Language Configuration">验证语言</value>
+  <value column="Description" original="">检查语言的有效性，并创建缺失的语种词条</value>
   <value column="Help" original=""/>
  </row>
  <row id="200040" trl="N">
@@ -2160,7 +2160,7 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200067" trl="N">
-  <value column="Name" original="Copy Info Window Columns">拷贝信息窗口的列</value>
+  <value column="Name" original="Copy Info Window Columns">复制信息窗口列</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2184,9 +2184,9 @@ d. 事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Description" original="Generate Production from Project Line(s)">从项目明细生成生产工单</value>
   <value column="Help" original=""/>
  </row>
- <row id="200086" trl="N">
-  <value column="Name" original="Copy Components From View">Copy Components From View</value>
-  <value column="Description" original="Create dictionary view components for a table taking another as base">Create dictionary view components for a table taking another as base</value>
+ <row id="200086" trl="Y">
+  <value column="Name" original="Copy Components From View">复制组件</value>
+  <value column="Description" original="Create dictionary view components for a table taking another as base">从其他视图复制视图组件</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="88bf44d5-87d7-4034-92d7-fcc96148d7fc">

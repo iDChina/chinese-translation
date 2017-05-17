@@ -46,7 +46,7 @@
   <value column="Name" original="Field">字段</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Field definitions in tabs in windows">窗口中页签的字段定义</value>
-  <value column="Help" original="The Field Tab defines the Fields displayed within a tab.  Changes made to the Field Tab become visible after restart due to caching. If the Sequence is negative, the record are ordered descending. Note that the name, description and help is automatically synchronized if centrally maintained.">定义字段显示的内部标签. 修改完成后这标签在重设缓存后显示. 如果这序列是负数,这记录是降序排列. 注释: 其名字,描述和帮助在维护中心自动同步</value>
+  <value column="Help" original="The Field Tab defines the Fields displayed within a tab.  Changes made to the Field Tab become visible after restart due to caching. If the Sequence is negative, the record are ordered descending. Note that the name, description and help is automatically synchronized if centrally maintained.">定义字段显示的内部标签. 修改完成后这标签在重设缓存后显示. 如果这序列是负数，这记录是降序排列. 注释: 其名字，描述和帮助在维护中心自动同步</value>
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="Validation">验证</value>
@@ -70,13 +70,13 @@
   <value column="Name" original="Translation">翻译</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Menu Translation - May not need to be translated">菜单翻译 - 可能不需要翻译</value>
-  <value column="Help" original="Menu translations are derived from Window,  Process, etc. You only need to translate Summary level items all others will be translated automatically (overwritten)">翻译菜单是获得窗口,处理等. 你只需要翻译汇总级的项目所有其他将自动翻译(覆写)</value>
+  <value column="Help" original="Menu translations are derived from Window,  Process, etc. You only need to translate Summary level items all others will be translated automatically (overwritten)">翻译菜单是获得窗口，处理等. 你只需要翻译汇总级的项目所有其他将自动翻译(覆写)</value>
  </row>
  <row id="112" trl="Y">
   <value column="Name" original="Language">语言</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="System and User Languages">系统与用户语言</value>
-  <value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">如果想添加更多的用户界面语言，请选择“系统语言”。否则，系统允许翻译打印单据的元素</value>
+  <value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">如果想添加更多的用户界面语言，请选择并设置为“系统语言”。</value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -673,7 +673,7 @@
   <value column="Name" original="Purchasing">采购</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Purchasing">采购</value>
-  <value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity, UPC, minimum order quantity) for each product.">定义各个产品的价格和规则(包装数量,UPC代码,最低订货数量)</value>
+  <value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity, UPC, minimum order quantity) for each product.">定义各个产品的价格和规则(包装数量，UPC代码，最低订货数量)</value>
  </row>
  <row id="241" trl="Y">
   <value column="Name" original="Withholding">预扣</value>
@@ -1017,7 +1017,7 @@
   <value column="Name" original="Format Field">格式字段</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Format Fields">维护格式字段</value>
-  <value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;"><![CDATA[基于表定义，定义各字段。请注意，必须确保常量具有正确的 SQL 数据类型 (即如果它是一个“字符串”，则需要将它括起来，就像这样: '我的字符串')。<p>产品映射 (明细请参见<u>用户指南</u>): <pre> H_Item => 值 H_ItemDesc => 名称 / 描述 H_ItemDefn => 帮助 H_ItemType => 产品类别 H_PartnrID => 业务伙伴的值 H_Commodity1 => 供应商产品编号 H_Commodity2 => SKU H_ItemClass => 分类 (A,B,C..) V_OperAmt_T_Cur => 货币 V_OperAmt_T => 价格  </pre>]]></value>
+  <value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;"><![CDATA[基于表定义，定义各字段。请注意，必须确保常量具有正确的 SQL 数据类型 (即如果它是一个“字符串”，则需要将它括起来，就像这样: '我的字符串')。<p>产品映射 (明细请参见<u>用户指南</u>): <pre> H_Item => 值 H_ItemDesc => 名称 / 描述 H_ItemDefn => 帮助 H_ItemType => 产品类别 H_PartnrID => 业务伙伴的值 H_Commodity1 => 供应商产品编号 H_Commodity2 => SKU H_ItemClass => 分类 (A，B，C..) V_OperAmt_T_Cur => 货币 V_OperAmt_T => 价格  </pre>]]></value>
  </row>
  <row id="317" trl="Y">
   <value column="Name" original="Bill of Materials">BOM</value>
@@ -1481,7 +1481,7 @@
   <value column="Name" original="Schema Line">价格表模式明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Trade Discount Price List Lines">价格表模式明细</value>
-  <value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round"><![CDATA[价格表基于产品采购和类别折扣而创建。这里列出的参数允许复制和计算价格表。<p>计算:<UL><LI>从引用的价格表复制和转换价格<LI>结果加上附加额<LI>结果减去折扣<LI>如果结果价格低于原始限制价格加最低毛利，则使用该价格 (仅当毛利不为0时) <LI>如果结果价格高于原始限制价格加最高毛利，则使用该价格 (仅当毛利不为0时) <LI>将结果价格作舍入处理 </UL> <B>公式:</B><BR> 新价格 = (转换(基础价格) + 附加额) * (100-折扣) / 100;<BR> <i>如果</i> 最低毛利 &lt;&gt; 0 <i>则</i> 新价格 = 取最大值 (新价格, 转换(原始限制价格) + 最低毛利);<BR> <i>如果</i> 最高毛利 &lt;&gt; 0 <i>则</i> 新价格 = 取最小值 (新价格, 转换(原始限制价格) + 最高毛利);<BR>  <BR> <B>示例:</B> (假定币种相同)<BR> 原价:  列表价格=300, 标准价格=250, 限制价格=200;<BR> 新的列表价: 基础价格=列表价格, 附加额=0, 折扣=0, 舍入]]></value>
+  <value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round"><![CDATA[价格表基于产品采购和类别折扣而创建。这里列出的参数允许复制和计算价格表。<p>计算:<UL><LI>从引用的价格表复制和转换价格<LI>结果加上附加额<LI>结果减去折扣<LI>如果结果价格低于原始限制价格加最低毛利，则使用该价格 (仅当毛利不为0时) <LI>如果结果价格高于原始限制价格加最高毛利，则使用该价格 (仅当毛利不为0时) <LI>将结果价格作舍入处理 </UL> <B>公式:</B><BR> 新价格 = (转换(基础价格) + 附加额) * (100-折扣) / 100;<BR> <i>如果</i> 最低毛利 &lt;&gt; 0 <i>则</i> 新价格 = 取最大值 (新价格， 转换(原始限制价格) + 最低毛利);<BR> <i>如果</i> 最高毛利 &lt;&gt; 0 <i>则</i> 新价格 = 取最小值 (新价格， 转换(原始限制价格) + 最高毛利);<BR>  <BR> <B>示例:</B> (假定币种相同)<BR> 原价:  列表价格=300， 标准价格=250， 限制价格=200;<BR> 新的列表价: 基础价格=列表价格， 附加额=0， 折扣=0， 舍入]]></value>
  </row>
  <row id="406" trl="Y">
   <value column="Name" original="Discount Break">折扣分段</value>
@@ -1672,13 +1672,13 @@
  <row id="437" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
   <value column="CommitWarning" original="YES OR NO ?"/>
-  <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">请求类型 (例如 查询, 投诉, ..)</value>
+  <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">请求类型 (例如 查询， 投诉， ..)</value>
   <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">请求类型用于处理和分类请求。选择项包括账户查询、质保问题等</value>
  </row>
  <row id="438" trl="Y">
   <value column="Name" original="Interest Area">兴趣领域</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题, 可用于关系营销等目的</value>
+  <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题， 可用于关系营销等目的</value>
   <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns. If a list is not &quot;Self Service&quot;, it is not visible for users via the web.">兴趣关注反映了联系人的兴趣主题。兴趣关注可用于营销活动。如果一个列表不是“自助服务”，那么它不能让用户通过Web访问</value>
  </row>
  <row id="439" trl="Y">
@@ -1808,10 +1808,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="461" trl="Y">
-  <value column="Name" original="Attribute Set">属性组合</value>
+  <value column="Name" original="Attribute Set">属性集</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Product Attribute Set">维护产品属性集</value>
-  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define an Attribute Set if you want to enable Serial and Lot Number and Guarantee Date tracking.  Note that the Guarantee Days here determine the Shelf Life of a product instance after manufacturing (the Guarantee Days on the product determines a Customer Service date after selling)&#10;If the Attribute Set is mandatory, a product instance needs to be selected/created before shipping.">定义产品属性集，以为产品添加额外的属性和值。如果想启用序号和批号追踪，则需要定义一个属性集</value>
+  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define an Attribute Set if you want to enable Serial and Lot Number and Guarantee Date tracking.  Note that the Guarantee Days here determine the Shelf Life of a product instance after manufacturing (the Guarantee Days on the product determines a Customer Service date after selling)&#10;If the Attribute Set is mandatory, a product instance needs to be selected/created before shipping.">定义产品属性集，通过组合不同的属性形成属性集，以用于产品。</value>
  </row>
  <row id="462" trl="Y">
   <value column="Name" original="Attribute">属性</value>
@@ -1823,13 +1823,13 @@
   <value column="Name" original="Attribute Value">属性值</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Product Attribute Value">产品属性值</value>
-  <value column="Help" original="Individual value of a product attribute (e.g. green, large, ..)">产品属性实例值(例如:绿色,大号)</value>
+  <value column="Help" original="Individual value of a product attribute (e.g. green, large, ..)">产品属性实例值(例如:绿色，大号)</value>
  </row>
  <row id="464" trl="Y">
   <value column="Name" original="Lot">产品批次</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Lot Definition">产品批次定义</value>
-  <value column="Help" original="Maintain the individual Lot of a Product">维护产品的各批次</value>
+  <value column="Description" original="Product Lot Definition">维护产品的批次记录</value>
+  <value column="Help" original="Maintain the individual Lot of a Product">当产品批形成后，新建产品批次以开始对产品进行控制。</value>
  </row>
  <row id="465" trl="Y">
   <value column="Name" original="Lot Control">批次控制</value>
@@ -1844,16 +1844,16 @@
   <value column="Help" original="Definition to create Serial numbers for Products">为产品创建序列号的定义</value>
  </row>
  <row id="467" trl="Y">
-  <value column="Name" original="Attribute Use">属性使用</value>
+  <value column="Name" original="Attribute Use">属性</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Attributes Used for the Product Attribute Set">产品属性集使用的属性</value>
-  <value column="Help" original="Attributes and Attribute Values used for the product">用于产品的属性和属性集</value>
+  <value column="Description" original="Attributes Used for the Product Attribute Set">属性集使用的属性</value>
+  <value column="Help" original="Attributes and Attribute Values used for the product">如果选择的属性是”实例属性“，那属性集也自动变为”实例属性“。</value>
  </row>
  <row id="468" trl="Y">
   <value column="Name" original="Attribute Search">属性搜索</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Common Search Attribute ">通用属性搜索 </value>
-  <value column="Help" original="Attributes are specific to a Product Attribute Set (e.g. Size for T-Shirts: S,M,L). If you have multiple attributes and want to search under a common sttribute, you define a search sttribute. Example: have one Size search attribute combining the values of all different sizes (Size for Dress Shirt  XL,L,M,S,XS). The Attribute Search allows you to have all values available for selection.  This eases the maintenance of the individual product attribute.">对产品属性组属性是特定的 ( 举例来说为圆领汗衫按规定尺寸制作: S , M,L). 如果你有多样的属性并且想要在通常的 sttribute 之下搜寻,你定义搜寻 sttribute 。 例子: 一已经按规定尺寸制作搜寻联合所有不同的大小价值的属性吗。 ( 大小对于洋装衬衫 XL ， L ， M ， S,XS) 属性搜寻允许你让选择可用的所有价值。  这减轻个别的产品属性的维护</value>
+  <value column="Help" original="Attributes are specific to a Product Attribute Set (e.g. Size for T-Shirts: S,M,L). If you have multiple attributes and want to search under a common sttribute, you define a search sttribute. Example: have one Size search attribute combining the values of all different sizes (Size for Dress Shirt  XL,L,M,S,XS). The Attribute Search allows you to have all values available for selection.  This eases the maintenance of the individual product attribute.">对产品属性组属性是特定的 ( 举例来说为圆领汗衫按规定尺寸制作: S ， M，L). 如果你有多样的属性并且想要在通常的 sttribute 之下搜寻，你定义搜寻 sttribute 。 例子: 一已经按规定尺寸制作搜寻联合所有不同的大小价值的属性吗。 ( 大小对于洋装衬衫 XL ， L ， M ， S，XS) 属性搜寻允许你让选择可用的所有价值。  这减轻个别的产品属性的维护</value>
  </row>
  <row id="469" trl="Y">
   <value column="Name" original="Assigned Attributes">指定的属性</value>
@@ -2183,7 +2183,7 @@
   <value column="Name" original="Replication Table">复制表</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Data Replication Strategy Table Info">数据复制策略表信息</value>
-  <value column="Help" original="Determines how the table is replicated. You have full access to Local tables, Reference tables are on Remote systems and are read-only. The data of Merge tables on Remote systems is copied to the central system.">确定这数据表怎样复制. 你只读和将远程系统完全读写到当地数据表,引用数据表. 在远程系统合并数据表数据复制到这集中系统上</value>
+  <value column="Help" original="Determines how the table is replicated. You have full access to Local tables, Reference tables are on Remote systems and are read-only. The data of Merge tables on Remote systems is copied to the central system.">确定这数据表怎样复制. 你只读和将远程系统完全读写到当地数据表，引用数据表. 在远程系统合并数据表数据复制到这集中系统上</value>
  </row>
  <row id="526" trl="Y">
   <value column="Name" original="Campaign Dimension">战役维度</value>
@@ -2268,7 +2268,7 @@
   <value column="Name" original="Category">类别</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Knoweledge Categories and Values">维护知识类别和内容</value>
-  <value column="Help" original="Set up knowledge categories and values as a search aid. Examples are Release Version, Product Area, etc. Knowledge Category values act like keyworks.">固定的在如搜寻的知识种类和价值上面援助。 例子是释放版本，产品区域,等等知识种类价值表现相似的 keyworks </value>
+  <value column="Help" original="Set up knowledge categories and values as a search aid. Examples are Release Version, Product Area, etc. Knowledge Category values act like keyworks.">固定的在如搜寻的知识种类和价值上面援助。 例子是释放版本，产品区域，等等知识种类价值表现相似的 keyworks </value>
  </row>
  <row id="540" trl="Y">
   <value column="Name" original="Category Value">分类值</value>
@@ -2442,7 +2442,7 @@
   <value column="Name" original="Accounting">会计</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Currency Accounting">货币会计</value>
-  <value column="Help" original="The Accounting Tab defines the accounting parameters used for transactions including a currency. Please nore that if not defined, the default accounts of the Accounting Schema are used!">定义事务使用的货币会计参数. 请注意,如果不定义,这会计模式使用这默认账户!</value>
+  <value column="Help" original="The Accounting Tab defines the accounting parameters used for transactions including a currency. Please nore that if not defined, the default accounts of the Accounting Schema are used!">定义事务使用的货币会计参数. 请注意，如果不定义，这会计模式使用这默认账户!</value>
  </row>
  <row id="570" trl="Y">
   <value column="Name" original="Conversion Type">货币汇率类型</value>
@@ -2453,7 +2453,7 @@
  <row id="571" trl="Y">
   <value column="Name" original="Statement Loader">对账单加载器</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">银行对账单加载器的定义 (SWIFT, OFX)</value>
+  <value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">银行对账单加载器的定义 (SWIFT， OFX)</value>
   <value column="Help" original="The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">加载器定义 提供了加载银行对账单的参数，来自 EFT 格式，例如 SWIFT（MT940）或OFX。所需的参数取决于实际对账单加载器的类</value>
  </row>
  <row id="572" trl="Y">
@@ -2544,7 +2544,7 @@
   <value column="Name" original="Bank Statement Matcher">银行对账单匹配器</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算法则</value>
-  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">在导入银行对账单里查找业务伙伴,发票,付款的算法. 这类需要implemrnt org.compiere.impexp.BankStatementMatcherInterface接口</value>
+  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">在导入银行对账单里查找业务伙伴，发票，付款的算法. 这类需要implemrnt org.compiere.impexp.BankStatementMatcherInterface接口</value>
  </row>
  <row id="587" trl="Y">
   <value column="Name" original="Payment">付/收款</value>
@@ -2598,7 +2598,7 @@
   <value column="Name" original="Bid">竞标</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View bids for a Topic">查看主题的竞标</value>
-  <value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">你能建立一个投标主题. 根据这主题,主题获得的最高出价 - 或你在这主题分担的款项</value>
+  <value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">你能建立一个投标主题. 根据这主题，主题获得的最高出价 - 或你在这主题分担的款项</value>
  </row>
  <row id="596" trl="Y">
   <value column="Name" original="Offer">报盘</value>
@@ -2670,7 +2670,7 @@
   <value column="Name" original="Bid">竞标</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Bid for a Topic">主题竞标</value>
-  <value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">你能建立一个投标主题. 根据这主题,主题获得的最高出价 - 或你在这主题分担的款项</value>
+  <value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">你能建立一个投标主题. 根据这主题，主题获得的最高出价 - 或你在这主题分担的款项</value>
  </row>
  <row id="608" trl="Y">
   <value column="Name" original="Accounting Processor">会计引擎</value>
@@ -3036,13 +3036,13 @@
   <value column="Name" original="SLA Measure">服务级别协议评估</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Service Level Agreement Measure">服务级别协议评估</value>
-  <value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">查看/维护各实际值, 为业务伙伴服务级别协议目标评估</value>
+  <value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">查看/维护各实际值， 为业务伙伴服务级别协议目标评估</value>
  </row>
  <row id="672" trl="Y">
   <value column="Name" original="SLA Criteria">服务级别协议条件SLA</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Service Level Agreement Criteria">服务级别协议条件</value>
-  <value column="Help" original="Define a criteria to measure service level agreements (e.g. Quality, Delivery meets Promised date, ..). If you define a process class, it need to implement org.compiere.sla.SLACriteria (see example)">定义度量服务级协定准则(例如: 数量, 配送满足许诺日期..). 如果你定义一个处理类,它需要implement org.compiere.sla.SLACriteria (看例子)</value>
+  <value column="Help" original="Define a criteria to measure service level agreements (e.g. Quality, Delivery meets Promised date, ..). If you define a process class, it need to implement org.compiere.sla.SLACriteria (see example)">定义度量服务级协定准则(例如: 数量， 配送满足许诺日期..). 如果你定义一个处理类，它需要implement org.compiere.sla.SLACriteria (看例子)</value>
  </row>
  <row id="673" trl="Y">
   <value column="Name" original="Table Translation">表翻译</value>
@@ -3054,7 +3054,7 @@
   <value column="Name" original="Restriction">限制</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Include Subscriber Only for certain products or product categories">包含仅特定产品或产品类别的订阅者</value>
-  <value column="Help" original="Enter the products / product categories for which the subscriber should be included.  If no product / category is entered, the subscriber is requested to answer requests for all lines in a RfQ">输入预约者包含的产品/产品分类. 如果没有产品/分类输入,这预约者要求回应一个报价请求的全部行</value>
+  <value column="Help" original="Enter the products / product categories for which the subscriber should be included.  If no product / category is entered, the subscriber is requested to answer requests for all lines in a RfQ">输入预约者包含的产品/产品分类. 如果没有产品/分类输入，这预约者要求回应一个报价请求的全部行</value>
  </row>
  <row id="675" trl="Y">
   <value column="Name" original="Price List Schema">价格表模式</value>
@@ -3090,7 +3090,7 @@
   <value column="Name" original="SLA Measure">服务级别协议评估</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Service Level Agreement Measure">服务级别协议评估</value>
-  <value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">查看/维护各实际值, 为业务伙伴服务级别协议目标评估</value>
+  <value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">查看/维护各实际值， 为业务伙伴服务级别协议目标评估</value>
  </row>
  <row id="681" trl="Y">
   <value column="Name" original="Column Translation">列翻译</value>
@@ -3222,7 +3222,7 @@
   <value column="Name" original="Request Status">请求状态</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Request Status">维护请求状态</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查,..)</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查，..)</value>
  </row>
  <row id="703" trl="Y">
   <value column="Name" original="Standard Response">标准响应</value>
@@ -3503,8 +3503,8 @@
  <row id="752" trl="Y">
   <value column="Name" original="Exclude">排除</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Exclude the ability to enter Attribute Sets">排除输入属性集的能力</value>
-  <value column="Help" original="Create a record, if you want to exclude the ability to enter Product Attribute Set information. &#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果希望排除输入产品属性集信息的能力，则创建记录。注意，信息被缓存起来。必须重新登录或重置高速缓存，方能生效</value>
+  <value column="Description" original="Exclude the ability to enter Attribute Sets">排除输入属性集的设置</value>
+  <value column="Help" original="Create a record, if you want to exclude the ability to enter Product Attribute Set information. &#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">如果希望排除输入产品属性集信息，则创建记录。注意，信息被缓存起来。必须重新登录或重置高速缓存，方能生效</value>
  </row>
  <row id="753" trl="Y">
   <value column="Name" original="Exclude">排除</value>
@@ -3537,25 +3537,25 @@
   <value column="Help" original=""/>
  </row>
  <row id="758" trl="Y">
-  <value column="Name" original="Instance">实例</value>
+  <value column="Name" original="Instance">属性集实例</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Attribute Set Instance">属性集实例</value>
   <value column="Help" original=""/>
  </row>
  <row id="759" trl="Y">
-  <value column="Name" original="Shipment, Receipt">发货单/收货单</value>
+  <value column="Name" original="Shipment, Receipt">收发明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Material Shipment and Receipt Lines">物料发货与收货单行</value>
   <value column="Help" original=""/>
  </row>
  <row id="760" trl="Y">
-  <value column="Name" original="Movement">移库单</value>
+  <value column="Name" original="Movement">移库明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Material Movement Lines">物料移库行</value>
   <value column="Help" original=""/>
  </row>
  <row id="761" trl="Y">
-  <value column="Name" original="Invoice">发票</value>
+  <value column="Name" original="Invoice">发票明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="AP / AR Invoice Lines">应付/应收发票明细</value>
   <value column="Help" original=""/>
@@ -4044,7 +4044,7 @@
   <value column="Name" original="Index Stop">索引跳过</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Keyword not to be indexed">不需要索引的主键</value>
-  <value column="Help" original="Keyword not to be indexed, optional restriced to specific Document Type, Container or Request Type">Keyword not to be indexed, optional restriced to specific Document Type, Container or Request类型</value>
+  <value column="Help" original="Keyword not to be indexed, optional restriced to specific Document Type, Container or Request Type">Keyword not to be indexed， optional restriced to specific Document Type， Container or Request类型</value>
  </row>
  <row id="848" trl="Y">
   <value column="Name" original="Log">日志</value>
@@ -4157,7 +4157,7 @@
  <row id="52003" trl="Y">
   <value column="Name" original="BlackListCheque">支票黑名单</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Black Listed Cheque">背书支票</value>
+  <value column="Description" original="Black Listed Cheque">Web POS 支票黑名单</value>
   <value column="Help" original=""/>
  </row>
  <row id="53013" trl="Y">
@@ -4774,7 +4774,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
  <row id="53118" trl="Y">
   <value column="Name" original="Payroll Concepts">薪酬策略</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define the concepts to a Payroll ie (salaries, wages, bonuses, and deductions)">Define the concepts to a Payroll ie (salaries, wages, bonuses, and deductions)</value>
+  <value column="Description" original="Define the concepts to a Payroll ie (salaries, wages, bonuses, and deductions)">Define the concepts to a Payroll ie (salaries， wages， bonuses， and deductions)</value>
   <value column="Help" original=""/>
  </row>
  <row id="53119" trl="Y">
@@ -4856,7 +4856,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53143" trl="Y">
-  <value column="Name" original="Step1 Select an Asset">第一步，选择资产</value>
+  <value column="Name" original="Step1 Select an Asset">资产</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="List of Assets">资产列表</value>
   <value column="Help" original=""/>
@@ -4994,7 +4994,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Help" original=""/>
  </row>
  <row id="53170" trl="Y">
-  <value column="Name" original="Period Spread Type">期间展开类型</value>
+  <value column="Name" original="Period Spread Type">期间分摊类型</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6537,7 +6537,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Name" original="Inbound/Outbound Rule">入库/出库规则</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Inbound/Outbound Rule">入库/出库规则</value>
-  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm， these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
  </row>
  <row trl="N" uuid="013e0020-5a2f-4e65-b5ba-8c722a9fd1dd">
   <value column="Name" original="Sort of the combinations">策略排序</value>
@@ -6615,19 +6615,19 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Name" original="Warehouse">仓库</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Warehouse">仓库定义</value>
-  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well. Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well. Finally, warehouse sections can be grouped into different locations and section types.</value>
+  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well. Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas， Sections and Locations， therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well. Finally， warehouse sections can be grouped into different locations and section types.</value>
  </row>
  <row trl="N" uuid="3c038936-ec23-4589-97d5-198059f8b127">
   <value column="Name" original="Warehouse Area">仓库区域</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Warehouse Area">设置仓库区域</value>
-  <value column="Help" original="A Warehouse Area represents a physical area within the warehouse space, therefore it is required to have at least one to implement the Warehouse Management System.">A Warehouse Area represents a physical area within the warehouse space, therefore it is required to have at least one to implement the Warehouse Management System.</value>
+  <value column="Help" original="A Warehouse Area represents a physical area within the warehouse space, therefore it is required to have at least one to implement the Warehouse Management System.">A Warehouse Area represents a physical area within the warehouse space， therefore it is required to have at least one to implement the Warehouse Management System.</value>
  </row>
  <row trl="N" uuid="48d271b1-5523-4a96-b822-d2fd164763e7">
   <value column="Name" original="Warehouse Section">仓库分区</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Warehouse Section">设置仓库分区</value>
-  <value column="Help" original="A Warehouse Section represents another physical warehouse area even more specific than the Warehouse Area itself, therefore it is required to have at least one warehouse section within a warehouse area, furthermore a Warehouse Section is used for grouping several locations.&#10;">A Warehouse Section represents another physical warehouse area even more specific than the Warehouse Area itself, therefore it is required to have at least one warehouse section within a warehouse area, furthermore a Warehouse Section is used for grouping several locations.
+  <value column="Help" original="A Warehouse Section represents another physical warehouse area even more specific than the Warehouse Area itself, therefore it is required to have at least one warehouse section within a warehouse area, furthermore a Warehouse Section is used for grouping several locations.&#10;">A Warehouse Section represents another physical warehouse area even more specific than the Warehouse Area itself， therefore it is required to have at least one warehouse section within a warehouse area， furthermore a Warehouse Section is used for grouping several locations.
 </value>
  </row>
  <row trl="N" uuid="fe0d2b5d-c88e-4fa0-aba2-9cad56260762">
@@ -6682,7 +6682,7 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Name" original="Handling Unit">处理单元</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. ">比如：集装箱，栈板，纸箱，储物篮</value>
-  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.</value>
+  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items， for example， about batches， is retained in the handling units and is always available.</value>
  </row>
  <row trl="N" uuid="31f69ce5-198b-4d55-9052-e8eae295c327">
   <value column="Name" original="Scan Batch">批量扫描</value>
@@ -6826,6 +6826,12 @@ MRP-999	未知MRP错误	----	MRP处理过程中出现的未分类错误。
   <value column="Name" original="Accounting Fact">会计分录明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="">查看会计分录明细</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="432f9e1d-d3aa-454b-863e-3610b062de44">
+  <value column="Name" original="pep trans">pep trans</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

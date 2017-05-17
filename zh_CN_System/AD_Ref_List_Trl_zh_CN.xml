@@ -301,7 +301,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="178" trl="Y">
-  <value column="Name" original="Complete">已完成</value>
+  <value column="Name" original="Complete">完成</value>
   <value column="Description" original="Generate documents and complete transaction">生成单据并完成事务处理</value>
  </row>
  <row id="179" trl="Y">
@@ -333,7 +333,7 @@
   <value column="Description" original="Reverse by switching Dr/Cr with current date">生成一张互换账户借贷方向的同日单据来反转事务</value>
  </row>
  <row id="187" trl="Y">
-  <value column="Name" original="Invalidate">使无效</value>
+  <value column="Name" original="Invalidate">失效</value>
   <value column="Description" original="Invalidate Document">使单据无效</value>
  </row>
  <row id="188" trl="Y">
@@ -469,11 +469,11 @@
   <value column="Description" original="Fixed freight price">固定的运费价格</value>
  </row>
  <row id="227" trl="Y">
-  <value column="Name" original="Calculated">分摊计算</value>
+  <value column="Name" original="Calculated">按规则分摊</value>
   <value column="Description" original="Calculated based on Product Freight Rule">基于产品运费规则的计算</value>
  </row>
  <row id="228" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">按明细计算</value>
   <value column="Description" original="Entered at Line level">在行的级别录入的</value>
  </row>
  <row id="229" trl="Y">
@@ -517,7 +517,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="240" trl="Y">
-  <value column="Name" original="Maintain Maximum Level">维护最高库存线</value>
+  <value column="Name" original="Maintain Maximum Level">保持最高库存线</value>
   <value column="Description" original=""/>
  </row>
  <row id="242" trl="Y">
@@ -525,7 +525,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="244" trl="Y">
-  <value column="Name" original="Reorder below Minimum Level">低于最低库存线时重新订购</value>
+  <value column="Name" original="Reorder below Minimum Level">低于最低库存线时订购</value>
   <value column="Description" original=""/>
  </row>
  <row id="245" trl="Y">
@@ -573,7 +573,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="258" trl="Y">
-  <value column="Name" original="Open Period">开放期间</value>
+  <value column="Name" original="Open Period">打开期间</value>
   <value column="Description" original=""/>
  </row>
  <row id="259" trl="Y">
@@ -581,11 +581,11 @@
   <value column="Description" original="Soft close - can be re-opened">软关闭 - 可重新打开</value>
  </row>
  <row id="260" trl="Y">
-  <value column="Name" original="Permanently Close Period">永久关闭会计期间</value>
+  <value column="Name" original="Permanently Close Period">永久关闭期间</value>
   <value column="Description" original=""/>
  </row>
  <row id="261" trl="Y">
-  <value column="Name" original="Open">已打开</value>
+  <value column="Name" original="Open">已开启</value>
   <value column="Description" original=""/>
  </row>
  <row id="262" trl="Y">
@@ -593,11 +593,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="263" trl="Y">
-  <value column="Name" original="Permanently closed">已永久关闭</value>
+  <value column="Name" original="Permanently closed">永久关闭</value>
   <value column="Description" original=""/>
  </row>
  <row id="264" trl="Y">
-  <value column="Name" original="Never opened">从未打开过</value>
+  <value column="Name" original="Never opened">从未开启</value>
   <value column="Description" original=""/>
  </row>
  <row id="266" trl="Y">
@@ -1285,7 +1285,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="463" trl="Y">
-  <value column="Name" original="Post Prepared">过账准备妥当</value>
+  <value column="Name" original="Post Prepared">已准备过账</value>
   <value column="Description" original=""/>
  </row>
  <row id="464" trl="Y">
@@ -1749,11 +1749,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="582" trl="Y">
-  <value column="Name" original="Work Order +">生产工单 +</value>
+  <value column="Name" original="Work Order +">项目工单 +</value>
   <value column="Description" original=""/>
  </row>
  <row id="583" trl="Y">
-  <value column="Name" original="Work Order -">生产工单 -</value>
+  <value column="Name" original="Work Order -">项目工单 -</value>
   <value column="Description" original=""/>
  </row>
  <row id="584" trl="Y">
@@ -1997,7 +1997,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="647" trl="Y">
-  <value column="Name" original="Void">作废</value>
+  <value column="Name" original="Void">已作废</value>
   <value column="Description" original=""/>
  </row>
  <row id="648" trl="Y">
@@ -2485,7 +2485,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="772" trl="Y">
-  <value column="Name" original="Custom">定制</value>
+  <value column="Name" original="Custom">自定义</value>
   <value column="Description" original=""/>
  </row>
  <row id="773" trl="Y">
@@ -2689,7 +2689,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="823" trl="Y">
-  <value column="Name" original=" 99% Cleaning up"> 99% 收尾</value>
+  <value column="Name" original=" 99% Cleaning up"> 99% 收尾中</value>
   <value column="Description" original=""/>
  </row>
  <row id="824" trl="Y">
@@ -2793,15 +2793,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="850" trl="Y">
-  <value column="Name" original="Evaluation">评估</value>
+  <value column="Name" original="Evaluation">评估中</value>
   <value column="Description" original=""/>
  </row>
  <row id="851" trl="Y">
-  <value column="Name" original="Implementation">实施</value>
+  <value column="Name" original="Implementation">实施中</value>
   <value column="Description" original=""/>
  </row>
  <row id="852" trl="Y">
-  <value column="Name" original="Production">生产</value>
+  <value column="Name" original="Production">生产中</value>
   <value column="Description" original=""/>
  </row>
  <row id="853" trl="Y">
@@ -3569,15 +3569,15 @@
   <value column="Description" original="Scheduke Forward"/>
  </row>
  <row id="53284" trl="Y">
-  <value column="Name" original="Hide">隐藏明细</value>
+  <value column="Name" original="Hide">隐藏</value>
   <value column="Description" original=""/>
  </row>
  <row id="53285" trl="Y">
-  <value column="Name" original="Show">显示全部</value>
+  <value column="Name" original="Show">显示</value>
   <value column="Description" original=""/>
  </row>
  <row id="53286" trl="Y">
-  <value column="Name" original="Undefined">下划线</value>
+  <value column="Name" original="Undefined">未定义</value>
   <value column="Description" original=""/>
  </row>
  <row id="53287" trl="Y">
@@ -4161,11 +4161,11 @@
   <value column="Description" original="BY for P &amp; L account, BT for Balance Sheet account"><![CDATA[BY for P & L account, BT for Balance Sheet account]]></value>
  </row>
  <row id="53442" trl="Y">
-  <value column="Name" original="Material Receipt">物料收货</value>
+  <value column="Name" original="Material Receipt">物料接收</value>
   <value column="Description" original=""/>
  </row>
  <row id="53443" trl="Y">
-  <value column="Name" original="Component Issue">部件发料</value>
+  <value column="Name" original="Component Issue">子件发料</value>
   <value column="Description" original=""/>
  </row>
  <row id="53444" trl="Y">
@@ -4173,7 +4173,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53445" trl="Y">
-  <value column="Name" original="Method Change Variance">差异变更方法</value>
+  <value column="Name" original="Method Change Variance">变更差异</value>
   <value column="Description" original=""/>
  </row>
  <row id="53446" trl="Y">
@@ -4185,7 +4185,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53448" trl="Y">
-  <value column="Name" original="Activity Control">活动控制</value>
+  <value column="Name" original="Activity Control">作业控制</value>
   <value column="Description" original=""/>
  </row>
  <row id="53449" trl="Y">
@@ -4493,27 +4493,27 @@
   <value column="Description" original=""/>
  </row>
  <row id="53589" trl="Y">
-  <value column="Name" original="Depreciated">完全折旧</value>
+  <value column="Name" original="Depreciated">已折旧</value>
   <value column="Description" original=""/>
  </row>
  <row id="53590" trl="Y">
-  <value column="Name" original="New">新建</value>
+  <value column="Name" original="New">已新增</value>
   <value column="Description" original=""/>
  </row>
  <row id="53591" trl="Y">
-  <value column="Name" original="Preservation">保留</value>
+  <value column="Name" original="Preservation">保全中</value>
   <value column="Description" original=""/>
  </row>
  <row id="53592" trl="Y">
-  <value column="Name" original="Retired">已淘汰</value>
+  <value column="Name" original="Retired">已报废</value>
   <value column="Description" original=""/>
  </row>
  <row id="53593" trl="Y">
-  <value column="Name" original="Sold">可销售</value>
+  <value column="Name" original="Sold">已销售</value>
   <value column="Description" original=""/>
  </row>
  <row id="53594" trl="Y">
-  <value column="Name" original="Dispose">资产处置</value>
+  <value column="Name" original="Dispose">处置</value>
   <value column="Description" original=""/>
  </row>
  <row id="53595" trl="Y">
@@ -4521,7 +4521,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53596" trl="Y">
-  <value column="Name" original="Modify">修改价格</value>
+  <value column="Name" original="Modify">修改</value>
   <value column="Description" original=""/>
  </row>
  <row id="53597" trl="Y">
@@ -4537,7 +4537,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53600" trl="Y">
-  <value column="Name" original="Transfer">传输</value>
+  <value column="Name" original="Transfer">转移</value>
   <value column="Description" original=""/>
  </row>
  <row id="53601" trl="Y">
@@ -4612,51 +4612,51 @@
   <value column="Name" original="GL Reconciliation">总账核销</value>
   <value column="Description" original="SQL subquery used in GL Reconciliation (auto)">SQL subquery used in GL Reconciliation (auto)</value>
  </row>
- <row id="53630" trl="N">
+ <row id="53630" trl="Y">
   <value column="Name" original="Horizontal">水平的</value>
   <value column="Description" original=""/>
  </row>
- <row id="53631" trl="N">
+ <row id="53631" trl="Y">
   <value column="Name" original="Vertical">垂直的</value>
   <value column="Description" original=""/>
  </row>
- <row id="53632" trl="N">
+ <row id="53632" trl="Y">
   <value column="Name" original="Day">天</value>
   <value column="Description" original=""/>
  </row>
- <row id="53633" trl="N">
+ <row id="53633" trl="Y">
   <value column="Name" original="Week">周</value>
   <value column="Description" original=""/>
  </row>
- <row id="53634" trl="N">
+ <row id="53634" trl="Y">
   <value column="Name" original="Month">月</value>
   <value column="Description" original=""/>
  </row>
- <row id="53635" trl="N">
+ <row id="53635" trl="Y">
   <value column="Name" original="Quarter">季度</value>
   <value column="Description" original=""/>
  </row>
- <row id="53636" trl="N">
+ <row id="53636" trl="Y">
   <value column="Name" original="Year">年</value>
   <value column="Description" original=""/>
  </row>
- <row id="53637" trl="N">
+ <row id="53637" trl="Y">
   <value column="Name" original="Area Chart">区域图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53638" trl="N">
+ <row id="53638" trl="Y">
   <value column="Name" original="Bar Chart">柱状图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53639" trl="N">
+ <row id="53639" trl="Y">
   <value column="Name" original="Stacked Area Chart">堆积区域图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53640" trl="N">
+ <row id="53640" trl="Y">
   <value column="Name" original="3D Bar Chart">3D柱状图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53641" trl="N">
+ <row id="53641" trl="Y">
   <value column="Name" original="Stacked Bar Chart">堆积柱状图</value>
   <value column="Description" original=""/>
  </row>
@@ -4664,7 +4664,7 @@
   <value column="Name" original="3D Stacked Bar Chart">3D堆积柱状图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53643" trl="N">
+ <row id="53643" trl="Y">
   <value column="Name" original="Line Chart">线状图</value>
   <value column="Description" original=""/>
  </row>
@@ -4672,7 +4672,7 @@
   <value column="Name" original="3D Line Chart">3D线状图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53645" trl="N">
+ <row id="53645" trl="Y">
   <value column="Name" original="Waterfall Chart">瀑布图</value>
   <value column="Description" original=""/>
  </row>
@@ -4684,7 +4684,7 @@
   <value column="Name" original="3D Pie Chart">3D饼形图</value>
   <value column="Description" original=""/>
  </row>
- <row id="53648" trl="N">
+ <row id="53648" trl="Y">
   <value column="Name" original="Ring Chart">环型图</value>
   <value column="Description" original=""/>
  </row>
@@ -4764,32 +4764,32 @@
   <value column="Name" original="4_Actual Debt (Invoices)">业务伙伴发票</value>
   <value column="Description" original=""/>
  </row>
- <row id="53682" trl="N">
-  <value column="Name" original="Approve">批准</value>
+ <row id="53682" trl="Y">
+  <value column="Name" original="Approve">已批准</value>
   <value column="Description" original=""/>
  </row>
- <row id="53683" trl="N">
-  <value column="Name" original="Void">作废</value>
+ <row id="53683" trl="Y">
+  <value column="Name" original="Void">已作废</value>
   <value column="Description" original=""/>
  </row>
- <row id="53684" trl="N">
+ <row id="53684" trl="Y">
   <value column="Name" original="Waiting Confirmation">等待确认</value>
   <value column="Description" original=""/>
  </row>
- <row id="53685" trl="N">
+ <row id="53685" trl="Y">
   <value column="Name" original="Repair">维修</value>
   <value column="Description" original=""/>
  </row>
- <row id="53686" trl="N">
-  <value column="Name" original="CheckUp">CheckUp</value>
+ <row id="53686" trl="Y">
+  <value column="Name" original="CheckUp">核对</value>
   <value column="Description" original=""/>
  </row>
- <row id="53687" trl="N">
-  <value column="Name" original="Type A">Type A</value>
+ <row id="53687" trl="Y">
+  <value column="Name" original="Type A">A 类型</value>
   <value column="Description" original=""/>
  </row>
- <row id="53688" trl="N">
-  <value column="Name" original="Type B">Type B</value>
+ <row id="53688" trl="Y">
+  <value column="Name" original="Type B">B 类型</value>
   <value column="Description" original=""/>
  </row>
  <row id="53689" trl="Y">
@@ -4800,7 +4800,7 @@
   <value column="Name" original="BOM Tools">BOM工具</value>
   <value column="Description" original=""/>
  </row>
- <row id="53691" trl="N">
+ <row id="53691" trl="Y">
   <value column="Name" original="Human Resource">人力资源</value>
   <value column="Description" original=""/>
  </row>
@@ -4808,51 +4808,51 @@
   <value column="Name" original="Part">部件</value>
   <value column="Description" original=""/>
  </row>
- <row id="53693" trl="N">
+ <row id="53693" trl="Y">
   <value column="Name" original="Tool">工具</value>
   <value column="Description" original=""/>
  </row>
- <row id="53694" trl="N">
+ <row id="53694" trl="Y">
   <value column="Name" original="Critical">严重的</value>
   <value column="Description" original=""/>
  </row>
- <row id="53695" trl="N">
-  <value column="Name" original="Active">有效</value>
+ <row id="53695" trl="Y">
+  <value column="Name" original="Active">有效的</value>
   <value column="Description" original=""/>
  </row>
- <row id="53696" trl="N">
-  <value column="Name" original="Inacive">无效</value>
+ <row id="53696" trl="Y">
+  <value column="Name" original="Inacive">无效的</value>
   <value column="Description" original=""/>
  </row>
- <row id="53697" trl="N">
+ <row id="53697" trl="Y">
   <value column="Name" original="Calendar">日历</value>
   <value column="Description" original=""/>
  </row>
- <row id="53698" trl="N">
+ <row id="53698" trl="Y">
   <value column="Name" original="Meter">读数</value>
   <value column="Description" original=""/>
  </row>
- <row id="53699" trl="N">
-  <value column="Name" original="Completed">完成</value>
+ <row id="53699" trl="Y">
+  <value column="Name" original="Completed">已完成</value>
   <value column="Description" original=""/>
  </row>
- <row id="53700" trl="N">
+ <row id="53700" trl="Y">
   <value column="Name" original="In Progress">进行中</value>
   <value column="Description" original=""/>
  </row>
- <row id="53701" trl="N">
+ <row id="53701" trl="Y">
   <value column="Name" original="Not Started">未开始</value>
   <value column="Description" original=""/>
  </row>
- <row id="53702" trl="N">
-  <value column="Name" original="Stop">停止</value>
+ <row id="53702" trl="Y">
+  <value column="Name" original="Stop">已停止</value>
   <value column="Description" original=""/>
  </row>
- <row id="53703" trl="N">
+ <row id="53703" trl="Y">
   <value column="Name" original="Fixed Price">固定价格</value>
   <value column="Description" original=""/>
  </row>
- <row id="53704" trl="N">
+ <row id="53704" trl="Y">
   <value column="Name" original="Discount">折扣</value>
   <value column="Description" original=""/>
  </row>
@@ -4876,84 +4876,84 @@
   <value column="Name" original="Production">生产单</value>
   <value column="Description" original=""/>
  </row>
- <row id="53716" trl="N">
-  <value column="Name" original="Cold Call">电话</value>
+ <row id="53716" trl="Y">
+  <value column="Name" original="Cold Call">陌生电访</value>
   <value column="Description" original=""/>
  </row>
- <row id="53717" trl="N">
-  <value column="Name" original="Existing Customer">现有的客户</value>
+ <row id="53717" trl="Y">
+  <value column="Name" original="Existing Customer">现有客户</value>
   <value column="Description" original=""/>
  </row>
- <row id="53718" trl="N">
+ <row id="53718" trl="Y">
   <value column="Name" original="Employee">员工</value>
   <value column="Description" original=""/>
  </row>
- <row id="53719" trl="N">
+ <row id="53719" trl="Y">
   <value column="Name" original="Partner">伙伴</value>
   <value column="Description" original=""/>
  </row>
- <row id="53720" trl="N">
+ <row id="53720" trl="Y">
   <value column="Name" original="Conference">会议</value>
   <value column="Description" original=""/>
  </row>
- <row id="53721" trl="N">
+ <row id="53721" trl="Y">
   <value column="Name" original="Trade Show">贸易展览</value>
   <value column="Description" original=""/>
  </row>
- <row id="53722" trl="N">
+ <row id="53722" trl="Y">
   <value column="Name" original="Web Site">网站</value>
   <value column="Description" original=""/>
  </row>
- <row id="53723" trl="N">
-  <value column="Name" original="Word of Mouth">Word of Mouth</value>
+ <row id="53723" trl="Y">
+  <value column="Name" original="Word of Mouth">口碑</value>
   <value column="Description" original=""/>
  </row>
- <row id="53725" trl="N">
-  <value column="Name" original="Email">电子邮箱</value>
+ <row id="53725" trl="Y">
+  <value column="Name" original="Email">电子邮件</value>
   <value column="Description" original=""/>
  </row>
- <row id="53726" trl="N">
-  <value column="Name" original="New">新</value>
+ <row id="53726" trl="Y">
+  <value column="Name" original="New">新线索</value>
   <value column="Description" original=""/>
  </row>
- <row id="53727" trl="N">
-  <value column="Name" original="Working">工作</value>
+ <row id="53727" trl="Y">
+  <value column="Name" original="Working">运行中</value>
   <value column="Description" original=""/>
  </row>
- <row id="53728" trl="N">
-  <value column="Name" original="Expired">过期</value>
+ <row id="53728" trl="Y">
+  <value column="Name" original="Expired">已过期</value>
   <value column="Description" original=""/>
  </row>
- <row id="53729" trl="N">
+ <row id="53729" trl="Y">
   <value column="Name" original="Recycled">再利用</value>
   <value column="Description" original=""/>
  </row>
- <row id="53744" trl="N">
+ <row id="53744" trl="Y">
   <value column="Name" original="Email">电子邮箱</value>
   <value column="Description" original=""/>
  </row>
- <row id="53745" trl="N">
+ <row id="53745" trl="Y">
   <value column="Name" original="Phone call">电话呼叫</value>
   <value column="Description" original=""/>
  </row>
- <row id="53746" trl="N">
+ <row id="53746" trl="Y">
   <value column="Name" original="Meeting">会议</value>
   <value column="Description" original=""/>
  </row>
- <row id="53747" trl="N">
+ <row id="53747" trl="Y">
   <value column="Name" original="Task">任务</value>
   <value column="Description" original=""/>
  </row>
- <row id="53748" trl="N">
+ <row id="53748" trl="Y">
   <value column="Name" original="Converted">已转换</value>
   <value column="Description" original=""/>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="New">新建</value>
+  <value column="Name" original="New">已新建</value>
   <value column="Description" original=""/>
  </row>
  <row id="200009" trl="Y">
-  <value column="Name" original="Pending">挂起</value>
+  <value column="Name" original="Pending">挂起中</value>
   <value column="Description" original=""/>
  </row>
  <row id="200010" trl="Y">
@@ -4965,7 +4965,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200012" trl="Y">
-  <value column="Name" original="Skipped">跳过</value>
+  <value column="Name" original="Skipped">已跳过</value>
   <value column="Description" original=""/>
  </row>
  <row id="200013" trl="Y">
@@ -4981,19 +4981,19 @@
   <value column="Description" original=""/>
  </row>
  <row id="200021" trl="Y">
-  <value column="Name" original="Delayed">延迟交易</value>
+  <value column="Name" original="Delayed">已延迟</value>
   <value column="Description" original=""/>
  </row>
  <row id="200022" trl="Y">
-  <value column="Name" original="Replaced">更换</value>
+  <value column="Name" original="Replaced">已更换</value>
   <value column="Description" original=""/>
  </row>
  <row id="200023" trl="Y">
-  <value column="Name" original="Received">收到日期</value>
+  <value column="Name" original="Received">已接收</value>
   <value column="Description" original=""/>
  </row>
  <row id="200024" trl="Y">
-  <value column="Name" original="Returned">退单</value>
+  <value column="Name" original="Returned">已退回</value>
   <value column="Description" original=""/>
  </row>
  <row id="200025" trl="Y">
@@ -5201,23 +5201,23 @@
   <value column="Description" original=""/>
  </row>
  <row id="200089" trl="Y">
-  <value column="Name" original="FOB Origin">FOB原产地的价格</value>
+  <value column="Name" original="FOB Origin">FOB 原产地定价</value>
   <value column="Description" original="Domestic FOB Origin - default for domestic shipping">国内原产地离岸价(FOB Origin) - 国内发运时默认</value>
  </row>
  <row id="200090" trl="Y">
-  <value column="Name" original="Ex Works">卖方工厂交货</value>
+  <value column="Name" original="Ex Works">Ex Works 卖方工厂交货</value>
   <value column="Description" original="Ex Works - default for international shipping">缺省国际运输</value>
  </row>
  <row id="200091" trl="Y">
-  <value column="Name" original="CFR - Cost and Freight">CFR - 成本加运费(......指定目的地)</value>
+  <value column="Name" original="CFR - Cost and Freight">CFR - 成本加运费(指定目的地)</value>
   <value column="Description" original="CFR - Cost and Freight (sea shipments only)">CFR - 成本加运费(......指定目的地)(仅用于海运)</value>
  </row>
  <row id="200092" trl="Y">
-  <value column="Name" original="CIF - Cost, Insurance, and Freight (FedEx)">CIF - 成本加保险费、运费(......指定目的港) (FedEx)</value>
+  <value column="Name" original="CIF - Cost, Insurance, and Freight (FedEx)">CIF - 成本加保险费、运费(指定目的港) (FedEx)</value>
   <value column="Description" original="CIF - Cost, Insurance, and Freight (sea shipments only)">CIF - 成本加保险费、运费(......指定目的港)(仅用于海运)</value>
  </row>
  <row id="200093" trl="Y">
-  <value column="Name" original="CIP - Carriage and Insurance Paid To (FedEx)">CIP - 运费、保险费付至(......指定目的地) (FedEx)</value>
+  <value column="Name" original="CIP - Carriage and Insurance Paid To (FedEx)">CIP - 运费、保险费付至(指定目的地) (FedEx)</value>
   <value column="Description" original="CIP - Carriage and Insurance Paid To">CIP - 运费、保险费付至(......指定目的地)</value>
  </row>
  <row id="200094" trl="Y">
@@ -5229,11 +5229,11 @@
   <value column="Description" original="DAF - Delivered at Frontier">DAF - 边境交货</value>
  </row>
  <row id="200096" trl="Y">
-  <value column="Name" original="DDP - Delivered Duty Paid (FedEx)">DDP - 完税后交货(......指定目的地) (FedEx)</value>
+  <value column="Name" original="DDP - Delivered Duty Paid (FedEx)">DDP - 完税后交货(指定目的地) (FedEx)</value>
   <value column="Description" original="DDP - Delivered Duty Paid">DDP - 完税后交货(......指定目的地)</value>
  </row>
  <row id="200097" trl="Y">
-  <value column="Name" original="DDU - Delivered Duty Unpaid (FedEx)">DDU - 未完税交货(......指定目的地) (FedEx)</value>
+  <value column="Name" original="DDU - Delivered Duty Unpaid (FedEx)">DDU - 未完税交货(指定目的地) (FedEx)</value>
   <value column="Description" original="DDU - Delivered Duty Unpaid">DDU - 未完税交货(......指定目的地)</value>
  </row>
  <row id="200098" trl="Y">
@@ -5245,7 +5245,7 @@
   <value column="Description" original="DES - Delivered Ex Ship (sea shipments only)">DES - 船上交货(指定目的港)(仅用于海运)</value>
  </row>
  <row id="200100" trl="Y">
-  <value column="Name" original="Domestic FOB Destination">国内目的地离岸价(FOB Destination)</value>
+  <value column="Name" original="Domestic FOB Destination">FOB Destination 国内目的地离岸价</value>
   <value column="Description" original="Domestic FOB Destination">国内目的地离岸价(FOB Destination)</value>
  </row>
  <row id="200101" trl="Y">
@@ -5281,11 +5281,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200109" trl="Y">
-  <value column="Name" original="Rate Inquiry">咨询回复</value>
+  <value column="Name" original="Rate Inquiry">费率查询</value>
   <value column="Description" original=""/>
  </row>
  <row id="200110" trl="Y">
-  <value column="Name" original="Void Shipment">客户发货</value>
+  <value column="Name" original="Void Shipment">取消发货</value>
   <value column="Description" original=""/>
  </row>
  <row id="200111" trl="Y">
@@ -5352,15 +5352,15 @@
   <value column="Name" original="Home">工作台</value>
   <value column="Description" original=""/>
  </row>
- <row id="200134" trl="N">
+ <row id="200134" trl="Y">
   <value column="Name" original="Product Cost">产品成本</value>
   <value column="Description" original=""/>
  </row>
- <row id="200135" trl="N">
+ <row id="200135" trl="Y">
   <value column="Name" original="All">全部</value>
   <value column="Description" original=""/>
  </row>
- <row id="200136" trl="N">
+ <row id="200136" trl="Y">
   <value column="Name" original="Node">节点</value>
   <value column="Description" original=""/>
  </row>
@@ -5372,47 +5372,47 @@
   <value column="Name" original="Internal Use Inventory">内部领用</value>
   <value column="Description" original=""/>
  </row>
- <row id="200139" trl="N">
+ <row id="200139" trl="Y">
   <value column="Name" original="Fixed Assets Addition">资产新增单</value>
   <value column="Description" original=""/>
  </row>
- <row id="200140" trl="N">
+ <row id="200140" trl="Y">
   <value column="Name" original="Fixed Assets Disposal">资产处置单</value>
   <value column="Description" original=""/>
  </row>
- <row id="200141" trl="N">
+ <row id="200141" trl="Y">
   <value column="Name" original="Fixed Assets Depreciation">资产折旧单</value>
   <value column="Description" original=""/>
  </row>
- <row id="200142" trl="N">
+ <row id="200142" trl="Y">
   <value column="Name" original="Binary LOB">二进制LOB</value>
   <value column="Description" original=""/>
  </row>
- <row id="200143" trl="N">
+ <row id="200143" trl="Y">
   <value column="Name" original="Character Fixed">字符固定</value>
   <value column="Description" original=""/>
  </row>
- <row id="200144" trl="N">
+ <row id="200144" trl="Y">
   <value column="Name" original="Decimal">精确小数(Decimal)</value>
   <value column="Description" original=""/>
  </row>
- <row id="200145" trl="N">
+ <row id="200145" trl="Y">
   <value column="Name" original="Integer">整数(Integer)</value>
   <value column="Description" original=""/>
  </row>
- <row id="200146" trl="N">
+ <row id="200146" trl="Y">
   <value column="Name" original="Character LOB">字符LOB</value>
   <value column="Description" original=""/>
  </row>
- <row id="200147" trl="N">
+ <row id="200147" trl="Y">
   <value column="Name" original="Number">数值(Number)</value>
   <value column="Description" original=""/>
  </row>
- <row id="200148" trl="N">
+ <row id="200148" trl="Y">
   <value column="Name" original="Timestamp">时间戳(Timestamp)</value>
   <value column="Description" original=""/>
  </row>
- <row id="200149" trl="N">
+ <row id="200149" trl="Y">
   <value column="Name" original="Character Variable">字符变量</value>
   <value column="Description" original=""/>
  </row>
@@ -5420,23 +5420,23 @@
   <value column="Name" original="Cost Adjustment">成本调整</value>
   <value column="Description" original="Inventory Cost Adjustment">库存成本调整</value>
  </row>
- <row id="200156" trl="N">
+ <row id="200156" trl="Y">
   <value column="Name" original="Until Acknowledge">直到确认后停止</value>
   <value column="Description" original="Repeat it until the message has been acknowledged">直到确认后才停止发送广播消息</value>
  </row>
- <row id="200157" trl="N">
+ <row id="200157" trl="Y">
   <value column="Name" original="Until Expiration or Acknowledge">直到过期或者确认</value>
   <value column="Description" original="Repeat it until the message expires or until it has been acknowledged, whatever happens first">一直发送广播，直到消息过期或者被确认</value>
  </row>
- <row id="200158" trl="N">
+ <row id="200158" trl="Y">
   <value column="Name" original="Both">两者</value>
   <value column="Description" original=""/>
  </row>
- <row id="200159" trl="N">
+ <row id="200159" trl="Y">
   <value column="Name" original="Detail Tab">明细页签</value>
   <value column="Description" original=""/>
  </row>
- <row id="200160" trl="N">
+ <row id="200160" trl="Y">
   <value column="Name" original="Master Tab">主页签</value>
   <value column="Description" original=""/>
  </row>
@@ -5456,19 +5456,19 @@
   <value column="Name" original="Set Null">置空</value>
   <value column="Description" original=""/>
  </row>
- <row id="200165" trl="N">
+ <row id="200165" trl="Y">
   <value column="Name" original="Customer">客户</value>
   <value column="Description" original=""/>
  </row>
- <row id="200166" trl="N">
+ <row id="200166" trl="Y">
   <value column="Name" original="Vendor">供应商</value>
   <value column="Description" original=""/>
  </row>
- <row id="200167" trl="N">
+ <row id="200167" trl="Y">
   <value column="Name" original="Employee">员工</value>
   <value column="Description" original=""/>
  </row>
- <row id="200176" trl="N">
+ <row id="200176" trl="Y">
   <value column="Name" original="UPC-A">UPC-A条码</value>
   <value column="Description" original=""/>
  </row>
@@ -5480,15 +5480,15 @@
   <value column="Name" original="Menu">菜单</value>
   <value column="Description" original="Display as menu on a gear button">显示为菜单上的齿轮按钮</value>
  </row>
- <row id="200187" trl="N">
+ <row id="200187" trl="Y">
   <value column="Name" original="List">清单</value>
   <value column="Description" original="Display as list">显示清单</value>
  </row>
- <row id="200188" trl="N">
+ <row id="200188" trl="Y">
   <value column="Name" original="Window">窗口</value>
   <value column="Description" original=""/>
  </row>
- <row id="200189" trl="N">
+ <row id="200189" trl="Y">
   <value column="Name" original="Process">处理</value>
   <value column="Description" original=""/>
  </row>
@@ -5496,31 +5496,31 @@
   <value column="Name" original="Model Cascade">模型级联</value>
   <value column="Description" original=""/>
  </row>
- <row id="200281" trl="N">
+ <row id="200281" trl="Y">
   <value column="Name" original="Insert">插入</value>
   <value column="Description" original=""/>
  </row>
- <row id="200282" trl="N">
+ <row id="200282" trl="Y">
   <value column="Name" original="Update">更新</value>
   <value column="Description" original=""/>
  </row>
- <row id="200283" trl="N">
+ <row id="200283" trl="Y">
   <value column="Name" original="Merge">合并</value>
   <value column="Description" original=""/>
  </row>
- <row id="200285" trl="N">
+ <row id="200285" trl="Y">
   <value column="Name" original="Toolbar">工具栏</value>
   <value column="Description" original=""/>
  </row>
- <row id="200286" trl="N">
+ <row id="200286" trl="Y">
   <value column="Name" original="Window">窗口</value>
   <value column="Description" original=""/>
  </row>
- <row id="200287" trl="N">
+ <row id="200287" trl="Y">
   <value column="Name" original="Both">两者</value>
   <value column="Description" original=""/>
  </row>
- <row id="200310" trl="N">
+ <row id="200310" trl="Y">
   <value column="Name" original="Custom Table">自定义表</value>
   <value column="Description" original="Custom Table">Custom Table</value>
  </row>
@@ -5536,19 +5536,19 @@
   <value column="Name" original="SQL Mandatory">必填SQL</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1573e6e3-8ca5-4cc1-933c-2e6b2fa8ef27">
-  <value column="Name" original="High Rack Labels (3 labels per A4)">高货架标签 (1/3 A4)</value>
+ <row trl="Y" uuid="1573e6e3-8ca5-4cc1-933c-2e6b2fa8ef27">
+  <value column="Name" original="High Rack Labels (3 labels per A4)">大型标签 (1/3 A4)</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1d296864-dfb7-4bce-8924-3b220352e5d2">
-  <value column="Name" original="Mid Rack Labels (6 labels per A4)">Mid Rack Labels (6 labels per A4)</value>
+ <row trl="Y" uuid="1d296864-dfb7-4bce-8924-3b220352e5d2">
+  <value column="Name" original="Mid Rack Labels (6 labels per A4)">中型标签 (1/6 A4)</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="ac5f5444-f6b2-4fab-9687-9beb0646443b">
-  <value column="Name" original="Small Rack Labels (9 labels per A4)">小货架标签(1/9 A4)</value>
+ <row trl="Y" uuid="ac5f5444-f6b2-4fab-9687-9beb0646443b">
+  <value column="Name" original="Small Rack Labels (9 labels per A4)">小型标签(1/9 A4)</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="9c8a2452-94e2-484a-a987-46bbf486cbcc">
+ <row trl="Y" uuid="9c8a2452-94e2-484a-a987-46bbf486cbcc">
   <value column="Name" original="Inbound Operation">入库作业</value>
   <value column="Description" original="Material Putaway">Material Putaway</value>
  </row>
@@ -5560,47 +5560,47 @@
   <value column="Name" original="Replenish OutBound">补货出库</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="52d99e89-62ac-44ed-a3ec-79834b8d9f16">
+ <row trl="Y" uuid="52d99e89-62ac-44ed-a3ec-79834b8d9f16">
   <value column="Name" original="Outbound From Operation">出库拣货作业</value>
   <value column="Description" original="Material Picking">Material Picking</value>
  </row>
- <row trl="N" uuid="969b1076-b4e4-440b-beff-8ea7d913023f">
+ <row trl="Y" uuid="969b1076-b4e4-440b-beff-8ea7d913023f">
   <value column="Name" original="Outbound To Operation">出库上架作业</value>
   <value column="Description" original="Material OutBound PutAway ">Material OutBound PutAway </value>
  </row>
- <row trl="N" uuid="50a27013-c636-4549-aa76-099135435afb">
+ <row trl="Y" uuid="50a27013-c636-4549-aa76-099135435afb">
   <value column="Name" original="Find any locator with available capacity">可用容量的任何库位</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="86420f90-2f7c-4650-a5a9-4cd3a8891207">
+ <row trl="Y" uuid="86420f90-2f7c-4650-a5a9-4cd3a8891207">
   <value column="Name" original="For the material oldest using FIFO">先进先出的最先物料</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="b1560fd4-1b83-42bc-baa8-d6e6220286ab">
+ <row trl="Y" uuid="b1560fd4-1b83-42bc-baa8-d6e6220286ab">
   <value column="Name" original="Custum Interface">自定义接口</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="15978a94-f616-4497-bf7b-4f14e04a3e38">
+ <row trl="Y" uuid="15978a94-f616-4497-bf7b-4f14e04a3e38">
   <value column="Name" original="For the material most recent using LIFO">后进先出的最后物料</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="513583e5-8c0a-4312-ad48-65f217e37601">
+ <row trl="Y" uuid="513583e5-8c0a-4312-ad48-65f217e37601">
   <value column="Name" original="For the material oldest using Fifo by Owner">先进先出的最先物料（按所有者）</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="5f75eb24-2f5a-4d92-ba53-2a2c8fceff11">
+ <row trl="Y" uuid="5f75eb24-2f5a-4d92-ba53-2a2c8fceff11">
   <value column="Name" original="Handling Unit">处理单元</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="44259f2c-c748-4493-bdb5-d05054986d42">
+ <row trl="Y" uuid="44259f2c-c748-4493-bdb5-d05054986d42">
   <value column="Name" original="Volume">体积</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="9957f53a-ca01-4b39-bc95-531f6b5c3894">
+ <row trl="Y" uuid="9957f53a-ca01-4b39-bc95-531f6b5c3894">
   <value column="Name" original="Weight">重量</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="bdbaae31-5203-4344-bd52-775159297ae3">
+ <row trl="Y" uuid="bdbaae31-5203-4344-bd52-775159297ae3">
   <value column="Name" original="Weight &amp; Volume">重量+体积</value>
   <value column="Description" original=""/>
  </row>
@@ -5608,27 +5608,27 @@
   <value column="Name" original="Not Control">不控制</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="07415504-d445-4aca-a090-8ba494b1f2b2">
-  <value column="Name" original="Last Seen">Last Seen</value>
+ <row trl="Y" uuid="07415504-d445-4aca-a090-8ba494b1f2b2">
+  <value column="Name" original="Last Seen">上次结果</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a9de3d0c-8ece-429a-ab3a-0580354b7945">
+ <row trl="Y" uuid="a9de3d0c-8ece-429a-ab3a-0580354b7945">
   <value column="Name" original="Sales Order">销售订单</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="ca5fd386-580a-4854-9628-dddbb0133d87">
-  <value column="Name" original="Canceled">取消</value>
+ <row trl="Y" uuid="ca5fd386-580a-4854-9628-dddbb0133d87">
+  <value column="Name" original="Canceled">已取消</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="cdd75df8-42d7-4a22-8075-8a6881ad0256">
-  <value column="Name" original="Created">创建</value>
+ <row trl="Y" uuid="cdd75df8-42d7-4a22-8075-8a6881ad0256">
+  <value column="Name" original="Created">已创建</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="b7b7cbda-cb32-41ee-b1be-0f77fc5fff40">
+ <row trl="Y" uuid="b7b7cbda-cb32-41ee-b1be-0f77fc5fff40">
   <value column="Name" original="Empty">空的</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8515486c-611d-4cb6-8ad7-e9b0119bf7c1">
+ <row trl="Y" uuid="8515486c-611d-4cb6-8ad7-e9b0119bf7c1">
   <value column="Name" original="Full">满的</value>
   <value column="Description" original=""/>
  </row>
@@ -5636,655 +5636,655 @@
   <value column="Name" original="Partially">不满的</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="daac250c-17d0-4ef5-801e-611a490d6dce">
+ <row trl="Y" uuid="daac250c-17d0-4ef5-801e-611a490d6dce">
   <value column="Name" original="Sejong inbound pallet labe">大产品标签</value>
   <value column="Description" original="Big product format for zebra printer">Big product format for zebra printer</value>
  </row>
- <row trl="N" uuid="05e635f0-8ca1-4859-b82d-1994db2e0a28">
+ <row trl="Y" uuid="05e635f0-8ca1-4859-b82d-1994db2e0a28">
   <value column="Name" original="Shipment Product Format">发货产品标签</value>
   <value column="Description" original="Shipment format label for zebra printer">Shipment format label for zebra printer</value>
  </row>
- <row trl="N" uuid="0c4c6163-cc22-4f9c-a26f-4a5c44a0db52">
+ <row trl="Y" uuid="0c4c6163-cc22-4f9c-a26f-4a5c44a0db52">
   <value column="Name" original="Small Product Format">小产品标签</value>
   <value column="Description" original="Small format label for zebra printer">Small format label for zebra printer</value>
  </row>
- <row trl="N" uuid="84ce177d-62b5-49f3-b591-70f53442ae9f">
-  <value column="Name" original="Bay">Bay</value>
+ <row trl="Y" uuid="84ce177d-62b5-49f3-b591-70f53442ae9f">
+  <value column="Name" original="Bay">按列</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="90060dc7-0385-4b47-b577-220a26818218">
-  <value column="Name" original="Level">Level</value>
+ <row trl="Y" uuid="90060dc7-0385-4b47-b577-220a26818218">
+  <value column="Name" original="Level">按层</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c63acf45-b99b-4306-9052-745c41bf4eac">
+ <row trl="Y" uuid="c63acf45-b99b-4306-9052-745c41bf4eac">
   <value column="Name" original="A">A</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3416fa03-e7a4-4727-8428-6bfd7a14f2c5">
+ <row trl="Y" uuid="3416fa03-e7a4-4727-8428-6bfd7a14f2c5">
   <value column="Name" original="B">B</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="456bddc3-ed83-4171-a80f-a6b69034250b">
+ <row trl="Y" uuid="456bddc3-ed83-4171-a80f-a6b69034250b">
   <value column="Name" original="C">C</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8963f6df-d501-4535-8772-3c924be7f937">
+ <row trl="Y" uuid="8963f6df-d501-4535-8772-3c924be7f937">
   <value column="Name" original="D">D</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="16ae1e22-a1ac-41f2-a565-59ac60d3bdf0">
+ <row trl="Y" uuid="16ae1e22-a1ac-41f2-a565-59ac60d3bdf0">
   <value column="Name" original="E">E</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="67e0dd7c-2d31-4454-a3cc-15f14a85343c">
+ <row trl="Y" uuid="67e0dd7c-2d31-4454-a3cc-15f14a85343c">
   <value column="Name" original="F">F</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3abe6a3a-ed51-48f0-b5a8-806c65b7c6e9">
+ <row trl="Y" uuid="3abe6a3a-ed51-48f0-b5a8-806c65b7c6e9">
   <value column="Name" original="G">G</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="cc3ac41e-acc9-4cb4-ae67-c94f2145d708">
+ <row trl="Y" uuid="cc3ac41e-acc9-4cb4-ae67-c94f2145d708">
   <value column="Name" original="H">H</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="d1ca5e79-cfec-4dd5-8331-4aafc2d52083">
+ <row trl="Y" uuid="d1ca5e79-cfec-4dd5-8331-4aafc2d52083">
   <value column="Name" original="I">I</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="f5d5f81a-7702-4209-a3aa-cd4ff2a3d160">
+ <row trl="Y" uuid="f5d5f81a-7702-4209-a3aa-cd4ff2a3d160">
   <value column="Name" original="K">K</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a0956665-ecf7-45a5-bc50-059d6cdf2347">
+ <row trl="Y" uuid="a0956665-ecf7-45a5-bc50-059d6cdf2347">
   <value column="Name" original="L">L</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="ca4d3a7e-bdca-4787-8d09-ad44c43340df">
+ <row trl="Y" uuid="ca4d3a7e-bdca-4787-8d09-ad44c43340df">
   <value column="Name" original="P">P</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6b57b7b4-f29c-44f0-ba22-3479fc80af88">
+ <row trl="Y" uuid="6b57b7b4-f29c-44f0-ba22-3479fc80af88">
   <value column="Name" original="R">R</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="99db5f95-eb9b-49d7-a7ad-8cab9ab376fe">
+ <row trl="Y" uuid="99db5f95-eb9b-49d7-a7ad-8cab9ab376fe">
   <value column="Name" original="J">J</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="5f1c438b-84b3-48b2-aabf-6f757371c9eb">
+ <row trl="Y" uuid="5f1c438b-84b3-48b2-aabf-6f757371c9eb">
   <value column="Name" original="M">M</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1f27ed15-faf4-4326-b806-8041d14946e2">
+ <row trl="Y" uuid="1f27ed15-faf4-4326-b806-8041d14946e2">
   <value column="Name" original="N">N</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="5b54f4af-1cc8-40b0-b39e-11fb10c8b137">
+ <row trl="Y" uuid="5b54f4af-1cc8-40b0-b39e-11fb10c8b137">
   <value column="Name" original="O">O</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a7c4ef36-12c1-41bf-a632-a7ec73335288">
+ <row trl="Y" uuid="a7c4ef36-12c1-41bf-a632-a7ec73335288">
   <value column="Name" original="S">S</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="e993b998-32f7-4a5a-8cd2-9ebb99c3952d">
+ <row trl="Y" uuid="e993b998-32f7-4a5a-8cd2-9ebb99c3952d">
   <value column="Name" original="Custom">自定义发货规则</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="89c5a759-8d59-4375-b815-c1732848298c">
-  <value column="Name" original="Suspend">已挂起</value>
+ <row trl="Y" uuid="89c5a759-8d59-4375-b815-c1732848298c">
+  <value column="Name" original="Suspend">挂起</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6568aab4-3297-426b-b0d2-87dbe2e3ecaf">
-  <value column="Name" original="Cancel">已取消</value>
+ <row trl="Y" uuid="6568aab4-3297-426b-b0d2-87dbe2e3ecaf">
+  <value column="Name" original="Cancel">取消</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1821821a-c855-4b03-8184-35f75ccf84e5">
-  <value column="Name" original="Activate">可执行</value>
+ <row trl="Y" uuid="1821821a-c855-4b03-8184-35f75ccf84e5">
+  <value column="Name" original="Activate">激活</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2fe872ec-1b49-405e-8d18-802d210d8261">
+ <row trl="Y" uuid="2fe872ec-1b49-405e-8d18-802d210d8261">
   <value column="Name" original="Suspended">已挂起</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="243060ef-c4da-4906-a3a7-0bd0f42cdb15">
+ <row trl="Y" uuid="243060ef-c4da-4906-a3a7-0bd0f42cdb15">
   <value column="Name" original="Activated">已激活</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="d6a39d47-aaa6-4146-8753-7471f8b78991">
+ <row trl="Y" uuid="d6a39d47-aaa6-4146-8753-7471f8b78991">
   <value column="Name" original="Canceled">已取消</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3f966af6-8e15-4331-8bd2-a2cf9d52ca81">
-  <value column="Name" original="Waiting">等待</value>
+ <row trl="Y" uuid="3f966af6-8e15-4331-8bd2-a2cf9d52ca81">
+  <value column="Name" original="Waiting">等待中</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="85128332-31cb-4984-9bb8-9ff36096ac32">
-  <value column="Name" original="Processed">Processed</value>
+ <row trl="Y" uuid="85128332-31cb-4984-9bb8-9ff36096ac32">
+  <value column="Name" original="Processed">已处理</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8dce5f1d-5f3c-4bd7-97c4-e0f1ed5c4fba">
-  <value column="Name" original="Canceled">取消</value>
+ <row trl="Y" uuid="8dce5f1d-5f3c-4bd7-97c4-e0f1ed5c4fba">
+  <value column="Name" original="Canceled">已取消</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="0a554df9-e8c3-4929-a1fe-9e312c476888">
-  <value column="Name" original="One source to One target">一个来源一个目的</value>
+ <row trl="Y" uuid="0a554df9-e8c3-4929-a1fe-9e312c476888">
+  <value column="Name" original="One source to One target">一对一</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="27429f75-dd1a-41ce-b91a-30b2065e3b77">
-  <value column="Name" original="Multiple sources to One target">Multiple sources to One target</value>
+ <row trl="Y" uuid="27429f75-dd1a-41ce-b91a-30b2065e3b77">
+  <value column="Name" original="Multiple sources to One target">多对一</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="abeed1ab-5819-4a26-b8f0-3b0c2477605b">
-  <value column="Name" original="Prepare Attributes change">Prepare Attributes change</value>
+ <row trl="Y" uuid="abeed1ab-5819-4a26-b8f0-3b0c2477605b">
+  <value column="Name" original="Prepare Attributes change">准备属性变更</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="427739e3-a569-4513-b1c7-6c448bf13455">
+ <row trl="Y" uuid="427739e3-a569-4513-b1c7-6c448bf13455">
   <value column="Name" original="Bill">商业票据</value>
   <value column="Description" original="">汇票</value>
  </row>
- <row trl="N" uuid="90397bb8-82cb-46f6-a1f2-53cf2b5defeb">
+ <row trl="Y" uuid="90397bb8-82cb-46f6-a1f2-53cf2b5defeb">
   <value column="Name" original="资料已完成">资料已完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="ecca8875-ae91-48ea-a11d-640a56f623ef">
+ <row trl="Y" uuid="ecca8875-ae91-48ea-a11d-640a56f623ef">
   <value column="Name" original="资料未完成">资料未完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2d44abb9-de3c-439a-823b-9647f80b9735">
+ <row trl="Y" uuid="2d44abb9-de3c-439a-823b-9647f80b9735">
   <value column="Name" original="程序已完成">程序已完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="66c7e26d-4703-48c2-a9c2-1ada34095370">
+ <row trl="Y" uuid="66c7e26d-4703-48c2-a9c2-1ada34095370">
   <value column="Name" original="程序未完成">程序未完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8de45c66-59e5-4878-ab18-7c8c2ad915c2">
+ <row trl="Y" uuid="8de45c66-59e5-4878-ab18-7c8c2ad915c2">
   <value column="Name" original="工装已完成">工装已完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="94977824-f4ce-407b-9736-2e233d5f044f">
+ <row trl="Y" uuid="94977824-f4ce-407b-9736-2e233d5f044f">
   <value column="Name" original="工装未完成">工装未完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4e1163d9-73f7-4ceb-a9c8-ef0e5c5740ae">
+ <row trl="Y" uuid="4e1163d9-73f7-4ceb-a9c8-ef0e5c5740ae">
   <value column="Name" original="工时已完成">工时已完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="9388584c-0a95-433e-a5b4-72551874a4f2">
+ <row trl="Y" uuid="9388584c-0a95-433e-a5b4-72551874a4f2">
   <value column="Name" original="工时未完成">工时未完成</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1d01eb69-bd4c-435c-9793-6d1d6a3a4cbc">
-  <value column="Name" original="Released to Picking">Released to Picking</value>
+ <row trl="Y" uuid="1d01eb69-bd4c-435c-9793-6d1d6a3a4cbc">
+  <value column="Name" original="Released to Picking">释放到拣货</value>
   <value column="Description" original="02">02</value>
  </row>
- <row trl="N" uuid="bf158d29-ac30-4405-ac9f-dee3ae6d293b">
-  <value column="Name" original="Picking in Progress">Picking in Progress</value>
+ <row trl="Y" uuid="bf158d29-ac30-4405-ac9f-dee3ae6d293b">
+  <value column="Name" original="Picking in Progress">拣货中</value>
   <value column="Description" original="03">03</value>
  </row>
- <row trl="N" uuid="177b5b15-9033-4bab-b729-c230adb3bd24">
-  <value column="Name" original="In Transit">In Transit</value>
+ <row trl="Y" uuid="177b5b15-9033-4bab-b729-c230adb3bd24">
+  <value column="Name" original="In Transit">在途库</value>
   <value column="Description" original="04">04</value>
  </row>
- <row trl="N" uuid="4da484e4-2b71-4982-8227-198bc52ca1b7">
-  <value column="Name" original="Available to Shipment">Available to Shipment</value>
+ <row trl="Y" uuid="4da484e4-2b71-4982-8227-198bc52ca1b7">
+  <value column="Name" original="Available to Shipment">可发货</value>
   <value column="Description" original="06">06</value>
  </row>
- <row trl="N" uuid="57ad8437-b48f-4a30-a05e-b22a89d4a2b9">
-  <value column="Name" original="Picking Confirmed">Picking Confirmed</value>
+ <row trl="Y" uuid="57ad8437-b48f-4a30-a05e-b22a89d4a2b9">
+  <value column="Name" original="Picking Confirmed">拣货确认</value>
   <value column="Description" original="05">05</value>
  </row>
- <row trl="N" uuid="6de4e1f0-a803-4b6c-9c6e-0b4e18e73bdc">
-  <value column="Name" original="Closed">Closed</value>
+ <row trl="Y" uuid="6de4e1f0-a803-4b6c-9c6e-0b4e18e73bdc">
+  <value column="Name" original="Closed">已关闭</value>
   <value column="Description" original="07">07</value>
  </row>
- <row trl="N" uuid="ccfb765a-832a-4cd1-9c2b-722aac415cb9">
-  <value column="Name" original="Released to Warehouse">Released to Warehouse</value>
+ <row trl="Y" uuid="ccfb765a-832a-4cd1-9c2b-722aac415cb9">
+  <value column="Name" original="Released to Warehouse">释放到仓库</value>
   <value column="Description" original="01">01</value>
  </row>
- <row trl="N" uuid="4336dd3c-34a4-4e5d-b399-98b280b914fb">
-  <value column="Name" original="Pending">Pending</value>
+ <row trl="Y" uuid="4336dd3c-34a4-4e5d-b399-98b280b914fb">
+  <value column="Name" original="Pending">备货中</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a01251c4-87dc-45bb-bdb7-e83e6df83b66">
-  <value column="Name" original="Delivered">Delivered</value>
+ <row trl="Y" uuid="a01251c4-87dc-45bb-bdb7-e83e6df83b66">
+  <value column="Name" original="Delivered">已发货</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c28b5655-6be9-4797-8e9f-b3fcad7a148d">
-  <value column="Name" original="36 Months">36 Months</value>
+ <row trl="Y" uuid="c28b5655-6be9-4797-8e9f-b3fcad7a148d">
+  <value column="Name" original="36 Months">36个月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="65faaab5-6caf-4530-8740-c5af95d42c8e">
-  <value column="Name" original="48 Months">48 Months</value>
+ <row trl="Y" uuid="65faaab5-6caf-4530-8740-c5af95d42c8e">
+  <value column="Name" original="48 Months">48个月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="94a34c9d-88ff-4bab-ac0a-e2258f56ca65">
-  <value column="Name" original="60 Months">60 Months</value>
+ <row trl="Y" uuid="94a34c9d-88ff-4bab-ac0a-e2258f56ca65">
+  <value column="Name" original="60 Months">60个月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="5b3e2f21-f569-42b4-a822-3d8ad31ddafd">
-  <value column="Name" original="12 Months">12 Months</value>
+ <row trl="Y" uuid="5b3e2f21-f569-42b4-a822-3d8ad31ddafd">
+  <value column="Name" original="12 Months">12个月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1ac8eb75-16f8-4b5b-92b3-82bb10d32fdb">
-  <value column="Name" original="06 Months">06 Months</value>
+ <row trl="Y" uuid="1ac8eb75-16f8-4b5b-92b3-82bb10d32fdb">
+  <value column="Name" original="06 Months">06个月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a9a90f87-4cfc-417b-9735-81f58d82131d">
-  <value column="Name" original="Year">Year</value>
+ <row trl="Y" uuid="a9a90f87-4cfc-417b-9735-81f58d82131d">
+  <value column="Name" original="Year">年</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8e409af7-23e9-4400-84be-ad8a90f200bc">
-  <value column="Name" original="Month">Month</value>
+ <row trl="Y" uuid="8e409af7-23e9-4400-84be-ad8a90f200bc">
+  <value column="Name" original="Month">月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6a92d824-bfbd-4a00-bdb1-b4efe32e6d17">
-  <value column="Name" original="Day">Day</value>
+ <row trl="Y" uuid="6a92d824-bfbd-4a00-bdb1-b4efe32e6d17">
+  <value column="Name" original="Day">日</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="392b696c-36ed-474f-b6a6-63c5ab15c0e2">
-  <value column="Name" original="Week">Week</value>
+ <row trl="Y" uuid="392b696c-36ed-474f-b6a6-63c5ab15c0e2">
+  <value column="Name" original="Week">周</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3dd65045-f028-44b3-b201-91e5f8d2769f">
-  <value column="Name" original="No Period">No Period</value>
+ <row trl="Y" uuid="3dd65045-f028-44b3-b201-91e5f8d2769f">
+  <value column="Name" original="No Period">无期间</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2549f9c6-8d8c-4a33-ba37-a477de6d6011">
-  <value column="Name" original="Every 2nd">Every 2nd</value>
+ <row trl="Y" uuid="2549f9c6-8d8c-4a33-ba37-a477de6d6011">
+  <value column="Name" original="Every 2nd">每两次</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="f523528e-e6bb-4b35-ba89-78baf8bfe806">
-  <value column="Name" original="Every 3rd">Every 3rd</value>
+ <row trl="Y" uuid="f523528e-e6bb-4b35-ba89-78baf8bfe806">
+  <value column="Name" original="Every 3rd">每三次</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8bff5d42-3505-4e53-b250-670da0456f95">
-  <value column="Name" original="Every 4th">Every 4th</value>
+ <row trl="Y" uuid="8bff5d42-3505-4e53-b250-670da0456f95">
+  <value column="Name" original="Every 4th">每四次</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a88bf601-037c-4c60-ab4d-e4e72f520ed1">
-  <value column="Name" original="Every 5th">Every 5th</value>
+ <row trl="Y" uuid="a88bf601-037c-4c60-ab4d-e4e72f520ed1">
+  <value column="Name" original="Every 5th">每五次</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="bb75bdb8-2b78-4446-8862-24206e649135">
-  <value column="Name" original="Every 6th">Every 6th</value>
+ <row trl="Y" uuid="bb75bdb8-2b78-4446-8862-24206e649135">
+  <value column="Name" original="Every 6th">每六次</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1607f81c-276e-4369-858f-56ca96fe5fdc">
-  <value column="Name" original="Per">Per</value>
+ <row trl="Y" uuid="1607f81c-276e-4369-858f-56ca96fe5fdc">
+  <value column="Name" original="Per">每次</value>
   <value column="Description" original="Regular Period">Regular Period</value>
  </row>
- <row trl="N" uuid="1b6eb7c4-b722-429e-8bef-25ad9688138d">
-  <value column="Name" original="Import">Import</value>
+ <row trl="Y" uuid="1b6eb7c4-b722-429e-8bef-25ad9688138d">
+  <value column="Name" original="Import">导入</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c9c96121-e95d-4416-a7e5-7ead72857a87">
-  <value column="Name" original="Export">Export</value>
+ <row trl="Y" uuid="c9c96121-e95d-4416-a7e5-7ead72857a87">
+  <value column="Name" original="Export">导出</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1178cea4-c328-4825-b75c-c10c92dd720f">
-  <value column="Name" original="Day">Day</value>
+ <row trl="Y" uuid="1178cea4-c328-4825-b75c-c10c92dd720f">
+  <value column="Name" original="Day">日</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="661838e1-c335-447a-a934-175fda61c578">
-  <value column="Name" original="Week">Week</value>
+ <row trl="Y" uuid="661838e1-c335-447a-a934-175fda61c578">
+  <value column="Name" original="Week">周</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="9b2a339f-50ac-48bc-bc66-c2ced3dc2afd">
-  <value column="Name" original="Month">Month</value>
+ <row trl="Y" uuid="9b2a339f-50ac-48bc-bc66-c2ced3dc2afd">
+  <value column="Name" original="Month">月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2a070ba5-aa03-49c9-a9d7-3e072f902c52">
-  <value column="Name" original="Quarter">Quarter</value>
+ <row trl="Y" uuid="2a070ba5-aa03-49c9-a9d7-3e072f902c52">
+  <value column="Name" original="Quarter">季度</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="5324f8a7-bd98-4e92-90bf-ce413e7e35b5">
-  <value column="Name" original="Partially Delivered">Partially Delivered</value>
+ <row trl="Y" uuid="5324f8a7-bd98-4e92-90bf-ce413e7e35b5">
+  <value column="Name" original="Partially Delivered">部分发货</value>
   <value column="Description" original="Partially Delivered">Partially Delivered</value>
  </row>
- <row trl="N" uuid="da99ca42-0f25-4115-934f-e594176c36eb">
-  <value column="Name" original="Delivered">Delivered</value>
+ <row trl="Y" uuid="da99ca42-0f25-4115-934f-e594176c36eb">
+  <value column="Name" original="Delivered">已发货</value>
   <value column="Description" original="Delivered">Delivered</value>
  </row>
- <row trl="N" uuid="29b0f434-bef9-4823-83cb-5a9149543c69">
-  <value column="Name" original="Over Delivery">Over Delivery</value>
+ <row trl="Y" uuid="29b0f434-bef9-4823-83cb-5a9149543c69">
+  <value column="Name" original="Over Delivery">超量发货</value>
   <value column="Description" original="Over Delivery">Over Delivery</value>
  </row>
- <row trl="N" uuid="507da884-dbb5-4dad-b225-000252a88312">
-  <value column="Name" original="Not Delivered">Not Delivered</value>
+ <row trl="Y" uuid="507da884-dbb5-4dad-b225-000252a88312">
+  <value column="Name" original="Not Delivered">未发货</value>
   <value column="Description" original="Not Delivered">Not Delivered</value>
  </row>
- <row trl="N" uuid="3e495468-878d-4970-ba5f-523c34e77987">
-  <value column="Name" original="Not Available">Not Available</value>
+ <row trl="Y" uuid="3e495468-878d-4970-ba5f-523c34e77987">
+  <value column="Name" original="Not Available">不可用</value>
   <value column="Description" original="Not Available">Not Available</value>
  </row>
- <row trl="N" uuid="cd689e2f-46e9-4203-941a-2cab227ef3ec">
-  <value column="Name" original="Delivered not Invoiced">Delivered not Invoiced</value>
+ <row trl="Y" uuid="cd689e2f-46e9-4203-941a-2cab227ef3ec">
+  <value column="Name" original="Delivered not Invoiced">未开票发货</value>
   <value column="Description" original="Delivered not Invoiced">Delivered not Invoiced</value>
  </row>
- <row trl="N" uuid="c513d57c-d713-4084-b380-150f066b40c0">
-  <value column="Name" original="Invoiced">Invoiced</value>
+ <row trl="Y" uuid="c513d57c-d713-4084-b380-150f066b40c0">
+  <value column="Name" original="Invoiced">已开票</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6dd7b023-bbd3-4817-92e5-2a015d181b3d">
-  <value column="Name" original="Over Invoiced">Over Invoiced</value>
+ <row trl="Y" uuid="6dd7b023-bbd3-4817-92e5-2a015d181b3d">
+  <value column="Name" original="Over Invoiced">超额开票</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="30f4fa2c-ab0c-4e31-8e21-d59e6409fc67">
-  <value column="Name" original="Storno">Storno</value>
+ <row trl="Y" uuid="30f4fa2c-ab0c-4e31-8e21-d59e6409fc67">
+  <value column="Name" original="Storno">已取消</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a628191c-46fa-43e9-a4d2-52fce3b9c030">
-  <value column="Name" original="Change Order Status">Change Order Status</value>
+ <row trl="Y" uuid="a628191c-46fa-43e9-a4d2-52fce3b9c030">
+  <value column="Name" original="Change Order Status">变更订单状态</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3465e67f-8ae2-46be-bc80-96f2ed14f15f">
-  <value column="Name" original="Order Renewal">Order Renewal</value>
+ <row trl="Y" uuid="3465e67f-8ae2-46be-bc80-96f2ed14f15f">
+  <value column="Name" original="Order Renewal">从原订单新建订单</value>
   <value column="Description" original="Create new Order base on existing one">Create new Order base on existing one</value>
  </row>
- <row trl="N" uuid="4afba270-e685-4120-8396-47f749db4b57">
-  <value column="Name" original="Sales Order from Opportunity">Sales Order from Opportunity</value>
+ <row trl="Y" uuid="4afba270-e685-4120-8396-47f749db4b57">
+  <value column="Name" original="Sales Order from Opportunity">从机会新建订单</value>
   <value column="Description" original="Create Order from Sales Opportunity">Create Order from Sales Opportunity</value>
  </row>
- <row trl="N" uuid="8293e3ff-6592-46d6-ad86-edad06b97918">
-  <value column="Name" original="Product Category">Product Category</value>
+ <row trl="Y" uuid="8293e3ff-6592-46d6-ad86-edad06b97918">
+  <value column="Name" original="Product Category">产品类型</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8117223b-2e7d-45ad-b048-5e1cfc41c19b">
-  <value column="Name" original="Vocabulary">Vocabulary</value>
+ <row trl="Y" uuid="8117223b-2e7d-45ad-b048-5e1cfc41c19b">
+  <value column="Name" original="Vocabulary">词汇表</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="36006d96-6728-4772-95c8-b47a269b0c4e">
-  <value column="Name" original="Accounting">Accounting</value>
+ <row trl="Y" uuid="36006d96-6728-4772-95c8-b47a269b0c4e">
+  <value column="Name" original="Accounting">记账</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2c95a4ec-a79a-4c13-8320-735e53b8bd14">
-  <value column="Name" original="Fiscal">Fiscal</value>
+ <row trl="Y" uuid="2c95a4ec-a79a-4c13-8320-735e53b8bd14">
+  <value column="Name" original="Fiscal">财年</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="162e9c34-9520-4b7e-a0ad-93844547c538">
-  <value column="Name" original="Subscription">Subscription</value>
+ <row trl="Y" uuid="162e9c34-9520-4b7e-a0ad-93844547c538">
+  <value column="Name" original="Subscription">订阅列表</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="61a57eb5-42e0-4beb-b0b6-1c0174b44593">
-  <value column="Name" original="Dead">Dead</value>
+ <row trl="Y" uuid="61a57eb5-42e0-4beb-b0b6-1c0174b44593">
+  <value column="Name" original="Dead">无用的</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="68ad34e5-160f-4b0f-b2dc-9e545d1b8368">
-  <value column="Name" original="Assigned">Assigned</value>
+ <row trl="Y" uuid="68ad34e5-160f-4b0f-b2dc-9e545d1b8368">
+  <value column="Name" original="Assigned">已分配</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c31e58f5-980b-4da0-a825-35486a92b122">
-  <value column="Name" original="Archived">Archived</value>
+ <row trl="Y" uuid="c31e58f5-980b-4da0-a825-35486a92b122">
+  <value column="Name" original="Archived">已归档</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="9bca9dd6-f32c-45ae-8973-dde1be3a090d">
-  <value column="Name" original="Fiscal Depreciation">Fiscal Depreciation</value>
+ <row trl="Y" uuid="9bca9dd6-f32c-45ae-8973-dde1be3a090d">
+  <value column="Name" original="Fiscal Depreciation">财年折旧</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4c341b80-6965-4934-a7d7-5053fa266c74">
-  <value column="Name" original="Proper">Proper</value>
+ <row trl="Y" uuid="4c341b80-6965-4934-a7d7-5053fa266c74">
+  <value column="Name" original="Proper">合适的</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="ba61dc72-5f7a-4398-8e65-e172e709da8d">
-  <value column="Name" original="Corrective">Corrective</value>
+ <row trl="Y" uuid="ba61dc72-5f7a-4398-8e65-e172e709da8d">
+  <value column="Name" original="Corrective">矫正的</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="aec26266-efe6-4afe-aea5-9a98b1a211b1">
-  <value column="Name" original="Additional">Additional</value>
+ <row trl="Y" uuid="aec26266-efe6-4afe-aea5-9a98b1a211b1">
+  <value column="Name" original="Additional">额外的</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="fdd62c0d-7207-4314-8f96-ed98513f94f5">
-  <value column="Name" original="Monthly">Monthly</value>
+ <row trl="Y" uuid="fdd62c0d-7207-4314-8f96-ed98513f94f5">
+  <value column="Name" original="Monthly">每月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="14d4823a-93f2-4da0-9e28-e92abab10d96">
-  <value column="Name" original="Quarterly">Quarterly</value>
+ <row trl="Y" uuid="14d4823a-93f2-4da0-9e28-e92abab10d96">
+  <value column="Name" original="Quarterly">每季度</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a9df9b94-2efb-4179-b880-ad9f550a31da">
-  <value column="Name" original="February">February</value>
+ <row trl="Y" uuid="a9df9b94-2efb-4179-b880-ad9f550a31da">
+  <value column="Name" original="February">二月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="916dc51c-84d5-46ea-ae73-5f85f37d2dcf">
-  <value column="Name" original="October">October</value>
+ <row trl="Y" uuid="916dc51c-84d5-46ea-ae73-5f85f37d2dcf">
+  <value column="Name" original="October">十月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="475f3cc5-9df6-42cf-9165-8895171eff4c">
-  <value column="Name" original="November">November</value>
+ <row trl="Y" uuid="475f3cc5-9df6-42cf-9165-8895171eff4c">
+  <value column="Name" original="November">十一月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="7625f612-b287-49df-993b-e46ebfb30222">
-  <value column="Name" original="December">December</value>
+ <row trl="Y" uuid="7625f612-b287-49df-993b-e46ebfb30222">
+  <value column="Name" original="December">十二月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="93dbd743-def7-4bee-86e9-16c6126b2acf">
-  <value column="Name" original="September">September</value>
+ <row trl="Y" uuid="93dbd743-def7-4bee-86e9-16c6126b2acf">
+  <value column="Name" original="September">九月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8d6f0fbd-a26d-46df-b4ce-90a0e5332763">
-  <value column="Name" original="January">January</value>
+ <row trl="Y" uuid="8d6f0fbd-a26d-46df-b4ce-90a0e5332763">
+  <value column="Name" original="January">一月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2f712bbb-972f-4ef9-9250-3662eb70bf1b">
-  <value column="Name" original="March">March</value>
+ <row trl="Y" uuid="2f712bbb-972f-4ef9-9250-3662eb70bf1b">
+  <value column="Name" original="March">三月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="8036dd8a-e8d2-47ff-890c-3c4077e6ad77">
-  <value column="Name" original="April">April</value>
+ <row trl="Y" uuid="8036dd8a-e8d2-47ff-890c-3c4077e6ad77">
+  <value column="Name" original="April">四月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="91bf22a7-b6c1-49ce-9f35-33914de4bae4">
-  <value column="Name" original="August">August</value>
+ <row trl="Y" uuid="91bf22a7-b6c1-49ce-9f35-33914de4bae4">
+  <value column="Name" original="August">八月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4cb20afb-461e-4483-94b8-4600534edeaa">
-  <value column="Name" original="July">July</value>
+ <row trl="Y" uuid="4cb20afb-461e-4483-94b8-4600534edeaa">
+  <value column="Name" original="July">7月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="7b96c961-0575-4673-962b-86e3d7018b5a">
-  <value column="Name" original="June">June</value>
+ <row trl="Y" uuid="7b96c961-0575-4673-962b-86e3d7018b5a">
+  <value column="Name" original="June">六月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="b3b80743-fa30-4773-846d-f94ae4e634b3">
-  <value column="Name" original="May">May</value>
+ <row trl="Y" uuid="b3b80743-fa30-4773-846d-f94ae4e634b3">
+  <value column="Name" original="May">五月</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="53469c93-6aa8-4460-b9df-8c768a3e0393">
+ <row trl="Y" uuid="53469c93-6aa8-4460-b9df-8c768a3e0393">
   <value column="Name" original="Q1">Q1</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="cb6ba0ff-b40c-4b71-a720-50c7e2235a13">
+ <row trl="Y" uuid="cb6ba0ff-b40c-4b71-a720-50c7e2235a13">
   <value column="Name" original="Q2">Q2</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="f28b4464-7b8f-49b1-9a76-78e0e74a130a">
+ <row trl="Y" uuid="f28b4464-7b8f-49b1-9a76-78e0e74a130a">
   <value column="Name" original="Q3">Q3</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4b681c38-8b67-427b-81cb-7ea901e636ee">
+ <row trl="Y" uuid="4b681c38-8b67-427b-81cb-7ea901e636ee">
   <value column="Name" original="Q4">Q4</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="81e972ff-9aed-4d1b-91ca-b63d630d472b">
-  <value column="Name" original="Update">Update</value>
+ <row trl="Y" uuid="81e972ff-9aed-4d1b-91ca-b63d630d472b">
+  <value column="Name" original="Update">更新</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="91f362ce-9694-4b7c-b0f2-8b53a532aea6">
-  <value column="Name" original="Ignore">Ignore</value>
+ <row trl="Y" uuid="91f362ce-9694-4b7c-b0f2-8b53a532aea6">
+  <value column="Name" original="Ignore">忽略</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="64a58ff2-88fb-474d-b33b-49370ad5c4b1">
-  <value column="Name" original="Product">Product</value>
+ <row trl="Y" uuid="64a58ff2-88fb-474d-b33b-49370ad5c4b1">
+  <value column="Name" original="Product">产品</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="882a4dbf-38c7-4429-bde1-4beef02fcba6">
-  <value column="Name" original="Product Category">Product Category</value>
+ <row trl="Y" uuid="882a4dbf-38c7-4429-bde1-4beef02fcba6">
+  <value column="Name" original="Product Category">产品类型</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="e4fd99ab-eb4c-4623-b42e-7e15c22448e1">
-  <value column="Name" original="Vocabulary">Vocabulary</value>
+ <row trl="Y" uuid="e4fd99ab-eb4c-4623-b42e-7e15c22448e1">
+  <value column="Name" original="Vocabulary">词汇表</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4855053b-a3d9-4204-8a97-86d18aca675b">
-  <value column="Name" original="Table Direct">Table Direct</value>
+ <row trl="Y" uuid="4855053b-a3d9-4204-8a97-86d18aca675b">
+  <value column="Name" original="Table Direct">表直接</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4de13265-3aff-43ce-94b5-fd0496717abb">
-  <value column="Name" original="Date">Date</value>
+ <row trl="Y" uuid="4de13265-3aff-43ce-94b5-fd0496717abb">
+  <value column="Name" original="Date">日期</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="b68fcd99-d19a-4af2-a386-0bc1febfbca1">
-  <value column="Name" original="Difference between view and translation view">Difference between view and translation view</value>
+ <row trl="Y" uuid="b68fcd99-d19a-4af2-a386-0bc1febfbca1">
+  <value column="Name" original="Difference between view and translation view">视图和视图翻译不同</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2e9f5f08-3d68-4643-9a8d-1e863f7281ba">
-  <value column="Name" original="Difference between translation view and his parent">Difference between translation view and his parent</value>
+ <row trl="Y" uuid="2e9f5f08-3d68-4643-9a8d-1e863f7281ba">
+  <value column="Name" original="Difference between translation view and his parent">翻译表与主表不同</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="03c952c1-d326-4a99-825e-f9d5822c9109">
-  <value column="Name" original="Application Dictionary missing DB columns">Application Dictionary missing DB columns</value>
+ <row trl="Y" uuid="03c952c1-d326-4a99-825e-f9d5822c9109">
+  <value column="Name" original="Application Dictionary missing DB columns">AD数据字典丢列</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2932d6e9-4eb2-41a0-a070-678b7a13d7d5">
-  <value column="Name" original="Print Format missing DB columns">Print Format missing DB columns</value>
+ <row trl="Y" uuid="2932d6e9-4eb2-41a0-a070-678b7a13d7d5">
+  <value column="Name" original="Print Format missing DB columns">打印格式丢列</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="bcf0c280-c81a-4a07-b668-2a5f2e93e83f">
-  <value column="Name" original="Classification">Classification</value>
+ <row trl="Y" uuid="bcf0c280-c81a-4a07-b668-2a5f2e93e83f">
+  <value column="Name" original="Classification">分类</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6d39dfc3-b0e8-4a5d-8f64-b6b7d380a524">
-  <value column="Name" original="Flat">Flat</value>
+ <row trl="Y" uuid="6d39dfc3-b0e8-4a5d-8f64-b6b7d380a524">
+  <value column="Name" original="Flat">统一价</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4426434f-886c-432d-b17b-082870d9289a">
-  <value column="Name" original="Product">Product</value>
+ <row trl="Y" uuid="4426434f-886c-432d-b17b-082870d9289a">
+  <value column="Name" original="Product">产品</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="d497e38a-6c45-42fc-bef1-8f7d01b9fed9">
-  <value column="Name" original="Category">Category</value>
+ <row trl="Y" uuid="d497e38a-6c45-42fc-bef1-8f7d01b9fed9">
+  <value column="Name" original="Category">类型</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="7a448dc2-633f-4063-97dc-b0eaa154fa6e">
-  <value column="Name" original="Open">Open</value>
+ <row trl="Y" uuid="7a448dc2-633f-4063-97dc-b0eaa154fa6e">
+  <value column="Name" original="Open">打开</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="78506195-ebdc-4353-8e4d-f36c7a8c6dc7">
-  <value column="Name" original="Cancel">Cancel</value>
+ <row trl="Y" uuid="78506195-ebdc-4353-8e4d-f36c7a8c6dc7">
+  <value column="Name" original="Cancel">取消</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c1a2e13f-d9f4-4518-88be-79a9bc4b85f6">
-  <value column="Name" original="Transfer to Target Location">Transfer to Target Location</value>
+ <row trl="Y" uuid="c1a2e13f-d9f4-4518-88be-79a9bc4b85f6">
+  <value column="Name" original="Transfer to Target Location">移动到目标库位</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4b8f02e8-2bd7-438c-91c8-c3c9bb859e5e">
-  <value column="Name" original="Return to Original Location">Return to Original Location</value>
+ <row trl="Y" uuid="4b8f02e8-2bd7-438c-91c8-c3c9bb859e5e">
+  <value column="Name" original="Return to Original Location">退回原库位</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="edc5328b-b0f8-4d96-8a66-6ceca93e17d6">
-  <value column="Name" original="Historical Days">Historical Days</value>
+ <row trl="Y" uuid="edc5328b-b0f8-4d96-8a66-6ceca93e17d6">
+  <value column="Name" original="Historical Days">历史天数</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="78d465d9-8f35-47ea-adeb-1c9a0bd0040a">
-  <value column="Name" original="Date Range">Date Range</value>
+ <row trl="Y" uuid="78d465d9-8f35-47ea-adeb-1c9a0bd0040a">
+  <value column="Name" original="Date Range">日期范围</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="1f509524-daf4-460e-aa72-bd27d4769e05">
-  <value column="Name" original="Number of Movements">Number of Movements</value>
+ <row trl="Y" uuid="1f509524-daf4-460e-aa72-bd27d4769e05">
+  <value column="Name" original="Number of Movements">移动次数</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6ac023c1-e15d-4ccf-bb25-375283df5d63">
-  <value column="Name" original="Custom Interface">Custom Interface</value>
+ <row trl="Y" uuid="6ac023c1-e15d-4ccf-bb25-375283df5d63">
+  <value column="Name" original="Custom Interface">自定义接口</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3f8fcf9e-f1b3-4e01-a3a0-fe2bd8732f90">
-  <value column="Name" original="Maintain Minimum Level">Maintain Minimum Level</value>
+ <row trl="Y" uuid="3f8fcf9e-f1b3-4e01-a3a0-fe2bd8732f90">
+  <value column="Name" original="Maintain Minimum Level">保持最高库存线</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="16642bb4-b386-4a0e-96fc-0567cbda7799">
-  <value column="Name" original="Customer Shipment">Customer Shipment</value>
+ <row trl="Y" uuid="16642bb4-b386-4a0e-96fc-0567cbda7799">
+  <value column="Name" original="Customer Shipment">客户发货</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c1e644e4-0741-4149-addf-505766e9a23c">
-  <value column="Name" original="Transactions (Out)">Transactions (Out)</value>
+ <row trl="Y" uuid="c1e644e4-0741-4149-addf-505766e9a23c">
+  <value column="Name" original="Transactions (Out)">发出事务</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="0235953d-ecc5-45f4-9379-7c7732eded29">
-  <value column="Name" original="Current Cost">Current Cost</value>
+ <row trl="Y" uuid="0235953d-ecc5-45f4-9379-7c7732eded29">
+  <value column="Name" original="Current Cost">当前成本</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2266d9b0-93a4-443a-91ab-dfd2f4f1bea4">
-  <value column="Name" original="History Cost">History Cost</value>
+ <row trl="Y" uuid="2266d9b0-93a4-443a-91ab-dfd2f4f1bea4">
+  <value column="Name" original="History Cost">历史成本</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4474dbba-8cd1-428d-a68b-a27ed9ef8c2f">
-  <value column="Name" original="Sales Orders">Sales Orders</value>
+ <row trl="Y" uuid="4474dbba-8cd1-428d-a68b-a27ed9ef8c2f">
+  <value column="Name" original="Sales Orders">销售订单</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="da0c92b3-1737-4834-bcf4-fc3e49982f2a">
-  <value column="Name" original="Invoices (Customer)">Invoices (Customer)</value>
+ <row trl="Y" uuid="da0c92b3-1737-4834-bcf4-fc3e49982f2a">
+  <value column="Name" original="Invoices (Customer)">客户发票</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="be6b1327-005a-4701-afda-1079b9863fec">
-  <value column="Name" original="Missing Limit Prices">Missing Limit Prices</value>
+ <row trl="Y" uuid="be6b1327-005a-4701-afda-1079b9863fec">
+  <value column="Name" original="Missing Limit Prices">无限制价</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="30ea1214-53fc-492b-9109-dc39b85cc8aa">
-  <value column="Name" original="Force">Force</value>
+ <row trl="Y" uuid="30ea1214-53fc-492b-9109-dc39b85cc8aa">
+  <value column="Name" original="Force">强制使用限制价</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4da02a2b-9981-4fbb-b0b6-cf76cb3af7ff">
-  <value column="Name" original="Activate Locators">Activate Locators</value>
+ <row trl="Y" uuid="4da02a2b-9981-4fbb-b0b6-cf76cb3af7ff">
+  <value column="Name" original="Activate Locators">激活库位</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="146abf64-8299-4659-b1f3-ca31c52c4bc2">
-  <value column="Name" original="Deactivate Locators">Deactivate Locators</value>
+ <row trl="Y" uuid="146abf64-8299-4659-b1f3-ca31c52c4bc2">
+  <value column="Name" original="Deactivate Locators">失效库位</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="bc5f8af3-7323-43c0-8514-9cc08bb7dfdc">
-  <value column="Name" original="Move Locators to Warehouse Section">Move Locators to Warehouse Section</value>
+ <row trl="Y" uuid="bc5f8af3-7323-43c0-8514-9cc08bb7dfdc">
+  <value column="Name" original="Move Locators to Warehouse Section">移动库位到仓库分区</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="dd1819e8-2fd4-4739-8e89-80f73cf1500b">
-  <value column="Name" original="Handling Unit">Handling Unit</value>
+ <row trl="Y" uuid="dd1819e8-2fd4-4739-8e89-80f73cf1500b">
+  <value column="Name" original="Handling Unit">处理单元</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="f7d3a320-cc2e-4683-8c4c-ae047ffe958d">
-  <value column="Name" original="Product">Product</value>
+ <row trl="Y" uuid="f7d3a320-cc2e-4683-8c4c-ae047ffe958d">
+  <value column="Name" original="Product">产品</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3c6e7462-69d0-4dbb-8edb-d36b25403700">
-  <value column="Name" original="Line No">Line No</value>
+ <row trl="Y" uuid="3c6e7462-69d0-4dbb-8edb-d36b25403700">
+  <value column="Name" original="Line No">明细号</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3fa784c2-7a9c-4396-96c7-0c47fb0a21c4">
-  <value column="Name" original="Pack Instance">Pack Instance</value>
+ <row trl="Y" uuid="3fa784c2-7a9c-4396-96c7-0c47fb0a21c4">
+  <value column="Name" original="Pack Instance">包装实例</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="7b185cd9-a9d2-4699-bac9-d4880c7570fb">
-  <value column="Name" original="Pack Instance, Product Key">Pack Instance, Product Key</value>
+ <row trl="Y" uuid="7b185cd9-a9d2-4699-bac9-d4880c7570fb">
+  <value column="Name" original="Pack Instance, Product Key">包装实例，产品码</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4994fc8b-7f03-4121-be71-102d45e224ae">
-  <value column="Name" original="Product Key, Pack Instance">Product Key, Pack Instance</value>
+ <row trl="Y" uuid="4994fc8b-7f03-4121-be71-102d45e224ae">
+  <value column="Name" original="Product Key, Pack Instance">产品码，包装实例</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="32283d8d-4bda-445d-96dc-c51d0c3dd31b">
-  <value column="Name" original="Move to Transit">Move to Transit</value>
+ <row trl="Y" uuid="32283d8d-4bda-445d-96dc-c51d0c3dd31b">
+  <value column="Name" original="Move to Transit">移动到中转库</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="3444c5ce-2d3b-419a-ab3b-307f72a73a72">
-  <value column="Name" original="Receive From Transit">Receive From Transit</value>
+ <row trl="Y" uuid="3444c5ce-2d3b-419a-ab3b-307f72a73a72">
+  <value column="Name" original="Receive From Transit">从中转库接收</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="fffeb94d-1e29-44fa-a490-fdc071ad8b5d">
-  <value column="Name" original="Full Delivery">Full Delivery</value>
+ <row trl="Y" uuid="fffeb94d-1e29-44fa-a490-fdc071ad8b5d">
+  <value column="Name" original="Full Delivery">全部发货</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="0ea6035c-733c-44c3-8058-22e600c7d44a">
+ <row trl="Y" uuid="0ea6035c-733c-44c3-8058-22e600c7d44a">
   <value column="Name" original="Contact Person of Order">订单联系人</value>
   <value column="Description" original=""/>
  </row>
@@ -6308,72 +6308,72 @@
   <value column="Name" original="Invoice Address">发票地址</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="6f0661c1-18d3-4909-b398-39e5f48db280">
-  <value column="Name" original="Shipping Address">Shipping Address</value>
+ <row trl="Y" uuid="6f0661c1-18d3-4909-b398-39e5f48db280">
+  <value column="Name" original="Shipping Address">发货地址</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a1ae8471-51f1-475a-83e2-74db7593bc92">
-  <value column="Name" original="No Group">No Group</value>
+ <row trl="Y" uuid="a1ae8471-51f1-475a-83e2-74db7593bc92">
+  <value column="Name" original="No Group">未分组</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="9cc89dd3-411b-49a7-a5c0-10266125a193">
-  <value column="Name" original="Shipments">Shipments</value>
+ <row trl="Y" uuid="9cc89dd3-411b-49a7-a5c0-10266125a193">
+  <value column="Name" original="Shipments">发货单</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="29b18fea-7bf9-40e5-a42f-ab78081cf728">
-  <value column="Name" original="Sales Orders">Sales Orders</value>
+ <row trl="Y" uuid="29b18fea-7bf9-40e5-a42f-ab78081cf728">
+  <value column="Name" original="Sales Orders">销售订单</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="2352611a-c791-4ec1-a0fd-7c78c46bbef2">
-  <value column="Name" original="Partner Location Shipping Region">Partner Location Shipping Region</value>
+ <row trl="Y" uuid="2352611a-c791-4ec1-a0fd-7c78c46bbef2">
+  <value column="Name" original="Partner Location Shipping Region">伙伴库位发货区</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="a3353b01-0bf9-4d75-a67a-bd307922a248">
-  <value column="Name" original="User Defined">User Defined</value>
+ <row trl="Y" uuid="a3353b01-0bf9-4d75-a67a-bd307922a248">
+  <value column="Name" original="User Defined">用户定义</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c73a1439-5a4b-4c44-829f-ac560c682ebe">
-  <value column="Name" original="Apply Outbound-To Definition rules">Apply Outbound-To Definition rules</value>
+ <row trl="Y" uuid="c73a1439-5a4b-4c44-829f-ac560c682ebe">
+  <value column="Name" original="Apply Outbound-To Definition rules">应用出库定义规则</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="867022e6-c738-4481-99e3-38aeaf8c9f6f">
-  <value column="Name" original="Work Sheet">Work Sheet</value>
+ <row trl="Y" uuid="867022e6-c738-4481-99e3-38aeaf8c9f6f">
+  <value column="Name" original="Work Sheet">工作表</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="368c7871-f467-4131-a0e2-7c910feb7471">
-  <value column="Name" original="Time Sheet">Time Sheet</value>
+ <row trl="Y" uuid="368c7871-f467-4131-a0e2-7c910feb7471">
+  <value column="Name" original="Time Sheet">时间表</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="938f68e4-3b41-402f-9314-cb7c5e79cd31">
+ <row trl="Y" uuid="938f68e4-3b41-402f-9314-cb7c5e79cd31">
   <value column="Name" original="US-ASCII">US-ASCII</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="060f79c8-ea59-4c46-b35f-a00792c8f46c">
+ <row trl="Y" uuid="060f79c8-ea59-4c46-b35f-a00792c8f46c">
   <value column="Name" original="ISO-8859-1">ISO-8859-1</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="b4c456fe-6031-40b8-a096-208219e3e027">
+ <row trl="Y" uuid="b4c456fe-6031-40b8-a096-208219e3e027">
   <value column="Name" original="ISO-8859-2">ISO-8859-2</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="c27d2c3c-9148-4318-83d1-1773c56e384a">
+ <row trl="Y" uuid="c27d2c3c-9148-4318-83d1-1773c56e384a">
   <value column="Name" original="windows-1250">windows-1250</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="e7ccd70d-03ce-4393-a739-357fa910ffc4">
+ <row trl="Y" uuid="e7ccd70d-03ce-4393-a739-357fa910ffc4">
   <value column="Name" original="windows-1252">windows-1252</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="4edae202-fda1-4a12-93d6-bc772f8f7fe5">
+ <row trl="Y" uuid="4edae202-fda1-4a12-93d6-bc772f8f7fe5">
   <value column="Name" original="UTF-8">UTF-8</value>
   <value column="Description" original=""/>
  </row>
- <row trl="N" uuid="545c279c-129e-470c-8a85-c15c8cb94e43">
-  <value column="Name" original="Process">Process</value>
+ <row trl="Y" uuid="545c279c-129e-470c-8a85-c15c8cb94e43">
+  <value column="Name" original="Process">选中处理</value>
   <value column="Description" original="Selected lines will be processed">Selected lines will be processed</value>
  </row>
- <row trl="N" uuid="56da07e1-1733-414c-853f-d2a0c581699f">
-  <value column="Name" original="Cancel">Cancel</value>
+ <row trl="Y" uuid="56da07e1-1733-414c-853f-d2a0c581699f">
+  <value column="Name" original="Cancel">选中取消</value>
   <value column="Description" original="Selected lines will be canceled">Selected lines will be canceled</value>
  </row>
  <row trl="Y" uuid="620b749b-9d90-463d-a548-3d59d12d163d">

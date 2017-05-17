@@ -26,9 +26,9 @@
   <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">付款规则指此发票会如何处置，你可以在发票覆盖该值</value>
  </row>
  <row id="315" trl="Y">
-  <value column="Name" original="From User">发件人</value>
-  <value column="Description" original="Send EMail from user">来自于用户的邮件</value>
-  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">邮件被发送到选择的用户 - 否则，邮件被发送到客户端的请求电子邮件地址</value>
+  <value column="Name" original="From User">联系人</value>
+  <value column="Description" original="Send EMail from user">内部或业务伙伴的联系人</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">标识内部或业务伙伴的联系人。</value>
  </row>
  <row id="452" trl="Y">
   <value column="Name" original="Maintenance Mode">维护模式</value>
@@ -46,9 +46,9 @@
   <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
  </row>
  <row id="493" trl="Y">
-  <value column="Name" original="New User/Contact">新用户/联系人</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部或业务伙伴的联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。用户可以是某个内部用户，或者是某个业务伙伴联系人</value>
+  <value column="Name" original="New User/Contact">联系人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">内部或业务伙伴的联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人。</value>
  </row>
  <row id="494" trl="Y">
   <value column="Name" original="New Workflow Responsible">新工作流职责</value>
@@ -56,9 +56,9 @@
   <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">为工作流最终负责的是实际的用户。工作流负责人允许定义找到该实际用户的方式</value>
  </row>
  <row id="496" trl="Y">
-  <value column="Name" original="New User/Contact">新用户/联系人</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部或业务伙伴的联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户标识了系统中唯一的用户。用户可以是某个内部用户，或者是某个业务伙伴联系人</value>
+  <value column="Name" original="New User/Contact">联系人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">内部或业务伙伴的联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人。</value>
  </row>
  <row id="497" trl="Y">
   <value column="Name" original="New Workflow Responsible">新工作流职责</value>
@@ -336,8 +336,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="200077" trl="N">
-  <value column="Name" original="Created Since">创建人</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Created Since">创建时间</value>
+  <value column="Description" original="">从列的创建时间开始</value>
   <value column="Help" original=""/>
  </row>
  <row id="200084" trl="N">

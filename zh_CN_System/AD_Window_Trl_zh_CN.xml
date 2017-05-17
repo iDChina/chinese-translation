@@ -11,7 +11,7 @@
   <value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">引用窗口定义每个字段/显示的类型和验证方式。此窗口仅由系统管理员使用</value>
  </row>
  <row id="102" trl="Y">
-  <value column="Name" original="Window, Tab &amp; Field">窗口, 页签与字段</value>
+  <value column="Name" original="Window, Tab &amp; Field">窗口， 页签与字段</value>
   <value column="Description" original="Maintain Windows, Tabs &amp; Fields">维护窗口、页签、字段</value>
   <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.">"窗口、页签、字段"窗口定义了每个窗口中表和列的显示</value>
  </row>
@@ -32,13 +32,8 @@
  </row>
  <row id="106" trl="Y">
   <value column="Name" original="Language">语言</value>
-  <value column="Description" original="Maintain Languages">维护语言</value>
-  <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">“语言”窗口允许为用户定义多个并行语言. 允许用户访问相同的数据，但是窗口、页签和字段有不同的语言出现
-如果语言是系统语言,你可以将用户界面改为这种语言(翻译后)，否则语言仅用于打印文档
-
-对于语言代码,我们建议使用 Java 的国家和语言规范(例如 fr_CN - 加拿大法语)
-
-创建一种新语言之后，请开始一程序用于验证翻译，并创建缺少的翻译记录</value>
+  <value column="Description" original="Maintain Languages">维护语言定义</value>
+  <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">“语言”窗口允许为用户定义多个语言。用户可以在不同语言的窗口、页签和字段来访问相同的数据。只有“系统语言”，可能被显示在系统界面，否则只能用作”多语种“单据打印。对于语言代码，我们建议使用 Java 的国家和语言规范(例如 fr_CN - 加拿大法语)新建或选择一种语言后，验证语言过程将创建所有缺失的翻译词条。</value>
  </row>
  <row id="107" trl="Y">
   <value column="Name" original="Matched Invoices">匹配的发票</value>
@@ -53,8 +48,8 @@
  <row id="109" trl="Y">
   <value column="Name" original="Client">实体</value>
   <value column="Description" original="Maintain Clients/Tenants">维护客户/主顾</value>
-  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">客户是最高层次的独立商业实体. 每个客户有一个或多个组织对他负责.  每个客户定义会计参数(会计模式, 树定义, 非货币度量单位). 要想创建新客户, 请以系统管理员角色运行“初始化客户设置”.
-不能在此窗口中创建新客户, 但使用“初始化客户设置”设置需要安全和访问规则. 如果在这里创建新客户, 将不能查看它；也没有设置必需的客户基础架构</value>
+  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">客户是最高层次的独立商业实体. 每个客户有一个或多个组织对他负责.  每个客户定义会计参数(会计模式， 树定义， 非货币度量单位). 要想创建新客户， 请以系统管理员角色运行“初始化客户设置”.
+不能在此窗口中创建新客户， 但使用“初始化客户设置”设置需要安全和访问规则. 如果在这里创建新客户， 将不能查看它；也没有设置必需的客户基础架构</value>
  </row>
  <row id="110" trl="Y">
   <value column="Name" original="Organization">组织</value>
@@ -125,7 +120,7 @@
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
-  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效, 必须重新登录</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效， 必须重新登录</value>
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计模式窗口定义了会计方法，以及将组成账户结构的元素。为业务伙伴、产品、地址等的明细会计创建并激活元素。<p>复核并更改总账和默认账户。用于事务处理的实际账户依赖于执行组织; 大多数信息从上下文中继承获得。]]></value>
  </row>
  <row id="127" trl="Y">
@@ -211,7 +206,7 @@
  <row id="146" trl="Y">
   <value column="Name" original="Price List">价格表</value>
   <value column="Description" original="Maintain Product Price Lists">维护产品价格表</value>
-  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version."><![CDATA[价格表窗口允许你为你的合作伙伴生成产品价格表。价格表决定货币和税务处理。价格表可以有多个版本，允许在不同的时间段维护并行价格表。日期最近的一张价格表将被采用（基于单据日期）。<BR>所有价格表都有三种价格: 公开价, 标准价和限制价<BR>
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version."><![CDATA[价格表窗口允许你为你的合作伙伴生成产品价格表。价格表决定货币和税务处理。价格表可以有多个版本，允许在不同的时间段维护并行价格表。日期最近的一张价格表将被采用（基于单据日期）。<BR>所有价格表都有三种价格: 公开价， 标准价和限制价<BR>
   第一步是新建一个基础价格表，你可以手工添加产品和输入价格，或者自动新建它们。 基础价格表通常是采购价格表，包括标价 (“官方的” 零售价)，标准价(你的进货价格)。限价用于确认折扣、返还后的最终采购成本。<BR>
   价格表能够被计算和复制。为加快计算，参数将被保存并用于创建新价格表版本]]></value>
  </row>
@@ -443,7 +438,7 @@
  <row id="206" trl="Y">
   <value column="Name" original="Payment Selection">付款选择</value>
   <value column="Description" original="Select Invoices for Payment">选择付款的发票</value>
-  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">付款选择窗口允许你选择和处理你的货物发票和你想要支付方式。	(a) 你可以新建一个选择支付和选择手动发票或产生基标准的提议。你可以改变总计支付或你不能支付删除发票。	(b) 你果你觉得支付方式适当的,你可以创建支付.	(c) 你可打印或导出你的支付在支付窗口的 打印/导出</value>
+  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">付款选择窗口允许你选择和处理你的货物发票和你想要支付方式。	(a) 你可以新建一个选择支付和选择手动发票或产生基标准的提议。你可以改变总计支付或你不能支付删除发票。	(b) 你果你觉得支付方式适当的，你可以创建支付.	(c) 你可打印或导出你的支付在支付窗口的 打印/导出</value>
  </row>
  <row id="207" trl="Y">
   <value column="Name" original="Commission">佣金</value>
@@ -469,7 +464,7 @@
  <row id="213" trl="Y">
   <value column="Name" original="Performance Measure Calculation">绩效指标计算</value>
   <value column="Description" original="Define how you calculate your performance measures">定义如何计算绩效指标</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">请先在SQL上测试这个声明.	这个选择指令须要返加一个单一的值!	所有时间范围的限制, 组织, 业务伙伴, 产品将会通过完成 "绩效度量" 窗口.  这是一般的计算.	在这里要注意一些技术方面的东西, 这系统有一些预先确定的例子</value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">请先在SQL上测试这个声明.	这个选择指令须要返加一个单一的值!	所有时间范围的限制， 组织， 业务伙伴， 产品将会通过完成 "绩效度量" 窗口.  这是一般的计算.	在这里要注意一些技术方面的东西， 这系统有一些预先确定的例子</value>
  </row>
  <row id="215" trl="Y">
   <value column="Name" original="Performance Measure">绩效指标</value>
@@ -608,7 +603,7 @@
  </row>
  <row id="245" trl="Y">
   <value column="Name" original="Interest Area">兴趣领域</value>
-  <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题, 可用于关系营销等目的</value>
+  <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题， 可用于关系营销等目的</value>
   <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">兴趣关注反映了联系人感兴趣的主题。兴趣关注可用于营销活动</value>
  </row>
  <row id="246" trl="Y">
@@ -662,14 +657,14 @@
   <value column="Help" original="Query daily account balances">查询每日账户余额</value>
  </row>
  <row id="256" trl="Y">
-  <value column="Name" original="Attribute Set">属性组合</value>
+  <value column="Name" original="Attribute Set">属性集</value>
   <value column="Description" original="Maintain Product Attribute Set">维护产品属性集</value>
-  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.">定义产品属性组把另外的属性和价值加入产品。 如果你想要使序列和产品批号追踪能够，你需要定义一个被设定的属性</value>
+  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.">定义产品属性集，通过不同的属性组合形成一个属性集，以用于产品。 </value>
  </row>
  <row id="257" trl="Y">
-  <value column="Name" original="Lot">批次</value>
-  <value column="Description" original="Product Lot Definition">产品批次定义</value>
-  <value column="Help" original="Maintain the individual Lot of a Product">维护产品的各批号</value>
+  <value column="Name" original="Lot">产品批次</value>
+  <value column="Description" original="Product Lot Definition">维护产品的批次记录</value>
+  <value column="Help" original="Maintain the individual Lot of a Product">维护产品的各个批次记录</value>
  </row>
  <row id="258" trl="Y">
   <value column="Name" original="Lot Control">批次控制</value>
@@ -689,7 +684,7 @@
  <row id="261" trl="Y">
   <value column="Name" original="Attribute Search">属性搜索</value>
   <value column="Description" original="Common Search Attribute ">通用属性搜索 </value>
-  <value column="Help" original="Attributes are specific to a Product Attribute Set (e.g. Size for T-Shirts: S,M,L). If you have multiple attributes and want to search under a common sttribute, you define a search sttribute. Example: have one Size search attribute combining the values of all different sizes (Size for Dress Shirt  XL,L,M,S,XS). The Attribute Search allows you to have all values available for selection.  This eases the maintenance of the individual product attribute.">对产品属性组属性是特定的 ( 举例来说为圆领汗衫按规定尺寸制作: S , M,L). 如果你有多样的属性并且想要在通常的 sttribute 之下搜寻,你定义搜寻 sttribute 。 例子: 一已经按规定尺寸制作搜寻联合所有不同的大小价值的属性吗。 ( 大小对于洋装衬衫 XL ， L ， M ， S,XS) 属性搜寻允许你让选择可用的所有价值。  这减轻个别的产品属性的维护</value>
+  <value column="Help" original="Attributes are specific to a Product Attribute Set (e.g. Size for T-Shirts: S,M,L). If you have multiple attributes and want to search under a common sttribute, you define a search sttribute. Example: have one Size search attribute combining the values of all different sizes (Size for Dress Shirt  XL,L,M,S,XS). The Attribute Search allows you to have all values available for selection.  This eases the maintenance of the individual product attribute.">对产品属性组属性是特定的 ( 举例来说为圆领汗衫按规定尺寸制作: S ， M，L). 如果你有多样的属性并且想要在通常的 sttribute 之下搜寻，你定义搜寻 sttribute 。 例子: 一已经按规定尺寸制作搜寻联合所有不同的大小价值的属性吗。 ( 大小对于洋装衬衫 XL ， L ， M ， S，XS) 属性搜寻允许你让选择可用的所有价值。  这减轻个别的产品属性的维护</value>
  </row>
  <row id="262" trl="Y">
   <value column="Name" original="Expense Invoice (Alpha)">费用发票 (Alpha)</value>
@@ -821,12 +816,12 @@
  <row id="287" trl="Y">
   <value column="Name" original="Knowledge Category">知识类别</value>
   <value column="Description" original="Maintain Knoweledge Categories and Values">维护知识类别和内容</value>
-  <value column="Help" original="Set up knowledge categories and values as a search aid. Examples are Release Version, Product Area, etc. Knowledge Category values act like keyworks.">固定的在如搜寻的知识种类和价值上面援助。 例子是释放版本，产品区域,等等知识种类价值表现相似的 keyworks </value>
+  <value column="Help" original="Set up knowledge categories and values as a search aid. Examples are Release Version, Product Area, etc. Knowledge Category values act like keyworks.">固定的在如搜寻的知识种类和价值上面援助。 例子是释放版本，产品区域，等等知识种类价值表现相似的 keyworks </value>
  </row>
  <row id="288" trl="Y">
   <value column="Name" original="Knowledge Base">知识库</value>
   <value column="Description" original="Maintain Knowledge Base">维护知识库</value>
-  <value column="Help" original="Maintain Type, Topics, Entries and theit Comments, Categories, Related Entries">维持类型，主题，进入和 theit 意见，种类,相关了进入</value>
+  <value column="Help" original="Maintain Type, Topics, Entries and theit Comments, Categories, Related Entries">维持类型，主题，进入和 theit 意见，种类，相关了进入</value>
  </row>
  <row id="289" trl="Y">
   <value column="Name" original="Knowledge Source">知识来源</value>
@@ -866,7 +861,7 @@
  <row id="296" trl="Y">
   <value column="Name" original="Import Currency Rate">导入汇率</value>
   <value column="Description" original="Import Currency Conversion Rates">导入货币汇率</value>
-  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">比率在通货和转变的确认之后被输入率类型和比率。 那繁殖比率被用。 如果互惠的比率是被产生, 那分开比率被用</value>
+  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">比率在通货和转变的确认之后被输入率类型和比率。 那繁殖比率被用。 如果互惠的比率是被产生， 那分开比率被用</value>
  </row>
  <row id="297" trl="Y">
   <value column="Name" original="Workflow Process">工作流流程</value>
@@ -896,7 +891,7 @@
  <row id="302" trl="Y">
   <value column="Name" original="Bank Statement Matcher">银行对账单匹配器</value>
   <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算法则</value>
-  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">一个运算法则找生意合伙,发票,输入的银行陈述的付款</value>
+  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">一个运算法则找生意合伙，发票，输入的银行陈述的付款</value>
  </row>
  <row id="303" trl="Y">
   <value column="Name" original="Payment Batch">批量付款EFT</value>
@@ -1001,7 +996,7 @@
  <row id="323" trl="Y">
   <value column="Name" original="GL Distribution">总账分配</value>
   <value column="Description" original="General Ledger Distribution">总账的分配</value>
-  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">如果分配的账户组合标准被符合,账户组合的布告被分配线的账户组合代替。  分配是以线的百分比为基础的一次完成操作</value>
+  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">如果分配的账户组合标准被符合，账户组合的布告被分配线的账户组合代替。  分配是以线的百分比为基础的一次完成操作</value>
  </row>
  <row id="324" trl="Y">
   <value column="Name" original="RfQ Response">询价单响应</value>
@@ -1036,8 +1031,8 @@
   <value column="Help" original="Material Demand can be based on Forecast, Requisitions, Open Orders">基于预测、采购申请、未完成订单的物料需求</value>
  </row>
  <row id="330" trl="Y">
-  <value column="Name" original="Ship/Receipt Confirm">发货单/收货单确认</value>
-  <value column="Description" original="Material Shipment or Receipt Confirmation">物料发货或收货确认</value>
+  <value column="Name" original="Ship/Receipt Confirm">收发单确认</value>
+  <value column="Description" original="Material Shipment or Receipt Confirmation">维护物料发货单或收货单确认</value>
   <value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">发货或收货确认 - 创建于发货单/收货单</value>
  </row>
  <row id="331" trl="Y">
@@ -1063,7 +1058,7 @@
  <row id="335" trl="Y">
   <value column="Name" original="SLA Criteria">服务级别协议条件SLA</value>
   <value column="Description" original="Service Level Agreement Criteria">服务级别协议条件</value>
-  <value column="Help" original="Define a criteria to measure service level agreements (e.g. Quality, Delivery meets Promised date, ..)">定义标准测量服务水平协议 ( 举例来说质量,递送会答应了日期,..)</value>
+  <value column="Help" original="Define a criteria to measure service level agreements (e.g. Quality, Delivery meets Promised date, ..)">定义标准测量服务水平协议 ( 举例来说质量，递送会答应了日期，..)</value>
  </row>
  <row id="336" trl="Y">
   <value column="Name" original="SLA by Partner">服务级别协议-按业务伙伴</value>
@@ -1118,7 +1113,7 @@
  <row id="346" trl="Y">
   <value column="Name" original="Request Group">请求分组</value>
   <value column="Description" original="Maintain Request Group">维护请求分组</value>
-  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">组的请求 ( 举例来说版本号，责任,.。.)</value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">组的请求 ( 举例来说版本号，责任，.。.)</value>
  </row>
  <row id="347" trl="Y">
   <value column="Name" original="Request Resolution">请求结果</value>
@@ -1133,7 +1128,7 @@
  <row id="349" trl="Y">
   <value column="Name" original="Request Status">请求状态</value>
   <value column="Description" original="Maintain Request Status">维护请求状态</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查,..)</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查，..)</value>
  </row>
  <row id="350" trl="Y">
   <value column="Name" original="Web Store">网上商店</value>
@@ -1281,8 +1276,8 @@
   <value column="Help" original="Chat Types">聊天类型</value>
  </row>
  <row id="381" trl="Y">
-  <value column="Name" original="Entity Type">对象实体类型</value>
-  <value column="Description" original="Maintain System Entity Type">维护系统中实体对象的类型</value>
+  <value column="Name" original="Entity Type">实体类类型</value>
+  <value column="Description" original="Maintain System Entity Type">维护系统中实体类的类型</value>
   <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">个体（entity）类型决定了应用字典项目的所有权。“字典”与“iDempiere”类型不应被使用，并且由iDempiere维护（例如，在迁移时所有的变更都会被回退到当前的定义）</value>
  </row>
  <row id="383" trl="Y">
@@ -1371,8 +1366,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="52003" trl="Y">
-  <value column="Name" original="Web POS BlackListCheque">Web POS 背书支票</value>
-  <value column="Description" original="Black Listed Cheque">背书支票</value>
+  <value column="Name" original="Web POS BlackListCheque">Web POS 支票黑名单</value>
+  <value column="Description" original="Black Listed Cheque">Web POS 支票黑名单</value>
   <value column="Help" original=""/>
  </row>
  <row id="53003" trl="Y">
@@ -1397,13 +1392,13 @@
  <row id="53006" trl="Y">
   <value column="Name" original="Bill of Materials &amp; Formula ">BOM</value>
   <value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">维护产品BOM与配方 </value>
-  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called "formula", "recipe", "ingredients list" in certain industries.
-It answers the question, what are the components of the product?</value>
+  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies， intermediates， parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material， including single level bill of material， indented bill of material， modular (planning)， costed bill of material， etc. May also be called "formula"， "recipe"， "ingredients list" in certain industries.
+It answers the question， what are the components of the product?</value>
  </row>
  <row id="53007" trl="Y">
   <value column="Name" original="Product Planning Data">产品计划数据</value>
   <value column="Description" original="Maintain Product Planning Data">维护产品计划数据</value>
-  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">“产品计划数据“窗口可以让你输入产品信息，依据MPS,未清订单和库存，这些信息将作为执行MRP算法的基础</value>
+  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">“产品计划数据“窗口可以让你输入产品信息，依据MPS，未清订单和库存，这些信息将作为执行MRP算法的基础</value>
  </row>
  <row id="53008" trl="Y">
   <value column="Name" original="MRP Notice">MRP通知</value>
@@ -1637,8 +1632,8 @@ It answers the question, what are the components of the product?</value>
   <value column="Help" original=""/>
  </row>
  <row id="53057" trl="Y">
-  <value column="Name" original="Depreciation Period Spread Type">折旧期间展开类型</value>
-  <value column="Description" original="Period Spread Type">期间展开类型</value>
+  <value column="Name" original="Depreciation Period Spread Type">折旧期间分摊类型</value>
+  <value column="Description" original="Period Spread Type">期间分摊类型</value>
   <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">允许您按期间设置和审核折旧</value>
  </row>
  <row id="53058" trl="Y">
@@ -2120,13 +2115,13 @@ It answers the question, what are the components of the product?</value>
  <row trl="N" uuid="e11f7c35-81b4-473a-8aca-4129d0036861">
   <value column="Name" original="Inbound/Outbound Rule">入库/出库规则</value>
   <value column="Description" original="Maintain Warehouse Inbound/Outbound Rule">入库/出库规则</value>
-  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm， these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
  </row>
  <row trl="N" uuid="f8e215f5-1e77-4a0a-a02f-54a26fd23efd">
   <value column="Name" original="Inbound/Outbound Definition">入库/出库定义</value>
   <value column="Description" original="Maintain Inbound/Outbound Definition">入库/出库定义</value>
-  <value column="Help" original="Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, &#10;product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location">Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, 
-product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location</value>
+  <value column="Help" original="Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, &#10;product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location">Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product， product category， product group 1， product group 2， 
+product classiﬁcation， business partner， business partner group， Warehouse Area Type， Warehouse Section Type and Warehouse Location</value>
  </row>
  <row trl="N" uuid="a5c5289b-1733-47b1-9084-3cf1b1e5e636">
   <value column="Name" original="Inbound/Outbound Definition Schema">入库/出库定义模式</value>
@@ -2146,19 +2141,19 @@ product classiﬁcation, business partner, business partner group, Warehouse Are
  <row trl="Y" uuid="9524586c-6d3a-44a3-9ea6-0af988ab0e85">
   <value column="Name" original="Warehouse Section Type">仓库分区</value>
   <value column="Description" original="Maintain Warehouse Section Type">维护仓库区域类型</value>
-  <value column="Help" original="The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)">The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)</value>
+  <value column="Help" original="The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)">The Warehouse Section type is required for picking and putaway the material， it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also， these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)</value>
  </row>
  <row trl="N" uuid="f0cd1739-447a-43be-bae3-6c418570dad4">
   <value column="Name" original="Warehouse Structure">仓库结构</value>
   <value column="Description" original="Maintain Warehouse Structure">设置仓库区域、分区</value>
-  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.&#10;&#10;Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.
+  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.&#10;&#10;Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas， Sections and Locations， therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.
 
-Finally, warehouse sections can be grouped into different locations and section types.</value>
+Finally， warehouse sections can be grouped into different locations and section types.</value>
  </row>
  <row trl="N" uuid="9ca92738-4eaa-46f2-9a88-cae6e8e687d4">
   <value column="Name" original="Inbound/Outbound Strategy">入库/出库策略</value>
   <value column="Description" original="Maintain Warehouse Inbound/Outbound Strategy">入库/出库策略</value>
-  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.">The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.">The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation， thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.</value>
  </row>
  <row trl="N" uuid="cdd45eef-9616-4603-8e15-f8764c44f9f1">
   <value column="Name" original="Pack Type">包装类型</value>
@@ -2168,17 +2163,17 @@ Finally, warehouse sections can be grouped into different locations and section 
  <row trl="N" uuid="b5437baa-94dd-4c73-9e9f-014405c0df61">
   <value column="Name" original="Handling Unit">处理单元</value>
   <value column="Description" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. ">比如：集装箱，栈板，纸箱，储物篮</value>
-  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.</value>
+  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items， for example， about batches， is retained in the handling units and is always available.</value>
  </row>
  <row trl="N" uuid="28b6490b-065e-4083-9bcc-148c1162afc5">
   <value column="Name" original="Inbound Order">入库订单</value>
   <value column="Description" original="Inbound Order starts Warehouse Putaway Process">仓库上架流程</value>
-  <value column="Help" original="Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.">Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.</value>
+  <value column="Help" original="Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.">Inbound Order starts Warehouse Putaway Process based on Purchase Orders， needs to be fulfilled from. Document is generated by Generate Inbound Order.</value>
  </row>
  <row trl="N" uuid="db2700f3-4c6a-4783-a613-e05dffcafad6">
   <value column="Name" original="Outbound Order">出库订单</value>
   <value column="Description" original="Outbound Order starts Warehouse Picking Process">仓库拣货流程</value>
-  <value column="Help" original="Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.">Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.</value>
+  <value column="Help" original="Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.">Outbound Order starts Warehouse Picking Process based on Sales Orders， needs to be fulfilled from. Document is generated by Generate Outbound Order.</value>
  </row>
  <row trl="N" uuid="860981c3-46e3-4f96-9bce-1bbfb13f66eb">
   <value column="Name" original="Scan Batch">批量扫描</value>
@@ -2209,7 +2204,7 @@ Finally, warehouse sections can be grouped into different locations and section 
   <value column="Name" original="Import InOut">Import InOut</value>
   <value column="Description" original="Import InOut">Import InOut</value>
   <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions. ">Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for "don't know".
-In general, selection boxes are not selected if the value is not "Y" (i.e. could be null or any other value). All tests are made on "Y" or "not Y" - i.e. NULL values are not "not Y", but NULL (don't know) - see SQL Language introductions. </value>
+In general， selection boxes are not selected if the value is not "Y" (i.e. could be null or any other value). All tests are made on "Y" or "not Y" - i.e. NULL values are not "not Y"， but NULL (don't know) - see SQL Language introductions. </value>
  </row>
  <row trl="Y" uuid="5ede077a-f5a0-432f-88ab-6fbdc8f34355">
   <value column="Name" original="Service">服务</value>
@@ -2223,6 +2218,11 @@ In general, selection boxes are not selected if the value is not "Y" (i.e. could
  </row>
  <row trl="N" uuid="37a43f49-595f-47aa-9565-c46c67735b36">
   <value column="Name" original="pz">pz</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e4ea6cb2-76f6-498e-991d-6ebad2eb873d">
+  <value column="Name" original="pep trans">pep trans</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
