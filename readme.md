@@ -5,7 +5,7 @@
 
 ---------------------------------
 ###ReadMe
-This repository includes Chinese Language Pack maintenanted by idempiere-chinese-localization group.
+This repository includes Chinese Language Pack is maintenanted by idempiere-chinese-localization group.
 Translation progress for iDempiere version 4.1 was completed with a high quanlity.
 Normal fixs are reviewed and committed semiannually by project team.
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
