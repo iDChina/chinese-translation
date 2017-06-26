@@ -1,8 +1,27 @@
-## iDempiere ERP的中文语言包说明
+## iDempiere ERP的中文语言包说明 ![English ReadMe](#en)
 ---------------------------------
 ![许可证信息](https://img.shields.io/badge/License-GPLv2-orange.svg)
 [![版本信息](https://img.shields.io/badge/Release-v4.1-brightgreen.svg)](https://bitbucket.org/iDChina/chinese-translation/downloads/?tab=branches)
 
+---------------------------------
+### 着急只看我：
+1. 点击左边栏Download（下载）链接，然后点击右边的Download repository链接。
+2. 解压缩下载的zip文件，分别按实体导入System和GardenWorld汉化文件夹。
+3. 具体操作步骤，参考http://idempiere_guide_sm.mydoc.io/?t=134391
+4. 节约时间的，就不要看下面了。
+
+---------------------------------
+### 文件说明
+1. zh_CN_System 系统Client翻译包
+> 在导入时需指定System Client后导入
+
+1. zh_CN_GardenWorld GardenWorld翻译包
+> 在导入时需指定GardenWorld Client后导入
+
+1. zh_CN 标准翻译包（废弃中）
+> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_CN_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
+
+---------------------------------
 ### 注意事项：
 1. 声明：
 >本项目Fork自https://translations.launchpad.net/idempiere-localize，但由于原项目于2013年底之后少有更新，几乎已停止维护，故单独维护和发布，详细信息见下文。
@@ -24,17 +43,6 @@
     * 2017-05-02 新建2个实体文件夹存放4.1测试包，欢迎反馈issue
     * 2016-12-09 创建基于iDempiere 4.1开发版的翻译文件
     * 2015-04-02 创建基于iDempiere 3.1开发版的翻译文件
-
----------------------------------
-### 文件结构说明
-1. zh_CN_System 系统Client翻译包
-> 在导入时需指定System Client后导入
-
-1. zh_CN_GardenWorld GardenWorld翻译包
-> 在导入时需指定GardenWorld Client后导入
-
-1. zh_CN 标准翻译包
-> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_CN_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
 
 ---------------------------------
 ### 鸣谢
@@ -89,3 +97,12 @@
 小白皇后玉照的盛大披露
 
 ![小白](https://static.oschina.net/uploads/img/201705/04053152_cKM1.jpg)
+
+----------------------------------
+### <span id="en">ReadMe</span>
+Directory structure:
+
+zh_CN_System                translation files for System client
+zh_CN_GardenWorld           translation files for GardenWorld client
+zh_CN                       translation files for review, !!! NOT RECOMMENDED TO USE !!!
+
