@@ -1,7 +1,17 @@
-## iDempiere ERP的中文语言包说明 ![English ReadMe](#en)
+## iDempiere ERP的中文语言包说明
 ---------------------------------
 ![许可证信息](https://img.shields.io/badge/License-GPLv2-orange.svg)
 [![版本信息](https://img.shields.io/badge/Release-v4.1-brightgreen.svg)](https://bitbucket.org/iDChina/chinese-translation/downloads/?tab=branches)
+
+---------------------------------
+###ReadMe
+Directory structure:
+
+zh_CN_System`                translation files for System client`
+
+zh_CN_GardenWorld`           translation files for GardenWorld client`
+
+zh_CN`                       translation files for review, !!! NOT RECOMMENDED TO USE !!!`
 
 ---------------------------------
 ### 着急只看我：
@@ -97,12 +107,4 @@
 小白皇后玉照的盛大披露
 
 ![小白](https://static.oschina.net/uploads/img/201705/04053152_cKM1.jpg)
-
-----------------------------------
-### <span id="en">ReadMe</span>
-Directory structure:
-
-zh_CN_System                translation files for System client
-zh_CN_GardenWorld           translation files for GardenWorld client
-zh_CN                       translation files for review, !!! NOT RECOMMENDED TO USE !!!
 
