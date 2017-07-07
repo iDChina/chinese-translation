@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
  <row id="100" trl="Y">
-  <value column="Name" original="Generate Invoices (manual)">生成发票 (手工)</value>
-  <value column="Description" original="Select and generate invoices">选择并生成发票</value>
-  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">从订单生成发票. 选择订单并为之生成发票</value>
+  <value column="Name" original="Generate Invoices (manual)">创建发票 (手工)</value>
+  <value column="Description" original="Select and generate invoices">选择并创建发票</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">从订单创建发票. 选择订单并为之生成发票</value>
  </row>
  <row id="101" trl="Y">
   <value column="Name" original="Import File Loader">导入文件加载器</value>
@@ -26,13 +26,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="105" trl="Y">
-  <value column="Name" original="Generate Charges">生成杂费</value>
-  <value column="Description" original="Generate Charges from natural accounts">从自然账户生成杂费</value>
+  <value column="Name" original="Generate Charges">创建杂费</value>
+  <value column="Description" original="Generate Charges from natural accounts">从自然账户创建杂费</value>
   <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">使用上半部分创建新的杂费，基于一般的杂费账户。使用下半部分创建杂费，基于自然账户</value>
  </row>
  <row id="106" trl="Y">
-  <value column="Name" original="Payment Print/Export">付款打印/输出</value>
-  <value column="Description" original="Print or export your payments">打印或输出付款</value>
+  <value column="Name" original="Payment Print/Export">付款打印/导出</value>
+  <value column="Description" original="Print or export your payments">打印或导出付款</value>
   <value column="Help" original=""/>
  </row>
  <row id="107" trl="Y">
@@ -51,14 +51,14 @@
   <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">导入导出经外部工具编辑过的 xml 文件。请注意此语言必须启用并设置为系统语言</value>
  </row>
  <row id="110" trl="Y">
-  <value column="Name" original="Generate Shipments (manual)">生成发货单 (手工)</value>
-  <value column="Description" original="Select and generate shipments">选择并生成发货单</value>
-  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">从订单生成发货单。选择要从其生成发货单的订单</value>
+  <value column="Name" original="Generate Shipments (manual)">创建发货单 (手工)</value>
+  <value column="Description" original="Select and generate shipments">选择并创建发货单</value>
+  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">从订单创建发货单。</value>
  </row>
  <row id="111" trl="Y">
-  <value column="Name" original="SQL Process">执行 SQL DDL 语句</value>
+  <value column="Name" original="SQL Process">执行SQL</value>
   <value column="Description" original="Process SQL Statements">执行 SQL DDL 语句</value>
-  <value column="Help" original="Process SQL DDL Statements">执行 SQL DDL 语句</value>
+  <value column="Help" original="Process SQL DDL Statements">仅支持SQL DLL语句</value>
  </row>
  <row id="112" trl="Y">
   <value column="Name" original="Merge Entities">合并记录</value>
@@ -177,8 +177,8 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
   <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">从订单生成发货单。选择订单以用于生成生成发货单和发票</value>
  </row>
  <row id="53012" trl="Y">
-  <value column="Name" original="Material Receipt Distribution Order">配送单物料收货</value>
-  <value column="Description" original="Material Receipt Distribution Order">配送单物料收货</value>
+  <value column="Name" original="Material Receipt Distribution Order">收货配送单</value>
+  <value column="Description" original="Material Receipt Distribution Order">收货配送单</value>
   <value column="Help" original=""/>
  </row>
  <row id="53013" trl="Y">
@@ -204,8 +204,8 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
-  <value column="Name" original="Reset Password">密码重置</value>
-  <value column="Description" original="Reset Password">密码重置</value>
+  <value column="Name" original="Reset Password">重置密码</value>
+  <value column="Description" original="Reset Password">重置密码</value>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
@@ -219,12 +219,12 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
   <value column="Help" original=""/>
  </row>
  <row id="200006" trl="Y">
-  <value column="Name" original="Bank Statement Create From Batch">从银行对账单创建付款</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Bank Statement Create From Batch">从批量支付创建对账单</value>
+  <value column="Description" original="">从批量支付创建对账单</value>
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="Captured Process Parameter">捕获处理参数</value>
+  <value column="Name" original="Captured Process Parameter">获取流程参数</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
