@@ -15,8 +15,6 @@ zh_CN_System________________`translation files for System client`
 
 zh_CN_GardenWorld___________`translation files for GardenWorld client`
 
-zh_CN_______________________`translation files for review, !!! NOT RECOMMENDED TO USE !!!`
-
 ---------------------------------
 ### 着急只看我：
 1. 点击左边栏Download（下载）链接，然后点击右边的Download repository链接。
@@ -32,7 +30,7 @@ zh_CN_______________________`translation files for review, !!! NOT RECOMMENDED T
 1. zh_CN_GardenWorld GardenWorld翻译包
 > 在导入时需指定GardenWorld Client后导入
 
-1. zh_CN 标准翻译包（废弃中）
+1. zh_CN 标准翻译包（已经移至historic文件夹，仅为历史原因需要使用zh_CN的用户保留，目前由OSSSME不定期维护，待移行完毕后该标准翻译包将不做维护）
 > 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_CN_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
 
 ---------------------------------
