@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Window">
+ <row id="100" trl="Y">
+  <value column="Name" original="Table and Column">表与列</value>
+  <value column="Description" original="Maintain Tables and Columns">维护表与列</value>
+  <value column="Help" original="The Table and Column Window defines all tables with their columns">表与列窗口定义所有的表和它们的列</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Reference">引用</value>
+  <value column="Description" original="Maintain System References">维护系统引用</value>
+  <value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">引用窗口定义每个字段/显示的类型和验证方式。此窗口仅由系统管理员使用</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Window, Tab &amp; Field">窗口， 页签与字段</value>
+  <value column="Description" original="Maintain Windows, Tabs &amp; Fields">维护窗口、页签、字段</value>
+  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.">"窗口、页签、字段"窗口定义了每个窗口中表和列的显示</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Validation Rules">验证规则</value>
+  <value column="Description" original="Maintain dynamic Validation Rules for columns and fields">维护列和字段的动态验证规则</value>
+  <value column="Help" original="The Validation Rules Window defines all dynamic rules used when entering and maintaining columns and fields.  This window is for System Admin use only.">验证规则窗口定义当输入和维护列与字段时用到的所有动态规则。这个窗口仅由系统管理员使用</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Message">消息</value>
+  <value column="Description" original="Maintain Information and Error Messages">维护信息与错误消息</value>
+  <value column="Help" original="The Message Window defines the Message Text and Message Tips for each system generated message.  It is for System Admin use only.">消息窗口为每个系统产生的消息定义消息文本和消息提示。此窗口只由系统管理员使用</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Menu">菜单</value>
+  <value column="Description" original="Maintain Menu">维护菜单</value>
+  <value column="Help" original="The Maintain Menu Window defines the Menu which will display.  It is for System Admin use only.  The menu items that each user will see depends upon the security defined.">"维护菜单窗口"定义了将被显示的菜单。此窗口仅由系统管理员使用。每个用户所能看到的菜单项依赖于其定义的安全权限</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Language">语言</value>
+  <value column="Description" original="Maintain Languages">维护语言定义</value>
+  <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">“语言”窗口允许为用户定义多个语言。用户可以在不同语言的窗口、页签和字段来访问相同的数据。只有“系统语言”，可能被显示在系统界面，否则只能用作”多语种“单据打印。对于语言代码，我们建议使用 Java 的国家和语言规范(例如 fr_CN - 加拿大法语)新建或选择一种语言后，验证语言过程将创建所有缺失的翻译词条。</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Matched Invoices">匹配的发票</value>
+  <value column="Description" original="View Matched Invoices">查看匹配的发票</value>
+  <value column="Help" original="View detals of matched invoice lines to material receipt lines">查看与物料收货行匹配的发票行的详细</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="User">用户</value>
+  <value column="Description" original="Maintain Users of the system">维护系统用户</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">用户窗口允许定义系统中的用户。用户可登录到系统中，通过一个或多个角色访问所需的功能。用户也可以是某个业务伙伴联系人</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Client">实体</value>
+  <value column="Description" original="Maintain Clients/Tenants">维护客户/主顾</value>
+  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">客户是最高层次的独立商业实体. 每个客户有一个或多个组织对他负责.  每个客户定义会计参数(会计模式， 树定义， 非货币度量单位). 要想创建新客户， 请以系统管理员角色运行“初始化客户设置”.
+不能在此窗口中创建新客户， 但使用“初始化客户设置”设置需要安全和访问规则. 如果在这里创建新客户， 将不能查看它；也没有设置必需的客户基础架构</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Organization">组织</value>
+  <value column="Description" original="Maintain Organizations">维护组织</value>
+  <value column="Help" original="The Organization Window allows you to define and maintain Organizational entities.  An Organization is often a legal entity or sub-unit for which documents and transactions are processed">组织窗口允许定义和维护组织项。组织常常是法律实体或分支机构，单据和事务就在组织这个级别进行处理</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Role">角色</value>
+  <value column="Description" original="Maintain User Responsibilities">维护用户职责</value>
+  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">角色窗口允许定义不同角色（本系统中的用户将会用上）。角色控制了对窗口、任务、报表等的访问权限。对于一个实体，有预定义的管理员(Administrator)和用户(User)角色。还可以添加更多的角色，以控制对特定功能或数据的访问
+可以添加用户到角色中
+注意：访问权限信息会被缓存起来，更新后的访问权限要在重新登录或重置缓存后才能生效</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Document Sequence">序号定义</value>
+  <value column="Description" original="Maintain System and Document Sequences">维护系统和单据的序号</value>
+  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">序号定义窗口定义了单据编号将如何被排序更改单据编号的生成方法。可添加前缀或后缀，或者更改当前编号</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="Workflow">工作流</value>
+  <value column="Description" original="Maintain Workflow">维护工作流</value>
+  <value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">工作流窗口定义了系统中的工作流，工作流的访问级别，以及工作流中的节点或步骤</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Task">任务</value>
+  <value column="Description" original="Maintain Tasks">维护任务</value>
+  <value column="Help" original="The Maintain Tasks window defines the different tasks used in workflows and the access level for those tasks.">"维护任务窗口"定义用在工作流中的不同任务，以及那些任务的访问权限</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Currency">币种</value>
+  <value column="Description" original="Maintain Currencies">维护货币</value>
+  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Client level only for statistical currencies (e.g. for instable currencies) ">此窗口定义用于文档和报表的各种货币，你应该在系统级定义使用的货币，在客户级增加仅用于统计的货币（如不稳定的货币）</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Currency Rate">汇率</value>
+  <value column="Description" original="Maintain Currency Conversion Rates">维护汇率设置</value>
+  <value column="Help" original="The Conversion Rates window is used to define the conversion rates that will be used when converting document amounts from one currency to another. Note that only the multiply rate is used; The divide rate is for visualization only.">此窗口定义在从一种货币到另一种货币进行单据金额转换的时候的转换比率。注意 仅使用乘的比率。除的比率只是用作显示的</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Calendar Year and Period">日历期间</value>
+  <value column="Description" original="Maintain Calendars Years Periods">维护日历年和期间</value>
+  <value column="Help" original="The Calendar Year and Periods defines the calendars that will be used for period control and reporting. You can also define non-standard calendars (e.g. business year from July to June).">日历年与期间定义了将用于期间控制和报表的日历。也可定义非标准日历 (如从7月到6月的经营年度)</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Account Element">会计科目</value>
+  <value column="Description" original="Maintain Account Elements">维护会计科目</value>
+  <value column="Help" original="The Account Element Window is used to define and maintain the Accounting Element and User Defined Elements. &#10;One of the account segments is your natural account segment (Chart of Account). You may add a new account element for parallel reporting or for user defined accounting segments.">账户元素窗口用于定义和维护会计元素和用户自定义的元素。账户分段之一是自然账户分段 (会计科目表)。可为并行报表或用户自定义的会计分段增加新的账户元素</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Unit of Measure">计量单位</value>
+  <value column="Description" original="Maintain Unit of Measure ">维护计量单位 </value>
+  <value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">此窗口用于定义非货币性的计量单位。它也定义计量单位之间是否有转换关系以及如何转换。系统提供了一些计量单位之间的自动转换(如分钟，小时，日，工作日等)，如果他们没有在这里被另外显式的定义的话。		转换必须是直接的(例如 A-B和B-C存在转换关系，系统并不自动转换A-C，你必须显式的进行定义)</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Location">位置</value>
+  <value column="Description" original="Maintain Location Address">维护位置</value>
+  <value column="Help" original="The Location Window defines the address data within the system.  This window is for System Admin only.  Users would access location entries using the location button or tab on the appropriate window (i.e Order Entry or Business Partner)">此窗口定义系统中的地址数据。此窗口仅供系统管理员使用。用户通过使用相应窗口上的位置按钮或页签来访问地址信息(例如订单凭证或业务伙伴)</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Country Region and City">国家区域与城市</value>
+  <value column="Description" original="Maintain Countries Regions and Cities">维护国家区域与城市</value>
+  <value column="Help" original="The Countries, Regions and Cities Window defines the different entities that can be used in any address field.  It defines the format of the address as well as associating Regions with Countries and Cities with Regions or Countries. &#10;&lt;p&gt;You would define Countries usually only on System level.">此窗口定义可用于地址字段的不同的实体。它定义了地址的格式以及省区和国家、城市和省区或国家的关联。	通常仅需要在系统级定义国家</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Business Partner">业务伙伴</value>
+  <value column="Description" original="Maintain Business Partners">维护业务伙伴</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">业务伙伴窗口允许定义任何与之进行事务处理的任何一方。这包括客户、供应商和员工。在输入或导入产品以前，必须定义供应商。在生成订单以前，必须定义客户。这个窗口包括了关于业务伙伴的所有信息，此处输入的值将用于产生所有的单据事务处理</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Accounting Schema">会计模式</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效， 必须重新登录</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计模式窗口定义了会计方法，以及将组成账户结构的元素。为业务伙伴、产品、地址等的明细会计创建并激活元素。<p>复核并更改总账和默认账户。用于事务处理的实际账户依赖于执行组织; 大多数信息从上下文中继承获得。]]></value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Test">测试窗口</value>
+  <value column="Description" original="Test Screen">测试窗口显示</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Attachment">附件</value>
+  <value column="Description" original="Maintain Attachments">维护附件</value>
+  <value column="Help" original="For System Maintenance Only.  The Maintain Attachments window is used for diagnostic purposes to display the attributes of an attachment.">仅用于系统维护。维护附件窗口用于诊断目的，显示附件的属性</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Preference">系统首选值</value>
+  <value column="Description" original="Maintain System Client Org and User Preferences">维护系统实体组织与用户的偏爱值</value>
+  <value column="Help" original="System Admin use only.">仅系统管理员使用</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Project">项目</value>
+  <value column="Description" original="Maintain Projects">维护项目</value>
+  <value column="Help" original="The Project Window is used to define the projects which will can be tracked by phases and tasks.">项目窗口用来定义项目（可以按阶段和任务跟踪的项目）</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="GL Category">总账类别</value>
+  <value column="Description" original="Maintain General Ledger Categories">维护总账类别</value>
+  <value column="Help" original="The GL Category Window allows you to define categories to be used in journals.  These categories provide a method of optionally grouping and reporting on journals.">总账类别窗口允许定义用在日记账中的类别。可选地，这些类别提供了关于日记账分组或报表的方法</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="GL Journal Batch">凭证批</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">输入并更改手工凭证分录</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">凭证批窗口允许成批地输入或修改手工凭证分录</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Activity (ABC)">作业成本法 (ABC)</value>
+  <value column="Description" original="Maintain Activities for Activity Based Costing">维护作业成本法的活动</value>
+  <value column="Help" original="The Activity Based Costing Window defines the different activities for which you want to capture costs.">作业成本法窗口定义不同的活动，想捕获这些活动的成本</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Document Type">单据类型</value>
+  <value column="Description" original="Maintain Document Types">维护单据类型</value>
+  <value column="Help" original="The Document Type Window defines any document to be used in the system.  Each document type provides the basis for processing of each document and controls the printed name and document sequence used.  ">此窗口定义了系统中所使用的任意文档每个文档类型都提供了每个文档处理的基础，控制了打印名称和所用的文档序列。。  </value>
+ </row>
+ <row id="137" trl="Y">
+  <value column="Name" original="Tax Rate">税目</value>
+  <value column="Description" original="Maintain Taxes and their Rates">维护税目和税率</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
+ </row>
+ <row id="138" trl="Y">
+  <value column="Name" original="Tax Category">税种</value>
+  <value column="Description" original="Maintain Tax Categories">维护税的分类</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用于输入和维护税收的类别。每个产品与税种相关联，它使得更改税率后的处理得以简化</value>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators">仓库/库位</value>
+  <value column="Description" original="Maintain Warehouses and Locators">维护仓库与库位</value>
+  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">仓库与库位窗口定义了每个仓库，仓库的库位，以及用于仓库库存的会计参数</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Product">产品</value>
+  <value column="Description" original="Maintain Products">维护产品</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">产品窗口允许定义组织中使用的所有产品。产品包括这些：出售给客户的产品；用于制造产品的产品，以销售给客户；组织采购的产品</value>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Payment Term">支付条款</value>
+  <value column="Description" original="Maintain Payment Terms">维护支付条款</value>
+  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">支付条款窗口定义了给客户的报盘以及来自供应商的询盘的不同付款条件。每张发票必须包含一个支付条款。在标准发票上，支付条款的名称和单据附注被打印出来</value>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Shipper">承运人</value>
+  <value column="Description" original="Maintain Shippers">维护承运人</value>
+  <value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">承运人窗口定义组织所用到的不同的承运人。如果要在订单上指定交付方式，必须预先定义好承运人</value>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Sales Order">销售订单</value>
+  <value column="Description" original="Enter and change sales orders">输入与更改销售订单</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  ">此窗口用于录入和修改销售订单</value>
+ </row>
+ <row id="144" trl="Y">
+  <value column="Name" original="Product Category">产品类别</value>
+  <value column="Description" original="Maintain Product Categories">维护产品类别</value>
+  <value column="Help" original="The Product Category allows you to define different groups of products.  These groups can be used in generating Price Lists, defining margins and for easily assigning different accounting parameters for products.">产品类别窗口允许定义不同的产品分组。这些分级可被用于生成价格表，用于定义毛利并轻松分配不同的会计参数给产品</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Price List">价格表</value>
+  <value column="Description" original="Maintain Product Price Lists">维护产品价格表</value>
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version."><![CDATA[价格表窗口允许你为你的合作伙伴生成产品价格表。价格表决定货币和税务处理。价格表可以有多个版本，允许在不同的时间段维护并行价格表。日期最近的一张价格表将被采用（基于单据日期）。<BR>所有价格表都有三种价格: 公开价， 标准价和限制价<BR>
+  第一步是新建一个基础价格表，你可以手工添加产品和输入价格，或者自动新建它们。 基础价格表通常是采购价格表，包括标价 (“官方的” 零售价)，标准价(你的进货价格)。限价用于确认折扣、返还后的最终采购成本。<BR>
+  价格表能够被计算和复制。为加快计算，参数将被保存并用于创建新价格表版本]]></value>
+ </row>
+ <row id="147" trl="Y">
+  <value column="Name" original="Invoice Schedule">开票计划</value>
+  <value column="Description" original="Maintain Invoicing Schedule">维护发票的开票计划</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">如果客户需要多份发货单的单张发票，可定义相应的开票计划，并将它关联到客户。</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="Marketing Campaign">营销活动</value>
+  <value column="Description" original="Maintain Marketing Campaigns">维护营销活动</value>
+  <value column="Help" original="The Marketing Campaign Window defines the start and end date for a campaign.  It also gives a running balance of the invoice amounts which referred to this campaign.">营销活动窗口定义活动的起始与结束日期。它也给出引用此活动的发票金额流水余额</value>
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Marketing Channel">营销渠道</value>
+  <value column="Description" original="Maintain Marketing  Channels">维护营销渠道</value>
+  <value column="Help" original="The Marketing Channel Window defines the different channels used in Marketing Campaigns">营销渠道窗口定义用在营销活动中的不同渠道</value>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Element">元素</value>
+  <value column="Description" original="Maintain System Elements">维护字段元素</value>
+  <value column="Help" original="The System Element Window is the Central Repository for Field Names Descriptions and Help/Comments">系统元素窗口用于集中保存字段名称、描述和帮助/注释</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Sales Region">销售区域</value>
+  <value column="Description" original="Maintain Sales Regions">维护销售区域</value>
+  <value column="Help" original="The Sales Region Window defines the different regions where you do business.  You can generate reports based on Sales Regions">销售区域窗口定义了开展业务的不同区域。可生成基于销售区域的报表</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Account Combination">账户组合</value>
+  <value column="Description" original="Maintain Valid Account Combinations ">维持有效的账户组合 </value>
+  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">定义账户组合窗口并且显示有效的账户组合</value>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="GL Budget">总账预算</value>
+  <value column="Description" original="Maintain General Ledger Budgets">维护总账预算</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Bank / Cash">银行设置</value>
+  <value column="Description" original="Maintain Bank / Cash">维护组织或者合作伙伴的银行和帐户</value>
+  <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">维护组织或者合作伙伴的银行和帐户。</value>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Dunning">催款</value>
+  <value column="Description" original="Maintain Dunning Levels">维护催款级别</value>
+  <value column="Help" original="The Dunning Window defines the parameters that will be used when generating Dunning Letters.  Each customer can be associated with a Dunning Code.  ">催款窗口所定义的参数将会在生成催款函时使用。每个客户可以与某个催款代码进行关联。  </value>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Withholding (1099)">预扣 (1099)</value>
+  <value column="Description" original="Maintain Withholding Certificates">维护扣缴证明</value>
+  <value column="Help" original="The Withholding Window defines the rule used for calculating withholding amounts.">预扣窗口定义了用于计算预扣金额的规则</value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Charge">杂费</value>
+  <value column="Description" original="Maintain Charges">维护杂费</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">杂费窗口定义了可能产生的不同杂费。这些可包含银行手续费、供应商杂费和手工处理费等</value>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Accounting Fact Details">会计分录明细</value>
+  <value column="Description" original="Query Accounting Facts">查询会计情况</value>
+  <value column="Help" original="Query the detail accounting transactions">查询明细的会计事务处理</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Tree">树</value>
+  <value column="Description" original="Maintain Tree definition">维护树结构定义</value>
+  <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">树窗口定义显示树时使用的描述和图片</value>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Report &amp; Process">报表与流程</value>
+  <value column="Description" original="Maintain Reports &amp; Processes">维护报表与流程</value>
+  <value column="Help" original="The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only.">报表与流程窗口用于定义系统中每个报表与流程的参数与访问规则。此窗口仅由系统管理员使用</value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Invoice (Customer)">发票 (客户)</value>
+  <value column="Description" original="Customer Invoice Entry">客户发票录入</value>
+  <value column="Help" original="The Customer Invoice Window allows you to display and enter invoices for a customer.  Invoices can also be generated from Sales Orders or Delivery documents.">客户发票窗口允许显示和输入客户的发票。发票也可从销售订单或交付单据生成</value>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Physical Inventory">库存盘点</value>
+  <value column="Description" original="Enter Physical Inventory">库存盘点</value>
+  <value column="Help" original="The Physical Inventory Window allows you to generate inventory count lists.  These counts can then be processed which will update the actual inventory with the new counts. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.">实地盘点窗口，允许你生成盘点清单。这些数目将会被处理，将会更新实际库存数。通常你会自动创建盘点明细。如果你手动创建它们，请确保该账面价值是正确的</value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Shipment (Customer)">发货单 (客户)</value>
+  <value column="Description" original="Customer Inventory Shipments Customer Returns">客户库存发货单，客户退货</value>
+  <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">发货窗口定义为客户发货单（包括已经作出的、即将作出的发货）。发货单从客户订单生成。发货单将会生成客户发票</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Inventory Move">移库</value>
+  <value column="Description" original="Inventory Move">移库</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">库存移动窗口允许将库存从一个货位或仓库移动到另一个货位或仓库。在输入相应的行以后，选择“处理移库”按钮将调节库存</value>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Import Business Partner">导入业务伙伴</value>
+  <value column="Description" original="Import Business Partner">导入业务伙伴</value>
+  <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">导入业务伙伴窗口是一个临时表，它用于导入外部数据至系统中之时。选择“处理”按钮将添加或修改相应的记录</value>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Revenue Recognition">输入确认</value>
+  <value column="Description" original="Revenue Recognition Rules">输入确认规则</value>
+  <value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">“收入确认”窗口定义了时间间隔，在这期间的营业收入将会被确认。另外，收入确认也可以跟所提供的服务水平进行关联</value>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Perpetual Inventory">永续盘点</value>
+  <value column="Description" original="Maintain Perpetual Inventory Rules">维护永续盘存规则</value>
+  <value column="Help" original="The Perpetual Inventory defines the rules to be applied when generating Physical Inventory counts.">永续盘存定义了当生成实地盘存的盘点数时要应用的规则</value>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Vendor Details">供应商明细</value>
+  <value column="Description" original="Maintain Vendor Details">维护供应商明细</value>
+  <value column="Help" original="The Vendor Details Window allows you to display and maintain all products for a selected Vendor.">供应商明细窗口允许显示和维护所选择的供应商的所有产品</value>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Greeting">尊称</value>
+  <value column="Description" original="Maintain Greetings">维护尊称</value>
+  <value column="Help" original="The Greeting Window defines a greeting that is then associated with a Business Partner or Business Partner Contact.">尊称窗口定义了与业务伙伴或业务伙伴联系人相关联的尊称</value>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Report View">报表视图</value>
+  <value column="Description" original="Maintain Report Views">维护报表视图</value>
+  <value column="Help" original="The Report View Window defines the views used when generating reports.  This window is for System Admin use only.">报表视图窗口定义了生成报表时用到的视图。此窗口仅由系统管理员使用</value>
+ </row>
+ <row id="181" trl="Y">
+  <value column="Name" original="Purchase Order">采购订单</value>
+  <value column="Description" original="Manage Purchase Orders">管理采购订单</value>
+  <value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">采购订单窗口定义了组织的采购订单。当输入采购订单时，可从该采购订单生成发货单据或发票</value>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Invoice (Vendor)">发票 (供应商)</value>
+  <value column="Description" original="Vendor Invoice Entry">供应商发票录入</value>
+  <value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">供应商发票窗口允许显示和输入来自供应商的发票。供应商发票也可从采购订单或交货收据生成</value>
+ </row>
+ <row id="184" trl="Y">
+  <value column="Name" original="Material Receipt">收货单</value>
+  <value column="Description" original="Vendor Shipments (Receipts)">供应商发货单 (收货单)</value>
+  <value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">供应商发货单窗口定义了来自供应商的产品或物料收货。发货单可以是手工输入的，也可以是从采购订单或供应商发票自动生成的</value>
+ </row>
+ <row id="185" trl="Y">
+  <value column="Name" original="EDI Definition">EDI 定义</value>
+  <value column="Description" original="Maintain EDI Definition">维护 EDI 定义</value>
+  <value column="Help" original="The EDI Definition Window defines the parameters to be used when processing EDI Transactions">当处理 EDI 交易的时候， EDI 定义窗户定义要用的叁数</value>
+ </row>
+ <row id="186" trl="Y">
+  <value column="Name" original="EDI Transaction">EDI 交易</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="187" trl="Y">
+  <value column="Name" original="Form">窗体</value>
+  <value column="Description" original="Special Forms">特殊的窗体</value>
+  <value column="Help" original="The Forms Window defines any window which is not automatically generated.  For System Admin use only.">窗体窗口定义了非自动生成的任何窗口。仅由系统管理员使用</value>
+ </row>
+ <row id="188" trl="Y">
+  <value column="Name" original="Error Message">错误消息</value>
+  <value column="Description" original="Display Error Messages">定义错误消息</value>
+  <value column="Help" original="The Error Message Window displays all error messages generated.  This is for System Admin use only.  The records must be manually deleted.">错误消息窗口显示了生成的所有错误消息。仅由系统管理使用。记录必须被手工删除</value>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Import Loader Format">导入装载器格式</value>
+  <value column="Description" original="Maintain Import Loader Formats">维护导入装载器格式</value>
+  <value column="Help" original="The Import Loader Format Window is used for defining the file layout for product information which will be imported.">导入装载器格式窗口用于定义将导入数据的文件格式</value>
+ </row>
+ <row id="191" trl="Y">
+  <value column="Name" original="Production">生产单</value>
+  <value column="Description" original="Production based on Bill of Materials">基于物料清单的生产</value>
+  <value column="Help" original="The Production Window defines those plan and inventory movements that occur when a product is created from a bill of materials">生产窗口定义了当从物料清单创建产品时产生的计划和移库</value>
+ </row>
+ <row id="192" trl="Y">
+  <value column="Name" original="Business Partner Group">业务伙伴分组</value>
+  <value column="Description" original="Maintain Business Partner Groups">维护业务伙伴分组</value>
+  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">业务伙伴分组窗口允许定义分组级别的参数。将业务伙伴分组的一种方式是划分为供应商、客户和员工。但可采取明确得多的方式，这将在会计或报表方面有用。可能想区分零售商、最终用户、制造商、出口公司等。 如果为分组定义会计参数，输入使用该分组的任何业务伙伴将自动被填充为这些会计参数。然后，可在业务伙伴级别做任何必要的修改</value>
+ </row>
+ <row id="193" trl="Y">
+  <value column="Name" original="Notice">通知</value>
+  <value column="Description" original="View System Notices">查看系统通知</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.">系统创建执行流程时的消息。在本窗口中，可查看它们</value>
+ </row>
+ <row id="194" trl="Y">
+  <value column="Name" original="Bank/Cash Statement">银行对账单</value>
+  <value column="Description" original="Process Bank Statements">银行对账单处理</value>
+  <value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">处理银行对账单窗口允许将银行对账单对账。既可从对账单行页签中输入对账单行，也可选择“创建源于”按钮以自动从所有未对账付款生成到该银行账户的对账单。一旦完成了对账，请选择“处理对账单”按钮，以将付款标记为已对账，并更新相应的总账账户</value>
+ </row>
+ <row id="195" trl="Y">
+  <value column="Name" original="Payment">付/收款</value>
+  <value column="Description" original="Process Payments and Receipts">处理付款</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">支付方式窗口允许你输入支付方式和打印发票如果选择单一的发票方式那么它可以在这生成。如果选择的是多种发票方式或分期付款方式那么它将会放到安置的窗口处理</value>
+ </row>
+ <row id="196" trl="Y">
+  <value column="Name" original="Custom Attribute">定制属性</value>
+  <value column="Description" original="Maintain custom entity attributes">维护自定义属性</value>
+  <value column="Help" original="This is a System only Window.  Customer Attributes allow the entry of additional information to an entity.">这是一个系统使用的窗口。客户属性允许在记录中输入额外的信息</value>
+ </row>
+ <row id="197" trl="Y">
+  <value column="Name" original="Cashbook">现金帐簿</value>
+  <value column="Description" original="Maintain Cashbook">维护现金帐簿</value>
+  <value column="Help" original="The Cashbook Window defines the bank and account against which cash transactions will be processed.">现金帐簿窗口定义了现金事务处理将处理的银行和账户</value>
+ </row>
+ <row id="198" trl="Y">
+  <value column="Name" original="Cash Journal">现金日记账</value>
+  <value column="Description" original="Cash transactions">现金事务处理</value>
+  <value column="Help" original="The Cash Journal Window is used to record disbursements from and receipts to Petty Cash">现金日记账窗口用于记录来自零用现金的报销和放入零用现金的收款</value>
+ </row>
+ <row id="200" trl="Y">
+  <value column="Name" original="Field Group">字段分组</value>
+  <value column="Description" original="Define Field Group">定义字段分组</value>
+  <value column="Help" original="The Field Group Window allows you to define subsections in a tab.  For System Admin use only.">字段分组窗口允许定义页签中的子选择。仅由系统管理员使用</value>
+ </row>
+ <row id="201" trl="Y">
+  <value column="Name" original="Request">请求</value>
+  <value column="Description" original="Work on your requests">处理请求</value>
+  <value column="Help" original="The Request Window is used to define and track any request assigned to you.">请求窗口用于定义和追踪分配的请求</value>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Request Processor">请求引擎</value>
+  <value column="Description" original="Define Request Processors">定义处请求引擎</value>
+  <value column="Help" original="The Request Processor Window allows you to define different processes that you want to occur and the frequency and timing of these processes  A Request Processor can be just for a specific Request Type or for all.">请求处理器窗口允许你定义你希望触发的不同进程，以及进程的频率和时间。 请求处理器既可以用于特定的请求类型，也可以用于全部</value>
+ </row>
+ <row id="204" trl="Y">
+  <value column="Name" original="Mail Template">邮件模板</value>
+  <value column="Description" original="Maintain Mail Template">维护邮件模板</value>
+  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection."><![CDATA[邮件模板可包括用户、业务伙伴或一般对象的变量。解析的优先级是用户/联系人、业务伙伴，然后是潜在的业务对象 (例如请求、催款、工作流对象)。<br>因此，@Name@ 将被解析为用户的名称 (如果定义了用户)，然后是业务伙伴的名称 (如果定义了业务伙伴)，再后是业务对象的名称 (只要它具有名称)。<br>对于多语种系统，模板基于业务伙伴的语言选择被翻译。]]></value>
+ </row>
+ <row id="205" trl="Y">
+  <value column="Name" original="View Allocation">查看付款分配</value>
+  <value column="Description" original="View and Reverse Allocations ">查看付款分配 </value>
+  <value column="Help" original="The Reverse Allocation Window allows you to view and reverse a payment allocation">撤消划拨窗口允许查看和撤消付款划拨</value>
+ </row>
+ <row id="206" trl="Y">
+  <value column="Name" original="Payment Selection">付款选择</value>
+  <value column="Description" original="Select Invoices for Payment">选择付款的发票</value>
+  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">付款选择窗口允许你选择和处理你的货物发票和你想要支付方式。	(a) 你可以新建一个选择支付和选择手动发票或产生基标准的提议。你可以改变总计支付或你不能支付删除发票。	(b) 你果你觉得支付方式适当的，你可以创建支付.	(c) 你可打印或导出你的支付在支付窗口的 打印/导出</value>
+ </row>
+ <row id="207" trl="Y">
+  <value column="Name" original="Commission">佣金</value>
+  <value column="Description" original="Maintain Commissions and Royalties">维护佣金和特许权使用费</value>
+  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group)."><![CDATA[定义和维护用于计算的佣金和特许权使用费。定义想要佣金被计算的方法和时间，以及支付给谁。<p>佣金窗口允许定义如何支付佣金和许权使用费。可为业务伙伴和销售代表设置佣金，他们可以是外部的。使用本功能，可处理特许授权。可为相同的订单或发票支付多份佣金，例如分别支付给输入事务处理的人、负责产品销售的人以及业务伙伴 (分组 )。]]></value>
+ </row>
+ <row id="208" trl="Y">
+  <value column="Name" original="Project Reporting">项目周期</value>
+  <value column="Description" original="Maintain Project Reporting Cycles">维护项目报表周期</value>
+  <value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">项目周期窗口 定义与特定项目相关的步骤。
+你可能要定义几个计划周期来区分不同的项目种类。计划周期可能全部使用或使用方案情况的一个子集 (举例来说： 你的机会方案周期可能包含一些步骤来自期望的合同 - 这些服务周期可能包含一些步骤来自 安装的消费者承诺</value>
+ </row>
+ <row id="210" trl="Y">
+  <value column="Name" original="Commission Run">计算佣金</value>
+  <value column="Description" original="Check and modify Commissions">检查和修改佣金</value>
+  <value column="Help" original="The Commission Run Window displays the results of processing commissions.  When the Generate Commission process is selected from the Commissions Window, the results are displayed here. If the result is satisfactory, generate an AP invoice to pay the commission.">佣金计算窗口显示了处理佣金的结果。当从佣金窗口选择生成佣金流程时，结果在此处显示。如果结果满意，可生成应付发票以支付佣金</value>
+ </row>
+ <row id="212" trl="Y">
+  <value column="Name" original="Performance Goal">绩效目标</value>
+  <value column="Description" original="Define Performance Goals">定义绩效目标</value>
+  <value column="Help" original="The Performance Goal Window allows you to define performance goals or all, a role or a user">绩效指标窗口允许为全部、一个角色或一个用户定义绩效目标</value>
+ </row>
+ <row id="213" trl="Y">
+  <value column="Name" original="Performance Measure Calculation">绩效指标计算</value>
+  <value column="Description" original="Define how you calculate your performance measures">定义如何计算绩效指标</value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">请先在SQL上测试这个声明.	这个选择指令须要返加一个单一的值!	所有时间范围的限制， 组织， 业务伙伴， 产品将会通过完成 "绩效度量" 窗口.  这是一般的计算.	在这里要注意一些技术方面的东西， 这系统有一些预先确定的例子</value>
+ </row>
+ <row id="215" trl="Y">
+  <value column="Name" original="Performance Measure">绩效指标</value>
+  <value column="Description" original="Define your Performance Measures">定义绩效指标</value>
+  <value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">绩效指标窗口允许为绩效指标定义规则和限制。例如，可限制绩效指标为已定义时间段、特定产品类别的销售</value>
+ </row>
+ <row id="216" trl="Y">
+  <value column="Name" original="Financial Report">财务报表</value>
+  <value column="Description" original="Maintain Financial Reports">维护财务报表</value>
+  <value column="Help" original="Financial Reports are the combination of a Report Column Set and Line Set.">财务报表是报表列集合和行集合的组合</value>
+ </row>
+ <row id="217" trl="Y">
+  <value column="Name" original="Report Column Set">报表列设置</value>
+  <value column="Description" original="Maintain Financial Report Column Sets">维护财务报表列名设置</value>
+  <value column="Help" original="The Report Column Set defines what data is printed in the columns of a report.">报表列集合 定义了在报表的列中打印哪些数据</value>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="Report Line Set">报表行集合</value>
+  <value column="Description" original="Maintain Financial Report Line Sets">维护财务报表明细设置</value>
+  <value column="Help" original="The Line Set determines, which lines are printed in a Financial Report">报表行集合决定财务报表中打印哪些行</value>
+ </row>
+ <row id="220" trl="Y">
+  <value column="Name" original="Service Level">服务级别</value>
+  <value column="Description" original="Maintain Service Levels">维护服务级别</value>
+  <value column="Help" original="Service Levels are generated when an invoice with products based on revenue recognition rules are generated.  You need to update the actual service level by adding an additional line.">当与以收入承认规则为基础的产品一个发票被产生的时候，服务水平被产生。  你需要藉由增加一条另外的线更新真实服务水平</value>
+ </row>
+ <row id="221" trl="Y">
+  <value column="Name" original="Find (indirect use)">查找 (非直接使用)</value>
+  <value column="Description" original="Find Dialog (indirect use)">查找对话框 (非直接使用)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Material Transactions (indirect use)">物料事务处理 (非直接使用)</value>
+  <value column="Description" original="Material Transactions (indirect use)">物料事务处理 (非直接使用)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="224" trl="Y">
+  <value column="Name" original="Print Form">打印格式配置</value>
+  <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">定义打印格式的使用</value>
+  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*)."><![CDATA[定义用于该实体/组织的单据。注意，支票格式在银行 (账户) 窗口定义。<p>最高优先级是打印格式，在单据类型 (如特定的输出发票格式) 上定义。下一级别是打印格式集，在打印单据的组织级定义。默认为为实体的所有组织 (组织为*) 定义的打印格式集。]]></value>
+ </row>
+ <row id="225" trl="Y">
+  <value column="Name" original="System Color">颜色</value>
+  <value column="Description" original="Maintain System Colors">维护系统颜色</value>
+  <value column="Help" original="System colors are used for background and indicators">系统颜色用于背景色和指标色</value>
+ </row>
+ <row id="226" trl="Y">
+  <value column="Name" original="Desktop">桌面</value>
+  <value column="Description" original="Maintain Desktop">维护桌面</value>
+  <value column="Help" original="Desktop is a collection of Workbenches">桌面是工作台的汇集</value>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="System Image">系统图像</value>
+  <value column="Description" original="Maintain Images and Icons">维护图片和图标</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="228" trl="Y">
+  <value column="Name" original="Matched Purchase Orders">匹配的采购订单</value>
+  <value column="Description" original="View Matched Purchase Orders">查看匹配的采购订单</value>
+  <value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines">查看与发票行和物料收货行相匹配的采购订单明细</value>
+ </row>
+ <row id="229" trl="Y">
+  <value column="Name" original="Window Customization">自定义窗口</value>
+  <value column="Description" original="Define Window Customization for Role/User">定义角色/用户的可定制窗口</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">此处定义的定制值，会覆盖/替换默认的系统定义 (如果已定义的话)</value>
+ </row>
+ <row id="231" trl="Y">
+  <value column="Name" original="Workbench">工作台</value>
+  <value column="Description" original="Maintain Workbench">维护工作台</value>
+  <value column="Help" original="Workbenches are a collection of Windows">工作台是窗口的集合</value>
+ </row>
+ <row id="232" trl="Y">
+  <value column="Name" original="Request (all)">全部请求</value>
+  <value column="Description" original="View and work on all requests">查看和处理全部请求</value>
+  <value column="Help" original="This Request window is used to view all available requests">请求窗口用于查看所有的有效请求。</value>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Discount Schema">折扣模式</value>
+  <value column="Description" original="Maintain Trade Discount Schema">定义交易折扣模式</value>
+  <value column="Help" original="Trade discount schema calculates the trade discount percentage">定义交易折扣模式。</value>
+ </row>
+ <row id="234" trl="Y">
+  <value column="Name" original="Expense Type">费用类型</value>
+  <value column="Description" original="Maintain Expense Report Types">维护费用报表类型</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="235" trl="Y">
+  <value column="Name" original="Expense Report">费用</value>
+  <value column="Description" original="Time and Expense Report">时间与费用报表</value>
+  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">时间和费用报表允许捕获花费在项目上的时间、收费的时间和收取的费用</value>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Resource">资源</value>
+  <value column="Description" original="Maintain Resources">维护资源</value>
+  <value column="Help" original="Maintain your Resources. The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">维护资源。资源产品被自动创建和同步。请在资源中更改名称、计量单位等，而不要在产品中更改</value>
+ </row>
+ <row id="237" trl="Y">
+  <value column="Name" original="Resource Type">资源类型</value>
+  <value column="Description" original="Maintain Resource Types">维护资源类型</value>
+  <value column="Help" original="Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days.">Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days</value>
+ </row>
+ <row id="238" trl="Y">
+  <value column="Name" original="Print Color">打印颜色</value>
+  <value column="Description" original="Maintain Print Color">维护打印颜色</value>
+  <value column="Help" original="Colors used for printing">用于打印的颜色</value>
+ </row>
+ <row id="239" trl="Y">
+  <value column="Name" original="Print Font">打印字体</value>
+  <value column="Description" original="Maintain Print Font">维护打印字体</value>
+  <value column="Help" original="Font used for printing">用于打印的字体</value>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Print Format">打印格式</value>
+  <value column="Description" original="Maintain Print Format">维护打印格式</value>
+  <value column="Help" original="The print format determines how data is rendered for print.">打印格式决定数据如何被渲染打印</value>
+ </row>
+ <row id="241" trl="Y">
+  <value column="Name" original="Print Paper">打印纸</value>
+  <value column="Description" original="Maintain Print Paper">维护打印纸</value>
+  <value column="Help" original="Printer Paper Size, Orientation and Margins">打印机纸张的尺寸、方向和边距</value>
+ </row>
+ <row id="242" trl="Y">
+  <value column="Name" original="Expenses (to be invoiced)">费用 (待开发票)</value>
+  <value column="Description" original="View expenses and charges not invoiced to customers">查看未开票给客户的费用和杂费</value>
+  <value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">在开票给客户以前，检查要开票的支出明细</value>
+ </row>
+ <row id="243" trl="Y">
+  <value column="Name" original="Print Table Format">打印表格格式</value>
+  <value column="Description" original="Define Report Table Format">定义表打印格式</value>
+  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">表格打印格式 让你定义表头等等是怎样打印的。请注意：报告表格格式会被存储在计算机缓存中，以改善运行表现</value>
+ </row>
+ <row id="244" trl="Y">
+  <value column="Name" original="Request Type">请求类型</value>
+  <value column="Description" original="Maintain Request Types">维护请求类型</value>
+  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">请求类型用于处理和分类请求。选择项包括账户查询、质保问题等</value>
+ </row>
+ <row id="245" trl="Y">
+  <value column="Name" original="Interest Area">兴趣领域</value>
+  <value column="Description" original="Interest Area or Topic">兴趣关注的领域或主题， 可用于关系营销等目的</value>
+  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">兴趣关注反映了联系人感兴趣的主题。兴趣关注可用于营销活动</value>
+ </row>
+ <row id="246" trl="Y">
+  <value column="Name" original="System">系统</value>
+  <value column="Description" original="System Definition">系统定义</value>
+  <value column="Help" original="Common System Definition - Only one Record - Do not add additional records.">公共的系统定义 - 仅单条记录 - 请不要增加额外的记录</value>
+ </row>
+ <row id="247" trl="Y">
+  <value column="Name" original="Import Product">导入产品</value>
+  <value column="Description" original="Import Products">导入产品</value>
+  <value column="Help" original="The Import Products Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">导入产品窗口是一个临时表，它用于导入外部数据至系统中之时。选择“处理”按钮将添加或修改相应的记录</value>
+ </row>
+ <row id="248" trl="Y">
+  <value column="Name" original="Import Account">导入科目</value>
+  <value column="Description" original="Import Natural Account Values">导入自然账户值</value>
+  <value column="Help" original="The Import Natural Account Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">导入自然账户窗口是一个临时表，它用于导入外部数据至系统中之时。选择“处理”按钮将添加或修改相应的记录</value>
+ </row>
+ <row id="249" trl="Y">
+  <value column="Name" original="Import Report Line Set">导入报表行集合</value>
+  <value column="Description" original="Import Report Line Sets">导入报表行集合</value>
+  <value column="Help" original="The Import Report Line Set Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">导入报表行集窗口是一个临时表，它用于导入外部数据至系统中之时。选择“处理”按钮将添加或修改相应的记录</value>
+ </row>
+ <row id="250" trl="Y">
+  <value column="Name" original="System Translation Check">系统翻译检查</value>
+  <value column="Description" original="Check System Language Translations">检查系统语言翻译</value>
+  <value column="Help" original="Verify your language translations for selected entities. You should use Translation Export / Import for effective translation. This window allows you to check the translation of the main translation entities.">验证所选择的项的语言翻译。应使用翻译导出/导入以使用语言包。本窗口允许检查主要翻译项的翻译</value>
+ </row>
+ <row id="251" trl="Y">
+  <value column="Name" original="Asset">资产</value>
+  <value column="Description" original="Asset used internally or by customers">内部或客户使用的资产</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">资产即可由采购创建，也可由交付产品而创建。资产可内部使用，或作为客户的资产</value>
+ </row>
+ <row id="252" trl="Y">
+  <value column="Name" original="Asset Group">资产组</value>
+  <value column="Description" original="Group of Assets">资产的分组</value>
+  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">资产分组决定默认账户。 如果一个资产分组在产品类别中被选择，资产就会在交付时被创建</value>
+ </row>
+ <row id="253" trl="Y">
+  <value column="Name" original="Training">培训</value>
+  <value column="Description" original="Repeated Training">重复的培训</value>
+  <value column="Help" original="The training may have multiple actual classes">培训可具有多个实际的培训班</value>
+ </row>
+ <row id="254" trl="Y">
+  <value column="Name" original="Expenses (not reimbursed)">费用 (未报销)</value>
+  <value column="Description" original="View expenses and charges not reimbursed">查看未报销的费用和杂费</value>
+  <value column="Help" original="Before reimbursing expenses, check the open expense items">在报销费用以前，检查未结的费用项</value>
+ </row>
+ <row id="255" trl="Y">
+  <value column="Name" original="Accounting Fact Balances">科目余额（明细账）</value>
+  <value column="Description" original="Query Accounting Daily Balances">查询会计日余额</value>
+  <value column="Help" original="Query daily account balances">查询每日账户余额</value>
+ </row>
+ <row id="256" trl="Y">
+  <value column="Name" original="Attribute Set">属性集</value>
+  <value column="Description" original="Maintain Product Attribute Set">维护产品属性集</value>
+  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.">定义产品属性集，通过不同的属性组合形成一个属性集，以用于产品。 </value>
+ </row>
+ <row id="257" trl="Y">
+  <value column="Name" original="Lot">产品批次</value>
+  <value column="Description" original="Product Lot Definition">维护产品的批次记录</value>
+  <value column="Help" original="Maintain the individual Lot of a Product">维护产品的各个批次记录</value>
+ </row>
+ <row id="258" trl="Y">
+  <value column="Name" original="Lot Control">批次控制</value>
+  <value column="Description" original="Product Lot Control">产品批次控制</value>
+  <value column="Help" original="Definition to create Lot numbers for Products">为产品创建批次的定义</value>
+ </row>
+ <row id="259" trl="Y">
+  <value column="Name" original="Serial No Control">序列号控制</value>
+  <value column="Description" original="Product Serial Number Control">产品序号控制</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">为产品创建序列号的定义</value>
+ </row>
+ <row id="260" trl="Y">
+  <value column="Name" original="Attribute">属性</value>
+  <value column="Description" original="Product Attribute">产品属性</value>
+  <value column="Help" original="Product Attribute like Color, Size, etc.">产品属性，如颜色、大小等</value>
+ </row>
+ <row id="261" trl="Y">
+  <value column="Name" original="Attribute Search">属性搜索</value>
+  <value column="Description" original="Common Search Attribute ">通用属性搜索 </value>
+  <value column="Help" original="Attributes are specific to a Product Attribute Set (e.g. Size for T-Shirts: S,M,L). If you have multiple attributes and want to search under a common sttribute, you define a search sttribute. Example: have one Size search attribute combining the values of all different sizes (Size for Dress Shirt  XL,L,M,S,XS). The Attribute Search allows you to have all values available for selection.  This eases the maintenance of the individual product attribute.">对产品属性组属性是特定的 ( 举例来说为圆领汗衫按规定尺寸制作: S ， M，L). 如果你有多样的属性并且想要在通常的 sttribute 之下搜寻，你定义搜寻 sttribute 。 例子: 一已经按规定尺寸制作搜寻联合所有不同的大小价值的属性吗。 ( 大小对于洋装衬衫 XL ， L ， M ， S，XS) 属性搜寻允许你让选择可用的所有价值。  这减轻个别的产品属性的维护</value>
+ </row>
+ <row id="262" trl="Y">
+  <value column="Name" original="Expense Invoice (Alpha)">费用发票 (Alpha)</value>
+  <value column="Description" original="Payables expense invoices - This is Alpha Functionality">可付的费用发票 - 这是Alpha测试功能</value>
+  <value column="Help" original="Enter expense invoices from your vendors">输入从供应商处得到的费用发票</value>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Print Label">打印标签</value>
+  <value column="Description" original="Print Label Format">打印标签格式</value>
+  <value column="Help" original="Maintain Format to print Labels">维护打印标签的格式</value>
+ </row>
+ <row id="264" trl="Y">
+  <value column="Name" original="Session Audit">会话审计</value>
+  <value column="Description" original="Audit of User Sessions">用户会话的日志</value>
+  <value column="Help" original="History of Online or Web Sessions">在线或 Web 会话的历史</value>
+ </row>
+ <row id="265" trl="Y">
+  <value column="Name" original="Project Type">项目类型</value>
+  <value column="Description" original="Maintain Project Type and Phase">维护项目类型与阶段</value>
+  <value column="Help" original="Maintain Project Types and their Phases with standard performance information">维护项目类型和它们包含绩效信息的阶段</value>
+ </row>
+ <row id="266" trl="Y">
+  <value column="Name" original="Recurring">经常性单据</value>
+  <value column="Description" original="Recurring Document">经常性单据</value>
+  <value column="Help" original="Create new documents based on existing one">于既存单据创建新单据</value>
+ </row>
+ <row id="267" trl="Y">
+  <value column="Name" original="Import Inventory">导入库存</value>
+  <value column="Description" original="Import Inventory Transactions">导入库存事务处理</value>
+  <value column="Help" original="Validate and Import Inventory Transactions">验证并导入库存事务处理</value>
+ </row>
+ <row id="268" trl="Y">
+  <value column="Name" original="Role Data Access">角色数据权限</value>
+  <value column="Description" original="Maintain Data Access Rules">维护角色的数据访问规则（表-字段-记录）</value>
+  <value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">维护角色/职责的数据访问规则
+注意：该信息被缓存，需要重新登录或重置缓存方可生效</value>
+ </row>
+ <row id="269" trl="Y">
+  <value column="Name" original="Advertisement">广告</value>
+  <value column="Description" original="Web Advertisement">网络广告</value>
+  <value column="Help" original="Maintain Advertisements on the Web">维护Web上的广告</value>
+ </row>
+ <row id="270" trl="Y">
+  <value column="Name" original="Change Audit">变更审计</value>
+  <value column="Description" original="Audit of data changes">数据更改的日志</value>
+  <value column="Help" original="Log of data changes">数据更改的日志</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Cost Type">成本类型</value>
+  <value column="Description" original="Maintain Cost Types">维护成本的类型</value>
+  <value column="Help" original="You can define multiple cost types. A cost type selected in an Accounting Schema is used for accounting.">可定义多种成本类型。在会计模式中选中的成本类型用于会计上的处理</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Time Type">计时类型</value>
+  <value column="Description" original="Maintain Time Recording Type">维护时间记录的类型</value>
+  <value column="Help" original="Maintain different types of time for reporting">维护不同的报表时间类型</value>
+ </row>
+ <row id="273" trl="Y">
+  <value column="Name" original="Click">点击</value>
+  <value column="Description" original="Maintain Web Click">维护 Web 点击</value>
+  <value column="Help" original="Web Clicks allow you to track number of clicks.  Example:&#10;&amp;lt;a href=&quot;http://www.idempiere.org/wstore/click?http://www.idempiere.org target=&quot;_blank&quot;&amp;gt; where&#10;&quot;http://www.idempiere.org/wstore/click&quot; is your side and &quot;http://www.idempiere.de&quot; is the target page.&#10;If you created a web click for http://www.idempiere.de, you will be able to see details and total of web clicks.&#10;">Web 点击允许追踪点击的数量</value>
+ </row>
+ <row id="274" trl="Y">
+  <value column="Name" original="Counter">计数器</value>
+  <value column="Description" original="Web Counter">Web计数器</value>
+  <value column="Help" original="A web counter maintains how often a page or item was displayed.  Add a call to&#10;http://www.idempiere.org/wstore/counter to the page (e.g. display a 1x1 image)&#10;">Web 计数器维护了页面或条目被显示的频率。
+</value>
+ </row>
+ <row id="275" trl="Y">
+  <value column="Name" original="Invoice Payment Schedule">发票付款计划</value>
+  <value column="Description" original="Maintain Invoice Payment Schedule">维护发票付款计划</value>
+  <value column="Help" original="Maintain Payment Schedule of unpaid invoices">维护未支付发票的付款计划</value>
+ </row>
+ <row id="276" trl="Y">
+  <value column="Name" original="Alert">业务预警</value>
+  <value column="Description" original="iDempiere Alert">设置系统或者业务的预警信息</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">允许你自定义条件来设置系统预警</value>
+ </row>
+ <row id="277" trl="Y">
+  <value column="Name" original="Import Bank Statement">导入银行对账单</value>
+  <value column="Description" original="Import Bank Statements">导入银行对账单</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Import GL Journal">导入凭证</value>
+  <value column="Description" original="Import General Ledger Journals">导入凭证</value>
+  <value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">可能希望在导入以前用“仅验证”检查导入的余额。未平衡的凭证被导入; 基于为过账流程所作的设置而进行处理。可选的余额检查会检查整个导入，而不是单个的批或凭证</value>
+ </row>
+ <row id="279" trl="Y">
+  <value column="Name" original="Import Invoice">导入发票</value>
+  <value column="Description" original="Import Invoices">导入发票</value>
+  <value column="Help" original="Import invoiced loaded">导入已加载的发票</value>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Import Payment">导入付款</value>
+  <value column="Description" original="Import Payments">导入付款</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="281" trl="Y">
+  <value column="Name" original="Import Order">导入订单</value>
+  <value column="Description" original="Import Orders">导入订单</value>
+  <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions.">请在导入加载器格式中明确设置Y/N选项 (例如作为常数)，不要让它们保持为空 (NULL) 值。空 (NULL) 值代表“不知道”。一般来说，选项框在值不是“Y”时不会被选中 (即可以是NULL或其他任何值)。所有的测试都基于是“Y”或“不是Y” - 即NULL值不是“不是Y”，而是NULL (不知道) 值 - 请参考SQL语言介绍</value>
+ </row>
+ <row id="282" trl="Y">
+  <value column="Name" original="Freight Category">运费类别</value>
+  <value column="Description" original="Maintain Freight Categories">维护运费类型</value>
+  <value column="Help" original="Freight Categories are used to calculate the Freight for the Shipper selected">运费类别用于计算所选发货人的运费</value>
+ </row>
+ <row id="283" trl="Y">
+  <value column="Name" original="Accounting Dimensions">组织维度</value>
+  <value column="Description" original="Maintain Non-Account Dimension Trees">维护非账户维度树</value>
+  <value column="Help" original="Maintain Trees of non account segment trees.  Account segment trees (as well as user defined dimensions) are mainatained in the Account Element window. Please note that you will not be able to create new entities in this window if you have not default set for all manfatory values!">维护非会计的段树. 会计段树(以及用户定义的维度)是在这会计科目窗口维护. 请注意如果你未默认设定所有manfatory值你将不能在这个窗口创建新实体</value>
+ </row>
+ <row id="284" trl="Y">
+  <value column="Name" original="Replication">复制</value>
+  <value column="Description" original="Maintain Data Replication Targets">维护数据复制目标</value>
+  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system."><![CDATA[数据复制目标明细。在设置复制以前，完全在中央系统上设置复制对象系统。在这里定义复制目标和导出数据库，并在远端系统中导入它。<p>在进入事务处理以前 (重要！)，启动复制运行，以设置远端系统。]]></value>
+ </row>
+ <row id="285" trl="Y">
+  <value column="Name" original="Replication Strategy">复制策略</value>
+  <value column="Description" original="Maintain Data Replication Strategy">维护数据复制策略</value>
+  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">数据备份策略决定哪些数据表及其如何被复制. 注意合并不会对应用程序目录进行同步</value>
+ </row>
+ <row id="286" trl="Y">
+  <value column="Name" original="Project (Lines/Issues)">项目投放</value>
+  <value column="Description" original="Maintain Sales Order and Work Order Details">查看项目投放的销售订单和工单明细信息</value>
+  <value column="Help" original="The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks">项目窗口是用来维护各阶段/任务的项目明细和物料等信息</value>
+ </row>
+ <row id="287" trl="Y">
+  <value column="Name" original="Knowledge Category">知识类别</value>
+  <value column="Description" original="Maintain Knoweledge Categories and Values">维护知识类别和内容</value>
+  <value column="Help" original="Set up knowledge categories and values as a search aid. Examples are Release Version, Product Area, etc. Knowledge Category values act like keyworks.">固定的在如搜寻的知识种类和价值上面援助。 例子是释放版本，产品区域，等等知识种类价值表现相似的 keyworks </value>
+ </row>
+ <row id="288" trl="Y">
+  <value column="Name" original="Knowledge Base">知识库</value>
+  <value column="Description" original="Maintain Knowledge Base">维护知识库</value>
+  <value column="Help" original="Maintain Type, Topics, Entries and theit Comments, Categories, Related Entries">维持类型，主题，进入和 theit 意见，种类，相关了进入</value>
+ </row>
+ <row id="289" trl="Y">
+  <value column="Name" original="Knowledge Source">知识来源</value>
+  <value column="Description" original="Source of Knowledge Entries">知识文章的来源</value>
+  <value column="Help" original="The Source of a Knowlegde Entry is a pointer to the originating system. The Knowledge Entry has an additional entry (Description URL)  for more detailed info.">"知识条目来源"是指向源系统的指针。知识条目具有额外的条目 (描述URL)，用于更详尽信息的参考</value>
+ </row>
+ <row id="290" trl="Y">
+  <value column="Name" original="Knowledge Synonym">知识同义字</value>
+  <value column="Description" original="Knowlege Keyword Synonym">知识关键字的同义词</value>
+  <value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">搜索知识关键字的同义词。例如: 产品 = 条目</value>
+ </row>
+ <row id="291" trl="Y">
+  <value column="Name" original="Business Partner Info">业务伙伴信息</value>
+  <value column="Description" original="Document Information of Business Partners">业务伙伴的单据信息</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="292" trl="Y">
+  <value column="Name" original="Label Printer">标签打印机</value>
+  <value column="Description" original="Maintain Label Printer Definition">维护标签打印机的定义</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="293" trl="Y">
+  <value column="Name" original="Sales Rep Info">销售代表资料</value>
+  <value column="Description" original="Company Agent (Sales Rep) Information">公司代理 (销售代表) 信息</value>
+  <value column="Help" original="This window allows you to view Company agent related information">本窗口允许查看公司代理或销售代表相关的订单和发票等资料</value>
+ </row>
+ <row id="294" trl="Y">
+  <value column="Name" original="UnPosted Documents">未过账的单据</value>
+  <value column="Description" original="Unposted Documents">未过账单据</value>
+  <value column="Help" original="View unposted documents">查看未过账的单据</value>
+ </row>
+ <row id="295" trl="Y">
+  <value column="Name" original="Currency Type">货币汇率类型</value>
+  <value column="Description" original="Maintain Currency Conversion Rate Types">维护货币兑换率类型</value>
+  <value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">货币兑换率类型允许定义不同的兑换率类型，如即期、公司和/或卖出/买入汇率</value>
+ </row>
+ <row id="296" trl="Y">
+  <value column="Name" original="Import Currency Rate">导入汇率</value>
+  <value column="Description" original="Import Currency Conversion Rates">导入货币汇率</value>
+  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">比率在通货和转变的确认之后被输入率类型和比率。 那繁殖比率被用。 如果互惠的比率是被产生， 那分开比率被用</value>
+ </row>
+ <row id="297" trl="Y">
+  <value column="Name" original="Workflow Process">工作流流程</value>
+  <value column="Description" original="Monitor workflow processes">查看工作流流程实例</value>
+  <value column="Help" original="View and Maintain Workflow Process Instance Information"/>
+ </row>
+ <row id="298" trl="Y">
+  <value column="Name" original="Workflow Activities (all)">工作流活动 (全部)</value>
+  <value column="Description" original="Monitor all Workflow activities">监测全部的工作流活动</value>
+  <value column="Help" original="Maintain all Workflow activities">维护全部的工作流活动</value>
+ </row>
+ <row id="299" trl="Y">
+  <value column="Name" original="Workflow Responsible">工作流职责</value>
+  <value column="Description" original="Responsible for Workflow Execution">工作流执行的负责人</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">为工作流最终负责的是实际的用户。工作流负责人允许定义找到该实际用户的方式</value>
+ </row>
+ <row id="300" trl="Y">
+  <value column="Name" original="Registration Attributes">登记属性</value>
+  <value column="Description" original="Asset Registration Attributes">资产登记属性</value>
+  <value column="Help" original="Define the individual values for the Asset Registration">为资产登记定义不同的值</value>
+ </row>
+ <row id="301" trl="Y">
+  <value column="Name" original="Registration">资产登记</value>
+  <value column="Description" original="User Asset Registration">注册资产登记</value>
+  <value column="Help" original="User Registration of an Asset">资产的用户登记</value>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Bank Statement Matcher">银行对账单匹配器</value>
+  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算法则</value>
+  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">一个运算法则找生意合伙，发票，输入的银行陈述的付款</value>
+ </row>
+ <row id="303" trl="Y">
+  <value column="Name" original="Payment Batch">批量付款EFT</value>
+  <value column="Description" original="Process Payment Patches for EFT">为 EFT 处理批量付款</value>
+  <value column="Help" original="Electronic Fund Transfer Payment Batch.">电子结算系统EFT的付款批</value>
+ </row>
+ <row id="304" trl="Y">
+  <value column="Name" original="Organization Type">组织类型</value>
+  <value column="Description" original="Maintain Organization Types">维护组织类型</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">组织类型允许对组织分类，以方便生成报表</value>
+ </row>
+ <row id="305" trl="Y">
+  <value column="Name" original="Scheduler">计划任务</value>
+  <value column="Description" original="Maintain Schedule Processes and Logs">维护计划流程与日志</value>
+  <value column="Help" original="Schedule processes to be executed asynchronously">异步执行的计划流程</value>
+ </row>
+ <row id="306" trl="Y">
+  <value column="Name" original="Workflow Processor">工作流引擎</value>
+  <value column="Description" original="Maintain Workflow Processor and Logs">维护工作流引擎及日志</value>
+  <value column="Help" original="Workflow Processor Server Parameters">工作流引擎/服务器参数</value>
+ </row>
+ <row id="307" trl="Y">
+  <value column="Name" original="Bid Topic">竞标主题</value>
+  <value column="Description" original="Topic with Bids and Offers">竞标与报盘的主题</value>
+  <value column="Help" original="Manage Topics and veiw Bids and Offers">处理主题和 veiw 竞标和提议</value>
+ </row>
+ <row id="308" trl="Y">
+  <value column="Name" original="Auction Topic Type">拍卖的主题类型</value>
+  <value column="Description" original="Maintain Auction Topic Type and Categories">维护拍卖主题类型及类别</value>
+  <value column="Help" original="The Auction Topic Type determines what kind of auction is used for a particular area">拍卖的主题类型决定了为特定领域使用哪种拍卖</value>
+ </row>
+ <row id="309" trl="Y">
+  <value column="Name" original="Auction Seller">拍卖卖方</value>
+  <value column="Description" original="Maintain Auction Seller Information">维护拍卖的卖方信息</value>
+  <value column="Help" original="A seller is a User in the system participating in Auctions">卖方是参与拍卖的系统中之用户</value>
+ </row>
+ <row id="310" trl="Y">
+  <value column="Name" original="Auction Buyer">拍卖买方</value>
+  <value column="Description" original="Maintain Auction Buyer Information">维护拍卖的买方信息</value>
+  <value column="Help" original="A buyer is a User in the system participating in Auctions">买方是参与拍卖的系统中之用户</value>
+ </row>
+ <row id="311" trl="Y">
+  <value column="Name" original="Accounting Processor">会计引擎</value>
+  <value column="Description" original="Maintain Accounting Processor and Logs">维护会计引擎及日志</value>
+  <value column="Help" original="Accounting Processor/Server Parameters and Logs">会计引擎/服务器的参数和日志</value>
+ </row>
+ <row id="312" trl="Y">
+  <value column="Name" original="Alert Processor">预警引擎</value>
+  <value column="Description" original="Maintain Alert Processor/Server Parameter and Logs">维护提醒引擎/服务器参数及日志</value>
+  <value column="Help" original="Alert Processor/Server Parameter">提醒引擎/服务器参数</value>
+ </row>
+ <row id="313" trl="Y">
+  <value column="Name" original="Partner Relation">伙伴关系</value>
+  <value column="Description" original="Maintain Business Partner Relations">维护业务伙伴关系</value>
+  <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.">生意合伙人关系允许维持第三者关系规则: 谁对于装船接受发票或者支付发票的费用</value>
+ </row>
+ <row id="314" trl="Y">
+  <value column="Name" original="RfQ Topic">询价单主题</value>
+  <value column="Description" original="Maintain RfQ Topics and Subscribers">维护询价单主题和订阅者</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">询价单主题允许维护响应询价单之潜在供应商的订阅名单</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="RfQ">询价单</value>
+  <value column="Description" original="Manage Request for Quotations">管理询价单</value>
+  <value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">该询价主题下的询价单将发送至供应商。 筛选供应商后，可以选择性地为客户创建销售订单或报价，或者为供应商创建采购订单</value>
+ </row>
+ <row id="316" trl="Y">
+  <value column="Name" original="Subscription">订阅</value>
+  <value column="Description" original="Maintain Subscriptions and Deliveries">维护订阅及交付</value>
+  <value column="Help" original="Subscription of a Business Partner of a Product to renew">产品的业务伙伴 (重新) 开始订阅</value>
+ </row>
+ <row id="317" trl="Y">
+  <value column="Name" original="Subscription Type">订阅类型</value>
+  <value column="Description" original="Maintain Subscription Types">维护订阅类型</value>
+  <value column="Help" original="Subscription type and renewal frequency">订阅的类型和续订/更新的频率</value>
+ </row>
+ <row id="318" trl="Y">
+  <value column="Name" original="Distribution List">配送清单</value>
+  <value column="Description" original="Maintain Distribution Lists">维护配送清单</value>
+  <value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">配送清单包含业务伙伴和分发数量或创建订单的比率</value>
+ </row>
+ <row id="319" trl="Y">
+  <value column="Name" original="Package">装箱单</value>
+  <value column="Description" original="Manage Shipment Packages">管理发货包装</value>
+  <value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">发货可有一个或多个包装。包装可被独立追踪</value>
+ </row>
+ <row id="320" trl="Y">
+  <value column="Name" original="Customer RMA">客户退货授权</value>
+  <value column="Description" original="Manage Return Material Authorization">管理退货授权</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
+ </row>
+ <row id="321" trl="Y">
+  <value column="Name" original="Dunning Run">催款计算</value>
+  <value column="Description" original="Manage Dunning Runs">管理催款执行</value>
+  <value column="Help" original="Manage Dunning Runs">管理催款执行</value>
+ </row>
+ <row id="322" trl="Y">
+  <value column="Name" original="Requisition">请购单</value>
+  <value column="Description" original="Material Requisition">物料采购申请单</value>
+  <value column="Help" original="Enter and maintain Material Requisitions. Material Requisition can be created automatically via Replenishment.  You create generate optionally consolidated Purchase Orders.">输入和维护物料申购。物料申购单可从补仓报表自动生成。可选地，可以创建合并的采购订单</value>
+ </row>
+ <row id="323" trl="Y">
+  <value column="Name" original="GL Distribution">总账分配</value>
+  <value column="Description" original="General Ledger Distribution">总账的分配</value>
+  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">如果分配的账户组合标准被符合，账户组合的布告被分配线的账户组合代替。  分配是以线的百分比为基础的一次完成操作</value>
+ </row>
+ <row id="324" trl="Y">
+  <value column="Name" original="RfQ Response">询价单响应</value>
+  <value column="Description" original="Manage RfQ Responses">管理询价单响应</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="325" trl="Y">
+  <value column="Name" original="Distribution Run">配送发运</value>
+  <value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">配送发运创建订单，以向选中的业务伙伴清单分发产品</value>
+  <value column="Help" original="Distribution Run defines how Orders are created based on Distribution Lists">配送发运定义了订单如何基于分发清单而创建</value>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Access Audit">访问审核</value>
+  <value column="Description" original="Audit of Access to data or resources">访问数据或资源的日志</value>
+  <value column="Help" original="Logging needs to be explicitly enabled / written.">日志需要明确的启用 / 可写</value>
+ </row>
+ <row id="327" trl="Y">
+  <value column="Name" original="Counter Document">反向单据</value>
+  <value column="Description" original="Maintain Counter Document Types">维护反向单据类型</value>
+  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;If not defined, the first matching document type is used (e.g. AR Invoice - first AP Invoice document type)">当为组织间事务处理 (在链接某业务伙伴至某组织后) 使用外部单据时，可根据原事务处理的单据类型判定反向单据的类型。例如：一张“标准订单”创建一张“标准采购订单”。
+如果在此处定义关系，则覆盖了单据类型定义中的默认反向单据类型。这允许定义特殊的映射。
+如果未定义，则使用首个匹配单据类型 (如应付发票 - 首个应付发票单据类型)</value>
+ </row>
+ <row id="328" trl="Y">
+  <value column="Name" original="Forecast">预测</value>
+  <value column="Description" original="Maintain Material Forecast">维护物料预测</value>
+  <value column="Help" original="Material Forecast">物料预测</value>
+ </row>
+ <row id="329" trl="Y">
+  <value column="Name" original="Demand">物料需求</value>
+  <value column="Description" original="Maintain Material Demand">维护物料需求</value>
+  <value column="Help" original="Material Demand can be based on Forecast, Requisitions, Open Orders">基于预测、采购申请、未完成订单的物料需求</value>
+ </row>
+ <row id="330" trl="Y">
+  <value column="Name" original="Ship/Receipt Confirm">收发单确认</value>
+  <value column="Description" original="Material Shipment or Receipt Confirmation">维护物料发货单或收货单确认</value>
+  <value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">发货或收货确认 - 创建于发货单/收货单</value>
+ </row>
+ <row id="331" trl="Y">
+  <value column="Name" original="RMA Type">退货授权类型</value>
+  <value column="Description" original="Return Material Authorization Type">退料授权的类型</value>
+  <value column="Help" original="Maintain the types of RMA">维护退货授权类型</value>
+ </row>
+ <row id="332" trl="Y">
+  <value column="Name" original="Process Audit">流程审计</value>
+  <value column="Description" original="Audit process use">审计流程使用</value>
+  <value column="Help" original="Process Instance Information">流程实例信息</value>
+ </row>
+ <row id="333" trl="Y">
+  <value column="Name" original="Move Confirmation">移库确认</value>
+  <value column="Description" original="Confirm Inventory Moves">确认移库</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">当移库单据类型表示为"在途"时，则单据会自动生成…… 如果存在数量差异，就会为源（从）仓库创建库存盘点单。如果存在报废数量，就会为目标（至）仓库创建实地存盘单</value>
+ </row>
+ <row id="334" trl="Y">
+  <value column="Name" original="Import Confirmations">导入确认</value>
+  <value column="Description" original="Import Receipt/Shipment Confirmation Lines">导入收货单/发货单确认明细</value>
+  <value column="Help" original="Import Confirmation data of existing Receipt/Shipment Confirmations">导入现存收货单/发货单确认的确认数据</value>
+ </row>
+ <row id="335" trl="Y">
+  <value column="Name" original="SLA Criteria">服务级别协议条件SLA</value>
+  <value column="Description" original="Service Level Agreement Criteria">服务级别协议条件</value>
+  <value column="Help" original="Define a criteria to measure service level agreements (e.g. Quality, Delivery meets Promised date, ..)">定义标准测量服务水平协议 ( 举例来说质量，递送会答应了日期，..)</value>
+ </row>
+ <row id="336" trl="Y">
+  <value column="Name" original="SLA by Partner">服务级别协议-按业务伙伴</value>
+  <value column="Description" original="Service Level Agreement">服务级别协议</value>
+  <value column="Help" original="Maintain Service Level Agreements for Business Partners">维护业务伙伴的服务级别协议(SLA)</value>
+ </row>
+ <row id="337" trl="Y">
+  <value column="Name" original="Price List Schema">价格表模式</value>
+  <value column="Description" original="Maintain Price List Schema">维护价格表的模式</value>
+  <value column="Help" original="Price List schema defines calculation rules for price lists">价格表模式定义价格表的计算规则</value>
+ </row>
+ <row id="338" trl="Y">
+  <value column="Name" original="POS Terminal">POS 终端</value>
+  <value column="Description" original="Maintain your Point of Sales Terminal">维护售点终端</value>
+  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS 终端定义 POS 窗体的默认值和功能</value>
+ </row>
+ <row id="339" trl="Y">
+  <value column="Name" original="POS Key Layout">POS 键布局</value>
+  <value column="Description" original="POS Function Key Layout">POS 功能键布局</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="340" trl="Y">
+  <value column="Name" original="System Registration">系统注册</value>
+  <value column="Description" original="Register your System">登记你的系统</value>
+  <value column="Help" original="System Registration - Only one Record - Do not add additional records.">系统唯登记一记录 -不增加另外的记录</value>
+ </row>
+ <row id="341" trl="Y">
+  <value column="Name" original="Internal Use Inventory">内部领用</value>
+  <value column="Description" original="Enter Internal Use of Inventory">输入库存的内部使用，计入杂费</value>
+  <value column="Help" original="The Internal Use of Inventory Window allows enter the quantity of used products.">内部使用库存窗口允许输入已使用产品的数量</value>
+ </row>
+ <row id="342" trl="Y">
+  <value column="Name" original="Invoice Batch">发票批</value>
+  <value column="Description" original="Expense Invoice Batch">费用发票批</value>
+  <value column="Help" original="Enter expense invoices in batch.  After creating the lines, the actual invoices are created when processing the batch">按批输入费用发票。在创建行之后，实际的发票在处理批时才创建</value>
+ </row>
+ <row id="343" trl="Y">
+  <value column="Name" original="Cost Element">成本要素</value>
+  <value column="Description" original="Maintain Product Cost Element">维护产品的成本元素</value>
+  <value column="Help" original="You can define your own product cost elements.">可定义自己的产品成本元素</value>
+ </row>
+ <row id="344" trl="Y">
+  <value column="Name" original="Product Costs">产品成本</value>
+  <value column="Description" original="Maintain Product Costs">产品成本维护</value>
+  <value column="Help" original="Maintain Product Cost Elements">维护产品的成本元素</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Request Category">请求分类</value>
+  <value column="Description" original="Maintain Request Category">维护请求类别</value>
+  <value column="Help" original="Category or Topic of the Request ">请求的类别或主题 </value>
+ </row>
+ <row id="346" trl="Y">
+  <value column="Name" original="Request Group">请求分组</value>
+  <value column="Description" original="Maintain Request Group">维护请求分组</value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">组的请求 ( 举例来说版本号，责任，.。.)</value>
+ </row>
+ <row id="347" trl="Y">
+  <value column="Name" original="Request Resolution">请求结果</value>
+  <value column="Description" original="Maintain Request Resolutions">维护请求的结果方案。</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">比如：驳回、搁置、解决。</value>
+ </row>
+ <row id="348" trl="Y">
+  <value column="Name" original="Request Standard Response">响应模版</value>
+  <value column="Description" original="Maintain Request Standard Response ">请求相应的标准模版</value>
+  <value column="Help" original="Text blocks to be copied into request response text">模版内容将复制到响应结果区。</value>
+ </row>
+ <row id="349" trl="Y">
+  <value column="Name" original="Request Status">请求状态</value>
+  <value column="Description" original="Maintain Request Status">维护请求状态</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">如果请求状态是 ( 打开，关闭，调查，..)</value>
+ </row>
+ <row id="350" trl="Y">
+  <value column="Name" original="Web Store">网上商店</value>
+  <value column="Description" original="Define Web Store">定义网上商店</value>
+  <value column="Help" original="Define the web store setup.  ">定义网上商店的设置</value>
+ </row>
+ <row id="351" trl="Y">
+  <value column="Name" original="Position">职位</value>
+  <value column="Description" original="Maintain Job Positions">维护工作职位</value>
+  <value column="Help" original="Maintain internal (employee) or external positions">维护内部 (员工) 或外部的职位</value>
+ </row>
+ <row id="352" trl="Y">
+  <value column="Name" original="Position Category">职位类别</value>
+  <value column="Description" original="Maintain Job Position Categories">维护工作职位的类别</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="353" trl="Y">
+  <value column="Name" original="Remuneration">薪酬</value>
+  <value column="Description" original="Maintain Remuneration">维护薪酬</value>
+  <value column="Help" original="Wages and Salaries">薪酬或薪水</value>
+ </row>
+ <row id="354" trl="Y">
+  <value column="Name" original="Product BOM">产品物料清单</value>
+  <value column="Description" original="Maintain Product Bill of Materials">维护产品物料清单</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="355" trl="Y">
+  <value column="Name" original="BOM Change Notice">BOM变更通知</value>
+  <value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">BOM变更通知</value>
+  <value column="Help" original="Change notices can be linked to BOMs or be stand alone.">通知可以链接到BOMs或被单独使用</value>
+ </row>
+ <row id="356" trl="Y">
+  <value column="Name" original="Change Notice">变更通知</value>
+  <value column="Description" original="Maintain (Engineering) Change Notice (Version)">维护 (项目) 变更通知 (版本)</value>
+  <value column="Help" original="Stand-alone change notice - Change notices could also be directly linked to BOMs">标准变更通知 - 变更通知也可被直接连接至物料清单</value>
+ </row>
+ <row id="358" trl="Y">
+  <value column="Name" original="Attribute Set Instance">属性集实例</value>
+  <value column="Description" original="View Attribute Set Instance detail and use">查看属性集实例的明细与使用</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="359" trl="Y">
+  <value column="Name" original="Tax Declaration">税申报单</value>
+  <value column="Description" original="Define the declaration to the tax authorities">定义提交给税务主管机关的申报单</value>
+  <value column="Help" original="The tax declaration allows you to create supporting information and reconcile the documents with the accounting">税申报单允许创建支持性的信息与对账单据</value>
+ </row>
+ <row id="360" trl="Y">
+  <value column="Name" original="Reporting Hierarchy">报表层级</value>
+  <value column="Description" original="Define Reporting Hierarchy">定义报表层次</value>
+  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">报表层级允许为报表选择不同的层级/树。会计分段，例如组织、账户、产品，可能具有多个层级，以满足不同的业务视图需要</value>
+ </row>
+ <row id="361" trl="Y">
+  <value column="Name" original="Budget Control">预算控制</value>
+  <value column="Description" original="Maintain Budget Controls">维护预算控制</value>
+  <value column="Help" original="Budget Control allows you to restrict the use of expenditures, commitments (Purchase Orders) and reservations (Requisitions). If defined, you mey not be able to approve Requisitions, Purchse Orders, or AP Invoices.">预算控制帮助你限制开支的使用、委托约定（采购订单）和保留单（采购申请）。如经设定，就可能无法批准采购申请、采购订单或应付发票</value>
+ </row>
+ <row id="362" trl="Y">
+  <value column="Name" original="GL Fund (Alpha)">总账资金 (Alpha)</value>
+  <value column="Description" original="Maintain Fund Controls">维护资金控制</value>
+  <value column="Help" original="General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.">总账资金控制允许限制资金的使用。这与预算控制无关</value>
+ </row>
+ <row id="363" trl="Y">
+  <value column="Name" original="System Issue Report">系统问题报告</value>
+  <value column="Description" original="Automatically created or manually entered System Issue Reports">自动创建或手工输入的系统问题报告</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统的问题被创建，用于加速任何系统相关问题 (潜在缺陷) 的解决。如果启用，它们自动被报告给iDempiere，传输时不会提交数据或机密信息</value>
+ </row>
+ <row id="364" trl="Y">
+  <value column="Name" original="Performance Color Schema">绩效颜色方案</value>
+  <value column="Description" original="Maintain Performance Color Schema">维护绩效配色方案</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效指标按颜色的可视化呈现。配色方案一般具有3个级别 (例如红-黄-绿)。iDempiere支持两级 (例如红-绿) 或四级 (例如灰-铜-银-金)。注意，不包含度量目标的指标均以白色表示。百分比可介于 0 至无穷大之间 (例如超过 100%)</value>
+ </row>
+ <row id="365" trl="Y">
+  <value column="Name" original="Performance Benchmark">绩效基准</value>
+  <value column="Description" original="Performance Benchmark">绩效基准</value>
+  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">用于把绩效基准与内部绩效相比较</value>
+ </row>
+ <row id="366" trl="Y">
+  <value column="Name" original="Performance Ratio">绩效比率</value>
+  <value column="Description" original="Maintain Performance Ratios">维护绩效比率</value>
+  <value column="Help" original="Calculation instruction for a ratio">比率计算的方法说明</value>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Issue Recommendation">问题建议</value>
+  <value column="Description" original="Maintain Issue Recommendation">维护问题的建议</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="368" trl="Y">
+  <value column="Name" original="Issue Status">问题状态</value>
+  <value column="Description" original="Maintain Issue Status">维护问题状态</value>
+  <value column="Help" original="Status of an Issue">问题的状态</value>
+ </row>
+ <row id="369" trl="Y">
+  <value column="Name" original="Known Issue">已知问题</value>
+  <value column="Description" original="Maintain Known Issue">维护已知的问题</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="370" trl="Y">
+  <value column="Name" original="Issue Project">实施项目</value>
+  <value column="Description" original="Maintain Issue Management Project Links">维护问题管理项目的链接</value>
+  <value column="Help" original="Maintain Issue Management Project Links - automatically generated.">维护问题管理项目的链接 - 自动生成</value>
+ </row>
+ <row id="371" trl="Y">
+  <value column="Name" original="Issue User">问题提交者</value>
+  <value column="Description" original="User who reported Issues">问题汇报人</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="372" trl="Y">
+  <value column="Name" original="Issue System">系统问题</value>
+  <value column="Description" original="Maintain Systems">维护问题系统</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="373" trl="Y">
+  <value column="Name" original="Web Project">Web 项目</value>
+  <value column="Description" original="Maintain Web Project (Content Management)">维护Web项目(内容管理)</value>
+  <value column="Help" original="At the level of the web project you define the project itself, it's domains and media servers. Each project needs to have at least one domain and one media server.">在 Web 项目的级别，定义项目自身、它的域名和媒质服务器。每个项目需要至少一个域名和一个媒质服务器</value>
+ </row>
+ <row id="374" trl="Y">
+  <value column="Name" original="Template">模板</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="375" trl="Y">
+  <value column="Name" original="Web Ad Management">Web 广告管理</value>
+  <value column="Description" original="Content Management Ad Management defines the needed categories and items">内容管理中的广告管理，定义所需的类别与广告项</value>
+  <value column="Help" original="Ad Management is used to create and manage advertisements in your conten management">广告管理用于创建和管理内容管理中的广告</value>
+ </row>
+ <row id="376" trl="Y">
+  <value column="Name" original="News Channel">新闻频道</value>
+  <value column="Description" original="Define News Channels, write and publish articles">定义了新闻频道，编写和发布文章</value>
+  <value column="Help" original="Define News Channels, write and publish articles">定义了新闻频道，编写和发布文章</value>
+ </row>
+ <row id="377" trl="Y">
+  <value column="Name" original="View Chat">查看聊天</value>
+  <value column="Description" original="View discussions / chats">查看讨论/聊天</value>
+  <value column="Help" original="View chat / discussion threads">查看讨论/聊天的话题</value>
+ </row>
+ <row id="379" trl="Y">
+  <value column="Name" original="Media Item">媒体项</value>
+  <value column="Description" original="Maintain Web Media">维护Web媒体</value>
+  <value column="Help" original="Maintain Content Management Media">维护内容管理的媒质</value>
+ </row>
+ <row id="380" trl="Y">
+  <value column="Name" original="Chat Type">聊天类型</value>
+  <value column="Description" original="Maintain Chat Types">维护聊天类型</value>
+  <value column="Help" original="Chat Types">聊天类型</value>
+ </row>
+ <row id="381" trl="Y">
+  <value column="Name" original="Entity Type">实体类类型</value>
+  <value column="Description" original="Maintain System Entity Type">维护系统中实体类的类型</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">个体（entity）类型决定了应用字典项目的所有权。“字典”与“iDempiere”类型不应被使用，并且由iDempiere维护（例如，在迁移时所有的变更都会被回退到当前的定义）</value>
+ </row>
+ <row id="383" trl="Y">
+  <value column="Name" original="Web Access">Web 权限</value>
+  <value column="Description" original="Maintain Web Access">Web 权限</value>
+  <value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.">定义协作管理内容的访问。你可以分配该配置文件给一个内部或外部角色以获得业务伙伴组访问权限</value>
+ </row>
+ <row id="384" trl="Y">
+  <value column="Name" original="Web Broadcast Server">网络广播服务</value>
+  <value column="Description" original="Maintain Web Broadcast Server">维护 Web 广播服务器</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="385" trl="Y">
+  <value column="Name" original="Info Window">信息窗口</value>
+  <value column="Description" original="Define Info and search/select Window">定义信息与搜索/选择窗口</value>
+  <value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">信息窗口用于搜索和选择记录，同时用于显示与选择项相关的信息</value>
+ </row>
+ <row id="386" trl="Y">
+  <value column="Name" original="Text Index">索引文本</value>
+  <value column="Description" original="Maintain Text Search Index">维护文本索引</value>
+  <value column="Help" original="Text search index keyword and excerpt across documents">跨文档的文本搜索索引关键字与摘录</value>
+ </row>
+ <row id="387" trl="Y">
+  <value column="Name" original="Text Index Stop">文本索引跳过</value>
+  <value column="Description" original="Maintain keywords not to be indexed">维护不需要索引的关键字</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="388" trl="Y">
+  <value column="Name" original="Text Search Log">文本搜索日志</value>
+  <value column="Description" original="View Text Search Log">查看文本搜索日志</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="389" trl="Y">
+  <value column="Name" original="LDAP Server">LDAP 服务器</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">iDempiere基于LDAP服务器来验证外部系统</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">LDAP 服务器允许第三方软件 (例如 Apache) 使用系统中定义的用户去验证和授权。每个iDempiere系统中只有一个服务器。“o” 代表实例的关键字，而可选的“ou”代表兴趣领域的关键字</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Packages Installed">安装的包</value>
+  <value column="Description" original="List of packages installed">安装的包的列表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Package Maintenance">包维护</value>
+  <value column="Description" original="Package installation history and maintenance">包安装历史和维护</value>
+  <value column="Help" original="Review package installation.  Also perform package rollback if required">检验包安装.如果需要的话执行包回滚</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Pack Out">导出包(PackOut)</value>
+  <value column="Description" original="Create 2pack package">导出包(PackOut) - 创建一个部件包</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Common Package Details">常用包明细</value>
+  <value column="Description" original="Maintain Common Package Details">维护常用包明细</value>
+  <value column="Help" original="Create and maintain common package element details">创建和维护常用包元素明细</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Pack In">导入包(PackIn)</value>
+  <value column="Description" original="Imports a package">导入包</value>
+  <value column="Help" original="Imports a package previously created by PackOut">导入一个先前由PackOut创建的包</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="System Configurator">系统配置器</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Dashboard Content">仪表盘内容</value>
+  <value column="Description" original="">维护仪表盘内容项目</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52000" trl="Y">
+  <value column="Name" original="Web POS Menu">Web POS 菜单</value>
+  <value column="Description" original="To dynamically generate the menu links in web POS">在webPOS中自动生成菜单链接</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="Web POS Role Menu">Web POS角色菜单</value>
+  <value column="Description" original="Depending on Which Role, Different set of Menus are generated and made available.">基于不同的角色，可生成不同的可用菜单集合</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52002" trl="Y">
+  <value column="Name" original="Web POS Properties">Web POS 属性</value>
+  <value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Stores the message tags to be picked up from AD_MESSAGE </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52003" trl="Y">
+  <value column="Name" original="Web POS BlackListCheque">Web POS 支票黑名单</value>
+  <value column="Description" original="Black Listed Cheque">Web POS 支票黑名单</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53003" trl="Y">
+  <value column="Name" original="Model Validator">模型验证</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="Manufacturing Resource">生产资源</value>
+  <value column="Description" original="Manufacturing Resource">生产资源</value>
+  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">制造资源指为任何所需的生产和其可用性可能影响生产计划。制造资源可以是：成套设备，生产线，工作中心和工作站。
+
+它主要回答的问题是：在哪里制造？
+
+一个具体的生产设施中的一个或多个人员和/或机器，它可以被认为是一个单位而言，的容量requiremets规划和详细的调度</value>
+ </row>
+ <row id="53005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">工艺路线</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">维护生产工艺路线</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">生产工作流（工艺路线）是生产部件方法的详细信息集合。它包括在不同工作中心的作业顺序、标准设置和运行。在某些公司，工艺还包括工具技能等级、检验作业、测试需求等</value>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula ">BOM</value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">维护产品BOM与配方 </value>
+  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies， intermediates， parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material， including single level bill of material， indented bill of material， modular (planning)， costed bill of material， etc. May also be called "formula"， "recipe"， "ingredients list" in certain industries.
+It answers the question， what are the components of the product?</value>
+ </row>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Product Planning Data">产品计划数据</value>
+  <value column="Description" original="Maintain Product Planning Data">维护产品计划数据</value>
+  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">“产品计划数据“窗口可以让你输入产品信息，依据MPS，未清订单和库存，这些信息将作为执行MRP算法的基础</value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="MRP Notice">MRP通知</value>
+  <value column="Description" original="View MRP Notices">查看MRP通知</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem"><![CDATA[这些动作信息作为一个通知报告给登录到系统的计划者。可能动作信息如下：
+<br />MRP - 001	 起始数量小于0.
+<br />MRP - 020	新建 —— 创建采购订单以满足负库存。只有当”新建计划“为否或者新需求生成时，这个通知才出现。
+<br />MRP - 030	延缓 ——计划采购订单早于物料需求，而需要延缓采购，或者需求应该在更早的时间释放。
+<br />MRP - 040	加快 —— 计划采购订单早于物料需求，而需要提前计划，或者需求应该在更晚的时间释放。
+<br />MRP - 050	取消 —— 计划采购订单不要需要，应该被取消。
+<br />MRP - 060	到期释放——  计划采购订单应该被释放。
+<br />MRP - 070	过期释放——计划采购订单到期时没有释放，应该释放或者马上加速采购，或者物料需求再晚点。
+<br />MRP - 080	小于最小数量—— 当数量少于产品计划中的最小值时，采购订单应该被创建。
+<br />MRP - 090	小于最大数量—— 当数量少于产品计划中的最大值时，采购订单应该被创建。
+<br />MRP - 100	过期时间间隔—— 在某个物品的计划时间间隔内，物料需求无法满足。要么手动计划或者加速采购以满足需求，或者延迟物料需求。
+<br />MRP - 110	无需求]]></value>
+ </row>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Manufacturing Order">生产工单</value>
+  <value column="Description" original="Maintain Manufacturing Order">维护生产工单</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">生产计划是一个单据组，或者日程表，以授权生产一定数量的零件或产品</value>
+ </row>
+ <row id="53010" trl="Y">
+  <value column="Name" original="Spare parts">配件</value>
+  <value column="Description" original="Spare parts">零配件产品</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Activity Control Report">车间活动</value>
+  <value column="Description" original="Activity Control">活动控制</value>
+  <value column="Help" original="This window is reported the real issue the shop floor">车间实际活动情况</value>
+ </row>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Distribution Order">配送单</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">创建仓库内部订单以满足需求 </value>
+  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">创建仓库内部订单以满足需求 </value>
+ </row>
+ <row id="53013" trl="Y">
+  <value column="Name" original="Quality Specifications">质量规格</value>
+  <value column="Description" original="Maintain Quality Specifications">维护质量规范</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Cost Collector">成本归集</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">所有生产工单事务的成本归集</value>
+  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">所有生产工单事务的汇总。为了比较成本差异，实际相关事务允许用标准事务对比</value>
+ </row>
+ <row id="53015" trl="Y">
+  <value column="Name" original="ASP Modules">ASP 模块</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="ASP Subscribed Modules">ASP 订阅模块</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Rule">规则</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53018" trl="Y">
+  <value column="Name" original="Distribution Network">配送网络</value>
+  <value column="Description" original="Distribution Network define the supply relationships">配送网络定义供应关系</value>
+  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.">网络中的每层关系包含一个接收仓库和一个来源仓库和供应的比例。关系是单向的，仓库到仓库的关系</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Migration Scripts">迁移脚本</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Tax Group">税组</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">税组允许你分组业务伙伴的税种</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53021" trl="Y">
+  <value column="Name" original="Tax Definition">税定义</value>
+  <value column="Description" original="Lets you define different tax combinations.">定义不同的税组合</value>
+  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">你可以使用税种定义信息去创建税率</value>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Tax Rate Parent">父级税率</value>
+  <value column="Description" original="Maintain Taxes and their Rates">维护税和税率</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
+ </row>
+ <row id="53023" trl="Y">
+  <value column="Name" original="Tax Type">税类型</value>
+  <value column="Description" original="Tax Types let you group taxes together.">税类型-将税分组集合</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53024" trl="Y">
+  <value column="Name" original="Tax Base">计税基数</value>
+  <value column="Description" original="Defines tax base for a tax">定义税务基本信息</value>
+  <value column="Help" original="The Tax Base can be based on price , cost and quantity">可以基于价格，成本或者数量</value>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Export Format">导出格式</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Export Processor">导出引擎</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53027" trl="Y">
+  <value column="Name" original="Export Processor Type">导出引擎类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53028" trl="Y">
+  <value column="Name" original="Import Processor">导入引擎</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Import Processor Type">导入引擎类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Payroll Contract">薪酬合同</value>
+  <value column="Description" original="Maintain Payroll Contract">维护薪酬联系人</value>
+  <value column="Help" original="The Payroll Contract Window is used to define the laboral condition for the employes in a payroll">定义雇员薪酬的劳资条款</value>
+ </row>
+ <row id="53033" trl="Y">
+  <value column="Name" original="Payroll Employee">职员薪酬</value>
+  <value column="Description" original="Maintain Payroll Employee">维护职员薪酬</value>
+  <value column="Help" original="The Payroll Employee Window is used to define the Employees into the Organizational">定义组织内的雇员</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="Payroll Department">部门薪酬</value>
+  <value column="Description" original="Maintain Payroll Department">维护部门薪酬</value>
+  <value column="Help" original="The Payroll Departament Window is used to define the Organizational Structure for company">定义公司内的组织结构</value>
+ </row>
+ <row id="53035" trl="Y">
+  <value column="Name" original="Payroll Job">薪酬职位</value>
+  <value column="Description" original="Maintain Payroll Job">维护薪酬单</value>
+  <value column="Help" original="The Payroll Employee Window is used to define the Jobs into the Organizational Structure for a Company">职员工资表窗口用于把岗位定义到公司的组织架构</value>
+ </row>
+ <row id="53036" trl="Y">
+  <value column="Name" original="Payroll Concept Catalog">薪酬策略目录</value>
+  <value column="Description" original="Maintain Payroll Concept Catalog">维护薪酬策略类别</value>
+  <value column="Help" original="The Payroll  Concept Catalog Window is used to define the concepts for a payroll ie ( salaries, wages, bonuses, and deductions.)">定义薪酬的分类，比如工资、福利、奖金、扣款等</value>
+ </row>
+ <row id="53037" trl="Y">
+  <value column="Name" original="Payroll Process">薪酬处理</value>
+  <value column="Description" original="Payroll Process">薪酬处理</value>
+  <value column="Help" original="The Payroll Processing Window is used to processing a Payroll, you can calculate for a Employee or All Employees">处理计算所有雇员的薪酬</value>
+ </row>
+ <row id="53038" trl="Y">
+  <value column="Name" original="Payroll Definition">薪酬定义</value>
+  <value column="Description" original="In a company, payroll is the sum of all financial records of salaries, wages, bonuses, and deductions.">在一个公司，工薪总额是工资，薪金，奖金，并扣除所有财务记录的总和</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53039" trl="Y">
+  <value column="Name" original="Payroll Concept Category">薪酬策略类别</value>
+  <value column="Description" original="Maintain Payroll Concept Category">维护薪酬策略类别</value>
+  <value column="Help" original="The Payroll Concept Category Window is use to grouping concepts for a type">分组薪酬策略</value>
+ </row>
+ <row id="53040" trl="Y">
+  <value column="Name" original="Payroll Table Type">薪酬表类型</value>
+  <value column="Description" original="Maintain Payroll Table Type">维护薪酬单类型</value>
+  <value column="Help" original="The Payroll Table Type Window is used to define the Table Type">定义薪酬表类型</value>
+ </row>
+ <row id="53041" trl="Y">
+  <value column="Name" original="Payroll Table">薪酬单</value>
+  <value column="Description" original="Maintain Payroll Table">维护薪酬单</value>
+  <value column="Help" original="The Payroll Table Window is use to create Payroll Tables with version and range data">使用版本和范围数据创建薪酬表</value>
+ </row>
+ <row id="53042" trl="Y">
+  <value column="Name" original="Payroll Movement">薪酬调整</value>
+  <value column="Description" original="History of Payroll Movement">薪酬调整</value>
+  <value column="Help" original="The Payroll Movement Window is use to show the history the any calculated payroll">显示薪酬计算历史</value>
+ </row>
+ <row id="53044" trl="Y">
+  <value column="Name" original="Asset Revaluation Processing">资产重估处理</value>
+  <value column="Description" original="Process Revaluation of Assets">资产重估</value>
+  <value column="Help" original="This window allows you to select and process what assets are revalued">本窗口允许查看公司代理或销售代表相关的订单和发票等资料</value>
+ </row>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Asset Revaluation Index">资产重估索引</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">设置重估资产的索引或因子</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">允许您设置资产重估时的索引或因子数值</value>
+ </row>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Transfer Asset Entry">资产转让账目</value>
+  <value column="Description" original="Create Transfer Asset Entry">创建资产转移账目</value>
+  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">转让资产录入窗口允许创建和过账资产转移到总账</value>
+ </row>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Disposed Asset Entry">处置资产条目</value>
+  <value column="Description" original="Create Disposed Asset Entry">创建处置资产账目</value>
+  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">允许您创建和过账资产处置</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="Asset Split">资产拆分</value>
+  <value column="Description" original="Split Assets Process">分拆资产处理</value>
+  <value column="Help" original="The Asset Split window allows you to process asset splits">允许您过账资产分拆</value>
+ </row>
+ <row id="53049" trl="Y">
+  <value column="Name" original="Asset Disposal2">资产处置</value>
+  <value column="Description" original="Dispose of Assets">资产处置</value>
+  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">允许您创建必要的资产处置总账分录</value>
+ </row>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Asset Transfers">资产转移</value>
+  <value column="Description" original="Process transfers of assets">转移资产处理</value>
+  <value column="Help" original="The Asset Transfer window allows you to transfer assets">允许您处理资产转移</value>
+ </row>
+ <row id="53051" trl="Y">
+  <value column="Name" original="Split Asset Entry">分割资产账目</value>
+  <value column="Description" original="Create Split Asset Entries">创建分拆资产条目</value>
+  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">允许您创建和过账资产分拆</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">建立折旧费用工作文件</value>
+  <value column="Description" original="Build Depreciation Expense File">建立折旧费用文件</value>
+  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">对于不同的过账类型，允许您创建当前的折旧支出费用，比如实际预算和用户税费</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Post Depreciation Entry">资产折旧</value>
+  <value column="Description" original="Create Depreciation Entry">创建折旧，并过账</value>
+  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">此窗口用于录入和修改销售订单</value>
+ </row>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast">建立预估折旧</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53057" trl="Y">
+  <value column="Name" original="Depreciation Period Spread Type">折旧期间分摊类型</value>
+  <value column="Description" original="Period Spread Type">期间分摊类型</value>
+  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">允许您按期间设置和审核折旧</value>
+ </row>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Depreciation Methods">折旧方法</value>
+  <value column="Description" original="Depreciation Methods">折旧方法</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">允许用户审核折旧计算</value>
+ </row>
+ <row id="53059" trl="Y">
+  <value column="Name" original="Depreciation Tables">折旧表</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">允许用户新建多种折旧计划表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Depreciation First Year Conventions ">第一年折旧规则 </value>
+  <value column="Description" original="Setup for depreciation Setups">定义这就设置</value>
+  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">iDempiere允许用户定义折旧方法</value>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Depreciation Calculation Method">折旧计提方法</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">定义折旧费用的计提方法</value>
+  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">允许用户定义固定资产折旧</value>
+ </row>
+ <row id="53062" trl="Y">
+  <value column="Name" original="Charge Type">杂费类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="House Keeping">系统清理</value>
+  <value column="Description" original="">清理系统临时表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53064" trl="Y">
+  <value column="Name" original="View MRP Records">MRP记录</value>
+  <value column="Description" original="">显示MRP明细记录</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53065" trl="Y">
+  <value column="Name" original="Web POS Terminal">Web POS终端</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53067" trl="Y">
+  <value column="Name" original="Web Service Definition">Web Service定义</value>
+  <value column="Description" original="">定义Web Service的配置和方法</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Web Service Security">Web Service安全</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Search Definition">搜索码</value>
+  <value column="Description" original="Define transactioncodes for the QuickSearch bar">为快速查询栏定义搜索编码</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Import Price List">导入价格表</value>
+  <value column="Description" original="Import Price Lists">导入价格表</value>
+  <value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">导入产品窗口是一个临时表，它用于导入外部数据至系统中之时。选择“处理”按钮将添加或修改相应的记录</value>
+ </row>
+ <row id="53073" trl="Y">
+  <value column="Name" original="Promotion Group">促销分组</value>
+  <value column="Description" original="Grouping of product for promotion setup">产品促销设置分组</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Promotion">促销</value>
+  <value column="Description" original="Setup promotion rule">设置促销规则</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Report Cube">报表立方体</value>
+  <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">为预先计算会计报表数据定义报表立方体</value>
+  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">在选择日历中，分组所选择的维度，计算汇总数据</value>
+ </row>
+ <row id="53085" trl="Y">
+  <value column="Name" original="MRP Notice (all)">MRP通知(全部)</value>
+  <value column="Description" original="View all MRP Notices">查看全部MRP 提醒</value>
+  <value column="Help" original="The system creates notices will running MRP process. In this window you can view them.&#10;">系统创建执行流程时的消息。在本窗口中，可查看它们。
+</value>
+ </row>
+ <row id="53086" trl="Y">
+  <value column="Name" original="My Unprocessed Documents">我的未处理单据</value>
+  <value column="Description" original="My Unprocessed Documents">我的未处理单据</value>
+  <value column="Help" original="View my unprocessed documents">查看我的未处理单据</value>
+ </row>
+ <row id="53087" trl="Y">
+  <value column="Name" original="Unprocessed Documents (All)">未处理单据(所有)</value>
+  <value column="Description" original="Unprocessed Documents (All)">未处理单据(所有)</value>
+  <value column="Help" original="View all unprocessed documents">查看全部未处理单据</value>
+ </row>
+ <row id="53097" trl="Y">
+  <value column="Name" original="Customer Return">客户退货</value>
+  <value column="Description" original="Customer Return (Receipts)">客户退货(收货)</value>
+  <value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">退货行页签定义了客户退货的各行</value>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Return to Vendor">供应商退货</value>
+  <value column="Description" original="Vendor Returns">供应商退货</value>
+  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">因供应商退货而创建的发货单</value>
+ </row>
+ <row id="53099" trl="Y">
+  <value column="Name" original="Vendor RMA">供应商退货授权</value>
+  <value column="Description" original="Manage Return Material Authorization">管理退货授权</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">必须有退货授权，才能接受退货，同时还必须进行信用记录</value>
+ </row>
+ <row id="53100" trl="Y">
+  <value column="Name" original="My Profile">个人信息</value>
+  <value column="Description" original="My user information">我的用户信息</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53101" trl="Y">
+  <value column="Name" original="Order Source">订单来源</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53102" trl="Y">
+  <value column="Name" original="Relation Type">关联类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53104" trl="Y">
+  <value column="Name" original="Withholding">代扣代缴</value>
+  <value column="Description" original="Define Withholding">定义代扣代缴</value>
+  <value column="Help" original="The Withholding Window defines withholding information for business partners.">扣缴窗口定义业务伙伴的扣缴信息</value>
+ </row>
+ <row id="53108" trl="Y">
+  <value column="Name" original="Import Payroll Movement">薪酬调整</value>
+  <value column="Description" original="Import Payroll Movement">薪酬调整</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Import Product Planning">导入产品计划</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53113" trl="Y">
+  <value column="Name" original="Asset Addition">资产新增</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Asset Disposal">资产处置</value>
+  <value column="Description" original="Dispose of Assets">资产处置</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53115" trl="Y">
+  <value column="Name" original="Asset Change Account">资产变更帐户</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53116" trl="Y">
+  <value column="Name" original="Asset Class">资产类别</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53117" trl="Y">
+  <value column="Name" original="Asset Funding Mode">资产融资模式</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53118" trl="Y">
+  <value column="Name" original="Revaluation Asset">资产重估</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53119" trl="Y">
+  <value column="Name" original="Asset Type">资产类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53120" trl="Y">
+  <value column="Name" original="Imported Fixed Asset">导入固定资产</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53121" trl="Y">
+  <value column="Name" original="Import Inventory Move">导入库存移动</value>
+  <value column="Description" original="This window allow import Inventory Move transaction">这个窗口允许导入移库操作</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53124" trl="Y">
+  <value column="Name" original="Chart">图表</value>
+  <value column="Description" original="Chart Definition">图表定义</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53125" trl="Y">
+  <value column="Name" original="Fact Reconciliation">会计分录</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Production (Single Product)">简单生产</value>
+  <value column="Description" original="">非BOM产品生产</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53128" trl="Y">
+  <value column="Name" original="Parts and BOMs">部件和材料明细表</value>
+  <value column="Description" original="Maintain Bill of Materials">维护BOM</value>
+  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">物料清单窗口为轻量级制造组织定义所有产品的物料清单</value>
+ </row>
+ <row id="53134" trl="Y">
+  <value column="Name" original="Cash Plan">现金计划</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53141" trl="N">
+  <value column="Name" original="Request OT">Request OT</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53142" trl="N">
+  <value column="Name" original="Meter">Meter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="N">
+  <value column="Name" original="Job Standard">Job Standard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53144" trl="N">
+  <value column="Name" original="Preventive Maintenance">Preventive Maintenance</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53145" trl="N">
+  <value column="Name" original="Work Order">Work Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Quality Test">质量检验</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53150" trl="Y">
+  <value column="Name" original="Part Type">部件类型</value>
+  <value column="Description" original="Manufacturing Part Types">制造部件类型</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53152" trl="Y">
+  <value column="Name" original="Contact">客户联系</value>
+  <value column="Description" original="Maintain Contacts">管理日常客户联系记录</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">管理日常客户联系记录</value>
+ </row>
+ <row id="53153" trl="Y">
+  <value column="Name" original="Lead">线索</value>
+  <value column="Description" original="Maintain Leads">维护线索</value>
+  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. </value>
+ </row>
+ <row id="53154" trl="Y">
+  <value column="Name" original="Sales Stage">销售阶段</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Sales Opportunity">销售机会</value>
+  <value column="Description" original="A potential sale">一个潜在的销售机会</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53156" trl="Y">
+  <value column="Name" original="Sales Rep Dashboard">销售仪表盘</value>
+  <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">The Sales Rep Dashboard provides a single location for managing sales opportunities</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53165" trl="Y">
+  <value column="Name" original="Customer">客户维护</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Toolbar Button">工具栏按钮</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Role Toolbar Button Access">工具栏按钮权限</value>
+  <value column="Description" original="Maintain toolbar button access rule">维护角色的工具栏按钮的访问权限</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Password Rule">密码规则</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="GL Journal">凭证</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">输入并更改手工凭证分录</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">凭证批窗口允许成批地输入或修改手工凭证分录</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Dashboard Preference">仪表盘设置</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="POS Payment">POS收款</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="POS Tender Type">POS付款类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Schedule">计划周期</value>
+  <value column="Description" original="Times for the scheduler">维护计划任务的时间周期</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200013" trl="Y">
+  <value column="Name" original="GL Journal Generator">凭证生成器</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Payment Processor">付款引擎</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200016" trl="Y">
+  <value column="Name" original="Active Session">活动会话</value>
+  <value column="Description" original="List of Current Logged in user">当前登录用户列表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="Y">
+  <value column="Name" original="Payment Transaction">支付事务</value>
+  <value column="Description" original="Payment Transactions">支付事务历史</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200018" trl="Y">
+  <value column="Name" original="Online Transaction History">在线交易日志</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200020" trl="Y">
+  <value column="Name" original="Setup Wizard Maintenance">实体设置记录</value>
+  <value column="Description" original="Maintenance Setup Wizard window">实体向导的设置记录</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Storage Provider">存储设置</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200023" trl="Y">
+  <value column="Name" original="Broadcast Message">广播消息</value>
+  <value column="Description" original="Broadcast Message">广播消息</value>
+  <value column="Help" original="Window allows to enter broadcast messages">窗口允许输入广播消息</value>
+ </row>
+ <row id="200024" trl="Y">
+  <value column="Name" original="Shipping Processor">电子物流接口</value>
+  <value column="Description" original="">配置电子物流的参数</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200025" trl="Y">
+  <value column="Name" original="Shipment Package">发货打包</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200026" trl="Y">
+  <value column="Name" original="Commodity Shipment">出口编码</value>
+  <value column="Description" original="">维护商品出口编码</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200028" trl="Y">
+  <value column="Name" original="Shipping Processor Configuration">电子物流配置</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200029" trl="Y">
+  <value column="Name" original="Shipper Configuration">承运人设置</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200030" trl="Y">
+  <value column="Name" original="Shipping Transaction">发货事务</value>
+  <value column="Description" original="Shipping Transactions">物流事务记录</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200031" trl="Y">
+  <value column="Name" original="Payments into Batch">批量付款</value>
+  <value column="Description" original="Process Payments">批量付款</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">允许用户对发票付款，针对单张发票</value>
+ </row>
+ <row id="200034" trl="Y">
+  <value column="Name" original="Context Help">自定义帮助</value>
+  <value column="Description" original="Maintain Context Helps">维护上下文帮助</value>
+  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">定义在”帮助“面板的上下文帮助信息，只针对WEB界面</value>
+ </row>
+ <row id="200036" trl="Y">
+  <value column="Name" original="1099 Box">1099 报税</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200043" trl="Y">
+  <value column="Name" original="Cost Adjustment">成本调整</value>
+  <value column="Description" original="Enter Inventory Cost Adjustment">库存成本调整</value>
+  <value column="Help" original="The Cost Adjustment Window allow user to enter cost adjustment for products">该窗口可以对产品进库存成本调整</value>
+ </row>
+ <row id="200044" trl="Y">
+  <value column="Name" original="Tax Provider Configuration">电子税务配置</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200045" trl="Y">
+  <value column="Name" original="Tax Provider">电子税务接口</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200046" trl="Y">
+  <value column="Name" original="Address Validation Configuration">地址验证配置</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200047" trl="Y">
+  <value column="Name" original="Address Validation">地址验证</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200048" trl="Y">
+  <value column="Name" original="Address Transaction">地址验证结果</value>
+  <value column="Description" original="">地址验证结果</value>
+  <value column="Help" original="">地址验证结果</value>
+ </row>
+ <row id="200049" trl="Y">
+  <value column="Name" original="Status Line">状态行</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200054" trl="N">
+  <value column="Name" original="Dummy">Dummy</value>
+  <value column="Description" original="This window if for save preference for process parameter panel and info window in case open from menu (stand alone window)">This window if for save preference for process parameter panel and info window in case open from menu (stand alone window)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200059" trl="Y">
+  <value column="Name" original="Recurring Group">经常性单据组</value>
+  <value column="Description" original="Recurring Group">经常性单据组</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200061" trl="Y">
+  <value column="Name" original="Country Group">国家联合体</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200063" trl="Y">
+  <value column="Name" original="Import Template">导入CSV模板</value>
+  <value column="Description" original="">导入CSV文件头定义</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200073" trl="Y">
+  <value column="Name" original="User Preference">用户首选项</value>
+  <value column="Description" original="This window is use to set up the preferences entries for each user.">用户在系统中的偏爱设置</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="Y">
+  <value column="Name" original="Locator Type">库位类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200083" trl="Y">
+  <value column="Name" original="Menu favourites">用户收藏夹</value>
+  <value column="Description" original="">查看用户收藏的菜单项</value>
+  <value column="Help" original="">登陆系统后把每次都要使用的常用菜单功能都自动的打开</value>
+ </row>
+ <row id="200086" trl="Y">
+  <value column="Name" original="CSS Style">CSS 样式</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200090" trl="Y">
+  <value column="Name" original="Document Status">单据状态</value>
+  <value column="Description" original="">设置单据状态</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e11f7c35-81b4-473a-8aca-4129d0036861">
+  <value column="Name" original="Inbound/Outbound Rule">入库/出库规则</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Rule">入库/出库规则</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm, these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.">The Inbound(Putaway) and Outbound(Picking)  Rules define the business logic according to a previously implemented algorithm， these rules are used by the Inbound(Putaway) and Outbound(Picking)  Strategy to determine the business logic and the operation type within the warehouse.</value>
+ </row>
+ <row trl="N" uuid="f8e215f5-1e77-4a0a-a02f-54a26fd23efd">
+  <value column="Name" original="Inbound/Outbound Definition">入库/出库定义</value>
+  <value column="Description" original="Maintain Inbound/Outbound Definition">入库/出库定义</value>
+  <value column="Help" original="Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product, product category, product group 1, product group 2, &#10;product classiﬁcation, business partner, business partner group, Warehouse Area Type, Warehouse Section Type and Warehouse Location">Inbound/Outbound Definition window  allows to deﬁne a set of conditions in order to implement a Picking and Putaway strategy using different criteria such as product， product category， product group 1， product group 2， 
+product classiﬁcation， business partner， business partner group， Warehouse Area Type， Warehouse Section Type and Warehouse Location</value>
+ </row>
+ <row trl="N" uuid="a5c5289b-1733-47b1-9084-3cf1b1e5e636">
+  <value column="Name" original="Inbound/Outbound Definition Schema">入库/出库定义模式</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition Schemas"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a4c2655c-71ae-48af-bcf3-024a154c39fd">
+  <value column="Name" original="Product Inbound/Outbound Definition">产品入库/出库定义</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Definition for Products">定义仓库入库/出库定义</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="69db9d42-1f28-42a4-abbf-8da492b5a326">
+  <value column="Name" original="Warehouse Area Type">存储区域</value>
+  <value column="Description" original="Maintain Warehouse Area Type">设置存储区域</value>
+  <value column="Help" original="The Area Type allows to define several area types within the Warehouse, according to the use of the space e.g. some types for technical purposes or as put away space, open area">存储区域可以是物理的也可以是逻辑的区域，是根据仓储技术（例如自动仓，半自动仓，高架货架等），使用空间区域，组织形式或者功能等对复杂的仓库进行 的分割定义单元。</value>
+ </row>
+ <row trl="Y" uuid="9524586c-6d3a-44a3-9ea6-0af988ab0e85">
+  <value column="Name" original="Warehouse Section Type">仓库分区</value>
+  <value column="Description" original="Maintain Warehouse Section Type">维护仓库区域类型</value>
+  <value column="Help" original="The Warehouse Section type is required for picking and putaway the material, it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also, these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)">The Warehouse Section type is required for picking and putaway the material， it can be defined according to: *Heavy Parts *Bulky Materials *Slow or Fast moving products Also， these types allow to determine the Operation Type e.g. either picking or putaway within the Warehouse The Warehouse Section Type also define the Warehouse Section for Inbound or Outbound Operations Also the Section Type allows to define the type Warehouse Management operation Picking Section (Inbound) Putaway Section (Outbound)</value>
+ </row>
+ <row trl="N" uuid="f0cd1739-447a-43be-bae3-6c418570dad4">
+  <value column="Name" original="Warehouse Structure">仓库结构</value>
+  <value column="Description" original="Maintain Warehouse Structure">设置仓库区域、分区</value>
+  <value column="Help" original="In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas, Sections and Locations, therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.&#10;&#10;Finally, warehouse sections can be grouped into different locations and section types.">In order to Implement the Warehouse Management functionality you need to configure a logical mapping of your warehouse that accurately matches its physical layout. Warehouses are usually subdivided into Areas， Sections and Locations， therefore it has the ability to handle multiple warehouse areas and each can be further divided into different sections as well.
+
+Finally， warehouse sections can be grouped into different locations and section types.</value>
+ </row>
+ <row trl="N" uuid="9ca92738-4eaa-46f2-9a88-cae6e8e687d4">
+  <value column="Name" original="Inbound/Outbound Strategy">入库/出库策略</value>
+  <value column="Description" original="Maintain Warehouse Inbound/Outbound Strategy">入库/出库策略</value>
+  <value column="Help" original="The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation, thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.">The Inbound(Putaway) and Outbound(Picking) Strategy allows to define several rules and their sequences as to how they are to be applied in order to get the right locations to be used in the warehouse operation， thus allowing you to define your own Inbound(Putaway) and Outbound(Picking) strategies for the material.</value>
+ </row>
+ <row trl="N" uuid="cdd45eef-9616-4603-8e15-f8764c44f9f1">
+  <value column="Name" original="Pack Type">包装类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b5437baa-94dd-4c73-9e9f-014405c0df61">
+  <value column="Name" original="Handling Unit">处理单元</value>
+  <value column="Description" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. ">比如：集装箱，栈板，纸箱，储物篮</value>
+  <value column="Help" original="A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items, for example, about batches, is retained in the handling units and is always available.">A handling unit is a physical unit consisting of packaging materials (load carriers/packing material) and the goods contained on/in it. A handling unit is always a combination of products and  pack types. All the information contained in the product items， for example， about batches， is retained in the handling units and is always available.</value>
+ </row>
+ <row trl="N" uuid="28b6490b-065e-4083-9bcc-148c1162afc5">
+  <value column="Name" original="Inbound Order">入库订单</value>
+  <value column="Description" original="Inbound Order starts Warehouse Putaway Process">仓库上架流程</value>
+  <value column="Help" original="Inbound Order starts Warehouse Putaway Process based on Purchase Orders, needs to be fulfilled from. Document is generated by Generate Inbound Order.">Inbound Order starts Warehouse Putaway Process based on Purchase Orders， needs to be fulfilled from. Document is generated by Generate Inbound Order.</value>
+ </row>
+ <row trl="N" uuid="db2700f3-4c6a-4783-a613-e05dffcafad6">
+  <value column="Name" original="Outbound Order">出库订单</value>
+  <value column="Description" original="Outbound Order starts Warehouse Picking Process">仓库拣货流程</value>
+  <value column="Help" original="Outbound Order starts Warehouse Picking Process based on Sales Orders, needs to be fulfilled from. Document is generated by Generate Outbound Order.">Outbound Order starts Warehouse Picking Process based on Sales Orders， needs to be fulfilled from. Document is generated by Generate Outbound Order.</value>
+ </row>
+ <row trl="N" uuid="860981c3-46e3-4f96-9bce-1bbfb13f66eb">
+  <value column="Name" original="Scan Batch">批量扫描</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e881372b-2187-44ee-a257-8c1eb3ad20e9">
+  <value column="Name" original="Meter Log">Meter Log</value>
+  <value column="Description" original="Independent Meter Log Management">单独的设备读数管理</value>
+  <value column="Help" original="Enter your meter readings separate operations control">Enter your meter readings separate operations control</value>
+ </row>
+ <row trl="N" uuid="a4f048c0-a5a8-415e-9875-2c8a774d77b4">
+  <value column="Name" original="MRP">MRP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="aae447ae-cb00-484a-8868-e2040ccee9c0">
+  <value column="Name" original="Sales Order in PEP">销售订单@PEP</value>
+  <value column="Description" original="Enter and change sales orders  in PEP">输入与更改销售订单</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders in PEP.  ">此窗口用于录入和修改销售订单。  </value>
+ </row>
+ <row trl="N" uuid="38755037-6b1c-4d2f-8ab1-ee1fb9144d38">
+  <value column="Name" original="Shipping Region">Shipping Region</value>
+  <value column="Description" original="Maintain Shipping Regions">Maintain Shipping Regions</value>
+  <value column="Help" original="The Shipping Region Window defines the different regions where you ship goods.  You can generate reports based on Shipping Regions">The Shipping Region Window defines the different regions where you ship goods.  You can generate reports based on Shipping Regions</value>
+ </row>
+ <row trl="N" uuid="325d97b0-0c07-4b3a-95fa-a15b6d9cceec">
+  <value column="Name" original="Import InOut">Import InOut</value>
+  <value column="Description" original="Import InOut">Import InOut</value>
+  <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions. ">Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for "don't know".
+In general， selection boxes are not selected if the value is not "Y" (i.e. could be null or any other value). All tests are made on "Y" or "not Y" - i.e. NULL values are not "not Y"， but NULL (don't know) - see SQL Language introductions. </value>
+ </row>
+ <row trl="Y" uuid="5ede077a-f5a0-432f-88ab-6fbdc8f34355">
+  <value column="Name" original="Service">服务</value>
+  <value column="Description" original="Maintain Service">维护服务</value>
+  <value column="Help" original="Maintain your Service">维护资源。资源产品被自动创建和同步。请在资源中更改名称、计量单位等，而不要在产品中更改</value>
+ </row>
+ <row trl="Y" uuid="805554c9-7670-4624-a96b-f2dc88788ab3">
+  <value column="Name" original="PEP Process define">工序定义</value>
+  <value column="Description" original="Process define"/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="37a43f49-595f-47aa-9565-c46c67735b36">
+  <value column="Name" original="pz">pz</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e4ea6cb2-76f6-498e-991d-6ebad2eb873d">
+  <value column="Name" original="pep trans">pep trans</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>
