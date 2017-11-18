@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormatItem">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormatItem">
  <row id="50477" trl="Y">
   <value column="Name" original="VendorProductNo">供应商产品号</value>
   <value column="PrintName" original="VendorProductNo">供应商产品号</value>
@@ -37,7 +37,7 @@
  </row>
  <row id="51026" trl="Y">
   <value column="Name" original="Acct Schema">会计模式</value>
-  <value column="PrintName" original="">会计模式</value>
+  <value column="PrintName" original="Acct Schema">会计模式</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="51066" trl="Y">
@@ -57,12 +57,12 @@
  </row>
  <row id="51069" trl="Y">
   <value column="Name" original="Frozen">成本冻结</value>
-  <value column="PrintName" original="">成本冻结</value>
+  <value column="PrintName" original="Frozen">成本冻结</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="51074" trl="Y">
-  <value column="Name" original="Description">仅描述</value>
-  <value column="PrintName" original="Description">仅描述</value>
+  <value column="Name" original="Description">描述</value>
+  <value column="PrintName" original="Description">描述</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="51075" trl="Y">
@@ -86,48 +86,48 @@
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200067" trl="Y">
-  <value column="Name" original="Report Title">发票抬头</value>
-  <value column="PrintName" original="Single Level BOM">发票抬头</value>
+  <value column="Name" original="Report Title">产品</value>
+  <value column="PrintName" original="Single Level BOM">产品</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200068" trl="Y">
-  <value column="Name" original="Label Part Number">标签部件编号</value>
-  <value column="PrintName" original="Part Number">标签部件编号</value>
+  <value column="Name" original="Label Part Number">产品编码</value>
+  <value column="PrintName" original="Part Number">产品编码</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200069" trl="Y">
-  <value column="Name" original="Label Product Name">产品名称已存在!</value>
-  <value column="PrintName" original="Product Name">产品名称已存在!</value>
+  <value column="Name" original="Label Product Name">产品名称</value>
+  <value column="PrintName" original="Product Name">产品名称</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200070" trl="Y">
-  <value column="Name" original="Label Product Category">定义产品类别</value>
-  <value column="PrintName" original="Product Category">定义产品类别</value>
+  <value column="Name" original="Label Product Category">产品类别</value>
+  <value column="PrintName" original="Product Category">产品类别</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200071" trl="Y">
-  <value column="Name" original="Label Part Type">标签部件类型</value>
-  <value column="PrintName" original="Part Type">标签部件类型</value>
+  <value column="Name" original="Label Part Type">产品类型</value>
+  <value column="PrintName" original="Part Type">产品类型</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200072" trl="Y">
-  <value column="Name" original="Label Unit Of Measure">维护度量单位</value>
-  <value column="PrintName" original="Unit of Measure">维护度量单位</value>
+  <value column="Name" original="Label Unit Of Measure">单位</value>
+  <value column="PrintName" original="Unit of Measure">单位</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200073" trl="Y">
-  <value column="Name" original="Label Locator">预留库位</value>
-  <value column="PrintName" original="Locator">预留库位</value>
+  <value column="Name" original="Label Locator">库位</value>
+  <value column="PrintName" original="Locator">库位</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200074" trl="Y">
-  <value column="Name" original="Label Standard Cost">新标准成本</value>
-  <value column="PrintName" original="Standard Cost">新标准成本</value>
+  <value column="Name" original="Label Standard Cost">标准成本</value>
+  <value column="PrintName" original="Standard Cost">标准成本</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200075" trl="Y">
-  <value column="Name" original="Part Type">部件类型</value>
-  <value column="PrintName" original="Part Type">部件类型</value>
+  <value column="Name" original="Part Type">产品类别</value>
+  <value column="PrintName" original="Part Type">产品类别</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200076" trl="Y">
@@ -136,33 +136,33 @@
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200077" trl="Y">
-  <value column="Name" original="Label Bill of Materials">BOM标签</value>
-  <value column="PrintName" original="Bill of Materials">BOM标签</value>
+  <value column="Name" original="Label Bill of Materials">BOM</value>
+  <value column="PrintName" original="Bill of Materials">BOM</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200078" trl="Y">
-  <value column="Name" original="Label Manufactured">标签已制造</value>
-  <value column="PrintName" original="Manufactured">标签已制造</value>
+  <value column="Name" original="Label Manufactured">可制造</value>
+  <value column="PrintName" original="Manufactured">可制造</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200079" trl="Y">
-  <value column="Name" original="Label Purchased">现在采购？</value>
-  <value column="PrintName" original="Purchased">现在采购？</value>
+  <value column="Name" original="Label Purchased">可采购</value>
+  <value column="PrintName" original="Purchased">可采购</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200080" trl="Y">
-  <value column="Name" original="Label Sold">售出资产</value>
-  <value column="PrintName" original="Sold">售出资产</value>
+  <value column="Name" original="Label Sold">可销售</value>
+  <value column="PrintName" original="Sold">可销售</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200081" trl="Y">
-  <value column="Name" original="Label Kanban">看板(KANBAN)标签</value>
-  <value column="PrintName" original="Kanban Controlled">看板(KANBAN)标签</value>
+  <value column="Name" original="Label Kanban">看板</value>
+  <value column="PrintName" original="Kanban Controlled">看板</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200085" trl="Y">
-  <value column="Name" original="Label BOM Verified">验证BOM标签</value>
-  <value column="PrintName" original="BOM Verified">验证BOM标签</value>
+  <value column="Name" original="Label BOM Verified">BOM已验证</value>
+  <value column="PrintName" original="BOM Verified">BOM已验证</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row id="200153" trl="Y">
@@ -172,117 +172,42 @@
  </row>
  <row trl="Y" uuid="88a1ffd0-9a1e-4db9-a1af-03590e7c03b0">
   <value column="Name" original="Logo">Logo</value>
-  <value column="PrintName" original="">Logo</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="39d6d355-2460-4ffa-91be-a6ce2d4e7ff6">
-  <value column="Name" original="Document Type">Document Type</value>
-  <value column="PrintName" original="">Document Type</value>
+  <value column="PrintName" original="Logo">Logo</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row trl="Y" uuid="40655045-d10f-439f-80c0-696ade41c359">
   <value column="Name" original="Document No">单号</value>
-  <value column="PrintName" original="">单号</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="bd06b812-305a-42e2-8077-f46b36a45f10">
-  <value column="Name" original="Payment date">Payment date</value>
-  <value column="PrintName" original="Payment date: ">Payment date</value>
+  <value column="PrintName" original="Document No">单号</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row trl="Y" uuid="a962bfbb-512f-4a14-b072-7378dfd5b2f9">
   <value column="Name" original="Logo">Logo</value>
-  <value column="PrintName" original="">Logo</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="be452fed-9df8-4d42-a54e-33041b2be445">
-  <value column="Name" original="Document Type">Document Type</value>
-  <value column="PrintName" original="">Document Type</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="dbeb24bc-5d17-4220-b305-d653205e507b">
-  <value column="Name" original="Line1">Line1</value>
-  <value column="PrintName" original="">Line1</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="c1e996fc-11af-4ef2-a54d-7422e80c83e7">
-  <value column="Name" original="Business Partner">Business Partner</value>
-  <value column="PrintName" original="Business Partner">Business Partner</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="ae55914e-32b1-4794-9b48-28b6771b2ce6">
-  <value column="Name" original="Tax ID Alternative">Tax ID Alternative</value>
-  <value column="PrintName" original="Tax ID Alternative: ">Tax ID Alternative</value>
+  <value column="PrintName" original="Logo">Logo</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row trl="Y" uuid="c29a45f4-87b1-46e4-bb32-efeda9b9ec75">
   <value column="Name" original="Document No">单号</value>
-  <value column="PrintName" original="">单号</value>
+  <value column="PrintName" original="Document No">单号</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="abbf6c1c-9648-4c44-8254-920162c821d9">
-  <value column="Name" original="Payment date">Payment date</value>
-  <value column="PrintName" original="Payment date: ">Payment date</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="b9691592-e2e5-421c-bbf2-1e92772a96c1">
-  <value column="Name" original="Description">Description</value>
-  <value column="PrintName" original="Description">Description</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="bd1f6f6d-a583-4433-bc85-409519d49f53">
-  <value column="Name" original="Line 1">Line 1</value>
-  <value column="PrintName" original="">Line 1</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="23c48dd3-3cd3-4aa9-b76b-de25ab2507c9">
-  <value column="Name" original="Line 2">Line 2</value>
-  <value column="PrintName" original="">Line 2</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="e61840b4-1d3e-4d9d-8caa-ff454277dee9">
-  <value column="Name" original="Business Partner ">Business Partner </value>
-  <value column="PrintName" original="">Business Partner </value>
+ <row trl="Y" uuid="b9691592-e2e5-421c-bbf2-1e92772a96c1">
+  <value column="Name" original="Description">描述</value>
+  <value column="PrintName" original="Description">描述</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row trl="Y" uuid="8733206f-9640-4bc7-bcb3-8839238bf5d4">
   <value column="Name" original="Logo">Logo</value>
-  <value column="PrintName" original="">Logo</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="06f973f6-0ba4-4997-ba1b-ef96abdd2eb6">
-  <value column="Name" original="Document Type">Document Type</value>
-  <value column="PrintName" original="">Document Type</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="c9ab1936-0aab-4400-a29b-df2ca00705af">
-  <value column="Name" original="Line1">Line1</value>
-  <value column="PrintName" original="">Line1</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="6df1b5ef-2fbb-44a9-a4e0-079bd511ade5">
-  <value column="Name" original="Business Partner">Business Partner</value>
-  <value column="PrintName" original="Business Partner">Business Partner</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="6a5db28a-956f-4d69-a4f9-4237c4462b7d">
-  <value column="Name" original="Tax ID Alternative">Tax ID Alternative</value>
-  <value column="PrintName" original="Tax ID Alternative: ">Tax ID Alternative</value>
+  <value column="PrintName" original="Logo">Logo</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
  <row trl="Y" uuid="2eece428-11a5-44a7-a813-c45d6aafad7a">
   <value column="Name" original="Document No">单号</value>
-  <value column="PrintName" original="">单号</value>
+  <value column="PrintName" original="Document No">单号</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
- <row trl="N" uuid="c624bbde-dbd1-488a-976d-7fa901923719">
-  <value column="Name" original="Payment date">Payment date</value>
-  <value column="PrintName" original="Payment date: ">Payment date</value>
-  <value column="PrintNameSuffix" original=""/>
- </row>
- <row trl="N" uuid="57b7240d-9f71-4496-9157-7860a8749d34">
-  <value column="Name" original="Description">Description</value>
-  <value column="PrintName" original="Description">Description</value>
+ <row trl="Y" uuid="57b7240d-9f71-4496-9157-7860a8749d34">
+  <value column="Name" original="Description">描述</value>
+  <value column="PrintName" original="Description">描述</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
 </idempiereTrl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
  <row id="1" trl="Y">
   <value column="Name" original="AD_Reference Data Types">AD数据引用类型</value>
   <value column="Description" original="Data Type selection">AD_Reference Data Types，AD数据类型</value>
@@ -61,7 +61,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="17" trl="Y">
-  <value column="Name" original="List">引用</value>
+  <value column="Name" original="List">引用列表</value>
   <value column="Description" original="Reference List">引用列表</value>
   <value column="Help" original=""/>
  </row>
@@ -81,7 +81,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="21" trl="Y">
-  <value column="Name" original="Location (Address)">位置(地址)</value>
+  <value column="Name" original="Location (Address)">位置/地址</value>
   <value column="Description" original="Location/Address">位置/地址</value>
   <value column="Help" original=""/>
  </row>
@@ -132,7 +132,7 @@
  </row>
  <row id="31" trl="Y">
   <value column="Name" original="Locator (WH)">库位</value>
-  <value column="Description" original="Warehouse Locator Data type">储入仓库货位数据类型</value>
+  <value column="Description" original="Warehouse Locator Data type">仓库货位数据类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="32" trl="Y">
@@ -302,7 +302,7 @@
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="_Posting Type">_过账类型</value>
-  <value column="Description" original="Posting Type (Actual Budget etc.) list">过账类型(当前预算等)列表</value>
+  <value column="Description" original="Posting Type (Actual Budget etc.) list">过账类型列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="126" trl="Y">
@@ -346,8 +346,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="135" trl="Y">
-  <value column="Name" original="_Document Action">_单据动作</value>
-  <value column="Description" original="Document action list">单据动作清单</value>
+  <value column="Name" original="_Document Action">_单据操作</value>
+  <value column="Description" original="Document action list">所有操作单据的动作</value>
   <value column="Help" original=""/>
  </row>
  <row id="136" trl="Y">
@@ -366,7 +366,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="141" trl="Y">
-  <value column="Name" original="C_Project (No summary)">C_项目 (无概要)</value>
+  <value column="Name" original="C_Project (No summary)">项目 (无概要)</value>
   <value column="Description" original="Project selection">项目选择</value>
   <value column="Help" original=""/>
  </row>
@@ -446,8 +446,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="159" trl="Y">
-  <value column="Name" original="C_BPartner Location">C_业务伙伴 位置</value>
-  <value column="Description" original="Locations of a Business Partner">业务伙伴位置</value>
+  <value column="Name" original="C_BPartner Location">C_业务伙伴地点</value>
+  <value column="Description" original="Locations of a Business Partner">C_业务伙伴地点</value>
   <value column="Help" original=""/>
  </row>
  <row id="161" trl="Y">
@@ -486,7 +486,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="169" trl="Y">
-  <value column="Name" original="C_Project Parent">C_项目 父类</value>
+  <value column="Name" original="C_Project Parent">父项目</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -602,7 +602,7 @@
  </row>
  <row id="195" trl="Y">
   <value column="Name" original="_Payment Rule">_付款规则</value>
-  <value column="Description" original="In &amp; Out Payment Options">入与出付款选项</value>
+  <value column="Description" original="In &amp; Out Payment Options">支款选项</value>
   <value column="Help" original=""/>
  </row>
  <row id="196" trl="Y">
@@ -661,7 +661,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="207" trl="Y">
-  <value column="Name" original="GL Category Type">总账分类类型</value>
+  <value column="Name" original="GL Category Type">总账类别来源</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -776,7 +776,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="231" trl="Y">
-  <value column="Name" original="PA_Measure Type">PA_度量类型</value>
+  <value column="Name" original="PA_Measure Type">PA_绩效评估方式</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -913,7 +913,7 @@
  <row id="258" trl="Y">
   <value column="Name" original="AD_Column YesNo">AD_列 是否</value>
   <value column="Description" original="Coluns YesNo (Name)">YesNo列</value>
-  <value column="Help" original=""/>
+  <value column="Help" original="">表中的所有”是否“类型字段</value>
  </row>
  <row id="259" trl="Y">
   <value column="Name" original="AD_PrintFormat">AD_PrintFormat</value>
@@ -1046,7 +1046,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="288" trl="Y">
-  <value column="Name" original="C_ProjectType Category">C_ProjectType 种类</value>
+  <value column="Name" original="C_ProjectType Category">项目类型分类</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1126,7 +1126,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="304" trl="Y">
-  <value column="Name" original="WF_Participant Type">WF_Participant 类型</value>
+  <value column="Name" original="WF_Participant Type">WF_节点用户类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1286,7 +1286,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="338" trl="Y">
-  <value column="Name" original="M_CostElement Type">成本元素 类型</value>
+  <value column="Name" original="M_CostElement Type">成本元素类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1436,7 +1436,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="369" trl="Y">
-  <value column="Name" original="PA_Measure DataType">PA_度量数据类型</value>
+  <value column="Name" original="PA_Measure DataType">PA_指标数据类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1481,12 +1481,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="383" trl="Y">
-  <value column="Name" original="C_Project InvoiceRule">C_Project 开发票规则</value>
+  <value column="Name" original="C_Project InvoiceRule">项目开发票规则</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="384" trl="Y">
-  <value column="Name" original="C_Project LineLevel">C_Project 行 级别</value>
+  <value column="Name" original="C_Project LineLevel">项目明细级别</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1796,8 +1796,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="53258" trl="Y">
-  <value column="Name" original="A_Asset_ID">A_Asset_ID</value>
-  <value column="Description" original="Asset ID">资产 ID</value>
+  <value column="Name" original="A_Asset_ID">资产清单</value>
+  <value column="Description" original="Asset ID">资产清单</value>
   <value column="Help" original=""/>
  </row>
  <row id="53259" trl="Y">
@@ -1841,13 +1841,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="53267" trl="Y">
-  <value column="Name" original="A_ConventionType">A_兑换率类型</value>
+  <value column="Name" original="A_ConventionType">半年常规折旧类型</value>
   <value column="Description" original="Display mid year convention types">Display mid year convention types</value>
   <value column="Help" original=""/>
  </row>
  <row id="53268" trl="Y">
-  <value column="Name" original="A_Asset_Spread">资产分摊</value>
-  <value column="Description" original="Depreciation Type Spread">折旧类型</value>
+  <value column="Name" original="A_Asset_Spread">折旧分摊类型</value>
+  <value column="Description" original="Depreciation Type Spread">折旧分摊类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="53269" trl="Y">
@@ -1931,7 +1931,7 @@
   <value column="Help" original="Currently supported: thousand, million.">目前支持：千、百万</value>
  </row>
  <row id="53287" trl="Y">
-  <value column="Name" original="PP_CostCollectorType Transaction Manufacturing Management">PP_CostCollectorType (成本归集类型)事务生产管理</value>
+  <value column="Name" original="PP_CostCollectorType Transaction Manufacturing Management">PP_成本归集类型事务生产管理</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2170,7 +2170,7 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53370" trl="N">
+ <row id="53370" trl="Y">
   <value column="Name" original="Chart">图表</value>
   <value column="Description" original="Chart">图表</value>
   <value column="Help" original="A chart provides a graphical display of information.">A chart provides a graphical display of information</value>
@@ -2190,12 +2190,12 @@
   <value column="Description" original="Chart Orientation">Chart Orientation</value>
   <value column="Help" original="Horizontal or vertical">Horizontal or vertical</value>
  </row>
- <row id="53376" trl="N">
+ <row id="53376" trl="Y">
   <value column="Name" original="TimeUnit">时间单位</value>
   <value column="Description" original="Time units for charting.">图表的时间单位</value>
   <value column="Help" original=""/>
  </row>
- <row id="53377" trl="N">
+ <row id="53377" trl="Y">
   <value column="Name" original="ChartType">图表类型</value>
   <value column="Description" original="Chart Type">图表类型</value>
   <value column="Help" original=""/>
@@ -2315,7 +2315,7 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53410" trl="N">
+ <row id="53410" trl="Y">
   <value column="Name" original="PriceOverrideType">价格重载类型</value>
   <value column="Description" original="Price Override Type">价格重载类型</value>
   <value column="Help" original="Fixed price or discount off list">Fixed price or discount off list</value>
@@ -2325,17 +2325,17 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53415" trl="N">
+ <row id="53415" trl="Y">
   <value column="Name" original="Lead Source">线索来源</value>
   <value column="Description" original="Lead Source">线索来源</value>
   <value column="Help" original="The source of a lead">线索来源</value>
  </row>
- <row id="53416" trl="N">
+ <row id="53416" trl="Y">
   <value column="Name" original="Lead Status">线索状态</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53423" trl="N">
+ <row id="53423" trl="Y">
   <value column="Name" original="C_ContactActivity Type">C_ContactActivity 类型</value>
   <value column="Description" original="Contact Activity Types">联系活动类型</value>
   <value column="Help" original=""/>
@@ -2366,12 +2366,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="200008" trl="Y">
-  <value column="Name" original="GL_JournalGeneratorLine BPDimensionType">总账账户</value>
+  <value column="Name" original="GL_JournalGeneratorLine BPDimensionType">总账生成器明细BP维度类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200012" trl="Y">
-  <value column="Name" original="Payment">付/收款</value>
+  <value column="Name" original="Payment">支付按钮</value>
   <value column="Description" original="Payment Rule list and Process Payment button">支付规则列表和流程付款按钮</value>
   <value column="Help" original=""/>
  </row>
@@ -2530,13 +2530,13 @@
   <value column="Description" original="Attribute Set">Attribute Set</value>
   <value column="Help" original=""/>
  </row>
- <row id="200056" trl="N">
-  <value column="Name" original="C_ProjectPhase">C_ProjectPhase</value>
+ <row id="200056" trl="Y">
+  <value column="Name" original="C_ProjectPhase">项目状态</value>
   <value column="Description" original="Project Phase">Project Phase</value>
   <value column="Help" original=""/>
  </row>
- <row id="200057" trl="N">
-  <value column="Name" original="C_ProjectTask">C_ProjectTask</value>
+ <row id="200057" trl="Y">
+  <value column="Name" original="C_ProjectTask">项目任务</value>
   <value column="Description" original="Project Task">Project Task</value>
   <value column="Help" original=""/>
  </row>
@@ -2545,13 +2545,13 @@
   <value column="Description" original="Phase">Phase</value>
   <value column="Help" original=""/>
  </row>
- <row id="200059" trl="N">
-  <value column="Name" original="C_ProjectType">C_ProjectType</value>
+ <row id="200059" trl="Y">
+  <value column="Name" original="C_ProjectType">项目类型</value>
   <value column="Description" original="Project Type">Project Type</value>
   <value column="Help" original=""/>
  </row>
- <row id="200060" trl="N">
-  <value column="Name" original="C_ProjectIssue">C_ProjectIssue</value>
+ <row id="200060" trl="Y">
+  <value column="Name" original="C_ProjectIssue">项目投放</value>
   <value column="Description" original="Project Issue">Project Issue</value>
   <value column="Help" original=""/>
  </row>
@@ -2575,12 +2575,12 @@
   <value column="Description" original="M_Inventory Types list">M_Inventory Types list</value>
   <value column="Help" original=""/>
  </row>
- <row id="200069" trl="N">
+ <row id="200069" trl="Y">
   <value column="Name" original="AD_Language NOT System/Base">AD_Language 不是系统语言或基础语言</value>
   <value column="Description" original="Language not system neither base">不是系统语言或基础语言</value>
   <value column="Help" original=""/>
  </row>
- <row id="200070" trl="N">
+ <row id="200070" trl="Y">
   <value column="Name" original="Database Data Type">数据库数据类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -2625,17 +2625,17 @@
   <value column="Description" original="Type of preference WEditor lie on (process, info window, window)">Type of preference WEditor lie on (process, info window, window)</value>
   <value column="Help" original=""/>
  </row>
- <row id="200092" trl="N">
+ <row id="200092" trl="Y">
   <value column="Name" original="Country Group">国家联合体</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200098" trl="N">
+ <row id="200098" trl="Y">
   <value column="Name" original="Import Mode">导入模式</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200099" trl="N">
+ <row id="200099" trl="Y">
   <value column="Name" original="IsToolbarButton">是工具条按钮</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -2650,6 +2650,11 @@
   <value column="Description" original="Dashboard Content">仪表盘内容</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200123" trl="Y">
+  <value column="Name" original="FieldSuggestionTargetList">翻译建议目标</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200127" trl="Y">
   <value column="Name" original="Single Selection Grid">单选网格</value>
   <value column="Description" original=""/>
@@ -2658,6 +2663,16 @@
  <row id="200128" trl="Y">
   <value column="Name" original="Multiple Selection Grid">多选网格</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200144" trl="N">
+  <value column="Name" original="AD_Client All Clients">AD_Client All Clients</value>
+  <value column="Description" original="Client selection">Client selection</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200145" trl="N">
+  <value column="Name" original="AD_User Users from all Clients">AD_User Users from all Clients</value>
+  <value column="Description" original="Users from all clients">Users from all clients</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="4625375d-3828-480e-aeb1-08a16e9f7e00">
@@ -2720,7 +2735,7 @@
   <value column="Description" original="ScanBatch Line Status">ScanBatch Line Status</value>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="308a21f4-0771-4abe-9509-4d1245be1b0b">
+ <row trl="Y" uuid="308a21f4-0771-4abe-9509-4d1245be1b0b">
   <value column="Name" original="Category Tree">目录树</value>
   <value column="Description" original="Category Tree">目录树</value>
   <value column="Help" original=""/>
@@ -2765,7 +2780,7 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="db634259-572a-4d75-9fb8-aeecf6b3329b">
+ <row trl="Y" uuid="db634259-572a-4d75-9fb8-aeecf6b3329b">
   <value column="Name" original="W_store">网店</value>
   <value column="Description" original="Web Store Selection">Web Store Selection</value>
   <value column="Help" original=""/>
@@ -2775,9 +2790,9 @@
   <value column="Description" original="Drivers">Drivers</value>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="540e4baf-1143-4761-8cee-444d949455b7">
-  <value column="Name" original="A_Asset Vehicles">A_Asset Vehicles</value>
-  <value column="Description" original="Asset Vehicles">Asset Vehicles</value>
+ <row trl="Y" uuid="540e4baf-1143-4761-8cee-444d949455b7">
+  <value column="Name" original="A_Asset Vehicles">运输工具</value>
+  <value column="Description" original="Asset Vehicles">运输工具</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="c9446d19-4b7d-4112-a093-f6d4e939741b">

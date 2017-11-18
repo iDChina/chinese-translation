@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Menu">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Menu">
  <row id="100" trl="Y">
   <value column="Name" original="Invoice Inquiry">发票查询</value>
   <value column="Description" original=""/>
@@ -17,7 +17,7 @@
   <value column="Description" original="Maintain Client Rules">维护实体级规则</value>
  </row>
  <row id="157" trl="Y">
-  <value column="Name" original="Data">数据</value>
+  <value column="Name" original="Data">数据维护</value>
   <value column="Description" original="Maintain Data">维护数据</value>
  </row>
  <row id="158" trl="Y">
@@ -45,7 +45,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="165" trl="Y">
-  <value column="Name" original="Business Partner Rules">业务伙伴规则</value>
+  <value column="Name" original="Business Partner Rules">伙伴规则</value>
   <value column="Description" original=""/>
  </row>
  <row id="166" trl="Y">
@@ -53,7 +53,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="167" trl="Y">
-  <value column="Name" original="Material Management Rules">物料管理规则</value>
+  <value column="Name" original="Material Management Rules">产品规则</value>
   <value column="Description" original=""/>
  </row>
  <row id="175" trl="Y">
@@ -61,7 +61,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="183" trl="Y">
-  <value column="Name" original="Material Management">物料管理</value>
+  <value column="Name" original="Material Management">产品管理</value>
   <value column="Description" original=""/>
  </row>
  <row id="203" trl="Y">
@@ -81,7 +81,7 @@
   <value column="Description" original="Customer Relations and Partner Management">客户关系与伙伴管理</value>
  </row>
  <row id="271" trl="Y">
-  <value column="Name" original="Service">服务</value>
+  <value column="Name" original="Service">服务管理</value>
   <value column="Description" original="Service Management">服务管理</value>
  </row>
  <row id="272" trl="Y">
@@ -153,12 +153,12 @@
   <value column="Description" original=""/>
  </row>
  <row id="566" trl="Y">
-  <value column="Name" original="Collaboration">协作</value>
+  <value column="Name" original="Collaboration">协同办公</value>
   <value column="Description" original="Collaboration and Content Management">协作和内容管理</value>
  </row>
  <row id="50001" trl="Y">
-  <value column="Name" original="Application Packaging">应用程序包</value>
-  <value column="Description" original="Import and export packaging">导入或导出包</value>
+  <value column="Name" original="Application Packaging">应用市场</value>
+  <value column="Description" original="Import and export packaging">导入或导出应用程序包</value>
  </row>
  <row id="52001" trl="Y">
   <value column="Name" original="Web POS">设置Web POS</value>
@@ -181,8 +181,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="53022" trl="Y">
-  <value column="Name" original="Bill of Material &amp; Formulas">物料清单</value>
-  <value column="Description" original="Bill of Material &amp; Formulas">物料清单与配方</value>
+  <value column="Name" original="Bill of Material &amp; Formulas">产品清单</value>
+  <value column="Description" original="Bill of Material &amp; Formulas">产品清单与配方</value>
  </row>
  <row id="53029" trl="Y">
   <value column="Name" original="Planning Management">计划管理</value>
@@ -193,8 +193,8 @@
   <value column="Description" original="Product Planning">产品计划</value>
  </row>
  <row id="53034" trl="Y">
-  <value column="Name" original="MRP">物料需求计划(MRP)</value>
-  <value column="Description" original="Materials Requirements Planning">物料需求计划</value>
+  <value column="Name" original="MRP">产品需求计划(MRP)</value>
+  <value column="Description" original="Materials Requirements Planning">产品需求计划</value>
  </row>
  <row id="53043" trl="Y">
   <value column="Name" original="CRP">能力需求计划(CRP)</value>
@@ -362,6 +362,10 @@
  </row>
  <row trl="Y" uuid="1104420b-5ec5-42a4-94cd-4516bf3bdf0b">
   <value column="Name" original="Invoice">发票相关</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="dccb75da-2753-47bb-88e2-05e31ee99b4d">
+  <value column="Name" original="Purchase Invoice">采购发票</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

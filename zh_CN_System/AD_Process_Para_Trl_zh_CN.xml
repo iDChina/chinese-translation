@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
  <row id="161" trl="Y">
   <value column="Name" original="Business Partner ">业务伙伴 </value>
   <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
@@ -36,14 +36,19 @@
   <value column="Help" original=""/>
  </row>
  <row id="467" trl="Y">
-  <value column="Name" original="Existing Organization">现存组织</value>
-  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">实体内的组织，如果你要创建一个新组织，则置为空</value>
-  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">组织是你的实体或组织的一个单位 - 例如仓库、部门。你可以在组织间共享数据</value>
+  <value column="Name" original="Existing Organization">目标组织</value>
+  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">链接到的目标组织，如果你要链接到一个新组织，则置为空</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">组织是实体或组织的一个单位 - 例如仓库、部门，你可以在组织间共享数据。</value>
+ </row>
+ <row id="468" trl="Y">
+  <value column="Name" original="Organization Type">组织类型</value>
+  <value column="Description" original="Organization Type">新组织的组织类型</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">指定新组织的组织类型。</value>
  </row>
  <row id="469" trl="Y">
-  <value column="Name" original="Limit Access to Role">角色权限限制</value>
-  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">如果未选择角色，则授予此实体的所有角色权限</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
+  <value column="Name" original="Limit Access to Role">角色权限</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">新组织的可访问角色</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">指定可访问新组织的角色，如果留空，则所有（非手动）角色可访问该新建组织。</value>
  </row>
  <row id="493" trl="Y">
   <value column="Name" original="New User/Contact">联系人</value>
@@ -76,9 +81,14 @@
   <value column="Help" original=""/>
  </row>
  <row id="580" trl="Y">
-  <value column="Name" original="Orders with unconfirmed Shipments">包含未确认发货单的订单</value>
-  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">为包含未处理交付确认的订单生成发货单吗?</value>
-  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">也可包含这样的订单，它们有未处理的确认（如：下单数量 = 10，未确认发货 = 4，如果可供货则将创建新的发货数量 6）</value>
+  <value column="Name" original="Orders with unconfirmed Shipments">包含未确认发货的订单</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">为未全部发货确认的订单生成发货单</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">包含有未确认发货的销售订单，是否创建本次发货（比如：销售订单数量 = 10，未确认发货 = 4，如果可供货则将创建新的发货数量= 6）</value>
+ </row>
+ <row id="581" trl="Y">
+  <value column="Name" original="Document Action">订单状态</value>
+  <value column="Description" original="The targeted status of the document">销售订单的状态</value>
+  <value column="Help" original="You find the current status in the Document Status field. The options are listed in a popup">销售订单的状态</value>
  </row>
  <row id="50001" trl="Y">
   <value column="Name" original="Role To">目标角色</value>
@@ -97,18 +107,18 @@
  </row>
  <row id="50009" trl="Y">
   <value column="Name" original="Request Folder">请求文件夹</value>
-  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder"/>
-  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder"/>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">请求邮件从收件箱文件夹接收，成功处理后，移动到该文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder">文件夹使用“\”来表示层级。比如：“客户\某某公司”。邮件将从收件夹移动到指定的请求邮件文件夹。</value>
  </row>
  <row id="50010" trl="Y">
   <value column="Name" original="Inbox Folder">收件箱</value>
-  <value column="Description" original="Mail folder, where process will take email and make request"/>
-  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer"/>
+  <value column="Description" original="Mail folder, where process will take email and make request">接收邮件，待生成请求的文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer">文件夹使用“\”来表示层级。比如：“客户”。</value>
  </row>
  <row id="50011" trl="Y">
   <value column="Name" original="Error Folder">错误文件夹</value>
-  <value column="Description" original="Mail folder to push unsuccess email  "/>
-  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer"/>
+  <value column="Description" original="Mail folder to push unsuccess email  ">发送不成功的邮件文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer">文件夹使用“\”来表示层级。比如：“客户\失败”。</value>
  </row>
  <row id="50019" trl="Y">
   <value column="Name" original="Shipment Date">发货日期</value>
@@ -151,7 +161,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53127" trl="Y">
-  <value column="Name" original="Generate Fields">产生字段</value>
+  <value column="Name" original="Generate Fields">生成字段</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -169,6 +179,11 @@
   <value column="Name" original="Includes only the mandatory columns">只包含必填字段</value>
   <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">如果此字段必填，创建一个导出格式行 </value>
   <value column="Help" original=""/>
+ </row>
+ <row id="53205" trl="Y">
+  <value column="Name" original="Date Format">日期格式</value>
+  <value column="Description" original="Date format used in the input format">用于输入格式的日期格式</value>
+  <value column="Help" original="The date format is usually detected, but sometimes need to be defined.">日期格式通常自动检测，但有时需要定义。</value>
  </row>
  <row id="53219" trl="Y">
   <value column="Name" original="Based in DRP Demand">基于 DRP 需求</value>
@@ -280,7 +295,7 @@
   <value column="Description" original="Overwrite existing production lines">覆盖现有的生产线</value>
   <value column="Help" original=""/>
  </row>
- <row id="53517" trl="N">
+ <row id="53517" trl="Y">
   <value column="Name" original="Production Quantity">生产数量</value>
   <value column="Description" original="Quantity of products to produce">Quantity of products to produce</value>
   <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
@@ -290,7 +305,7 @@
   <value column="Description" original="">是否为看板产品</value>
   <value column="Help" original=""/>
  </row>
- <row id="53582" trl="N">
+ <row id="53582" trl="Y">
   <value column="Name" original="CreateOpportunity">创建销售机会</value>
   <value column="Description" original="Create Opportunity">销售机会</value>
   <value column="Help" original="Create a new Sales Opportunity when converting a lead">当可以转换为一个销售线索时，创建一个新的销售机会</value>
@@ -305,27 +320,27 @@
   <value column="Description" original="Reset Existing Access">重置用户已存在的权限访问记录</value>
   <value column="Help" original="">重置用户已存在的权限访问记录</value>
  </row>
- <row id="200055" trl="N">
+ <row id="200055" trl="Y">
   <value column="Name" original="Product">产品</value>
   <value column="Description" original="Please enter the product (component) you wish to search for">请输入你要搜索的产品（组件）</value>
   <value column="Help" original=""/>
  </row>
- <row id="200060" trl="N">
+ <row id="200060" trl="Y">
   <value column="Name" original="Financial Year Month">财务年月</value>
   <value column="Description" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
   <value column="Help" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
  </row>
- <row id="200062" trl="N">
+ <row id="200062" trl="Y">
   <value column="Name" original="Financial Year Month">财务年月</value>
   <value column="Description" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
   <value column="Help" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
  </row>
- <row id="200071" trl="N">
+ <row id="200071" trl="Y">
   <value column="Name" original="Document Type">单据类型</value>
   <value column="Description" original="Inventory Cost Adjustment Document Type">库存成本调整单据类型</value>
   <value column="Help" original=""/>
  </row>
- <row id="200074" trl="N">
+ <row id="200074" trl="Y">
   <value column="Name" original="Administrative User Email">管理员邮箱</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -335,17 +350,17 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200077" trl="N">
+ <row id="200077" trl="Y">
   <value column="Name" original="Created Since">创建时间</value>
   <value column="Description" original="">从列的创建时间开始</value>
   <value column="Help" original=""/>
  </row>
- <row id="200084" trl="N">
+ <row id="200084" trl="Y">
   <value column="Name" original="Use Default CoA">使用默认的科目表</value>
   <value column="Description" original="Use Default Chart of Accounts">使用默认的科目表（美国）</value>
   <value column="Help" original=""/>
  </row>
- <row id="200085" trl="N">
+ <row id="200085" trl="Y">
   <value column="Name" original="Activity Accounting">作业维度</value>
   <value column="Description" original="Use Activity accounting dimension">使用作业维度</value>
   <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
@@ -355,18 +370,18 @@
   <value column="Description" original="Inactivate Defaults after Created"/>
   <value column="Help" original=""/>
  </row>
- <row id="200102" trl="N">
+ <row id="200102" trl="Y">
   <value column="Name" original="Cost Adjustment Document Type">成本调整单据类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200121" trl="N">
+ <row id="200121" trl="Y">
   <value column="Name" original="Inbox As Root Folder">收件箱根目录</value>
   <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder"/>
   <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
 this field define where request, error,.. occupy.</value>
  </row>
- <row trl="N" uuid="a7c1e584-da75-49dd-8959-899380cd4ee2">
+ <row trl="Y" uuid="a7c1e584-da75-49dd-8959-899380cd4ee2">
   <value column="Name" original="Locator Label Types">库位标签类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -376,12 +391,12 @@ this field define where request, error,.. occupy.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="82c93f6d-c078-4396-bdf3-12a4c68e928d">
+ <row trl="Y" uuid="82c93f6d-c078-4396-bdf3-12a4c68e928d">
   <value column="Name" original="Format">格式</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="efa0fab4-dfe5-44f8-90d6-6fd67549d4a9">
+ <row trl="Y" uuid="efa0fab4-dfe5-44f8-90d6-6fd67549d4a9">
   <value column="Name" original="Sort By">排序</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -396,7 +411,7 @@ this field define where request, error,.. occupy.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="7452ade1-6b51-445d-8208-06ed65a9182f">
+ <row trl="Y" uuid="7452ade1-6b51-445d-8208-06ed65a9182f">
   <value column="Name" original="Locator">库位</value>
   <value column="Description" original="Warehouse Locator"/>
   <value column="Help" original="The Locator indicates where in a Warehouse a product is located.">The Locator indicates where in a Warehouse a product is located.</value>
@@ -416,32 +431,32 @@ this field define where request, error,.. occupy.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="4a780a79-6df7-4e0d-a7c2-0dc96d510340">
+ <row trl="Y" uuid="4a780a79-6df7-4e0d-a7c2-0dc96d510340">
   <value column="Name" original="Cancel Handling Unites">取消的处理单元</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="2e1a51cb-a289-46c2-8675-dfa9964a7ebc">
+ <row trl="Y" uuid="2e1a51cb-a289-46c2-8675-dfa9964a7ebc">
   <value column="Name" original="Document Type">单据类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="158180c8-ced5-4766-a2f7-514c2e6167ad">
+ <row trl="Y" uuid="158180c8-ced5-4766-a2f7-514c2e6167ad">
   <value column="Name" original="Locator">库位</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="735e1c71-9a60-4dbe-891f-22b32357c485">
+ <row trl="Y" uuid="735e1c71-9a60-4dbe-891f-22b32357c485">
   <value column="Name" original="Warehouse">仓库</value>
   <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
   <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
  </row>
- <row trl="N" uuid="34b2c1b5-0243-458b-b12f-c40d6313acd6">
+ <row trl="Y" uuid="34b2c1b5-0243-458b-b12f-c40d6313acd6">
   <value column="Name" original="Delete MRP?">删除MRP</value>
   <value column="Description" original="Delete previous same but closed records"/>
   <value column="Help" original="Delete only smiliarly now selected but with status CL or Closed">Delete only smiliarly now selected but with status CL or Closed</value>
  </row>
- <row trl="N" uuid="1a1ed8b2-dbdd-421f-9352-9d2914fbb8c6">
+ <row trl="Y" uuid="1a1ed8b2-dbdd-421f-9352-9d2914fbb8c6">
   <value column="Name" original="Delete MRP?">删除MRP</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
