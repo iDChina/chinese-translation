@@ -10,10 +10,14 @@ Translation progress for iDempiere version 4.1 was completed with a high quanlit
 Normal fixs are reviewed and committed semiannually by project team.
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
 
-####Directory structure:
-zh_CN_System________________`translation files for System client`
+Updated: 2017-11-18
 
-zh_CN_GardenWorld___________`translation files for GardenWorld client`
+####Directory structure:
+../zh_CN_System: `translation files for System client`
+
+../zh_CN_GardenWorld: `translation files for GardenWorld client`
+
+../Utils: `localization utils`
 
 ---------------------------------
 ### 着急只看我：
@@ -52,6 +56,7 @@ zh_CN_GardenWorld___________`translation files for GardenWorld client`
 1. 目前主要维护人为2名，所以对应Pull Request可能会比较慢，请谅解
 1. 目前最新版本号为 4.1
 1. 更新履历
+    * 2017-11-18 发布5.1版本语言包，词条基本稳定，欢迎反馈issue
     * 2017-05-02 新建2个实体文件夹存放4.1测试包，欢迎反馈issue
     * 2016-12-09 创建基于iDempiere 4.1开发版的翻译文件
     * 2015-04-02 创建基于iDempiere 3.1开发版的翻译文件
