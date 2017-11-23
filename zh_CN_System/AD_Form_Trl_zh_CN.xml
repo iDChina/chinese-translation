@@ -41,9 +41,9 @@
   <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择需支付的供应商发票。如果没有发票，请确保它尚未包含在未处理的付款选择中</value>
  </row>
  <row id="108" trl="Y">
-  <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购订单-收货单-发票</value>
+  <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购-收货单-发票</value>
   <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">匹配采购订单, 收货单, 供应商发票</value>
-  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">确认收货单和发票都已被处理。 如果你只希望匹配部分的发货情况，请确保"相同数量"这个选项未被钩选</value>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">确认收货单和发票的相互匹配关系。 如果只希望匹配部分的发货情况，请确保不选择"相同数量"选项。</value>
  </row>
  <row id="109" trl="Y">
   <value column="Name" original="Translation Import/Export">翻译导入/导出</value>
@@ -216,7 +216,7 @@ lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本
  <row id="200001" trl="Y">
   <value column="Name" original="Reset Password">重置密码</value>
   <value column="Description" original="Reset Password">重置密码</value>
-  <value column="Help" original=""/>
+  <value column="Help" original="">必须拥有该用户的旧密码才可以修改。</value>
  </row>
  <row id="200002" trl="Y">
   <value column="Name" original="Report Wizard">报表</value>

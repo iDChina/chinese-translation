@@ -36,9 +36,9 @@
   <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">维护语言定义</value>
  </row>
  <row id="107" trl="Y">
-  <value column="Name" original="Matched Invoices">匹配的发票</value>
-  <value column="Description" original="View Matched Invoices">查看匹配的发票</value>
-  <value column="Help" original="View detals of matched invoice lines to material receipt lines">查看匹配的发票</value>
+  <value column="Name" original="Matched Invoices">发票匹配</value>
+  <value column="Description" original="View Matched Invoices">查看已匹配的发票</value>
+  <value column="Help" original="View detals of matched invoice lines to material receipt lines">查看已匹配的发票</value>
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="User">用户</value>
@@ -232,8 +232,8 @@
  </row>
  <row id="153" trl="Y">
   <value column="Name" original="Account Combination">账户组合</value>
-  <value column="Description" original="Maintain Valid Account Combinations ">维持有效的账户组合 </value>
-  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">维持有效的账户组合 </value>
+  <value column="Description" original="Maintain Valid Account Combinations ">查看有效的账户组合 </value>
+  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">查看有效的账户组合 </value>
  </row>
  <row id="154" trl="Y">
   <value column="Name" original="GL Budget">总账预算</value>
@@ -291,9 +291,9 @@
   <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">客户库存发货单，客户退货</value>
  </row>
  <row id="170" trl="Y">
-  <value column="Name" original="Inventory Move">移库</value>
-  <value column="Description" original="Inventory Move">移库</value>
-  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">移库</value>
+  <value column="Name" original="Inventory Move">移库单</value>
+  <value column="Description" original="Inventory Move">移库单</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">移库单</value>
  </row>
  <row id="172" trl="Y">
   <value column="Name" original="Import Business Partner">导入业务伙伴</value>
@@ -366,7 +366,7 @@
   <value column="Help" original="The Import Loader Format Window is used for defining the file layout for product information which will be imported.">设置导入格式定义</value>
  </row>
  <row id="191" trl="Y">
-  <value column="Name" original="Production">生产单</value>
+  <value column="Name" original="Production">生产工单</value>
   <value column="Description" original="Production based on Bill of Materials">基于产品清单的生产</value>
   <value column="Help" original="The Production Window defines those plan and inventory movements that occur when a product is created from a bill of materials">基于产品清单的生产</value>
  </row>
@@ -516,14 +516,14 @@
   <value column="Help" original="">维护图片和图标</value>
  </row>
  <row id="228" trl="Y">
-  <value column="Name" original="Matched Purchase Orders">匹配的采购订单</value>
-  <value column="Description" original="View Matched Purchase Orders">查看匹配的采购订单</value>
-  <value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines">查看匹配的采购订单</value>
+  <value column="Name" original="Matched Purchase Orders">采购匹配</value>
+  <value column="Description" original="View Matched Purchase Orders">查看已匹配的采购订单</value>
+  <value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines">查看已匹配的采购订单</value>
  </row>
  <row id="229" trl="Y">
   <value column="Name" original="Window Customization">自定义窗口</value>
-  <value column="Description" original="Define Window Customization for Role/User">定义角色/用户的可定制窗口</value>
-  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">定义角色/用户的可定制窗口</value>
+  <value column="Description" original="Define Window Customization for Role/User">定制窗口布局替换系统默认界面</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined."><![CDATA[基于同样的系统窗口，为用户/角色定义不同的界面布局。该功能可以修改布局、词条翻译及自定义帮助。<br /> 系统窗口的全部定义在【应用字典】-【窗口页签字段】设置。]]></value>
  </row>
  <row id="231" trl="Y">
   <value column="Name" original="Workbench">工作台</value>
@@ -646,9 +646,9 @@
   <value column="Help" original="Before reimbursing expenses, check the open expense items">查看未报销的费用和杂费</value>
  </row>
  <row id="255" trl="Y">
-  <value column="Name" original="Accounting Fact Balances">分录发生额</value>
-  <value column="Description" original="Query Accounting Daily Balances">分录的当日发生额</value>
-  <value column="Help" original="Query daily account balances">查询分录的当日发生额</value>
+  <value column="Name" original="Accounting Fact Balances">账户日记账</value>
+  <value column="Description" original="Query Accounting Daily Balances">查询账户当日明细</value>
+  <value column="Help" original="Query daily account balances">查询分录的账户当日明细</value>
  </row>
  <row id="256" trl="Y">
   <value column="Name" original="Attribute Set">属性集</value>
@@ -661,14 +661,14 @@
   <value column="Help" original="Maintain the individual Lot of a Product">维护产品的批次记录</value>
  </row>
  <row id="258" trl="Y">
-  <value column="Name" original="Lot Control">批次控制</value>
-  <value column="Description" original="Product Lot Control">产品批次控制</value>
-  <value column="Help" original="Definition to create Lot numbers for Products">产品批次控制</value>
+  <value column="Name" original="Lot Control">批次定义</value>
+  <value column="Description" original="Product Lot Control">定义产品的批次控制</value>
+  <value column="Help" original="Definition to create Lot numbers for Products">定义产品的批次控制</value>
  </row>
  <row id="259" trl="Y">
-  <value column="Name" original="Serial No Control">序列号控制</value>
-  <value column="Description" original="Product Serial Number Control">产品序号控制</value>
-  <value column="Help" original="Definition to create Serial numbers for Products">产品序号控制</value>
+  <value column="Name" original="Serial No Control">序列号定义</value>
+  <value column="Description" original="Product Serial Number Control">定义产品的序列号控制</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">定义产品的序列号控制</value>
  </row>
  <row id="260" trl="Y">
   <value column="Name" original="Attribute">属性</value>
@@ -836,9 +836,9 @@
   <value column="Help" original="">维护标签打印机的定义</value>
  </row>
  <row id="293" trl="Y">
-  <value column="Name" original="Sales Rep Info">销售代表资料</value>
-  <value column="Description" original="Company Agent (Sales Rep) Information">公司代理 (销售代表) 信息</value>
-  <value column="Help" original="This window allows you to view Company agent related information">公司代理 (销售代表) 信息</value>
+  <value column="Name" original="Sales Rep Info">业务代表</value>
+  <value column="Description" original="Company Agent (Sales Rep) Information">查看销售代表或者公司代理人的信息</value>
+  <value column="Help" original="This window allows you to view Company agent related information">查看销售代表或者公司代理人的信息</value>
  </row>
  <row id="294" trl="Y">
   <value column="Name" original="UnPosted Documents">未过账单据</value>
@@ -881,9 +881,9 @@
   <value column="Help" original="User Registration of an Asset">注册资产登记</value>
  </row>
  <row id="302" trl="Y">
-  <value column="Name" original="Bank Statement Matcher">银行对账单匹配器</value>
-  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算法则</value>
-  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算法则</value>
+  <value column="Name" original="Bank Statement Matcher">银行对账匹配器</value>
+  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算处理器</value>
+  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">将银行对账单资料与业务伙伴、发票和付款进行匹配的运算处理器</value>
  </row>
  <row id="303" trl="Y">
   <value column="Name" original="Payment Batch">网关支付</value>
@@ -966,9 +966,9 @@
   <value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">维护配送清单</value>
  </row>
  <row id="319" trl="Y">
-  <value column="Name" original="Package">装箱单</value>
-  <value column="Description" original="Manage Shipment Packages">管理发货包装</value>
-  <value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">管理发货包装</value>
+  <value column="Name" original="Package">打包单</value>
+  <value column="Description" original="Manage Shipment Packages">管理发货打包</value>
+  <value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">管理发货打包</value>
  </row>
  <row id="320" trl="Y">
   <value column="Name" original="Customer RMA">客户退货授权</value>
@@ -1167,8 +1167,8 @@
  </row>
  <row id="360" trl="Y">
   <value column="Name" original="Reporting Hierarchy">报表层级</value>
-  <value column="Description" original="Define Reporting Hierarchy">定义报表层次</value>
-  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">定义报表层次</value>
+  <value column="Description" original="Define Reporting Hierarchy">定义报表使用维度树</value>
+  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">报表层级提供不同的数据维度，层级通过新建树节点来配置。</value>
  </row>
  <row id="361" trl="Y">
   <value column="Name" original="Budget Control">预算控制</value>
@@ -1193,12 +1193,12 @@
  <row id="365" trl="Y">
   <value column="Name" original="Performance Benchmark">(指标标杆)</value>
   <value column="Description" original="Performance Benchmark">(维护指标标杆数据)</value>
-  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">维护指标标杆数据。注意：截至2017-11-9 ，版本5.1.0.v20171102-1854，此功能无代码。</value>
+  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">维护指标标杆数据。注意：截止2017-11-9 ，版本5.1.0.v20171102-1854，此功能无代码。</value>
  </row>
  <row id="366" trl="Y">
   <value column="Name" original="Performance Ratio">(指标比率)</value>
   <value column="Description" original="Maintain Performance Ratios">(定义指标比率)</value>
-  <value column="Help" original="Calculation instruction for a ratio">定义指标比率。注意：截至2017-11-9 ，版本5.1.0.v20171102-1854，此功能无代码。</value>
+  <value column="Help" original="Calculation instruction for a ratio">定义指标比率。注意：截止2017-11-9 ，版本5.1.0.v20171102-1854，此功能无代码。</value>
  </row>
  <row id="367" trl="Y">
   <value column="Name" original="Issue Recommendation">问题建议</value>
@@ -1997,7 +1997,8 @@
  <row id="200031" trl="Y">
   <value column="Name" original="Payments into Batch">支付汇总</value>
   <value column="Description" original="Process Payments">支付汇总</value>
-  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">将小额支付集中成一笔汇总，以方便银行业务</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here."><![CDATA[将小额支付集中成一笔汇总，以方便银行结算和对账，具体流程为：现场支付--做支付单--支付汇总--银行处理。银行对账可以引用“支付汇总”记录而导入所有支付单。<br />
+实际业务中，收到多笔支票或者信用卡凭证后，集中去银行存兑（批量存入）。或者小额支付的汇总都可以使用该功能。]]></value>
  </row>
  <row id="200034" trl="Y">
   <value column="Name" original="Context Help">自定义帮助</value>

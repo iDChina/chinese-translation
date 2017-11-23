@@ -71,8 +71,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="115" trl="Y">
-  <value column="Name" original="Vendor Selection">首选供应商明细</value>
-  <value column="Description" original="Products with more than one vendor">首选供应商明细报表</value>
+  <value column="Name" original="Vendor Selection">首选供应商</value>
+  <value column="Description" original="Products with more than one vendor">首选供应商报表</value>
   <value column="Help" original="Vendor Selection is initiated when there is a product that is supplied by more than one vendor.  It allows the selection of a specific vendor for a Purchase Order.">产品有多个供应商供货，应选择一个指定的供应商，以让采购订单能选择到首选。</value>
  </row>
  <row id="116" trl="Y">
@@ -112,7 +112,7 @@
  </row>
  <row id="123" trl="Y">
   <value column="Name" original="Generate Commission">生成佣金</value>
-  <value column="Description" original="Generate Commission">生成佣金</value>
+  <value column="Description" original="Generate Commission">生成佣金结果</value>
   <value column="Help" original=""/>
  </row>
  <row id="124" trl="Y">
@@ -202,7 +202,7 @@
  </row>
  <row id="142" trl="Y">
   <value column="Name" original="Generate Receipt from Invoice">从发票生成收货单</value>
-  <value column="Description" original="Create and process delivery Receipt from this invoice.">从该发票生成并处理交货收据</value>
+  <value column="Description" original="Create and process delivery Receipt from this invoice.">从发票生成并处理收货单</value>
   <value column="Help" original="The invoice should be correct and completed.">发票应该正确和完整。</value>
  </row>
  <row id="144" trl="Y">
@@ -286,18 +286,18 @@
   <value column="Help" original=""/>
  </row>
  <row id="164" trl="Y">
-  <value column="Name" original="Generate Order">生成订单</value>
+  <value column="Name" original="Generate Order">生成销售订单</value>
   <value column="Description" original="Generate Order from Project">从项目生成销售订单</value>
   <value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">基于项目阶段新建销售订单，价格表和仓库/条款必须在项目中预先定义。</value>
  </row>
  <row id="165" trl="Y">
-  <value column="Name" original="Copy Lines">复制佣金明细</value>
-  <value column="Description" original="Copy Commission Lines from other Commission">从其他佣金复制佣金明细</value>
+  <value column="Name" original="Copy Lines">复制佣金规则</value>
+  <value column="Description" original="Copy Commission Lines from other Commission">从其他佣金定义复制计算规则</value>
   <value column="Help" original=""/>
  </row>
  <row id="166" trl="Y">
   <value column="Name" original="Create Invoice">创建发票</value>
-  <value column="Description" original="Create Invoice from Commission Calculation">从佣金运行项结果创建发票</value>
+  <value column="Description" original="Create Invoice from Commission Calculation">从佣金结果创建发票</value>
   <value column="Help" original=""/>
  </row>
  <row id="167" trl="Y">
@@ -387,7 +387,7 @@
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Create AP Expense Invoices">创建应付费用发票</value>
-  <value column="Description" original="Create AP Invoices from Expenses to be paid to employees">从要支付给员工的支出创建应付发票</value>
+  <value column="Description" original="Create AP Invoices from Expenses to be paid to employees">从支付员工费用创建应付发票</value>
   <value column="Help" original=""/>
  </row>
  <row id="188" trl="Y">
@@ -544,7 +544,7 @@
  <row id="216" trl="Y">
   <value column="Name" original="Generate Order">生成销售订单</value>
   <value column="Description" original="Generate Order from Project Phase">从项目阶段生成销售订单</value>
-  <value column="Help" original="The Generate Order process will generate a new Order document based on the project phase or tasks. A price list and warehouse/service point must be defined on the project.  If a product is defined on phase level, the Phase information is used as the basis for the Order (milestone invoicing) - otherwise the individual tasks."><![CDATA[基于项目阶段新建销售订单。价格表和仓库/条款必须在项目中预先定义。<p>如果在阶段中定义了产品，则阶段信息被用作订单的参考基础 (开票的里程碑)，否则按每个任务的产品定义来更新订单信息。]]></value>
+  <value column="Help" original="The Generate Order process will generate a new Order document based on the project phase or tasks. A price list and warehouse/service point must be defined on the project.  If a product is defined on phase level, the Phase information is used as the basis for the Order (milestone invoicing) - otherwise the individual tasks."><![CDATA[基于项目阶段生成销售订单（赊销）。价格表和仓库/条款必须在项目中预先定义。<p>如果在阶段中定义了产品，则阶段信息被用作订单的参考基础 (开票的里程碑)，否则按每个任务的产品定义来更新订单信息。]]></value>
  </row>
  <row id="217" trl="Y">
   <value column="Name" original="Project Print">项目打印</value>
@@ -971,13 +971,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="300" trl="Y">
-  <value column="Name" original="Delete">删除匹配</value>
-  <value column="Description" original="Delete Invoice Matching Record">删除发票匹配的记录</value>
+  <value column="Name" original="Delete">删除发票匹配</value>
+  <value column="Description" original="Delete Invoice Matching Record">删除发票与收货单的匹配记录</value>
   <value column="Help" original=""/>
  </row>
  <row id="301" trl="Y">
-  <value column="Name" original="Delete">删除</value>
-  <value column="Description" original="Delete PO Matching Record">删除与采购订单匹配的记录</value>
+  <value column="Name" original="Delete">删除采购匹配</value>
+  <value column="Description" original="Delete PO Matching Record">删除采购订单与收货单的匹配记录</value>
   <value column="Help" original=""/>
  </row>
  <row id="302" trl="Y">
@@ -1691,7 +1691,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53153" trl="Y">
-  <value column="Name" original="Bank/Cash Transfer">转账</value>
+  <value column="Name" original="Bank/Cash Transfer">银行转账</value>
   <value column="Description" original="Bank/Cash Transfer let money tranfer between Banks">将资金在银行间划转</value>
   <value column="Help" original=""/>
  </row>
@@ -1990,13 +1990,13 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200016" trl="Y">
-  <value column="Name" original="Reverse PO Matching">反冲匹配</value>
-  <value column="Description" original="">反冲采购订单匹配</value>
+  <value column="Name" original="Reverse PO Matching">反冲采购匹配</value>
+  <value column="Description" original="">反冲采购订单匹配，将新增一条数量/金额相反的记录，并标记采购订单未匹配</value>
   <value column="Help" original=""/>
  </row>
  <row id="200017" trl="Y">
-  <value column="Name" original="Reverse Invoice Matching">删除发票匹配的记录</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Reverse Invoice Matching">反冲发票匹配</value>
+  <value column="Description" original="">反冲发票匹配，将新增一条数量/金额相反的记录，并标记发票未匹配</value>
   <value column="Help" original=""/>
  </row>
  <row id="200018" trl="Y">

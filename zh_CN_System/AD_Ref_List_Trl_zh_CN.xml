@@ -326,11 +326,11 @@
  </row>
  <row id="184" trl="Y">
   <value column="Name" original="Reverse - Correct">红字更正</value>
-  <value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">生成一张负数数量（或金额）的同日单据来反转事务，俗称红字调整</value>
+  <value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">生成一张负数数量（或金额）的同日单据来反冲事务，俗称红字调整</value>
  </row>
  <row id="185" trl="Y">
   <value column="Name" original="Reverse - Accrual">借贷更正</value>
-  <value column="Description" original="Reverse by switching Dr/Cr with current date">生成一张互换账户借贷方向的同日单据来反转事务</value>
+  <value column="Description" original="Reverse by switching Dr/Cr with current date">生成一张互换账户借贷方向的同日单据来反冲事务</value>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Invalidate">失效</value>
@@ -645,12 +645,12 @@
   <value column="Description" original="Transaction Organization">事务处理组织</value>
  </row>
  <row id="277" trl="Y">
-  <value column="Name" original="Location From">发出地址</value>
-  <value column="Description" original="Location From">发出地址</value>
+  <value column="Name" original="Location From">发出地点</value>
+  <value column="Description" original="Location From">发出地点</value>
  </row>
  <row id="278" trl="Y">
-  <value column="Name" original="Location To">接收地址</value>
-  <value column="Description" original="Location To">接收地址</value>
+  <value column="Name" original="Location To">接收地点</value>
+  <value column="Description" original="Location To">接收地点</value>
  </row>
  <row id="279" trl="Y">
   <value column="Name" original="Sales Region">销售区域</value>
@@ -2181,7 +2181,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="693" trl="Y">
-  <value column="Name" original="Requisition">采购申请</value>
+  <value column="Name" original="Requisition">请购单</value>
   <value column="Description" original=""/>
  </row>
  <row id="695" trl="Y">
@@ -2481,7 +2481,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="770" trl="Y">
-  <value column="Name" original="Inventory Move">移库</value>
+  <value column="Name" original="Inventory Move">移库单</value>
   <value column="Description" original=""/>
  </row>
  <row id="772" trl="Y">
@@ -2497,7 +2497,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="775" trl="Y">
-  <value column="Name" original="Batch/Lot">批/批次</value>
+  <value column="Name" original="Batch/Lot">批次</value>
   <value column="Description" original=""/>
  </row>
  <row id="776" trl="Y">
@@ -4085,12 +4085,12 @@
   <value column="Description" original="Business Partner">业务伙伴</value>
  </row>
  <row id="53421" trl="Y">
-  <value column="Name" original="Location From">发出地址</value>
-  <value column="Description" original="Location From">发出地址</value>
+  <value column="Name" original="Location From">发出地点</value>
+  <value column="Description" original="Location From">发出地点</value>
  </row>
  <row id="53422" trl="Y">
-  <value column="Name" original="Location To">接收地址</value>
-  <value column="Description" original="Location To">接收地址</value>
+  <value column="Name" original="Location To">接收地点</value>
+  <value column="Description" original="Location To">接收地点</value>
  </row>
  <row id="53423" trl="Y">
   <value column="Name" original="Campaign">营销活动</value>
@@ -6309,7 +6309,7 @@
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="f50c3ae2-f633-4d84-8bb3-57f9ff49d9b1">
-  <value column="Name" original="Shipping Address">发货地址</value>
+  <value column="Name" original="Shipping Address">发出地点</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="eb8d3598-1c39-4893-9958-c95cb00378de">
@@ -6321,11 +6321,11 @@
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="36ce56a1-8071-4c7b-8b2a-a9481d16461c">
-  <value column="Name" original="Invoice Address">发票地址</value>
+  <value column="Name" original="Invoice Address">发票地点</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="6f0661c1-18d3-4909-b398-39e5f48db280">
-  <value column="Name" original="Shipping Address">发货地址</value>
+  <value column="Name" original="Shipping Address">发货地点</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="a1ae8471-51f1-475a-83e2-74db7593bc92">
