@@ -267,8 +267,8 @@
  </row>
  <row id="53296" trl="Y">
   <value column="Name" original="Chart of Accounts File">科目表文件</value>
-  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">此实体使用会计科目表文件的存放位置。在这个阶段，只创建默认会计科目</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">此实体使用会计科目表文件的存放位置。</value>
+  <value column="Help" original="">【注意】在本阶段，只会导入系统缺省账户所对应的科目。如果要导入所有会计科目，需要从[系统-数据-导入-科目表]位置重新导入其他科目。</value>
  </row>
  <row id="53314" trl="Y">
   <value column="Name" original="Full rebuild">全部重算</value>
@@ -350,13 +350,18 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200076" trl="Y">
+  <value column="Name" original="Entity Type">实体类类型</value>
+  <value column="Description" original="Dictionary Entity Type; Determines ownership and synchronization">筛选列的实体类类型</value>
+  <value column="Help" original="The Entity Types &quot;Dictionary&quot;, &quot;iDempiere&quot; and &quot;Application&quot; might be automatically synchronized and customizations deleted or overwritten.  &#10;&#10;For customizations, copy the entity and select &quot;User&quot;!">只有符合该类型的列才被创建，不是指定页签字段的实体类类型。</value>
+ </row>
  <row id="200077" trl="Y">
-  <value column="Name" original="Created Since">创建时间</value>
-  <value column="Description" original="">从列的创建时间开始</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Created Since">列创建时间</value>
+  <value column="Description" original="">指定列的创建时间</value>
+  <value column="Help" original="">指定时间，进一步筛选列的范围</value>
  </row>
  <row id="200084" trl="Y">
-  <value column="Name" original="Use Default CoA">使用默认的科目表</value>
+  <value column="Name" original="Use Default CoA">使用默认科目表（美国）</value>
   <value column="Description" original="Use Default Chart of Accounts">使用默认的科目表（美国）</value>
   <value column="Help" original=""/>
  </row>
@@ -367,8 +372,8 @@
  </row>
  <row id="200086" trl="Y">
   <value column="Name" original="Inactivate Defaults">不使用缺省科目</value>
-  <value column="Description" original="Inactivate Defaults after Created"/>
-  <value column="Help" original=""/>
+  <value column="Description" original="Inactivate Defaults after Created">【新手建议】使用系统缺省科目</value>
+  <value column="Help" original="">使用缺省科目，系统将自动填入所有自动记账账户（大概100+位置）。如果不使用缺省，用户需要自己手工填入指定的科目。如果正式实施财务模块，需要一一确认所有自动记账账户，可以选择此项。</value>
  </row>
  <row id="200102" trl="Y">
   <value column="Name" original="Cost Adjustment Document Type">成本调整单据类型</value>

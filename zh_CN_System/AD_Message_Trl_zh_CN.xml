@@ -186,7 +186,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="146" trl="Y">
-  <value column="MsgText" original="Applied">已申请</value>
+  <value column="MsgText" original="Applied">申请金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="147" trl="Y">
@@ -1036,7 +1036,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="358" trl="Y">
-  <value column="MsgText" original="No records found; Enter data for new record">未找到记录，新记录输入数据</value>
+  <value column="MsgText" original="No records found; Enter data for new record">未找到记录</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="359" trl="Y">
@@ -1096,11 +1096,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="373" trl="Y">
-  <value column="MsgText" original="Open">已打开</value>
+  <value column="MsgText" original="Open">打开</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="374" trl="Y">
-  <value column="MsgText" original="Open">已打开</value>
+  <value column="MsgText" original="Open">未清金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="375" trl="Y">
@@ -1586,15 +1586,15 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="494" trl="Y">
-  <value column="MsgText" original="Same Business Partner">相同业务伙伴</value>
+  <value column="MsgText" original="Same Business Partner">业务伙伴相同</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="495" trl="Y">
-  <value column="MsgText" original="Same Product">相同产品</value>
+  <value column="MsgText" original="Same Product">产品相同</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="496" trl="Y">
-  <value column="MsgText" original="Same Quantity">相同数量</value>
+  <value column="MsgText" original="Same Quantity">数量相同</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="497" trl="Y">
@@ -1622,7 +1622,7 @@
   <value column="MsgTip" original="Please change information.">如果单据号重复，应运行“序号检查”流程。</value>
  </row>
  <row id="503" trl="Y">
-  <value column="MsgText" original="Record not saved. Row not found!">记录未保存，未找到行！</value>
+  <value column="MsgText" original="Record not saved. Row not found!">记录未保存，未找到行</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="504" trl="Y">
@@ -1886,7 +1886,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="569" trl="Y">
-  <value column="MsgText" original="Trx">事务处理</value>
+  <value column="MsgText" original="Trx">货币</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="570" trl="Y">
@@ -1963,7 +1963,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="588" trl="Y">
-  <value column="MsgText" original="No Bank Account with Document (e.g. Check)">未设置银行账号，请检查银行设置！</value>
+  <value column="MsgText" original="No Bank Account with Document (e.g. Check)">未设置银行账号，请检查银行设置</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="589" trl="Y">
@@ -2564,7 +2564,7 @@
 版本 = {2} - 批 = {3} - 序列号 = {4}
 保证日期 = {5,date,short}
 
-感谢使用iDempiere客户资产管理软件！</value>
+感谢使用客户资产管理软件。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="748" trl="Y">
@@ -2956,7 +2956,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="845" trl="Y">
-  <value column="MsgText" original="Insufficient Qty on Hand">产品在手库存不足</value>
+  <value column="MsgText" original="Insufficient Qty on Hand">在手库存不足</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="846" trl="Y">
@@ -3464,7 +3464,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52067" trl="Y">
-  <value column="MsgText" original="Card Amount Entered">卡金额</value>
+  <value column="MsgText" original="Card Amount Entered">卡输入金额</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52068" trl="Y">
@@ -3472,7 +3472,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52069" trl="Y">
-  <value column="MsgText" original="Card Amount Total">卡金额</value>
+  <value column="MsgText" original="Card Amount Total">卡金额合计</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52070" trl="Y">
@@ -3576,7 +3576,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52095" trl="Y">
-  <value column="MsgText" original="Cheque Amount Entered">输入支票金额</value>
+  <value column="MsgText" original="Cheque Amount Entered">支票输入金额</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52096" trl="Y">
@@ -3900,7 +3900,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52176" trl="Y">
-  <value column="MsgText" original="This is the float amount for today. Please Enter float amount for the next day if needs to be changed.">这是今天的浮动量，如果第二天的浮动量需要改变请输入</value>
+  <value column="MsgText" original="This is the float amount for today. Please Enter float amount for the next day if needs to be changed.">这是今天的浮动量，如果需要改变，请输入明天的浮动量</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52177" trl="Y">
@@ -4392,15 +4392,15 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52299" trl="Y">
-  <value column="MsgText" original="Qty Returned By Customer">选择客户</value>
+  <value column="MsgText" original="Qty Returned By Customer">客户退货数量</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52300" trl="Y">
-  <value column="MsgText" original="Qty Returned to Supplier">供应商退货</value>
+  <value column="MsgText" original="Qty Returned to Supplier">供应商退货数量</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52301" trl="Y">
-  <value column="MsgText" original="Qty Sold">可销售</value>
+  <value column="MsgText" original="Qty Sold">已售数量</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52302" trl="Y">
@@ -5192,7 +5192,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53006" trl="Y">
-  <value column="MsgText" original="Over/Under Payment">多付/少付金额</value>
+  <value column="MsgText" original="Over/Under Payment">支付差额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53007" trl="Y">
@@ -5692,7 +5692,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200033" trl="Y">
-  <value column="MsgText" original="Reached the maximum number of login attempts, user account ({0}) is locked">由于尝试登陆次数超出允许次数，用户账号 ({0}) 已被锁定</value>
+  <value column="MsgText" original="Reached the maximum number of login attempts, user account ({0}) is locked">由于尝试登录次数超出允许次数，用户账号 ({0}) 已被锁定</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200034" trl="Y">
@@ -6088,7 +6088,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200143" trl="Y">
-  <value column="MsgText" original="Not available"><![CDATA[<h3>欢迎评估iDempiere！</h3>
+  <value column="MsgText" original="Not available"><![CDATA[<h3>欢迎评估iDempiere</h3>
 
 如果有问题，你可以：<br />
 <br />
@@ -6174,7 +6174,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200155" trl="Y">
-  <value column="MsgText" original="Parent value cannot be deleted {0}!">不能被删除父搜索键{0} ！</value>
+  <value column="MsgText" original="Parent value cannot be deleted {0}!">不能删除父搜索键：{0}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200156" trl="Y">
@@ -6546,7 +6546,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200270" trl="Y">
-  <value column="MsgText" original="More than line qty on attribute tab for line ">超过属性页签行的明细数量</value>
+  <value column="MsgText" original="More than line qty on attribute tab for line ">超过产品属性明细数量</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200271" trl="Y">
@@ -6738,7 +6738,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="523851" trl="Y">
-  <value column="MsgText" original="Amount to be returned is greater than the amount shipped">已经发货的订单明细数</value>
+  <value column="MsgText" original="Amount to be returned is greater than the amount shipped">退货数量大于发货数量</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="523852" trl="Y">

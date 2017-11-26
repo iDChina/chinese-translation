@@ -139,9 +139,9 @@
   <value column="Help" original="">节点翻译</value>
  </row>
  <row id="124" trl="Y">
-  <value column="Name" original="Transition">转换</value>
+  <value column="Name" original="Transition">流转</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Node Transition">工作流节点的转换</value>
+  <value column="Description" original="Workflow Node Transition">工作流节点的流转</value>
   <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">工作流节点的转换</value>
  </row>
  <row id="125" trl="Y">
@@ -395,7 +395,8 @@
   <value column="Name" original="Replenish">补货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Replenishment">定义产品补货</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">定义产品补货</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level."><![CDATA[设置补货策略后，可以在库存模块的“补货报表”开始手动补货。<br />
+不选择补货单据，就是查看报表。如果选择补货单据，系统将补货结果生成补货单据明细。]]></value>
  </row>
  <row id="183" trl="Y">
   <value column="Name" original="Price">价格</value>
@@ -692,10 +693,10 @@
   <value column="Help" original="The Withholding Rules Tab define the rules governing the withholding of amounts.">预扣规则</value>
  </row>
  <row id="242" trl="Y">
-  <value column="Name" original="Accounting">分录</value>
+  <value column="Name" original="Accounting">会计分录</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="View Accounting Fact Details">查看会计分录明细</value>
-  <value column="Help" original="">查看会计分录明细</value>
+  <value column="Description" original="View Accounting Fact Details">查看所有会计分录</value>
+  <value column="Help" original="">查看不同过账模式下的所有会计分录。</value>
  </row>
  <row id="243" trl="Y">
   <value column="Name" original="Tree">树</value>
@@ -776,10 +777,10 @@
   <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">定义移库明细</value>
  </row>
  <row id="262" trl="Y">
-  <value column="Name" original="Product Transactions">收发事务</value>
+  <value column="Name" original="Product Transactions">收发</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Transactions for stored Products">库位的产品收发事务</value>
-  <value column="Help" original="">库位的产品收发事务</value>
+  <value column="Description" original="Transactions for stored Products">库位的产品收发事务日志</value>
+  <value column="Help" original="">库位的产品收发事务日志</value>
  </row>
  <row id="263" trl="Y">
   <value column="Name" original="Invoice">应收发票</value>
@@ -866,10 +867,10 @@
   <value column="Help" original="The Define Report View defines the views used in report generation">定义报表视图</value>
  </row>
  <row id="289" trl="Y">
-  <value column="Name" original="Transactions">收发事务</value>
+  <value column="Name" original="Transactions">收发</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Transactions for stored Products">产品的收发事务记录</value>
-  <value column="Help" original="The Transaction Tab displays the transactions that have been processed for this product.">产品的收发事务记录</value>
+  <value column="Description" original="Transactions for stored Products">产品的收发事务日志</value>
+  <value column="Help" original="The Transaction Tab displays the transactions that have been processed for this product.">产品的收发事务日志</value>
  </row>
  <row id="290" trl="Y">
   <value column="Name" original="Invoice">应付发票</value>
@@ -1210,14 +1211,14 @@
  <row id="352" trl="Y">
   <value column="Name" original="Payment Selection">支付选择</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Payment">选择发票进行支付</value>
-  <value column="Help" original="The Payment Selection Tab defines the bank account and date of the payments to be made. You also create the payments here.">选择发票进行支付</value>
+  <value column="Description" original="Define Payment">选择待支付的发票，并准备票据</value>
+  <value column="Help" original="The Payment Selection Tab defines the bank account and date of the payments to be made. You also create the payments here.">选择待支付的发票，并准备票据</value>
  </row>
  <row id="353" trl="Y">
-  <value column="Name" original="Payment Selection Line">选择明细</value>
+  <value column="Name" original="Payment Selection Line">已选择发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Payment Selection Line">付款选择明细</value>
-  <value column="Help" original="The Payment Selection Line Tab defines the individual invoices an organization is paying to a Vendor with this payment.">付款选择明细</value>
+  <value column="Description" original="Payment Selection Line">已选择发票的明细，等待准备支付票据</value>
+  <value column="Help" original="The Payment Selection Line Tab defines the individual invoices an organization is paying to a Vendor with this payment.">已选择发票的明细，等待准备支付票据</value>
  </row>
  <row id="354" trl="Y">
   <value column="Name" original="Report View Column">报表视图列</value>
@@ -1370,10 +1371,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="384" trl="Y">
-  <value column="Name" original="Material Transactions">收发事务</value>
+  <value column="Name" original="Material Transactions">收发</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">非直接产品的存货收发事务</value>
-  <value column="Help" original="">非直接产品的存货收发事务</value>
+  <value column="Description" original="">非直接产品的收发事务日志</value>
+  <value column="Help" original="">非直接产品的收发事务日志</value>
  </row>
  <row id="385" trl="Y">
   <value column="Name" original="Print Form">打印格式配置</value>
@@ -1693,10 +1694,11 @@
   <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic.">定义表格的打印格式</value>
  </row>
  <row id="436" trl="Y">
-  <value column="Name" original="Prepared Payment">待支付票据</value>
+  <value column="Name" original="Prepared Payment">已准备票据</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View Generated Prepared Payments (Checks)">查看已生成的待支付票据，比如支票，汇票</value>
-  <value column="Help" original="You create the actual Payments via Payment Print/Export">查看已生成的待支付票据，比如支票，汇票，只有新建收款单/付款单后，才可以打印或者导出票据。</value>
+  <value column="Help" original="You create the actual Payments via Payment Print/Export"><![CDATA[查看已生成的待支付票据，比如支票，汇票。你可以手动分配你的票据，准备打印。
+<br />但只有新建收款单/付款单后，你才可以打印或者导出票据。]]></value>
  </row>
  <row id="437" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
@@ -1753,25 +1755,25 @@
   <value column="Help" original="The Language needs to be a (verified) System Language">选择语言</value>
  </row>
  <row id="446" trl="Y">
-  <value column="Name" original="Element Translation">元素</value>
+  <value column="Name" original="Element">元素</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="447" trl="Y">
-  <value column="Name" original="Message Translation">消息</value>
+  <value column="Name" original="Message">消息</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="448" trl="Y">
-  <value column="Name" original="Window Translation">窗口</value>
+  <value column="Name" original="Window">窗口</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="449" trl="Y">
-  <value column="Name" original="Process Translation">流程</value>
+  <value column="Name" original="Process">流程</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -1921,10 +1923,10 @@
   <value column="Help" original="Maintain the translation for Label Line formats">打印标签明细翻译</value>
  </row>
  <row id="475" trl="Y">
-  <value column="Name" original="Session Audit">会话审计</value>
+  <value column="Name" original="Session Audit">登录日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List of User Sessions">用户登录会话的列表</value>
-  <value column="Help" original="History of Online or Web Sessions">用户登录会话的列表</value>
+  <value column="Description" original="List of User Sessions">用户登录会话的日志</value>
+  <value column="Help" original="History of Online or Web Sessions">用户登录会话的日志</value>
  </row>
  <row id="476" trl="Y">
   <value column="Name" original="Project Type">项目类型</value>
@@ -1995,14 +1997,14 @@
  <row id="487" trl="Y">
   <value column="Name" original="Change Audit">变更日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Data Changes">数据更改</value>
-  <value column="Help" original="Log of data changes">数据更改</value>
+  <value column="Description" original="Data Changes">数据库列的数据变更日志</value>
+  <value column="Help" original="Log of data changes">数据库列的数据变更日志</value>
  </row>
  <row id="488" trl="Y">
-  <value column="Name" original="Change Audit">变更审计</value>
+  <value column="Name" original="Change Audit">变更日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Log of data changes">数据更改的日志</value>
-  <value column="Help" original="Log of data changes">数据更改的日志</value>
+  <value column="Description" original="Log of data changes">数据库列的数据变更日志</value>
+  <value column="Help" original="Log of data changes">数据库列的数据变更日志</value>
  </row>
  <row id="489" trl="Y">
   <value column="Name" original="Cost Type">成本类型</value>
@@ -2215,49 +2217,49 @@
   <value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">请注意，如果没有设置数据首选项来保证默认值输入，将无法在此窗口新建记录。</value>
  </row>
  <row id="527" trl="Y">
-  <value column="Name" original="Tab Translation">页签</value>
+  <value column="Name" original="Tab">页签</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="528" trl="Y">
-  <value column="Name" original="Reference List Translation">引用列表</value>
+  <value column="Name" original="Reference List">引用列表</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="529" trl="Y">
-  <value column="Name" original="Field Translation">字段</value>
-  <value column="CommitWarning" original="AD_Field_Trl.AD_Field_ID IN (SELECT AD_Field_ID FROM AD_Field WHERE IsCentrallyMaintained='N' )"/>
+  <value column="Name" original="Field">字段</value>
+  <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="530" trl="Y">
-  <value column="Name" original="Field Group Translation">字段组</value>
+  <value column="Name" original="Field Group">字段组</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Please note, that most of the fields translations are derived from Element!">请注意，字段翻译大多继承于元素的翻译!</value>
   <value column="Help" original="Run Synchronize Terminology to update menu translation. You need only to translate Fields, which are not centrally maintained.">请注意，字段翻译大多继承于元素的翻译!</value>
  </row>
  <row id="531" trl="Y">
-  <value column="Name" original="Form Translation">窗体</value>
+  <value column="Name" original="Form">窗体</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="532" trl="Y">
-  <value column="Name" original="Task Translation">任务</value>
+  <value column="Name" original="Task">任务</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="533" trl="Y">
-  <value column="Name" original="Workflow Translation">工作流</value>
+  <value column="Name" original="Workflow">工作流</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="534" trl="Y">
-  <value column="Name" original="Workflow Node Translation">节点</value>
+  <value column="Name" original="Workflow Node">节点</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -2539,10 +2541,10 @@
   <value column="Help" original="Activity Result of the execution of the Workflow Process Instrance">工作流流程活动的结果</value>
  </row>
  <row id="582" trl="Y">
-  <value column="Name" original="Event">事件审计</value>
+  <value column="Name" original="Event">事件日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Process Activity Event Audit Information">工作流流程的节点活动事件审计信息</value>
-  <value column="Help" original="History of chenges ov the Workflow Process Activity">工作流流程的节点活动事件审计信息</value>
+  <value column="Description" original="Workflow Process Activity Event Audit Information">工作流流程实例的节点活动事件日志</value>
+  <value column="Help" original="History of chenges ov the Workflow Process Activity">工作流流程实例的节点活动事件日志</value>
  </row>
  <row id="583" trl="Y">
   <value column="Name" original="Attribute">资产属性</value>
@@ -2797,10 +2799,10 @@
   <value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">打包单</value>
  </row>
  <row id="627" trl="Y">
-  <value column="Name" original="Package Line">包裹唛头</value>
+  <value column="Name" original="Package Line">包装唛头</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="The detail content of the Package">打包后的每个包裹的唛头信息</value>
-  <value column="Help" original="Link to the shipment line">打包后的每个包裹的唛头信息</value>
+  <value column="Description" original="The detail content of the Package">每个包装箱的唛头信息</value>
+  <value column="Help" original="Link to the shipment line">每个包装箱的唛头信息</value>
  </row>
  <row id="628" trl="Y">
   <value column="Name" original="Customer RMA">客户退货授权</value>
@@ -2935,9 +2937,9 @@
   <value column="Help" original="Determines, which attributes are assigned to a product">使用属性的已登记产品</value>
  </row>
  <row id="651" trl="Y">
-  <value column="Name" original="Access Audit">访问审核</value>
+  <value column="Name" original="Access Audit">访问日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Log of Access to data or resources">访问数据或资源的日志</value>
+  <value column="Description" original="Log of Access to data or resources">访问数据或资源的日志（需要代码）</value>
   <value column="Help" original="Logging needs to be explicitly enabled / written.">访问数据或资源的日志</value>
  </row>
  <row id="652" trl="Y">
@@ -2995,9 +2997,9 @@
   <value column="Help" original="Maintain the types of RMA">退料授权的类型</value>
  </row>
  <row id="661" trl="Y">
-  <value column="Name" original="Allocation">分配</value>
+  <value column="Name" original="Allocation">支付分配</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="View and Reverse Allocation">查看或取消分配</value>
+  <value column="Description" original="View and Reverse Allocation">查看或取消支付分配</value>
   <value column="Help" original="The Reverse Allocation Tab defines the Payment Allocation to be reversed.">查看或反转分配</value>
  </row>
  <row id="662" trl="Y">
@@ -3007,22 +3009,22 @@
   <value column="Help" original="">查看未过账单据</value>
  </row>
  <row id="663" trl="Y">
-  <value column="Name" original="Process Audit">流程审计</value>
+  <value column="Name" original="Process Audit">流程日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Audit Process use">审核流程使用</value>
-  <value column="Help" original="">审核流程使用</value>
+  <value column="Description" original="Audit Process use">流程使用日志</value>
+  <value column="Help" original="">流程使用日志</value>
  </row>
  <row id="664" trl="Y">
-  <value column="Name" original="Parameter Audit">参数审核</value>
+  <value column="Name" original="Parameter Audit">流程参数</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Audit Process Parameter Values">审核流程参数的值</value>
-  <value column="Help" original="">审核流程参数的值</value>
+  <value column="Description" original="Audit Process Parameter Values">查看流程实例的参数值</value>
+  <value column="Help" original="">查看流程实例的参数值</value>
  </row>
  <row id="665" trl="Y">
-  <value column="Name" original="Log">日志</value>
+  <value column="Name" original="Log">处理日志</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process Log">处理日志</value>
-  <value column="Help" original="">处理日志</value>
+  <value column="Description" original="Process Log">流程的多个处理日志</value>
+  <value column="Help" original="">流程的多个处理日志</value>
  </row>
  <row id="666" trl="Y">
   <value column="Name" original="Confirmation">移库确认</value>
@@ -3145,10 +3147,10 @@
   <value column="Help" original="">把发票分配到付款或现金</value>
  </row>
  <row id="686" trl="Y">
-  <value column="Name" original="Allocations">分配</value>
+  <value column="Name" original="Allocations">已分配发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">付款/收款至发票的分配明细</value>
-  <value column="Help" original="">付款/收款至发票的分配明细</value>
+  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">支付与发票的已分配明细</value>
+  <value column="Help" original="">支付与发票的已分配明细</value>
  </row>
  <row id="687" trl="Y">
   <value column="Name" original="Confirmations">收货确认</value>
@@ -3496,7 +3498,8 @@
   <value column="Name" original="Replenish">补货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Product Replenishment">定义产品补货</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">定义产品补货</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level."><![CDATA[设置补货策略后，可以在库存模块的“补货报表”开始手动补货。<br />
+不选择补货单据，就是查看报表。如果选择补货单据，系统将补货结果生成补货单据明细。]]></value>
  </row>
  <row id="748" trl="Y">
   <value column="Name" original="Cost Details">成本明细</value>
@@ -3541,10 +3544,10 @@
   <value column="Help" original="Create a record, if you want to exclude the ability to create Serial Numbers in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">排除在属性集中创建序列号的能力</value>
  </row>
  <row id="755" trl="Y">
-  <value column="Name" original="Allocate">分配支付</value>
+  <value column="Name" original="Allocate">选择多笔发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Allocate Payments to Invoices">分配支付到发票</value>
-  <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">分配支付到发票</value>
+  <value column="Description" original="Allocate Payments to Invoices">表头未选发票时，选择多个待分配的发票</value>
+  <value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">如果表头已选择发票（表示单票支付），则该支付无法继续选择。如果表头不选，则可以在该页签选择多个发票。</value>
  </row>
  <row id="756" trl="Y">
   <value column="Name" original="BP Access">联系人权限</value>
@@ -4081,7 +4084,7 @@
   <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">基于LDAP服务器来验证外部系统</value>
  </row>
  <row id="850" trl="Y">
-  <value column="Name" original="LDAP Server Log">LDAP 服务器日志</value>
+  <value column="Name" original="LDAP Server Log">服务器日志</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Log of the LDAP Server">LDAP 服务器的日志</value>
   <value column="Help" original="">LDAP 服务器的日志</value>
@@ -4255,9 +4258,9 @@
   <value column="Help" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">工序活动</value>
  </row>
  <row id="53026" trl="Y">
-  <value column="Name" original="Transition">转换</value>
+  <value column="Name" original="Transition">流转</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Node Transition">工作流节点的转换</value>
+  <value column="Description" original="Workflow Node Transition">工序的流转</value>
   <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">工作流节点的转换</value>
  </row>
  <row id="53027" trl="Y">
@@ -4300,13 +4303,13 @@
   <value column="Name" original="Replenish">补货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="">定义产品补货</value>
-  <value column="Help" original="">定义产品补货</value>
+  <value column="Help" original=""><![CDATA[设置补货策略后，可以在库存模块的“补货报表”开始手动补货。<br /> 不选择补货单据，就是查看报表。如果选择补货单据，系统将补货结果生成补货单据明细。]]></value>
  </row>
  <row id="53034" trl="Y">
-  <value column="Name" original="Transaction">收发事务</value>
+  <value column="Name" original="Transaction">收发</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">产品的收发事务</value>
-  <value column="Help" original="">产品的收发事务</value>
+  <value column="Description" original="">产品的收发事务日志</value>
+  <value column="Help" original="">产品的收发事务日志</value>
  </row>
  <row id="53035" trl="Y">
   <value column="Name" original="Notice">MRP 通知</value>
@@ -4372,7 +4375,7 @@
   <value column="Name" original="Replenish">补货</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Replenishment">定义产品补货</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.">定义产品补货</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering."><![CDATA[设置补货策略后，可以在库存模块的“补货报表”开始手动补货。<br /> 不选择补货单据，就是查看报表。如果选择补货单据，系统将补货结果生成补货单据明细。]]></value>
  </row>
  <row id="53046" trl="Y">
   <value column="Name" original="Purchasing">采购</value>
@@ -4807,7 +4810,7 @@
   <value column="Help" original="">产品属性实例</value>
  </row>
  <row id="53137" trl="Y">
-  <value column="Name" original="Access Audit">访问审核</value>
+  <value column="Name" original="Access Audit">折旧预测</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Log of Access to data or resources">访问数据或资源的日志</value>
   <value column="Help" original="Logging needs to be explicitly enabled / written.">访问数据或资源的日志</value>
@@ -5005,9 +5008,9 @@
   <value column="Help" original="">折旧计划日程的明细</value>
  </row>
  <row id="53174" trl="Y">
-  <value column="Name" original="Setup Conventions">折旧转换率</value>
+  <value column="Name" original="Setup Conventions">折旧率换算</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Setup for depreciation conventions">设置折旧转换率</value>
+  <value column="Description" original="Setup for depreciation conventions">设置折旧率换算</value>
   <value column="Help" original="">设置首年折旧转化率</value>
  </row>
  <row id="53175" trl="Y">
@@ -5245,9 +5248,9 @@
   <value column="Help" original="">产品的库位数量信息</value>
  </row>
  <row id="53246" trl="Y">
-  <value column="Name" original="UOM Conversion">单位转换</value>
+  <value column="Name" original="UOM Conversion">单位换算</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
+  <value column="Description" original="">计量单位换算</value>
   <value column="Help" original=""/>
  </row>
  <row id="53271" trl="Y">
@@ -5997,14 +6000,14 @@
  <row id="200045" trl="Y">
   <value column="Name" original="MPS Lines">装箱明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">装箱明细</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="">每个包裹箱的产品装箱明细</value>
+  <value column="Help" original="">每个包裹箱的产品装箱明细</value>
  </row>
  <row id="200046" trl="Y">
-  <value column="Name" original="Package Lines">包裹唛头</value>
+  <value column="Name" original="Package Lines">包装唛头</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">打包后的每个包裹的唛头信息</value>
-  <value column="Help" original="">打包后的每个包裹的唛头信息</value>
+  <value column="Description" original="">每个包装箱的唛头信息</value>
+  <value column="Help" original="">每个包装箱的唛头信息</value>
  </row>
  <row id="200047" trl="Y">
   <value column="Name" original="Packages">发货打包</value>
@@ -6013,16 +6016,16 @@
   <value column="Help" original=""/>
  </row>
  <row id="200048" trl="Y">
-  <value column="Name" original="MPS Lines">包裹唛头</value>
+  <value column="Name" original="MPS Lines">包装唛头</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">打包后的每个包裹的唛头信息</value>
-  <value column="Help" original="">打包后的每个包裹的唛头信息</value>
+  <value column="Description" original="">每个包装箱的唛头信息</value>
+  <value column="Help" original="">每个包装箱的唛头信息</value>
  </row>
  <row id="200049" trl="Y">
-  <value column="Name" original="Package Lines">包裹唛头</value>
+  <value column="Name" original="Package Lines">装箱明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">打包后的每个包裹的唛头信息</value>
-  <value column="Help" original="">打包后的每个包裹的唛头信息</value>
+  <value column="Description" original="">每个包裹箱的产品装箱明细</value>
+  <value column="Help" original="">每个包裹箱的产品装箱明细</value>
  </row>
  <row id="200050" trl="Y">
   <value column="Name" original="Commodity Shipment">出口编码</value>
@@ -6184,14 +6187,40 @@
  <row id="200098" trl="Y">
   <value column="Name" original="View Component">视图组件</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">视图中AS SELECT语句的相关子句定义</value>
+  <value column="Help" original=""><![CDATA[视图组件包含了数据库视图的SELECT语句的FROM , WHERE , GROUP BY 和 HAVING 子句。如果视图包含了多SELECT语句（比如使用UNION），则每个SELECT语句都需要一个视图组件。
+<br />
+As an example, if your database view is created with the following statement: <br />
+ <br />
+CREATE VIEW <br />
+someView ( someViewID, someViewName)  <br />
+AS SELECT someID, someName FROM someTable WHERE someAttribute = 'Y' <br />
+ <br />
+Then the following information will be stored in the various tabs of the 'Table and Column' window: <br />
+ <br />
+The 'Table' Tab will store the view name someView and the fact that this Compiere table correspond to a database view. <br />
+The 'Column' Tab will store the names and datatype of the someViewID and someViewName view columns. <br />
+The 'View Component' Tab will store the FROM clause FROM someTable and the WHERE clause WHERE someAttribute = 'Y' of the view SELECT statement. <br />
+The 'View Column' Tab will store the columns someID, someName in the SELECT clause of the view SELECT statement.]]></value>
  </row>
  <row id="200099" trl="Y">
   <value column="Name" original="View Column">视图列</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">视图中AS SELECT的列名</value>
+  <value column="Help" original=""><![CDATA[AS SELECT 与 FROM 之间的列名。
+
+As an example, if your database view is created with the following statement: <br />
+ <br />
+CREATE VIEW <br />
+someView ( someViewID, someViewName)  <br />
+AS SELECT someID, someName FROM someTable WHERE someAttribute = 'Y' <br />
+ <br />
+Then the following information will be stored in the various tabs of the 'Table and Column' window: <br />
+ <br />
+The 'Table' Tab will store the view name someView and the fact that this Compiere table correspond to a database view. <br />
+The 'Column' Tab will store the names and datatype of the someViewID and someViewName view columns. <br />
+The 'View Component' Tab will store the FROM clause FROM someTable and the WHERE clause WHERE someAttribute = 'Y' of the view SELECT statement. <br />
+The 'View Column' Tab will store the columns someID, someName in the SELECT clause of the view SELECT statement.]]></value>
  </row>
  <row id="200100" trl="Y">
   <value column="Name" original="Related Info Window">相关信息窗口</value>
@@ -6830,10 +6859,10 @@
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="52e7fb8b-9c9d-42ae-9b5e-17b9c42abb0c">
-  <value column="Name" original="Accounting Fact">分录</value>
+  <value column="Name" original="Accounting Fact">会计分录</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">查看会计分录</value>
-  <value column="Help" original="">查看会计分录</value>
+  <value column="Description" original="">查看所有会计分录</value>
+  <value column="Help" original="">查看不同过账模式下的所有会计分录。</value>
  </row>
  <row trl="N" uuid="432f9e1d-d3aa-454b-863e-3610b062de44">
   <value column="Name" original="pep trans">pep trans</value>
@@ -6842,7 +6871,31 @@
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="b0d643ab-f2c6-4e51-bab5-c0389e896b91">
-  <value column="Name" original="Reference Translation">引用</value>
+  <value column="Name" original="Reference">引用</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="58ecb8ad-56b7-43f1-98a2-820231b8a692">
+  <value column="Name" original="Table">表</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a1fbb61d-8548-48e0-af16-a69bbe9166df">
+  <value column="Name" original="PrintFormat">打印格式</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1d531ba8-c97c-4ad9-8990-88303f57cc86">
+  <value column="Name" original="Para">参数</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="">流程参数</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="aa397bfa-bcb8-4d38-817d-75cfea62a7f0">
+  <value column="Name" original="Info">Info</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

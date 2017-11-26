@@ -26,84 +26,84 @@
   <value column="Help" original=""/>
  </row>
  <row id="10" trl="Y">
-  <value column="Name" original="String">String</value>
+  <value column="Name" original="String">字符串</value>
   <value column="Description" original="Character String">字符串</value>
   <value column="Help" original=""/>
  </row>
  <row id="11" trl="Y">
-  <value column="Name" original="Integer">Integer</value>
+  <value column="Name" original="Integer">整数</value>
   <value column="Description" original="10 Digit numeric">10位数字</value>
   <value column="Help" original=""/>
  </row>
  <row id="12" trl="Y">
-  <value column="Name" original="Amount">Amount</value>
+  <value column="Name" original="Amount">金额</value>
   <value column="Description" original="Number with 4 decimals">带4位小数的数字</value>
   <value column="Help" original=""/>
  </row>
  <row id="13" trl="Y">
   <value column="Name" original="ID">ID</value>
-  <value column="Description" original="10 Digit Identifier">10位数字标识</value>
+  <value column="Description" original="10 Digit Identifier">10位数字ID</value>
   <value column="Help" original=""/>
  </row>
  <row id="14" trl="Y">
-  <value column="Name" original="Text">Text</value>
-  <value column="Description" original="Character String up to 2000 characters">最大2000个字符的字符串</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Text">文本</value>
+  <value column="Description" original="Character String up to 2000 characters">文本</value>
+  <value column="Help" original="">最多2000个字符的字符串</value>
  </row>
  <row id="15" trl="Y">
-  <value column="Name" original="Date">Date</value>
-  <value column="Description" original="Date mm/dd/yyyy">日期 mm/dd/yyyy</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Date">日期</value>
+  <value column="Description" original="Date mm/dd/yyyy">日期</value>
+  <value column="Help" original="">mm/dd/yyyy</value>
  </row>
  <row id="16" trl="Y">
-  <value column="Name" original="Date+Time">Date+Time</value>
-  <value column="Description" original="Date with time">有时间的日期</value>
+  <value column="Name" original="Date+Time">日期+时间</value>
+  <value column="Description" original="Date with time">日期+时间</value>
   <value column="Help" original=""/>
  </row>
  <row id="17" trl="Y">
-  <value column="Name" original="List">List</value>
+  <value column="Name" original="List">引用列表</value>
   <value column="Description" original="Reference List">引用列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="18" trl="Y">
-  <value column="Name" original="Table">Table</value>
-  <value column="Description" original="Table List">表列表</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Table">表</value>
+  <value column="Description" original="Table List">表</value>
+  <value column="Help" original="">表清单</value>
  </row>
  <row id="19" trl="Y">
-  <value column="Name" original="Table Direct">Table Direct</value>
-  <value column="Description" original="Direct Table Access">字段命名必须是“表_ID”</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Table Direct">表直接</value>
+  <value column="Description" original="Direct Table Access">表直接</value>
+  <value column="Help" original="">字段命名必须是“表_ID”</value>
  </row>
  <row id="20" trl="Y">
   <value column="Name" original="Yes-No">Yes-No</value>
-  <value column="Description" original="CheckBox">Boolean的引用为“”Y“或者N”字符</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="CheckBox">Yes-No</value>
+  <value column="Help" original="">Boolean类型，“”Y“或者N”字符</value>
  </row>
  <row id="21" trl="Y">
-  <value column="Name" original="Location (Address)">Location (Address)</value>
-  <value column="Description" original="Location/Address">位置/地址</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Location (Address)">地点</value>
+  <value column="Description" original="Location/Address">地点</value>
+  <value column="Help" original="">可以输入地址段</value>
  </row>
  <row id="22" trl="Y">
-  <value column="Name" original="Number">Number</value>
-  <value column="Description" original="Float Number">浮点数</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Number">数字</value>
+  <value column="Description" original="Float Number">数字</value>
+  <value column="Help" original="">浮点数字</value>
  </row>
  <row id="23" trl="Y">
-  <value column="Name" original="Binary">Binary</value>
+  <value column="Name" original="Binary">二进制数据</value>
   <value column="Description" original="Binary Data">二进制数据</value>
   <value column="Help" original=""/>
  </row>
  <row id="24" trl="Y">
-  <value column="Name" original="Time">Time</value>
+  <value column="Name" original="Time">时间</value>
   <value column="Description" original="Time">时间</value>
   <value column="Help" original=""/>
  </row>
  <row id="25" trl="Y">
-  <value column="Name" original="Account">Account</value>
-  <value column="Description" original="Account Element">账户元素</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Account">账户</value>
+  <value column="Description" original="Account Element">账户</value>
+  <value column="Help" original="">可以选择账户组合</value>
  </row>
  <row id="26" trl="Y">
   <value column="Name" original="RowID">RowID</value>
@@ -111,78 +111,78 @@
   <value column="Help" original=""/>
  </row>
  <row id="27" trl="Y">
-  <value column="Name" original="Color">Color</value>
-  <value column="Description" original="Color element">颜色元素</value>
+  <value column="Name" original="Color">颜色</value>
+  <value column="Description" original="Color element">颜色</value>
   <value column="Help" original=""/>
  </row>
  <row id="28" trl="Y">
-  <value column="Name" original="Button">Button</value>
-  <value column="Description" original="Command Button - starts a process">命令按钮 - 启动一个程序</value>
+  <value column="Name" original="Button">按钮</value>
+  <value column="Description" original="Command Button - starts a process">命令按钮 - 启动一个流程</value>
   <value column="Help" original=""/>
  </row>
  <row id="29" trl="Y">
-  <value column="Name" original="Quantity">Quantity</value>
-  <value column="Description" original="Quantity data type">量量数据类型</value>
+  <value column="Name" original="Quantity">数量</value>
+  <value column="Description" original="Quantity data type">数量数据类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="30" trl="Y">
-  <value column="Name" original="Search">Search</value>
-  <value column="Description" original="Search Field">搜索字段</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Search">搜索</value>
+  <value column="Description" original="Search Field">搜索</value>
+  <value column="Help" original="">弹出搜索窗口</value>
  </row>
  <row id="31" trl="Y">
-  <value column="Name" original="Locator (WH)">Locator (WH)</value>
-  <value column="Description" original="Warehouse Locator Data type">仓库货位数据类型</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Locator (WH)">库位</value>
+  <value column="Description" original="Warehouse Locator Data type">库位</value>
+  <value column="Help" original="">仓库库位</value>
  </row>
  <row id="32" trl="Y">
-  <value column="Name" original="Image">Image</value>
-  <value column="Description" original="Binary Image Data">二进位的图像数据</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Image">图片</value>
+  <value column="Description" original="Binary Image Data">图片</value>
+  <value column="Help" original="">二进制图片文件</value>
  </row>
  <row id="33" trl="Y">
-  <value column="Name" original="Assignment">Assignment</value>
+  <value column="Name" original="Assignment">资源分配</value>
   <value column="Description" original="Resource Assignment">资源分配</value>
   <value column="Help" original=""/>
  </row>
  <row id="34" trl="Y">
-  <value column="Name" original="Memo">Memo</value>
-  <value column="Description" original="Large Text Editor - Character String up to 2000 characters">大文本编辑器 - 最大2000个字符的字符串</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Memo">大文本编辑器</value>
+  <value column="Description" original="Large Text Editor - Character String up to 2000 characters">大文本编辑器</value>
+  <value column="Help" original="">最多2000个字符的字符串</value>
  </row>
  <row id="35" trl="Y">
-  <value column="Name" original="Product Attribute">Product Attribute</value>
+  <value column="Name" original="Product Attribute">产品属性</value>
   <value column="Description" original="Product Attribute">产品属性</value>
   <value column="Help" original=""/>
  </row>
  <row id="36" trl="Y">
-  <value column="Name" original="Text Long">Text Long</value>
-  <value column="Description" original="Text (Long) - Text &gt; 2000 characters"><![CDATA[Text (Long) - Text > 2000 characters]]></value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Text Long">长文本</value>
+  <value column="Description" original="Text (Long) - Text &gt; 2000 characters">长文本</value>
+  <value column="Help" original="">超过 2000 字符的文本</value>
  </row>
  <row id="37" trl="Y">
-  <value column="Name" original="Costs+Prices">Costs+Prices</value>
-  <value column="Description" original="Costs + Prices (minimum currency precision but if exists more)">Costs + Prices (minimum currency precision but if exists more)</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Costs+Prices">成本+价格</value>
+  <value column="Description" original="Costs + Prices (minimum currency precision but if exists more)">成本+价格</value>
+  <value column="Help" original="">小数点取货币的最小精度</value>
  </row>
  <row id="38" trl="Y">
-  <value column="Name" original="FilePath">FilePath</value>
+  <value column="Name" original="FilePath">本地路径</value>
   <value column="Description" original="Local File Path">本地文件路径</value>
   <value column="Help" original=""/>
  </row>
  <row id="39" trl="Y">
-  <value column="Name" original="FileName">FileName</value>
+  <value column="Name" original="FileName">本地文件</value>
   <value column="Description" original="Local File">本地文件</value>
   <value column="Help" original=""/>
  </row>
  <row id="40" trl="Y">
-  <value column="Name" original="URL">URL</value>
+  <value column="Name" original="URL">网址</value>
   <value column="Description" original="URL">网址</value>
   <value column="Help" original=""/>
  </row>
  <row id="42" trl="Y">
-  <value column="Name" original="Printer Name">Printer Name</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Printer Name">打印机名称</value>
+  <value column="Description" original="">打印机名称</value>
   <value column="Help" original=""/>
  </row>
  <row id="100" trl="Y">
@@ -2171,7 +2171,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53370" trl="Y">
-  <value column="Name" original="Chart">Chart</value>
+  <value column="Name" original="Chart">图表</value>
   <value column="Description" original="Chart">图表</value>
   <value column="Help" original="A chart provides a graphical display of information.">A chart provides a graphical display of information</value>
  </row>
@@ -2371,9 +2371,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="200012" trl="Y">
-  <value column="Name" original="Payment">Payment</value>
-  <value column="Description" original="Payment Rule list and Process Payment button">支付规则列表和流程付款按钮</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Payment">支付按钮</value>
+  <value column="Description" original="Payment Rule list and Process Payment button">支付按钮</value>
+  <value column="Help" original="">可以选择支付规则和付款按钮</value>
  </row>
  <row id="200014" trl="Y">
   <value column="Name" original="C_PaymentTransaction">C_PaymentTransaction</value>
@@ -2646,7 +2646,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="200122" trl="Y">
-  <value column="Name" original="Dashboard Content">Dashboard Content</value>
+  <value column="Name" original="Dashboard Content">仪表盘内容</value>
   <value column="Description" original="Dashboard Content">仪表盘内容</value>
   <value column="Help" original=""/>
  </row>
@@ -2656,13 +2656,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="200127" trl="Y">
-  <value column="Name" original="Single Selection Grid">Single Selection Grid</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Single Selection Grid">单选表</value>
+  <value column="Description" original="">单选表</value>
   <value column="Help" original=""/>
  </row>
  <row id="200128" trl="Y">
-  <value column="Name" original="Multiple Selection Grid">Multiple Selection Grid</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Multiple Selection Grid">多选表</value>
+  <value column="Description" original="">多选表</value>
   <value column="Help" original=""/>
  </row>
  <row id="200144" trl="N">
@@ -2736,7 +2736,7 @@
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="308a21f4-0771-4abe-9509-4d1245be1b0b">
-  <value column="Name" original="Category Tree">Category Tree</value>
+  <value column="Name" original="Category Tree">目录树</value>
   <value column="Description" original="Category Tree">目录树</value>
   <value column="Help" original=""/>
  </row>

@@ -261,7 +261,7 @@
   <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">维护杂费</value>
  </row>
  <row id="162" trl="Y">
-  <value column="Name" original="Accounting Fact Details">分录明细</value>
+  <value column="Name" original="Accounting Fact Details">会计分录</value>
   <value column="Description" original="Query Accounting Facts">查询会计分录明细</value>
   <value column="Help" original="Query the detail accounting transactions">查询会计分录明细</value>
  </row>
@@ -426,14 +426,14 @@
   <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection.">维护邮件模板</value>
  </row>
  <row id="205" trl="Y">
-  <value column="Name" original="View Allocation">查看支付分配</value>
+  <value column="Name" original="View Allocation">支付分配</value>
   <value column="Description" original="View and Reverse Allocations ">查看或者取消支付分配 </value>
   <value column="Help" original="The Reverse Allocation Window allows you to view and reverse a payment allocation">查看或者取消支付分配 </value>
  </row>
  <row id="206" trl="Y">
   <value column="Name" original="Payment Selection">付款选择</value>
-  <value column="Description" original="Select Invoices for Payment">选择付款的发票</value>
-  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">选择付款的发票</value>
+  <value column="Description" original="Select Invoices for Payment">选择待支付的发票，并准备票据</value>
+  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">根据条件筛选待支付的发票，并准备票据。</value>
  </row>
  <row id="207" trl="Y">
   <value column="Name" original="Commission">计算佣金</value>
@@ -691,9 +691,9 @@
   <value column="Help" original="Maintain Format to print Labels">打印标签格式</value>
  </row>
  <row id="264" trl="Y">
-  <value column="Name" original="Session Audit">会话审计</value>
-  <value column="Description" original="Audit of User Sessions">用户会话的日志</value>
-  <value column="Help" original="History of Online or Web Sessions">用户会话的日志</value>
+  <value column="Name" original="Session Audit">登录日志</value>
+  <value column="Description" original="Audit of User Sessions">用户登录会话的日志</value>
+  <value column="Help" original="History of Online or Web Sessions">用户登录会话的日志</value>
  </row>
  <row id="265" trl="Y">
   <value column="Name" original="Project Type">项目类型</value>
@@ -721,9 +721,9 @@
   <value column="Help" original="Maintain Advertisements on the Web">网络广告</value>
  </row>
  <row id="270" trl="Y">
-  <value column="Name" original="Change Audit">变更审计</value>
-  <value column="Description" original="Audit of data changes">数据更改的日志</value>
-  <value column="Help" original="Log of data changes">数据更改的日志</value>
+  <value column="Name" original="Change Audit">变更日志</value>
+  <value column="Description" original="Audit of data changes">数据库列的数据变更日志</value>
+  <value column="Help" original="Log of data changes">数据库列的数据变更日志</value>
  </row>
  <row id="271" trl="Y">
   <value column="Name" original="Cost Type">成本类型</value>
@@ -1001,8 +1001,8 @@
   <value column="Help" original="Distribution Run defines how Orders are created based on Distribution Lists">配送发运创建订单，以向选中的业务伙伴清单分发产品</value>
  </row>
  <row id="326" trl="Y">
-  <value column="Name" original="Access Audit">访问审计</value>
-  <value column="Description" original="Audit of Access to data or resources">访问数据或资源的日志</value>
+  <value column="Name" original="Access Audit">访问日志</value>
+  <value column="Description" original="Audit of Access to data or resources">访问数据或资源的日志（需要代码）</value>
   <value column="Help" original="Logging needs to be explicitly enabled / written.">日志需要开启或者写入</value>
  </row>
  <row id="327" trl="Y">
@@ -1031,9 +1031,9 @@
   <value column="Help" original="Maintain the types of RMA">退料授权的类型</value>
  </row>
  <row id="332" trl="Y">
-  <value column="Name" original="Process Audit">流程审计</value>
-  <value column="Description" original="Audit process use">审计流程使用</value>
-  <value column="Help" original="Process Instance Information">审计流程使用</value>
+  <value column="Name" original="Process Audit">流程日志</value>
+  <value column="Description" original="Audit process use">流程使用的日志</value>
+  <value column="Help" original="Process Instance Information">流程使用的日志</value>
  </row>
  <row id="333" trl="Y">
   <value column="Name" original="Move Confirmation">移库确认</value>

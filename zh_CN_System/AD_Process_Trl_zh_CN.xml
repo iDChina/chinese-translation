@@ -116,14 +116,17 @@
   <value column="Help" original=""/>
  </row>
  <row id="124" trl="Y">
-  <value column="Name" original="Product Transaction Summary">存货事务明细日报</value>
-  <value column="Description" original="Product Transaction Summary">存货事务明细报表，按日统计</value>
+  <value column="Name" original="Product Transaction Summary">收发明细 (日报)</value>
+  <value column="Description" original="Product Transaction Summary">存货收发事务明细，按日统计</value>
   <value column="Help" original="The report shows transaction summary for stored products">报表显示存货的每日收发明细，可按日期、事务类型、产品类型、产品筛选。</value>
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Replenish Report">补货报表</value>
-  <value column="Description" original="Inventory Replenish Report">库存补货报表</value>
-  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。需要手工选择一个当前供应商。<br />仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
+  <value column="Description" original="Inventory Replenish Report">查看库存补货报表，可生成补货单据</value>
+  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[未来库存=在手库存 + 预留库存 - 订购库存 + 未确认（收发、移库）。在运行补货时间点，该未来库存结果作为补货的参考值。补货数量 = 最高库存 - 未来库存 。<br />
+必须选择一个仓库，且定义了产品的补货策略才可查询结果并生成补货单据。<br />
+注意，如果生成补货单据，每个产品必须指定一个当前供应商（每个产品只允许一个当前供应商）。如果产品未设定当前供应商，多个供应商时需手工选择一个供应商。<br />如果使用移库方式来补货，仅当定义了产品的补货源仓库，才可以创建移库单。<br />
+已生成的补货单据可以继续修改，所有待补货清单可以打印或者发送电子邮件。]]></value>
  </row>
  <row id="126" trl="Y">
   <value column="Name" original="Order Drilldown">订单下钻</value>
@@ -266,8 +269,8 @@
   <value column="Help" original="You create the actual Payments via Payment Print/Export">生成的待支付票据明细（比如支票，汇票），只有新建收款单/付款单后，才可以打印或者导出票据。</value>
  </row>
  <row id="156" trl="Y">
-  <value column="Name" original="Create From ...">创建付款选择明细</value>
-  <value column="Description" original="Create Payment Selection Lines from AP Invoices">从应付发票创建付款选择明细</value>
+  <value column="Name" original="Create From ...">创建待支付的发票</value>
+  <value column="Description" original="Create Payment Selection Lines from AP Invoices">选择符合条件的发票清单，然后创建待支付明细</value>
   <value column="Help" original=""/>
  </row>
  <row id="159" trl="Y">
@@ -276,8 +279,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="161" trl="Y">
-  <value column="Name" original="Product Transaction Value">存货事务明细 (进货价)</value>
-  <value column="Description" original="Product Transaction Value">存货事务明细报表，附采购价格信息</value>
+  <value column="Name" original="Product Transaction Value">收发明细 (进价)</value>
+  <value column="Description" original="Product Transaction Value">存货收发事务明细，附采购价格信息</value>
   <value column="Help" original="The report shows product transactions with current vendor prices">报表显示存货的全部收发明细，包含产品的采购价格记录，可按日期、事务类型、产品类型、产品筛选。</value>
  </row>
  <row id="162" trl="Y">
@@ -337,8 +340,8 @@
  </row>
  <row id="174" trl="Y">
   <value column="Name" original="Create Fields">创建字段</value>
-  <value column="Description" original="Create Field from Table Column, which do not exist in the Tab yet">从表创建在页签中不存在的字段</value>
-  <value column="Help" original="Based on the table columns of this Tab, this procedure creates the missing Fields">基于该页签的表，此过程创建缺失的字段。</value>
+  <value column="Description" original="Create Field from Table Column, which do not exist in the Tab yet">基于页签的表，创建字段到页签。</value>
+  <value column="Help" original="Based on the table columns of this Tab, this procedure creates the missing Fields">选择指定“实例类类型”的列，或者指定列的日期，创建字段到页签。如果页签已包含该列，则跳过。</value>
  </row>
  <row id="175" trl="Y">
   <value column="Name" original="Resubmit Posting">重新过账</value>
@@ -356,8 +359,8 @@
   <value column="Help" original="You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).&#10;Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.">可以增加缺失的翻译记录(需要在激活附加系统语言之后) - 删除翻译记录 - 或重建翻译记录(先删除然后增加缺少的记录)。注意增加缺少的翻译记录是使用系统语言（英语）的副本创建他们。  在处理之后，需要应用语言包。  在导入翻译后，运行“同步术语”。</value>
  </row>
  <row id="180" trl="Y">
-  <value column="Name" original="Inventory Valuation Report">库存估值报表</value>
-  <value column="Description" original="Inventory Valuation Report">库存估值报表</value>
+  <value column="Name" original="Inventory Valuation Report">存货估值报表</value>
+  <value column="Description" original="Inventory Valuation Report">存货估值报表</value>
   <value column="Help" original="Report lists products with their on-hand quantity and values at the valuation date. In addition to several prices, standard costs and an optional other cost element is used to calculate the inventory of the particular warehouse.">报表列出了产品的现有数量和在估值日期对应的价值。除多个价格外，标准成本和可选的其他成本元素用于计算特定仓库的库存。</value>
  </row>
  <row id="181" trl="Y">
@@ -378,7 +381,8 @@
  <row id="185" trl="Y">
   <value column="Name" original="Recompile DB Objects">重新编译数据库对象</value>
   <value column="Description" original="Recompile Database Objects">重新编译数据库对象</value>
-  <value column="Help" original="Recompile Functions, Procedures, Triggers, Views, etc.">重新编译函数、过程、触发器、视图等。</value>
+  <value column="Help" original="Recompile Functions, Procedures, Triggers, Views, etc."><![CDATA[仅限ORACLE数据库。重新编译函数、过程、触发器、视图等。<br />
+参考源码：db\maintain\Maintenance\DBA_Recompile_Run.sql]]></value>
  </row>
  <row id="186" trl="Y">
   <value column="Name" original="Create Sales Orders from Expense">从费用报告创建销售订单</value>
@@ -645,12 +649,13 @@
  </row>
  <row id="236" trl="Y">
   <value column="Name" original="Storage Detail">库存明细</value>
-  <value column="Description" original="Storage Detail Report">库存明细报表</value>
-  <value column="Help" original="The report shows storage details including product instance (Lot, Serial No) info">此报表显示库存的明细信息，包括产品实例(批，序列号)信息。</value>
+  <value column="Description" original="Storage Detail Report">按库位、属性、日期分组的产品库存数量报表</value>
+  <value column="Help" original="The report shows storage details including product instance (Lot, Serial No) info"><![CDATA[不输入条件，将输出所有仓库的产品库存明细。<br />
+【注意】实施这个报表，需要添加M_Storage的“入库日期”字段，且过滤掉M_Storage“在手数量”=0的记录。]]></value>
  </row>
  <row id="237" trl="Y">
-  <value column="Name" original="Transaction Detail">存货事务明细</value>
-  <value column="Description" original="Transaction Detail Report">存货事务明细报表</value>
+  <value column="Name" original="Transaction Detail">收发明细</value>
+  <value column="Description" original="Transaction Detail Report">存货收发事务明细</value>
   <value column="Help" original="The report shows transaction details (receipts, shipments, inventory, movements, ...) including product instance (Lot, Serial No) info">报表显示存货的全部收发明细，可按日期、事务类型、产品类型、产品筛选，报表包含所有的相关信息，比如产品属性 (批号、序列号) 。</value>
  </row>
  <row id="238" trl="Y">
@@ -723,8 +728,8 @@
 。</value>
  </row>
  <row id="251" trl="Y">
-  <value column="Name" original="Invoice Tax">发票税额报告</value>
-  <value column="Description" original="Invoice Tax Reconciliation">发票税额报告</value>
+  <value column="Name" original="Invoice Tax">发票税额报表</value>
+  <value column="Description" original="Invoice Tax Reconciliation">发票税额报表</value>
   <value column="Help" original="The Report lists Invoice Tax lines with Business Partner Tax information.">报表列出发票税的行，含有业务伙伴的纳税信息。</value>
  </row>
  <row id="252" trl="Y">
@@ -833,7 +838,7 @@
  <row id="272" trl="Y">
   <value column="Name" original="UnLink Business Partner Org">去除链接组织</value>
   <value column="Description" original="UnLink Business Partner from an Organization">去除业务伙伴与组织的链接</value>
-  <value column="Help" original="UnLink a Business Partner Linked to an Organization (for explicit inter-org documents)">去除业务伙伴与组织的链接</value>
+  <value column="Help" original="UnLink a Business Partner Linked to an Organization (for explicit inter-org documents)"/>
  </row>
  <row id="273" trl="Y">
   <value column="Name" original="Process Requisition">处理请购单</value>
@@ -893,12 +898,12 @@
  <row id="284" trl="Y">
   <value column="Name" original="Open Confirmation Details">未清确认明细</value>
   <value column="Description" original="Open Shipment or Receipt Confirmation Details">未清的收发单明细确认</value>
-  <value column="Help" original="The Report lists the open confirmation lines">未清的收发单明细确认</value>
+  <value column="Help" original="The Report lists the open confirmation lines">未清的产品收发单明细确认</value>
  </row>
  <row id="285" trl="Y">
   <value column="Name" original="Open Confirmations">未清确认</value>
   <value column="Description" original="Open Shipment or Receipt Confirmations">未清的收发单确认</value>
-  <value column="Help" original="The report lists the open confirmations">未清的收发单确认</value>
+  <value column="Help" original="The report lists the open confirmations">未清的产品收发单确认</value>
  </row>
  <row id="286" trl="Y">
   <value column="Name" original="Process Confirmation">处理确认</value>
@@ -1081,13 +1086,18 @@
  <row id="321" trl="Y">
   <value column="Name" original="Synchronize Doc Translation">同步单据翻译</value>
   <value column="Description" original="Synchronize Document Translation">同步单据翻译</value>
-  <value column="Help" original="This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has multi-lingual documents enabled, then the main record is copied to the client language (defined in Client window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records."><![CDATA[比如 度量单位，付款条件，产品信息等用户单据词条，系统支持多语种翻译。<br />
-如果未开启“多语言单据”选项，该单据的翻译词条将与主语言词条相同（系统自动复制主语言词条到选定语言）。由于语言词条可能存在缺失，此流程将同步主语言并生成其他语言的丢失记录。]]></value>
+  <value column="Help" original="This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has multi-lingual documents enabled, then the main record is copied to the client language (defined in Client window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records."><![CDATA[【注意】，建议第一次运行前，先备份数据库。<br />
+同步会做如下操作：<br />
+1. 将单据记录的名称同步到翻译表的实体语言，其他语言不更新。<br />
+2. 如果是”多语言单据“模式，同步会创建丢失的单据翻译记录。<br />
+3. 返回同步结果。<br />
+【注意】当取消”多语言单据“模式转成单语言，如果实际记录与实体语言翻译记录两者不一致时，主记录数据会覆盖翻译记录。请确认后再执行。<br />
+更多参考：http://idempiere_guide_sm.mydoc.io/?t=134391#widget_6743846]]></value>
  </row>
  <row id="322" trl="Y">
-  <value column="Name" original="Material Reference">物料使用报告</value>
-  <value column="Description" original="Material Transactions Cross Reference (used/resourced)">物料事务交叉引用 (已使用/来源于)</value>
-  <value column="Help" original="The report displays, e.g. where Material Receipts are used or Customer Shipments are resourced from">报表显示诸如物料收货用于何处或客户发货来源于何处的信息。</value>
+  <value column="Name" original="Material Reference">物料使用报表</value>
+  <value column="Description" original="Material Transactions Cross Reference (used/resourced)">按单据查询物料的所有收发事务</value>
+  <value column="Help" original="The report displays, e.g. where Material Receipts are used or Customer Shipments are resourced from">选择需要查询的订单/发票/收发单，从库存收发事务中查询产品的所有进出历史记录。</value>
  </row>
  <row id="323" trl="Y">
   <value column="Name" original="Create Invoices">创建发票</value>
@@ -1237,7 +1247,7 @@
  <row id="50002" trl="Y">
   <value column="Name" original="PackRoll">回滚安装</value>
   <value column="Description" original="">回滚已导入的应用包</value>
-  <value column="Help" original="">回滚已导入的应用包</value>
+  <value column="Help" original=""/>
  </row>
  <row id="50004" trl="Y">
   <value column="Name" original="PackOut">导出应用</value>
@@ -1390,8 +1400,8 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Inventory in Process">在制品报表</value>
-  <value column="Description" original="This report show the inventory in process">This report show the inventory in process</value>
-  <value column="Help" original="This report show the inventory in process">This report show the inventory in process</value>
+  <value column="Description" original="This report show the inventory in process">在制品库存报表</value>
+  <value column="Help" original="This report show the inventory in process"/>
  </row>
  <row id="53038" trl="Y">
   <value column="Name" original="Process Cost Collector">处理成本采集</value>
@@ -1494,7 +1504,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  <row id="53069" trl="Y">
   <value column="Name" original="Apply Migration Scripts">应用迁移脚本</value>
   <value column="Description" original="">应用迁移脚本</value>
-  <value column="Help" original="">应用迁移脚本</value>
+  <value column="Help" original=""/>
  </row>
  <row id="53070" trl="Y">
   <value column="Name" original="Prepare Migration Scripts">准备迁移脚本</value>
@@ -1707,11 +1717,14 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  </row>
  <row id="53156" trl="Y">
   <value column="Name" original="Enable Native Sequence">启用本地序号</value>
-  <value column="Description" original="Enable Native Sequence">允许使用本地序号</value>
-  <value column="Help" original="This process allows Enable the native sequences based in the current AD_Sequence.&#10;&#10;This process should be implemented when the users are not connected.">允许使用基于当前AD_Sequence生成的本地序号，只有当用户离线时才需要运行此流程。</value>
+  <value column="Description" original="Enable Native Sequence">允许使用数据库序列来管理序号</value>
+  <value column="Help" original="This process allows Enable the native sequences based in the current AD_Sequence.&#10;&#10;This process should be implemented when the users are not connected."><![CDATA[系统使用AD_Sequence表来管理表的序号，也可以直接使用数据库的Sequence序列功能来管理。<br />
+流程打开SYSTEM_NATIVE_SEQUENCE参数，添加AD_Sequence/AD_Issue/AD_ChangeLog三个序列。<br />
+注意：只是替换的表_ID的序号，而不是单据ID的序号。仅当所有用户离线时才能运行。<br />
+参考：https://idempiere.atlassian.net/browse/IDEMPIERE-422]]></value>
  </row>
  <row id="53159" trl="Y">
-  <value column="Name" original="Cost BOM Multi Level Review">成本 BOM 多级报告</value>
+  <value column="Name" original="Cost BOM Multi Level Review">成本 BOM 多级报表</value>
   <value column="Description" original="This report show every cost element to a Multi Level BOM or Formula ">这个报表显示了多级BOM或配方的每一个成本元素</value>
   <value column="Help" original="This report show every cost element to a Multi Level BOM or Formula ">这个报表显示了多级BOM或配方的每一个成本元素。</value>
  </row>
@@ -1754,9 +1767,9 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
 系统返回本次过账的单据表名和数量，无法过账（过账错误）的消息可在工作台【通知】查看，剩余未过账单据可以在窗口【未过账单据】查看。]]></value>
  </row>
  <row id="53189" trl="Y">
-  <value column="Name" original="Storage per Product">存货产品报表</value>
-  <value column="Description" original="">按产品分组的库存报表</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Storage per Product">库存汇总(产品)</value>
+  <value column="Description" original="">汇总产品的所有库位在手数量</value>
+  <value column="Help" original="">【注意】实施这个报表，需要添加M_Storage的“库位”字段。默认没有库位字段，一脸懵圈。</value>
  </row>
  <row id="53197" trl="Y">
   <value column="Name" original="Import Payroll Movement">薪酬调整</value>
@@ -1824,7 +1837,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original="Import All Fixed Assets">导入所有固定资产。</value>
  </row>
  <row id="53216" trl="Y">
-  <value column="Name" original="ImportInventoryMovement">导入库存移动</value>
+  <value column="Name" original="ImportInventoryMovement">导入移库单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1886,7 +1899,9 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  <row id="53252" trl="Y">
   <value column="Name" original="UUID Generator">生成 UUID</value>
   <value column="Description" original="">为数据库中的表添加UUID字段</value>
-  <value column="Help" original="">运行流程，为数据库的表添加"表名_uuid"字段以标识记录的唯一性。</value>
+  <value column="Help" original=""><![CDATA[用于为数据库的表添加"表名_uuid"字段，比如迁移旧系统或者自定义表手动添加。<br />
+如果不选择表，将检查所有表。运行返回结果，详细清单可以在“流程日志”查看。<br />
+参考：https://groups.google.com/d/msg/idempiere/fy9Ptgyzgxo/RFHuetfFBAAJ]]></value>
  </row>
  <row id="53255" trl="N">
   <value column="Name" original="MP Prognosis">MP Prognosis</value>
@@ -1932,8 +1947,11 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  </row>
  <row id="53267" trl="Y">
   <value column="Name" original="Replenish Report incl. Production">补货报表（含生产）</value>
-  <value column="Description" original="Inventory Replenish Report">包含生产的产品补货报表</value>
-  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#13;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[报表列出了待补仓的产品。注意，每个产品只能具有一个当前供应商。如果每个产品具有多个供应商，记录皆被重置。需要手工选择一个当前供应商。<br />仅当待补仓的仓库被定义了源仓库之时，才会创建移库。]]></value>
+  <value column="Description" original="Inventory Replenish Report">查看包含生产的产品补货报表，可生成补货单据</value>
+  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#13;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[未来库存=在手库存 + 预留库存 - 订购库存 + 未确认（收发、移库、生产）。在运行补货时间点，该未来库存结果作为补货的参考值。补货数量 = 最高库存 - 未来库存 。<br />
+必须选择一个仓库，且定义了产品的补货策略才可查询结果并生成补货单据。<br />
+注意，如果生成补货单据，每个产品必须指定一个当前供应商（每个产品只允许一个当前供应商）。如果产品未设定当前供应商，多个供应商时需手工选择一个供应商。<br />如果使用移库方式来补货，仅当定义了产品的补货源仓库，才可以创建移库单。<br />
+已生成的补货单据可以继续修改，所有待补货清单可以打印或者发送电子邮件。]]></value>
  </row>
  <row id="53276" trl="Y">
   <value column="Name" original="Convert Lead">转换销售线索</value>
@@ -2075,8 +2093,8 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200035" trl="Y">
-  <value column="Name" original="Bank Register Report">银行账户报告</value>
-  <value column="Description" original="">银行账户报告</value>
+  <value column="Name" original="Bank Register Report">银行账户报表</value>
+  <value column="Description" original="">银行账户报表</value>
   <value column="Help" original=""/>
  </row>
  <row id="200036" trl="Y">
@@ -2102,20 +2120,19 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
  <row id="200040" trl="Y">
   <value column="Name" original="Change Base Language">改变基础语言</value>
   <value column="Description" original="Change Base Language">改变基础语言</value>
-  <value column="Help" original="In order to enable en_US as a translation you can enable any other language as base language.&#10;If you don't want to have a base language choose a language that won't be used for login.&#10;If all languages are going to be used as login, create a xx_XX language not login and use it as base.&#10;Please note that base language cannot be a system language.">为了使英语（en_US）能作为翻译语言，你需要设置其他的语言为基本语言。
-如果你不想设置一种语言为基本语言，修改该语言使其在登录界面不可用。
-如果你想登录的时候所以语言可用，创建xx_XX语言并设置为基本语言。
-请注意基本语言不是能系统语言。</value>
+  <value column="Help" original="In order to enable en_US as a translation you can enable any other language as base language.&#10;If you don't want to have a base language choose a language that won't be used for login.&#10;If all languages are going to be used as login, create a xx_XX language not login and use it as base.&#10;Please note that base language cannot be a system language."><![CDATA[英语（en_US）是系统默认的基本语言，有且仅有一个。用户所看的界面语言由”系统语言“显示，由”登录语言“选项是否开启供用户选择使用。<br />
+基本语言不能是系统语言（但也可以界面显示），当英语作为基本语言，它不会出现翻译语言记录，只有其他”系统语言'才可成为翻译语言。<br />
+改变基础语言的场景：希望英语是翻译语言。(设定本地语言为基本语言，英语是系统语言)]]></value>
  </row>
  <row id="200055" trl="Y">
   <value column="Name" original="Index Validate">验证索引</value>
-  <value column="Description" original="">验证索引</value>
-  <value column="Help" original="">验证索引</value>
+  <value column="Description" original="">验证表的索引</value>
+  <value column="Help" original=""/>
  </row>
  <row id="200056" trl="Y">
   <value column="Name" original="View Validate">验证视图</value>
   <value column="Description" original="">验证视图</value>
-  <value column="Help" original="">验证视图</value>
+  <value column="Help" original=""/>
  </row>
  <row id="200057" trl="Y">
   <value column="Name" original="Create Table Index">创建表索引</value>
@@ -2155,7 +2172,7 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
  <row id="200066" trl="Y">
   <value column="Name" original="Drop view">删除视图</value>
   <value column="Description" original="">删除视图</value>
-  <value column="Help" original="">删除视图</value>
+  <value column="Help" original="">数据库将执行 DROP VIEW 语句</value>
  </row>
  <row id="200067" trl="Y">
   <value column="Name" original="Copy Info Window Columns">复制信息窗口列</value>
@@ -2333,13 +2350,13 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="7b0826b8-1352-4817-829b-ebc7e2823983">
-  <value column="Name" original="Role Access Report">角色权限报告</value>
+  <value column="Name" original="Role Access Report">角色权限报表</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="749ef352-3b80-41a2-8bf7-2defc9216b8c">
-  <value column="Name" original="Storage per Locators">库存库位报表</value>
-  <value column="Description" original="">按库位分组的库存报表</value>
+  <value column="Name" original="Storage per Locators">库位产品明细</value>
+  <value column="Description" original="">按库位分组的产品库存数量报表</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="e95fc6da-1a32-4b14-ad79-694621f2f4ef">
@@ -2472,8 +2489,8 @@ Note that only Prepare and Complete are valid document actions.</value>
   <value column="Help" original="Create Prices for this pricelist version in the sequence of the Discount Schema Price List.&#10;Lines with a higher sequence overwrite existing prices.  The sequence should be from generic to specific.">按折扣模式价格表的顺序，为该价格表版本创建价格。含有较高序号的行覆盖现存的价格。序号将从一般到具体。</value>
  </row>
  <row trl="Y" uuid="fc673737-aebe-423d-b19c-7e642bab21cc">
-  <value column="Name" original="Idle Storage">闲置库存报告</value>
-  <value column="Description" original="Idle Storage Detail Report">闲置库存报告</value>
+  <value column="Name" original="Idle Storage">闲置库存报表</value>
+  <value column="Description" original="Idle Storage Detail Report">闲置库存报表</value>
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="4f3e844a-7fbc-4ba0-bf29-c898899892db">
@@ -2518,9 +2535,9 @@ Once the process is run, you need to synchronize the SO/PO manually (e.g. in cas
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="c569509e-d3ab-42af-93ed-13ec9971a53f">
-  <value column="Name" original="Database Consistency Report">数据库连续性报告</value>
-  <value column="Description" original="Check database consistency between views, tables and application dictionary definitions">Check database consistency between views, tables and application dictionary definitions</value>
-  <value column="Help" original="Check database consistency between views, tables and application dictionary definitions">Check database consistency between views, tables and application dictionary definitions</value>
+  <value column="Name" original="Database Consistency Report">数据库连续性报表</value>
+  <value column="Description" original="Check database consistency between views, tables and application dictionary definitions">检查数据库表、视图和应用字典的连续性</value>
+  <value column="Help" original="Check database consistency between views, tables and application dictionary definitions"/>
  </row>
  <row trl="Y" uuid="ea748235-4214-4967-818a-0ceb9fe916ac">
   <value column="Name" original="Payment Print MMG">MMG 付款打印</value>
@@ -2538,7 +2555,7 @@ Once the process is run, you need to synchronize the SO/PO manually (e.g. in cas
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="a7d809cf-3a14-493f-9465-bca17b28a839">
-  <value column="Name" original="Charge Usage">杂费使用报告</value>
+  <value column="Name" original="Charge Usage">杂费使用报表</value>
   <value column="Description" original="List of Charges with usage in Transactions">已使用杂费的事务清单</value>
   <value column="Help" original=""/>
  </row>
