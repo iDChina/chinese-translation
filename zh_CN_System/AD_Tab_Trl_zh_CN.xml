@@ -364,8 +364,12 @@
  <row id="177" trl="Y">
   <value column="Name" original="Warehouse">仓库</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Warehouse">仓库</value>
-  <value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse.">仓库</value>
+  <value column="Description" original="Warehouse">产品的存储位置或者服务提供点</value>
+  <value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse."><![CDATA[与实际物理仓库不同，系统的仓库概念与财务的存货核算范围紧密联系。组织为可以独立核算的单位，其下的仓库也都由组织财务核算。你可以按照物理仓库来划分不同的仓库，也可以使用一个仓库来管理所有存货和服务。<br />
+
+仓库具有“在途”“禁止负库存”选项，库位类型具有“可预留”“可发货”“可补货”选项。<br />
+
+【注意】所有仓库都会进行成本计算，没有0成本仓库。也就是说材料是否核算成本，不是从仓库角度去定义，而是从材料本身去定义，比如虚拟件。]]></value>
  </row>
  <row id="178" trl="Y">
   <value column="Name" original="Locator">库位</value>
@@ -833,14 +837,14 @@
  <row id="276" trl="Y">
   <value column="Name" original="Vendor">供应商</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor">供应商</value>
-  <value column="Help" original="The Vendor Tab displays the Vendors.  A Vendor is selected and all products for that Vendor will be displayed.">供应商</value>
+  <value column="Description" original="Vendor">维护供应商的类型和信用</value>
+  <value column="Help" original="The Vendor Tab displays the Vendors.  A Vendor is selected and all products for that Vendor will be displayed.">维护供应商的类型和信用</value>
  </row>
  <row id="278" trl="Y">
-  <value column="Name" original="Product Details">产品明细</value>
+  <value column="Name" original="Product Details">产品采购</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Details">产品明细</value>
-  <value column="Help" original="The Product Details Tab allows you to display and maintain all products for a selected Vendor.">产品明细</value>
+  <value column="Description" original="Product Details">维护供应商的产品采购信息</value>
+  <value column="Help" original="The Product Details Tab allows you to display and maintain all products for a selected Vendor.">维护供应商的产品采购价格信息</value>
  </row>
  <row id="282" trl="Y">
   <value column="Name" original="Greeting">尊称</value>
@@ -1869,10 +1873,10 @@
   <value column="Help" original="Definition to create Lot numbers for Products">定义产品的批次控制</value>
  </row>
  <row id="466" trl="Y">
-  <value column="Name" original="Serial No Control">序列号定义</value>
+  <value column="Name" original="Serial No Control">流水号定义</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Serial Number Control">定义产品的序列号控制</value>
-  <value column="Help" original="Definition to create Serial numbers for Products">定义产品的序列号控制</value>
+  <value column="Description" original="Product Serial Number Control">定义产品的流水号控制</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">定义产品的流水号控制</value>
  </row>
  <row id="467" trl="Y">
   <value column="Name" original="Attribute Use">产品属性</value>
@@ -5128,16 +5132,16 @@
   <value column="Help" original="">薪酬单</value>
  </row>
  <row id="53201" trl="Y">
-  <value column="Name" original="Promotion Group">促销分组</value>
+  <value column="Name" original="Promotion Group">促销组</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">促销产品的集合</value>
+  <value column="Help" original="">促销产品的集合</value>
  </row>
  <row id="53202" trl="Y">
-  <value column="Name" original="Group Line">组明细</value>
+  <value column="Name" original="Group Line">促销产品</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">促销组明细</value>
-  <value column="Help" original=""/>
+  <value column="Description" original="">促销组包含产品清单</value>
+  <value column="Help" original="">促销组包含产品清单</value>
  </row>
  <row id="53203" trl="Y">
   <value column="Name" original="Promotion">促销</value>
@@ -5146,28 +5150,28 @@
   <value column="Help" original=""/>
  </row>
  <row id="53204" trl="Y">
-  <value column="Name" original="Pre Condition">促销定义</value>
+  <value column="Name" original="Pre Condition">促销条件</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">与购买行为无关的促销条件定义，比如：时间、资格、促销码、促销次数等。</value>
-  <value column="Help" original="">与购买行为无关的促销条件定义，比如：时间、资格、促销码、促销次数等。</value>
+  <value column="Description" original="">促销条件定义</value>
+  <value column="Help" original="">比如：时间、资格、促销码、促销次数等。</value>
  </row>
  <row id="53205" trl="Y">
-  <value column="Name" original="Promotion Line">购买行为</value>
+  <value column="Name" original="Promotion Line">促销明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">购买行为模式。</value>
-  <value column="Help" original="">购买行为模式。</value>
+  <value column="Description" original="">定义促销的购买明细</value>
+  <value column="Help" original="">如果买X送Y （且X、Y不在一个促销组），就需要2条促销明细</value>
  </row>
  <row id="53206" trl="Y">
   <value column="Name" original="Quantity Distribution">促销数量档</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">促销数量档的分布定义</value>
-  <value column="Help" original="">促销数量档的分布定义</value>
+  <value column="Description" original="">促销的数量分段定义</value>
+  <value column="Help" original="">促销的数量分段定义</value>
  </row>
  <row id="53207" trl="Y">
   <value column="Name" original="Reward">促销奖励</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">对促销数量档的奖励</value>
+  <value column="Help" original="">对促销数量档的奖励</value>
  </row>
  <row id="53210" trl="Y">
   <value column="Name" original="Translation">翻译</value>
@@ -6052,10 +6056,10 @@
   <value column="Help" original="">由承运人提供包装服务</value>
  </row>
  <row id="200054" trl="Y">
-  <value column="Name" original="Label Type">承运人面单</value>
+  <value column="Name" original="Label Type">面单规格</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Label Types Supported by the Shipper.">承运人粘贴在货物上的标签</value>
-  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">承运人粘贴在货物上的标签</value>
+  <value column="Description" original="Label Types Supported by the Shipper.">定义承运人的面单规格</value>
+  <value column="Help" original="Used when booking a shipment online to define the label format that will be printed.">定义承运人的面单规格</value>
  </row>
  <row id="200055" trl="Y">
   <value column="Name" original="Pickup Types">收货服务</value>

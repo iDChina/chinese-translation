@@ -1076,10 +1076,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="242" trl="Y">
-  <value column="Name" original="Costing Precision">成本计算精度</value>
-  <value column="PrintName" original="Costing Precision">成本计算精度</value>
-  <value column="Description" original="Rounding used costing calculations">用于成本计算的舍入方式</value>
-  <value column="Help" original="The Costing Precision defines the number of decimal places that amounts will be rounded to when performing costing calculations.">用于成本计算的舍入方式</value>
+  <value column="Name" original="Costing Precision">成本精度</value>
+  <value column="PrintName" original="Costing Precision">成本精度</value>
+  <value column="Description" original="Rounding used costing calculations">用于成本计算的精度</value>
+  <value column="Help" original="The Costing Precision defines the number of decimal places that amounts will be rounded to when performing costing calculations.">用于成本计算的精度</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1166,10 +1166,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="257" trl="Y">
-  <value column="Name" original="Current Next">当前下一序号</value>
-  <value column="PrintName" original="Current Next">当前下一序号</value>
-  <value column="Description" original="The next number to be used">下一个将使用的数字</value>
-  <value column="Help" original="The Current Next indicates the next number to use for this document">下一个将使用的数字</value>
+  <value column="Name" original="Current Next">下个编号</value>
+  <value column="PrintName" original="Current Next">下个编号</value>
+  <value column="Description" original="The next number to be used">下一个将使用的编号</value>
+  <value column="Help" original="The Current Next indicates the next number to use for this document">下一个将使用的编号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2147,10 +2147,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="408" trl="Y">
-  <value column="Name" original="Sales Price list">销售价格表</value>
-  <value column="PrintName" original="Sales Price list">销售价格表</value>
-  <value column="Description" original="This is a Sales Price List">这是一份销售价格表</value>
-  <value column="Help" original="The Sales Price List check box indicates if this price list is used for sales transactions.">这是一份销售价格表</value>
+  <value column="Name" original="Sales Price list">销售价格</value>
+  <value column="PrintName" original="Sales Price list">销售价格</value>
+  <value column="Description" original="This is a Sales Price List">仅用于销售的价格表</value>
+  <value column="Help" original="The Sales Price List check box indicates if this price list is used for sales transactions.">仅用于销售的价格表</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2837,10 +2837,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="520" trl="Y">
-  <value column="Name" original="List Price">目录价格</value>
-  <value column="PrintName" original="List Price">目录价格</value>
-  <value column="Description" original="List Price">目录价格</value>
-  <value column="Help" original="The List Price is the official List Price in the document currency.">目录价格</value>
+  <value column="Name" original="List Price">目录价</value>
+  <value column="PrintName" original="List Price">目录价</value>
+  <value column="Description" original="List Price">目录价</value>
+  <value column="Help" original="The List Price is the official List Price in the document currency.">目录价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3025,10 +3025,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="547" trl="Y">
-  <value column="Name" original="Retained Earning Acct">未分配利润</value>
-  <value column="PrintName" original="Retained Earning Acct">未分配利润</value>
-  <value column="Description" original="">未分配利润</value>
-  <value column="Help" original="">未分配利润</value>
+  <value column="Name" original="Retained Earning Acct">盈余公积</value>
+  <value column="PrintName" original="Retained Earning Acct">盈余公积</value>
+  <value column="Description" original="">留存收益</value>
+  <value column="Help" original="">企业从税后利润中提取形成的、存留于企业内部、具有特定用途的收益积累。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3145,10 +3145,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="565" trl="Y">
-  <value column="Name" original="Element Separator">元素分隔符</value>
-  <value column="PrintName" original="Element Separator">元素分隔符</value>
-  <value column="Description" original="Element Separator">定义元素之间的分隔符</value>
-  <value column="Help" original="The Element Separator defines the delimiter printed between elements of the structure">定义元素之间的分隔符</value>
+  <value column="Name" original="Element Separator">分隔符</value>
+  <value column="PrintName" original="Element Separator">分隔符</value>
+  <value column="Description" original="Element Separator">字符串之间的分隔符</value>
+  <value column="Help" original="The Element Separator defines the delimiter printed between elements of the structure">定义字符串之间的分隔符，比如库位、账户等。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3165,10 +3165,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="568" trl="Y">
-  <value column="Name" original="Serial No">序列号</value>
-  <value column="PrintName" original="Serial No">序列号</value>
-  <value column="Description" original="Product Serial Number ">产品序列号</value>
-  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">产品序列号</value>
+  <value column="Name" original="Serial No">流水号</value>
+  <value column="PrintName" original="Serial No">流水号</value>
+  <value column="Description" original="Product Serial Number ">产品流水号</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">产品流水号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3285,10 +3285,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="580" trl="Y">
-  <value column="Name" original="Suspense Balancing Acct">待定货币差异</value>
-  <value column="PrintName" original="Suspense Balancing Acct">待定货币差异</value>
-  <value column="Description" original="">货币转换不平的差异待定账户</value>
-  <value column="Help" original="">货币转换不平的差异待定账户</value>
+  <value column="Name" original="Suspense Balancing Acct">待定汇兑差异</value>
+  <value column="PrintName" original="Suspense Balancing Acct">待定汇兑差异</value>
+  <value column="Description" original="">汇率换算差异的待定账户</value>
+  <value column="Help" original="">汇率换算差异的待定账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3537,18 +3537,18 @@
  <row id="611" trl="Y">
   <value column="Name" original="Use Suspense Balancing">使用差异待定账户</value>
   <value column="PrintName" original="Use Suspense Balancing">使用差异待定账户</value>
-  <value column="Description" original="">使用本位币而产生的余额差异待定账户</value>
-  <value column="Help" original="">使用本位币而产生的余额差异待定账户</value>
+  <value column="Description" original="">使用货币汇兑差异的待定账户</value>
+  <value column="Help" original="">使用货币汇兑差异的待定账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="612" trl="Y">
-  <value column="Name" original="Use Suspense Error">使用未定错误</value>
-  <value column="PrintName" original="Use Suspense Error">使用未定错误</value>
-  <value column="Description" original="">使用未定错误</value>
-  <value column="Help" original="">使用未定错误</value>
+  <value column="Name" original="Use Suspense Error">使用待定错误</value>
+  <value column="PrintName" original="Use Suspense Error">使用待定错误</value>
+  <value column="Description" original="">当货币换算产生差异时，发出错误提醒</value>
+  <value column="Help" original="">当货币换算产生差异时，发出错误提醒</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3966,10 +3966,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="882" trl="Y">
-  <value column="Name" original="Enforce price limit">强制价格限制</value>
-  <value column="PrintName" original="Enforce Price Limit">强制价格限制</value>
-  <value column="Description" original="Do not allow prices below the limit price">不允许价格低于限制价格</value>
-  <value column="Help" original="The Enforce Price Limit check box indicates that prices cannot be below the limit price in Orders and Invoices.  This can be overwritten, if the role allows this.">不允许价格低于限制价格</value>
+  <value column="Name" original="Enforce price limit">强制限价保护</value>
+  <value column="PrintName" original="Enforce Price Limit">强制限价保护</value>
+  <value column="Description" original="Do not allow prices below the limit price">不允许单据价格低于限制价格</value>
+  <value column="Help" original="The Enforce Price Limit check box indicates that prices cannot be below the limit price in Orders and Invoices.  This can be overwritten, if the role allows this.">不允许单据价格低于限制价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4336,8 +4336,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="955" trl="Y">
-  <value column="Name" original="Limit Price">限制价格</value>
-  <value column="PrintName" original="Limit Price">限制价格</value>
+  <value column="Name" original="Limit Price">限制价</value>
+  <value column="PrintName" original="Limit Price">限制价</value>
   <value column="Description" original="Lowest price for a product">产品的最低价格</value>
   <value column="Help" original="The Price Limit indicates the lowest price for a product stated in the Price List Currency.">产品的最低价格</value>
   <value column="PO_Description" original=""/>
@@ -4346,10 +4346,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="957" trl="Y">
-  <value column="Name" original="Standard Price">标准价格</value>
-  <value column="PrintName" original="Std Price">标准价格</value>
-  <value column="Description" original="Standard Price">标准价格</value>
-  <value column="Help" original="The Standard Price indicates the standard or normal price for a product on this price list">标准价格</value>
+  <value column="Name" original="Standard Price">标准价</value>
+  <value column="PrintName" original="Std Price">标准价</value>
+  <value column="Description" original="Standard Price">标准价</value>
+  <value column="Help" original="The Standard Price indicates the standard or normal price for a product on this price list">标准价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4981,8 +4981,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1078" trl="Y">
-  <value column="Name" original="Revenue Recognition">输入确认</value>
-  <value column="PrintName" original="Revenue Recognition">输入确认</value>
+  <value column="Name" original="Revenue Recognition">收入确认</value>
+  <value column="PrintName" original="Revenue Recognition">收入确认</value>
   <value column="Description" original="Method for recording revenue">记录收入的方法</value>
   <value column="Help" original="The Revenue Recognition indicates how revenue will be recognized for this product">记录收入的方法</value>
   <value column="PO_Description" original=""/>
@@ -5051,10 +5051,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1086" trl="Y">
-  <value column="Name" original="Current Next (System)">当前下一序号 (系统)</value>
-  <value column="PrintName" original="Current Next (System)">当前下一序号 (系统)</value>
-  <value column="Description" original="Next sequence for system use">系统使用的下一序号</value>
-  <value column="Help" original="This field is for system use only and should not be modified.">系统使用的下一序号</value>
+  <value column="Name" original="Current Next (System)">下个编号 (系统)</value>
+  <value column="PrintName" original="Current Next (System)">下个编号 (系统)</value>
+  <value column="Description" original="Next sequence for system use">系统将使用的下一序号</value>
+  <value column="Help" original="This field is for system use only and should not be modified.">系统将使用的下一序号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5656,48 +5656,48 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1215" trl="Y">
-  <value column="Name" original="Limit price Surcharge Amount">限制价格附加额</value>
-  <value column="PrintName" original="Limit price Surcharge Amt">限制价格附加额</value>
-  <value column="Description" original="Amount added to the converted/copied price before multiplying">在相乘以前将添加到限制价格上的金额</value>
-  <value column="Help" original="Indicates the amount to be added to the Limit price prior to multiplication.">在相乘以前将添加到限制价格上的金额</value>
+  <value column="Name" original="Limit price Surcharge Amount">限制价附加</value>
+  <value column="PrintName" original="Limit price Surcharge Amt">限制价附加</value>
+  <value column="Description" original="Amount added to the converted/copied price before multiplying">在相乘以前将添加到限制价上的金额</value>
+  <value column="Help" original="Indicates the amount to be added to the Limit price prior to multiplication.">在相乘以前将添加到限制价上的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1216" trl="Y">
-  <value column="Name" original="Limit price Base">限制价格基础</value>
-  <value column="PrintName" original="Limit price Base">限制价格基础</value>
-  <value column="Description" original="Base price for calculation of the new price">新价格计算的基础价格</value>
-  <value column="Help" original="Identifies the price to be used as the base for calculating a new price list.">新价格计算的基础价格</value>
+  <value column="Name" original="Limit price Base">限制价基数</value>
+  <value column="PrintName" original="Limit price Base">限制价基数</value>
+  <value column="Description" original="Base price for calculation of the new price">计算新的限制价的基数价格</value>
+  <value column="Help" original="Identifies the price to be used as the base for calculating a new price list.">计算新的限制价的基数价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1217" trl="Y">
-  <value column="Name" original="Limit price max Margin">限制价格最高毛利</value>
-  <value column="PrintName" original="Limit price max Margin">限制价格最高毛利</value>
-  <value column="Description" original="Maximum difference to original limit price; ignored if zero">与原始限制价格的最大差异; 如果为零则忽略</value>
-  <value column="Help" original="Indicates the maximum margin for a product.  The margin is calculated by subtracting the original limit price from the newly calculated price.  If this field contains 0.00 then it is ignored.">与原始限制价格的最大差异; 如果为零则忽略</value>
+  <value column="Name" original="Limit price max Margin">限制价最高毛利</value>
+  <value column="PrintName" original="Limit price max Margin">限制价最高毛利</value>
+  <value column="Description" original="Maximum difference to original limit price; ignored if zero">与原始限制价的最大差异; 如果为零则忽略</value>
+  <value column="Help" original="Indicates the maximum margin for a product.  The margin is calculated by subtracting the original limit price from the newly calculated price.  If this field contains 0.00 then it is ignored.">与原始限制价的最大差异; 如果为零则忽略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1218" trl="Y">
-  <value column="Name" original="Limit price min Margin">限制价格最低毛利</value>
-  <value column="PrintName" original="Limit price min Margin">限制价格最低毛利</value>
-  <value column="Description" original="Minimum difference to original limit price; ignored if zero">与原始限制价格的最小差异; 如果为零则忽略</value>
-  <value column="Help" original="Indicates the minimum margin for a product.  The margin is calculated by subtracting the original limit price from the newly calculated price.  If this field contains 0.00 then it is ignored.">与原始限制价格的最小差异; 如果为零则忽略</value>
+  <value column="Name" original="Limit price min Margin">限制价最低毛利</value>
+  <value column="PrintName" original="Limit price min Margin">限制价最低毛利</value>
+  <value column="Description" original="Minimum difference to original limit price; ignored if zero">与原始限制价的最小差异; 如果为零则忽略</value>
+  <value column="Help" original="Indicates the minimum margin for a product.  The margin is calculated by subtracting the original limit price from the newly calculated price.  If this field contains 0.00 then it is ignored.">与原始限制价的最小差异; 如果为零则忽略</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1220" trl="Y">
-  <value column="Name" original="Limit price Rounding">限制价格舍入</value>
-  <value column="PrintName" original="Limit price Rounding">限制价格舍入</value>
+  <value column="Name" original="Limit price Rounding">限制价舍入</value>
+  <value column="PrintName" original="Limit price Rounding">限制价舍入</value>
   <value column="Description" original="Rounding of the final result">最终结果的舍入</value>
   <value column="Help" original="A drop down list box which indicates the rounding (if any) will apply to the final prices in this price list.">最终结果的舍入</value>
   <value column="PO_Description" original=""/>
@@ -5706,28 +5706,28 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1221" trl="Y">
-  <value column="Name" original="List price Surcharge Amount">目录价格附加额</value>
-  <value column="PrintName" original="List price Surcharge Amt">目录价格附加额</value>
-  <value column="Description" original="List Price Surcharge Amount">目录价格附加额</value>
-  <value column="Help" original="The List Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.">目录价格附加额</value>
+  <value column="Name" original="List price Surcharge Amount">目录价附加</value>
+  <value column="PrintName" original="List price Surcharge Amt">目录价附加</value>
+  <value column="Description" original="List Price Surcharge Amount">在相乘以前将添加到目录价上的金额</value>
+  <value column="Help" original="The List Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.">在相乘以前将添加到目录价上的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1222" trl="Y">
-  <value column="Name" original="List price Base">目录价格基础</value>
-  <value column="PrintName" original="List price Base">目录价格基础</value>
-  <value column="Description" original="Price used as the basis for price list calculations">用于价格表计算基础的价格</value>
-  <value column="Help" original="The List Price Base indicates the price to use as the basis for the calculation of a new price list.">用于价格表计算基础的价格</value>
+  <value column="Name" original="List price Base">目录价基数</value>
+  <value column="PrintName" original="List price Base">目录价基数</value>
+  <value column="Description" original="Price used as the basis for price list calculations">计算新的目录价的基数价格</value>
+  <value column="Help" original="The List Price Base indicates the price to use as the basis for the calculation of a new price list.">计算新的目录价的基数价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1223" trl="Y">
-  <value column="Name" original="List price max Margin">目录价格最高毛利</value>
-  <value column="PrintName" original="List price max Margin">目录价格最高毛利</value>
+  <value column="Name" original="List price max Margin">目录价最高毛利</value>
+  <value column="PrintName" original="List price max Margin">目录价最高毛利</value>
   <value column="Description" original="Maximum margin for a product">产品的最高毛利</value>
   <value column="Help" original="The List Price Max Margin indicates the maximum margin for a product.  The margin is calculated by subtracting the original list price from the newly calculated price.  If this field contains 0.00 then it is ignored.">产品的最高毛利</value>
   <value column="PO_Description" original=""/>
@@ -5736,8 +5736,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1224" trl="Y">
-  <value column="Name" original="List price min Margin">目录价格最低毛利</value>
-  <value column="PrintName" original="List price min Margin">目录价格最低毛利</value>
+  <value column="Name" original="List price min Margin">目录价最低毛利</value>
+  <value column="PrintName" original="List price min Margin">目录价最低毛利</value>
   <value column="Description" original="Minimum margin for a product">产品的最低毛利</value>
   <value column="Help" original="The List Price Min Margin indicates the minimum margin for a product.  The margin is calculated by subtracting the original list price from the newly calculated price.  If this field contains 0.00 then it is ignored.">产品的最低毛利</value>
   <value column="PO_Description" original=""/>
@@ -5746,40 +5746,40 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1226" trl="Y">
-  <value column="Name" original="List price Rounding">目录价格舍入</value>
-  <value column="PrintName" original="List price Rounding">目录价格舍入</value>
-  <value column="Description" original="Rounding rule for final list price">最终目录价格的舍入规则</value>
-  <value column="Help" original="The List Price Rounding indicates how the final list price will be rounded.">最终目录价格的舍入规则</value>
+  <value column="Name" original="List price Rounding">目录价舍入</value>
+  <value column="PrintName" original="List price Rounding">目录价舍入</value>
+  <value column="Description" original="Rounding rule for final list price">最终目录价的舍入规则</value>
+  <value column="Help" original="The List Price Rounding indicates how the final list price will be rounded.">最终目录价的舍入规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1228" trl="Y">
-  <value column="Name" original="Base Price List">基础价格表</value>
-  <value column="PrintName" original="Base Price List">基础价格表</value>
-  <value column="Description" original="Source for Price list calculations">价格表计算的来源</value>
-  <value column="Help" original="The Base Price List identifies the Base Pricelist used for calculating prices (the source)">价格表计算的来源</value>
+  <value column="Name" original="Base Price List">基础价格版本</value>
+  <value column="PrintName" original="Base Price List">基础价格版本</value>
+  <value column="Description" original="Source for Price list calculations">价格表版本计算的来源</value>
+  <value column="Help" original="The Base Price List identifies the Base Pricelist used for calculating prices (the source)">价格表版本计算的来源</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1229" trl="Y">
-  <value column="Name" original="Standard price Surcharge Amount">标准价格附加额</value>
-  <value column="PrintName" original="Standard price Surcharge Amt">标准价格附加额</value>
-  <value column="Description" original="Amount added to a price as a surcharge">加到价格中作为额外费的金额</value>
-  <value column="Help" original="The Standard Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.&#10;">加到价格中作为额外费的金额</value>
+  <value column="Name" original="Standard price Surcharge Amount">标准价附加</value>
+  <value column="PrintName" original="Standard price Surcharge Amt">标准价附加</value>
+  <value column="Description" original="Amount added to a price as a surcharge">在相乘以前将添加到标准价上的金额</value>
+  <value column="Help" original="The Standard Price Surcharge Amount indicates the amount to be added to the price prior to multiplication.&#10;">在相乘以前将添加到标准价上的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1230" trl="Y">
-  <value column="Name" original="Standard price Base">标准价格基础</value>
-  <value column="PrintName" original="Standard price Base">标准价格基础</value>
-  <value column="Description" original="Base price for calculating new standard price">计算新的标准价格的基础价</value>
-  <value column="Help" original="The Standard Price Base indicates the price to use as the basis for the calculation of a new price standard.&#10;">计算新的标准价格的基础价</value>
+  <value column="Name" original="Standard price Base">标准价基数</value>
+  <value column="PrintName" original="Standard price Base">标准价基数</value>
+  <value column="Description" original="Base price for calculating new standard price">计算新的标准价的基数价格</value>
+  <value column="Help" original="The Standard Price Base indicates the price to use as the basis for the calculation of a new price standard.&#10;">计算新的标准价的基数价格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5796,8 +5796,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1232" trl="Y">
-  <value column="Name" original="Standard price min Margin">标准价格最低毛利</value>
-  <value column="PrintName" original="Standard price min Margin">标准价格最低毛利</value>
+  <value column="Name" original="Standard price min Margin">标准价最低毛利</value>
+  <value column="PrintName" original="Standard price min Margin">标准价最低毛利</value>
   <value column="Description" original="Minimum margin allowed for a product">产品允许的最低毛利</value>
   <value column="Help" original="The Standard Price Min Margin indicates the minimum margin for a product.  The margin is calculated by subtracting the original Standard price from the newly calculated price.  If this field contains 0.00 then it is ignored.">产品允许的最低毛利</value>
   <value column="PO_Description" original=""/>
@@ -5806,8 +5806,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1234" trl="Y">
-  <value column="Name" original="Standard price Rounding">标准价格舍入</value>
-  <value column="PrintName" original="Standard price Rounding">标准价格舍入</value>
+  <value column="Name" original="Standard price Rounding">标准价舍入</value>
+  <value column="PrintName" original="Standard price Rounding">标准价舍入</value>
   <value column="Description" original="Rounding rule for calculated price">计算价格的舍入规则</value>
   <value column="Help" original="The Standard Price Rounding indicates how the final Standard price will be rounded.">计算价格的舍入规则</value>
   <value column="PO_Description" original=""/>
@@ -5826,8 +5826,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1236" trl="Y">
-  <value column="Name" original="Limit price Discount %">限制价格折扣 %</value>
-  <value column="PrintName" original="Limit price Discount %">限制价格折扣 %</value>
+  <value column="Name" original="Limit price Discount %">限制价折扣 %</value>
+  <value column="PrintName" original="Limit price Discount %">限制价折扣 %</value>
   <value column="Description" original="Discount in percent to be subtracted from base, if negative it will be added to base price">从基础价格中减去的折扣率， 如果为负数则加至基础价格中</value>
   <value column="Help" original="Indicates the discount in percent to be subtracted from base, if negative it will be added to base price">从基础价格中减去的折扣率， 如果为负数则加至基础价格中</value>
   <value column="PO_Description" original=""/>
@@ -5836,18 +5836,18 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1237" trl="Y">
-  <value column="Name" original="List price Discount %">目录价格折扣 %</value>
-  <value column="PrintName" original="List price Discount %">目录价格折扣 %</value>
-  <value column="Description" original="Discount from list price as a percentage">目录价格折扣百分比</value>
-  <value column="Help" original="The List Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">目录价格折扣百分比</value>
+  <value column="Name" original="List price Discount %">目录价折扣 %</value>
+  <value column="PrintName" original="List price Discount %">目录价折扣 %</value>
+  <value column="Description" original="Discount from list price as a percentage">目录价折扣百分比</value>
+  <value column="Help" original="The List Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">目录价折扣百分比</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1238" trl="Y">
-  <value column="Name" original="Standard price Discount %">标准价格折扣 %</value>
-  <value column="PrintName" original="Standard price Discount %">标准价格折扣 %</value>
+  <value column="Name" original="Standard price Discount %">标准价折扣 %</value>
+  <value column="PrintName" original="Standard price Discount %">标准价折扣 %</value>
   <value column="Description" original="Discount percentage to subtract from base price">从基础价格中减去的折扣百分比</value>
   <value column="Help" original="The Standard Price Discount Percentage indicates the percentage discount which will be subtracted from the base price.  A negative amount indicates the percentage which will be added to the base price.">从基础价格中减去的折扣百分比</value>
   <value column="PO_Description" original=""/>
@@ -6886,10 +6886,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1377" trl="Y">
-  <value column="Name" original="Bank Unidentified Receipts">银行未确认收入</value>
-  <value column="PrintName" original="Bank Unidentified">银行未确认收入</value>
-  <value column="Description" original="Bank Unidentified Receipts Account">银行未确认收入账户</value>
-  <value column="Help" original="The Bank Unidentified Receipts Account identifies the account to be used when recording receipts that can not be reconciled at the present time.">银行未确认收入账户</value>
+  <value column="Name" original="Bank Unidentified Receipts">未确认收款</value>
+  <value column="PrintName" original="Bank Unidentified">未确认收款</value>
+  <value column="Description" original="Bank Unidentified Receipts Account">银行未确认收入的账户</value>
+  <value column="Help" original="The Bank Unidentified Receipts Account identifies the account to be used when recording receipts that can not be reconciled at the present time.">已收款而当前未对账的会计账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7066,8 +7066,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1401" trl="Y">
-  <value column="Name" original="Online Access">网上处理</value>
-  <value column="PrintName" original="Online Access">网上处理</value>
+  <value column="Name" original="Online Access">在线处理</value>
+  <value column="PrintName" original="Online Access">在线处理</value>
   <value column="Description" original="Can be accessed online ">是否可以通过WEB网上访问</value>
   <value column="Help" original="The Online Access check box indicates if the application can be accessed via the web. ">是否可以通过WEB网上访问</value>
   <value column="PO_Description" original=""/>
@@ -9795,20 +9795,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1728" trl="Y">
-  <value column="Name" original="Limit price Value">限制价格总额</value>
-  <value column="PrintName" original="Limit price Value">限制价格总额</value>
-  <value column="Description" original="Value with limit price">限制价格的值</value>
-  <value column="Help" original="">限制价格的值</value>
+  <value column="Name" original="Limit price Value">限制价总额</value>
+  <value column="PrintName" original="Limit price Value">限制价总额</value>
+  <value column="Description" original="Value with limit price">限制价的值</value>
+  <value column="Help" original="">限制价的值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1729" trl="Y">
-  <value column="Name" original="List price Value">目录价格总额</value>
-  <value column="PrintName" original="List price Value">目录价格总额</value>
-  <value column="Description" original="Valuation with List Price">目录价格的值</value>
-  <value column="Help" original="">目录价格的值</value>
+  <value column="Name" original="List price Value">目录价总额</value>
+  <value column="PrintName" original="List price Value">目录价总额</value>
+  <value column="Description" original="Valuation with List Price">目录价的值</value>
+  <value column="Help" original="">目录价的值</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9825,10 +9825,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1731" trl="Y">
-  <value column="Name" original="Std Price Value">标准价格总额</value>
-  <value column="PrintName" original="Std Price Value">标准价格总额</value>
-  <value column="Description" original="Valuation with standard price">标准价格的值</value>
-  <value column="Help" original="">标准价格的值</value>
+  <value column="Name" original="Std Price Value">标准价总额</value>
+  <value column="PrintName" original="Std Price Value">标准价总额</value>
+  <value column="Description" original="Valuation with standard price">标准价的总额</value>
+  <value column="Help" original="">标准价的总额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9955,20 +9955,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1744" trl="Y">
-  <value column="Name" original="Fixed Limit Price">固定限制价格</value>
-  <value column="PrintName" original="Fixed Limit">固定限制价格</value>
-  <value column="Description" original="Fixed Limit Price (not calculated)">固定的限制价格 (未计算)</value>
-  <value column="Help" original="">固定的限制价格 (未计算)</value>
+  <value column="Name" original="Fixed Limit Price">固定限制价</value>
+  <value column="PrintName" original="Fixed Limit">固定限制价</value>
+  <value column="Description" original="Fixed Limit Price (not calculated)">固定的限制价 (未计算)</value>
+  <value column="Help" original="">固定的限制价 (未计算)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1745" trl="Y">
-  <value column="Name" original="Fixed List Price">固定目录价格</value>
-  <value column="PrintName" original="Fixed List">固定目录价格</value>
-  <value column="Description" original="Fixes List Price (not calculated)">固定目录价格 (未计算)</value>
-  <value column="Help" original="">固定目录价格 (未计算)</value>
+  <value column="Name" original="Fixed List Price">固定目录价</value>
+  <value column="PrintName" original="Fixed List">固定目录价</value>
+  <value column="Description" original="Fixes List Price (not calculated)">固定目录价 (未计算)</value>
+  <value column="Help" original="">固定目录价 (未计算)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10548,7 +10548,7 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Max Height">最大高度</value>
   <value column="PrintName" original="Max Height">最大高度</value>
   <value column="Description" original="Maximum Height in 1/72 if an inch - 0 = no restriction">最大高度 (0 = 不限制)</value>
-  <value column="Help" original="Maximum height of the element in 1/72 of an inch (point). If zero (0), there is no height restriction.">最大高度 (0 = 不限制)</value>
+  <value column="Help" original="Maximum height of the element in 1/72 of an inch (point). If zero (0), there is no height restriction.">最大高度 (0 = 不限制)，单位：1/72 英寸（0.35mm）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10557,7 +10557,7 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="1809" trl="Y">
   <value column="Name" original="Max Width">最大宽度</value>
   <value column="PrintName" original="Max Width">最大宽度</value>
-  <value column="Description" original="Maximum Width in 1/72 if an inch - 0 = no restriction">最大宽度 (0 = 不限制)，单位：1/72 英寸（0.35mm）</value>
+  <value column="Description" original="Maximum Width in 1/72 if an inch - 0 = no restriction">最大宽度 (0 = 不限制)</value>
   <value column="Help" original="Maximum width of the element in 1/72 of an inch (point). If zero (0), there is no width restriction.">最大宽度 (0 = 不限制)，单位：1/72 英寸（0.35mm）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12475,10 +12475,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2014" trl="Y">
-  <value column="Name" original="Serial No">序列号控制</value>
-  <value column="PrintName" original="Serial No">序列号控制</value>
-  <value column="Description" original="The product instances have Serial Numbers">产品是否使用序列号控制</value>
-  <value column="Help" original="For individual products, you can define Serial Numbers">产品是否使用序列号控制</value>
+  <value column="Name" original="Serial No">流水号控制</value>
+  <value column="PrintName" original="Serial No">流水号控制</value>
+  <value column="Description" original="The product instances have Serial Numbers">产品是否使用流水号控制</value>
+  <value column="Help" original="For individual products, you can define Serial Numbers">产品是否使用流水号控制</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12545,10 +12545,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2023" trl="Y">
-  <value column="Name" original="Serial No Control">序列号定义</value>
-  <value column="PrintName" original="Serial No Control">序列号定义</value>
-  <value column="Description" original="Product Serial Number Control">序列号控制规则的定义</value>
-  <value column="Help" original="Definition to create Serial numbers for Products">序列号控制规则的定义</value>
+  <value column="Name" original="Serial No Control">流水号定义</value>
+  <value column="PrintName" original="Serial No Control">流水号定义</value>
+  <value column="Description" original="Product Serial Number Control">流水号控制规则的定义</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">流水号控制规则的定义</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12798,7 +12798,7 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Label Height">标签高度</value>
   <value column="PrintName" original="Label Height">标签高度</value>
   <value column="Description" original="Height of the label">标签高度</value>
-  <value column="Help" original="Physical height of the label">标签高度</value>
+  <value column="Help" original="Physical height of the label">标签高度，单位：1/72 英寸（0.35mm）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12808,7 +12808,7 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Label Width">标签宽度</value>
   <value column="PrintName" original="Label Width">标签宽度</value>
   <value column="Description" original="Width of the Label">标签宽度</value>
-  <value column="Help" original="Physical Width of the Label">标签宽度</value>
+  <value column="Help" original="Physical Width of the Label">标签宽度，单位：1/72 英寸（0.35mm）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13535,10 +13535,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2127" trl="Y">
-  <value column="Name" original="Tracking URL">货物追踪网址</value>
-  <value column="PrintName" original="Tracking URL">货物追踪网址</value>
-  <value column="Description" original="URL of the shipper to track shipments">发货人追踪发货的网址</value>
-  <value column="Help" original="The variable @TrackingNo@ in the URL is replaced by the actual tracking number of the shipment.">发货人追踪发货的网址</value>
+  <value column="Name" original="Tracking URL">物流查询</value>
+  <value column="PrintName" original="Tracking URL">物流查询</value>
+  <value column="Description" original="URL of the shipper to track shipments">物流查询的网址</value>
+  <value column="Help" original="The variable @TrackingNo@ in the URL is replaced by the actual tracking number of the shipment.">物流查询的网址</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13985,10 +13985,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2177" trl="Y">
-  <value column="Name" original="Minimum Amt">最小金额</value>
-  <value column="PrintName" original="Minimum Amt">最小金额</value>
-  <value column="Description" original="Minimum Amount in Document Currency">用单据货币表示的最小金额</value>
-  <value column="Help" original="">用单据货币表示的最小金额</value>
+  <value column="Name" original="Minimum Amt">最少金额</value>
+  <value column="PrintName" original="Minimum Amt">最少金额</value>
+  <value column="Description" original="Minimum Amount in Document Currency">购买的最少金额</value>
+  <value column="Help" original="">订单的最小金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14795,10 +14795,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2263" trl="Y">
-  <value column="Name" original="Mandatory Serial No">序列号必填</value>
-  <value column="PrintName" original="Mandatory Serial No">序列号必填</value>
-  <value column="Description" original="The entry of a Serial No is mandatory when creating a Product Instance">必须输入产品个体实例的序列号信息</value>
-  <value column="Help" original="">必须输入产品个体实例的序列号信息</value>
+  <value column="Name" original="Mandatory Serial No">流水号必填</value>
+  <value column="PrintName" original="Mandatory Serial No">流水号必填</value>
+  <value column="Description" original="The entry of a Serial No is mandatory when creating a Product Instance">必须输入产品个体实例的流水号信息</value>
+  <value column="Help" original="">必须输入产品个体实例的流水号信息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16005,10 +16005,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2397" trl="Y">
-  <value column="Name" original="In Transit">在途</value>
-  <value column="PrintName" original="In Transit">在途</value>
-  <value column="Description" original="Movement is in transit">移库在途</value>
-  <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed.">移库在途</value>
+  <value column="Name" original="In Transit">在途仓库</value>
+  <value column="PrintName" original="In Transit">在途仓库</value>
+  <value column="Description" original="Movement is in transit">用来定义在途库存</value>
+  <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed.">用来定义在途库存</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17835,10 +17835,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2590" trl="Y">
-  <value column="Name" original="List Prive">目录价格</value>
-  <value column="PrintName" original="List Price">目录价格</value>
-  <value column="Description" original="Entered List Price">输入的目录价格</value>
-  <value column="Help" original="Price List converted to entered UOM">输入的目录价格</value>
+  <value column="Name" original="List Prive">目录价</value>
+  <value column="PrintName" original="List Price">目录价</value>
+  <value column="Description" original="Entered List Price">输入的目录价</value>
+  <value column="Help" original="Price List converted to entered UOM">输入的目录价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18495,10 +18495,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2657" trl="Y">
-  <value column="Name" original="Overwrite Price Limit">覆盖限制价格</value>
-  <value column="PrintName" original="Overwrite Price Limit">覆盖限制价格</value>
-  <value column="Description" original="Overwrite Price Limit if the Price List  enforces the Price Limit">如果价格表强制使用限制价格，则改写限制价格</value>
-  <value column="Help" original="The Price List allows to enforce the Price Limit. If set, a user with this role can overwrite the price limit (i.e. enter any price).">如果价格表强制使用限制价格，则改写限制价格</value>
+  <value column="Name" original="Overwrite Price Limit">覆盖限制价</value>
+  <value column="PrintName" original="Overwrite Price Limit">覆盖限制价</value>
+  <value column="Description" original="Overwrite Price Limit if the Price List  enforces the Price Limit">如果价格表强制使用限制价，则改写限制价</value>
+  <value column="Help" original="The Price List allows to enforce the Price Limit. If set, a user with this role can overwrite the price limit (i.e. enter any price).">如果价格表强制使用限制价，则改写限制价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20159,10 +20159,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2831" trl="Y">
-  <value column="Name" original="Exclude SerNo">排除序列号</value>
-  <value column="PrintName" original="Exclude SerNo">排除序列号</value>
-  <value column="Description" original="Exclude the ability to create Serial Numbers in Attribute Sets">排除在属性集中创建序列号的能力</value>
-  <value column="Help" original="">排除在属性集中创建序列号的能力</value>
+  <value column="Name" original="Exclude SerNo">排除流水号</value>
+  <value column="PrintName" original="Exclude SerNo">排除流水号</value>
+  <value column="Description" original="Exclude the ability to create Serial Numbers in Attribute Sets">排除在属性集中创建流水号的能力</value>
+  <value column="Help" original="">排除在属性集中创建流水号的能力</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20407,20 +20407,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2856" trl="Y">
-  <value column="Name" original="SerNo Char Start Overwrite">序列号前缀</value>
-  <value column="PrintName" original="SerNo Char Start">序列号前缀</value>
-  <value column="Description" original="Serial Number Start Indicator overwrite - default #">字符串中序列号的前缀，默认是#</value>
-  <value column="Help" original="If not defined, the default character # is used">字符串中序列号的前缀，默认是#</value>
+  <value column="Name" original="SerNo Char Start Overwrite">流水号前缀</value>
+  <value column="PrintName" original="SerNo Char Start">流水号前缀</value>
+  <value column="Description" original="Serial Number Start Indicator overwrite - default #">字符串中流水号的前缀，默认是#</value>
+  <value column="Help" original="If not defined, the default character # is used">字符串中流水号的前缀，默认是#</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2857" trl="Y">
-  <value column="Name" original="SerNo Char End Overwrite">序列号后缀</value>
-  <value column="PrintName" original="SerNo Char End">序列号后缀</value>
-  <value column="Description" original="Serial Number End Indicator overwrite - default empty">字符串中序列号的后缀，默认是空</value>
-  <value column="Help" original="If not defined, no character is used">字符串中序列号的后缀，默认是空</value>
+  <value column="Name" original="SerNo Char End Overwrite">流水号后缀</value>
+  <value column="PrintName" original="SerNo Char End">流水号后缀</value>
+  <value column="Description" original="Serial Number End Indicator overwrite - default empty">字符串中流水号的后缀，默认是空</value>
+  <value column="Help" original="If not defined, no character is used">字符串中流水号的后缀，默认是空</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -25840,10 +25840,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53414" trl="Y">
-  <value column="Name" original="Payroll List Base">薪酬单基础</value>
-  <value column="PrintName" original="Payroll List Base">薪酬单基础</value>
-  <value column="Description" original="">薪酬单基础</value>
-  <value column="Help" original="">薪酬单基础</value>
+  <value column="Name" original="Payroll List Base">薪酬单基数</value>
+  <value column="PrintName" original="Payroll List Base">薪酬单基数</value>
+  <value column="Description" original="">薪酬单基数</value>
+  <value column="Help" original="">薪酬单基数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28515,20 +28515,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53800" trl="Y">
-  <value column="Name" original="Promotion Group">促销分组</value>
-  <value column="PrintName" original="Promotion Group">促销分组</value>
-  <value column="Description" original="">促销分组</value>
-  <value column="Help" original="">促销分组</value>
+  <value column="Name" original="Promotion Group">促销组</value>
+  <value column="PrintName" original="Promotion Group">促销组</value>
+  <value column="Description" original="">促销产品的集合</value>
+  <value column="Help" original="">促销产品的集合</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53801" trl="Y">
-  <value column="Name" original="Promotion Group Line">促销组明细</value>
-  <value column="PrintName" original="Promotion Group Line">促销组明细</value>
-  <value column="Description" original="">促销组明细</value>
-  <value column="Help" original="">促销组明细</value>
+  <value column="Name" original="Promotion Group Line">促销产品</value>
+  <value column="PrintName" original="Promotion Group Line">促销产品</value>
+  <value column="Description" original="">促销组包含的促销产品</value>
+  <value column="Help" original="">促销组包含的促销产品</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28565,10 +28565,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53805" trl="Y">
-  <value column="Name" original="Mandatory Promotion Line">必填的促销明细</value>
-  <value column="PrintName" original="Mandatory Promotion Line">必填的促销明细</value>
-  <value column="Description" original="Order must have this promotion line">订单必须保有促销明细</value>
-  <value column="Help" original="The mandatory promotion check box indicates that the order must have this promotion line">订单必须保有促销明细</value>
+  <value column="Name" original="Mandatory Promotion Line">必要条件</value>
+  <value column="PrintName" original="Mandatory Promotion Line">必要条件</value>
+  <value column="Description" original="Order must have this promotion line">必须包含这个促销组的产品和最少金额</value>
+  <value column="Help" original="The mandatory promotion check box indicates that the order must have this promotion line">当促销明细包含多个促销组时，该组清单是否为促销匹配的必要条件。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28615,20 +28615,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53810" trl="Y">
-  <value column="Name" original="Distribution Type">配送类型</value>
-  <value column="PrintName" original="Distribution Type">配送类型</value>
-  <value column="Description" original="Type of quantity distribution calculation using comparison qty and order qty as operand">Type of quantity distribution calculation using comparison qty and order qty as operand</value>
-  <value column="Help" original="">Type of quantity distribution calculation using comparison qty and order qty as operand</value>
+  <value column="Name" original="Distribution Type">匹配方式</value>
+  <value column="PrintName" original="Distribution Type">匹配方式</value>
+  <value column="Description" original="Type of quantity distribution calculation using comparison qty and order qty as operand">数量比较结果的匹配方式</value>
+  <value column="Help" original="">订单数量与多个分段值比较后的匹配方式。比如，某个数量符合多个分段值，MAX取匹配最大的分段值结果，MIN取匹配最小结果，MINUS跳过不符合分段</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53811" trl="Y">
-  <value column="Name" original="Distribution Sorting">配送排序</value>
-  <value column="PrintName" original="Distribution Sorting">配送排序</value>
-  <value column="Description" original="Quantity distribution sorting by unit price">在生产线步骤中的已完成数量</value>
-  <value column="Help" original="">在生产线步骤中的已完成数量</value>
+  <value column="Name" original="Distribution Sorting">匹配排序</value>
+  <value column="PrintName" original="Distribution Sorting">匹配排序</value>
+  <value column="Description" original="Quantity distribution sorting by unit price">匹配数量分段的顺序</value>
+  <value column="Help" original="">匹配数量分段的顺序</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28645,9 +28645,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53813" trl="Y">
-  <value column="Name" original="For all distribution">成本分配</value>
-  <value column="PrintName" original="For all distribution">成本分配</value>
-  <value column="Description" original="This reward is for all distribution">该资金针对全部配送</value>
+  <value column="Name" original="For all distribution">所有分段奖励</value>
+  <value column="PrintName" original="For all distribution">所有分段奖励</value>
+  <value column="Description" original="This reward is for all distribution">所有分段值都将获得该奖励</value>
   <value column="Help" original="">该资金针对全部配送</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -28655,20 +28655,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53814" trl="Y">
-  <value column="Name" original="Same distribution for source and target">资源分配计划设置</value>
-  <value column="PrintName" original="Same distribution for source and target">资源分配计划设置</value>
-  <value column="Description" original="Use the same distribution for source and target">Use the same distribution for source and target</value>
-  <value column="Help" original="Use the same distribution for source and target. Source distribution is for the entitlement of the reward, target distribution is the distribution to get the product to apply the reward to">Use the same distribution for source and target</value>
+  <value column="Name" original="Same distribution for source and target">使用相同数量档</value>
+  <value column="PrintName" original="Same distribution for source and target">使用相同数量档</value>
+  <value column="Description" original="Use the same distribution for source and target">对来源和目标使用相同的数量档</value>
+  <value column="Help" original="Use the same distribution for source and target. Source distribution is for the entitlement of the reward, target distribution is the distribution to get the product to apply the reward to">来源数量档是促销设定数量，目标数量档是实际购买数量。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53815" trl="Y">
-  <value column="Name" original="Target distribution">成本分配</value>
-  <value column="PrintName" original="Target distribution">成本分配</value>
-  <value column="Description" original="Get product from target distribution to apply the promotion reward">从目标配送获取产品以申请的促销奖励</value>
-  <value column="Help" original="">从目标配送获取产品以申请的促销奖励</value>
+  <value column="Name" original="Target distribution">目标数量档</value>
+  <value column="PrintName" original="Target distribution">目标数量档</value>
+  <value column="Description" original="Get product from target distribution to apply the promotion reward">从目标数量档获取产品以申请的促销奖励</value>
+  <value column="Help" original="">从目标数量档获取产品以申请的促销奖励</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28905,10 +28905,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53891" trl="Y">
-  <value column="Name" original="Promotion Distribution">促销分布</value>
-  <value column="PrintName" original="Promotion Distribution">促销分布</value>
-  <value column="Description" original="">促销分布</value>
-  <value column="Help" original="">促销分布</value>
+  <value column="Name" original="Promotion Distribution">促销数量档</value>
+  <value column="PrintName" original="Promotion Distribution">促销数量档</value>
+  <value column="Description" original="">促销数量分段</value>
+  <value column="Help" original="">促销数量分段</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -29185,10 +29185,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54096" trl="Y">
-  <value column="Name" original="Import List price">导入目录价格</value>
-  <value column="PrintName" original="Import List price">导入目录价格</value>
-  <value column="Description" original="">导入目录价格</value>
-  <value column="Help" original="">导入目录价格</value>
+  <value column="Name" original="Import List price">导入目录价</value>
+  <value column="PrintName" original="Import List price">导入目录价</value>
+  <value column="Description" original="">导入目录价</value>
+  <value column="Help" original="">导入目录价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -29205,10 +29205,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54098" trl="Y">
-  <value column="Name" original="Import Limit Price">导入限制价格</value>
-  <value column="PrintName" original="Import Limit Price">导入限制价格</value>
-  <value column="Description" original="">导入限制价格</value>
-  <value column="Help" original="">导入限制价格</value>
+  <value column="Name" original="Import Limit Price">导入限制价</value>
+  <value column="PrintName" original="Import Limit Price">导入限制价</value>
+  <value column="Description" original="">导入限制价</value>
+  <value column="Help" original="">导入限制价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38346,10 +38346,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55294" trl="Y">
-  <value column="Name" original="Opportunity by Campaign">通过促销活获得的机会</value>
-  <value column="PrintName" original="Opportunity by Campaign">通过促销活获得的机会</value>
-  <value column="Description" original="">通过促销活获得的机会</value>
-  <value column="Help" original="">通过促销活获得的机会</value>
+  <value column="Name" original="Opportunity by Campaign">营销活动的机会</value>
+  <value column="PrintName" original="Opportunity by Campaign">营销活动的机会</value>
+  <value column="Description" original="">通过营销活动获得的机会</value>
+  <value column="Help" original="">通过营销活动获得的机会</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -40496,10 +40496,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200285" trl="Y">
-  <value column="Name" original="Ignore Zip Not Found">忽略邮编未找到</value>
-  <value column="PrintName" original="Ignore Zip Not Found">忽略邮编未找到</value>
-  <value column="Description" original="">忽略邮编未找到</value>
-  <value column="Help" original="">忽略邮编未找到</value>
+  <value column="Name" original="Ignore Zip Not Found">忽略错误邮编</value>
+  <value column="PrintName" original="Ignore Zip Not Found">忽略错误邮编</value>
+  <value column="Description" original="">忽略未找到的错误邮编</value>
+  <value column="Help" original="">忽略未找到的错误邮编</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -40656,10 +40656,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200301" trl="Y">
-  <value column="Name" original="Label Print Method">打印标签方法</value>
-  <value column="PrintName" original="Label Print Method">打印标签方法</value>
-  <value column="Description" original="">打印标签方法</value>
-  <value column="Help" original="">打印标签方法</value>
+  <value column="Name" original="Label Print Method">打印方式</value>
+  <value column="PrintName" original="Label Print Method">打印方式</value>
+  <value column="Description" original="">标签打印方式</value>
+  <value column="Help" original="">标签打印方式，可选打印机或者图片</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -43536,8 +43536,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200603" trl="Y">
-  <value column="Name" original="Shipper Labels Configuration">承运面单规格</value>
-  <value column="PrintName" original="Shipper Labels Configuration">承运面单规格</value>
+  <value column="Name" original="Shipper Labels Configuration">面单规格</value>
+  <value column="PrintName" original="Shipper Labels Configuration">面单规格</value>
   <value column="Description" original="">承运面单规格</value>
   <value column="Help" original="">承运面单规格</value>
   <value column="PO_Description" original=""/>
@@ -43556,8 +43556,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200605" trl="Y">
-  <value column="Name" original="Shipper Packaging Configuration">承运包装方式</value>
-  <value column="PrintName" original="Shipper Packaging Configuration">承运包装方式</value>
+  <value column="Name" original="Shipper Packaging Configuration">包装方式</value>
+  <value column="PrintName" original="Shipper Packaging Configuration">包装方式</value>
   <value column="Description" original="">定义承运的包装方式</value>
   <value column="Help" original="">定义承运人的包装方式</value>
   <value column="PO_Description" original=""/>
@@ -43576,10 +43576,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200607" trl="Y">
-  <value column="Name" original="Shipper Pickup Types Configuration">承运取货方式</value>
-  <value column="PrintName" original="Shipper Pickup Types Configuration">承运取货方式</value>
-  <value column="Description" original="">承运取货方式</value>
-  <value column="Help" original="">承运取货方式</value>
+  <value column="Name" original="Shipper Pickup Types Configuration">取货方式</value>
+  <value column="PrintName" original="Shipper Pickup Types Configuration">取货方式</value>
+  <value column="Description" original="">承运人的取货方式</value>
+  <value column="Help" original="">承运人的取货方式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -45826,10 +45826,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201195" trl="Y">
-  <value column="Name" original="m_product_po_pricelist">产品采购_目录价格</value>
-  <value column="PrintName" original="m_product_po_pricelist">产品采购_目录价格</value>
-  <value column="Description" original="">产品采购_目录价格</value>
-  <value column="Help" original="">产品采购_目录价格</value>
+  <value column="Name" original="m_product_po_pricelist">产品采购_目录价</value>
+  <value column="PrintName" original="m_product_po_pricelist">产品采购_目录价</value>
+  <value column="Description" original="">产品采购_目录价</value>
+  <value column="Help" original="">产品采购_目录价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -46616,10 +46616,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201360" trl="Y">
-  <value column="Name" original="m_attributesetinstance_serno">产品属性_序列号</value>
-  <value column="PrintName" original="m_attributesetinstance_serno">产品属性_序列号</value>
-  <value column="Description" original="">产品属性_序列号</value>
-  <value column="Help" original="">产品属性_序列号</value>
+  <value column="Name" original="m_attributesetinstance_serno">产品属性_流水号</value>
+  <value column="PrintName" original="m_attributesetinstance_serno">产品属性_流水号</value>
+  <value column="Description" original="">产品属性_流水号</value>
+  <value column="Help" original="">产品属性_流水号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -47066,10 +47066,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201407" trl="Y">
-  <value column="Name" original="c_orderline_pricelist">订单明细_目录价格</value>
-  <value column="PrintName" original="c_orderline_pricelist">订单明细_目录价格</value>
-  <value column="Description" original="">订单明细_目录价格</value>
-  <value column="Help" original="">订单明细_目录价格</value>
+  <value column="Name" original="c_orderline_pricelist">订单明细_目录价</value>
+  <value column="PrintName" original="c_orderline_pricelist">订单明细_目录价</value>
+  <value column="Description" original="">订单明细_目录价</value>
+  <value column="Help" original="">订单明细_目录价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -47356,20 +47356,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201437" trl="Y">
-  <value column="Name" original="c_invoiceline_pricelimit">发票明细_限制价格</value>
-  <value column="PrintName" original="c_invoiceline_pricelimit">发票明细_限制价格</value>
-  <value column="Description" original="">发票明细_限制价格</value>
-  <value column="Help" original="">发票明细_限制价格</value>
+  <value column="Name" original="c_invoiceline_pricelimit">发票明细_限制价</value>
+  <value column="PrintName" original="c_invoiceline_pricelimit">发票明细_限制价</value>
+  <value column="Description" original="">发票明细_限制价</value>
+  <value column="Help" original="">发票明细_限制价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201438" trl="Y">
-  <value column="Name" original="c_invoiceline_pricelist">发票明细_目录价格</value>
-  <value column="PrintName" original="c_invoiceline_pricelist">发票明细_目录价格</value>
-  <value column="Description" original="">发票明细_目录价格</value>
-  <value column="Help" original="">发票明细_目录价格</value>
+  <value column="Name" original="c_invoiceline_pricelist">发票明细_目录价</value>
+  <value column="PrintName" original="c_invoiceline_pricelist">发票明细_目录价</value>
+  <value column="Description" original="">发票明细_目录价</value>
+  <value column="Help" original="">发票明细_目录价</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -58985,8 +58985,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row trl="Y" uuid="0a8881c4-0ee2-46cd-b9e7-0b26d9652e3a">
   <value column="Name" original="UnAllocated Amount Account">未分配金额</value>
   <value column="PrintName" original="UnAllocated Amount Account">未分配金额</value>
-  <value column="Description" original="">未分配金额</value>
-  <value column="Help" original="">未分配金额</value>
+  <value column="Description" original="">未分配金额的过渡账户</value>
+  <value column="Help" original="">未分配金额的过渡账户</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

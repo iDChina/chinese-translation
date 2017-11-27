@@ -773,15 +773,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="325" trl="Y">
-  <value column="Name" original="List Price">列表价格</value>
+  <value column="Name" original="List Price">1.目录价格</value>
   <value column="Description" original=""/>
  </row>
  <row id="326" trl="Y">
-  <value column="Name" original="Standard Price">标准价格</value>
+  <value column="Name" original="Standard Price">2.标准价格</value>
   <value column="Description" original=""/>
  </row>
  <row id="327" trl="Y">
-  <value column="Name" original="Limit (PO) Price">限制价格</value>
+  <value column="Name" original="Limit (PO) Price">3.限制价格</value>
   <value column="Description" original=""/>
  </row>
  <row id="328" trl="Y">
@@ -4233,16 +4233,16 @@
   <value column="Description" original=""/>
  </row>
  <row id="53464" trl="Y">
-  <value column="Name" original="Min">最小</value>
+  <value column="Name" original="Min">最小分段</value>
   <value column="Description" original=""/>
  </row>
  <row id="53465" trl="Y">
-  <value column="Name" original="Max">最大</value>
+  <value column="Name" original="Max">最大分段</value>
   <value column="Description" original=""/>
  </row>
  <row id="53466" trl="Y">
-  <value column="Name" original="Minus">减</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Minus">跳过</value>
+  <value column="Description" original="">跳过分段值</value>
  </row>
  <row id="53467" trl="Y">
   <value column="Name" original="Ascending">升序</value>
@@ -5165,8 +5165,8 @@
   <value column="Description" original="Print using eltron label printer language">使用Eltron标签打印编程语言</value>
  </row>
  <row id="200080" trl="Y">
-  <value column="Name" original="Image">图像</value>
-  <value column="Description" original="Print as Image">二进位的图像数据</value>
+  <value column="Name" original="Image">图片</value>
+  <value column="Description" original="Print as Image">使用图片文件打印输出</value>
  </row>
  <row id="200081" trl="Y">
   <value column="Name" original="Zebra">Zebra</value>

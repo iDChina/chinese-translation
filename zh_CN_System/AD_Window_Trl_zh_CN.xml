@@ -173,7 +173,7 @@
  <row id="139" trl="Y">
   <value column="Name" original="Warehouse &amp; Locators">仓库/库位</value>
   <value column="Description" original="Maintain Warehouses and Locators">维护仓库与库位</value>
-  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">维护仓库与库位</value>
+  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">维护产品的存储位置或者服务提供点</value>
  </row>
  <row id="140" trl="Y">
   <value column="Name" original="Product">产品</value>
@@ -311,9 +311,9 @@
   <value column="Help" original="The Perpetual Inventory defines the rules to be applied when generating Physical Inventory counts.">维护永续盘存规则</value>
  </row>
  <row id="176" trl="Y">
-  <value column="Name" original="Vendor Details">供应商明细</value>
-  <value column="Description" original="Maintain Vendor Details">维护供应商明细</value>
-  <value column="Help" original="The Vendor Details Window allows you to display and maintain all products for a selected Vendor.">维护供应商明细</value>
+  <value column="Name" original="Vendor Details">供应商</value>
+  <value column="Description" original="Maintain Vendor Details">维护供应商的采购价格</value>
+  <value column="Help" original="The Vendor Details Window allows you to display and maintain all products for a selected Vendor.">维护供应商的产品采购信息</value>
  </row>
  <row id="178" trl="Y">
   <value column="Name" original="Greeting">尊称</value>
@@ -666,9 +666,9 @@
   <value column="Help" original="Definition to create Lot numbers for Products">定义产品的批次控制</value>
  </row>
  <row id="259" trl="Y">
-  <value column="Name" original="Serial No Control">序列号定义</value>
-  <value column="Description" original="Product Serial Number Control">定义产品的序列号控制</value>
-  <value column="Help" original="Definition to create Serial numbers for Products">定义产品的序列号控制</value>
+  <value column="Name" original="Serial No Control">流水号定义</value>
+  <value column="Description" original="Product Serial Number Control">定义产品的流水号控制</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">定义产品的流水号控制</value>
  </row>
  <row id="260" trl="Y">
   <value column="Name" original="Attribute">属性</value>
@@ -1987,7 +1987,7 @@
  <row id="200029" trl="Y">
   <value column="Name" original="Shipper Configuration">承运人设置</value>
   <value column="Description" original="">承运人设置</value>
-  <value column="Help" original="">承运人设置</value>
+  <value column="Help" original="">承运人的设置</value>
  </row>
  <row id="200030" trl="Y">
   <value column="Name" original="Shipping Transaction">发货事务</value>
