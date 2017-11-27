@@ -106,9 +106,9 @@
   <value column="Help" original="Orders with quantities to deliver (Backordered) or quantities to invoice">待交付 (待补货) 或待开票的订单。</value>
  </row>
  <row id="122" trl="Y">
-  <value column="Name" original="Process Movements">处理移库</value>
-  <value column="Description" original="Process Inventory Movements">处理移库</value>
-  <value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">处理移库将基于在仓库或货位之间定义的移动，而更新库存数量。</value>
+  <value column="Name" original="Process Movements">处理调拨</value>
+  <value column="Description" original="Process Inventory Movements">处理调拨</value>
+  <value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">将基于在仓库或货位之间定义的移动，直接更新库存数量。</value>
  </row>
  <row id="123" trl="Y">
   <value column="Name" original="Generate Commission">生成佣金</value>
@@ -926,7 +926,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="290" trl="Y">
-  <value column="Name" original="Inventory Move Print">移库打印</value>
+  <value column="Name" original="Inventory Move Print">调拨单打印</value>
   <value column="Description" original="** Special ** Do not change **">** 系统专用 **不要更改**</value>
   <value column="Help" original="Create/Copy your own Format and Process">创建/复制自己的格式与流程。</value>
  </row>
@@ -1837,7 +1837,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original="Import All Fixed Assets">导入所有固定资产。</value>
  </row>
  <row id="53216" trl="Y">
-  <value column="Name" original="ImportInventoryMovement">导入移库单</value>
+  <value column="Name" original="ImportInventoryMovement">导入调拨单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2625,9 +2625,9 @@ Once the process is run, you need to synchronize the SO/PO manually (e.g. in cas
   <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="ca8a1f08-3567-413d-bfda-e8487bfccadb">
-  <value column="Name" original="Generate Inventory Move from Receipt">从收货单生成移库单</value>
-  <value column="Description" original="Create and process Inventory Move from this receipt.  The receipt should be correct and completed.">从该收货单创建移库单，搜货单应当正确和完整</value>
-  <value column="Help" original="Generate Inventory Move from Receipt will create an Inventory Move based on the selected receipt and match the Inventory Move to that receipt. You can set the document number only if the Inventory Move document type allows to set the document number manually.">此流程将基于选择的收货创建移库单并匹配移库单到该收货。仅当移库单据类型允许手工设置单据号，才可以设置单据号码。</value>
+  <value column="Name" original="Generate Inventory Move from Receipt">从收货单生成调拨单</value>
+  <value column="Description" original="Create and process Inventory Move from this receipt.  The receipt should be correct and completed.">从该收货单创建调拨单，收货单应当正确和完整</value>
+  <value column="Help" original="Generate Inventory Move from Receipt will create an Inventory Move based on the selected receipt and match the Inventory Move to that receipt. You can set the document number only if the Inventory Move document type allows to set the document number manually.">此流程将基于选择的收货创建调拨单并匹配调拨单到该收货。仅当调拨单据类型允许手工设置单据号，才可以设置单据号码。</value>
  </row>
  <row trl="Y" uuid="c742ca5c-e0c0-40cb-af74-7e3244d72d26">
   <value column="Name" original="Copy Attribute Set Instances">复制产品属性</value>

@@ -291,9 +291,9 @@
   <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">客户库存发货单，客户退货</value>
  </row>
  <row id="170" trl="Y">
-  <value column="Name" original="Inventory Move">移库单</value>
-  <value column="Description" original="Inventory Move">移库单</value>
-  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">移库单</value>
+  <value column="Name" original="Inventory Move">调拨单</value>
+  <value column="Description" original="Inventory Move">调拨单</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">调拨单</value>
  </row>
  <row id="172" trl="Y">
   <value column="Name" original="Import Business Partner">导入业务伙伴</value>
@@ -1036,9 +1036,9 @@
   <value column="Help" original="Process Instance Information">流程使用的日志</value>
  </row>
  <row id="333" trl="Y">
-  <value column="Name" original="Move Confirmation">移库确认</value>
-  <value column="Description" original="Confirm Inventory Moves">确认移库</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">确认移库</value>
+  <value column="Name" original="Move Confirmation">调拨确认</value>
+  <value column="Description" original="Confirm Inventory Moves">调拨确认</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">调拨确认</value>
  </row>
  <row id="334" trl="Y">
   <value column="Name" original="Import Confirmations">导入确认</value>

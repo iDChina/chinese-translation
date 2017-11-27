@@ -376,8 +376,8 @@
  <row id="179" trl="Y">
   <value column="Name" original="Storage">库存信息</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Detail Storage Information">物品的库存数量信息</value>
-  <value column="Help" original="">物品的库存数量信息</value>
+  <value column="Description" original="Detail Storage Information">产品的库位数量信息</value>
+  <value column="Help" original="">包含不同日期的在手数量、预留数量、在途数量。</value>
  </row>
  <row id="180" trl="Y">
   <value column="Name" original="Product">产品</value>
@@ -765,16 +765,16 @@
   <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">发货单明细</value>
  </row>
  <row id="259" trl="Y">
-  <value column="Name" original="Move">移库单</value>
+  <value column="Name" original="Move">调拨单</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Inventory Movement">移库单</value>
-  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">移库单</value>
+  <value column="Description" original="Enter Inventory Movement">调拨单</value>
+  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">调拨单</value>
  </row>
  <row id="260" trl="Y">
-  <value column="Name" original="Move Line">移库明细</value>
+  <value column="Name" original="Move Line">调拨明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Inventory Movement Line">定义移库明细</value>
-  <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">定义移库明细</value>
+  <value column="Description" original="Enter Inventory Movement Line">定义调拨明细</value>
+  <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">定义调拨明细</value>
  </row>
  <row id="262" trl="Y">
   <value column="Name" original="Product Transactions">收发</value>
@@ -3027,16 +3027,16 @@
   <value column="Help" original="">流程的多个处理日志</value>
  </row>
  <row id="666" trl="Y">
-  <value column="Name" original="Confirmation">移库确认</value>
+  <value column="Name" original="Confirmation">调拨确认</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Confirm Inventory Moves">确认移库</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">确认移库</value>
+  <value column="Description" original="Confirm Inventory Moves">确认调拨确认</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">确认调拨确认</value>
  </row>
  <row id="667" trl="Y">
-  <value column="Name" original="Line">移库确认</value>
+  <value column="Name" original="Line">明细确认</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Confirm Inventory Move Lines">确认移库明细</value>
-  <value column="Help" original="The quantities are in the storage Unit of Measure!">确认移库明细</value>
+  <value column="Description" original="Confirm Inventory Move Lines">确认调拨明细</value>
+  <value column="Help" original="The quantities are in the storage Unit of Measure!">确认调拨明细</value>
  </row>
  <row id="668" trl="Y">
   <value column="Name" original="Confirmation Lines">确认明细</value>
@@ -3574,10 +3574,10 @@
   <value column="Help" original="">产品发货与收货单行</value>
  </row>
  <row id="760" trl="Y">
-  <value column="Name" original="Movement">移库明细</value>
+  <value column="Name" original="Movement">调拨明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Material Movement Lines">产品移库行</value>
-  <value column="Help" original="">产品移库行</value>
+  <value column="Description" original="Material Movement Lines">产品调拨明细</value>
+  <value column="Help" original="">产品调拨明细</value>
  </row>
  <row id="761" trl="Y">
   <value column="Name" original="Invoice">发票明细</value>
@@ -5242,10 +5242,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="53244" trl="Y">
-  <value column="Name" original="Located at">库位</value>
+  <value column="Name" original="Located at">库存</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Where are my units located?">产品的库位数量信息</value>
-  <value column="Help" original="">产品的库位数量信息</value>
+  <value column="Help" original="">包含不同日期的在手数量、预留数量、在途数量。</value>
  </row>
  <row id="53246" trl="Y">
   <value column="Name" original="UOM Conversion">单位换算</value>
@@ -5476,7 +5476,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53335" trl="Y">
-  <value column="Name" original="Import Inventory Move">导入移库单</value>
+  <value column="Name" original="Import Inventory Move">导入调拨单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>

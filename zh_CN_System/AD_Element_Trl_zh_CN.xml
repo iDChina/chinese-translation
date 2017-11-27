@@ -4636,8 +4636,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1030" trl="Y">
-  <value column="Name" original="Inventory Move">移库单</value>
-  <value column="PrintName" original="Move">移库单</value>
+  <value column="Name" original="Inventory Move">调拨单</value>
+  <value column="PrintName" original="Move">调拨单</value>
   <value column="Description" original="Movement of Inventory">库存移仓</value>
   <value column="Help" original="The Inventory Movement uniquely identifies a group of movement lines.">库存移仓</value>
   <value column="PO_Description" original=""/>
@@ -4646,8 +4646,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1031" trl="Y">
-  <value column="Name" original="Move Line">移库明细</value>
-  <value column="PrintName" original="Move Line">移库明细</value>
+  <value column="Name" original="Move Line">调拨明细</value>
+  <value column="PrintName" original="Move Line">调拨明细</value>
   <value column="Description" original="Inventory Move document Line">存货的移仓单据明细</value>
   <value column="Help" original="The Movement Line indicates the inventory movement document line (if applicable) for this transaction">存货的移仓单据明细</value>
   <value column="PO_Description" original=""/>
@@ -17465,20 +17465,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2552" trl="Y">
-  <value column="Name" original="Move Confirm">移库确认</value>
-  <value column="PrintName" original="Move Confirm">移库确认</value>
-  <value column="Description" original="Inventory Move Confirmation">移库确认</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">移库确认</value>
+  <value column="Name" original="Move Confirm">调拨确认</value>
+  <value column="PrintName" original="Move Confirm">调拨确认</value>
+  <value column="Description" original="Inventory Move Confirmation">调拨确认</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">调拨确认</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2553" trl="Y">
-  <value column="Name" original="Move Line Confirm">移库明细确认</value>
-  <value column="PrintName" original="Move Line Confirm">移库明细确认</value>
-  <value column="Description" original="Inventory Move Line Confirmation">移库明细确认</value>
-  <value column="Help" original="">移库明细确认</value>
+  <value column="Name" original="Move Line Confirm">调拨明细确认</value>
+  <value column="PrintName" original="Move Line Confirm">调拨明细确认</value>
+  <value column="Description" original="Inventory Move Line Confirmation">调拨明细确认</value>
+  <value column="Help" original="">调拨明细确认</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -30185,10 +30185,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54238" trl="Y">
-  <value column="Name" original="I_Movement_ID">导入移库单</value>
-  <value column="PrintName" original="I_Movement_ID">导入移库单</value>
-  <value column="Description" original="">导入移库单</value>
-  <value column="Help" original="">导入移库单</value>
+  <value column="Name" original="I_Movement_ID">导入调拨单</value>
+  <value column="PrintName" original="I_Movement_ID">导入调拨单</value>
+  <value column="Description" original="">导入调拨单</value>
+  <value column="Help" original="">导入调拨单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -52596,160 +52596,160 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202104" trl="Y">
-  <value column="Name" original="m_movementline_ad_org_id">移库明细_组织</value>
-  <value column="PrintName" original="m_movementline_ad_org_id">移库明细_组织</value>
-  <value column="Description" original="">移库明细_组织</value>
-  <value column="Help" original="">移库明细_组织</value>
+  <value column="Name" original="m_movementline_ad_org_id">调拨明细_组织</value>
+  <value column="PrintName" original="m_movementline_ad_org_id">调拨明细_组织</value>
+  <value column="Description" original="">调拨明细_组织</value>
+  <value column="Help" original="">调拨明细_组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202105" trl="Y">
-  <value column="Name" original="m_movementline_confirmedqty">移库明细_确认数量</value>
-  <value column="PrintName" original="m_movementline_confirmedqty">移库明细_确认数量</value>
-  <value column="Description" original="">移库明细_确认数量</value>
-  <value column="Help" original="">移库明细_确认数量</value>
+  <value column="Name" original="m_movementline_confirmedqty">调拨明细_确认数量</value>
+  <value column="PrintName" original="m_movementline_confirmedqty">调拨明细_确认数量</value>
+  <value column="Description" original="">调拨明细_确认数量</value>
+  <value column="Help" original="">调拨明细_确认数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202106" trl="Y">
-  <value column="Name" original="m_movementline_created">移库明细_创建时间</value>
-  <value column="PrintName" original="m_movementline_created">移库明细_创建时间</value>
-  <value column="Description" original="">移库明细_创建时间</value>
-  <value column="Help" original="">移库明细_创建时间</value>
+  <value column="Name" original="m_movementline_created">调拨明细_创建时间</value>
+  <value column="PrintName" original="m_movementline_created">调拨明细_创建时间</value>
+  <value column="Description" original="">调拨明细_创建时间</value>
+  <value column="Help" original="">调拨明细_创建时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202107" trl="Y">
-  <value column="Name" original="m_movementline_createdby">移库明细_创建人</value>
-  <value column="PrintName" original="m_movementline_createdby">移库明细_创建人</value>
-  <value column="Description" original="">移库明细_创建人</value>
-  <value column="Help" original="">移库明细_创建人</value>
+  <value column="Name" original="m_movementline_createdby">调拨明细_创建人</value>
+  <value column="PrintName" original="m_movementline_createdby">调拨明细_创建人</value>
+  <value column="Description" original="">调拨明细_创建人</value>
+  <value column="Help" original="">调拨明细_创建人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202108" trl="Y">
-  <value column="Name" original="m_movementline_description">移库明细_描述</value>
-  <value column="PrintName" original="m_movementline_description">移库明细_描述</value>
-  <value column="Description" original="">移库明细_描述</value>
-  <value column="Help" original="">移库明细_描述</value>
+  <value column="Name" original="m_movementline_description">调拨明细_描述</value>
+  <value column="PrintName" original="m_movementline_description">调拨明细_描述</value>
+  <value column="Description" original="">调拨明细_描述</value>
+  <value column="Help" original="">调拨明细_描述</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202109" trl="Y">
-  <value column="Name" original="m_movementline_isactive">移库明细_有效</value>
-  <value column="PrintName" original="m_movementline_isactive">移库明细_有效</value>
-  <value column="Description" original="">移库明细_有效</value>
-  <value column="Help" original="">移库明细_有效</value>
+  <value column="Name" original="m_movementline_isactive">调拨明细_有效</value>
+  <value column="PrintName" original="m_movementline_isactive">调拨明细_有效</value>
+  <value column="Description" original="">调拨明细_有效</value>
+  <value column="Help" original="">调拨明细_有效</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202110" trl="Y">
-  <value column="Name" original="M_MovementLine_M_ASI_ID">移库明细_产品属性</value>
-  <value column="PrintName" original="M_MovementLine_M_ASI_ID">移库明细_产品属性</value>
-  <value column="Description" original="">移库明细_产品属性</value>
-  <value column="Help" original="">移库明细_产品属性</value>
+  <value column="Name" original="M_MovementLine_M_ASI_ID">调拨明细_产品属性</value>
+  <value column="PrintName" original="M_MovementLine_M_ASI_ID">调拨明细_产品属性</value>
+  <value column="Description" original="">调拨明细_产品属性</value>
+  <value column="Help" original="">调拨明细_产品属性</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202111" trl="Y">
-  <value column="Name" original="m_movementline_m_locator_id">移库明细_库位</value>
-  <value column="PrintName" original="m_movementline_m_locator_id">移库明细_库位</value>
-  <value column="Description" original="">移库明细_库位</value>
-  <value column="Help" original="">移库明细_库位</value>
+  <value column="Name" original="m_movementline_m_locator_id">调拨明细_库位</value>
+  <value column="PrintName" original="m_movementline_m_locator_id">调拨明细_库位</value>
+  <value column="Description" original="">调拨明细_库位</value>
+  <value column="Help" original="">调拨明细_库位</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202112" trl="Y">
-  <value column="Name" original="m_movementline_movementqty">移库明细_移动数量</value>
-  <value column="PrintName" original="m_movementline_movementqty">移库明细_移动数量</value>
-  <value column="Description" original="">移库明细_移动数量</value>
-  <value column="Help" original="">移库明细_移动数量</value>
+  <value column="Name" original="m_movementline_movementqty">调拨明细_移动数量</value>
+  <value column="PrintName" original="m_movementline_movementqty">调拨明细_移动数量</value>
+  <value column="Description" original="">调拨明细_移动数量</value>
+  <value column="Help" original="">调拨明细_移动数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202113" trl="Y">
-  <value column="Name" original="m_movementline_m_product_id">移库明细_产品</value>
-  <value column="PrintName" original="m_movementline_m_product_id">移库明细_产品</value>
-  <value column="Description" original="">移库明细_产品</value>
-  <value column="Help" original="">移库明细_产品</value>
+  <value column="Name" original="m_movementline_m_product_id">调拨明细_产品</value>
+  <value column="PrintName" original="m_movementline_m_product_id">调拨明细_产品</value>
+  <value column="Description" original="">调拨明细_产品</value>
+  <value column="Help" original="">调拨明细_产品</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202114" trl="Y">
-  <value column="Name" original="m_movementline_processed">移库明细_已处理</value>
-  <value column="PrintName" original="m_movementline_processed">移库明细_已处理</value>
-  <value column="Description" original="">移库明细_已处理</value>
-  <value column="Help" original="">移库明细_已处理</value>
+  <value column="Name" original="m_movementline_processed">调拨明细_已处理</value>
+  <value column="PrintName" original="m_movementline_processed">调拨明细_已处理</value>
+  <value column="Description" original="">调拨明细_已处理</value>
+  <value column="Help" original="">调拨明细_已处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202115" trl="Y">
-  <value column="Name" original="m_movementline_reversalline_id">移库明细_反冲明细</value>
-  <value column="PrintName" original="m_movementline_reversalline_id">移库明细_反冲明细</value>
-  <value column="Description" original="">移库明细_反冲明细</value>
-  <value column="Help" original="">移库明细_反冲明细</value>
+  <value column="Name" original="m_movementline_reversalline_id">调拨明细_反冲明细</value>
+  <value column="PrintName" original="m_movementline_reversalline_id">调拨明细_反冲明细</value>
+  <value column="Description" original="">调拨明细_反冲明细</value>
+  <value column="Help" original="">调拨明细_反冲明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202116" trl="Y">
-  <value column="Name" original="m_movementline_scrappedqty">移库明细_废品数量</value>
-  <value column="PrintName" original="m_movementline_scrappedqty">移库明细_废品数量</value>
-  <value column="Description" original="">移库明细_废品数量</value>
-  <value column="Help" original="">移库明细_废品数量</value>
+  <value column="Name" original="m_movementline_scrappedqty">调拨明细_废品数量</value>
+  <value column="PrintName" original="m_movementline_scrappedqty">调拨明细_废品数量</value>
+  <value column="Description" original="">调拨明细_废品数量</value>
+  <value column="Help" original="">调拨明细_废品数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202117" trl="Y">
-  <value column="Name" original="m_movementline_targetqty">移库明细_目标数量</value>
-  <value column="PrintName" original="m_movementline_targetqty">移库明细_目标数量</value>
-  <value column="Description" original="">移库明细_目标数量</value>
-  <value column="Help" original="">移库明细_目标数量</value>
+  <value column="Name" original="m_movementline_targetqty">调拨明细_目标数量</value>
+  <value column="PrintName" original="m_movementline_targetqty">调拨明细_目标数量</value>
+  <value column="Description" original="">调拨明细_目标数量</value>
+  <value column="Help" original="">调拨明细_目标数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202118" trl="Y">
-  <value column="Name" original="m_movementline_updated">移库明细_更新时间</value>
-  <value column="PrintName" original="m_movementline_updated">移库明细_更新时间</value>
-  <value column="Description" original="">移库明细_更新时间</value>
-  <value column="Help" original="">移库明细_更新时间</value>
+  <value column="Name" original="m_movementline_updated">调拨明细_更新时间</value>
+  <value column="PrintName" original="m_movementline_updated">调拨明细_更新时间</value>
+  <value column="Description" original="">调拨明细_更新时间</value>
+  <value column="Help" original="">调拨明细_更新时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202119" trl="Y">
-  <value column="Name" original="m_movementline_updatedby">移库明细_更新人</value>
-  <value column="PrintName" original="m_movementline_updatedby">移库明细_更新人</value>
-  <value column="Description" original="">移库明细_更新人</value>
-  <value column="Help" original="">移库明细_更新人</value>
+  <value column="Name" original="m_movementline_updatedby">调拨明细_更新人</value>
+  <value column="PrintName" original="m_movementline_updatedby">调拨明细_更新人</value>
+  <value column="Description" original="">调拨明细_更新人</value>
+  <value column="Help" original="">调拨明细_更新人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
