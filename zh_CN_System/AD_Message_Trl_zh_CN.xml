@@ -342,7 +342,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="185" trl="Y">
-  <value column="MsgText" original="Error while executing currency conversion routine">当执行货币转换程序时发生错误</value>
+  <value column="MsgText" original="Error while executing currency conversion routine">当执行货币兑换程序时发生错误</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="186" trl="Y">
@@ -414,7 +414,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="203" trl="Y">
-  <value column="MsgText" original="Currency Conversion">汇率转换</value>
+  <value column="MsgText" original="Currency Conversion">汇率兑换</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="204" trl="Y">
@@ -1265,7 +1265,7 @@
   <value column="MsgTip" original="">当订单和付款使用不同货币时，导致货币差异</value>
  </row>
  <row id="415" trl="Y">
-  <value column="MsgText" original="Posting Error: Source Currency not convertible">过账错误：原币不可转换</value>
+  <value column="MsgText" original="Posting Error: Source Currency not convertible">过账错误：原币不可兑换</value>
   <value column="MsgTip" original="Define exchange rate from the source currency to your accounting currencies">定义从原币到本位币的兑换率</value>
  </row>
  <row id="416" trl="Y">
@@ -1485,7 +1485,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="470" trl="Y">
-  <value column="MsgText" original="Region/State">区域/省份</value>
+  <value column="MsgText" original="Region/State">省份/区域</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="471" trl="Y">
@@ -5415,7 +5415,7 @@
   <value column="MsgTip" original="Indicates that there was an error durring document creation">MRP-160：单据创建时存在错误。</value>
  </row>
  <row id="53081" trl="Y">
-  <value column="MsgText" original="No UOM conversion found">无计量单位转换</value>
+  <value column="MsgText" original="No UOM conversion found">计量单位无换算</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53082" trl="Y">
@@ -6641,19 +6641,19 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200393" trl="Y">
-  <value column="MsgText" original="Could not convert currency {0} to project currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法转换货币 {0}到项目货币 {1} - 汇率类型 ： {2} / 转换日期 ： {3,date,short}</value>
+  <value column="MsgText" original="Could not convert currency {0} to project currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法兑换货币 {0}到项目货币 {1} - 汇率类型 ： {2} / 兑换日期 ： {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200394" trl="Y">
-  <value column="MsgText" original="Could not convert currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法转换货币 {0}到账套本币 {1} - 汇率类型 ： {2} / 转换日期 ： {3,date,short}</value>
+  <value column="MsgText" original="Could not convert currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法兑换货币 {0}到账套本币 {1} - 汇率类型 ： {2} / 兑换日期 ： {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200395" trl="Y">
-  <value column="MsgText" original="Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}">无法转换分配货币 {0}到账套本币 {1} - 汇率类型 ： {2} / 转换日期 ： {3,date,short}</value>
+  <value column="MsgText" original="Could not convert allocation currency {0} to base currency {1} - conversion type : {2} / conversion date : {3}">无法兑换分配货币 {0}到账套本币 {1} - 汇率类型 ： {2} / 兑换日期 ： {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200396" trl="Y">
-  <value column="MsgText" original="Could not convert invoice currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法转换发票货币 {0}到账套本币 {1} - 汇率类型 ： {2} / 转换日期 ： {3,date,short}</value>
+  <value column="MsgText" original="Could not convert invoice currency {0} to base currency {1} - conversion type : {2} / conversion date : {3,date,short}">无法兑换发票货币 {0}到账套本币 {1} - 汇率类型 ： {2} / 兑换日期 ： {3,date,short}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200397" trl="Y">

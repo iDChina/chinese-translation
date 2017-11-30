@@ -1876,10 +1876,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="367" trl="Y">
-  <value column="Name" original="Delivered">已回执</value>
-  <value column="PrintName" original="Delivered">已回执</value>
-  <value column="Description" original="">邮件已回执</value>
-  <value column="Help" original="">邮件已回执</value>
+  <value column="Name" original="Delivered">已发货</value>
+  <value column="PrintName" original="Delivered">已发货</value>
+  <value column="Description" original="">是否已发货</value>
+  <value column="Help" original="">【多义词】是否已发货或者邮件已回执，建议修改邮件界面的词条</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2016,10 +2016,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="387" trl="Y">
-  <value column="Name" original="Invoiced">开票</value>
-  <value column="PrintName" original="Invoiced">开票</value>
-  <value column="Description" original="Is this invoiced?">是否开票？</value>
-  <value column="Help" original="If selected, invoices are created">是否开票？</value>
+  <value column="Name" original="Invoiced">已开票</value>
+  <value column="PrintName" original="Invoiced">已开票</value>
+  <value column="Description" original="Is this invoiced?">如果选择，表示发票已开</value>
+  <value column="Help" original="If selected, invoices are created">【当前无代码】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2077,8 +2077,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="399" trl="Y">
-  <value column="Name" original="Printed">打印</value>
-  <value column="PrintName" original="Printed">打印</value>
+  <value column="Name" original="Printed">已打印</value>
+  <value column="PrintName" original="Printed">已打印</value>
   <value column="Description" original="Indicates if this document / line is printed">表示该单据/明细是否被打印</value>
   <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing.">表示该单据/明细是否被打印</value>
   <value column="PO_Description" original=""/>
@@ -2557,10 +2557,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="475" trl="Y">
-  <value column="Name" original="Sql ORDER BY">SQL ORDERY BY 子句</value>
-  <value column="PrintName" original="Order by clause">SQL ORDERY BY 子句</value>
-  <value column="Description" original="Fully qualified ORDER BY clause">完整验证过的 ORDERY BY 子句</value>
-  <value column="Help" original="The ORDER BY Clause indicates the SQL ORDER BY clause to use for record selection">完整验证过的 ORDERY BY 子句</value>
+  <value column="Name" original="Sql ORDER BY">SQL ORDER BY 子句</value>
+  <value column="PrintName" original="Order by clause">SQL ORDER BY 子句</value>
+  <value column="Description" original="Fully qualified ORDER BY clause">完整验证过的 ORDER BY 子句</value>
+  <value column="Help" original="The ORDER BY Clause indicates the SQL ORDER BY clause to use for record selection">完整验证过的 ORDER BY 子句</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3247,8 +3247,8 @@
  <row id="576" trl="Y">
   <value column="Name" original="Start No">起始编号</value>
   <value column="PrintName" original="Start No">起始编号</value>
-  <value column="Description" original="Starting number/position">起始编号/位置</value>
-  <value column="Help" original="The Start Number indicates the starting position in the line or field number in the line">起始编号/位置</value>
+  <value column="Description" original="Starting number/position">起始编号/字段位置</value>
+  <value column="Help" original="The Start Number indicates the starting position in the line or field number in the line"><![CDATA[起始编号<br />或者字段在标题行的位置]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3716,10 +3716,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="633" trl="Y">
-  <value column="Name" original="Aisle (X)">过道(X)</value>
-  <value column="PrintName" original="X">过道(X)</value>
-  <value column="Description" original="X dimension, e.g., Aisle">X 坐标， 如过道</value>
-  <value column="Help" original="The X dimension indicates the Aisle a product is located in.">X 坐标， 如过道</value>
+  <value column="Name" original="Aisle (X)">货架(X)</value>
+  <value column="PrintName" original="X">货架(X)</value>
+  <value column="Description" original="X dimension, e.g., Aisle">库位的 X 坐标， 如货架</value>
+  <value column="Help" original="The X dimension indicates the Aisle a product is located in.">库位的 X 坐标， 如货架</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3736,10 +3736,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="635" trl="Y">
-  <value column="Name" original="Bin (Y)">货柜(Y)</value>
-  <value column="PrintName" original="Y">货柜(Y)</value>
-  <value column="Description" original="Y dimension, e.g., Bin">Y 坐标， 如货柜</value>
-  <value column="Help" original="The Y dimension indicates the Bin a product is located in">Y 坐标， 如货柜</value>
+  <value column="Name" original="Bin (Y)">货层(Y)</value>
+  <value column="PrintName" original="Y">货层(Y)</value>
+  <value column="Description" original="Y dimension, e.g., Bin">库位的 Y 坐标， 如货层</value>
+  <value column="Help" original="The Y dimension indicates the Bin a product is located in">库位的 Y 坐标， 如货层</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3756,10 +3756,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="637" trl="Y">
-  <value column="Name" original="Level (Z)">货层(Z)</value>
-  <value column="PrintName" original="Z">货层(Z)</value>
-  <value column="Description" original="Z dimension, e.g., Level">Z 坐标.如层</value>
-  <value column="Help" original="The Z dimension indicates the Level a product is located in.">Z 坐标.如层</value>
+  <value column="Name" original="Level (Z)">货位(Z)</value>
+  <value column="PrintName" original="Z">货位(Z)</value>
+  <value column="Description" original="Z dimension, e.g., Level">库位的 Z 坐标，如货位、货格</value>
+  <value column="Help" original="The Z dimension indicates the Level a product is located in.">库位的 Z 坐标，如货位、货格</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4098,8 +4098,8 @@
  <row id="917" trl="Y">
   <value column="Name" original="Document Level">按单计税</value>
   <value column="PrintName" original="Doc Level">按单计税</value>
-  <value column="Description" original="Tax is calculated on document level (rather than line by line)">按单据得到一行计税结果</value>
-  <value column="Help" original="If the tax is calculated on document level, all lines with that tax rate are added before calculating the total tax for the document.&#10;Otherwise the tax is calculated per line and then added.&#10;Due to rounding, the tax amount can differ.">按单据得到一行计税结果，不是按明细计税得到多行结果</value>
+  <value column="Description" original="Tax is calculated on document level (rather than line by line)">按单据总额产生一个税明细行</value>
+  <value column="Help" original="If the tax is calculated on document level, all lines with that tax rate are added before calculating the total tax for the document.&#10;Otherwise the tax is calculated per line and then added.&#10;Due to rounding, the tax amount can differ.">按单据总额产生一个税明细行，不按单据明细分别产生多行结果。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4586,9 +4586,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1025" trl="Y">
-  <value column="Name" original="Shipment/Receipt">发货单...</value>
-  <value column="PrintName" original="Shipment/Receipt">发货单...</value>
-  <value column="Description" original="Material Shipment Document">发货单...</value>
+  <value column="Name" original="Shipment/Receipt">收发单</value>
+  <value column="PrintName" original="Shipment/Receipt">收发单</value>
+  <value column="Description" original="Material Shipment Document">【发货单】</value>
   <value column="Help" original="The Material Shipment / Receipt "><![CDATA[发货单<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
   <value column="PO_Description" original="Material Receipt Document">物料收货单</value>
   <value column="PO_Help" original="The Material Shipment / Receipt "><![CDATA[物料收货单<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
@@ -4596,9 +4596,9 @@
   <value column="PO_PrintName" original="Receipt">收货单</value>
  </row>
  <row id="1026" trl="Y">
-  <value column="Name" original="Shipment/Receipt Line">发货单明细...</value>
-  <value column="PrintName" original="Shipment/Receipt Line">发货单明细...</value>
-  <value column="Description" original="Line on Shipment or Receipt document">发货单明细</value>
+  <value column="Name" original="Shipment/Receipt Line">收发单明细</value>
+  <value column="PrintName" original="Shipment/Receipt Line">收发单明细</value>
+  <value column="Description" original="Line on Shipment or Receipt document">【发货单明细】</value>
   <value column="Help" original="The Shipment/Receipt Line indicates a unique line in a Shipment/Receipt document"><![CDATA[发货单明细<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
   <value column="PO_Description" original="Line on Receipt document">收货单明细</value>
   <value column="PO_Help" original=""><![CDATA[收货单明细。<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
@@ -5467,10 +5467,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1134" trl="Y">
-  <value column="Name" original="Tax base Amount">税基金额</value>
-  <value column="PrintName" original="Tax base Amt">税基金额</value>
-  <value column="Description" original="Base for calculating the tax amount">计算税额的基准</value>
-  <value column="Help" original="The Tax Base Amount indicates the base amount used for calculating the tax amount.">计算税额的基准</value>
+  <value column="Name" original="Tax base Amount">计税金额</value>
+  <value column="PrintName" original="Tax base Amt">计税金额</value>
+  <value column="Description" original="Base for calculating the tax amount">计算税额的基数</value>
+  <value column="Help" original="The Tax Base Amount indicates the base amount used for calculating the tax amount.">计算税额的基数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5536,10 +5536,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1145" trl="Y">
-  <value column="Name" original="Relative Priority">相对优先级</value>
-  <value column="PrintName" original="Relative Priority">相对优先级</value>
-  <value column="Description" original="Where inventory should be picked from first">库存应首先挑拣之处</value>
-  <value column="Help" original="The Relative Priority indicates the location to pick from first if an product is stored in more than one location.  (100 = highest priority, 0 = lowest).  For outgoing shipments, the location is picked with the highest priority where the entire quantity can be shipped from.  If there is no location, the location with the highest priority is used.&#10;The Priority is ignored for products with Guarantee Date (always the oldest first) or if a specific instance is selected.&#10;Incoming receipts are stored at the location with the highest priority, if not explicitly selected.">库存应首先挑拣之处</value>
+  <value column="Name" original="Relative Priority">挑库优先级</value>
+  <value column="PrintName" original="Relative Priority">挑库优先级</value>
+  <value column="Description" original="Where inventory should be picked from first">非实例属性产品的挑库优先级别</value>
+  <value column="Help" original="The Relative Priority indicates the location to pick from first if an product is stored in more than one location.  (100 = highest priority, 0 = lowest).  For outgoing shipments, the location is picked with the highest priority where the entire quantity can be shipped from.  If there is no location, the location with the highest priority is used.&#10;The Priority is ignored for products with Guarantee Date (always the oldest first) or if a specific instance is selected.&#10;Incoming receipts are stored at the location with the highest priority, if not explicitly selected."><![CDATA[当非实例属性产品存在于多个库位时，该数值决定了物品被挑库出货的优先级别。100表示最高，0表示最低。<br />对于发货，最高优先的库位会被选择发出，直到数量用尽。但是对于有保质期的产品或者实例属性产品的出货，不考虑该优先级别<br />对于收货，如果不指明具体库位，也会被收到最高优先级别的库位。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6508,8 +6508,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="1321" trl="Y">
   <value column="Name" original="Selected">已选择</value>
   <value column="PrintName" original="Selected">已选择</value>
-  <value column="Description" original="">已选择</value>
-  <value column="Help" original="">已选择</value>
+  <value column="Description" original="">【无代码支持】</value>
+  <value column="Help" original="">【无代码支持】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9245,10 +9245,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1667" trl="Y">
-  <value column="Name" original="Simulation">模拟</value>
-  <value column="PrintName" original="Simulation">模拟</value>
-  <value column="Description" original="Performing the function is only simulated">函数只是模拟执行</value>
-  <value column="Help" original="">函数只是模拟执行</value>
+  <value column="Name" original="Simulation">模拟运行</value>
+  <value column="PrintName" original="Simulation">模拟运行</value>
+  <value column="Description" original="Performing the function is only simulated">按选择条件模拟运行，不影响真实结果</value>
+  <value column="Help" original="">真实运行取消该选项</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9745,20 +9745,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1723" trl="Y">
-  <value column="Name" original="Statistic Count">统计计数</value>
-  <value column="PrintName" original="Statistic Count">统计计数</value>
-  <value column="Description" original="Internal statistics how often the entity was used">内部统计该记录的使用频率</value>
-  <value column="Help" original="For internal use.">内部统计该记录的使用频率</value>
+  <value column="Name" original="Statistic Count">运行次数</value>
+  <value column="PrintName" original="Statistic Count">运行次数</value>
+  <value column="Description" original="Internal statistics how often the entity was used">内部调用流程或者报表的运行次数</value>
+  <value column="Help" original="For internal use.">内部调用流程或者报表的运行次数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1724" trl="Y">
-  <value column="Name" original="Statistic Seconds">统计秒数</value>
-  <value column="PrintName" original="Statistic Seconds">统计秒数</value>
-  <value column="Description" original="Internal statistics how many seconds a process took">内部统计一处理要多少秒</value>
-  <value column="Help" original="For internal use">内部统计一处理要多少秒</value>
+  <value column="Name" original="Statistic Seconds">运行耗时</value>
+  <value column="PrintName" original="Statistic Seconds">运行耗时</value>
+  <value column="Description" original="Internal statistics how many seconds a process took">每次内部调用流程或者报表的运行时间</value>
+  <value column="Help" original="For internal use">每次内部调用流程或者报表的运行时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10805,8 +10805,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1837" trl="Y">
-  <value column="Name" original="BP Contact Greeting">业务伙伴联系人尊称</value>
-  <value column="PrintName" original="BP Contact Greeting">业务伙伴联系人尊称</value>
+  <value column="Name" original="BP Contact Greeting">联系人尊称</value>
+  <value column="PrintName" original="BP Contact Greeting">联系人尊称</value>
   <value column="Description" original="Greeting for Business Partner Contact">业务伙伴联系人尊称</value>
   <value column="Help" original="">业务伙伴联系人尊称</value>
   <value column="PO_Description" original=""/>
@@ -10825,8 +10825,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1839" trl="Y">
-  <value column="Name" original="Contact Name">联系人名称</value>
-  <value column="PrintName" original="Contact Name">联系人名称</value>
+  <value column="Name" original="Contact Name">联系人</value>
+  <value column="PrintName" original="Contact Name">联系人</value>
   <value column="Description" original="Business Partner Contact Name">业务伙伴联系人的姓名</value>
   <value column="Help" original="">业务伙伴联系人的姓名</value>
   <value column="PO_Description" original=""/>
@@ -11435,8 +11435,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1905" trl="Y">
-  <value column="Name" original="Referenced Order Line">关联订单明细</value>
-  <value column="PrintName" original="Ref Order Line">关联订单明细</value>
+  <value column="Name" original="Referenced Order Line">关联明细</value>
+  <value column="PrintName" original="Ref Order Line">关联明细</value>
   <value column="Description" original="Reference to corresponding Sales/Purchase Order">已关联的相应的销售/采购订单明细</value>
   <value column="Help" original="Reference of the Sales Order Line to the corresponding Purchase Order Line or vice versa.">对相应的销售/采购订单明细的引用</value>
   <value column="PO_Description" original=""/>
@@ -14855,10 +14855,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2271" trl="Y">
-  <value column="Name" original="Out Shipment Line">出库发货单行</value>
-  <value column="PrintName" original="Out Shipment Line">出库发货单行</value>
-  <value column="Description" original="Outgoing Shipment/Receipt">出库的发货单/收货单</value>
-  <value column="Help" original="">出库的发货单/收货单</value>
+  <value column="Name" original="Out Shipment Line">出库明细</value>
+  <value column="PrintName" original="Out Shipment Line">出库明细</value>
+  <value column="Description" original="Outgoing Shipment/Receipt">【待确认翻译】</value>
+  <value column="Help" original="">【待确认翻译】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15907,8 +15907,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2386" trl="Y">
   <value column="Name" original="Confirmed Quantity">确认数量</value>
   <value column="PrintName" original="Confirmed Qty">确认数量</value>
-  <value column="Description" original="Confirmation of a received quantity">收货数量的确认</value>
-  <value column="Help" original="Confirmation of a received quantity">收货数量的确认</value>
+  <value column="Description" original="Confirmation of a received quantity">经过确认的数量</value>
+  <value column="Help" original="Confirmation of a received quantity"><![CDATA[如果确认类型为”供应商或者客户“确认，确认结果将记录到此字段。<br />
+对应实际业务为“采购收货”的确认数量。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16007,8 +16008,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2397" trl="Y">
   <value column="Name" original="In Transit">在途仓库</value>
   <value column="PrintName" original="In Transit">在途仓库</value>
-  <value column="Description" original="Movement is in transit">用来定义在途库存</value>
-  <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed.">用来定义在途库存</value>
+  <value column="Description" original="Movement is in transit">产品的移动由确认完成</value>
+  <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed.">如果选择，产品将一直在途，直到确认后完成单据的库存移动。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16257,8 +16258,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2422" trl="Y">
   <value column="Name" original="Picked Quantity">拣货数量</value>
   <value column="PrintName" original="Picked Quantity">拣货数量</value>
-  <value column="Description" original="">拣货数量</value>
-  <value column="Help" original="">拣货数量</value>
+  <value column="Description" original="">经过拣货/QC数量</value>
+  <value column="Help" original=""><![CDATA[如果确认类型为“拣货/QC”确认，确认结果将记录到此字段。<br />
+实际业务对应“已拣/已检”确认数量。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16335,8 +16337,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2430" trl="Y">
-  <value column="Name" original="Referenced Invoice Line">关联发票明细</value>
-  <value column="PrintName" original="Ref Invoice Line">关联发票明细</value>
+  <value column="Name" original="Referenced Invoice Line">关联明细</value>
+  <value column="PrintName" original="Ref Invoice Line">关联明细</value>
   <value column="Description" original="">关联发票明细</value>
   <value column="Help" original="">关联发票明细</value>
   <value column="PO_Description" original=""/>
@@ -16397,8 +16399,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2436" trl="Y">
   <value column="Name" original="Target Quantity">目标数量</value>
   <value column="PrintName" original="Target Qty">目标数量</value>
-  <value column="Description" original="Target Movement Quantity">目标移库的数量</value>
-  <value column="Help" original="The Quantity which should have been received">目标移库的数量</value>
+  <value column="Description" original="Target Movement Quantity">货物最终移动的目标数量</value>
+  <value column="Help" original="The Quantity which should have been received"><![CDATA[如果确认类型为“收发单”确认，确认结果将记录到此字段。<br />
+实际业务对应库管“收发入库”数量。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16475,8 +16478,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2445" trl="Y">
-  <value column="Name" original="Referenced Shipment Line">关联收发单明细</value>
-  <value column="PrintName" original="Ref Ship Line">关联收发单明细</value>
+  <value column="Name" original="Referenced Shipment Line">关联明细</value>
+  <value column="PrintName" original="Ref Ship Line">关联明细</value>
   <value column="Description" original="">关联收发单明细</value>
   <value column="Help" original="">关联收发单明细</value>
   <value column="PO_Description" original=""/>
@@ -17218,7 +17221,7 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Pick/QA Confirmation">包含拣料/QA 确认</value>
   <value column="PrintName" original="Pick/QA Confirm">包含拣料/QA 确认</value>
   <value column="Description" original="Require Pick or QA Confirmation before processing">是否在收发单完成前发出拣料或 QA 确认单据</value>
-  <value column="Help" original="The processing of the Shipment (Receipt) requires Pick (QA) Confirmation. Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">是否在收发单完成前发出拣料或 QA 确认单据。注意：POS订单/仓库订单等自动发货单据类型将无法使用确认。</value>
+  <value column="Help" original="The processing of the Shipment (Receipt) requires Pick (QA) Confirmation. Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">【注意】：POS订单/仓库订单等“自动发货”单据类型将无法使用确认，否则报错，无法自动完成系列单据。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23717,20 +23720,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52021" trl="Y">
-  <value column="Name" original="AmountTendered">招标金额</value>
-  <value column="PrintName" original="AmountTendered">招标金额</value>
-  <value column="Description" original="">招标金额</value>
-  <value column="Help" original="">招标金额</value>
+  <value column="Name" original="AmountTendered">支付金额</value>
+  <value column="PrintName" original="AmountTendered">支付金额</value>
+  <value column="Description" original="">支付金额</value>
+  <value column="Help" original="">支付金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52022" trl="Y">
-  <value column="Name" original="AmountRefunded">退款总计</value>
-  <value column="PrintName" original="AmountRefunded">退款总计</value>
-  <value column="Description" original="">退款总计</value>
-  <value column="Help" original="">退款总计</value>
+  <value column="Name" original="AmountRefunded">找零金额</value>
+  <value column="PrintName" original="AmountRefunded">找零金额</value>
+  <value column="Description" original="">退款金额</value>
+  <value column="Help" original="">退款金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24570,10 +24573,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53276" trl="Y">
-  <value column="Name" original="Manufacturing Order">生产工单</value>
-  <value column="PrintName" original="Manufacturing Order">生产工单</value>
-  <value column="Description" original="Manufacturing Order">生产工单</value>
-  <value column="Help" original="">生产工单</value>
+  <value column="Name" original="Manufacturing Order">制造工单</value>
+  <value column="PrintName" original="Manufacturing Order">制造工单</value>
+  <value column="Description" original="Manufacturing Order">制造工单</value>
+  <value column="Help" original="">制造工单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24602,8 +24605,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="53279" trl="Y">
   <value column="Name" original="Date Simulation">模拟日期</value>
   <value column="PrintName" original="Date Simulation">模拟日期</value>
-  <value column="Description" original="Simulation date for this Material Plan">计算产品计划</value>
-  <value column="Help" original="">计算产品计划</value>
+  <value column="Description" original="Simulation date for this Material Plan">计算产品计划的模拟日期</value>
+  <value column="Help" original="">计算产品计划的模拟日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -25930,10 +25933,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53462" trl="Y">
-  <value column="Name" original="Linked Order">链接的订单</value>
-  <value column="PrintName" original="Linked Order">链接的订单</value>
-  <value column="Description" original="This field links a sales order to the purchase order that is generated from it.">This field links a sales order to the purchase order that is generated from it</value>
-  <value column="Help" original="">This field links a sales order to the purchase order that is generated from it</value>
+  <value column="Name" original="Linked Order">关联销售</value>
+  <value column="PrintName" original="Linked Order">关联销售</value>
+  <value column="Description" original="This field links a sales order to the purchase order that is generated from it.">采购订单所链接的销售订单</value>
+  <value column="Help" original="">采购订单所链接的销售订单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28885,8 +28888,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53867" trl="Y">
-  <value column="Name" original="Referenced RMA Line">关联退货授权明细</value>
-  <value column="PrintName" original="Ref RMA Line">关联退货授权明细</value>
+  <value column="Name" original="Referenced RMA Line">关联明细</value>
+  <value column="PrintName" original="Ref RMA Line">关联明细</value>
   <value column="Description" original="">关联退货授权明细</value>
   <value column="Help" original="">关联退货授权明细</value>
   <value column="PO_Description" original=""/>
@@ -39638,8 +39641,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="200188" trl="Y">
   <value column="Name" original="Reservation Locator">预留库位</value>
   <value column="PrintName" original="Reserve Locator">预留库位</value>
-  <value column="Description" original="Reservation Locator (just for reporting purposes)">预留库位，仅用作报表目的</value>
-  <value column="Help" original="">预留库位，仅用作报表目的</value>
+  <value column="Description" original="Reservation Locator (just for reporting purposes)">用于销售预留和采购在途使用的库位</value>
+  <value column="Help" original="">预留库位，用于记录销售订单预留数量和采购订单在途数量。库位都依每条记录存储，该字段仅对非实例属性产品有效（待测试）。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55657,10 +55660,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202766" trl="Y">
-  <value column="Name" original="Country Group To">到国家联合体</value>
-  <value column="PrintName" original="Country Group To">到国家联合体</value>
-  <value column="Description" original="">到国家联合体</value>
-  <value column="Help" original="">到国家联合体</value>
+  <value column="Name" original="Country Group To">目标国家联合体</value>
+  <value column="PrintName" original="Country Group To">目标国家联合体</value>
+  <value column="Description" original="">目标国家联合体</value>
+  <value column="Help" original="">目标国家联合体</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

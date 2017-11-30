@@ -16,7 +16,7 @@
   <value column="Help" original="Create Prices for this pricelist version in the sequence of the Discount Schema Price List.&#10;Lines with a higher sequence overwrite existing prices.  The sequence should be from generic to specific.">按折扣模式价格表的顺序，为该价格表版本创建价格。含有较高序号的行覆盖现存的价格。序号将从一般到具体。</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Process Order">处理订单</value>
+  <value column="Name" original="Process Order">单据处理_订单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -31,7 +31,7 @@
   <value column="Help" original="The Update Quantity Process will update the book quantity with the current book quantity.  ">更新数量进程 将会按当前的账存数量更新账存数量  。</value>
  </row>
  <row id="107" trl="Y">
-  <value column="Name" original="Process Inventory Count ">处理盘点结果</value>
+  <value column="Name" original="Process Inventory Count ">单据处理_库存调整单</value>
   <value column="Description" original="Process Inventory count and update Inventory">处理库存盘点并更新库存</value>
   <value column="Help" original=""/>
  </row>
@@ -41,7 +41,7 @@
   <value column="Help" original="Either add missing accounts - or copy and overwrite all default accounts.  If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the bank account asset accounts, ...).  If no Accounting Schema is selected all Accounting Schemas will be updated / inserted.">新增账户或者复制覆盖全部默认账户。  如果复制覆盖当前默认值，需要重新设置相关子模块的账户(比如银行账户/资产账户)。如果不选择会计模式，流程将对所有会计模式操作。</value>
  </row>
  <row id="109" trl="Y">
-  <value column="Name" original="Process Shipment ">处理发货</value>
+  <value column="Name" original="Process Shipment ">单据处理_收发单</value>
   <value column="Description" original="Process Shipment/Receipt (Update Inventory)">处理发货单/收货单 (更新库存)</value>
   <value column="Help" original="Process Shipment/Receipt will move products out of/into  inventory and mark line items as shipped/received.">此流程将产品移入/移出库存并标记行条目已发货/收货。</value>
  </row>
@@ -51,7 +51,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="111" trl="Y">
-  <value column="Name" original="Process Invoice">处理发票</value>
+  <value column="Name" original="Process Invoice">单据处理_发票</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -106,7 +106,7 @@
   <value column="Help" original="Orders with quantities to deliver (Backordered) or quantities to invoice">待交付 (待补货) 或待开票的订单。</value>
  </row>
  <row id="122" trl="Y">
-  <value column="Name" original="Process Movements">处理调拨</value>
+  <value column="Name" original="Process Movements">单据处理_调拨单</value>
   <value column="Description" original="Process Inventory Movements">处理调拨</value>
   <value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">将基于在仓库或货位之间定义的移动，直接更新库存数量。</value>
  </row>
@@ -209,7 +209,7 @@
   <value column="Help" original="The invoice should be correct and completed.">发票应该正确和完整。</value>
  </row>
  <row id="144" trl="Y">
-  <value column="Name" original="Process Cash">处理现金</value>
+  <value column="Name" original="Process Cash">单据处理_现金</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -224,7 +224,7 @@
   <value column="Help" original="The report lists payments which are not reconciled with a bank statement. Payments with a zero payment amount are not listed.">报表列出了未与银行对账单完成对账的付款。付款金额为零的付款单据不被列出。</value>
  </row>
  <row id="147" trl="Y">
-  <value column="Name" original="Process Statement">处理对账单</value>
+  <value column="Name" original="Process Statement">单据处理_银行对账单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -234,12 +234,12 @@
   <value column="Help" original="The report displays invoice allocations to payments and cash journals.  Previous allocations are displayed as reversed.">报表显示了分配给付款和现金日记账的发票。之前的分配被显示为已逆转。</value>
  </row>
  <row id="149" trl="Y">
-  <value column="Name" original="Process Payment">处理付款</value>
+  <value column="Name" original="Process Payment">单据处理_支付单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="150" trl="Y">
-  <value column="Name" original="Process Allocation">处理分配</value>
+  <value column="Name" original="Process Allocation">单据处理_分配</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -314,7 +314,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="169" trl="Y">
-  <value column="Name" original="Process Journal">处理凭证</value>
+  <value column="Name" original="Process Journal">单据处理_凭证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -374,7 +374,7 @@
   <value column="Help" original="For Standard Costs you can set/recalculate the current or future cost price (for the cost type of the accounting schema). If the Costing Level of the Accounting Schema is set to Client, missing cost records are created. The historical costs are calculated based on the accumulated amount/quantity of the costing method.">对于标准成本，可以设置/重新计算当前或未来成本价格 (针对会计模式的成本类型)。如果会计模式的成本计算级别被设置为实体，缺失的成本记录将被创建。历史成本基于成本计算方法的累计金额/数量进行计算。</value>
  </row>
  <row id="184" trl="Y">
-  <value column="Name" original="Process Expenses">处理费用</value>
+  <value column="Name" original="Process Expenses">单据处理_时间费用</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -395,7 +395,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="188" trl="Y">
-  <value column="Name" original="Process Batch">处理凭证批</value>
+  <value column="Name" original="Process Batch">单据处理_凭证批</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -841,7 +841,7 @@
   <value column="Help" original="UnLink a Business Partner Linked to an Organization (for explicit inter-org documents)"/>
  </row>
  <row id="273" trl="Y">
-  <value column="Name" original="Process Requisition">处理请购单</value>
+  <value column="Name" original="Process Requisition">单据处理_请购单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -876,14 +876,15 @@
   <value column="Help" original="Update or stop Workflow Process">更新或终止工作流流程。</value>
  </row>
  <row id="280" trl="Y">
-  <value column="Name" original="Process Confirmation">处理确认</value>
+  <value column="Name" original="Process Confirmation">单据处理_收发确认</value>
   <value column="Description" original="">处理收发单确认</value>
   <value column="Help" original=""/>
  </row>
  <row id="281" trl="Y">
   <value column="Name" original="Create Confirmation">创建确认</value>
-  <value column="Description" original="Create Confirmations for the Document">创建单据确认</value>
-  <value column="Help" original="The confirmations generated need to be processed (confirmed) before you can process this document">需要先处理(确认)生成的确认，然后才能够处理这个单据。</value>
+  <value column="Description" original="Create Confirmations for the Document">创建单据确认，完成确认后再完成收发单</value>
+  <value column="Help" original="The confirmations generated need to be processed (confirmed) before you can process this document"><![CDATA[草稿状态下创建确认，单据将等待确认（处理中），确认完成后，再完成收发单，库存才会更新。你可以同时创建多个确认单。如果你在收发单完成后再创建确认，此时确认单只能当作消息备忘。<br />
+供应商/客户类型会更新确认数量，Pick/QA类型会更新拣货数量，收发单类型会更新目标数量，最后单据完成会更新移动数量。]]></value>
  </row>
  <row id="282" trl="Y">
   <value column="Name" original="Create Package">创建装箱单</value>
@@ -891,7 +892,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="283" trl="Y">
-  <value column="Name" original="Process RMA">处理退货授权</value>
+  <value column="Name" original="Process RMA">单据处理_退货授权</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -906,7 +907,7 @@
   <value column="Help" original="The report lists the open confirmations">未清的产品收发单确认</value>
  </row>
  <row id="286" trl="Y">
-  <value column="Name" original="Process Confirmation">处理确认</value>
+  <value column="Name" original="Process Confirmation">单据处理_调拨确认</value>
   <value column="Description" original="Process Inventory Movement Confirmation">处理移库确认</value>
   <value column="Help" original=""/>
  </row>
@@ -1366,7 +1367,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original="Show the detail of DRP calculation">DRP 计算结果报表。</value>
  </row>
  <row id="53026" trl="Y">
-  <value column="Name" original="Process Manufacturing Order">生产单流程</value>
+  <value column="Name" original="Process Manufacturing Order">单据处理_生产单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1404,7 +1405,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original="This report show the inventory in process"/>
  </row>
  <row id="53038" trl="Y">
-  <value column="Name" original="Process Cost Collector">处理成本采集</value>
+  <value column="Name" original="Process Cost Collector">单据处理_成本归集单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1414,7 +1415,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53042" trl="Y">
-  <value column="Name" original="Process Distribution Order">处理分销订单</value>
+  <value column="Name" original="Process Distribution Order">单据处理_配送单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1522,7 +1523,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53076" trl="Y">
-  <value column="Name" original="Process Payroll">薪酬流程</value>
+  <value column="Name" original="Process Payroll">单据处理_薪酬单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1802,12 +1803,12 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53208" trl="Y">
-  <value column="Name" original="Asset Addition Process">新增资产</value>
+  <value column="Name" original="Asset Addition Process">单据处理_资产新增</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53210" trl="Y">
-  <value column="Name" original="Asset Disposed Process">处置资产流程</value>
+  <value column="Name" original="Asset Disposed Process">单据处理_资产作废</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1817,17 +1818,17 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53212" trl="Y">
-  <value column="Name" original="Asset Transfer Process">转让资产流程</value>
+  <value column="Name" original="Asset Transfer Process">单据处理_资产转移</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53213" trl="Y">
-  <value column="Name" original="Asset Reval Process">重估资产流程</value>
+  <value column="Name" original="Asset Reval Process">单据处理_资产重估</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53214" trl="Y">
-  <value column="Name" original="Process Depreciation Entry">处理折旧条目</value>
+  <value column="Name" original="Process Depreciation Entry">单据处理_资产折旧</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2180,7 +2181,7 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200068" trl="Y">
-  <value column="Name" original="Process Production">处理生产工单</value>
+  <value column="Name" original="Process Production">单据处理_生产工单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2290,7 +2291,7 @@ d  事务日期，将成为新创建的资产的服务日期。<br />]]></value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="ec95e288-8119-468b-a602-4c082426e73b">
-  <value column="Name" original="Process In/Out Bound">Process In/Out Bound</value>
+  <value column="Name" original="Process In/Out Bound">单据处理_WMS_InOutBound_Order</value>
   <value column="Description" original="Process In/Out Bound">Process In/Out Bound</value>
   <value column="Help" original="Process In/Out Bound will create the Picking or Putaway  Order to pick or put the products into of Locators">Process In/Out Bound will create the Picking or Putaway  Order to pick or put the products into of Locators</value>
  </row>

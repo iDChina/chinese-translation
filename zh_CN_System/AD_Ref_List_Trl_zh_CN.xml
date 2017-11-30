@@ -322,7 +322,7 @@
  </row>
  <row id="183" trl="Y">
   <value column="Name" original="Close">关闭</value>
-  <value column="Description" original="Finally close this transaction. It cannot be re-activated.">最终关闭该事务处理。无法再次被激活</value>
+  <value column="Description" original="Finally close this transaction. It cannot be re-activated.">最终关闭该单据事务，无法被再次激活</value>
  </row>
  <row id="184" trl="Y">
   <value column="Name" original="Reverse - Correct">红字更正</value>
@@ -337,8 +337,8 @@
   <value column="Description" original="Invalidate Document">使单据无效</value>
  </row>
  <row id="188" trl="Y">
-  <value column="Name" original="Re-activate">重激活</value>
-  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新开放单据，并逆转自动生成的单据；需要在更改后重新完成事务处理</value>
+  <value column="Name" original="Re-activate">重新激活</value>
+  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新打开单据，并反冲自动生成的单据；事务需要在更改后重新完成。</value>
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="&lt;None&gt;"><![CDATA[<无>]]></value>
@@ -850,7 +850,7 @@
  </row>
  <row id="345" trl="Y">
   <value column="Name" original="Prepare">准备</value>
-  <value column="Description" original="Check Document consistency and check Inventory">检查文档连续性和库存。</value>
+  <value column="Description" original="Check Document consistency and check Inventory">检查单据的数据连续性和库存</value>
  </row>
  <row id="346" trl="Y">
   <value column="Name" original="Waiting Payment">等待支付</value>
@@ -2174,7 +2174,7 @@
  </row>
  <row id="691" trl="Y">
   <value column="Name" original="Wait Complete">等待完成</value>
-  <value column="Description" original="Wait Condition ok Complete Document">等待条件满足，以完成单据</value>
+  <value column="Description" original="Wait Condition ok Complete Document">等待条件满足后，自动完成单据</value>
  </row>
  <row id="692" trl="Y">
   <value column="Name" original="Purchase Order">采购订单</value>
