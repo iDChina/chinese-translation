@@ -31,10 +31,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="105" trl="Y">
-  <value column="Name" original="Display column">显示的列</value>
-  <value column="PrintName" original="Display column">显示的列</value>
-  <value column="Description" original="Column that will display">将要显示的列</value>
-  <value column="Help" original="The Display Column indicates the column that will display.">将要显示的列</value>
+  <value column="Name" original="Display column">显示列</value>
+  <value column="PrintName" original="Display column">显示列</value>
+  <value column="Description" original="Column that will display">引用后待显示的列</value>
+  <value column="Help" original="The Display Column indicates the column that will display.">引用后待显示的列</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -385,10 +385,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="146" trl="Y">
-  <value column="Name" original="Account Sign">账户符号</value>
-  <value column="PrintName" original="Sign">账户符号</value>
-  <value column="Description" original="Indicates the Natural Sign of the Account as a Debit or Credit">定义作为贷方或借方账户的自然标记</value>
-  <value column="Help" original="Indicates if the expected balance for this account should be a Debit or a Credit. If set to Natural, the account sign for an asset or expense account is Debit Sign (i.e. negative if a credit balance).">定义作为贷方或借方账户的自然标记</value>
+  <value column="Name" original="Account Sign">科目方向</value>
+  <value column="PrintName" original="Sign">科目方向</value>
+  <value column="Description" original="Indicates the Natural Sign of the Account as a Debit or Credit">定义作为贷方或借方账户的方向标记</value>
+  <value column="Help" original="Indicates if the expected balance for this account should be a Debit or a Credit. If set to Natural, the account sign for an asset or expense account is Debit Sign (i.e. negative if a credit balance).">定义作为贷方或借方账户的方向标记</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1818,8 +1818,8 @@
  <row id="355" trl="Y">
   <value column="Name" original="Balancing">收支平衡</value>
   <value column="PrintName" original="Balancing">收支平衡</value>
-  <value column="Description" original="All transactions within an element value must balance (e.g. cost centers)">所有交易必须平衡（如成本中心）</value>
-  <value column="Help" original="The Balancing checkbox indicates the this element must balance in each journal transaction.  For example, if cost centers have been defined as an element which is balance then the debits and credits for each unique cost center must net to 0.00.  This is commonly used to define parts of an organization which report as their own entity.  Balancing is not an option for the Account element.">所有交易必须平衡（如成本中心）</value>
+  <value column="Description" original="All transactions within an element value must balance (e.g. cost centers)">该元素的所有事务的借贷必须平衡（比如，成本中心）</value>
+  <value column="Help" original="The Balancing checkbox indicates the this element must balance in each journal transaction.  For example, if cost centers have been defined as an element which is balance then the debits and credits for each unique cost center must net to 0.00.  This is commonly used to define parts of an organization which report as their own entity.  Balancing is not an option for the Account element.">收支平衡表示该元素在每个凭证事务中必须左右平衡。比如，成本中心设置为收支平衡，那么单独的成本中心的借贷必须相等。这通常被用于定义部门的独立核算。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1869,7 +1869,7 @@
   <value column="Name" original="Records deletable">记录可删除</value>
   <value column="PrintName" original="Records deletable">记录可删除</value>
   <value column="Description" original="Indicates if records can be deleted from the database">表示记录能否从数据库中删除</value>
-  <value column="Help" original="The Records Deletable checkbox indicates if a record can be deleted from the database.  If records cannot be deleted, you can only deselect the Active flag">表示记录能否从数据库中删除</value>
+  <value column="Help" original="The Records Deletable checkbox indicates if a record can be deleted from the database.  If records cannot be deleted, you can only deselect the Active flag">如果设置表的记录不可以删除，你只能取消记录的”有效“选项。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1886,10 +1886,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="368" trl="Y">
-  <value column="Name" original="Displayed">是否显示</value>
-  <value column="PrintName" original="Displayed">是否显示</value>
-  <value column="Description" original="Determines, if this field is displayed">是否在单记录模式下显示</value>
-  <value column="Help" original="If the field is displayed, the field Display Logic will determine at runtime, if it is actually displayed">是否在单记录模式下显示</value>
+  <value column="Name" original="Displayed">窗口显示</value>
+  <value column="PrintName" original="Displayed">窗口显示</value>
+  <value column="Description" original="Determines, if this field is displayed">字段是否在窗口页签中显示</value>
+  <value column="Help" original="If the field is displayed, the field Display Logic will determine at runtime, if it is actually displayed">如果字段显示，显示逻辑判断将起效。【注意】，窗口显示也影响列表显示。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2060,7 +2060,7 @@
   <value column="Name" original="Parent link column">父链接列</value>
   <value column="PrintName" original="Parent link column">父链接列</value>
   <value column="Description" original="This column is a link to the parent table (e.g. header from lines) - incl. Association key columns">子表中，链接到父表的列</value>
-  <value column="Help" original="The Parent checkbox indicates if this column is a link to the parent table.">子表中，链接到父表的列</value>
+  <value column="Help" original="The Parent checkbox indicates if this column is a link to the parent table.">子表中，链接到父表的列。比如明细表链接到表头的主键列。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2129,8 +2129,8 @@
  <row id="405" trl="Y">
   <value column="Name" original="Read Only">只读</value>
   <value column="PrintName" original="Read Only">只读</value>
-  <value column="Description" original="Field is read only">字段是只读的</value>
-  <value column="Help" original="The Read Only indicates that this field may only be Read.  It may not be updated.">字段是只读的</value>
+  <value column="Description" original="Field is read only">如果字段只读，将不可更新</value>
+  <value column="Help" original="The Read Only indicates that this field may only be Read.  It may not be updated.">如果字段只读，将不可更新</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2139,7 +2139,7 @@
  <row id="406" trl="Y">
   <value column="Name" original="Read Write">可读写</value>
   <value column="PrintName" original="Read Write">可读写</value>
-  <value column="Description" original="Field is read / write">字段是可读写的</value>
+  <value column="Description" original="Field is read / write">字段/列可以被访问，并可更新</value>
   <value column="Help" original="The Read Write indicates that this field may be read and updated.">字段是可读写的</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -2169,8 +2169,8 @@
  <row id="410" trl="Y">
   <value column="Name" original="Same Line">同行显示</value>
   <value column="PrintName" original="Same Line">同行显示</value>
-  <value column="Description" original="Displayed on same line as previous field">是否与前一字段显示于同行</value>
-  <value column="Help" original="The Same Line checkbox indicates that the field will display on the same line as the previous field.">是否与前一字段显示于同行</value>
+  <value column="Description" original="Displayed on same line as previous field">是否与前一字段显示于同行，用于swing界面</value>
+  <value column="Help" original="The Same Line checkbox indicates that the field will display on the same line as the previous field.">是否与前一字段显示于同行，用于swing界面</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2279,8 +2279,8 @@
  <row id="422" trl="Y">
   <value column="Name" original="Updatable">可更新</value>
   <value column="PrintName" original="Updatable">可更新</value>
-  <value column="Description" original="Determines, if the field can be updated">决定该字段是否可更新</value>
-  <value column="Help" original="The Updatable checkbox indicates if a field can be updated by the user.">决定该字段是否可更新</value>
+  <value column="Description" original="Determines, if the field can be updated">该列/字段是否可被用户更新</value>
+  <value column="Help" original="The Updatable checkbox indicates if a field can be updated by the user.">该列/字段是否可被用户更新</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2557,10 +2557,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="475" trl="Y">
-  <value column="Name" original="Sql ORDER BY">SQL ORDER BY 子句</value>
-  <value column="PrintName" original="Order by clause">SQL ORDER BY 子句</value>
-  <value column="Description" original="Fully qualified ORDER BY clause">完整验证过的 ORDER BY 子句</value>
-  <value column="Help" original="The ORDER BY Clause indicates the SQL ORDER BY clause to use for record selection">完整验证过的 ORDER BY 子句</value>
+  <value column="Name" original="Sql ORDER BY">ORDER子句</value>
+  <value column="PrintName" original="Order by clause">ORDER子句</value>
+  <value column="Description" original="Fully qualified ORDER BY clause">完整正确的 SQL ORDER BY 子句</value>
+  <value column="Help" original="The ORDER BY Clause indicates the SQL ORDER BY clause to use for record selection">完整正确的 ORDER BY 子句</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3015,10 +3015,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="546" trl="Y">
-  <value column="Name" original="Result">验证结果</value>
-  <value column="PrintName" original="Result">验证结果</value>
-  <value column="Description" original="Result of the action taken">地址验证的结果</value>
-  <value column="Help" original="The Result indicates the result of any action taken on this request.">地址验证的结果</value>
+  <value column="Name" original="Result">结果</value>
+  <value column="PrintName" original="Result">结果</value>
+  <value column="Description" original="Result of the action taken">处理的结果</value>
+  <value column="Help" original="The Result indicates the result of any action taken on this request.">处理的结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3686,9 +3686,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="630" trl="Y">
-  <value column="Name" original="Sql WHERE">SQL WHERE 子句</value>
-  <value column="PrintName" original="Where clause">SQL WHERE 子句</value>
-  <value column="Description" original="Fully qualified SQL WHERE clause">完整正确的的 SQL WHERE 子句</value>
+  <value column="Name" original="Sql WHERE">WHERE子句</value>
+  <value column="PrintName" original="Where clause">WHERE子句</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">完整正确的 SQL WHERE 子句</value>
   <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. The WHERE clause is added to the query. Fully qualified means &quot;tablename.columnname&quot;.">SQL子句，语法：WHERE 条件1 [ AND 条件2 |....]</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -4276,10 +4276,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="942" trl="Y">
-  <value column="Name" original="Minimum Order Qty">最小订单数量</value>
-  <value column="PrintName" original="Minimum Order Qty">最小订单数量</value>
-  <value column="Description" original="Minimum order quantity in UOM">最小订单数量</value>
-  <value column="Help" original="The Minimum Order Quantity indicates the smallest quantity of this product which can be ordered.">最小订单数量</value>
+  <value column="Name" original="Minimum Order Qty">最少订单数量</value>
+  <value column="PrintName" original="Minimum Order Qty">最少订单数量</value>
+  <value column="Description" original="Minimum order quantity in UOM">最少订单数量</value>
+  <value column="Help" original="The Minimum Order Quantity indicates the smallest quantity of this product which can be ordered.">最少订单数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4721,10 +4721,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1042" trl="Y">
-  <value column="Name" original="Product Asset">固定资产</value>
-  <value column="PrintName" original="Product Asset">固定资产</value>
-  <value column="Description" original="Account for Product Asset (Inventory)">固定资产的会计账户</value>
-  <value column="Help" original="The Product Asset Account indicates the account used for valuing this a product in inventory.">固定资产的会计账户</value>
+  <value column="Name" original="Product Asset">库存资产</value>
+  <value column="PrintName" original="Product Asset">库存资产</value>
+  <value column="Description" original="Account for Product Asset (Inventory)">存货类资产</value>
+  <value column="Help" original="The Product Asset Account indicates the account used for valuing this a product in inventory.">比如原材料或者库存商品</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4901,10 +4901,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1067" trl="Y">
-  <value column="Name" original="Charges">可使用杂费</value>
-  <value column="PrintName" original="Charges">可使用杂费</value>
-  <value column="Description" original="Charges can be added to the document">可使用杂费</value>
-  <value column="Help" original="The Charges checkbox indicates that charges can be added to this document.  Charges can include items like shipping, handling or bank charges.">可使用杂费</value>
+  <value column="Name" original="Charges">包含杂费</value>
+  <value column="PrintName" original="Charges">包含杂费</value>
+  <value column="Description" original="Charges can be added to the document">该单据可包含杂费</value>
+  <value column="Help" original="The Charges checkbox indicates that charges can be added to this document.  Charges can include items like shipping, handling or bank charges.">该单据可使用杂费来记录费用</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5101,8 +5101,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1092" trl="Y">
-  <value column="Name" original="Days after due date">到期后的天数</value>
-  <value column="PrintName" original="Days after due date">到期后的天数</value>
+  <value column="Name" original="Days after due date">到期后天数</value>
+  <value column="PrintName" original="Days after due date">到期后天数</value>
   <value column="Description" original="Days after due date to dun (if negative days until due)">到期后催款的天数 (如果为负天数，则直到到期为止)</value>
   <value column="Help" original="The Days After Due Date indicates the number of days after the payment due date to initiate dunning. If the number is negative, it includes not the not due invoices.">到期后催款的天数 (如果为负天数，则直到到期为止)</value>
   <value column="PO_Description" original=""/>
@@ -6196,10 +6196,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1280" trl="Y">
-  <value column="Name" original="Received Inquiry Reply">收到的询价回复</value>
-  <value column="PrintName" original="Inquiry reply">收到的询价回复</value>
-  <value column="Description" original="">收到的询价回复</value>
-  <value column="Help" original="">收到的询价回复</value>
+  <value column="Name" original="Received Inquiry Reply">查询回复</value>
+  <value column="PrintName" original="Inquiry reply">查询回复</value>
+  <value column="Description" original="">EDI的查询回复结果</value>
+  <value column="Help" original="">EDI的查询回复结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6406,10 +6406,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1309" trl="Y">
-  <value column="Name" original="Category Type">分类类型</value>
-  <value column="PrintName" original="Category Type">分类类型</value>
-  <value column="Description" original="Source of the Journal with this category">此分类的日记账来源</value>
-  <value column="Help" original="The Category Type indicates the source of the journal for this category.  Journals can be generated from a document, entered manually or imported.">此分类的日记账来源</value>
+  <value column="Name" original="Category Type">类别类型</value>
+  <value column="PrintName" original="Category Type">类别类型</value>
+  <value column="Description" original="Source of the Journal with this category">日记账来源的类型</value>
+  <value column="Help" original="The Category Type indicates the source of the journal for this category.  Journals can be generated from a document, entered manually or imported.">日记账来源的类型</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7906,8 +7906,12 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="1504" trl="Y">
   <value column="Name" original="Due type">到期类型</value>
   <value column="PrintName" original="Due type">到期类型</value>
-  <value column="Description" original="Status of the next action for this Request">与下次行动时间相比，该请求的到期状态</value>
-  <value column="Help" original="The Due Type indicates if this request is Due, Overdue or Scheduled.">与下次行动时间相比，该请求的到期状态</value>
+  <value column="Description" original="Status of the next action for this Request">定义请求的到期类型，将触发不同的通知流程</value>
+  <value column="Help" original="The Due Type indicates if this request is Due, Overdue or Scheduled."><![CDATA[系统默认是到期，表示当前时间与请求的下次行动时间（请求时间）的比较结果。请求时间默认为空，可以由发起者或接收者输入。一旦输入，系统自动判断到期结果。<br /> 
+计划中：表示当前时间未到下次时间，系统无提醒。
+到期：达到“请求时间”，请求为到期，系统开始提醒。
+过期：达到“请求时间+宽限时间”，请求为过期，系统开始提醒。<br />
+请求创建后，请求接收人将会在工作台收“待办事宜”窗口看到请求数量变化。到期后是否发送电子邮件通知由请求类型定义，需要电子邮件服务器支持。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8664,8 +8668,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1599" trl="Y">
-  <value column="Name" original="Sql SELECT">SQL SELECT 子句</value>
-  <value column="PrintName" original="Select Clause">SQL SELECT 子句</value>
+  <value column="Name" original="Sql SELECT">SELECT子句</value>
+  <value column="PrintName" original="Select Clause">SELECT子句</value>
   <value column="Description" original="SQL SELECT clause">SQL语句，按照默认值修改</value>
   <value column="Help" original="The Select Clause indicates the SQL SELECT clause to use for selecting the record for a measure calculation. Do not include the SELECT itself.">SQL语句，语法格式：SELECT 列名[ ,列名|...] FROM 表名</value>
   <value column="PO_Description" original=""/>
@@ -9587,8 +9591,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="1706" trl="Y">
   <value column="Name" original="All Nodes">全部节点</value>
   <value column="PrintName" original="All Nodes">全部节点</value>
-  <value column="Description" original="All Nodes are included (Complete Tree)">全部节点（完整的树）</value>
-  <value column="Help" original="If selected, all Nodes must be in the tree.">全部节点（完整的树）</value>
+  <value column="Description" original="All Nodes are included (Complete Tree)">表的所有记录均为节点。【注意，自定义节点的树不要运行校验树】</value>
+  <value column="Help" original="If selected, all Nodes must be in the tree."><![CDATA[【注意】如果自定义节点，不要选择“全部节点”同时还运行“树验证”，它会添加所有节点到树。<br />
+在窗口界面，只有“全部节点”选项=‘Y’，才能够显示。如果你想让自定义节点树能够显示，先自定义，再勾选，不验证。<br />]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10845,8 +10850,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1842" trl="Y">
-  <value column="Name" original="Document Type Note">单据类型附注</value>
-  <value column="PrintName" original="Document Type Note">单据类型附注</value>
+  <value column="Name" original="Document Type Note">单据附注</value>
+  <value column="PrintName" original="Document Type Note">单据附注</value>
   <value column="Description" original="Optional note of a document type">单据类型的可选附注</value>
   <value column="Help" original="">单据类型的可选附注</value>
   <value column="PO_Description" original=""/>
@@ -11585,8 +11590,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1922" trl="Y">
-  <value column="Name" original="Delete old imported records">删除原来导入的记录</value>
-  <value column="PrintName" original="Delete old imported">删除原来导入的记录</value>
+  <value column="Name" original="Delete old imported records">删除以前的导入记录</value>
+  <value column="PrintName" original="Delete old imported">删除以前的导入记录</value>
   <value column="Description" original="Before processing delete old imported records in the import table">在处理前删除导入表中旧的导入记录</value>
   <value column="Help" original="">在处理前删除导入表中旧的导入记录</value>
   <value column="PO_Description" original=""/>
@@ -11635,8 +11640,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1927" trl="Y">
-  <value column="Name" original="Create New Combination">创建新的组合</value>
-  <value column="PrintName" original="Create New Combination">创建新的组合</value>
+  <value column="Name" original="Create New Combination">创建账户组合</value>
+  <value column="PrintName" original="Create New Combination">创建账户组合</value>
   <value column="Description" original="Create New Account Combination">创建新的账户组合</value>
   <value column="Help" original="">创建新的账户组合</value>
   <value column="PO_Description" original=""/>
@@ -12765,10 +12770,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2046" trl="Y">
-  <value column="Name" original="Maintain Change Log">写入变更日志</value>
-  <value column="PrintName" original="Change Log">写入变更日志</value>
-  <value column="Description" original="Maintain a log of changes">是否将该列的数据变更写入日志</value>
-  <value column="Help" original="If selected, a log of all changes is maintained.">是否将该列的数据变更写入日志</value>
+  <value column="Name" original="Maintain Change Log">变更日志</value>
+  <value column="PrintName" original="Change Log">变更日志</value>
+  <value column="Description" original="Maintain a log of changes">是否将数据变更写入日志</value>
+  <value column="Help" original="If selected, a log of all changes is maintained.">是否将数据的变更写入日志(ad_changelog)</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12865,20 +12870,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2056" trl="Y">
-  <value column="Name" original="Maximum Runs">最多运行次数</value>
-  <value column="PrintName" original="Max Runs">最多运行次数</value>
-  <value column="Description" original="Number of recurring runs">经常性单据的最多运行次数</value>
-  <value column="Help" original="Number of recurring documents to be generated in total">经常性单据的最多运行次数</value>
+  <value column="Name" original="Maximum Runs">运行次数</value>
+  <value column="PrintName" original="Max Runs">运行次数</value>
+  <value column="Description" original="Number of recurring runs">单据运行的最多次数</value>
+  <value column="Help" original="Number of recurring documents to be generated in total">单据运行的最多次数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2057" trl="Y">
-  <value column="Name" original="Remaining Runs">剩余运行次数</value>
-  <value column="PrintName" original="Remaining Runs">剩余运行次数</value>
-  <value column="Description" original="Number of recurring runs remaining">经常性单据的剩余运行次数</value>
-  <value column="Help" original="Number of recurring documents to be still generated">经常性单据的剩余运行次数</value>
+  <value column="Name" original="Remaining Runs">剩余次数</value>
+  <value column="PrintName" original="Remaining Runs">剩余次数</value>
+  <value column="Description" original="Number of recurring runs remaining">单据的剩余运行次数</value>
+  <value column="Help" original="Number of recurring documents to be still generated">单据的剩余运行次数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13215,10 +13220,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2095" trl="Y">
-  <value column="Name" original="Category Name">分类名称</value>
-  <value column="PrintName" original="Category Name">分类名称</value>
-  <value column="Description" original="Name of the Category">分类的名称</value>
-  <value column="Help" original="">分类的名称</value>
+  <value column="Name" original="Category Name">类别名称</value>
+  <value column="PrintName" original="Category Name">类别名称</value>
+  <value column="Description" original="Name of the Category">类别的名称</value>
+  <value column="Help" original="">类别的名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13245,8 +13250,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2098" trl="Y">
-  <value column="Name" original="Document Type Name">单据类型名称</value>
-  <value column="PrintName" original="DocType Name">单据类型名称</value>
+  <value column="Name" original="Document Type Name">单据名称</value>
+  <value column="PrintName" original="DocType Name">单据名称</value>
   <value column="Description" original="Name of the Document Type">单据类型的名称</value>
   <value column="Help" original="">单据类型的名称</value>
   <value column="PO_Description" original=""/>
@@ -13275,10 +13280,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2101" trl="Y">
-  <value column="Name" original="Sql FROM">SQL FROM 子句</value>
-  <value column="PrintName" original="From Clause">SQL FROM 子句</value>
-  <value column="Description" original="SQL FROM clause">SQL FROM 语句</value>
-  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. Do not include the FROM itself.">SQL FROM 语句</value>
+  <value column="Name" original="Sql FROM">FROM子句</value>
+  <value column="PrintName" original="From Clause">FROM子句</value>
+  <value column="Description" original="SQL FROM clause">完整正确的 SQL FROM 语句</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. Do not include the FROM itself.">完整正确的 SQL FROM 语句</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14175,10 +14180,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2197" trl="Y">
-  <value column="Name" original="Min Guarantee Days">最小保质天数</value>
-  <value column="PrintName" original="Min Guarantee">最小保质天数</value>
-  <value column="Description" original="Minimum number of guarantee days">质量保证的最小天数</value>
-  <value column="Help" original="When selecting batch/products with a guarantee date, the minimum left guarantee days for automatic picking.  You can pick any batch/product manually. ">质量保证的最小天数</value>
+  <value column="Name" original="Min Guarantee Days">最少保质天数</value>
+  <value column="PrintName" original="Min Guarantee">最少保质天数</value>
+  <value column="Description" original="Minimum number of guarantee days">质量保证的最少天数</value>
+  <value column="Help" original="When selecting batch/products with a guarantee date, the minimum left guarantee days for automatic picking.  You can pick any batch/product manually. ">质量保证的最少天数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14257,8 +14262,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2205" trl="Y">
   <value column="Name" original="Can Report">可使用报表</value>
   <value column="PrintName" original="Can Report">可使用报表</value>
-  <value column="Description" original="Users with this role can create reports">扮演该角色的用户可以使用报表</value>
-  <value column="Help" original="You can restrict the ability to report on data.">扮演该角色的用户可以使用报表</value>
+  <value column="Description" original="Users with this role can create reports">该角色的用户可以使用报表</value>
+  <value column="Help" original="You can restrict the ability to report on data.">该角色的用户可以使用报表</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -15595,10 +15600,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2354" trl="Y">
-  <value column="Name" original="Linked Organization">链接的组织</value>
-  <value column="PrintName" original="Linked Org">链接的组织</value>
-  <value column="Description" original="The Business Partner is another Organization for explicit Inter-Org transactions">该业务伙伴是显式组织间事务处理的另一个组织</value>
-  <value column="Help" original="The business partner is another organization in the system. So when performing transactions, the counter-document is created automatically. Example: You have BPartnerA linked to OrgA and BPartnerB linked to OrgB.  If you create a sales order for BPartnerB in OrgA a purchase order is created for BPartnerA in OrgB.  This allows to have explicit documents for Inter-Org transactions.">该业务伙伴是显式组织间事务处理的另一个组织</value>
+  <value column="Name" original="Linked Organization">链接组织</value>
+  <value column="PrintName" original="Linked Org">链接组织</value>
+  <value column="Description" original="The Business Partner is another Organization for explicit Inter-Org transactions">业务伙伴所代表的组织</value>
+  <value column="Help" original="The business partner is another organization in the system. So when performing transactions, the counter-document is created automatically. Example: You have BPartnerA linked to OrgA and BPartnerB linked to OrgB.  If you create a sales order for BPartnerB in OrgA a purchase order is created for BPartnerA in OrgB.  This allows to have explicit documents for Inter-Org transactions.">业务伙伴所代表的组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16009,7 +16014,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="In Transit">在途仓库</value>
   <value column="PrintName" original="In Transit">在途仓库</value>
   <value column="Description" original="Movement is in transit">产品的移动由确认完成</value>
-  <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed.">如果选择，产品将一直在途，直到确认后完成单据的库存移动。</value>
+  <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed."><![CDATA[如果选择，产品将一直在途，直到确认后完成的库存移动。<br />
+【注意】在途仓库不会在登录界面列出，你无法使用在途仓库作为上下文变量。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16086,10 +16092,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2405" trl="Y">
-  <value column="Name" original="Selected Winner">选择的赢家</value>
-  <value column="PrintName" original="Selected Winner">选择的赢家</value>
-  <value column="Description" original="The response is the selected winner">响应是选择的赢家</value>
-  <value column="Help" original="The response is the selected winner. If selected on Response level, the line selections are ignored.">响应是选择的赢家</value>
+  <value column="Name" original="Selected Winner">响应赢家</value>
+  <value column="PrintName" original="Selected Winner">响应赢家</value>
+  <value column="Description" original="The response is the selected winner">该响应是否为被选中（胜出者）</value>
+  <value column="Help" original="The response is the selected winner. If selected on Response level, the line selections are ignored.">该响应是否为被选中（胜出者）。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16176,10 +16182,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2414" trl="Y">
-  <value column="Name" original="Minimum Quantity">最小数量</value>
-  <value column="PrintName" original="Min Qty">最小数量</value>
-  <value column="Description" original="Minimum quantity for the business partner">业务伙伴的最小数量</value>
-  <value column="Help" original="If a minimum quantity is defined, and the quantity is based on the percentage is lower, the minimum quantity is used.">业务伙伴的最小数量</value>
+  <value column="Name" original="Minimum Quantity">最少数量</value>
+  <value column="PrintName" original="Min Qty">最少数量</value>
+  <value column="Description" original="Minimum quantity for the business partner">业务伙伴的最少数量</value>
+  <value column="Help" original="If a minimum quantity is defined, and the quantity is based on the percentage is lower, the minimum quantity is used.">业务伙伴的最少数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -16708,10 +16714,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2468" trl="Y">
-  <value column="Name" original="Always Updatable">总是可更新</value>
-  <value column="PrintName" original="Always Updatable">总是可更新</value>
-  <value column="Description" original="The column is always updateable, even if the record is not active or processed">此列始终是可更新的，即使这个记录不活动或已处理</value>
-  <value column="Help" original="If selected and if the window / tab is not read only, you can always update the column.  This might be useful for comments, etc.">此列始终是可更新的，即使这个记录不活动或已处理</value>
+  <value column="Name" original="Always Updatable">总可更新</value>
+  <value column="PrintName" original="Always Updatable">总可更新</value>
+  <value column="Description" original="The column is always updateable, even if the record is not active or processed">此列始终是可更新的，即使记录无效或已处理</value>
+  <value column="Help" original="If selected and if the window / tab is not read only, you can always update the column.  This might be useful for comments, etc.">如果选择，如果窗口/页签不是只读，此列始终允许更新。该功能可用于”备注“类型的列。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17258,10 +17264,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2525" trl="Y">
-  <value column="Name" original="Create Package">装箱单</value>
-  <value column="PrintName" original="Create Package">装箱单</value>
-  <value column="Description" original="">装箱单</value>
-  <value column="Help" original="">装箱单</value>
+  <value column="Name" original="Create Package">创建装箱单</value>
+  <value column="PrintName" original="Create Package">创建装箱单</value>
+  <value column="Description" original="">创建装箱单</value>
+  <value column="Help" original="">创建装箱单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17518,8 +17524,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2557" trl="Y">
-  <value column="Name" original="Default Print Color">默认的打印颜色</value>
-  <value column="PrintName" original="Default Print Color">默认的打印颜色</value>
+  <value column="Name" original="Default Print Color">默认打印颜色</value>
+  <value column="PrintName" original="Default Print Color">默认打印颜色</value>
   <value column="Description" original="">默认的打印颜色</value>
   <value column="Help" original="">默认的打印颜色</value>
   <value column="PO_Description" original=""/>
@@ -17528,8 +17534,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2558" trl="Y">
-  <value column="Name" original="Default Print Font">默认的打印字体</value>
-  <value column="PrintName" original="Default Print Font">默认的打印字体</value>
+  <value column="Name" original="Default Print Font">默认打印字体</value>
+  <value column="PrintName" original="Default Print Font">默认打印字体</value>
   <value column="Description" original="">默认的打印字体</value>
   <value column="Help" original="">默认的打印字体</value>
   <value column="PO_Description" original=""/>
@@ -17638,8 +17644,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2569" trl="Y">
-  <value column="Name" original="New EMail User PW">新的邮件用户密码</value>
-  <value column="PrintName" original="New EMail User PW">新的邮件用户密码</value>
+  <value column="Name" original="New EMail User PW">邮件用户新密码</value>
+  <value column="PrintName" original="New EMail User PW">邮件用户新密码</value>
   <value column="Description" original="Enter new User Password of your internal EMail System - not changed if empty">为内部电子邮件系统输入新的用户密码 - 如果为空则未更改</value>
   <value column="Help" original="">为内部电子邮件系统输入新的用户密码 - 如果为空则未更改</value>
   <value column="PO_Description" original=""/>
@@ -17648,8 +17654,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2570" trl="Y">
-  <value column="Name" original="New Password">新的密码</value>
-  <value column="PrintName" original="New Password">新的密码</value>
+  <value column="Name" original="New Password">新密码</value>
+  <value column="PrintName" original="New Password">新密码</value>
   <value column="Description" original="Enter the new password - not changed if empty">输入新的密码 - 如果为空则未更改</value>
   <value column="Help" original="">输入新的密码 - 如果为空则未更改</value>
   <value column="PO_Description" original=""/>
@@ -17658,8 +17664,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2571" trl="Y">
-  <value column="Name" original="Old Password">旧的密码</value>
-  <value column="PrintName" original="Old Password">旧的密码</value>
+  <value column="Name" original="Old Password">旧密码</value>
+  <value column="PrintName" original="Old Password">旧密码</value>
   <value column="Description" original="Old Password is required if you are not a System Administrator">旧密码是必需的，如果你不是系统管理员</value>
   <value column="Help" original="">旧密码是必需的，如果你不是系统管理员</value>
   <value column="PO_Description" original=""/>
@@ -18240,8 +18246,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2630" trl="Y">
   <value column="Name" original="Due Date Tolerance">到期宽限</value>
   <value column="PrintName" original="Due Date Tolerance">到期宽限</value>
-  <value column="Description" original="Tolerance in days between the Date Next Action and the date the request is regarded as overdue">在下次行动与请求过期之间的冗余天数</value>
-  <value column="Help" original="When the Date Next Action is passed, the Request becomes Due. After the Due Date Tolerance, the Request becomes Overdue.">在下次行动与请求过期之间的冗余天数</value>
+  <value column="Description" original="Tolerance in days between the Date Next Action and the date the request is regarded as overdue">请求过期之后的宽限天数</value>
+  <value column="Help" original="When the Date Next Action is passed, the Request becomes Due. After the Due Date Tolerance, the Request becomes Overdue."><![CDATA[当下次行动日期一旦超过，请求状态变成“到期”。在宽限日期后，请求状态变成”过期“。<br />
+比如：下次行动要求在15日完成，2天过期宽限。15日算到期，当日期超过17日，请求状态为过期。<br />
+宽限天数=0，表示无宽限，到期和过期将是同一时间。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18258,20 +18266,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2632" trl="Y">
-  <value column="Name" original="EMail when Due">到期时发送电邮</value>
-  <value column="PrintName" original="EMail when Due">到期时发送电邮</value>
-  <value column="Description" original="Send EMail when Request becomes due">当请求到期时发送电子邮件</value>
-  <value column="Help" original="Send EMail when Request becomes due">当请求到期时发送电子邮件</value>
+  <value column="Name" original="EMail when Due">到期时通知</value>
+  <value column="PrintName" original="EMail when Due">到期时通知</value>
+  <value column="Description" original="Send EMail when Request becomes due">当请求到期时发送电子邮件通知</value>
+  <value column="Help" original="Send EMail when Request becomes due">当请求到期时发送电子邮件通知</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2633" trl="Y">
-  <value column="Name" original="EMail when Overdue">过期时发送电邮</value>
-  <value column="PrintName" original="EMail when Overdue">过期时发送电邮</value>
-  <value column="Description" original="Send EMail when Request becomes overdue">当请求过期时发送电子邮件</value>
-  <value column="Help" original="Send EMail when Request becomes overdue">当请求过期时发送电子邮件</value>
+  <value column="Name" original="EMail when Overdue">过期时通知</value>
+  <value column="PrintName" original="EMail when Overdue">过期时通知</value>
+  <value column="Description" original="Send EMail when Request becomes overdue">当请求过期时发送电子邮件通知</value>
+  <value column="Help" original="Send EMail when Request becomes overdue">当请求过期时发送电子邮件通知</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18588,10 +18596,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2666" trl="Y">
-  <value column="Name" original="Orders with unconfirmed Shipments">包含未确认发货的订单</value>
-  <value column="PrintName" original="Orders with unconfirmed Shipments">包含未确认发货的订单</value>
-  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">为包含未处理交付确认的订单生成发货单吗?</value>
-  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">为包含未处理交付确认的订单生成发货单吗?</value>
+  <value column="Name" original="Orders with unconfirmed Shipments">包含发货未确认的订单</value>
+  <value column="PrintName" original="Orders with unconfirmed Shipments">包含发货未确认的订单</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">是否为那些为确认发货的订单创建发货单</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">是否为那些为确认发货的订单创建发货单。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18660,8 +18668,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2673" trl="Y">
   <value column="Name" original="Date Pattern">日期样式</value>
   <value column="PrintName" original="Date Pattern">日期样式</value>
-  <value column="Description" original="Java Date Pattern">Java 日期样式</value>
-  <value column="Help" original="Option Date pattern in Java notation. Examples: dd.MM.yyyy - dd/MM/yyyy&#10;If the pattern for your language is not correct, please create a iDempiere support request with the correct information">Java 日期样式</value>
+  <value column="Description" original="Java Date Pattern">Java 日期样式，比如 MM/dd/yyyy</value>
+  <value column="Help" original="Option Date pattern in Java notation. Examples: dd.MM.yyyy - dd/MM/yyyy&#10;If the pattern for your language is not correct, please create a iDempiere support request with the correct information">Java 日期样式，比如 MM/dd/yyyy</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18938,8 +18946,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2704" trl="Y">
-  <value column="Name" original="Group">请求组</value>
-  <value column="PrintName" original="Group">请求组</value>
+  <value column="Name" original="Group">请求分组</value>
+  <value column="PrintName" original="Group">请求分组</value>
   <value column="Description" original="Request Group">请求分组</value>
   <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">请求分组</value>
   <value column="PO_Description" original=""/>
@@ -18961,7 +18969,11 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="Name" original="Status">请求状态</value>
   <value column="PrintName" original="Status">请求状态</value>
   <value column="Description" original="Request Status">请求状况</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">请求状况</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)"><![CDATA[有请求类型定义不同的状态。状态所拥有的“开放”‘关闭’“永久关闭”属性将影响请求单据的处理。<br />
+客户开票申请：未申请，已申请，开票中，已开票。<br />
+BOM更改申请：工程变更，质量评估，财务评估，更改驳回，同意更改。<br />
+工程维修申请：已报障，已上门，已修复，让步使用。<br />
+【注意】使用“关闭”属性的状态将关闭请求单据。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18970,8 +18982,11 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2707" trl="Y">
   <value column="Name" original="Resolution">请求结果</value>
   <value column="PrintName" original="Resolution">请求结果</value>
-  <value column="Description" original="Request Resolution">请求的解决结果</value>
-  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">请求的解决结果</value>
+  <value column="Description" original="Request Resolution">希望得到的解决结果</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)"><![CDATA[请求希望得到的解决结果。比如：<br />
+客户开票申请：每单开票，每月开票，不开票。<br />
+BOM变更申请：暂时变更，永久变更，可选变更。<br />
+工程维修申请：维修、更换、升级。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19120,8 +19135,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2724" trl="Y">
   <value column="Name" original="Auto Due Date Days">自动到期天数</value>
   <value column="PrintName" original="Auto Due Date Days">自动到期天数</value>
-  <value column="Description" original="Automatic Due Date Days">自动到期天数</value>
-  <value column="Help" original="If a due date is not defined and the Auto Due Days ins greater then zero, a due date in the number of days is automatically created.">自动到期天数</value>
+  <value column="Description" original="Automatic Due Date Days">自动到期天数（默认到期天数）</value>
+  <value column="Help" original="If a due date is not defined and the Auto Due Days ins greater then zero, a due date in the number of days is automatically created."><![CDATA[如果请求不指定到期日期，且输入的自动到期天数大于0，到期日期将被自动创建。<br />比如：5+2的请求类型，5天自动到期，2天宽限，超过7天算过期。<br />自动到期天数=0，系统不自动判断过期。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19450,18 +19465,18 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2757" trl="Y">
   <value column="Name" original="Update Status">更新状态</value>
   <value column="PrintName" original="Update Status">更新状态</value>
-  <value column="Description" original="Automatically change the status after entry from web">在WEB输入之后自动更改状态</value>
-  <value column="Help" original="Change the status automatically after the entry was changed via the Web">在WEB输入之后自动更改状态</value>
+  <value column="Description" original="Automatically change the status after entry from web">通过WEB输入之后，自动更改后的状态</value>
+  <value column="Help" original="Change the status automatically after the entry was changed via the Web">通过WEB输入之后，自动更改后的状态</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2758" trl="Y">
-  <value column="Name" original="Timeout in Days">超时天数</value>
-  <value column="PrintName" original="Timeout Days">超时天数</value>
-  <value column="Description" original="Timeout in Days to change Status automatically">自动更改状态的超时天数</value>
-  <value column="Help" original="After the number of days of inactivity, the status is changed automatically to the Next Status.  If no Next Status is defined, the status is not changed.">自动更改状态的超时天数</value>
+  <value column="Name" original="Timeout in Days">无活动天数</value>
+  <value column="PrintName" original="Timeout Days">无活动天数</value>
+  <value column="Description" original="Timeout in Days to change Status automatically">请求在无活动天数后变更状态</value>
+  <value column="Help" original="After the number of days of inactivity, the status is changed automatically to the Next Status.  If no Next Status is defined, the status is not changed.">经过设定的无活动天数后，请求状态将自动达到下个状态。如果下个状态未定义，原状态将保持。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19470,8 +19485,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2759" trl="Y">
   <value column="Name" original="Web Can Update">允许 Web 更新</value>
   <value column="PrintName" original="Web Can Update">允许 Web 更新</value>
-  <value column="Description" original="Entry can be updated from the Web">可通过 Web 更新输入项</value>
-  <value column="Help" original="">可通过 Web 更新输入项</value>
+  <value column="Description" original="Entry can be updated from the Web">可通过 Web 更新请求</value>
+  <value column="Help" original="">可通过 Web 更新请求。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19748,10 +19763,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2790" trl="Y">
-  <value column="Name" original="Create Change Request">创建更改请求</value>
-  <value column="PrintName" original="Create Change Request">创建更改请求</value>
-  <value column="Description" original="Automatically create BOM (Engineering) Change Request">自动创建产品清单（项目）变更请求</value>
-  <value column="Help" original="Create automatically a Product Bill of Material  (Engineering) Change Request when the Request Group references a Product BOM">自动创建产品清单（项目）变更请求</value>
+  <value column="Name" original="Create Change Request">自动BOM变更请求</value>
+  <value column="PrintName" original="Create Change Request">自动BOM变更请求</value>
+  <value column="Description" original="Automatically create BOM (Engineering) Change Request">是否自动创建BOM变更请求</value>
+  <value column="Help" original="Create automatically a Product Bill of Material  (Engineering) Change Request when the Request Group references a Product BOM">如果选择，当请求组引用产品BOM时，自动创建BOM变更请求。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19768,10 +19783,11 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2792" trl="Y">
-  <value column="Name" original="Insert Record">插入记录</value>
-  <value column="PrintName" original="Insert Record">插入记录</value>
-  <value column="Description" original="The user can insert a new Record">用户可插入新的记录</value>
-  <value column="Help" original="If not selected, the user cannot create a new Record.  This is automatically disabled, if the Tab is Read Only.">用户可插入新的记录</value>
+  <value column="Name" original="Insert Record">可新建记录</value>
+  <value column="PrintName" original="Insert Record">可新建记录</value>
+  <value column="Description" original="The user can insert a new Record">用户可以新建（插入）记录</value>
+  <value column="Help" original="If not selected, the user cannot create a new Record.  This is automatically disabled, if the Tab is Read Only."><![CDATA[如果否，用户将无法创建新纪录。如果页签是只读状态，该选项自动为否。<br />
+不只读，不可新建的页签，用户只能修改记录。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20058,8 +20074,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2821" trl="Y">
-  <value column="Name" original="Cost Price">成本价格</value>
-  <value column="PrintName" original="Cost Price">成本价格</value>
+  <value column="Name" original="Cost Price">成本价</value>
+  <value column="PrintName" original="Cost Price">成本价</value>
   <value column="Description" original="Price per Unit of Measure including all indirect costs (Freight, etc.)">仅用于采购订单明细</value>
   <value column="Help" original="Optional Purchase Order Line cost price."><![CDATA[仅用于采购订单明细，包含全部非直接成本(比如，运费等)的单价，可用于初始化产品成本。<br />
 对于期初建账，你可以按某个价格表来更新所有产品的期初成本，并从一个“期初供应商”中采购所有期初库存，并在此字段中填入“期初成本”，以完成对成本的初始化。这样保存了更多的原始信息来审核数据的风险。
@@ -20370,20 +20386,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2851" trl="Y">
-  <value column="Name" original="Create New Batch">创建新的批</value>
-  <value column="PrintName" original="New Batch">创建新的批</value>
-  <value column="Description" original="If selected a new batch is created">如果选中，新的批次被创建</value>
-  <value column="Help" original="Note that the balance check does not check that individual batches are balanced.">如果选中，新的批次被创建</value>
+  <value column="Name" original="Create New Batch">创建凭证批</value>
+  <value column="PrintName" original="New Batch">创建凭证批</value>
+  <value column="Description" original="If selected a new batch is created">是否创建新的凭证批</value>
+  <value column="Help" original="Note that the balance check does not check that individual batches are balanced.">注意，如果凭证批借贷平衡，将不执行平衡检查</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2852" trl="Y">
-  <value column="Name" original="Create New Journal">创建新的日记账</value>
-  <value column="PrintName" original="New Journal">创建新的日记账</value>
-  <value column="Description" original="If selected a new journal within the batch is created">如选择，在创建新批次时创建一个分类帐</value>
-  <value column="Help" original="Note that the balance check does not check that individual journals are balanced.">如选择，在创建新批次时创建一个分类帐</value>
+  <value column="Name" original="Create New Journal">创建凭证</value>
+  <value column="PrintName" original="New Journal">创建凭证</value>
+  <value column="Description" original="If selected a new journal within the batch is created">是否在凭证批中创建新的凭证</value>
+  <value column="Help" original="Note that the balance check does not check that individual journals are balanced.">注意，如果凭证借贷平衡，将不执行平衡检查。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20830,10 +20846,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2899" trl="Y">
-  <value column="Name" original="Complete Plan">预计完成日期</value>
-  <value column="PrintName" original="Complete Plan">预计完成日期</value>
-  <value column="Description" original="Planned Completion Date">计划的完成日期</value>
-  <value column="Help" original="Date when the task is planned to be complete">计划的完成日期</value>
+  <value column="Name" original="Complete Plan">预计完成</value>
+  <value column="PrintName" original="Complete Plan">预计完成</value>
+  <value column="Description" original="Planned Completion Date">预计的完成日期</value>
+  <value column="Help" original="Date when the task is planned to be complete">预计的完成日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20850,10 +20866,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2901" trl="Y">
-  <value column="Name" original="Start Plan">预计开始日期</value>
-  <value column="PrintName" original="Start Plan">预计开始日期</value>
-  <value column="Description" original="Planned Start Date">计划的开始日期</value>
-  <value column="Help" original="Date when you plan to start">计划的开始日期</value>
+  <value column="Name" original="Start Plan">预计开始</value>
+  <value column="PrintName" original="Start Plan">预计开始</value>
+  <value column="Description" original="Planned Start Date">预计的开始日期</value>
+  <value column="Help" original="Date when you plan to start">预计的开始日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20862,8 +20878,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2903" trl="Y">
   <value column="Name" original="Color Schema">配色方案</value>
   <value column="PrintName" original="Color Schema">配色方案</value>
-  <value column="Description" original="Performance Color Schema">绩效颜色的方案</value>
-  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">绩效颜色的方案</value>
+  <value column="Description" original="Performance Color Schema">颜色搭配方案</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%)."><![CDATA[方案通常分为3层（红-黄-绿），也可以设置为2层（红-绿）或者4层（灰-黄-银-金）。<br />
+没有目标的指标用白色表示，百分比的范围从0到无穷大（比如，大于100%）。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24090,10 +24107,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53224" trl="Y">
-  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理的条目</value>
-  <value column="PrintName" original="Print Unprocessed Entries Only">只打印未处理的条目</value>
-  <value column="Description" original="">只打印未处理的条目</value>
-  <value column="Help" original="">只打印未处理的条目</value>
+  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理清单</value>
+  <value column="PrintName" original="Print Unprocessed Entries Only">只打印未处理清单</value>
+  <value column="Description" original="">只打印未处理的条目清单</value>
+  <value column="Help" original="">只打印未处理的条目清单</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24263,8 +24280,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53241" trl="Y">
-  <value column="Name" original="Overlap Units">最小周转数量</value>
-  <value column="PrintName" original="Overlap Units">最小周转数量</value>
+  <value column="Name" original="Overlap Units">最少周转数量</value>
+  <value column="PrintName" original="Overlap Units">最少周转数量</value>
   <value column="Description" original="Overlap Units are number of units that must be completed before they are moved the next activity">指从该工序移转到下一工序时，最少需要生产的产品数量</value>
   <value column="Help" original="When there are two consecutive avtivity, you can sometimes save time by moving partial quantites from one activity to the next before the first activity as been completed.">指从该工序移转到下一工序时，最少需要生产的产品数量</value>
   <value column="PO_Description" original=""/>
@@ -24653,8 +24670,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53284" trl="Y">
-  <value column="Name" original="Duration Required">需要的持续时间</value>
-  <value column="PrintName" original="Duration Required">需要的持续时间</value>
+  <value column="Name" original="Duration Required">持续时间</value>
+  <value column="PrintName" original="Duration Required">持续时间</value>
   <value column="Description" original="">需要的持续时间</value>
   <value column="Help" original="">需要的持续时间</value>
   <value column="PO_Description" original=""/>
@@ -24723,10 +24740,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53291" trl="Y">
-  <value column="Name" original="Setup Time Required">预计安装时间</value>
-  <value column="PrintName" original="Setup Time Required">预计安装时间</value>
-  <value column="Description" original="">预计安装时间</value>
-  <value column="Help" original="">预计安装时间</value>
+  <value column="Name" original="Setup Time Required">设置时间</value>
+  <value column="PrintName" original="Setup Time Required">设置时间</value>
+  <value column="Description" original="">设置需要的时间</value>
+  <value column="Help" original="">设置需要的时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -25943,20 +25960,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53463" trl="Y">
-  <value column="Name" original="Linked Order Line">链接的订单明细</value>
-  <value column="PrintName" original="Linked Order Line">链接的订单明细</value>
-  <value column="Description" original="This field links a sales order line to the purchase order line that is generated from it.">This field links a sales order line to the purchase order line that is generated from it</value>
-  <value column="Help" original="">This field links a sales order line to the purchase order line that is generated from it</value>
+  <value column="Name" original="Linked Order Line">关联订单明细</value>
+  <value column="PrintName" original="Linked Order Line">关联订单明细</value>
+  <value column="Description" original="This field links a sales order line to the purchase order line that is generated from it.">采购订单所关联的销售订单明细</value>
+  <value column="Help" original="">采购订单所关联的销售订单明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53464" trl="Y">
-  <value column="Name" original="Selected Product">选择的产品</value>
-  <value column="PrintName" original="Selected Product">选择的产品</value>
-  <value column="Description" original="">选择的产品</value>
-  <value column="Help" original="">选择的产品</value>
+  <value column="Name" original="Selected Product">已选中产品</value>
+  <value column="PrintName" original="Selected Product">已选中产品</value>
+  <value column="Description" original="">已选中产品</value>
+  <value column="Help" original="">已选中产品</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -27713,10 +27730,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53647" trl="Y">
-  <value column="Name" original="Processed">已处理</value>
-  <value column="PrintName" original="Processed">已处理</value>
-  <value column="Description" original="">已处理</value>
-  <value column="Help" original="">已处理</value>
+  <value column="Name" original="Processed">资产已处理</value>
+  <value column="PrintName" original="Processed">资产已处理</value>
+  <value column="Description" original="">资产已处理</value>
+  <value column="Help" original="">资产已处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -27853,10 +27870,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53669" trl="Y">
-  <value column="Name" original="Allow Logging">允许日志记录</value>
-  <value column="PrintName" original="Allow Logging">允许日志记录</value>
-  <value column="Description" original="Determine if a column must be recorded into the change log">决定一个列是否必须记录在变更日志</value>
-  <value column="Help" original="">决定一个列是否必须记录在变更日志</value>
+  <value column="Name" original="Allow Logging">变更日志</value>
+  <value column="PrintName" original="Allow Logging">变更日志</value>
+  <value column="Description" original="Determine if a column must be recorded into the change log">是否记录列的变更日志</value>
+  <value column="Help" original="">是否记录列的变更日志</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28015,8 +28032,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="53687" trl="Y">
   <value column="Name" original="Format Pattern">日期样式</value>
   <value column="PrintName" original="Format Pattern">日期样式</value>
-  <value column="Description" original="The pattern used to format a number or date.">The pattern used to format a number or date</value>
-  <value column="Help" original="A string complying with either Java SimpleDateFormat or DecimalFormat pattern syntax used to override the default presentation format of a date or number type field.">The pattern used to format a number or date</value>
+  <value column="Description" original="The pattern used to format a number or date.">日期输出格式样式，比如 MM/dd/yyyy</value>
+  <value column="Help" original="A string complying with either Java SimpleDateFormat or DecimalFormat pattern syntax used to override the default presentation format of a date or number type field.">日期输出格式样式，比如 MM/dd/yyyy</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28332,10 +28349,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53761" trl="Y">
-  <value column="Name" original="Scheduled Receipts Quantity">计划的</value>
-  <value column="PrintName" original="Scheduled Receipts Qty">计划的</value>
-  <value column="Description" original="">计划的</value>
-  <value column="Help" original="">计划的</value>
+  <value column="Name" original="Scheduled Receipts Quantity">计划收货数量</value>
+  <value column="PrintName" original="Scheduled Receipts Qty">计划收货数量</value>
+  <value column="Description" original="">计划收货数量</value>
+  <value column="Help" original="">计划收货数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28900,8 +28917,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="53874" trl="Y">
   <value column="Name" original="Parent Column">父列</value>
   <value column="PrintName" original="Parent Column">父列</value>
-  <value column="Description" original="The link column on the parent tab.">父表的链接字段</value>
-  <value column="Help" original="">父表的链接字段</value>
+  <value column="Description" original="The link column on the parent tab.">子表需要链接到父表的列</value>
+  <value column="Help" original="">明细页签链接列与表头的父列不同名时，还需指定父列才可以链接。比如：AD_User.AD_User_ID=C_Order.SalesRep_ID。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -29348,10 +29365,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54129" trl="Y">
-  <value column="Name" original="Order Source Key">订单来源的关键</value>
-  <value column="PrintName" original="Order Source Key">订单来源的关键</value>
-  <value column="Description" original="">订单来源的关键</value>
-  <value column="Help" original="">订单来源的关键</value>
+  <value column="Name" original="Order Source Key">订单来源关键字</value>
+  <value column="PrintName" original="Order Source Key">订单来源关键字</value>
+  <value column="Description" original="">订单来源的关键字</value>
+  <value column="Help" original="">订单来源的关键字</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -29418,9 +29435,9 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54139" trl="Y">
-  <value column="Name" original="Columns">有效的列</value>
-  <value column="PrintName" original="Columns">有效的列</value>
-  <value column="Description" original="Number of columns">行 x 列 的得数</value>
+  <value column="Name" original="Columns">有效列</value>
+  <value column="PrintName" original="Columns">有效列</value>
+  <value column="Description" original="Number of columns">多列合并的结果</value>
   <value column="Help" original="The number of columns in the layout grid">行 x 列 的得数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -30288,10 +30305,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54271" trl="Y">
-  <value column="Name" original="Category Column">类列</value>
-  <value column="PrintName" original="Category Column">类列</value>
-  <value column="Description" original="Fully qualified data category column">合格数据的类列</value>
-  <value column="Help" original="The Category Column determines how the chart data is grouped">合格数据的类列</value>
+  <value column="Name" original="Category Column">类别列</value>
+  <value column="PrintName" original="Category Column">类别列</value>
+  <value column="Description" original="Fully qualified data category column">合格的数据类别列</value>
+  <value column="Help" original="The Category Column determines how the chart data is grouped">合格的数据类别列</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -37709,10 +37726,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55168" trl="Y">
-  <value column="Name" original="IsFixedAssetInvoice">固定资产发票</value>
-  <value column="PrintName" original="IsFixedAssetInvoice">固定资产发票</value>
-  <value column="Description" original="">是否固定资产发票</value>
-  <value column="Help" original="">是否固定资产发票</value>
+  <value column="Name" original="IsFixedAssetInvoice">资产发票</value>
+  <value column="PrintName" original="IsFixedAssetInvoice">资产发票</value>
+  <value column="Description" original="">是否为固定资产发票</value>
+  <value column="Help" original="">是否为固定资产发票</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38289,8 +38306,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55287" trl="Y">
-  <value column="Name" original="Expected Close Date">预计结束日期</value>
-  <value column="PrintName" original="Expected Close Date">预计结束日期</value>
+  <value column="Name" original="Expected Close Date">预计结束</value>
+  <value column="PrintName" original="Expected Close Date">预计结束</value>
   <value column="Description" original="Expected Close Date">预计结束日期</value>
   <value column="Help" original="The Expected Close Date indicates the expected last or final date">预计结束日期</value>
   <value column="PO_Description" original=""/>
@@ -38349,8 +38366,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="55294" trl="Y">
-  <value column="Name" original="Opportunity by Campaign">营销活动的机会</value>
-  <value column="PrintName" original="Opportunity by Campaign">营销活动的机会</value>
+  <value column="Name" original="Opportunity by Campaign">营销活动机会</value>
+  <value column="PrintName" original="Opportunity by Campaign">营销活动机会</value>
   <value column="Description" original="">通过营销活动获得的机会</value>
   <value column="Help" original="">通过营销活动获得的机会</value>
   <value column="PO_Description" original=""/>
@@ -38361,8 +38378,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="55297" trl="Y">
   <value column="Name" original="Allow Copy">允许复制</value>
   <value column="PrintName" original="Allow Copy">允许复制</value>
-  <value column="Description" original="Determine if a column must be copied when pushing the button to copy record">确定当按下按钮拷贝记录时，某列是否必须被复制</value>
-  <value column="Help" original="">确定当按下按钮拷贝记录时，某列是否必须被复制</value>
+  <value column="Description" original="Determine if a column must be copied when pushing the button to copy record">当按下复制按钮时，新纪录是否复制该列值</value>
+  <value column="Help" original="">当按下复制按钮时，新纪录是否复制该列值。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38619,10 +38636,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200021" trl="Y">
-  <value column="Name" original="Keystroke Modifiers">快捷键的按键修改</value>
-  <value column="PrintName" original="Keystroke Modifiers">快捷键的按键修改</value>
-  <value column="Description" original="Keystroke Modifiers for shortcuts">快捷键的按键修改</value>
-  <value column="Help" original="">快捷键的按键修改</value>
+  <value column="Name" original="Keystroke Modifiers">自定义快捷键</value>
+  <value column="PrintName" original="Keystroke Modifiers">自定义快捷键</value>
+  <value column="Description" original="Keystroke Modifiers for shortcuts">自定义的快捷键</value>
+  <value column="Help" original="">自定义的快捷键</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38729,10 +38746,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200032" trl="Y">
-  <value column="Name" original="Word Length Dictionary">应用字典 (同步的)</value>
-  <value column="PrintName" original="Word Length Dictionary">应用字典 (同步的)</value>
-  <value column="Description" original="">应用字典 (同步的)</value>
-  <value column="Help" original="">应用字典 (同步的)</value>
+  <value column="Name" original="Word Length Dictionary">字典词条长度</value>
+  <value column="PrintName" original="Word Length Dictionary">字典词条长度</value>
+  <value column="Description" original="">【未用】字典词条长度</value>
+  <value column="Help" original="">【未用】字典词条长度</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -38969,20 +38986,20 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200077" trl="Y">
-  <value column="Name" original="Header Color">页眉颜色</value>
-  <value column="PrintName" original="Header Color">页眉颜色</value>
-  <value column="Description" original="Header color of calendar dashlet">表的页眉背景色</value>
-  <value column="Help" original="">表的页眉背景色</value>
+  <value column="Name" original="Header Color">日历头颜色</value>
+  <value column="PrintName" original="Header Color">日历头颜色</value>
+  <value column="Description" original="Header color of calendar dashlet">请求在日历中的块头颜色</value>
+  <value column="Help" original="">7位长度表示的十六进制颜色代码，比如#eff4f9。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200078" trl="Y">
-  <value column="Name" original="Content Color">配色方案</value>
-  <value column="PrintName" original="Content Color">配色方案</value>
-  <value column="Description" original="Content color of calendar dashlet">Content color of calendar dashlet</value>
-  <value column="Help" original="">Content color of calendar dashlet</value>
+  <value column="Name" original="Content Color">日历块颜色</value>
+  <value column="PrintName" original="Content Color">日历块颜色</value>
+  <value column="Description" original="Content color of calendar dashlet">请求类型在日历中的块颜色</value>
+  <value column="Help" original="">7位长度表示的十六进制颜色代码，比如#333666。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39229,8 +39246,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200120" trl="Y">
-  <value column="Name" original="Guarantee">担保文书</value>
-  <value column="PrintName" original="Guarantee">担保文书</value>
+  <value column="Name" original="Guarantee">担保函</value>
+  <value column="PrintName" original="Guarantee">担保函</value>
   <value column="Description" original="Guarantee for a Credit">用于承诺付款或者风险担保的商业函件</value>
   <value column="Help" original="">用于承诺付款或者风险担保的商业函件</value>
   <value column="PO_Description" original=""/>
@@ -39629,10 +39646,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200187" trl="Y">
-  <value column="Name" original="Toolbar Button">工具栏按钮</value>
-  <value column="PrintName" original="Toolbar Button">工具栏按钮</value>
-  <value column="Description" original="Show the button on the toolbar, the window, or both">列按钮添加到工具栏</value>
-  <value column="Help" original="The IsToolbarButton field indicates if this button is part of the toolbar's process button popup list, or render as field in window, or both.">列按钮添加到工具栏</value>
+  <value column="Name" original="Toolbar Button">按钮位置</value>
+  <value column="PrintName" original="Toolbar Button">按钮位置</value>
+  <value column="Description" original="Show the button on the toolbar, the window, or both">设置按钮的位置，窗口、工具栏或者两者</value>
+  <value column="Help" original="The IsToolbarButton field indicates if this button is part of the toolbar's process button popup list, or render as field in window, or both.">设置按钮的位置，窗口、工具栏或者两者</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -39719,10 +39736,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200196" trl="Y">
-  <value column="Name" original="Void It">是否完成</value>
-  <value column="PrintName" original="Void It">是否完成</value>
-  <value column="Description" original="">是否完成</value>
-  <value column="Help" original="">是否完成</value>
+  <value column="Name" original="Void It">是否撤销</value>
+  <value column="PrintName" original="Void It">是否撤销</value>
+  <value column="Description" original="">是否取消事务</value>
+  <value column="Help" original="">是否取消事务</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -41109,10 +41126,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200346" trl="Y">
-  <value column="Name" original="C_BPartner_AD_OrgBP_ID">业务伙伴_链接的组织</value>
-  <value column="PrintName" original="C_BPartner_AD_OrgBP_ID">业务伙伴_链接的组织</value>
-  <value column="Description" original="">业务伙伴_链接的组织</value>
-  <value column="Help" original="">业务伙伴_链接的组织</value>
+  <value column="Name" original="C_BPartner_AD_OrgBP_ID">业务伙伴_链接组织</value>
+  <value column="PrintName" original="C_BPartner_AD_OrgBP_ID">业务伙伴_链接组织</value>
+  <value column="Description" original="">业务伙伴_链接组织</value>
+  <value column="Help" original="">业务伙伴_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -42459,10 +42476,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200481" trl="Y">
-  <value column="Name" original="salesrep_bpartner_ad_orgbp_id">业务代表_伙伴2_链接的组织</value>
-  <value column="PrintName" original="salesrep_bpartner_ad_orgbp_id">业务代表_伙伴2_链接的组织</value>
-  <value column="Description" original="">业务代表_伙伴2_链接的组织</value>
-  <value column="Help" original="">业务代表_伙伴2_链接的组织</value>
+  <value column="Name" original="salesrep_bpartner_ad_orgbp_id">业务代表_伙伴2_链接组织</value>
+  <value column="PrintName" original="salesrep_bpartner_ad_orgbp_id">业务代表_伙伴2_链接组织</value>
+  <value column="Description" original="">业务代表_伙伴2_链接组织</value>
+  <value column="Help" original="">业务代表_伙伴2_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -43699,10 +43716,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200974" trl="Y">
-  <value column="Name" original="bp_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="PrintName" original="bp_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="Description" original="">业务伙伴_链接的组织</value>
-  <value column="Help" original="">业务伙伴_链接的组织</value>
+  <value column="Name" original="bp_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="PrintName" original="bp_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="Description" original="">业务伙伴_链接组织</value>
+  <value column="Help" original="">业务伙伴_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -44479,10 +44496,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201053" trl="Y">
-  <value column="Name" original="bpartner_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="PrintName" original="bpartner_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="Description" original="">业务伙伴_链接的组织</value>
-  <value column="Help" original="">业务伙伴_链接的组织</value>
+  <value column="Name" original="bpartner_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="PrintName" original="bpartner_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="Description" original="">业务伙伴_链接组织</value>
+  <value column="Help" original="">业务伙伴_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -48819,10 +48836,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201647" trl="Y">
-  <value column="Name" original="salesrep_bp_ad_orgbp_id">业务代表_伙伴1_链接的组织</value>
-  <value column="PrintName" original="salesrep_bp_ad_orgbp_id">业务代表_伙伴1_链接的组织</value>
-  <value column="Description" original="">业务代表_伙伴1_链接的组织</value>
-  <value column="Help" original="">业务代表_伙伴1_链接的组织</value>
+  <value column="Name" original="salesrep_bp_ad_orgbp_id">业务代表_伙伴1_链接组织</value>
+  <value column="PrintName" original="salesrep_bp_ad_orgbp_id">业务代表_伙伴1_链接组织</value>
+  <value column="Description" original="">业务代表_伙伴1_链接组织</value>
+  <value column="Help" original="">业务代表_伙伴1_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -49399,10 +49416,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201705" trl="Y">
-  <value column="Name" original="bill_bp_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="PrintName" original="bill_bp_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="Description" original="">业务伙伴_链接的组织</value>
-  <value column="Help" original="">业务伙伴_链接的组织</value>
+  <value column="Name" original="bill_bp_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="PrintName" original="bill_bp_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="Description" original="">业务伙伴_链接组织</value>
+  <value column="Help" original="">业务伙伴_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -50589,10 +50606,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201902" trl="Y">
-  <value column="Name" original="c_bp_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="PrintName" original="c_bp_ad_orgbp_id">业务伙伴_链接的组织</value>
-  <value column="Description" original="">业务伙伴_链接的组织</value>
-  <value column="Help" original="">业务伙伴_链接的组织</value>
+  <value column="Name" original="c_bp_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="PrintName" original="c_bp_ad_orgbp_id">业务伙伴_链接组织</value>
+  <value column="Description" original="">业务伙伴_链接组织</value>
+  <value column="Help" original="">业务伙伴_链接组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55610,10 +55627,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202761" trl="Y">
-  <value column="Name" original="Country on Country Group">国家联合体的国家</value>
-  <value column="PrintName" original="Country on Country Group">国家联合体的国家</value>
-  <value column="Description" original="">国家联合体的国家</value>
-  <value column="Help" original="">国家联合体的国家</value>
+  <value column="Name" original="Country on Country Group">联合体国家</value>
+  <value column="PrintName" original="Country on Country Group">联合体国家</value>
+  <value column="Description" original="">国家联合体所包含的国家</value>
+  <value column="Help" original="">国家联合体所包含的国家</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56040,8 +56057,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203007" trl="Y">
-  <value column="Name" original="Style Line">CSS样式明细</value>
-  <value column="PrintName" original="Style Line">CSS样式明细</value>
+  <value column="Name" original="Style Line">样式明细</value>
+  <value column="PrintName" original="Style Line">样式明细</value>
   <value column="Description" original="CSS Style Line">CSS样式明细</value>
   <value column="Help" original="">CSS样式明细</value>
   <value column="PO_Description" original=""/>
@@ -56060,10 +56077,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203009" trl="Y">
-  <value column="Name" original="Inline Style">CSS内联样式</value>
-  <value column="PrintName" original="Inline Style">CSS内联样式</value>
-  <value column="Description" original="CSS Inline Style">CSS内联样式</value>
-  <value column="Help" original="">CSS内联样式</value>
+  <value column="Name" original="Inline Style">行内样式</value>
+  <value column="PrintName" original="Inline Style">行内样式</value>
+  <value column="Description" original="CSS Inline Style">CSS行内样式</value>
+  <value column="Help" original="">CSS行内样式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56080,8 +56097,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203011" trl="Y">
-  <value column="Name" original="Label Style">标签CSS样式</value>
-  <value column="PrintName" original="Label Style">标签CSS样式</value>
+  <value column="Name" original="Label Style">标签样式</value>
+  <value column="PrintName" original="Label Style">标签样式</value>
   <value column="Description" original="Label CSS Style">标签的CSS样式</value>
   <value column="Help" original="">标签的CSS样式</value>
   <value column="PO_Description" original=""/>
@@ -56090,8 +56107,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203012" trl="Y">
-  <value column="Name" original="Field Style">字段CSS样式</value>
-  <value column="PrintName" original="Field Style">字段CSS样式</value>
+  <value column="Name" original="Field Style">字段样式</value>
+  <value column="PrintName" original="Field Style">字段样式</value>
   <value column="Description" original="Field CSS Style ">字段的CSS样式</value>
   <value column="Help" original="">字段的CSS样式</value>
   <value column="PO_Description" original=""/>
@@ -58225,11 +58242,11 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row trl="N" uuid="bd3af859-0bb2-4259-ac2f-6d3dc561d20b">
-  <value column="Name" original="Depreciation Category">Depreciation Category</value>
-  <value column="PrintName" original="Depreciation Category">Depreciation Category</value>
-  <value column="Description" original="">Depreciation Category</value>
-  <value column="Help" original="">Depreciation Category</value>
+ <row trl="Y" uuid="bd3af859-0bb2-4259-ac2f-6d3dc561d20b">
+  <value column="Name" original="Depreciation Category">折旧类别</value>
+  <value column="PrintName" original="Depreciation Category">折旧类别</value>
+  <value column="Description" original="">折旧类别</value>
+  <value column="Help" original="">折旧类别</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

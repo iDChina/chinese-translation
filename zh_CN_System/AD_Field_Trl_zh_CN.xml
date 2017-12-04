@@ -2,7 +2,7 @@
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
  <row id="1546" trl="Y">
   <value column="Name" original="Link Column">链接列</value>
-  <value column="Description" original="Link Column for Multi-Parent tables">一对多关系的子表需指定具体的外键列</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">子表的外键列，将被链接到父列</value>
   <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">子表有多个父表时，指定子表的列来链接两表关系。比如“用户组织权限”，使用用户ID，组织ID这两个外键，当挂在用户父标签下，链接列设置为用户ID；当挂在组织父标签下，链接列设置为组织ID。</value>
  </row>
  <row id="3665" trl="Y">
@@ -30,10 +30,20 @@
   <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">标识收取佣金的业务伙伴</value>
   <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">标识收取佣金的业务伙伴</value>
  </row>
+ <row id="4632" trl="Y">
+  <value column="Name" original="User/Contact">用户</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。</value>
+ </row>
  <row id="4725" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
   <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
+ </row>
+ <row id="5020" trl="Y">
+  <value column="Name" original="User/Contact">用户</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。</value>
  </row>
  <row id="5092" trl="Y">
   <value column="Name" original="Driving Column">数据库列</value>
@@ -176,9 +186,9 @@
   <value column="Help" original="">导出应用程序包的ID。</value>
  </row>
  <row id="50096" trl="Y">
-  <value column="Name" original="Type">项目类型</value>
-  <value column="Description" original="">项目类型</value>
-  <value column="Help" original="">项目类型</value>
+  <value column="Name" original="Type">对象类型</value>
+  <value column="Description" original="">导出对象的类型</value>
+  <value column="Help" original="">导出对象的类型</value>
  </row>
  <row id="50097" trl="Y">
   <value column="Name" original="Menu">菜单</value>
@@ -451,6 +461,11 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="Sales Rep Name">销售代表名称</value>
   <value column="Description" original="Sales Representative Name">销售代表名称</value>
   <value column="Help" original="The name of the sales rep that this dashboard relates to.">仪表盘显示的销售代表名称</value>
+ </row>
+ <row id="200217" trl="Y">
+  <value column="Name" original="Description">摘要</value>
+  <value column="Description" original="Optional short description of the record">分录摘要</value>
+  <value column="Help" original="A description is limited to 255 characters.">分录摘要</value>
  </row>
  <row id="200585" trl="Y">
   <value column="Name" original="Only Currency">仅该币种</value>

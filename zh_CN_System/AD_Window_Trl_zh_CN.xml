@@ -151,9 +151,9 @@
   <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">输入并更改手工凭证分录</value>
  </row>
  <row id="134" trl="Y">
-  <value column="Name" original="Activity (ABC)">作业成本法 (ABC)</value>
-  <value column="Description" original="Maintain Activities for Activity Based Costing">维护作业成本法的活动</value>
-  <value column="Help" original="The Activity Based Costing Window defines the different activities for which you want to capture costs.">维护作业成本法的活动</value>
+  <value column="Name" original="Activity (ABC)">作业</value>
+  <value column="Description" original="Maintain Activities for Activity Based Costing">作业定义</value>
+  <value column="Help" original="The Activity Based Costing Window defines the different activities for which you want to capture costs.">作业的定义</value>
  </row>
  <row id="135" trl="Y">
   <value column="Name" original="Document Type">单据类型</value>
@@ -241,7 +241,7 @@
   <value column="Help" original="">维护总账预算</value>
  </row>
  <row id="158" trl="Y">
-  <value column="Name" original="Bank / Cash">银行设置</value>
+  <value column="Name" original="Bank / Cash">银行</value>
   <value column="Description" original="Maintain Bank / Cash">维护组织或者合作伙伴的银行和帐户</value>
   <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">维护组织或者合作伙伴的银行和帐户</value>
  </row>
@@ -293,7 +293,7 @@
  <row id="170" trl="Y">
   <value column="Name" original="Inventory Move">调拨单</value>
   <value column="Description" original="Inventory Move">调拨单</value>
-  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">调拨单</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">调拨单允许你从源库位移动存货到目标库位。如果没有调拨确认，点击“单据处理”后会更新库存。</value>
  </row>
  <row id="172" trl="Y">
   <value column="Name" original="Import Business Partner">导入业务伙伴</value>
@@ -412,8 +412,8 @@
  </row>
  <row id="201" trl="Y">
   <value column="Name" original="Request">请求</value>
-  <value column="Description" original="Work on your requests">处理请求</value>
-  <value column="Help" original="The Request Window is used to define and track any request assigned to you.">处理请求</value>
+  <value column="Description" original="Work on your requests">定义和跟踪分配给你的请求</value>
+  <value column="Help" original="The Request Window is used to define and track any request assigned to you.">定义和跟踪分配给你的请求。</value>
  </row>
  <row id="203" trl="Y">
   <value column="Name" original="Request Processor">请求处理器</value>
@@ -593,7 +593,7 @@
  <row id="244" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
   <value column="Description" original="Maintain Request Types">维护请求类型</value>
-  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">维护请求类型</value>
+  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">维护请求类型，比如客户查询、售后问题等。</value>
  </row>
  <row id="245" trl="Y">
   <value column="Name" original="Interest Area">兴趣领域</value>
@@ -1038,7 +1038,7 @@
  <row id="333" trl="Y">
   <value column="Name" original="Move Confirmation">调拨确认</value>
   <value column="Description" original="Confirm Inventory Moves">调拨确认</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">调拨确认</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse."><![CDATA[如果调拨单的单据类型设置了“在途仓库”选项，调拨单会自动创建确认，并在确认后自动完成移库。<br />如果产生确认差异，将自动生成一个原库位库存调整单。如果产生废品差异，将会创建一个目标库位的库位调整单。]]></value>
  </row>
  <row id="334" trl="Y">
   <value column="Name" original="Import Confirmations">导入确认</value>
@@ -1096,19 +1096,19 @@
   <value column="Help" original="Maintain Product Cost Elements">产品成本维护</value>
  </row>
  <row id="345" trl="Y">
-  <value column="Name" original="Request Category">请求分类</value>
+  <value column="Name" original="Request Category">请求类别</value>
   <value column="Description" original="Maintain Request Category">维护请求类别</value>
-  <value column="Help" original="Category or Topic of the Request ">维护请求类别</value>
+  <value column="Help" original="Category or Topic of the Request ">维护请求类别，比如主题维护请求类别，比如主题（维修、售后、市场）。</value>
  </row>
  <row id="346" trl="Y">
   <value column="Name" original="Request Group">请求分组</value>
   <value column="Description" original="Maintain Request Group">维护请求分组</value>
-  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">维护请求分组</value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">维护请求分组，比如版本组、责任人组。</value>
  </row>
  <row id="347" trl="Y">
   <value column="Name" original="Request Resolution">请求结果</value>
-  <value column="Description" original="Maintain Request Resolutions">维护请求的结果方案。</value>
-  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">维护请求的结果方案。</value>
+  <value column="Description" original="Maintain Request Resolutions">维护请求的结果方案</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">维护请求的结果方案，比如已解决、已驳回。</value>
  </row>
  <row id="348" trl="Y">
   <value column="Name" original="Request Standard Response">响应模版</value>
@@ -1118,7 +1118,7 @@
  <row id="349" trl="Y">
   <value column="Name" original="Request Status">请求状态</value>
   <value column="Description" original="Maintain Request Status">维护请求状态</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">维护请求状态</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">维护请求状态，比如正常、关闭、进行中。</value>
  </row>
  <row id="350" trl="Y">
   <value column="Name" original="Web Store">网上商店</value>
@@ -1181,7 +1181,7 @@
   <value column="Help" original="General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.">维护资金控制</value>
  </row>
  <row id="363" trl="Y">
-  <value column="Name" original="System Issue Report">系统报错</value>
+  <value column="Name" original="System Issue Report">系统错误</value>
   <value column="Description" original="Automatically created or manually entered System Issue Reports">维护系统报错的报告</value>
   <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">系统搜索所有报错信息，并生成一份问题报告。</value>
  </row>

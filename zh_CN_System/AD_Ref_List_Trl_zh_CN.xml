@@ -1149,7 +1149,7 @@
   <value column="Description" original="Corporate Purchase Card">公司采购卡</value>
  </row>
  <row id="420" trl="Y">
-  <value column="Name" original="None">无</value>
+  <value column="Name" original="None">无动作</value>
   <value column="Description" original=""/>
  </row>
  <row id="421" trl="Y">
@@ -1209,7 +1209,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="444" trl="Y">
-  <value column="Name" original="Scheduled">计划中</value>
+  <value column="Name" original="Scheduled">运行中</value>
   <value column="Description" original=""/>
  </row>
  <row id="445" trl="Y">
@@ -1685,7 +1685,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="565" trl="Y">
-  <value column="Name" original="GL Journal">凭证</value>
+  <value column="Name" original="GL Journal">凭证批</value>
   <value column="Description" original=""/>
  </row>
  <row id="567" trl="Y">
@@ -1785,15 +1785,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="591" trl="Y">
-  <value column="Name" original="Accessing">访问</value>
+  <value column="Name" original="Accessing">通用访问</value>
   <value column="Description" original="General Access">一般性访问</value>
  </row>
  <row id="592" trl="Y">
-  <value column="Name" original="Reporting">报表</value>
+  <value column="Name" original="Reporting">报表输出</value>
   <value column="Description" original=""/>
  </row>
  <row id="593" trl="Y">
-  <value column="Name" original="Exporting">导出</value>
+  <value column="Name" original="Exporting">数据导出</value>
   <value column="Description" original=""/>
  </row>
  <row id="594" trl="Y">
@@ -2925,35 +2925,35 @@
   <value column="Description" original=""/>
  </row>
  <row id="884" trl="Y">
-  <value column="Name" original="User 1">用户1</value>
+  <value column="Name" original="User 1">用户元素 1</value>
   <value column="Description" original=""/>
  </row>
  <row id="885" trl="Y">
-  <value column="Name" original="User 2">用户2</value>
+  <value column="Name" original="User 2">用户元素 2</value>
   <value column="Description" original=""/>
  </row>
  <row id="886" trl="Y">
-  <value column="Name" original="User 3">用户3</value>
+  <value column="Name" original="User 3">用户元素 3</value>
   <value column="Description" original=""/>
  </row>
  <row id="887" trl="Y">
-  <value column="Name" original="User 4">用户4</value>
+  <value column="Name" original="User 4">用户元素 4</value>
   <value column="Description" original=""/>
  </row>
  <row id="888" trl="Y">
-  <value column="Name" original="CM Container">协同管理容器</value>
+  <value column="Name" original="CM Container">内容管理容器</value>
   <value column="Description" original=""/>
  </row>
  <row id="889" trl="Y">
-  <value column="Name" original="CM Container Stage">协同管理容器阶段</value>
+  <value column="Name" original="CM Container Stage">内容管理容器段</value>
   <value column="Description" original=""/>
  </row>
  <row id="890" trl="Y">
-  <value column="Name" original="CM Template">协同管理模板</value>
+  <value column="Name" original="CM Template">内容管理模板</value>
   <value column="Description" original=""/>
  </row>
  <row id="891" trl="Y">
-  <value column="Name" original="CM Media">协同管理媒介</value>
+  <value column="Name" original="CM Media">内容管理媒介</value>
   <value column="Description" original=""/>
  </row>
  <row id="892" trl="Y">
@@ -5293,8 +5293,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="200112" trl="Y">
-  <value column="Name" original="Like">相似</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Like">Like</value>
+  <value column="Description" original="">匹配操作符</value>
  </row>
  <row id="200113" trl="Y">
   <value column="Name" original="=">=</value>

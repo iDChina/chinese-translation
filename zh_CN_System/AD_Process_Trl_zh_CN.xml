@@ -345,8 +345,8 @@
  </row>
  <row id="175" trl="Y">
   <value column="Name" original="Resubmit Posting">重新过账</value>
-  <value column="Description" original="Resubmit posting of documents with posting errors or locked documents">重新提交带过账错误的单据过账</value>
-  <value column="Help" original="After resubmitting, the accounting engine will try to post the document again. You resubmit documents, if they are locked or when the document had posting errors - after fixing the cause (e.g. opening period).">在会计处理器下次运行之时，含有过账错误的单据被复位和过账 - 在修复原因之后 (如打开期间)。</value>
+  <value column="Description" original="Resubmit posting of documents with posting errors or locked documents">重新过账单据</value>
+  <value column="Help" original="After resubmitting, the accounting engine will try to post the document again. You resubmit documents, if they are locked or when the document had posting errors - after fixing the cause (e.g. opening period).">在修复过账错误后（打开期间、更新成本等），提交这些无法过账的单据（过账错误或者已锁住）在会计处理器下次运行时重新过账。会计处理器每10分钟运行一次。</value>
  </row>
  <row id="176" trl="Y">
   <value column="Name" original="Reset Accounting">重置分录</value>
@@ -643,9 +643,10 @@
   <value column="Help" original="The Project Margin Report for Work Orders compares the Project lines (planned revenue) against the Project issues (actual effort and costs). The margin amount is calculated by subtracting the costs (issue) from the revenue (line).&#10;The costs are in the currency of the Accounting Schema - the lines are in the currency of the price list of the project.">项目毛利报表 (工单) 将项目明细 (计划收入) 与项目投放 (实际投入和成本) 相比较，毛利额为收入 (明细) 减去成本 (投放) 。其中，成本用会计模式的货币表示，明细则用项目价格表的货币表示。</value>
  </row>
  <row id="235" trl="Y">
-  <value column="Name" original="Verify Tree">检查树</value>
+  <value column="Name" original="Verify Tree">检查树-【看帮助再点我】</value>
   <value column="Description" original="Verify completeness and correctness of Tree">检查树的完整性与正确性</value>
-  <value column="Help" original=""/>
+  <value column="Help" original=""><![CDATA[删除树中多余的节点，插入新记录到节点，并重排顺序。<br />
+【注意】如果树不想包含全部节点，比如菜单，不要同时选择“全部节点”，又运行此检查。否则自定义菜单全满了......]]></value>
  </row>
  <row id="236" trl="Y">
   <value column="Name" original="Storage Detail">库存明细</value>
@@ -887,9 +888,9 @@
 供应商/客户类型会更新确认数量，Pick/QA类型会更新拣货数量，收发单类型会更新目标数量，最后单据完成会更新移动数量。]]></value>
  </row>
  <row id="282" trl="Y">
-  <value column="Name" original="Create Package">创建装箱单</value>
-  <value column="Description" original="Create Package for Shipment">为发货创建装箱单</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Create Package">创建物流打包</value>
+  <value column="Description" original="Create Package for Shipment">为发货创建物流包裹</value>
+  <value column="Help" original="">每个包裹可打印唛头，装箱单</value>
  </row>
  <row id="283" trl="Y">
   <value column="Name" original="Process RMA">单据处理_退货授权</value>

@@ -39,8 +39,8 @@
  <row id="106" trl="Y">
   <value column="Name" original="Tab">页签</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tab definition within a window holds fields">窗口内的页签定义，它具有字段</value>
-  <value column="Help" original="The Tab Tab defines each Tab within a Window.  Each Tab contains a discrete selection of fields. Note that the display and read only logic is evaluated when loading the window.">窗口内的页签定义，它具有字段</value>
+  <value column="Description" original="Tab definition within a window holds fields">窗口内的页签定义</value>
+  <value column="Help" original="The Tab Tab defines each Tab within a Window.  Each Tab contains a discrete selection of fields. Note that the display and read only logic is evaluated when loading the window.">页签包含指定的字段，注意窗口加载时页签的只读和显示逻辑。</value>
  </row>
  <row id="107" trl="Y">
   <value column="Name" original="Field">字段</value>
@@ -268,7 +268,8 @@
   <value column="Name" original="Element">会计元素</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Account Element definition">会计科目、成本中心等账户维度元素</value>
-  <value column="Help" original="The Element Tab defines the Name, Description and Format for an Element.  Additionally, a Type of Account or User Defined is selected. Each Account Schema must have an Account Element type.  The User Defined Elements are optional.">用于具体的记账方式会计元素，比如会计科目、成本中心等。科目（自然账户）是最常见的会计维度元素。你可以使用多个会计元素来生成并行报表或者自定义账户维度。</value>
+  <value column="Help" original="The Element Tab defines the Name, Description and Format for an Element.  Additionally, a Type of Account or User Defined is selected. Each Account Schema must have an Account Element type.  The User Defined Elements are optional."><![CDATA[用于具体的记账方式会计元素，比如会计科目、成本中心等。科目（自然账户）是最常见的会计维度元素。你可以使用多个会计元素来生成并行报表或者自定义账户维度。<br />
+【注意】自定义元素的树，必须是“用户1”或者“用户2”，且包含全部树节点，否则无法保存。]]></value>
  </row>
  <row id="154" trl="Y">
   <value column="Name" original="Location">地点地址</value>
@@ -619,7 +620,7 @@
   <value column="Help" original="The Define Bank Account Tab defines the banking information for this business partner.  This data is used for processing payments and remittances.">定义银行账户</value>
  </row>
  <row id="227" trl="Y">
-  <value column="Name" original="Bank / Cash">银行设置</value>
+  <value column="Name" original="Bank / Cash">银行</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Bank">设置组织或者合作伙伴的银行和帐户</value>
   <value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">设置组织或者合作伙伴的银行和帐户</value>
@@ -772,7 +773,7 @@
   <value column="Name" original="Move">调拨单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Inventory Movement">调拨单</value>
-  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">调拨单</value>
+  <value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">调拨单允许你从源库位移动存货到目标库位。如果没有调拨确认，点击“单据处理”后会更新库存。</value>
  </row>
  <row id="260" trl="Y">
   <value column="Name" original="Move Line">调拨明细</value>
@@ -1180,7 +1181,7 @@
   <value column="Name" original="Request">请求</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Request">定义请求</value>
-  <value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">定义请求</value>
+  <value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">定义和跟踪分配给你的请求。</value>
  </row>
  <row id="346" trl="Y">
   <value column="Name" original="Request Processor">请求处理器</value>
@@ -1707,8 +1708,8 @@
  <row id="437" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
   <value column="CommitWarning" original="YES OR NO ?"/>
-  <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">请求类型 (例如 查询， 投诉)</value>
-  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">请求类型 (例如 查询， 投诉)</value>
+  <value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">例如客户查询，售后投诉</value>
+  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">维护请求类型，比如客户查询，售后问题等。</value>
  </row>
  <row id="438" trl="Y">
   <value column="Name" original="Interest Area">兴趣领域</value>
@@ -3034,7 +3035,7 @@
   <value column="Name" original="Confirmation">调拨确认</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Confirm Inventory Moves">确认调拨确认</value>
-  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.">确认调拨确认</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit."><![CDATA[如果调拨单的单据类型设置了“在途仓库”选项，调拨单会自动创建确认，并在确认后自动完成移库。<br />如果产生确认差异，将自动生成一个原库位库存调整单。如果产生废品差异，将会创建一个目标库位的库位调整单。]]></value>
  </row>
  <row id="667" trl="Y">
   <value column="Name" original="Line">明细确认</value>
@@ -3250,7 +3251,7 @@
   <value column="Name" original="Request Status">请求状态</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Request Status">维护请求状态</value>
-  <value column="Help" original="Status if the request (open, closed, investigating, ..)">维护请求状态</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">维护请求状态，比如正常、关闭、进行中。</value>
  </row>
  <row id="703" trl="Y">
   <value column="Name" original="Standard Response">标准响应</value>
@@ -3262,19 +3263,19 @@
   <value column="Name" original="Request Resolution">请求结果</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Request Resolutions">维护请求的结果方案</value>
-  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">维护请求的结果方案</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">维护请求的结果方案，比如已解决、已驳回。</value>
  </row>
  <row id="705" trl="Y">
   <value column="Name" original="Request Group">请求分组</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Request Groups">维护请求分组</value>
-  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...). &#10;If a BOM is referenced  and enabled in Request Type, a BOM Change Request is automatically created.">维护请求分组</value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...). &#10;If a BOM is referenced  and enabled in Request Type, a BOM Change Request is automatically created."><![CDATA[维护请求分组，比如版本组、责任人组。<br />如果BOM被引用，且请求类型打开“自动BOM变更请求”，一份BOM变更请求将被自动创建。]]></value>
  </row>
  <row id="706" trl="Y">
-  <value column="Name" original="Request Category">请求分类</value>
+  <value column="Name" original="Request Category">请求类别</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Request Category">维护请求类别</value>
-  <value column="Help" original="Category or Topic of the Request ">维护请求类别</value>
+  <value column="Help" original="Category or Topic of the Request ">维护请求类别，比如主题（维修、售后、市场）。</value>
  </row>
  <row id="707" trl="Y">
   <value column="Name" original="Download">下载</value>
@@ -3325,22 +3326,22 @@
   <value column="Help" original="">列出接收更新通知的收件人</value>
  </row>
  <row id="715" trl="Y">
-  <value column="Name" original="Update Notification">通知的收件人(全部)</value>
+  <value column="Name" original="Update Notification">请求更新收件人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">列出接收请求通知的收件人</value>
-  <value column="Help" original="">列出接收请求通知的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">请求更新收件人</value>
+  <value column="Help" original="">订阅该类请求更新的收件人</value>
  </row>
  <row id="716" trl="Y">
-  <value column="Name" original="Request Updates">请求更新</value>
+  <value column="Name" original="Request Updates">请求更新收件人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">列出接收请求通知的收件人</value>
-  <value column="Help" original="">列出接收请求通知的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">订阅该组请求更新的收件人</value>
+  <value column="Help" original="">订阅该组请求更新的收件人</value>
  </row>
  <row id="718" trl="Y">
-  <value column="Name" original="Update Notification">通知的收件人(全部)</value>
+  <value column="Name" original="Update Notification">请求更新接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">列出接收请求通知的收件人</value>
-  <value column="Help" original="">列出接收请求通知的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">订阅该类型的请求更新的收件人</value>
+  <value column="Help" original="">订阅该类型的请求更新的收件人。</value>
  </row>
  <row id="719" trl="Y">
   <value column="Name" original="Update Notification">通知的收件人</value>
@@ -3772,8 +3773,8 @@
  <row id="795" trl="Y">
   <value column="Name" original="Status Category">状态类别</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Request Status Category">请求状态分类</value>
-  <value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">请求状态分类</value>
+  <value column="Description" original="Request Status Category">维护请求状态的类别。</value>
+  <value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">为不同的请求类型设置不同的请求状态。</value>
  </row>
  <row id="796" trl="Y">
   <value column="Name" original="Task Line">任务明细</value>
