@@ -3,7 +3,7 @@
  <row id="100" trl="Y">
   <value column="Name" original="Create Periods ">创建期间</value>
   <value column="Description" original="Create 12 standard calendar periods.">新建标准年度期间</value>
-  <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. ">以指定的日期为起始日期新建年度期间。 如果没有指定起始日期，将会默认为1月1日。期间名称将有通过使用JAVA类SimpleDateFormat从起始日期值中得到。比如 y表示年，M表示月，yyyy-MM = 1999-01。</value>
+  <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. ">以指定的日期为起始日期新建年度期间。 如果没有指定起始日期，将会默认为1月1日。期间名称将有通过使用JAVA类SimpleDateFormat从起始日期值中得到。比如 y表示年，M表示月，yyyy-MM = 2017-01。</value>
  </row>
  <row id="101" trl="Y">
   <value column="Name" original="Renumber">重新编号</value>
@@ -1390,8 +1390,8 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Inventory in Process">在制品报表</value>
-  <value column="Description" original="This report show the inventory in process">This report show the inventory in process</value>
-  <value column="Help" original="This report show the inventory in process">This report show the inventory in process</value>
+  <value column="Description" original="This report show the inventory in process">报表按单据日期列出生产库存变动</value>
+  <value column="Help" original="This report show the inventory in process">报表按单据日期列出生产库存变动</value>
  </row>
  <row id="53038" trl="Y">
   <value column="Name" original="Process Cost Collector">处理成本采集</value>
