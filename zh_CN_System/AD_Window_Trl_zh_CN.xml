@@ -117,8 +117,8 @@
  </row>
  <row id="125" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
-  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效， 必须重新登录</value>
-  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">维护会计模式 - 要使更改生效， 必须重新登录</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式，要使更改生效， 必须重新登录</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">定义会计准则和维度，比如科目、产品、地点等。同时可检查和更改总账和缺省账户。过账的实际账户由具体事务的上下文信息和发生组织决定。</value>
  </row>
  <row id="127" trl="Y">
   <value column="Name" original="Test">测试窗口</value>
@@ -388,7 +388,7 @@
  <row id="195" trl="Y">
   <value column="Name" original="Payment">支付单</value>
   <value column="Description" original="Process Payments and Receipts">处理支付业务</value>
-  <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">可按需求分为“付款单”，“收款单”两个窗口</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">对单个发票进行收款和付款。如果对多个发票或者部分发票支付，应在支付分配窗口手工处理。</value>
  </row>
  <row id="196" trl="Y">
   <value column="Name" original="Custom Attribute">定制属性</value>
@@ -548,7 +548,7 @@
  <row id="235" trl="Y">
   <value column="Name" original="Expense Report">费用单</value>
   <value column="Description" original="Time and Expense Report">时间或费用的单据</value>
-  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">时间或费用的单据</value>
+  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">时间报告或费用单记录在项目中支出的时间和费用。</value>
  </row>
  <row id="236" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -987,8 +987,8 @@
  </row>
  <row id="323" trl="Y">
   <value column="Name" original="GL Distribution">总账分配</value>
-  <value column="Description" original="General Ledger Distribution">总账的分配</value>
-  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">总账的分配</value>
+  <value column="Description" original="General Ledger Distribution">总账的账户分配规则</value>
+  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">如果分录账户符合分配规则，分录的账户将被分配行的账户所替换，其金额按照分配行的百分比计算。</value>
  </row>
  <row id="324" trl="Y">
   <value column="Name" original="RfQ Response">询价单响应</value>
@@ -1082,8 +1082,8 @@
  </row>
  <row id="342" trl="Y">
   <value column="Name" original="Invoice Batch">发票批</value>
-  <value column="Description" original="Expense Invoice Batch">费用发票批</value>
-  <value column="Help" original="Enter expense invoices in batch.  After creating the lines, the actual invoices are created when processing the batch">费用发票批</value>
+  <value column="Description" original="Expense Invoice Batch">处理多个业务伙伴的费用发票（非产品发票）</value>
+  <value column="Help" original="Enter expense invoices in batch.  After creating the lines, the actual invoices are created when processing the batch">允许输入多个业务伙伴的应付发票明细，仅能选择杂费。当从批创建发票时，系统根据不同业务伙伴分别生成相应的发票。</value>
  </row>
  <row id="343" trl="Y">
   <value column="Name" original="Cost Element">成本要素</value>
@@ -1880,9 +1880,9 @@
   <value column="Help" original="">管理销售机会的入口。</value>
  </row>
  <row id="53165" trl="Y">
-  <value column="Name" original="Customer">客户维护</value>
-  <value column="Description" original="">客户维护</value>
-  <value column="Help" original="">客户维护</value>
+  <value column="Name" original="Customer">客户</value>
+  <value column="Description" original="">客户</value>
+  <value column="Help" original="">维护客户信息</value>
  </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Toolbar Button">工具栏按钮</value>
@@ -1995,10 +1995,9 @@
   <value column="Help" original="">物流事务记录</value>
  </row>
  <row id="200031" trl="Y">
-  <value column="Name" original="Payments into Batch">支付汇总</value>
-  <value column="Description" original="Process Payments">支付汇总</value>
-  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here."><![CDATA[将小额支付集中成一笔汇总，以方便银行结算和对账，具体流程为：现场支付--做支付单--支付汇总--银行处理。银行对账可以引用“支付汇总”记录而导入所有支付单。<br />
-实际业务中，收到多笔支票或者信用卡凭证后，集中去银行存兑（批量存入）。或者小额支付的汇总都可以使用该功能。]]></value>
+  <value column="Name" original="Payments into Batch">批量存款</value>
+  <value column="Description" original="Process Payments">汇总支付单，准备批量存款（支票和现金）</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here."><![CDATA[选择支付类型、银行账户，将已处理的支付单归集到批量存款，以方便银行结算和对账，具体流程为：现场支付--做支付单--批量汇款--银行处理。银行对账可以引用“批量存款”记录而导入所有支付单。<br />实际业务中，收到多笔支票或者信用卡凭证后，集中去银行存兑（批量存入）。或者小额支付的汇总都可以使用该功能。]]></value>
  </row>
  <row id="200034" trl="Y">
   <value column="Name" original="Context Help">自定义帮助</value>
@@ -2224,5 +2223,15 @@
   <value column="Name" original="pep trans">pep trans</value>
   <value column="Description" original="">pep trans</value>
   <value column="Help" original="">pep trans</value>
+ </row>
+ <row trl="Y" uuid="9ac2e563-c2bb-4d76-aca2-195b128d8326">
+  <value column="Name" original="PrePayment">预收/预付单</value>
+  <value column="Description" original="Process Payments and Receipts">处理预收/预付业务</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">对合同和项目进行预收/付款。</value>
+ </row>
+ <row trl="Y" uuid="243d5c74-eb21-458a-9a36-8a337a082c87">
+  <value column="Name" original="Charge Payment">杂项支付单</value>
+  <value column="Description" original="Process Payments and Receipts for Charge">处理杂项支付业务</value>
+  <value column="Help" original="">无需发票的杂项支付业务</value>
  </row>
 </idempiereTrl>

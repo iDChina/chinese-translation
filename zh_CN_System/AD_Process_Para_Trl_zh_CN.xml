@@ -30,6 +30,16 @@
   <value column="Description" original="Send EMail from user">内部或业务伙伴的联系人</value>
   <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">标识内部或业务伙伴的联系人。</value>
  </row>
+ <row id="398" trl="Y">
+  <value column="Name" original="Statement date">到期日期</value>
+  <value column="Description" original="Date of the statement">账龄计算的截至日期，不填则默认为系统日期</value>
+  <value column="Help" original="The Statement Date field defines the date of the statement.">账龄计算的截至日期，不填则默认为系统日期</value>
+ </row>
+ <row id="405" trl="Y">
+  <value column="Name" original="User/Contact">用户</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。对应实际场景，他/她/它既可以是公司系统的内部用户，也可以是业务伙伴的联系人。</value>
+ </row>
  <row id="452" trl="Y">
   <value column="Name" original="Maintenance Mode">维护模式</value>
   <value column="Description" original="Language Maintenance Mode">语言维护模式</value>
@@ -126,9 +136,9 @@
   <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">装运日期指装运单上的打印日期</value>
  </row>
  <row id="53011" trl="Y">
-  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理的条目</value>
-  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">只有运行催款操作时，才打印未处理(未打印)条目</value>
-  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">只有运行催款操作时，才打印未处理(未打印)条目。这里允许你重新打印某个催款条目</value>
+  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理记录</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">打印后催款记录即标识为“已处理”</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">这允许你重新打印某个催款条目。</value>
  </row>
  <row id="53025" trl="Y">
   <value column="Name" original="Purchase Price List Version">采购价格表版本</value>
@@ -164,6 +174,11 @@
   <value column="Name" original="Generate Fields">生成字段</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+ </row>
+ <row id="53130" trl="Y">
+  <value column="Name" original="Days to keep Log">通知保留天数</value>
+  <value column="Description" original="Number of days to keep the log entries">超过该天数的通知，将被删除。</value>
+  <value column="Help" original="Older Log entries may be deleted">超过该天数的通知，将被删除。</value>
  </row>
  <row id="53131" trl="Y">
   <value column="Name" original="Scripts Path">脚本路径</value>

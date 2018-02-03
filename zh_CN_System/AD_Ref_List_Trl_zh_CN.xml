@@ -302,11 +302,11 @@
  </row>
  <row id="178" trl="Y">
   <value column="Name" original="Complete">完成</value>
-  <value column="Description" original="Generate documents and complete transaction">生成单据并完成事务处理</value>
+  <value column="Description" original="Generate documents and complete transaction">生成关联单据并完成事务处理。</value>
  </row>
  <row id="179" trl="Y">
   <value column="Name" original="Approve">审批</value>
-  <value column="Description" original="Approve this transaction">审批该事务处理</value>
+  <value column="Description" original="Approve this transaction">审批该事务处理，仅供系统内部的审核字段操作。</value>
  </row>
  <row id="180" trl="Y">
   <value column="Name" original="Reject">驳回</value>
@@ -314,15 +314,15 @@
  </row>
  <row id="181" trl="Y">
   <value column="Name" original="Post">过账</value>
-  <value column="Description" original="Post transaction">过账事务处理</value>
+  <value column="Description" original="Post transaction">对单据生成会计分录，并过账到总账。</value>
  </row>
  <row id="182" trl="Y">
   <value column="Name" original="Void">作废</value>
-  <value column="Description" original="Set all quantities to zero and complete transaction">设置所有数量为零，并完成事务处理</value>
+  <value column="Description" original="Set all quantities to zero and complete transaction">设置单据单据数量为零，并反向冲减相关数量。单据作废后，将无法再次操作单据。比如，作废已完成的订单，在途/预留数量将减去订购数量。</value>
  </row>
  <row id="183" trl="Y">
   <value column="Name" original="Close">关闭</value>
-  <value column="Description" original="Finally close this transaction. It cannot be re-activated.">最终关闭该单据事务，无法被再次激活</value>
+  <value column="Description" original="Finally close this transaction. It cannot be re-activated.">只有“完成”状态的单据才能被关闭，该单据事务将无法重新激活修改。</value>
  </row>
  <row id="184" trl="Y">
   <value column="Name" original="Reverse - Correct">红字更正</value>
@@ -338,7 +338,7 @@
  </row>
  <row id="188" trl="Y">
   <value column="Name" original="Re-activate">重新激活</value>
-  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">重新打开单据，并反冲自动生成的单据；事务需要在更改后重新完成。</value>
+  <value column="Description" original="Reopen Document and Reverse automatically generated documents; You need to Complete the transaction after the change. ">单据从“完成”转为“进行中”状态，供继续修改。所有自动生成的关联单据将反冲。你必须在事务后再次完成该单据。比如，采购订单数量=10，此时在途数量=10。完成后重新激活，修改订购数量=13，继续完成，在途数量=13。如果不完成一直进行中，在途数量=10不变，等待该单据下一步动作。</value>
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="&lt;None&gt;"><![CDATA[<无>]]></value>
@@ -850,7 +850,7 @@
  </row>
  <row id="345" trl="Y">
   <value column="Name" original="Prepare">准备</value>
-  <value column="Description" original="Check Document consistency and check Inventory">检查单据的数据连续性和库存</value>
+  <value column="Description" original="Check Document consistency and check Inventory">检查单据的数据连续性，比如产品属性、库存、会计期间等。</value>
  </row>
  <row id="346" trl="Y">
   <value column="Name" original="Waiting Payment">等待支付</value>
@@ -858,7 +858,7 @@
  </row>
  <row id="347" trl="Y">
   <value column="Name" original="Unlock">解锁</value>
-  <value column="Description" original="Unlock Transaction (process error)">解锁事务处理 (处理错误)</value>
+  <value column="Description" original="Unlock Transaction (process error)">解锁事务 (处理错误)</value>
  </row>
  <row id="348" trl="Y">
   <value column="Name" original="Material Physical Inventory">库存调整单</value>
@@ -1365,7 +1365,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="483" trl="Y">
-  <value column="Name" original="Gradient">倾斜度</value>
+  <value column="Name" original="Gradient">渐变</value>
   <value column="Description" original=""/>
  </row>
  <row id="484" trl="Y">
@@ -2174,7 +2174,7 @@
  </row>
  <row id="691" trl="Y">
   <value column="Name" original="Wait Complete">等待完成</value>
-  <value column="Description" original="Wait Condition ok Complete Document">等待条件满足后，自动完成单据</value>
+  <value column="Description" original="Wait Condition ok Complete Document">一旦条件满足，单据将自动完成。比如，预付订单在收款后将自动完成订单，移库确认一旦完成将触发移库单的自动完成。</value>
  </row>
  <row id="692" trl="Y">
   <value column="Name" original="Purchase Order">采购订单</value>
@@ -2533,15 +2533,15 @@
   <value column="Description" original="Internal Commitment">内部承付</value>
  </row>
  <row id="784" trl="Y">
-  <value column="Name" original="PO Commitment only">仅承付</value>
+  <value column="Name" original="PO Commitment only">采购承付</value>
   <value column="Description" original=""/>
  </row>
  <row id="785" trl="Y">
-  <value column="Name" original="PO Commitment &amp; Reservation">承付与保留</value>
+  <value column="Name" original="PO Commitment &amp; Reservation">采购承付与保留</value>
   <value column="Description" original=""/>
  </row>
  <row id="786" trl="Y">
-  <value column="Name" original="None">无</value>
+  <value column="Name" original="None">-无-</value>
   <value column="Description" original=""/>
  </row>
  <row id="787" trl="Y">
@@ -2593,11 +2593,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="799" trl="Y">
-  <value column="Name" original="Document Owner">单据所有者</value>
+  <value column="Name" original="Document Owner">单据的创建人</value>
   <value column="Description" original=""/>
  </row>
  <row id="800" trl="Y">
-  <value column="Name" original="Document Business Partner">单据业务伙伴</value>
+  <value column="Name" original="Document Business Partner">单据的业务伙伴</value>
   <value column="Description" original=""/>
  </row>
  <row id="801" trl="Y">
@@ -3085,19 +3085,19 @@
   <value column="Description" original="">国内常见，卖方提供银行账号，买方直接向该账号汇款</value>
  </row>
  <row id="924" trl="Y">
-  <value column="Name" original="Dunning">催讨</value>
+  <value column="Name" original="Dunning">自行催讨</value>
   <value column="Description" original=""/>
  </row>
  <row id="925" trl="Y">
-  <value column="Name" original="Collection Agency">代理收票</value>
+  <value column="Name" original="Collection Agency">代理催账</value>
   <value column="Description" original=""/>
  </row>
  <row id="926" trl="Y">
-  <value column="Name" original="Legal Procedure">法律流程</value>
+  <value column="Name" original="Legal Procedure">法律程序</value>
   <value column="Description" original=""/>
  </row>
  <row id="927" trl="Y">
-  <value column="Name" original="Uncollectable">无法回票</value>
+  <value column="Name" original="Uncollectable">无法回款</value>
   <value column="Description" original=""/>
  </row>
  <row id="928" trl="Y">
@@ -3353,15 +3353,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="53223" trl="Y">
-  <value column="Name" original="PO/SO Commitment &amp; Reservation">承付与保留</value>
+  <value column="Name" original="PO/SO Commitment &amp; Reservation">采购/销售的承付与保留</value>
   <value column="Description" original=""/>
  </row>
  <row id="53224" trl="Y">
-  <value column="Name" original="SO Commitment only">销售订单仅承付</value>
+  <value column="Name" original="SO Commitment only">销售承付</value>
   <value column="Description" original=""/>
  </row>
  <row id="53225" trl="Y">
-  <value column="Name" original="PO/SO Commitment">采购/销售承付</value>
+  <value column="Name" original="PO/SO Commitment">采购/销售的承付</value>
   <value column="Description" original=""/>
  </row>
  <row id="53227" trl="Y">
@@ -4393,20 +4393,20 @@
   <value column="Description" original=""/>
  </row>
  <row id="53536" trl="Y">
-  <value column="Name" original="Total">汇总</value>
+  <value column="Name" original="Total">汇总（截至终止日期）</value>
   <value column="Description" original=""/>
  </row>
  <row id="53537" trl="Y">
-  <value column="Name" original="Year">财年</value>
+  <value column="Name" original="Year">财年（起止年度范围）</value>
   <value column="Description" original=""/>
  </row>
  <row id="53538" trl="Y">
-  <value column="Name" original="Period">期间</value>
+  <value column="Name" original="Period">期间（起止期间范围）</value>
   <value column="Description" original=""/>
  </row>
  <row id="53540" trl="Y">
-  <value column="Name" original="Natural">自然（损益表按年 + 负债表按汇总）</value>
-  <value column="Description" original="Year for P &amp; L account, Total for Balance Sheet account"><![CDATA[Year for P & L account, Total for Balance Sheet account]]></value>
+  <value column="Name" original="Natural">账户（BS类型科目或者年度范围）</value>
+  <value column="Description" original="Year for P &amp; L account, Total for Balance Sheet account">分录表的取数规则：非损益和非成本类型科目，或者指定财年范围</value>
  </row>
  <row id="53541" trl="Y">
   <value column="Name" original="Balance (expected sign)">余额（预设方向）</value>
@@ -4521,7 +4521,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53596" trl="Y">
-  <value column="Name" original="Modify">修改</value>
+  <value column="Name" original="Modify">变更</value>
   <value column="Description" original=""/>
  </row>
  <row id="53597" trl="Y">
@@ -4701,15 +4701,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="53663" trl="Y">
-  <value column="Name" original="Financing">财务模式</value>
+  <value column="Name" original="Financing">财务金融</value>
   <value column="Description" original=""/>
  </row>
  <row id="53664" trl="Y">
-  <value column="Name" original="Investment">投资信用</value>
+  <value column="Name" original="Investment">资产投资</value>
   <value column="Description" original=""/>
  </row>
  <row id="53665" trl="Y">
-  <value column="Name" original="Operational">操作</value>
+  <value column="Name" original="Operational">日常营运</value>
   <value column="Description" original=""/>
  </row>
  <row id="53666" trl="Y">
@@ -4749,19 +4749,19 @@
   <value column="Description" original=""/>
  </row>
  <row id="53675" trl="Y">
-  <value column="Name" original="1_Initial Balance">账户余额</value>
+  <value column="Name" original="1_Initial Balance">1_期初余额</value>
   <value column="Description" original=""/>
  </row>
  <row id="53676" trl="Y">
-  <value column="Name" original="2_Plan">预计完成日期</value>
+  <value column="Name" original="2_Plan">2_现金计划</value>
   <value column="Description" original=""/>
  </row>
  <row id="53677" trl="Y">
-  <value column="Name" original="3_Commitments (Orders)">指定订单佣金</value>
+  <value column="Name" original="3_Commitments (Orders)">3_订单承诺</value>
   <value column="Description" original=""/>
  </row>
  <row id="53678" trl="Y">
-  <value column="Name" original="4_Actual Debt (Invoices)">业务伙伴发票</value>
+  <value column="Name" original="4_Actual Debt (Invoices)">4_发票金额</value>
   <value column="Description" original=""/>
  </row>
  <row id="53682" trl="Y">

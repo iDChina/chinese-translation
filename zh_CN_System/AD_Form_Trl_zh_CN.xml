@@ -63,12 +63,11 @@
  <row id="112" trl="Y">
   <value column="Name" original="Merge Entities">合并记录</value>
   <value column="Description" original="Merge From Entity to To Entity - Delete From">从一个实体合并到另一个实体 - 删除原实体</value>
-  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version."><![CDATA[<i>&lt;i&gt;危险 - 请务必清楚当前正在执行的操作！&lt;/i&gt;</i>
-源个体（例如客户A）的所有实例都会被更改到目标个体（例如客户B）。
-源个体（例如客户A）将被删除。
-&lt;p&gt;&lt;b&gt;无法撤消，也无法追查！请首先进行备份&lt;/b&gt; 请注意，这可能更改历史记录 (例如发票等) ! &lt;/p&gt;
-lt;/p&gt;&lt;p&gt;负面影响：&lt;/b&gt; 合并产品可能导致产品成本不正确；合并业务伙伴可能会导致开放账目平衡不正确。请联系技术支持，以获得纠正方法。
-&lt;p&gt;&lt;b&gt;限制性条款：&lt;/b&gt; 会计和库存冲突在当前版本中尚不能解决。]]></value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;"><![CDATA[<i>危险 - 请务必清楚当前正在执行的操作！该操作无法撤消，也无法追溯！如果继续，请提前做好备份</i>
+源对象（例如客户A）的所有实例都会被更改到目标个体（例如客户B），源对象将被删除。<br />
+负面影响：合并产品可能导致产品成本不正确；合并业务伙伴可能导致未清余额不正确；可能更改历史记录 (例如发票等)。<br />
+当前限制：会计和库存冲突在当前版本中尚不能解决。<br />
+【请联系技术支持，以获得正确的结果】。]]></value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="POS">POS 终端</value>

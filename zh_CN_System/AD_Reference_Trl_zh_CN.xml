@@ -1577,8 +1577,8 @@
  </row>
  <row id="50002" trl="Y">
   <value column="Name" original="Package_Releases">Package_Releases</value>
-  <value column="Description" original="List of Package Releases">安装的包的列表</value>
-  <value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">说明：包开放给谁.不输入指定开放指令则表明包是开放给所有</value>
+  <value column="Description" original="List of Package Releases">应用包的目标版本</value>
+  <value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">表示应用包的目标版本，如果不输入，表示适用于所有版本。</value>
  </row>
  <row id="50003" trl="Y">
   <value column="Name" original="AD_Package_Exp_DB">AD_Package_Exp_DB</value>
@@ -2407,7 +2407,7 @@
  </row>
  <row id="200022" trl="Y">
   <value column="Name" original="AD_BroadcastMessage_Target">AD_BroadcastMessage_Target</value>
-  <value column="Description" original="Target Client">AD_实体</value>
+  <value column="Description" original="Target Client">AD_广播目标</value>
   <value column="Help" original=""/>
  </row>
  <row id="200023" trl="Y">
@@ -2497,7 +2497,7 @@
  </row>
  <row id="200045" trl="N">
   <value column="Name" original="C_BP_Group">C_BP_Group</value>
-  <value column="Description" original="Business Partner Group">Business Partner Group</value>
+  <value column="Description" original="Business Partner Group">业务伙伴组</value>
   <value column="Help" original=""/>
  </row>
  <row id="200046" trl="N">
@@ -2527,7 +2527,7 @@
  </row>
  <row id="200055" trl="N">
   <value column="Name" original="M_AttributeSet">M_AttributeSet</value>
-  <value column="Description" original="Attribute Set">Attribute Set</value>
+  <value column="Description" original="Attribute Set">属性集</value>
   <value column="Help" original=""/>
  </row>
  <row id="200056" trl="Y">
@@ -2727,7 +2727,7 @@
  </row>
  <row trl="N" uuid="c5b95ab6-1230-4f01-abf5-87ec0d631a7a">
   <value column="Name" original="Locator_X">Locator_X</value>
-  <value column="Description" original="All X Position of Locators">All X Position of Locators</value>
+  <value column="Description" original="All X Position of Locators">库位的所有X坐标</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="bb0a6404-830e-4b59-b95d-371c04930bf7">
@@ -2822,7 +2822,7 @@
  </row>
  <row trl="N" uuid="5446a340-474b-48c3-aef4-fff6bf5d06ad">
   <value column="Name" original="AD_Client All">AD_Client All</value>
-  <value column="Description" original="All Clients">All Clients</value>
+  <value column="Description" original="All Clients">所有实体</value>
   <value column="Help" original=""/>
  </row>
  <row trl="N" uuid="ad23d672-4307-44d2-9fd4-3cd338ffd931">
@@ -3003,6 +3003,11 @@
  <row trl="N" uuid="963b0ab3-6c78-4811-8f74-3e283384d4ab">
   <value column="Name" original="pep_pz_ID">pep_pz_ID</value>
   <value column="Description" original="pep_pz_ID">pep_pz_ID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ca8a5577-7d6b-4c6c-9959-6513f56fe14b">
+  <value column="Name" original="AD_Org (Trx = Department)">AD_Org (Trx = Department)</value>
+  <value column="Description" original="Organization -&gt; info -&gt; org type color = 104">Organization selection, no summary, no 0</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

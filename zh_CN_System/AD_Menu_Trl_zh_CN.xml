@@ -145,8 +145,8 @@
   <value column="Description" original="iDempiere Workflow">iDempiere工作流</value>
  </row>
  <row id="522" trl="Y">
-  <value column="Name" original="Costing">成本计算</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Costing">成本核算</value>
+  <value column="Description" original="">产品的成本核算</value>
  </row>
  <row id="528" trl="Y">
   <value column="Name" original="Request">请求管理</value>
@@ -289,8 +289,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="53296" trl="Y">
-  <value column="Name" original="Manufacturing">简单制造</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Manufacturing">组装拆解</value>
+  <value column="Description" original="">简单的仓库组装和拆解</value>
  </row>
  <row id="53363" trl="Y">
   <value column="Name" original="Sales Management">客户关系</value>
@@ -369,8 +369,8 @@
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="34f97164-55e4-4fb3-8e96-5e1301634007">
-  <value column="Name" original="Master Data">主数据</value>
-  <value column="Description" original="Enterprise information asset">企业信息资产，比如产品、合作伙伴</value>
+  <value column="Name" original="Master Data">基础数据</value>
+  <value column="Description" original="Enterprise information asset">企业主数据信息，比如产品、合作伙伴</value>
  </row>
  <row trl="Y" uuid="de5eeb52-3f65-4080-89f1-03aa6f9a0afd">
   <value column="Name" original="Warehouse Management">仓库管理</value>
@@ -379,5 +379,49 @@
  <row trl="Y" uuid="a2f3f506-1509-44c2-84b5-899736fa33a0">
   <value column="Name" original="Human Management">用户管理</value>
   <value column="Description" original="Human Management">用户管理</value>
+ </row>
+ <row trl="Y" uuid="9efd9cb4-0aa8-457b-a6db-4ffb07f720d0">
+  <value column="Name" original="RFQ Management">询价管理</value>
+  <value column="Description" original="RFQ Management">询价管理</value>
+ </row>
+ <row trl="Y" uuid="9fabb739-43b0-4014-9361-2267ee756252">
+  <value column="Name" original="PR Management">请购管理</value>
+  <value column="Description" original="PR Management">请购管理</value>
+ </row>
+ <row trl="Y" uuid="2a2eda5b-e58a-468f-8519-9c5d4acb54cc">
+  <value column="Name" original="TimeExpense Management">费用管理</value>
+  <value column="Description" original="TimeExpense Management">费用管理</value>
+ </row>
+ <row trl="Y" uuid="40a1d026-bf59-45d9-b6f2-3e4737892a99">
+  <value column="Name" original="Move Management">调拨管理</value>
+  <value column="Description" original="Move Management">调拨管理</value>
+ </row>
+ <row trl="Y" uuid="25d9d5b0-3670-4bd9-90c0-cf3b5a46fe7d">
+  <value column="Name" original="Perpetual Inv Management">库存盘点</value>
+  <value column="Description" original="Perpetual Inv Management">库存盘点</value>
+ </row>
+ <row trl="Y" uuid="6b168bac-8e7c-4076-9b52-523fd24129ad">
+  <value column="Name" original="InOut Management">收发管理</value>
+  <value column="Description" original="InOut Management">收发管理</value>
+ </row>
+ <row trl="Y" uuid="7b1887e6-7bc2-4376-9213-8ee1ff5afc58">
+  <value column="Name" original="Inventory Report">库存报表</value>
+  <value column="Description" original="Inventory Report">库存报表</value>
+ </row>
+ <row trl="Y" uuid="69590f7c-bea8-4518-90ab-b55d3af3e085">
+  <value column="Name" original="Interface Management">接口管理</value>
+  <value column="Description" original="Interface Management">接口管理</value>
+ </row>
+ <row trl="Y" uuid="ec43a2fd-2d3d-40f1-94df-8f54ab1cd798">
+  <value column="Name" original="Accounting Management">财务管理</value>
+  <value column="Description" original="Accounting Management">财务管理</value>
+ </row>
+ <row trl="Y" uuid="fe26ffb0-f859-4583-9398-24a0162d9963">
+  <value column="Name" original="myReport 1">myReport 1</value>
+  <value column="Description" original="myReport 1">myReport 1</value>
+ </row>
+ <row trl="Y" uuid="79f5ba49-05dd-458b-9fd9-49bf90e58c56">
+  <value column="Name" original="POS Management">POS 管理</value>
+  <value column="Description" original="POS Management">POS 管理</value>
  </row>
 </idempiereTrl>

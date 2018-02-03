@@ -475,9 +475,9 @@
  </row>
  <row id="199" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
-  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">如果更改币种或成本计算方法，则必须重置所有的会计事务处理。需要重新登录并重新启动应用服务器，此处所作的更改才会生效</value>
+  <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">如果更改“币种”或“成本计算方法”，则必须重新过账所有会计事务。重启应用服务器后登录，会计模式的更改才会生效。</value>
   <value column="Description" original="Define your Account Schema Structure">定义会计模式结构</value>
-  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">定义会计模式结构</value>
+  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">定义会计准则和货币，你可以使用多个账套并行记账。如果模式有效且定义了总账和缺省账户，系统将根据单据规则自动生成分录。</value>
  </row>
  <row id="200" trl="Y">
   <value column="Name" original="General Ledger">总账</value>
@@ -1103,7 +1103,10 @@
   <value column="Name" original="Payment">收款/付款单</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Payment or Receipt">处理支付业务</value>
-  <value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">处理支付业务</value>
+  <value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge."><![CDATA[可按需求分成“收款单”，“付款单”，“预付单”，“预收单”，“杂项支付单”。<br />
+单据选择了合作伙伴后，只能选择“发票”，“订单”，"杂费“的其中一种方式。<br />
+预收/预付单，表示对订单或项目（不能添加杂费或发票）的支付。系统会自动勾选“预收/预付”选项。<br />
+杂项支付单，表示对杂费的支付，比如员工借款。]]></value>
  </row>
  <row id="331" trl="Y">
   <value column="Name" original="Accounting">会计</value>
@@ -1340,10 +1343,10 @@
   <value column="Help" original="">维护财务报表明细</value>
  </row>
  <row id="377" trl="Y">
-  <value column="Name" original="Report Source">报表来源</value>
+  <value column="Name" original="Report Source">数据源</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Segment Values of Report Line Source ">维护报表行来源范围值 </value>
-  <value column="Help" original="">维护报表行来源范围值 </value>
+  <value column="Description" original="Maintain Segment Values of Report Line Source ">维护报表行账户段的数据来源</value>
+  <value column="Help" original="">维护报表行账户段的数据来源</value>
  </row>
  <row id="378" trl="Y">
   <value column="Name" original="Revenue Recognition Plan">收入确认计划</value>
@@ -1547,7 +1550,8 @@
   <value column="Name" original="Report Line">费用明细</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Time and Expense Report Line">时间与费用报表明细</value>
-  <value column="Help" original="Enter the expense items and billable or non-billable hours. If you enter a non-zero amount in Invoiced Amount, that amount will be used for billing the customer - otherwise the price on the current sales price list of the customer.">时间与费用报表明细</value>
+  <value column="Help" original="Enter the expense items and billable or non-billable hours. If you enter a non-zero amount in Invoiced Amount, that amount will be used for billing the customer - otherwise the price on the current sales price list of the customer."><![CDATA[输入费用项目或者不可计费的时间。如果开票金额不为0，该金额将对客户生成应收发票，否则使用销售价格表的价格开票。<br />
+如果选择“是否开票”，可对该费用明细生成客户的销售订单（赊销），完成订单后将自动产生发货和应收发票。]]></value>
  </row>
  <row id="414" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -1675,10 +1679,10 @@
   <value column="Help" original="">要开票的业务伙伴 (客户)</value>
  </row>
  <row id="432" trl="Y">
-  <value column="Name" original="Report Line">报表明细</value>
+  <value column="Name" original="Report Line">费用明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Time and Expense Report Line (not invoiced)">时间与明细报表明细 (未开票)</value>
-  <value column="Help" original="View and modify Time and Expense Report Lines.  It lists expense items for the business partner on the expense line where the expense lines have no orders yet. (Sales Orders are created).">时间与明细报表明细 (未开票)</value>
+  <value column="Description" original="Time and Expense Report Line (not invoiced)">时间与费用明细 (未开票)</value>
+  <value column="Help" original="View and modify Time and Expense Report Lines.  It lists expense items for the business partner on the expense line where the expense lines have no orders yet. (Sales Orders are created).">查看和修改时间与费用明细。该明细还未生成订单。</value>
  </row>
  <row id="433" trl="Y">
   <value column="Name" original="Item Translation">格式项翻译</value>
@@ -2102,10 +2106,10 @@
   <value column="Help" original="The definition of the altert or action">定义预警的规则的定义</value>
  </row>
  <row id="506" trl="Y">
-  <value column="Name" original="Alert Recipient">预警收件人</value>
+  <value column="Name" original="Alert Recipient">接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Recipient of the Alert Notification">预警消息的接收者</value>
-  <value column="Help" original="You can send the notifications to users or roles">预警消息的接收者</value>
+  <value column="Description" original="Recipient of the Alert Notification">预警消息的接收人</value>
+  <value column="Help" original="You can send the notifications to users or roles">预警消息的接收人</value>
  </row>
  <row id="507" trl="Y">
   <value column="Name" original="Bank Statement">银行对账单</value>
@@ -2876,10 +2880,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="639" trl="Y">
-  <value column="Name" original="Scheduler Recipient">计划任务接收者</value>
+  <value column="Name" original="Scheduler Recipient">计划任务接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Recipient of the Scheduler Notification">计划任务通知的接收者</value>
-  <value column="Help" original="You can send the notifications to users or roles">计划任务通知的接收者</value>
+  <value column="Description" original="Recipient of the Scheduler Notification">计划任务通知的接收人</value>
+  <value column="Help" original="You can send the notifications to users or roles">计划任务通知的接收人</value>
  </row>
  <row id="640" trl="Y">
   <value column="Name" original="Tax ZIP">税邮编</value>
@@ -2914,8 +2918,9 @@
  <row id="646" trl="Y">
   <value column="Name" original="Distribution">总账分配</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="General Ledger Distribution">总账的分配</value>
-  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  &#10;The distribution is prorated based on the percentage of the lines. If the total percent is less then 100 and one line is 0 (null), it gets the remainder.  If there is no line with 0, any rounding is adjusted in the line with the biggest amount.">总账的分配</value>
+  <value column="Description" original="General Ledger Distribution">总账分配的规则定义</value>
+  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  &#10;The distribution is prorated based on the percentage of the lines. If the total percent is less then 100 and one line is 0 (null), it gets the remainder.  If there is no line with 0, any rounding is adjusted in the line with the biggest amount."><![CDATA[如果分录账户符合分配规则，分录的账户将被分配行的账户所替换，其金额按照分配行的百分比计算。
+<br />如果分配行比例合计不等于100%，该规则将无法作用。]]></value>
  </row>
  <row id="647" trl="Y">
   <value column="Name" original="Line">分配行</value>
@@ -3202,14 +3207,14 @@
  <row id="694" trl="Y">
   <value column="Name" original="Invoice Batch">发票批</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Expense Invoice Batch Header">输入费用发票批的标头</value>
-  <value column="Help" original="Set Currency and decide if this for AR (sales) Invoices or AP (vendor) invoices. Optionally enter a Control amount.">输入费用发票批的标头</value>
+  <value column="Description" original="Enter Expense Invoice Batch Header">定义发票批的类型（应收或者应付），可选输入控制金额。</value>
+  <value column="Help" original="Set Currency and decide if this for AR (sales) Invoices or AP (vendor) invoices. Optionally enter a Control amount.">允许输入多个业务伙伴的应付发票明细，仅能选择杂费。当从批创建发票时，系统根据不同业务伙伴分别生成相应的发票。</value>
  </row>
  <row id="695" trl="Y">
   <value column="Name" original="Batch Line">批明细</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Expense Invoice Batch Line">输入费用发票批的行</value>
-  <value column="Help" original="A new invoice is created, if there is a different Document Number, Business Partner or Location (address).&#10;Note that the Document Number may be overwritten - depending on the Number control of the selected Document Type.">输入费用发票批的行</value>
+  <value column="Description" original="Enter Expense Invoice Batch Line">输入费用发票批明细</value>
+  <value column="Help" original="A new invoice is created, if there is a different Document Number, Business Partner or Location (address).&#10;Note that the Document Number may be overwritten - depending on the Number control of the selected Document Type.">如果明细的单号、业务伙伴或者地点不同，系统将生成不同的发票。【注意】单据号可能会被单据类型的变动所替代。</value>
  </row>
  <row id="696" trl="Y">
   <value column="Name" original="Org Access">组织权限</value>
@@ -3269,7 +3274,7 @@
   <value column="Name" original="Request Group">请求分组</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Request Groups">维护请求分组</value>
-  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...). &#10;If a BOM is referenced  and enabled in Request Type, a BOM Change Request is automatically created."><![CDATA[维护请求分组，比如版本组、责任人组。<br />如果BOM被引用，且请求类型打开“自动BOM变更请求”，一份BOM变更请求将被自动创建。]]></value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...). &#10;If a BOM is referenced  and enabled in Request Type, a BOM Change Request is automatically created."><![CDATA[维护请求分组，比如版本组、责任人组。<br />如果BOM被引用，且请求类型打开“自动创建变更请求”，一份BOM变更请求将被自动创建。]]></value>
  </row>
  <row id="706" trl="Y">
   <value column="Name" original="Request Category">请求类别</value>
@@ -3320,40 +3325,42 @@
   <value column="Help" original=""/>
  </row>
  <row id="714" trl="Y">
-  <value column="Name" original="Update Notification">通知的收件人</value>
+  <value column="Name" original="Update Notification">接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">列出接收更新通知的收件人</value>
-  <value column="Help" original="">列出接收更新通知的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">请求更新的直接接收人</value>
+  <value column="Help" original="">如果请求更新人的邮件未设置，将发送系统内通知到请求接收人。</value>
  </row>
  <row id="715" trl="Y">
-  <value column="Name" original="Update Notification">请求更新收件人</value>
+  <value column="Name" original="Update Notification">接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">请求更新收件人</value>
-  <value column="Help" original="">订阅该类请求更新的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">该类别下的请求更新的接收人，比如类别的负责人</value>
+  <value column="Help" original="">如果请求更新人的邮件未设置，将发送系统内通知到请求类别接收人。</value>
  </row>
  <row id="716" trl="Y">
-  <value column="Name" original="Request Updates">请求更新收件人</value>
+  <value column="Name" original="Request Updates">接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">订阅该组请求更新的收件人</value>
-  <value column="Help" original="">订阅该组请求更新的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">该分组下的请求更新的接收人，比如分组的负责人</value>
+  <value column="Help" original="">如果请求更新人的邮件未设置，将发送系统内通知到请求组接收人。</value>
  </row>
  <row id="718" trl="Y">
-  <value column="Name" original="Update Notification">请求更新接收人</value>
+  <value column="Name" original="Update Notification">接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">订阅该类型的请求更新的收件人</value>
-  <value column="Help" original="">订阅该类型的请求更新的收件人。</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">该类型下的请求更新的接收人，比如类型的负责人</value>
+  <value column="Help" original="">如果请求更新人的邮件未设置，将发送系统内通知到请求类型接收人。</value>
  </row>
  <row id="719" trl="Y">
-  <value column="Name" original="Update Notification">通知的收件人</value>
+  <value column="Name" original="Update Notification">接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List Recipients for to receive Request Updates">列出所有接收更新通知的收件人</value>
-  <value column="Help" original="">列出所有接收更新通知的收件人</value>
+  <value column="Description" original="List Recipients for to receive Request Updates">请求更新的直接接收人</value>
+  <value column="Help" original="">如果请求更新人的邮件未设置，将发送系统内通知到请求接收人。</value>
  </row>
  <row id="720" trl="Y">
-  <value column="Name" original="Update Recipients">更新的收件人</value>
+  <value column="Name" original="Update Recipients">所有接收人</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Display Recipients of Request Updates">显示更新请求的收件人</value>
-  <value column="Help" original="List of Recipients of Request Updates (with reason).&lt;br&gt;&#10;Direct: Sales Rep, User and direct subscribers&#10;Indirect: Users with Role, Subscribers of updates for Request Category, Type, Group)">显示更新请求的收件人</value>
+  <value column="Description" original="Display Recipients of Request Updates">显示所有的请求相关接收人</value>
+  <value column="Help" original="List of Recipients of Request Updates (with reason).&lt;br&gt;&#10;Direct: Sales Rep, User and direct subscribers&#10;Indirect: Users with Role, Subscribers of updates for Request Category, Type, Group)"><![CDATA[如果请求更新人的邮件未设置，将发送系统内通知到接收人。<br />
+直接接收人：业务代表，用户和直接订阅者。<br />
+间接接收人：角色用户，请求组/请求类型/请求类别接收人。]]></value>
  </row>
  <row id="721" trl="Y">
   <value column="Name" original="Position">职位</value>
@@ -5759,8 +5766,8 @@
  <row id="53456" trl="Y">
   <value column="Name" original="Customer">客户</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Customer information">客户信息</value>
-  <value column="Help" original="">客户信息</value>
+  <value column="Description" original="Customer information">维护客户信息</value>
+  <value column="Help" original="">维护客户信息</value>
  </row>
  <row id="53457" trl="Y">
   <value column="Name" original="Contacts">联系清单</value>
@@ -6123,11 +6130,10 @@
   <value column="Help" original="The RMA Tax Tab displays the tax associated with the RMA Lines.">退货授权的税额</value>
  </row>
  <row id="200067" trl="Y">
-  <value column="Name" original="Batch">支付汇总</value>
+  <value column="Name" original="Batch">批量存款</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="">汇总归集支付单</value>
-  <value column="Help" original=""><![CDATA[选择支付类型、银行账户，将已处理的支付单归集到汇总批，以方便银行结算和对账，具体流程为：现场支付--做支付单--支付汇总--银行处理。银行对账可以引用“支付汇总”记录而导入所有支付单。<br />
-实际业务中，收到多笔支票或者信用卡凭证后，集中去银行存兑（批量存入）。或者小额支付的汇总都可以使用该功能。]]></value>
+  <value column="Description" original="">汇总支付单，准备批量存款（支票和现金）</value>
+  <value column="Help" original=""><![CDATA[选择支付类型、银行账户，将已处理的支付单归集到批量存款，以方便银行结算和对账，具体流程为：现场支付--做支付单--批量汇款--银行处理。银行对账可以引用“批量存款”记录而导入所有支付单。<br />实际业务中，收到多笔支票或者信用卡凭证后，集中去银行存兑（批量存入）。或者小额支付的汇总都可以使用该功能。]]></value>
  </row>
  <row id="200068" trl="Y">
   <value column="Name" original="Lines">支付清单</value>
@@ -6899,10 +6905,28 @@ The 'View Column' Tab will store the columns someID, someName in the SELECT clau
   <value column="Description" original="">流程参数</value>
   <value column="Help" original=""/>
  </row>
- <row trl="N" uuid="aa397bfa-bcb8-4d38-817d-75cfea62a7f0">
+ <row trl="Y" uuid="aa397bfa-bcb8-4d38-817d-75cfea62a7f0">
   <value column="Name" original="Info">Info</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="62e79cd0-0464-4645-85c0-63c24fe7a175">
+  <value column="Name" original="Payment">预收/预付</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Payment or Receipt">对订单和项目进行预收/付款。</value>
+  <value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">预收/预付单，表示对订单或项目（不能添加杂费或发票）的支付。系统会自动勾选“预收/预付”选项。</value>
+ </row>
+ <row trl="Y" uuid="3d13e1f1-ee92-4bc2-b816-751329d13cca">
+  <value column="Name" original="Allocations">已分配发票</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">支付与发票的已分配明细</value>
+  <value column="Help" original="">支付与发票的已分配明细</value>
+ </row>
+ <row trl="Y" uuid="064ff3f4-1022-45c3-9e14-36cf2af33e3a">
+  <value column="Name" original="Charge Payment">杂项支付单</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Payment or Receipt for Charge">处理杂费的支付</value>
+  <value column="Help" original="">处理杂费的支付，无需发票</value>
  </row>
 </idempiereTrl>

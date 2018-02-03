@@ -50,6 +50,11 @@
   <value column="Description" original="Column which controls all tabs in the workbench">数据库表中的列</value>
   <value column="Help" original="">数据库表中的列。</value>
  </row>
+ <row id="5456" trl="Y">
+  <value column="Name" original="Invoiced">是否开票</value>
+  <value column="Description" original="Is this invoiced?">如果选择，表示将创建客户应收发票</value>
+  <value column="Help" original="If selected, invoices are created">如果选择，表示将创建客户应收发票。通过流程“从费用报告创建销售订单”可创建对客户的费用销售订单（赊销），并可产生应付发票。</value>
+ </row>
  <row id="5899" trl="Y">
   <value column="Name" original="System Name">系统名称</value>
   <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">命名iDempiere系统安装， 例如：Joe Block， Inc</value>
@@ -561,5 +566,15 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="Amount">数量</value>
   <value column="Description" original="Amount">数量</value>
   <value column="Help" original="Amount">数量</value>
+ </row>
+ <row trl="Y" uuid="7057d1fe-2bd5-43e0-9d9b-423f3b43f4a9">
+  <value column="Name" original="Tax Amount">税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理。</value>
+ </row>
+ <row trl="Y" uuid="39a81c95-2f04-46ca-a315-2db9b85024d7">
+  <value column="Name" original="Tax Amount">税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理。</value>
  </row>
 </idempiereTrl>
