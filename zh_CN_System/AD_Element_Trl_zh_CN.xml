@@ -73,8 +73,8 @@
  <row id="109" trl="Y">
   <value column="Name" original="Language">语言</value>
   <value column="PrintName" original="Language">语言</value>
-  <value column="Description" original="Language for this entity">该个体的语言</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting">该个体的语言</value>
+  <value column="Description" original="Language for this entity">实体对象的语言</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting">用于显示和格式实体对象的语言。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -520,8 +520,8 @@
  <row id="163" trl="Y">
   <value column="Name" original="Approval Amount">审批金额</value>
   <value column="PrintName" original="Approval Amt">审批金额</value>
-  <value column="Description" original="The approval amount limit for this role">该角色的审批金额限制</value>
-  <value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents.">该角色的审批金额限制</value>
+  <value column="Description" original="The approval amount limit for this role">该角色的可审批的最大金额</value>
+  <value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents.">该角色对单据可审批的最大金额。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1758,8 +1758,9 @@
  <row id="348" trl="Y">
   <value column="Name" original="Active">有效</value>
   <value column="PrintName" original="Active">有效</value>
-  <value column="Description" original="The record is active in the system">记录在系统中处于活跃状态</value>
-  <value column="Help" original="There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.&#10;There are two reasons for de-activating and not deleting records:&#10;(1) The system requires the record for audit purposes.&#10;(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries.">记录在系统中处于活跃状态</value>
+  <value column="Description" original="The record is active in the system">记录在系统中处于有效状态</value>
+  <value column="Help" original="There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.&#10;There are two reasons for de-activating and not deleting records:&#10;(1) The system requires the record for audit purposes.&#10;(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries."><![CDATA[删除记录和取消有效，都可导致记录为不可用状态。取消有效的记录将不能再被选择输入，但它可以用于报表用途。<br />
+无效的记录需要留存在系统中以被审计和继续引用。比如，你不能删除某个业务伙伴记录，因为某些过去的发票正在使用这个业务伙伴。你可以将该业务伙伴失效，以防止未来继续使用。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1776,10 +1777,10 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="351" trl="Y">
-  <value column="Name" original="Approved">已审批</value>
-  <value column="PrintName" original="Approved">已审批</value>
+  <value column="Name" original="Approved">是否审批</value>
+  <value column="PrintName" original="Approved">是否审批</value>
   <value column="Description" original="Indicates if this document requires approval">表示该单据是否需要审批</value>
-  <value column="Help" original="The Approved checkbox indicates if this document requires approval before it can be processed.">表示该单据是否需要审批</value>
+  <value column="Help" original="The Approved checkbox indicates if this document requires approval before it can be processed.">表示该单据完成前是否需要审批</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -9940,10 +9941,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1743" trl="Y">
-  <value column="Name" original="Discount calculated from Line Amounts">明细金额折扣计算</value>
-  <value column="PrintName" original="Discount calculated from Line Amounts">明细金额折扣计算</value>
-  <value column="Description" original="Payment Discount calculation does not include Taxes and Charges">付款折扣计算不包括税与杂费</value>
-  <value column="Help" original="If the payment discount is calculated from line amounts only, the tax and charge amounts are not included. This is e.g. business practice in the US.  If not selected the total invoice amount is used to calculate the payment discount.">付款折扣计算不包括税与杂费</value>
+  <value column="Name" original="Discount calculated from Line Amounts">净额折扣</value>
+  <value column="PrintName" original="Discount calculated from Line Amounts">净额折扣</value>
+  <value column="Description" original="Payment Discount calculation does not include Taxes and Charges">折扣计算不含税和杂费，只计算净额折扣</value>
+  <value column="Help" original="If the payment discount is calculated from line amounts only, the tax and charge amounts are not included. This is e.g. business practice in the US.  If not selected the total invoice amount is used to calculate the payment discount.">折扣只计算明细净额，不包括税和杂费，否则使用单据总额计算折扣。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -17327,8 +17328,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2533" trl="Y">
   <value column="Name" original="Approval Amount">审批金额</value>
   <value column="PrintName" original="Approval Amt">审批金额</value>
-  <value column="Description" original="Document Approval Amount">单据审批金额</value>
-  <value column="Help" original="Approval Amount for Workflow">单据审批金额</value>
+  <value column="Description" original="Document Approval Amount">该单据的审批金额</value>
+  <value column="Help" original="Approval Amount for Workflow">该单据的审批金额，供本次审批工作流使用。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18489,8 +18490,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="2656" trl="Y">
   <value column="Name" original="Preference Level">首选级别</value>
   <value column="PrintName" original="Preference Level">首选级别</value>
-  <value column="Description" original="Determines what preferences the user can set">决定用户能够设置首选值的范围</value>
-  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Client, you can see the Record Info Change Log.">决定用户能够设置首选值的范围</value>
+  <value column="Description" original="Determines what preferences the user can set">角色能够设置首选值的层级</value>
+  <value column="Help" original="Preferences allow you to define default values.  If set to None, you cannot set any preference nor value preference. Only if set to Client, you can see the Record Info Change Log.">首选值允许设置输入项的默认值。如果级别为“无”，角色将无法设置任何首选值。仅当“实体”级别，角色才可以看到记录的变更日志。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20567,10 +20568,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2872" trl="Y">
-  <value column="Name" original="Before Approval">审批前</value>
-  <value column="PrintName" original="Before Approval">审批前</value>
-  <value column="Description" original="The Check is before the (manual) approval">在 (人工) 审批之前检查</value>
-  <value column="Help" original="If selected, the Budget Approval is before manual approvals - i.e. is only approved if budget is available.  This may cause that the use of the budget is delayed (after the approval)">在 (人工) 审批之前检查</value>
+  <value column="Name" original="Before Approval">审批前检查</value>
+  <value column="PrintName" original="Before Approval">审批前检查</value>
+  <value column="Description" original="The Check is before the (manual) approval">在 (人工) 审批之前检查预算可用性</value>
+  <value column="Help" original="If selected, the Budget Approval is before manual approvals - i.e. is only approved if budget is available.  This may cause that the use of the budget is delayed (after the approval)">YES，表示在 (人工) 审批之前检查预算。比如，仅在预算可用时才发生人工审批，如果审批后检查预算，因为不了解预算的情况，将会延迟对预算的使用。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -23788,10 +23789,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="52028" trl="Y">
-  <value column="Name" original="Bank for transfers">银行转账</value>
-  <value column="PrintName" original="Bank for transfers">银行转账</value>
-  <value column="Description" original="Bank account depending on currency will be used from this bank for doing transfers">Bank account depending on currency will be used from this bank for doing transfers</value>
-  <value column="Help" original="">Bank account depending on currency will be used from this bank for doing transfers</value>
+  <value column="Name" original="Bank for transfers">转账银行</value>
+  <value column="PrintName" original="Bank for transfers">转账银行</value>
+  <value column="Description" original="Bank account depending on currency will be used from this bank for doing transfers">转账时将自动根据币种选择该银行的账户</value>
+  <value column="Help" original="">转账时将自动根据币种选择该银行的账户【当前无代码支持】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -30255,18 +30256,18 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
  <row id="54266" trl="Y">
   <value column="Name" original="Approval Amount Accumulated">累计审批金额</value>
   <value column="PrintName" original="Approval Amt Accumulated">累计审批金额</value>
-  <value column="Description" original="The approval amount limit for this role accumulated on a period">The approval amount limit for this role accumulated on a period</value>
-  <value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents within a period limit.">The approval amount limit for this role accumulated on a period</value>
+  <value column="Description" original="The approval amount limit for this role accumulated on a period">角色在一个定义期间天数内可审批的累计金额</value>
+  <value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents within a period limit.">角色在一个定义期间天数内可对单据进行审批通过的累计金额。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54267" trl="Y">
-  <value column="Name" original="Days Approval Accumulated">天累计批准</value>
-  <value column="PrintName" original="Days Approval Accumulated">天累计批准</value>
-  <value column="Description" original="The days approval indicates the days to take into account to verify the accumulated approval amount.">The days approval indicates the days to take into account to verify the accumulated approval amount</value>
-  <value column="Help" original="The Days Approval Accumulated field indicates the days to take into account to verify the accumulated approval amount.">The days approval indicates the days to take into account to verify the accumulated approval amount</value>
+  <value column="Name" original="Days Approval Accumulated">累计审批天数</value>
+  <value column="PrintName" original="Days Approval Accumulated">累计审批天数</value>
+  <value column="Description" original="The days approval indicates the days to take into account to verify the accumulated approval amount.">累计审批的期间天数</value>
+  <value column="Help" original="The Days Approval Accumulated field indicates the days to take into account to verify the accumulated approval amount.">定义累计审批的期间天数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -43174,10 +43175,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200551" trl="Y">
-  <value column="Name" original="c_invoice_isapproved">发票_已审批</value>
-  <value column="PrintName" original="c_invoice_isapproved">发票_已审批</value>
-  <value column="Description" original="">发票_已审批</value>
-  <value column="Help" original="">发票_已审批</value>
+  <value column="Name" original="c_invoice_isapproved">发票_是否审批</value>
+  <value column="PrintName" original="c_invoice_isapproved">发票_是否审批</value>
+  <value column="Description" original="">发票_是否审批</value>
+  <value column="Help" original="">发票_是否审批</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -50494,10 +50495,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201891" trl="Y">
-  <value column="Name" original="c_payselection_isapproved">支付选择_已审批</value>
-  <value column="PrintName" original="c_payselection_isapproved">支付选择_已审批</value>
-  <value column="Description" original="">支付选择_已审批</value>
-  <value column="Help" original="">支付选择_已审批</value>
+  <value column="Name" original="c_payselection_isapproved">支付选择_是否审批</value>
+  <value column="PrintName" original="c_payselection_isapproved">支付选择_是否审批</value>
+  <value column="Description" original="">支付选择_是否审批</value>
+  <value column="Help" original="">支付选择_是否审批</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56405,6 +56406,29 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PrintName" original="AD_WF_ActivityApprover_UU">AD_WF_ActivityApprover_UU</value>
   <value column="Description" original="">AD_WF_ActivityApprover_UU</value>
   <value column="Help" original="">AD_WF_ActivityApprover_UU</value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203157" trl="Y">
+  <value column="Name" original="Detailed Zoom Across">缩放子页签关联记录</value>
+  <value column="PrintName" original="Detailed Zoom Across">缩放子页签关联记录</value>
+  <value column="Description" original="">是否缩放目标记录的子页签相关引用记录</value>
+  <value column="Help" original="The toolbar button zoom across discover where the record on screen is used on first tabs of windows.  With detailed zoom across it goes deeper in the discovery of relationships within detailed tabs."><![CDATA[No，只缩放目标记录本身，不对下级子页签缩放。显示格式为：目标页签 （#数字）<br />
+Yes，额外缩放目标记录子页签的关联记录。显示格式为：目标页签/子页签/缩放字段 （#数字）]]></value>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203158" trl="Y">
+  <value column="Name" original="Use Similar To">使用 Similar 函数 LIKE</value>
+  <value column="PrintName" original="Use Similar To">使用 Similar 函数 LIKE</value>
+  <value column="Description" original="">使用高级 Similar 函数替代 LIKE 进行相似查找</value>
+  <value column="Help" original="In PostgreSQL database enable using the more powerful SIMILAR TO instead of LIKE for matching queries."><![CDATA[对于PostgreSQL 数据库，可使用更高级的相似查找函数 Similar 而不是 LIKE 。<br />
+在查找栏内输入 %(admin|user)% 将查找包含 admin 或者 user 的记录。<br />
+注意Postgresq会缓存，更多参考 https://www.postgresql.org/docs/9.6/static/functions-matching.html#FUNCTIONS-SIMILARTO-REGEXP]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

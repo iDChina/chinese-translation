@@ -2,8 +2,9 @@
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process">
  <row id="100" trl="Y">
   <value column="Name" original="Create Periods ">创建期间</value>
-  <value column="Description" original="Create 12 standard calendar periods.">新建标准年度期间</value>
-  <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. ">以指定的日期为起始日期新建年度期间。 如果没有指定起始日期，将会默认为1月1日。期间名称将有通过使用JAVA类SimpleDateFormat从起始日期值中得到。比如 y表示年，M表示月，yyyy-MM = 1999-01。</value>
+  <value column="Description" original="Create 12 standard calendar periods.">创建标准财年期间（12期）</value>
+  <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. "><![CDATA[以指定日期为起始日期来创建12个标准财年期间，不指定将会默认为1月1日。期间名称使用“期间格式”参数（比如 yyyy-MM 表示 2017-01，格式遵循JAVA类SimpleDateFormat定义。）<br />
+如需更多期间，可新建“调整期间”，调整期间的起始日期可与其他期间重合。]]></value>
  </row>
  <row id="101" trl="Y">
   <value column="Name" original="Renumber">重新编号</value>
@@ -945,9 +946,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="293" trl="Y">
-  <value column="Name" original="Material Receipt Details">物料收货明细</value>
-  <value column="Description" original="Material Receipt Detail Information">物料收货明细信息</value>
-  <value column="Help" original="The report provides Material Repecipt Header and Line with locator information.">此报表提供物料收货详细信息，包含库位信息。</value>
+  <value column="Name" original="Material Receipt Details">收货明细</value>
+  <value column="Description" original="Material Receipt Detail Information">查看收货单信息</value>
+  <value column="Help" original="The report provides Material Repecipt Header and Line with locator information.">收货清单报表，包含库位和数量信息。</value>
  </row>
  <row id="294" trl="Y">
   <value column="Name" original="Shipment Details">物料发货明细</value>
@@ -1401,8 +1402,8 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
  </row>
  <row id="53036" trl="Y">
   <value column="Name" original="Inventory in Process">在制品报表</value>
-  <value column="Description" original="This report show the inventory in process">在制品库存报表</value>
-  <value column="Help" original="This report show the inventory in process"/>
+  <value column="Description" original="This report show the inventory in process">报表按单据日期列出生产库存变动</value>
+  <value column="Help" original="This report show the inventory in process">报表按单据日期列出生产库存变动</value>
  </row>
  <row id="53038" trl="Y">
   <value column="Name" original="Process Cost Collector">单据处理_成本归集单</value>
