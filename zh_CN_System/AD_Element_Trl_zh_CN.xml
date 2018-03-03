@@ -55219,11 +55219,16 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="Name" original="Zoom Logic">透视逻辑</value>
   <value column="PrintName" original="Zoom Logic">透视逻辑</value>
   <value column="Description" original="the result determines if the zoom condition is applied">透视结果取决于设置的透视条件</value>
-  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;@AD_Table_ID@=14 | @Language@!GERGER &lt;br&gt;&#10;@PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;br&gt;&#10;@Name@&gt;J&lt;br&gt;&#10;Strings may be in single quotes (optional)"><![CDATA[格式定义为：<br />format := {expression} [{logic} {expression}]<br /> 
-expression := @{context}@{operand}{value} or @{context}@{operand}{value}<br /> 
-logic := {|}|{&}<br /> 
-context := any global or window context<br /> 
-value := strings or numbers<br /> 
+  <value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;@AD_Table_ID@=14 | @Language@!GERGER &lt;br&gt;&#10;@PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;br&gt;&#10;@Name@&gt;J&lt;br&gt;&#10;Strings may be in single quotes (optional)"><![CDATA[格式定义为：<br />format := {expression} [{logic} {expression}]<br /> 
+
+expression := @{context}@{operand}{value} or @{context}@{operand}{value}<br /> 
+
+logic := {|}|{&}<br /> 
+
+context := any global or window context<br /> 
+
+value := strings or numbers<br /> 
+
 logic operators	:= AND or OR  (...)]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -55901,10 +55906,10 @@ logic operators	:= AND or OR  (...)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202881" trl="Y">
-  <value column="Name" original="AD_UserPreference_ID">用户首选项</value>
-  <value column="PrintName" original="AD_UserPreference_ID">用户首选项</value>
-  <value column="Description" original="">用户首选项</value>
-  <value column="Help" original="">用户首选项</value>
+  <value column="Name" original="AD_UserPreference_ID">AD_UserPreference_ID</value>
+  <value column="PrintName" original="AD_UserPreference_ID">AD_UserPreference_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
