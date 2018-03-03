@@ -1361,7 +1361,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="482" trl="Y">
-  <value column="Name" original="Normal (Flat)">正常 (平的)</value>
+  <value column="Name" original="Normal (Flat)">一般 (平面)</value>
   <value column="Description" original=""/>
  </row>
  <row id="483" trl="Y">
@@ -1369,7 +1369,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="484" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">条纹</value>
   <value column="Description" original=""/>
  </row>
  <row id="485" trl="Y">
@@ -2041,11 +2041,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="658" trl="Y">
-  <value column="Name" original="Quote Total only">仅总体报价</value>
+  <value column="Name" original="Quote Total only">总体报价</value>
   <value column="Description" original=""/>
  </row>
  <row id="659" trl="Y">
-  <value column="Name" original="Quote Selected Lines">对已选择的行进行报价</value>
+  <value column="Name" original="Quote Selected Lines">选择行报价</value>
   <value column="Description" original=""/>
  </row>
  <row id="660" trl="Y">
@@ -2217,7 +2217,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="703" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">直线</value>
   <value column="Description" original=""/>
  </row>
  <row id="704" trl="Y">
@@ -2281,23 +2281,23 @@
   <value column="Description" original="Labor">在加工过程中所用到的资源成本，厂房、能源、一线人力、设备等</value>
  </row>
  <row id="719" trl="Y">
-  <value column="Name" original="Quantity">数量</value>
+  <value column="Name" original="Quantity">基于数量</value>
   <value column="Description" original=""/>
  </row>
  <row id="720" trl="Y">
-  <value column="Name" original="Line">行</value>
+  <value column="Name" original="Line">基于明细行</value>
   <value column="Description" original=""/>
  </row>
  <row id="721" trl="Y">
-  <value column="Name" original="Volume">体积</value>
+  <value column="Name" original="Volume">基于体积</value>
   <value column="Description" original=""/>
  </row>
  <row id="722" trl="Y">
-  <value column="Name" original="Weight">重量</value>
+  <value column="Name" original="Weight">基于重量</value>
   <value column="Description" original=""/>
  </row>
  <row id="723" trl="Y">
-  <value column="Name" original="Costs">成本</value>
+  <value column="Name" original="Costs">基于当前成本</value>
   <value column="Description" original=""/>
  </row>
  <row id="724" trl="Y">
@@ -5202,11 +5202,11 @@
  </row>
  <row id="200089" trl="Y">
   <value column="Name" original="FOB Origin">FOB 原产地定价</value>
-  <value column="Description" original="Domestic FOB Origin - default for domestic shipping">国内原产地离岸价(FOB Origin) - 国内发运时默认</value>
+  <value column="Description" original="Domestic FOB Origin - default for domestic shipping">国内原产地离岸价(FOB Origin，买家负责运费、杂费和风险) - 默认国内运输</value>
  </row>
  <row id="200090" trl="Y">
   <value column="Name" original="Ex Works">Ex Works 卖方工厂交货</value>
-  <value column="Description" original="Ex Works - default for international shipping">缺省国际运输</value>
+  <value column="Description" original="Ex Works - default for international shipping">默认国际运输</value>
  </row>
  <row id="200091" trl="Y">
   <value column="Name" original="CFR - Cost and Freight">CFR - 成本加运费(指定目的地)</value>
@@ -5246,7 +5246,7 @@
  </row>
  <row id="200100" trl="Y">
   <value column="Name" original="Domestic FOB Destination">FOB Destination 国内目的地离岸价</value>
-  <value column="Description" original="Domestic FOB Destination">国内目的地离岸价(FOB Destination)</value>
+  <value column="Description" original="Domestic FOB Destination">国内目的地离岸价(FOB Destination，卖家负责运费、杂费及风险)</value>
  </row>
  <row id="200101" trl="Y">
   <value column="Name" original="EXW - Ex Works (FedEx)">EXW - 卖方工厂交货 (FedEx)</value>

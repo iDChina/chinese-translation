@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
  <row id="100" trl="Y">
-  <value column="Name" original="Generate Invoices (manual)">创建发票 (手工)</value>
+  <value column="Name" original="Generate Invoices (manual)">创建发票 （手动）</value>
   <value column="Description" original="Select and generate invoices">对已发货的销售订单创建发票</value>
-  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">选择已发货销售订单，然后创建发票。该发票单据状态为已完成，是否过账依据系统过账设置。</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">选择已发货销售订单，然后创建发票。</value>
  </row>
  <row id="101" trl="Y">
   <value column="Name" original="Import File Loader">加载导入文件</value>
@@ -21,8 +21,8 @@
   <value column="Help" original="">可透视原始单据，为什么我不能选择组织的仓库？</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Payment Allocation">支付分配 (手工)</value>
-  <value column="Description" original="Allocate invoices and payments">手工分配发票和支付</value>
+  <value column="Name" original="Payment Allocation">支付分配（手动）</value>
+  <value column="Description" original="Allocate invoices and payments">手动分配发票和支付</value>
   <value column="Help" original=""/>
  </row>
  <row id="105" trl="Y">
@@ -36,8 +36,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="107" trl="Y">
-  <value column="Name" original="Payment Selection (manual)">付款选择 (手工)</value>
-  <value column="Description" original="Manual Payment Selection">手工的付款选择</value>
+  <value column="Name" original="Payment Selection (manual)">付款选择（手动）</value>
+  <value column="Description" original="Manual Payment Selection">手动的付款选择</value>
   <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择需支付的供应商发票。如果没有发票，请确保它尚未包含在未处理的付款选择中</value>
  </row>
  <row id="108" trl="Y">
@@ -51,7 +51,7 @@
   <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">导入导出经外部工具编辑过的 xml 文件。请注意此语言必须启用并设置为系统语言</value>
  </row>
  <row id="110" trl="Y">
-  <value column="Name" original="Generate Shipments (manual)">创建发货单 (手工)</value>
+  <value column="Name" original="Generate Shipments (manual)">创建发货单（手动）</value>
   <value column="Description" original="Select and generate shipments">选择并创建发货单</value>
   <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">从订单创建发货单。</value>
  </row>
@@ -161,7 +161,7 @@
  </value>
  </row>
  <row id="53008" trl="Y">
-  <value column="Name" original="Generate Movement Manual">创建调拨单 (手工)</value>
+  <value column="Name" original="Generate Movement Manual">创建调拨单（手动）</value>
   <value column="Description" original="Generate Movement to a Order Distribution">产生一个配送单的调拨单</value>
   <value column="Help" original=""/>
  </row>
@@ -171,7 +171,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53010" trl="Y">
-  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单 (手工)</value>
+  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单（手动）</value>
   <value column="Description" original="Select and generate shipments &amp; Invoices">选择并生成发货单</value>
   <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">从订单生成发货单。选择订单以用于生成生成发货单和发票</value>
  </row>

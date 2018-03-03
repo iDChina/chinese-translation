@@ -92,9 +92,9 @@
   <value column="Help" original="Shipments for open Orders are created based on the delivery rule of the Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Orders of a business partner have the same location, the orders can be consolidated into one Shipment.&lt;br&gt;&#10;You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available)."><![CDATA[基于未清销售订单的交付规则和相对顺序优先级而创建发货单。<br />如果选择了一个承诺日期，那么只有截至 (包括) 该日期的订单被选中。<br />如果一个业务伙伴的多个销售订单具有相同的位置，那么这些订单可以被合并至相同的单一发货单中。<br />同时，未确认发货的销售订单也可计入。 (比如，某销售订单数量=10，其未确认发货=4，那么本次创建发货数量=6）。]]></value>
  </row>
  <row id="119" trl="Y">
-  <value column="Name" original="Generate Invoices">生成发票</value>
-  <value column="Description" original="Generate and print Invoices from open Orders">从未结订单生成并打印发票</value>
-  <value column="Help" original="Invoices for open Orders are created based on the invoice rule of the Order.&#10;If several Orders of a business partner have the same bill location, the orders can be consolidated into one Invoice.">未结订单的发票基于订单的发票规则而创建。如果一个业务伙伴的多个订单具有相同的发票位置，那么这些订单可以被合并至相同的单一发票中。</value>
+  <value column="Name" original="Generate Invoices">从销售订单生成发票</value>
+  <value column="Description" original="Generate and print Invoices from open Orders">批量对已完成的销售订单生成应收发票</value>
+  <value column="Help" original="Invoices for open Orders are created based on the invoice rule of the Order.&#10;If several Orders of a business partner have the same bill location, the orders can be consolidated into one Invoice.">基于订单的发票规则，批量对已完成的销售订单生成应收发票。可选将业务伙伴发票地点一致的订单明细合并到一张发票中。</value>
  </row>
  <row id="120" trl="Y">
   <value column="Name" original="Order Transactions">订单事务</value>
@@ -663,7 +663,7 @@
  <row id="238" trl="Y">
   <value column="Name" original="Aging">账龄报表</value>
   <value column="Description" original="Aging Report">账龄报表</value>
-  <value column="Help" original="The aging report allows you to report on Open Items (Invoices). Select the aging buckets, you want to have in your report. If you select a currency, you get only invoices of that currency, otherwise the amounts are converted to your primary accounting currency. If you do not select a Statement Date, the system date is used to calculate the buckets. If you do not list the individual invoices, the Due Date is the earliest due date for the business partner and the Due Days are the average due days of all invoices.&lt;br&gt;&#10;&lt;br&gt;&#10;If you select an Account Date the report will generate the Aging as of that date. The report will exclude documents after the selected date.&lt;br&gt;&#10;&lt;br&gt;&#10;For example: A customer has one invoice for $100 with the Account Date of 03/31/08 and one payment for $100 with the Account Date of 05/01/08. The report will show the following balances based on the Account Date selected: 03/15/08= 0; 04/15/08=100; 05/15/08 = 0.&#10;"><![CDATA[查看未清发票的账龄报表，按发票时间和指定的到期日期计算。<br />
+  <value column="Help" original="The aging report allows you to report on Open Items (Invoices). Select the aging buckets, you want to have in your report. If you select a currency, you get only invoices of that currency, otherwise the amounts are converted to your primary accounting currency. If you do not select a Statement Date, the system date is used to calculate the buckets. If you do not list the individual invoices, the Due Date is the earliest due date for the business partner and the Due Days are the average due days of all invoices.&lt;br&gt;&#10;&lt;br&gt;&#10;If you select an Account Date the report will generate the Aging as of that date. The report will exclude documents after the selected date.&lt;br&gt;&#10;&lt;br&gt;&#10;For example: A customer has one invoice for $100 with the Account Date of 03/31/08 and one payment for $100 with the Account Date of 05/01/08. The report will show the following balances based on the Account Date selected: 03/15/08= 0; 04/15/08=100; 05/15/08 = 0.&#10;"><![CDATA[查看未清发票的账龄报表，按“发票日期”和指定的“到期日期”计算。<br />
 如果选择了币种，只会得到该币种的发票；否则，所有的金额将被转换至本位币种【感觉系统撒谎，它没有转换】。<br />
 如果未选择到期日期，则使用系统日期计算。如果选择记账日期，该日期以后的记录不参与计算，即不显示“负账龄”记录。<br />
 如果不选择发票明细，供应商的到期天数为发票明细的最小天数。如果选择发票明细，到期天数为具体发票的到期天数。]]></value>
@@ -805,9 +805,8 @@
  <row id="265" trl="Y">
   <value column="Name" original="Rank Responses">响应排名</value>
   <value column="Description" original="Rank Completed RfQ Responses">对已完成的询价单响应进行排名评级</value>
-  <value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.">无效的回应的数量等级为 999。 回应数量按等级排序并更新询价的最佳回应。 行数量是采购数量所选择的行标示为“挑选优胜者”。 总额优胜者仅当询价类型是“报价全部行”或“仅报价总额”才能选出。
-
-全部回应数量的排名相加作为回应的总排名，总排名最低的回应标示为“挑选优胜者”。</value>
+  <value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner."><![CDATA[无效的数量响应等级为 999。数量响应按等级排序并更新询价单的的胜出者，响应明细被标识为”响应赢家“，其响应数量将被用于采购。 全盘赢家仅当询价类型是“逐行报价”或“总额报价”才能选出。<br />
+全部响应数量的排名相加作为询价响应的总排名，最低得分者将被选中为“响应赢家”。]]></value>
  </row>
  <row id="266" trl="Y">
   <value column="Name" original="Create Purchase Order">创建采购订单</value>
@@ -817,7 +816,7 @@
  <row id="267" trl="Y">
   <value column="Name" original="Create Sales Order">创建销售订单</value>
   <value column="Description" original="Create Sales Order">创建销售订单</value>
-  <value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">销售订单为输入的业务伙伴而创建。销售订单明细针对每个询价单行的数量而创建，即“报盘数量”被选中之处。如果基于询价单行数量，输入了报盘金额 (非0)，则使用该价格。如果基于询价单行数量而输入了利润，那么它覆盖一般利润。利润是最佳响应金额的百分比加成。</value>
+  <value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">为询价单的业务伙伴（客户）创建销售订单，销售明细数量等于询价单数量（已勾选报价单数量），销售明细单价等于报盘单价（如果非0）。如果数量报价响应的毛利不为0，则销售单价为响应金额+毛利润。</value>
  </row>
  <row id="268" trl="Y">
   <value column="Name" original="Copy Lines">复制询价单明细</value>
@@ -1073,7 +1072,7 @@
  <row id="318" trl="Y">
   <value column="Name" original="Payment Details">支付明细报表</value>
   <value column="Description" original="Payment Detail Report">支付明细报表</value>
-  <value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">查看所有的支付单（收款为正、付款为负），”已完全分配“表示无余额的的支付单。</value>
+  <value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">查看所有的支付单（收款为正、付款为负），”已分配“表示与发票已完成核销（冲销、清算），无剩余金额的支付单。</value>
  </row>
  <row id="319" trl="Y">
   <value column="Name" original="Business Partner Open">业务伙伴未清金额</value>
@@ -1118,8 +1117,8 @@
  </row>
  <row id="326" trl="Y">
   <value column="Name" original="Invoice Not Realized Gain/Loss">未实现盈利/亏损的发票</value>
-  <value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">未实现盈利/亏损发票的报表</value>
-  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[报表列出未完全付款的发票，包括未结金额、总账金额和重估金额。如果发票是部分付款的，未结金额的百分比用于计算重新估值的金额<br />如果选择了一种货币，则只有对应于该币种的发票才会被包括在内；如果选择了包括所有币种，所有的发票都会被包括在内，可以使用报表进行应付、应收科目的对账<br />如果选择了一个总账单据类型，一个凭证就会被创建<br />注意：该报表只包含已过账的发票]]></value>
+  <value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">查看未实现盈利/亏损发票报表，并可创建凭证</value>
+  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[报表列出未完全付款的发票，包括未结金额、总账金额和重估金额。<br />如果发票是部分付款的，未结金额的百分比用于计算重估金额。<br />可选一种货币或者所有货币，报表可用于应付、应收科目的对账。<br />如果选择一个总账单据类型，报表将创建一个凭证。<br />注意：报表只包含已过账的发票。]]></value>
  </row>
  <row id="327" trl="Y">
   <value column="Name" original="Test EMail">测试电子邮件</value>
@@ -1147,9 +1146,9 @@
   <value column="Help" original="The Product Invoice Cost Detail Report lists the products with the individual invoice cost allocation">产品发票成本明细报表列出了包含各发票成本分配的产品。</value>
  </row>
  <row id="332" trl="Y">
-  <value column="Name" original="Distribute Costs">分摊成本</value>
-  <value column="Description" original="Distribute costs to Products">把成本分摊到产品</value>
-  <value column="Help" original="Distribute costs to Products based on selections - Distribution Base (Quantity, Current Costs, Line, Weight, ..) and Receipt/Line or directly to the product.">选择性地 - 分配基础 (数量、当前成本、行、高等) 以及收货行，将成本分配至产品，或直接分配至产品。</value>
+  <value column="Name" original="Distribute Costs">到岸成本分摊</value>
+  <value column="Description" original="Distribute costs to Products">把到岸费用分摊到产品成本</value>
+  <value column="Help" original="Distribute costs to Products based on selections - Distribution Base (Quantity, Current Costs, Line, Weight, ..) and Receipt/Line or directly to the product."><![CDATA[可选择基于收货单或者收货明细，或者直接分摊到产品。<br />分摊方式有：数量、当前成本、收货明细行、体积、重量。]]></value>
  </row>
  <row id="333" trl="Y">
   <value column="Name" original="Order Detail">订单明细</value>
@@ -1779,7 +1778,7 @@ DRP的常见参数：下期需量，期初计划入库量、下期安全库存�
   <value column="Help" original=""/>
  </row>
  <row id="53199" trl="Y">
-  <value column="Name" original="Reset Allocation Direct">直接重置分配</value>
+  <value column="Name" original="Reset Allocation Direct">重置分配</value>
   <value column="Description" original="Reset (delete) allocation of invoices to payments">重置 (删除) 发票到付款的分配</value>
   <value column="Help" original="Delete individual allocation. In contrast to &quot;Reverse&quot;, the allocation is deleted (no trace), if the period is open.">删除单个分配。与  "反冲" 相比，如果期间开放时，重置操作将删除分配记录（无法追溯）。</value>
  </row>

@@ -2053,7 +2053,7 @@
  <row id="53332" trl="Y">
   <value column="Name" original="AD_RelationType Type">AD_RelationType Type</value>
   <value column="Description" original="&quot;Type&quot; of a relation type">关联类型的"类型"</value>
-  <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">现在我们只有含糊的关系类型，例如:记录对被定义为规则本身。今后，我们想要有明确的类型。一个显式类型只是定义一个模板，实际对可以添加由用户或系统本身</value>
+  <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">隐式关联关系，比如，记录对集被规则本身定义。以后打算采用显式类型定义，用一个模板去定义，用户或者系统可以新增实际的数据对集。</value>
  </row>
  <row id="53333" trl="Y">
   <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)"><![CDATA[RelType C_Order (Sales) <= C_Invoice_ID (Customer)]]></value>

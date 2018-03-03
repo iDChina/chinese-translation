@@ -183,7 +183,7 @@
  <row id="141" trl="Y">
   <value column="Name" original="Payment Term">支付条款</value>
   <value column="Description" original="Maintain Payment Terms">维护支付条款</value>
-  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">维护支付条款</value>
+  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">维护供应商和客户的支付规则，每个发票必须指明一个支付条款。</value>
  </row>
  <row id="142" trl="Y">
   <value column="Name" original="Shipper">承运人</value>
@@ -208,7 +208,7 @@
  <row id="147" trl="Y">
   <value column="Name" original="Invoice Schedule">开票计划</value>
   <value column="Description" original="Maintain Invoicing Schedule">维护发票的开票计划</value>
-  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">维护发票的开票计划</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">维护发票的开票计划。【注】通常国内按税务发票日期结算，而税务发票可能与系统应付/应收发票日期存在差异。</value>
  </row>
  <row id="149" trl="Y">
   <value column="Name" original="Marketing Campaign">营销活动</value>
@@ -491,9 +491,9 @@
   <value column="Help" original="">查找对话框 (非直接使用)</value>
  </row>
  <row id="223" trl="Y">
-  <value column="Name" original="Material Transactions (indirect use)">产品事务处理 (非直接使用)</value>
-  <value column="Description" original="Material Transactions (indirect use)">产品事务处理 (非直接使用)</value>
-  <value column="Help" original="">产品事务处理 (非直接使用)</value>
+  <value column="Name" original="Material Transactions (indirect use)">存货实物 (查询)</value>
+  <value column="Description" original="Material Transactions (indirect use)">存货实物 (查询)</value>
+  <value column="Help" original="">存货实物 (查询)</value>
  </row>
  <row id="224" trl="Y">
   <value column="Name" original="Print Form">打印格式配置</value>
@@ -941,14 +941,14 @@
   <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.">维护业务伙伴关系</value>
  </row>
  <row id="314" trl="Y">
-  <value column="Name" original="RfQ Topic">询价单主题</value>
-  <value column="Description" original="Maintain RfQ Topics and Subscribers">维护询价单主题和订阅者</value>
+  <value column="Name" original="RfQ Topic">询价主题</value>
+  <value column="Description" original="Maintain RfQ Topics and Subscribers">维护询价主题和订阅者</value>
   <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">维护询价单主题和订阅者</value>
  </row>
  <row id="315" trl="Y">
   <value column="Name" original="RfQ">询价单</value>
   <value column="Description" original="Manage Request for Quotations">管理询价单</value>
-  <value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">管理询价单</value>
+  <value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">询价单RFQ将被发送给订阅某个主题的供应商。一旦询价单确定供应商后，可以由此对供应商创建采购订单，也可以对客户创建报价单或销售订单。可选对选择的供应商。</value>
  </row>
  <row id="316" trl="Y">
   <value column="Name" original="Subscription">订阅</value>
@@ -973,7 +973,7 @@
  <row id="320" trl="Y">
   <value column="Name" original="Customer RMA">客户退货授权</value>
   <value column="Description" original="Manage Return Material Authorization">管理退货授权</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">管理退货授权</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">为了接受退货的退货授权记录并可创建贷项通知单。</value>
  </row>
  <row id="321" trl="Y">
   <value column="Name" original="Dunning Run">催款计算</value>
@@ -1707,17 +1707,17 @@
  <row id="53097" trl="Y">
   <value column="Name" original="Customer Return">客户退货单</value>
   <value column="Description" original="Customer Return (Receipts)">客户退货单，相当于收货事务</value>
-  <value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">客户退货单，相当于收货事务</value>
+  <value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">定义客户退货的产品或材料</value>
  </row>
  <row id="53098" trl="Y">
   <value column="Name" original="Return to Vendor">供应商退货单</value>
   <value column="Description" original="Vendor Returns">供应商退货单</value>
-  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">供应商退货单</value>
+  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">定义供应商退货的产品或材料</value>
  </row>
  <row id="53099" trl="Y">
   <value column="Name" original="Vendor RMA">供应商退货授权</value>
   <value column="Description" original="Manage Return Material Authorization">管理退货授权</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">管理退货授权</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">为了接受退货的退货授权记录并可创建贷项通知单。</value>
  </row>
  <row id="53100" trl="Y">
   <value column="Name" original="My Profile">个人信息</value>
@@ -1731,8 +1731,8 @@
  </row>
  <row id="53102" trl="Y">
   <value column="Name" original="Relation Type">关联类型</value>
-  <value column="Description" original="">关联类型</value>
-  <value column="Help" original="">关联类型</value>
+  <value column="Description" original="">定义记录的对集，供工具栏高级缩放操作使用</value>
+  <value column="Help" original="">定义表与表之间的缩放关系</value>
  </row>
  <row id="53104" trl="Y">
   <value column="Name" original="Withholding">代扣代缴</value>
@@ -1806,8 +1806,8 @@
  </row>
  <row id="53127" trl="Y">
   <value column="Name" original="Production (Single Product)">简单生产</value>
-  <value column="Description" original="">非BOM产品生产</value>
-  <value column="Help" original="">非BOM产品生产</value>
+  <value column="Description" original="">单个产品的生产工单</value>
+  <value column="Help" original="">单个产品的生产工单</value>
  </row>
  <row id="53128" trl="Y">
   <value column="Name" original="Parts and BOMs">部件和材料明细表</value>
@@ -2230,8 +2230,8 @@
   <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">对合同和项目进行预收/付款。</value>
  </row>
  <row trl="Y" uuid="243d5c74-eb21-458a-9a36-8a337a082c87">
-  <value column="Name" original="Charge Payment">杂项支付单</value>
-  <value column="Description" original="Process Payments and Receipts for Charge">处理杂项支付业务</value>
-  <value column="Help" original="">无需发票的杂项支付业务</value>
+  <value column="Name" original="Charge Payment">支付单</value>
+  <value column="Description" original="Process Payments and Receipts for Charge">支付单</value>
+  <value column="Help" original="">支付单</value>
  </row>
 </idempiereTrl>
