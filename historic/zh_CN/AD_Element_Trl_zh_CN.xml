@@ -163,7 +163,7 @@
  <row id="120" trl="Y">
   <value column="Name" original="Reference">引用</value>
   <value column="PrintName" original="Reference">引用</value>
-  <value column="Description" original="System Reference and Validation">字段控件引用的类型</value>
+  <value column="Description" original="System Reference and Validation">字段控件引用的类型(下拉框)</value>
   <value column="Help" original="The Reference could be a display type, list or table validation.">设置字段控件引用的类型</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -1459,7 +1459,21 @@
   <value column="Name" original="Phone Format">电话格式</value>
   <value column="PrintName" original="Phone Format">电话格式</value>
   <value column="Description" original="Format of the phone; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">电话号码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;">电话号码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>电话号码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
+
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1469,7 +1483,21 @@
   <value column="Name" original="Postal Code Format">邮编格式</value>
   <value column="PrintName" original="Postal Code Format">邮编格式</value>
   <value column="Description" original="Format of the postal code; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">邮政编码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;">邮政编码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>邮政编码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
+
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1478,8 +1506,22 @@
  <row id="300" trl="Y">
   <value column="Name" original="Additional Postal Format">附加邮编格式</value>
   <value column="PrintName" original="Additional Postal Format">附加邮编格式</value>
-  <value column="Description" original="Format of the value; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">邮政编码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;">邮政编码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
+  <value column="Description" original="Format of the value; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">值的格式; 可包含固定格式的元素和变量: "_lLoOaAcCa09"</value>
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>邮政编码的格式， 可包含固定格式的元素和变量： "_lLoOaAcCa09"</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
+
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3579,8 +3621,22 @@
  <row id="616" trl="Y">
   <value column="Name" original="Value Format">值格式</value>
   <value column="PrintName" original="Value Format">值格式</value>
-  <value column="Description" original="Format of the value; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">值的格式; 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
-  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;">值的格式; 可包含固定格式的元素和变量： "_lLoOaAcCa09"</value>
+  <value column="Description" original="Format of the value; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">值的格式; 可包含固定格式的元素和变量: "_lLoOaAcCa09"</value>
+  <value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;"><![CDATA[<B>值的格式; 可包含固定格式的元素和变量： "_lLoOaAcCa09"</B>
+[tab]( 空格) 任意字符
+_[tab]空格 (固定字符)
+l[tab]任意字母 a..Z 不包括空格
+L[tab]任意字母 a..Z 不包括空格 转换为大写
+o[tab]任意字母 a..Z 空格
+O[tab]任意字母 a..Z 空格 转换为大写
+a[tab]任意字母 &amp; 数字 不包括空格
+A[tab]任意字母 &amp;数字 不包括空格 转换为大写
+c[tab]任意字母 &amp; 数字 空格
+C[tab]任意字母 &amp; 数字 空格 转换为大写
+0[tab]数字 0..9 不包括空格
+9[tab]数字 0..9 空格
+
+格式的例子 "(000)_000-0000"]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55676,10 +55732,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203006" trl="Y">
-  <value column="Name" original="Style">AD_Style_UU</value>
-  <value column="PrintName" original="Style">AD_Style_UU</value>
-  <value column="Description" original="CSS Style for field and label">CSS Style for field and label</value>
-  <value column="Help" original="">CSS Style for field and label</value>
+  <value column="Name" original="Style">CSS样式</value>
+  <value column="PrintName" original="Style">CSS样式</value>
+  <value column="Description" original="CSS Style for field and label">为字段标签或者字段本身配置的CSS样式</value>
+  <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55696,10 +55752,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203008" trl="Y">
-  <value column="Name" original="Style Line">AD_StyleLine_UU</value>
-  <value column="PrintName" original="Style Line">AD_StyleLine_UU</value>
-  <value column="Description" original="CSS Style Line">CSS Style Line</value>
-  <value column="Help" original="">CSS Style Line</value>
+  <value column="Name" original="Style Line">CSS样式明细</value>
+  <value column="PrintName" original="Style Line">CSS样式明细</value>
+  <value column="Description" original="CSS Style Line">CSS样式明细</value>
+  <value column="Help" original="">CSS样式明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

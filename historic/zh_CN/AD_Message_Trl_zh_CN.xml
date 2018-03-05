@@ -90,10 +90,10 @@
  </row>
  <row id="123" trl="Y">
   <value column="MsgText" original="With your current role, you cannot update this information">当前角色无更新权限，请检查</value>
-  <value column="MsgTip" original="You don't have the privileges">无更新权限，可变更角色或与管理员联系。</value>
+  <value column="MsgTip" original="You don't have the privileges">无更新权限，可变更角色或与管理员联系</value>
  </row>
  <row id="124" trl="Y">
-  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无此项访问权限，请与管理员联系。</value>
+  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无此项访问权限，请与管理员联系</value>
   <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">当前角色的用户无访问权限，可能原因有：
 1. 用户登录实体与数据访问级别不符。
 2. 用户无此AD对象的访问权限。
@@ -1619,7 +1619,7 @@
  </row>
  <row id="502" trl="Y">
   <value column="MsgText" original="Could not save record - Require unique data: ">数据唯一性检查失败，不能保存记录：</value>
-  <value column="MsgTip" original="Please change information.">如果单据号重复，应运行“序号检查”流程。</value>
+  <value column="MsgTip" original="Please change information.">如果单据号重复，应运行“序号检查”流程</value>
  </row>
  <row id="503" trl="Y">
   <value column="MsgText" original="Record not saved. Row not found!">记录未保存，未找到行！</value>
@@ -1830,7 +1830,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="555" trl="Y">
-  <value column="MsgText" original="Process completed successfully">处理成功完成。</value>
+  <value column="MsgText" original="Process completed successfully">处理成功完成</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="556" trl="Y">
@@ -2559,7 +2559,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="747" trl="Y">
-  <value column="MsgText" original="Download {0} for {1}&#10;&#10;Version = {2} - Lot = {3} - SerNo = {4}&#10;Guarantee Date = {5,date,short}&#10;&#10;Thank you for using iDempiere Customer Asset Management&#10;">为 {1} 下载  {0} 
+  <value column="MsgText" original="Download {0} for {1}&#10;&#10;Version = {2} - Lot = {3} - SerNo = {4}&#10;Guarantee Date = {5,date,short}&#10;&#10;Thank you for using iDempiere Customer Asset Management&#10;">下载 {0} for {1}
 
 版本 = {2} - 批 = {3} - 序列号 = {4}
 保证日期 = {5,date,short}
@@ -3640,7 +3640,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52111" trl="Y">
-  <value column="MsgText" original="Continue">点我重新登录。</value>
+  <value column="MsgText" original="Continue">点我重新登录</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52112" trl="Y">
@@ -5213,51 +5213,51 @@
  </row>
  <row id="53011" trl="Y">
   <value column="MsgText" original="Create">创建</value>
-  <value column="MsgTip" original="Indicates that a supply order should be created to satisfy a negative projected on hand. This message is created if the flag 'Create Plan' is No.">MRP-002：当在手库存无法满足时，一个供应订单应该被创建。注意，只有当产品的“创建计划”选项为“否”时，才生成此通知。</value>
+  <value column="MsgTip" original="Indicates that a supply order should be created to satisfy a negative projected on hand. This message is created if the flag 'Create Plan' is No.">MRP-002：当在手库存无法满足时，一个供应订单应该被创建。注意，只有当产品的“创建计划”选项为“否”时，才生成此通知</value>
  </row>
  <row id="53012" trl="Y">
   <value column="MsgText" original="De-Expedite">不用追货</value>
-  <value column="MsgTip" original="Indicates that a schedule supply order is due before it is needed and should be delayed, or demand rescheduled to an earlier date.">MRP-003：供应订单在需求日期之前，应该延缓；或者需要提前重排需求。</value>
+  <value column="MsgTip" original="Indicates that a schedule supply order is due before it is needed and should be delayed, or demand rescheduled to an earlier date.">MRP-003：供应订单在需求日期之前，应该延缓；或者需要提前重排需求</value>
  </row>
  <row id="53013" trl="Y">
   <value column="MsgText" original="Expedite">追货</value>
-  <value column="MsgTip" original="Indicates that a scheduled supply order is due after is needed and should be rescheduled to an earlier date, or demand rescheduled to a later date.">MRP-004：供应订单在需求日期之后，应该提前供给；或者需要延缓需求日期。</value>
+  <value column="MsgTip" original="Indicates that a scheduled supply order is due after is needed and should be rescheduled to an earlier date, or demand rescheduled to a later date.">MRP-004：供应订单在需求日期之后，应该提前供给；或者需要延缓需求日期</value>
  </row>
  <row id="53014" trl="Y">
   <value column="MsgText" original="Cancel">取消</value>
-  <value column="MsgTip" original="Indicate that a scheduled supply order is no longer needed and should be deleted.">MRP-050：计划供应订单不再需要，应予删除。</value>
+  <value column="MsgTip" original="Indicate that a scheduled supply order is no longer needed and should be deleted.">MRP-050：计划供应订单不再需要，应予删除</value>
  </row>
  <row id="53015" trl="Y">
   <value column="MsgText" original="Release Due For">订单应发行</value>
-  <value column="MsgTip" original="Indicate tha a supply order should be released. if it is a draft order , it must also be approved.">MRP-060：供应订单应该被发行。如果是订单草稿，应被批准。</value>
+  <value column="MsgTip" original="Indicate tha a supply order should be released. if it is a draft order , it must also be approved.">MRP-060：供应订单应该被发行。如果是订单草稿，应被批准</value>
  </row>
  <row id="53016" trl="Y">
   <value column="MsgText" original="Release Past Due For">订单逾期未发行</value>
-  <value column="MsgTip" original="Indicates that a supply order was not released when it was due, and should be either released or expedited now, or the demand rescheduled for a later date.&#9;">MRP-070：供应订单因过期未发行，要么立即发行或者立即失效，或者重排延缓需求。</value>
+  <value column="MsgTip" original="Indicates that a supply order was not released when it was due, and should be either released or expedited now, or the demand rescheduled for a later date.&#9;">MRP-070：供应订单因过期未发行，要么立即发行或者立即失效，或者重排延缓需求</value>
  </row>
  <row id="53017" trl="Y">
   <value column="MsgText" original="Quantity  Less than Minimum">数量少于最小值</value>
-  <value column="MsgTip" original="Indicates that a supply order was created for a quantity less than the minimum quantity set in Product Planning Data">MRP-080：计划供应订单的数量少于产品计划数据的最小数量。</value>
+  <value column="MsgTip" original="Indicates that a supply order was created for a quantity less than the minimum quantity set in Product Planning Data">MRP-080：计划供应订单的数量少于产品计划数据的最小数量</value>
  </row>
  <row id="53018" trl="Y">
   <value column="MsgText" original="Quantity  Less than Maximum">数量多于最大值</value>
-  <value column="MsgTip" original="Indicates that a supply order was created for a quantity for a quantity greater than than maximum quantity set in the Product Planning Data">MRP-090：计划供应订单的数量多于产品计划数据的最大数量。</value>
+  <value column="MsgTip" original="Indicates that a supply order was created for a quantity for a quantity greater than than maximum quantity set in the Product Planning Data">MRP-090：计划供应订单的数量多于产品计划数据的最大数量</value>
  </row>
  <row id="53019" trl="Y">
   <value column="MsgText" original="Time Fence Conflict">时间间隔冲突</value>
-  <value column="MsgTip" original="Indicates that there is an unsatisfied material requirement inside the planning time fence for this product. You should either manually schedule and expedite orders to fill this demand or delay fulfillment of the requirement that created the demand.">MRP-100：在计划时间间隔内不能满足产品的物料需求，要么重排计划或者加快订单，或者延缓需求。</value>
+  <value column="MsgTip" original="Indicates that there is an unsatisfied material requirement inside the planning time fence for this product. You should either manually schedule and expedite orders to fill this demand or delay fulfillment of the requirement that created the demand.">MRP-100：在计划时间间隔内不能满足产品的物料需求，要么重排计划或者加快订单，或者延缓需求</value>
  </row>
  <row id="53020" trl="Y">
   <value column="MsgText" original="Past Due">订单入库超期</value>
-  <value column="MsgTip" original="Indicates that a schedule supply order receipt is past due.">MRP-110：计划供应订单入库过期。</value>
+  <value column="MsgTip" original="Indicates that a schedule supply order receipt is past due.">MRP-110：计划供应订单入库过期</value>
  </row>
  <row id="53021" trl="Y">
   <value column="MsgText" original="No Data Planning">无计划数据</value>
-  <value column="MsgTip" original="indicates that there is no data planning for this product">MRP-120：该产品无产品计划数据。</value>
+  <value column="MsgTip" original="indicates that there is no data planning for this product">MRP-120：该产品无产品计划数据</value>
  </row>
  <row id="53022" trl="Y">
   <value column="MsgText" original="Beginning Available Less Than Zero">初始可用量小于零</value>
-  <value column="MsgTip" original="Indicates that the quantity on hand is less that safety stock">MRP-001：表示当前数量低于安全库存。</value>
+  <value column="MsgTip" original="Indicates that the quantity on hand is less that safety stock">MRP-001：表示当前数量低于安全库存</value>
  </row>
  <row id="53023" trl="Y">
   <value column="MsgText" original="Wrong Script Value - format for JSR 223 Script must be engine:scriptName where supported engines must be something like groovy, jython, beanshell">脚本错误 - JSR 223脚本格式必须引擎化：scriptName支持的引擎必须是如Groovy，Jython，beanshell</value>
@@ -5333,7 +5333,7 @@
  </row>
  <row id="53048" trl="Y">
   <value column="MsgText" original="No Current Vendor Selected">未选择供应商</value>
-  <value column="MsgTip" original="Indicates that the Product has no Current Vendor selected">MRP-130：产品没有选择当前供应商。</value>
+  <value column="MsgTip" original="Indicates that the Product has no Current Vendor selected">MRP-130：产品没有选择当前供应商</value>
  </row>
  <row id="53049" trl="Y">
   <value column="MsgText" original="Check attached file">检查附件</value>
@@ -5357,11 +5357,11 @@
  </row>
  <row id="53054" trl="Y">
   <value column="MsgText" original="Beginning Quantity Less Than Zero">初始数量小于零</value>
-  <value column="MsgTip" original="Indicates that the quantity on hand is negative.">MRP-140：在手库存数量为负数。</value>
+  <value column="MsgTip" original="Indicates that the quantity on hand is negative.">MRP-140：在手库存数量为负数</value>
  </row>
  <row id="53055" trl="Y">
   <value column="MsgText" original="Past Due Demand">过期需求</value>
-  <value column="MsgTip" original="Indicates that a demand order is past due.">MRP-150：需求订单已过期。</value>
+  <value column="MsgTip" original="Indicates that a demand order is past due.">MRP-150：需求订单已过期</value>
  </row>
  <row id="53056" trl="Y">
   <value column="MsgText" original="Business Partner has no Ship To Address">业务伙伴没有收货地点</value>
@@ -5413,11 +5413,11 @@
  </row>
  <row id="53079" trl="Y">
   <value column="MsgText" original="Unknown MRP Error">未知MRP错误</value>
-  <value column="MsgTip" original="Indicates that there was an unclassified error durring MRP process">MRP-999：MRP处理过程中出现的未分类错误。</value>
+  <value column="MsgTip" original="Indicates that there was an unclassified error durring MRP process">MRP-999：MRP处理过程中出现的未分类错误</value>
  </row>
  <row id="53080" trl="Y">
   <value column="MsgText" original="Cannot Create Document">无法创建单据</value>
-  <value column="MsgTip" original="Indicates that there was an error durring document creation">MRP-160：单据创建时存在错误。</value>
+  <value column="MsgTip" original="Indicates that there was an error durring document creation">MRP-160：单据创建时存在错误</value>
  </row>
  <row id="53081" trl="Y">
   <value column="MsgText" original="No UOM conversion found">无计量单位转换</value>
@@ -5429,7 +5429,7 @@
  </row>
  <row id="53083" trl="Y">
   <value column="MsgText" original="Client Accounting is not enabled">未启用客户端会计</value>
-  <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">为了执行产品规划流程，你需要使得客户端录入，可以通过windos系统配置，设置CLIENT_ACCOUNTING为[I]（紧急）或者CLIENT_ACCOUNTING为[Q]（队列）来完成，</value>
+  <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">为了执行产品规划流程，你需要使得客户端录入，可以通过windos系统配置，设置CLIENT_ACCOUNTING为[I]（紧急）或者CLIENT_ACCOUNTING为[Q]（队列）来完成</value>
  </row>
  <row id="53084" trl="Y">
   <value column="MsgText" original="Not exists a Business Partner linked for Organization">不存在链接至组织的业务伙伴</value>
@@ -5477,7 +5477,7 @@
  </row>
  <row id="53095" trl="Y">
   <value column="MsgText" original="Invalid cron scheduling pattern">执行调度模式</value>
-  <value column="MsgTip" original="Invalid cron scheduling pattern - check syntax">无效的的cron调度模式 - 检查语法</value>
+  <value column="MsgTip" original="Invalid cron scheduling pattern - check syntax">无效的的JCron调度模式 - 检查语法</value>
  </row>
  <row id="53096" trl="Y">
   <value column="MsgText" original="Subtotal">分类汇总</value>
@@ -5492,7 +5492,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53099" trl="Y">
-  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">系统：你离开太久了，请点击下面链接。</value>
+  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">由于您离开太久或者服务器重启，当前使用的页面或组件不再可用，请尝试重新登陆系统</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53117" trl="Y">
@@ -5536,7 +5536,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53127" trl="Y">
-  <value column="MsgText" original="Credit">大神</value>
+  <value column="MsgText" original="Credit">贷记</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53128" trl="Y">
@@ -6024,7 +6024,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200122" trl="Y">
-  <value column="MsgText" original="You will be logged out in">将要退出系统</value>
+  <value column="MsgText" original="You will be logged out in">我们抱歉的通知您即将被登出系统</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200123" trl="Y">
@@ -6562,7 +6562,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200274" trl="Y">
-  <value column="MsgText" original="Your search returned more than the maximum number of results allowed.&lt;br&gt;Please narrow down your search criteria and try your search again.">搜索结果超过允许的最大数量，请缩小范围后重试。</value>
+  <value column="MsgText" original="Your search returned more than the maximum number of results allowed.&lt;br&gt;Please narrow down your search criteria and try your search again.">搜索结果超过允许的最大数量，请缩小范围后重试</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200275" trl="Y">
