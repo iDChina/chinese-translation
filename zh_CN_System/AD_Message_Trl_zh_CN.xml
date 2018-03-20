@@ -154,7 +154,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="138" trl="Y">
-  <value column="MsgText" original="Prefer selecting a matching invoice and payment pair and process each at a time.">最好选择一对匹配的发票和付款，然后逐个处理</value>
+  <value column="MsgText" original="Prefer selecting a matching invoice and payment pair and process each at a time.">推荐逐个处理发票与支付单的匹配</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="139" trl="Y">
@@ -170,7 +170,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="142" trl="Y">
-  <value column="MsgText" original="Payment Amount">付款金额</value>
+  <value column="MsgText" original="Payment Amount">支付金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="143" trl="Y">
@@ -402,7 +402,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200" trl="Y">
-  <value column="MsgText" original="There seems to be a Credit Card Number problem.&#10;Continue?">发现一个信用卡号码问题，是否继续？</value>
+  <value column="MsgText" original="There seems to be a Credit Card Number problem.&#10;Continue?">信用卡账号可能存在问题，是否继续？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="201" trl="Y">
@@ -818,7 +818,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="304" trl="Y">
-  <value column="MsgText" original="Payment Info">付款信息</value>
+  <value column="MsgText" original="Payment Info">支付信息</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="305" trl="Y">
@@ -838,7 +838,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="309" trl="Y">
-  <value column="MsgText" original="Invoices are generated depending on the &quot;Invoicing Rule&quot; selection in the Order">选中订单的"发票规则"无法生成发票，原因：订购时间和订单金额不满足条件。</value>
+  <value column="MsgText" original="Invoices are generated depending on the &quot;Invoicing Rule&quot; selection in the Order">按订单"开票规则"生成的发票结果，无结果表示“订单金额”小于开票计划的最小开票金额。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="310" trl="Y">
@@ -1028,11 +1028,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="356" trl="Y">
-  <value column="MsgText" original="Number of lines">行数量</value>
+  <value column="MsgText" original="Number of lines">明细行数量</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="357" trl="Y">
-  <value column="MsgText" original="Number of Payments">支付单号</value>
+  <value column="MsgText" original="Number of Payments">支付单数量</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="358" trl="Y">
@@ -1168,7 +1168,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="391" trl="Y">
-  <value column="MsgText" original="Payment Allocation">付款分配</value>
+  <value column="MsgText" original="Payment Allocation">支付分配</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="392" trl="Y">
@@ -1184,27 +1184,27 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="395" trl="Y">
-  <value column="MsgText" original="Enter the payment after completing the transaction">在完成事务处理后输入付款</value>
+  <value column="MsgText" original="Enter the payment after completing the transaction">在完成事务后进行支付</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="396" trl="Y">
-  <value column="MsgText" original="Created Payment:">已创建付款：</value>
+  <value column="MsgText" original="Created Payment:">已创建支付单：</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="397" trl="Y">
-  <value column="MsgText" original="Payment discount">付款折扣</value>
+  <value column="MsgText" original="Payment discount">支付折扣</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="398" trl="Y">
-  <value column="MsgText" original="An error occurred when processing the payment:">当处理付款时发生一个错误：</value>
+  <value column="MsgText" original="An error occurred when processing the payment:">支付错误：</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="399" trl="Y">
-  <value column="MsgText" original="No Payment Processor for this Payment Type.">没有用于该付款类型的付款引擎</value>
-  <value column="MsgTip" original="Create Payment Processor for your Bank Account.">为银行账户创建付款引擎</value>
+  <value column="MsgText" original="No Payment Processor for this Payment Type.">该支付类型不存在支付处理器/网关</value>
+  <value column="MsgTip" original="Create Payment Processor for your Bank Account.">在银行账户下创建支付处理器/网关</value>
  </row>
  <row id="400" trl="Y">
-  <value column="MsgText" original="Payment process failed">付款程序失败</value>
+  <value column="MsgText" original="Payment process failed">支付处理失败</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="401" trl="Y">
@@ -1212,8 +1212,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="402" trl="Y">
-  <value column="MsgText" original="The amount is zero.&#10;Enter the payment after completing the transaction">金额为零
-请在完成交易后输入付款</value>
+  <value column="MsgText" original="The amount is zero.&#10;Enter the payment after completing the transaction">金额为零，请输入支付金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="403" trl="Y">
@@ -1493,7 +1492,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="472" trl="Y">
-  <value column="MsgText" original="Remittance Advice">汇款建议</value>
+  <value column="MsgText" original="Remittance Advice">汇款通知单</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="473" trl="Y">
@@ -1924,40 +1923,39 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="579" trl="Y">
-  <value column="MsgText" original="Payment print/export">付款打印/输出</value>
+  <value column="MsgText" original="Payment print/export">打印支付选择</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="580" trl="Y">
-  <value column="MsgText" original="For some payments, there were not enough room for all remittance lines.&#10;Do you want to print separate Remittance advice ?">对于一些付款，空间不能包括所有的汇款行。
-你想要分开打印汇款建议吗？</value>
+  <value column="MsgText" original="For some payments, there were not enough room for all remittance lines.&#10;Do you want to print separate Remittance advice ?">是否按发票打印汇款通知单？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="581" trl="Y">
-  <value column="MsgText" original="No Bank Account Documents (Checks) for this Bank Account and Payment Rule.">无银行账户单据 (支票) 适用于该银行账户和付款规则</value>
+  <value column="MsgText" original="No Bank Account Documents (Checks) for this Bank Account and Payment Rule.">该银行账户和支付规则未定义银行单据（比如：支票）</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="582" trl="Y">
-  <value column="MsgText" original="No Payments available for Print/Export">没有可用于打印/输出的付款</value>
+  <value column="MsgText" original="No Payments available for Print/Export">不存在可打印/输出的支付单</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="583" trl="Y">
-  <value column="MsgText" original="Do you want to print Remittance Advice ?">需要打印付款通知单吗？</value>
+  <value column="MsgText" original="Do you want to print Remittance Advice ?">是否打印汇款回执吗？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="584" trl="Y">
-  <value column="MsgText" original="Generate EFT Payments">生成 EFT 付款</value>
+  <value column="MsgText" original="Generate EFT Payments">生成 EFT 网关支付</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="585" trl="Y">
-  <value column="MsgText" original="Is the payment print correct ?   If answered yes, then it will create and complete payments.">付款打印是否正确？如果正确，将创建并完成付款。</value>
+  <value column="MsgText" original="Is the payment print correct ?   If answered yes, then it will create and complete payments.">数据导出是否正确？如果正确，将创建并完成支付单。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="586" trl="Y">
-  <value column="MsgText" original="Payment selection (manual)">付款选择 (手工)</value>
+  <value column="MsgText" original="Payment selection (manual)">支付选择 (手工)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="587" trl="Y">
-  <value column="MsgText" original="Generate Payments from Payment Selection?">是否从付款选择生成付款？</value>
+  <value column="MsgText" original="Generate Payments from Payment Selection?">是否从支付选择生成支付单？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="588" trl="Y">
@@ -1965,7 +1963,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="589" trl="Y">
-  <value column="MsgText" original="Print/export generated Payments?">打印/输入生成的付款吗？</value>
+  <value column="MsgText" original="Print/export generated Payments?">打印/导出生成的支付单吗？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="590" trl="Y">
@@ -2053,7 +2051,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="611" trl="Y">
-  <value column="MsgText" original="Waiting for Payment (if required you can close the order)">等待付款 (如果需要可关闭订单)</value>
+  <value column="MsgText" original="Waiting for Payment (if required you can close the order)">等待支付 (如果需要可关闭订单)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="612" trl="Y">
@@ -2289,7 +2287,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="671" trl="Y">
-  <value column="MsgText" original="Shipments are generated depending on the &quot;Delivery Rule&quot; selection in the Order">发货单的生成依据于订单中的"交付规则"选择</value>
+  <value column="MsgText" original="Shipments are generated depending on the &quot;Delivery Rule&quot; selection in the Order">按销售订单"发货规则"生成的发货单结果</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="672" trl="Y">
@@ -2317,7 +2315,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="678" trl="Y">
-  <value column="MsgText" original="Payment Document Type and Invoice type (AP/AR) inconsistent.">付款单据类型与发票类型 (应付/应收) 不一致</value>
+  <value column="MsgText" original="Payment Document Type and Invoice type (AP/AR) inconsistent.">支付单据类型与发票类型 (应付/应收) 不一致</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="679" trl="Y">
@@ -2953,7 +2951,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="846" trl="Y">
-  <value column="MsgText" original="Payment is allocated (Charge, Invoice, Order)">付款已分配 (费用，发票，订单)</value>
+  <value column="MsgText" original="Payment is allocated (Charge, Invoice, Order)">支付已分配 (费用，发票，订单)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="847" trl="Y">
@@ -2969,7 +2967,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="850" trl="Y">
-  <value column="MsgText" original="You subscribed to this Interest Area. To unsubscribe, log in, go to Interest Area and click Un-subscribe.">已经订阅了该兴趣领域。如需退订，登录后转至兴趣领域页面，点击退订按钮</value>
+  <value column="MsgText" original="You subscribed to this Interest Area. To unsubscribe, log in, go to Interest Area and click Un-subscribe.">兴趣领域订阅成功。如需退订，登录后转至“兴趣领域”窗口，点击“退订”按钮。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="851" trl="Y">
@@ -3053,7 +3051,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="871" trl="Y">
-  <value column="MsgText" original="Document Processed">单据已处理</value>
+  <value column="MsgText" original="Document Processed">已处理单据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="872" trl="Y">
@@ -3633,19 +3631,19 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52111" trl="Y">
-  <value column="MsgText" original="Continue">点我重新登录。</value>
+  <value column="MsgText" original="Continue">点我，重新登录。</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52112" trl="Y">
   <value column="MsgText" original="Create Business Partner">创建业务伙伴</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52113" trl="Y">
-  <value column="MsgText" original="Create Garment">创建付款</value>
+ <row id="52113" trl="N">
+  <value column="MsgText" original="Create Garment">Create Garment</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52114" trl="Y">
-  <value column="MsgText" original="Create Payment">创建付款</value>
+  <value column="MsgText" original="Create Payment">创建支付单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52115" trl="Y">
@@ -4209,31 +4207,31 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52255" trl="Y">
-  <value column="MsgText" original="Payment Allocation">付款配置</value>
+  <value column="MsgText" original="Payment Allocation">支付分配</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52256" trl="Y">
-  <value column="MsgText" original="Payment By">付款单 By</value>
+  <value column="MsgText" original="Payment By">支付单 By</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52257" trl="Y">
-  <value column="MsgText" original="Payment Details">付款明细</value>
+  <value column="MsgText" original="Payment Details">支付明细</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52258" trl="Y">
-  <value column="MsgText" original="Payment No">付款单号码</value>
-  <value column="MsgTip" original="Payment No">付款单号码</value>
+  <value column="MsgText" original="Payment No">支付单号</value>
+  <value column="MsgTip" original="Payment No">收款/付款单号码</value>
  </row>
  <row id="52259" trl="Y">
-  <value column="MsgText" original="Payment Status">付款状态</value>
+  <value column="MsgText" original="Payment Status">支付状态</value>
   <value column="MsgTip" original="Payment Status">付款状态</value>
  </row>
  <row id="52260" trl="Y">
-  <value column="MsgText" original="Payment Terms">付款期限</value>
+  <value column="MsgText" original="Payment Terms">支付条款</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52261" trl="Y">
-  <value column="MsgText" original="Payment Type">付款类型</value>
+  <value column="MsgText" original="Payment Type">支付类型</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52262" trl="Y">
@@ -4369,7 +4367,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52295" trl="Y">
-  <value column="MsgText" original="The Products have been updated">单据已处理</value>
+  <value column="MsgText" original="The Products have been updated">已处理单据</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52296" trl="Y">
@@ -4577,7 +4575,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52347" trl="Y">
-  <value column="MsgText" original="Cash Sales (Discount/Multiple Payments)">现金销售（折扣/多种付款方式）</value>
+  <value column="MsgText" original="Cash Sales (Discount/Multiple Payments)">现金销售（折扣/混合支付）</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52348" trl="Y">
@@ -4601,7 +4599,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52353" trl="Y">
-  <value column="MsgText" original="Create General Payments">创建通用付款</value>
+  <value column="MsgText" original="Create General Payments">创建通用支付单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52354" trl="Y">
@@ -4693,11 +4691,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52376" trl="Y">
-  <value column="MsgText" original="Payment Allocations History">付款分配历史记录</value>
+  <value column="MsgText" original="Payment Allocations History">支付分配历史记录</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52377" trl="Y">
-  <value column="MsgText" original="Payment Term">付款条件</value>
+  <value column="MsgText" original="Payment Term">支付条款</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52378" trl="Y">
@@ -4733,7 +4731,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52386" trl="Y">
-  <value column="MsgText" original="Settle Payment on a Credit Sales">信用销售结算付款</value>
+  <value column="MsgText" original="Settle Payment on a Credit Sales">结算赊销业务</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52388" trl="Y">
@@ -4857,7 +4855,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52418" trl="Y">
-  <value column="MsgText" original="Unallocated Payments">未分配付款</value>
+  <value column="MsgText" original="Unallocated Payments">未分配支付单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52419" trl="Y">
@@ -5045,7 +5043,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="52465" trl="Y">
-  <value column="MsgText" original="Amount Paid">付款金额</value>
+  <value column="MsgText" original="Amount Paid">已付金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="52467" trl="Y">
@@ -5145,7 +5143,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="52492" trl="Y">
-  <value column="MsgText" original="Settle Payment For Purchases On Credit">接受信用付款购买</value>
+  <value column="MsgText" original="Settle Payment For Purchases On Credit">结算赊购</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="52493" trl="Y">
@@ -5273,8 +5271,8 @@
   <value column="MsgTip" original="Show only orders with the same warehouse as selected in the material receipt">只显示相同的（材料接收所选的）仓库订单</value>
  </row>
  <row id="53029" trl="Y">
-  <value column="MsgText" original="Choose the date of the most recent payment that you plan to allocate, but it must be in an open accounting period or it will not post.">选择最近的付款分配日期，且会计期间未关闭，否则分配将不会产生会计分录</value>
-  <value column="MsgTip" original="Prefer most recent payment date, within open period.">日期为越近越好的未关闭期间</value>
+  <value column="MsgText" original="Choose the date of the most recent payment that you plan to allocate, but it must be in an open accounting period or it will not post.">选择开放会计期间内的最近分配日期，否则支付分配将不会产生分录。</value>
+  <value column="MsgTip" original="Prefer most recent payment date, within open period.">日期为越近越好的未关闭期间。</value>
  </row>
  <row id="53031" trl="Y">
   <value column="MsgText" original="MRP Info">MRP 信息</value>
@@ -5309,11 +5307,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53044" trl="Y">
-  <value column="MsgText" original="Payment Allocate must not exists if the payment header has charge/invoice/order.">如果支付单表头有杂费、发票或者订单数据，将不能生成付款分配。</value>
+  <value column="MsgText" original="Payment Allocate must not exists if the payment header has charge/invoice/order.">包含杂费、发票或订单的支付单不能存在已有的支付分配，支付单状态无效。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53045" trl="Y">
-  <value column="MsgText" original="Payment Amount must be equal to the sum of Allocate amounts.">付款单金额必须等于分配总额</value>
+  <value column="MsgText" original="Payment Amount must be equal to the sum of Allocate amounts.">支付单金额必须等于分配总额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53046" trl="Y">
@@ -5437,7 +5435,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53087" trl="Y">
-  <value column="MsgText" original="Inventory Moves are generated depending on the &quot;Delivery Rule&quot; selection in the Distribution Order">发货单的生成依据于订单中的"交付规则"选择</value>
+  <value column="MsgText" original="Inventory Moves are generated depending on the &quot;Delivery Rule&quot; selection in the Distribution Order">按配送订单"发货规则"生成的配送结果</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53088" trl="Y">
@@ -5485,7 +5483,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53099" trl="Y">
-  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">系统：你离开太久了，请点击下面链接。</value>
+  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">会话超过一个小时或者服务器重启啦？	 </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53117" trl="Y">
@@ -5497,7 +5495,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53119" trl="Y">
-  <value column="MsgText" original="Error in payment schedule">付款计划错误</value>
+  <value column="MsgText" original="Error in payment schedule">支付计划错误</value>
   <value column="MsgTip" original="Check the payment schedule.  If the payment term has a schema then the document must have a schedule (is auto-generated if empty) and the schedule must sum the total of the document.  If the payment term doesn't have a schema, then the document must not have schedule.">请检查付款时间表，如果付款期限有一个模式，那么该文档必须有一个时间表（如果是空的，则是系统自动生成的），时间表必须总结所有的付款文档，如果支付期限没有一个模式的话，那么该文件没有时刻表</value>
  </row>
  <row id="53120" trl="Y">
@@ -5685,7 +5683,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200033" trl="Y">
-  <value column="MsgText" original="Reached the maximum number of login attempts, user account ({0}) is locked">由于尝试登录次数超出允许次数，用户账号 ({0}) 已被锁定</value>
+  <value column="MsgText" original="Reached the maximum number of login attempts, user account ({0}) is locked">由于尝试登录次数超出允许次数，账号 ({0}) 已被锁定</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200034" trl="Y">
@@ -5785,7 +5783,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200060" trl="Y">
-  <value column="MsgText" original="Invoice Processed: ">发票已处理： </value>
+  <value column="MsgText" original="Invoice Processed: ">已完成发票： </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200061" trl="Y">
@@ -5793,11 +5791,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200062" trl="Y">
-  <value column="MsgText" original="Allocation Processed: ">分配已处理： </value>
+  <value column="MsgText" original="Allocation Processed: ">已处理分配： </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200063" trl="Y">
-  <value column="MsgText" original="Shipment Processed: ">发货已处理： </value>
+  <value column="MsgText" original="Shipment Processed: ">已完成发货单： </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200064" trl="Y">
@@ -5853,11 +5851,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="200077" trl="Y">
-  <value column="MsgText" original="Failed to create payment">将付款分配给发票</value>
+  <value column="MsgText" original="Failed to create payment">创建支付失败</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200078" trl="Y">
-  <value column="MsgText" original="Failed to cancel payment">将付款分配给发票</value>
+  <value column="MsgText" original="Failed to cancel payment">取消支付失败</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200079" trl="Y">
@@ -5941,11 +5939,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200101" trl="Y">
-  <value column="MsgText" original="Payment transaction already voided">在完成事务处理后输入付款</value>
+  <value column="MsgText" original="Payment transaction already voided">支付事务已经取消</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200102" trl="Y">
-  <value column="MsgText" original="Payment transaction already delayed capture">付款交易已经推迟捕捉</value>
+  <value column="MsgText" original="Payment transaction already delayed capture">支付交易已经延迟</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200103" trl="Y">
@@ -5953,7 +5951,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200104" trl="Y">
-  <value column="MsgText" original="Payment already delayed capture">付款引用 (延迟交易)</value>
+  <value column="MsgText" original="Payment already delayed capture">支付已经延迟</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200105" trl="Y">
@@ -5961,11 +5959,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200106" trl="Y">
-  <value column="MsgText" original="Payment transaction already processed">在完成事务处理后输入付款</value>
+  <value column="MsgText" original="Payment transaction already processed">支付事务已处理</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200107" trl="Y">
-  <value column="MsgText" original="No payment processor model">没有用于该付款类型的付款引擎</value>
+  <value column="MsgText" original="No payment processor model">该支付类型不存在支付处理器/网关</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200108" trl="Y">
@@ -6094,10 +6092,10 @@
 <br />
 <p><a href="http://wiki.idempiere.org/zh" target="_blank">iDempiere wiki 中文首页</a></p>
 <p><a href="http://idempiere_community.mydoc.io/" target="_blank">iDempiere 中文社区</a></p>
-<p><a href="http://idempiere_guide_sm.mydoc.io/" target="_blank">iDempiere 5.1 管理指南</a></p>
-<p><a href="http://idempiere_guide_fi.mydoc.io/" target="_blank">iDempiere 5.1 财务指南</a></p>
-<p><a href="http://idempiere_guide_io.mydoc.io/" target="_blank">iDempiere 5.1 进销存指南</a></p>
-<p><a href="http://idempiere_guide_xb.mydoc.io/" target="_blank">iDempiere 5.1 开发指南</a></p>
+<p><a href="http://idempiere_guide_sm.mydoc.io/" target="_blank">iDempiere 4.1 管理指南</a></p>
+<p><a href="http://idempiere_guide_fi.mydoc.io/" target="_blank">iDempiere 4.1 财务指南</a></p>
+<p><a href="http://idempiere_guide_io.mydoc.io/" target="_blank">iDempiere 4.1 进销存指南</a></p>
+<p><a href="http://idempiere_guide_xb.mydoc.io/" target="_blank">iDempiere 4.1 开发指南</a></p>
 <br />
 <p>====用户pdf====</p>
 <br />
@@ -6243,7 +6241,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200176" trl="Y">
-  <value column="MsgText" original="Inactive payment processor">付款引擎无效</value>
+  <value column="MsgText" original="Inactive payment processor">支付处理器无效</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200177" trl="Y">
@@ -6568,7 +6566,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200306" trl="Y">
-  <value column="MsgText" original="This process creates and complete payments automatically, do you want to print and at the same time create/complete payments?">本次流程已自动创建并完成支付单，是否立即打印？</value>
+  <value column="MsgText" original="This process creates and complete payments automatically, do you want to print and at the same time create/complete payments?">将创建并完成所选发票的支付单，是否立即打印？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200326" trl="Y">
@@ -6724,7 +6722,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="523848" trl="Y">
-  <value column="MsgText" original="The parent record (document) is already processed">单据已处理</value>
+  <value column="MsgText" original="The parent record (document) is already processed">已处理单据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="523849" trl="Y">

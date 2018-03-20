@@ -208,7 +208,7 @@
  <row id="147" trl="Y">
   <value column="Name" original="Invoice Schedule">开票计划</value>
   <value column="Description" original="Maintain Invoicing Schedule">维护发票的开票计划</value>
-  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">维护发票的开票计划。【注】通常国内按税务发票日期结算，而税务发票可能与系统应付/应收发票日期存在差异。</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">发票的开票计划由订单表头的“开票规则”指定，并引用业务伙伴的开票计划定义。【注】通常国内按税务发票日期结算，而税务发票可能与系统业务发票日期存在差异。</value>
  </row>
  <row id="149" trl="Y">
   <value column="Name" original="Marketing Campaign">营销活动</value>
@@ -432,8 +432,8 @@
  </row>
  <row id="206" trl="Y">
   <value column="Name" original="Payment Selection">付款选择</value>
-  <value column="Description" original="Select Invoices for Payment">选择待支付的发票，并准备票据</value>
-  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">根据条件筛选待支付的发票，并准备票据。</value>
+  <value column="Description" original="Select Invoices for Payment">选择待付款的发票，并准备商业票据</value>
+  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">根据条件筛选待付款的供应商发票，并准备商业票据，你可以在”打印付款选择“窗体进行打印或者导出。</value>
  </row>
  <row id="207" trl="Y">
   <value column="Name" original="Commission">计算佣金</value>
@@ -746,9 +746,9 @@
   <value column="Help" original="A web counter maintains how often a page or item was displayed.  Add a call to&#10;http://www.idempiere.org/wstore/counter to the page (e.g. display a 1x1 image)&#10;">Web计数器</value>
  </row>
  <row id="275" trl="Y">
-  <value column="Name" original="Invoice Payment Schedule">发票付款计划</value>
-  <value column="Description" original="Maintain Invoice Payment Schedule">维护发票付款计划</value>
-  <value column="Help" original="Maintain Payment Schedule of unpaid invoices">维护发票付款计划</value>
+  <value column="Name" original="Invoice Payment Schedule">发票支付计划</value>
+  <value column="Description" original="Maintain Invoice Payment Schedule">维护发票的支付计划</value>
+  <value column="Help" original="Maintain Payment Schedule of unpaid invoices">新建并维护发票的支付计划</value>
  </row>
  <row id="276" trl="Y">
   <value column="Name" original="Alert">预警</value>
@@ -2230,8 +2230,8 @@
   <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">对合同和项目进行预收/付款。</value>
  </row>
  <row trl="Y" uuid="243d5c74-eb21-458a-9a36-8a337a082c87">
-  <value column="Name" original="Charge Payment">支付单</value>
-  <value column="Description" original="Process Payments and Receipts for Charge">支付单</value>
-  <value column="Help" original="">支付单</value>
+  <value column="Name" original="Charge Payment">杂项支付单</value>
+  <value column="Description" original="Process Payments and Receipts for Charge">杂项支付单</value>
+  <value column="Help" original="">杂项支付单</value>
  </row>
 </idempiereTrl>

@@ -232,7 +232,9 @@
   <value column="Name" original="Sequence">序号定义</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Sequence Definition">系统或者单据的流水号定义</value>
-  <value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix.">系统或者单据的流水号定义</value>
+  <value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix."><![CDATA[系统或者单据的流水号定义，前缀/后缀的变量定义@列名<格式>@，比如：
+@AD_Org_ID<AD_Org.Value>@
+@DateAcct<yyyyMM>@]]></value>
  </row>
  <row id="148" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
@@ -464,7 +466,7 @@
   <value column="Name" original="Invoice Schedule">开票计划</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Invoice Schedule">定义开票计划</value>
-  <value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner.">定义业务发票的开票频度和规则。【注】通常国内按税务发票日期结算，而税务发票可能与系统应付/应收发票日期存在差异。</value>
+  <value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner."><![CDATA[定义业务发票的开票频度和规则。<br />【注意1】系统默认使用销售订单的订购日期作为日期计划，且未对订单行的发货数量进行判定，业务习惯按照发货单日期进行开票，需实施修改c_invoice_candidate_v视图。<br />【注意2】通常国内按税务发票日期结算，而税务发票可能与系统应付/应收发票日期存在差异。]]></value>
  </row>
  <row id="198" trl="Y">
   <value column="Name" original="Conversion Rate">汇率</value>
@@ -1216,16 +1218,16 @@
   <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache.">维护角色组织访问权限</value>
  </row>
  <row id="352" trl="Y">
-  <value column="Name" original="Payment Selection">支付选择</value>
+  <value column="Name" original="Payment Selection">付款选择</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Payment">选择待支付的发票，并准备票据</value>
-  <value column="Help" original="The Payment Selection Tab defines the bank account and date of the payments to be made. You also create the payments here.">选择待支付的发票，并准备票据</value>
+  <value column="Description" original="Define Payment">选择待付款的发票，并准备商业票据</value>
+  <value column="Help" original="The Payment Selection Tab defines the bank account and date of the payments to be made. You also create the payments here.">根据条件筛选待付款的供应商发票，并准备商业票据，你可以在”打印付款选择“窗体进行打印或者导出。</value>
  </row>
  <row id="353" trl="Y">
   <value column="Name" original="Payment Selection Line">已选择发票</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Payment Selection Line">已选择发票的明细，等待准备支付票据</value>
-  <value column="Help" original="The Payment Selection Line Tab defines the individual invoices an organization is paying to a Vendor with this payment.">已选择发票的明细，等待准备支付票据</value>
+  <value column="Description" original="Payment Selection Line">已选择的应付发票明细，等待准备创建商业票据</value>
+  <value column="Help" original="The Payment Selection Line Tab defines the individual invoices an organization is paying to a Vendor with this payment.">已选择的应付发票明细，等待准备创建商业票据。</value>
  </row>
  <row id="354" trl="Y">
   <value column="Name" original="Report View Column">报表视图列</value>
@@ -1705,8 +1707,7 @@
   <value column="Name" original="Prepared Payment">已准备票据</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View Generated Prepared Payments (Checks)">查看已生成的待支付票据，比如支票，汇票</value>
-  <value column="Help" original="You create the actual Payments via Payment Print/Export"><![CDATA[查看已生成的待支付票据，比如支票，汇票。你可以手动分配你的票据，准备打印。
-<br />但只有新建收款单/付款单后，你才可以打印或者导出票据。]]></value>
+  <value column="Help" original="You create the actual Payments via Payment Print/Export">查看已生成的待支付票据，比如支票，汇票。你可以通过”打印付款选择”窗体来创建真正的付款单。</value>
  </row>
  <row id="437" trl="Y">
   <value column="Name" original="Request Type">请求类型</value>
@@ -5555,10 +5556,10 @@
   <value column="Help" original=""/>
  </row>
  <row id="53373" trl="Y">
-  <value column="Name" original="Payment Schedule">付款计划</value>
+  <value column="Name" original="Payment Schedule">支付计划</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Invoice Payment Schedule">发票付款计划</value>
-  <value column="Help" original="">发票付款计划</value>
+  <value column="Description" original="Invoice Payment Schedule">发票支付计划</value>
+  <value column="Help" original="">发票支付计划</value>
  </row>
  <row id="53374" trl="Y">
   <value column="Name" original="Payment Schedule">收款计划</value>
@@ -5567,10 +5568,10 @@
   <value column="Help" original="">订单收款计划</value>
  </row>
  <row id="53375" trl="Y">
-  <value column="Name" original="Payment Schedule">付款计划</value>
+  <value column="Name" original="Payment Schedule">支付计划</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Order Payment Schedule">发票付款计划</value>
-  <value column="Help" original="">发票付款计划</value>
+  <value column="Description" original="Order Payment Schedule">发票支付计划</value>
+  <value column="Help" original="">发票支付计划</value>
  </row>
  <row id="53376" trl="Y">
   <value column="Name" original="Cash Plan">现金计划</value>

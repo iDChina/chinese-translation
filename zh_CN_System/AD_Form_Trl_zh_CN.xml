@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
  <row id="100" trl="Y">
-  <value column="Name" original="Generate Invoices (manual)">创建发票 （手动）</value>
-  <value column="Description" original="Select and generate invoices">对已发货的销售订单创建发票</value>
-  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">选择已发货销售订单，然后创建发票。</value>
+  <value column="Name" original="Generate Invoices (manual)">生成发票 （手动）</value>
+  <value column="Description" original="Select and generate invoices">选择销售订单，生成发票并完成单据</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for."><![CDATA[从筛选后的销售订单中选择生成发票，流程对多个发货单进行合并开票。<br /><br />
+筛选订单由订单的开票规则决定，默认显示“立即开票”的订单。“按发货开票”只有发货才显示，“按订单开票”只有全发货才显示。“按开票规则”只有当前日期和订单日期，开票月天符合条件才显示。<br /><br />
+开票数量也由订单的开票规则决定，“立即开票”和“按订单开票”开具全部订单数量，“按发货开票”和“按开票计划”只会开具发货数量。<br /><br />
+【注意】最后生成的发票包含2条发货备注，bug]]></value>
  </row>
  <row id="101" trl="Y">
   <value column="Name" original="Import File Loader">加载导入文件</value>
@@ -28,17 +31,17 @@
  <row id="105" trl="Y">
   <value column="Name" original="Generate Charges">创建杂费</value>
   <value column="Description" original="Generate Charges from natural accounts">从自然账户创建杂费</value>
-  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">使用上半部分创建新的杂费，基于一般的杂费账户。使用下半部分创建杂费，基于自然账户</value>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">使用上半部分创建杂费，基于通用的杂费账户。使用下半部分创建杂费，基于自然账户。</value>
  </row>
  <row id="106" trl="Y">
-  <value column="Name" original="Payment Print/Export">付款打印/导出</value>
-  <value column="Description" original="Print or export your payments">打印或导出付款</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Payment Print/Export">打印付款选择</value>
+  <value column="Description" original="Print or export your payments">打印付款选择</value>
+  <value column="Help" original="">打印或者导出已生成的付款选择</value>
  </row>
  <row id="107" trl="Y">
   <value column="Name" original="Payment Selection (manual)">付款选择（手动）</value>
-  <value column="Description" original="Manual Payment Selection">手动的付款选择</value>
-  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择需支付的供应商发票。如果没有发票，请确保它尚未包含在未处理的付款选择中</value>
+  <value column="Description" original="Manual Payment Selection">手动选择应付发票，创建付款选择</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择应付发票创建付款选择。如果没有找到发票，请确保它尚未包含在未处理的付款选择中。</value>
  </row>
  <row id="108" trl="Y">
   <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购-收货单-发票</value>
@@ -51,9 +54,9 @@
   <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">导入导出经外部工具编辑过的 xml 文件。请注意此语言必须启用并设置为系统语言</value>
  </row>
  <row id="110" trl="Y">
-  <value column="Name" original="Generate Shipments (manual)">创建发货单（手动）</value>
-  <value column="Description" original="Select and generate shipments">选择并创建发货单</value>
-  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">从订单创建发货单。</value>
+  <value column="Name" original="Generate Shipments (manual)">生成发货单（手动）</value>
+  <value column="Description" original="Select and generate shipments">选择销售订单，生成发货单并完成单据</value>
+  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">从筛选后的销售订单中选择生成发货单。【注意】多个订单会合并发货，且发货不包括“直送”销售订单。</value>
  </row>
  <row id="111" trl="Y">
   <value column="Name" original="SQL Process">执行 SQL</value>
@@ -161,7 +164,7 @@
  </value>
  </row>
  <row id="53008" trl="Y">
-  <value column="Name" original="Generate Movement Manual">创建调拨单（手动）</value>
+  <value column="Name" original="Generate Movement Manual">生成调拨单（手动）</value>
   <value column="Description" original="Generate Movement to a Order Distribution">产生一个配送单的调拨单</value>
   <value column="Help" original=""/>
  </row>
@@ -171,9 +174,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="53010" trl="Y">
-  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单（手动）</value>
-  <value column="Description" original="Select and generate shipments &amp; Invoices">选择并生成发货单</value>
-  <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">从订单生成发货单。选择订单以用于生成生成发货单和发票</value>
+  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单和发票（手动）</value>
+  <value column="Description" original="Select and generate shipments &amp; Invoices">选择并生成发货单和发票</value>
+  <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">从订单生成发货单，选择订单以用于生成生成发货单和发票。</value>
  </row>
  <row id="53012" trl="Y">
   <value column="Name" original="Material Receipt Distribution Order">收货配送单</value>

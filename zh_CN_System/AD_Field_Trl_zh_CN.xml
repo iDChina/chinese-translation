@@ -140,6 +140,11 @@
   <value column="Description" original="Is this invoiced?">如果选择，表示将创建客户应收发票</value>
   <value column="Help" original="If selected, invoices are created">如果选择，表示将创建客户应收发票。通过流程“从费用报告创建销售订单”可创建对客户的费用销售订单（赊销），并可产生应付发票。</value>
  </row>
+ <row id="5833" trl="Y">
+  <value column="Name" original="Quantity">发票数量</value>
+  <value column="Description" original="Quantity">发票数量</value>
+  <value column="Help" original="The Quantity indicates the number of a specific product or item for this document.">票据所对应的发票数量</value>
+ </row>
  <row id="5875" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
@@ -366,21 +371,6 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="50068" trl="Y">
-  <value column="Name" original="IsActive">有效</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50069" trl="Y">
-  <value column="Name" original="Client">实体</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50070" trl="Y">
-  <value column="Name" original="Organization">组织</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="50071" trl="Y">
   <value column="Name" original="Name of Package">应用名称</value>
   <value column="Description" original="Name of Package">应用程序包的名称</value>
@@ -436,11 +426,6 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="50089" trl="Y">
-  <value column="Name" original="IsActive">有效</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="50090" trl="Y">
   <value column="Name" original="Processed">已处理</value>
   <value column="Description" original=""/>
@@ -450,16 +435,6 @@
   <value column="Name" original="Package Build ID">导出应用</value>
   <value column="Description" original="">导出应用</value>
   <value column="Help" original="">导出应用程序包的ID。</value>
- </row>
- <row id="50092" trl="Y">
-  <value column="Name" original="Client">实体</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50093" trl="Y">
-  <value column="Name" original="Organization">组织</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
  </row>
  <row id="50096" trl="Y">
   <value column="Name" original="Type">对象类型</value>
@@ -560,7 +535,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Storage Warehouse and Service Point">存储仓库或服务点</value>
   <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">仓库标识存储产品或提供服务的唯一仓库
 
-仓库是一个存放和控制产品的地方。</value>
+仓库是你存放和控制产品的地方。</value>
  </row>
  <row id="53513" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -608,20 +583,10 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Total Amount">累计金额</value>
   <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">产品移动的的累计金额</value>
  </row>
-  <row id="53904" trl="Y">
-  <value column="Name" original="Version No">版本号</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="54035" trl="Y">
   <value column="Name" original="Ordered Quantity">订单数量</value>
   <value column="Description" original="Ordered Quantity">订单的订购数量</value>
   <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">订单的订购数量</value>
- </row>
- <row id="54038" trl="Y">
-  <value column="Name" original="Instance">实例</value>
-  <value column="Description" original="Product Attribute Set Instance">产品属性集实例</value>
-  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">实际的产品属性值，可以在产品级别定义</value>
  </row>
  <row id="54039" trl="Y">
   <value column="Name" original="Instance To">产品属性</value>
@@ -713,63 +678,8 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
- <row id="56194" trl="Y">
-  <value column="Name" original="Period 5 %">期间5(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56195" trl="Y">
-  <value column="Name" original="Period 6 %">期间6(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56196" trl="Y">
-  <value column="Name" original="Period 7 %">期间7(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56197" trl="Y">
-  <value column="Name" original="Period 8 %">期间8(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56198" trl="Y">
-  <value column="Name" original="Period 9 %">期间9(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56199" trl="Y">
-  <value column="Name" original="Period 10 %">期间10(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56200" trl="Y">
-  <value column="Name" original="Period 11 %">期间11(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56201" trl="Y">
-  <value column="Name" original="Period 12 %">期间12(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56202" trl="Y">
-  <value column="Name" original="Period 13 %">期间13(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56203" trl="Y">
-  <value column="Name" original="Period 14 %">期间14(%)</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="56207" trl="Y">
   <value column="Name" original="Script">脚本</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="56210" trl="Y">
-  <value column="Name" original="Name">名称</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -818,13 +728,6 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Copy BOM Lines from an exising BOM">将已有的BOM明细复制到目标BOM</value>
   <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">将已有的BOM明细复制到目标BOM，目标BOM不能有任何明细数据。</value>
  </row>
- <row id="58114" trl="Y">
-  <value column="Name" original="Valid from">有效起始</value>
-  <value column="Description" original="Valid from including this date (first day)">有效起始日期， 包括当日 (第一天)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">有效起始日期表示日期范围的第一天
-
-起始日期和终止日期表示在这段时间范围内该BOM可以在生产线中使用</value>
- </row>
  <row id="58771" trl="Y">
   <value column="Name" original="Import Product Planning Data">导入产品计划和预测</value>
   <value column="Description" original="">导入产品计划和预测</value>
@@ -854,16 +757,6 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="Import Fixed Asset">导入固定资产</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
- </row>
- <row id="59500" trl="Y">
-  <value column="Name" original="Processed">已处理</value>
-  <value column="Description" original="The document has been processed">单据已处理</value>
-  <value column="Help" original="The Processed checkbox indicates that a document has been processed.">已处理复选框表示单据已被处理</value>
- </row>
- <row id="59822" trl="Y">
-  <value column="Name" original="Attribute Set Instance">属性集实例</value>
-  <value column="Description" original="Product Attribute Values">产品属性值</value>
-  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">实际的产品属性的值。产品实例属性在实际的事务处理中定义</value>
  </row>
  <row id="60944" trl="Y">
   <value column="Name" original="Copy From Cash Plan">复制现金计划明细</value>
@@ -1000,25 +893,10 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Shipment Date/Time">发货日期(FedEx专用)</value>
   <value column="Help" original="Actual Date/Time of Shipment (pick up)">发货日期(FedEx专用)。</value>
  </row>
- <row id="201255" trl="Y">
-  <value column="Name" original="Duties Shipper Account (For FedEx only)">责任人账户</value>
-  <value column="Description" original="">付款的责任人</value>
-  <value column="Help" original=""/>
- </row>
  <row id="201256" trl="Y">
   <value column="Name" original="Partner Location (For UPS only)">收货地址</value>
   <value column="Description" original="Identifies the (ship to) address for this Business Partner">标识该包裹的的收货地址</value>
   <value column="Help" original="The Partner address indicates the location of a Business Partner">伙伴地址表示业务伙伴的地址。</value>
- </row>
- <row id="201262" trl="Y">
-  <value column="Name" original="Future Day Shipment (For FedEx only)">指定日期发货</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="201264" trl="Y">
-  <value column="Name" original="Home Delivery Premium Type (For FedEx only)">送货到家类型</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
  </row>
  <row id="201265" trl="Y">
   <value column="Name" original="Phone Number (For FedEx only)">上门服务电话</value>
@@ -1030,50 +908,15 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="">上门日期</value>
   <value column="Help" original="">上门日期</value>
  </row>
- <row id="201267" trl="Y">
-  <value column="Name" original="Hazardous Materials (For FedEx only)">有害物质</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="201268" trl="Y">
   <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">危险品分类</value>
   <value column="Description" original="">危险品分类 (FedEx专用)</value>
   <value column="Help" original="">危险品分类 (FedEx专用)。</value>
  </row>
- <row id="201269" trl="Y">
-  <value column="Name" original="Cargo Aircraft Only (For FedEx only)">仅航空货运</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="201270" trl="Y">
-  <value column="Name" original="Accessible (For FedEx only)">辅助功能</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="201271" trl="Y">
-  <value column="Name" original="Dry Ice (For FedEx only)">干冰服务</value>
-  <value column="Description" original="">干冰服务</value>
-  <value column="Help" original="">干冰服务</value>
- </row>
  <row id="201272" trl="Y">
   <value column="Name" original="Dry Ice Weight (For FedEx only)">干冰重量</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
- </row>
- <row id="201273" trl="Y">
-  <value column="Name" original="Hold At Location (For FedEx only)">保持位置</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="201274" trl="Y">
-  <value column="Name" original="Hold Address (For FedEx only)">保持地址</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="201354" trl="Y">
-  <value column="Name" original="Added Handling (For UPS only)">处理费用</value>
-  <value column="Description" original="">是否对处理包裹收取费用</value>
-  <value column="Help" original="">是否对处理包裹收取费用</value>
  </row>
  <row id="201355" trl="Y">
   <value column="Name" original="Delivery Confirmation Type (For FedEx only)">交货签收类型</value>
@@ -1105,6 +948,11 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="202303" trl="Y">
+  <value column="Name" original="Movement Date">调整日期</value>
+  <value column="Description" original="Date a product was moved in or out of inventory">产品成本的调整日期</value>
+  <value column="Help" original="The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.">产品成本的调整日期</value>
+ </row>
  <row id="202325" trl="Y">
   <value column="Name" original="Cost Adjustment">成本调整单</value>
   <value column="Description" original="Inventory Cost Adjustment">成本调整单</value>
@@ -1119,26 +967,6 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="ViewID Column">视图列</value>
   <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">视图中的列名，列值将保存到 t_selection 表</value>
   <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">参考 https://idempiere.atlassian.net/browse/IDEMPIERE-1970。</value>
- </row>
- <row id="203325" trl="Y">
-  <value column="Name" original="Country Group">国家联合体</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="203326" trl="Y">
-  <value column="Name" original="To">目标</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="205154" trl="N">
-  <value column="Name" original="Client">实体</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="205174" trl="N">
-  <value column="Name" original="Client">实体</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
  </row>
  <row trl="Y" uuid="5cf7aebb-33dc-4f32-aa25-7fbba3ca7152">
   <value column="Name" original="Amount">数量</value>
