@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormat">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormat">
  <row id="100" trl="N">
   <value column="Name" original="Order_Header  ** TEMPLATE **">订单_表头 *模板*</value>
   <value column="Description" original="Standard Order Header">标准订单头信息</value>
@@ -329,7 +329,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200000" trl="N">
-  <value column="Name" original="BOM Line">BOM行</value>
+  <value column="Name" original="BOM Line">BOM明细</value>
   <value column="Description" original=""/>
  </row>
  <row id="200001" trl="N">
@@ -354,18 +354,6 @@
  </row>
  <row id="200008" trl="N">
   <value column="Name" original="Complex Fact View">Complex Fact View</value>
-  <value column="Description" original=""/>
- </row>
- <row id="700000" trl="N">
-  <value column="Name" original="未答复询价单">未答复询价单</value>
-  <value column="Description" original=""/>
- </row>
- <row id="700001" trl="N">
-  <value column="Name" original="询价单回应">询价单回应</value>
-  <value column="Description" original=""/>
- </row>
- <row id="700002" trl="N">
-  <value column="Name" original="佣金运行明细">佣金运行明细</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

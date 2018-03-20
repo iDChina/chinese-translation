@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
  <row id="1546" trl="Y">
   <value column="Name" original="Link Column">链接列</value>
   <value column="Description" original="Link Column for Multi-Parent tables">一对多关系的子表需指定具体的外键列</value>
-  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">子表有多个父表时，指定子表的列来链接两表关系。</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">子表有多个父表时，指定子表的列来链接两表关系。比如“用户组织权限”，使用用户ID，组织ID这两个外键，当挂在用户父标签下，链接列设置为用户ID；当挂在组织父标签下，链接列设置为组织ID。</value>
  </row>
  <row id="2124" trl="Y">
   <value column="Name" original="Language">语言</value>
@@ -16,14 +16,14 @@
   <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">工作流节点代表了工作流中的一个独特步骤或流程</value>
  </row>
  <row id="4055" trl="Y">
-  <value column="Name" original="Tax Amount">税金额</value>
+  <value column="Name" original="Tax Amount">税额</value>
   <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
   <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理</value>
  </row>
  <row id="4121" trl="Y">
-  <value column="Name" original="Account Conversion Date">对账行日期</value>
-  <value column="Description" original="Accounting Conversion Date">汇率转换日期</value>
-  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">表示单据的过账日期，在对账单中该日期通常用于汇率转换和报表显示。</value>
+  <value column="Name" original="Account Conversion Date">汇兑日期</value>
+  <value column="Description" original="Accounting Conversion Date">货币汇兑日期，与记账日期相同</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">记账日期表示单据生成会计分录的日期，同时也是货币汇兑的日期。银行对账明细的记账日期被用作货币汇兑和报表</value>
  </row>
  <row id="4462" trl="Y">
   <value column="Name" original="Business Partner / Sales Rep">业务伙伴/销售代表</value>
@@ -31,9 +31,9 @@
   <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">业务伙伴应当是一个供应商，同时可能是一个销售代表</value>
  </row>
  <row id="4725" trl="Y">
-  <value column="Name" original="Acknowledge">确认</value>
-  <value column="Description" original="System Notice acknowledged">系统通知已确认</value>
-  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留</value>
+  <value column="Name" original="Acknowledge">知悉通知</value>
+  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
  </row>
  <row id="5092" trl="Y">
   <value column="Name" original="Driving Column">数据库列</value>
@@ -57,8 +57,8 @@
  </row>
  <row id="9615" trl="Y">
   <value column="Name" original="Representative/Agent">销售代表</value>
-  <value column="Description" original="Sales Representative or Company Agent">销售代表或代理</value>
-  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">"销售代表"表示该区域的销售代表，任何销售代表必须是一个有效的内部用户</value>
+  <value column="Description" original="Sales Representative or Company Agent">销售代表或销售中介</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">表示该区域的销售代表，任何销售代表必须是一个有效的内部用户</value>
  </row>
  <row id="10097" trl="Y">
   <value column="Name" original="Value">条件值</value>
@@ -66,9 +66,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="10769" trl="Y">
-  <value column="Name" original="Schema Type">模式类型</value>
-  <value column="Description" original="Type of trade schema calculation">价格模式类型</value>
-  <value column="Help" original="Type of procedure used to calculate the trade schema percentage"/>
+  <value column="Name" original="Schema Type">价格类型</value>
+  <value column="Description" original="Type of trade schema calculation">价格表的模式类型</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">价格表的模式类型</value>
  </row>
  <row id="10886" trl="Y">
   <value column="Name" original="Overwrite Project">覆盖项目</value>
@@ -101,14 +101,14 @@
   <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">可覆盖显示类型，但仅当明确产生的效果时才去使用它</value>
  </row>
  <row id="13755" trl="Y">
-  <value column="Name" original="Search Key">搜索关键字</value>
-  <value column="Description" original="Search key for the record in the format required">在所需格式中的记录搜索关键字</value>
-  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7位小写字母数字 - 最大长度 8 - 可用于操作系统名称</value>
+  <value column="Name" original="Search Key">关键字</value>
+  <value column="Description" original="Search key for the record in the format required">用户的关键字，最大8位</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">最大长度 8位，仅限字符和数字，用于系统内快速搜索的关键字</value>
  </row>
  <row id="50066" trl="Y">
-  <value column="Name" original="AD_Package_Exp_ID">AD_包_Exp_ID</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="AD_Package_Exp_ID">导出应用</value>
+  <value column="Description" original="">导出应用</value>
+  <value column="Help" original="">导出应用程序包的ID</value>
  </row>
  <row id="50067" trl="Y">
   <value column="Name" original="Processed">已处理</value>
@@ -131,8 +131,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="50071" trl="Y">
-  <value column="Name" original="Name of Package">包名</value>
-  <value column="Description" original="Name of Package">包名</value>
+  <value column="Name" original="Name of Package">应用名称</value>
+  <value column="Description" original="Name of Package">应用程序包的名称</value>
   <value column="Help" original=""/>
  </row>
  <row id="50075" trl="Y">
@@ -161,19 +161,19 @@
   <value column="Help" original="">更新时间字段指出记录是什么时间更新的。</value>
  </row>
  <row id="50082" trl="Y">
-  <value column="Name" original="Description of Package">组件包的描述</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Description of Package">描述</value>
+  <value column="Description" original="">可选的记录简短介绍</value>
+  <value column="Help" original="">描述字数限制在255字内</value>
  </row>
  <row id="50085" trl="Y">
-  <value column="Name" original="Export Package">导出包(PackOut)</value>
-  <value column="Description" original="">该流程用于创建导出包</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Export Package">导出应用</value>
+  <value column="Description" original="">该流程用于创建 （PackOut）应用程序导出包</value>
+  <value column="Help" original="">下载已导出的结果，可导入到其他iDempiere系统</value>
  </row>
  <row id="50086" trl="Y">
-  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_包_Exp_Detail_ID</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="AD_Package_Exp_Detail_ID">应用导出明细</value>
+  <value column="Description" original="">应用程序包的导出明细</value>
+  <value column="Help" original="">应用程序包的导出明细</value>
  </row>
  <row id="50087" trl="Y">
   <value column="Name" original="Item Name">项名称</value>
@@ -196,9 +196,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="50091" trl="Y">
-  <value column="Name" original="Package Build ID">包构建 ID</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Package Build ID">导出应用</value>
+  <value column="Description" original="">导出应用</value>
+  <value column="Help" original="">导出应用程序包的ID</value>
  </row>
  <row id="50092" trl="Y">
   <value column="Name" original="Client">实体</value>
@@ -251,19 +251,19 @@
   <value column="Help" original=""/>
  </row>
  <row id="50117" trl="Y">
-  <value column="Name" original="Notes">注释</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Notes">描述</value>
+  <value column="Description" original="">可选的记录简短介绍</value>
+  <value column="Help" original="">描述字数限制在255字内</value>
  </row>
  <row id="50166" trl="Y">
-  <value column="Name" original="Configured Value">配置的值</value>
+  <value column="Name" original="Configured Value">配置值</value>
   <value column="Description" original="Value for the configuration key">设置该项配置对应的值</value>
   <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)">你可以根据系统配置器可配置的各项参数的说明来进行配置 http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)</value>
  </row>
  <row id="53360" trl="Y">
-  <value column="Name" original="Value">类别值</value>
+  <value column="Name" original="Value">条件值</value>
   <value column="Description" original="Condition Value">条件值</value>
-  <value column="Help" original=""/>
+  <value column="Help" original="">条件值</value>
  </row>
  <row id="53375" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -271,9 +271,9 @@
   <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">在你想要执行的操作上选择(先前定义的）生产资源；对于产品成本，资源率从产品成本窗口中定义成本元素获得</value>
  </row>
  <row id="53378" trl="Y">
-  <value column="Name" original="Business Partner ">业务伙伴 </value>
-  <value column="Description" original="Identifies a Business Partner to Subcontrating">标识一个业务伙伴</value>
-  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Name" original="Business Partner ">委外伙伴</value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">委外加工的业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">委外加工的业务伙伴</value>
  </row>
  <row id="53380" trl="Y">
   <value column="Name" original="Valid from">有效起始</value>
@@ -309,7 +309,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Storage Warehouse and Service Point">存储仓库或服务点</value>
   <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">仓库标识存储产品或提供服务的唯一仓库
 
-仓库是你存放和控制产品的地方</value>
+仓库是一个存放和控制产品的地方</value>
  </row>
  <row id="53513" trl="Y">
   <value column="Name" original="Resource">资源</value>
@@ -343,9 +343,9 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   在工作时间字段里输入该产品用于物料清单关键路径上的累计时间（用承诺交付时间计算）。这是生产该产品所必需花的时间，就好像你没有任何配件一切从头开始一样</value>
  </row>
  <row id="53653" trl="Y">
-  <value column="Name" original="Acknowledge">确认</value>
-  <value column="Description" original="System Notice acknowledged">系统通知已确认</value>
-  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">收悉复选框表示该通知是否无需再保留</value>
+  <value column="Name" original="Acknowledge">知悉通知</value>
+  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
  </row>
  <row id="53742" trl="Y">
   <value column="Name" original="Accumulated Qty">合计数量</value>
@@ -354,10 +354,8 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  </row>
  <row id="53744" trl="Y">
   <value column="Name" original="Accumulated Amt">累计金额</value>
-  <value column="Description" original="Total Amount">总金额</value>
-  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">所有金额的合计
-
-This field shows the sum of the amounts of the product that have had movements</value>
+  <value column="Description" original="Total Amount">累计金额</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">产品移动的的累计金额</value>
  </row>
  <row id="53904" trl="Y">
   <value column="Name" original="Version No">版本号</value>
@@ -366,8 +364,8 @@ This field shows the sum of the amounts of the product that have had movements</
  </row>
  <row id="54035" trl="Y">
   <value column="Name" original="Ordered Quantity">订单数量</value>
-  <value column="Description" original="Ordered Quantity">下订单的数量</value>
-  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">下单数量表示产品被订购的数量</value>
+  <value column="Description" original="Ordered Quantity">订单的订购数量</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">订单的订购数量</value>
  </row>
  <row id="54038" trl="Y">
   <value column="Name" original="Instance">实例</value>
@@ -375,8 +373,8 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">实际的产品属性值，可以在产品级别定义</value>
  </row>
  <row id="54039" trl="Y">
-  <value column="Name" original="Instance To">实例</value>
-  <value column="Description" original="Target Product Attribute Set Instance">目标属性集实例</value>
+  <value column="Name" original="Instance To">产品属性</value>
+  <value column="Description" original="Target Product Attribute Set Instance">目标产品的属性集实例</value>
   <value column="Help" original=""/>
  </row>
  <row id="54133" trl="Y">
@@ -430,72 +428,72 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original=""/>
  </row>
  <row id="56190" trl="Y">
-  <value column="Name" original="Period 1 %">期间 1%</value>
+  <value column="Name" original="Period 1 %">期间1(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56191" trl="Y">
-  <value column="Name" original="Period 2 %">期间 2 %</value>
+  <value column="Name" original="Period 2 %">期间2(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56192" trl="Y">
-  <value column="Name" original="Period 3 %">期间 3 %</value>
+  <value column="Name" original="Period 3 %">期间3(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56193" trl="Y">
-  <value column="Name" original="Period 4 %">期间 4 %</value>
+  <value column="Name" original="Period 4 %">期间4(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56194" trl="Y">
-  <value column="Name" original="Period 5 %">期间 5 %</value>
+  <value column="Name" original="Period 5 %">期间5(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56195" trl="Y">
-  <value column="Name" original="Period 6 %">期间 6 %</value>
+  <value column="Name" original="Period 6 %">期间6(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56196" trl="Y">
-  <value column="Name" original="Period 7 %">期间 7 %</value>
+  <value column="Name" original="Period 7 %">期间7(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56197" trl="Y">
-  <value column="Name" original="Period 8 %">期间 8 %</value>
+  <value column="Name" original="Period 8 %">期间8(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56198" trl="Y">
-  <value column="Name" original="Period 9 %">期间 9 %</value>
+  <value column="Name" original="Period 9 %">期间9(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56199" trl="Y">
-  <value column="Name" original="Period 10 %">期间 10 %</value>
+  <value column="Name" original="Period 10 %">期间10(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56200" trl="Y">
-  <value column="Name" original="Period 11 %">期间 11 %</value>
+  <value column="Name" original="Period 11 %">期间11(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56201" trl="Y">
-  <value column="Name" original="Period 12 %">期间 12 %</value>
+  <value column="Name" original="Period 12 %">期间12(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56202" trl="Y">
-  <value column="Name" original="Period 13 %">期间 13 %</value>
+  <value column="Name" original="Period 13 %">期间13(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="56203" trl="Y">
-  <value column="Name" original="Period 14 %">期间 14 %</value>
+  <value column="Name" original="Period 14 %">期间14(%)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -517,17 +515,17 @@ This field shows the sum of the amounts of the product that have had movements</
  <row id="57761" trl="Y">
   <value column="Name" original="Customer Return">客户退货</value>
   <value column="Description" original="Customer Return Document">客户退货单</value>
-  <value column="Help" original="The Customer Return">客户退货</value>
+  <value column="Help" original="The Customer Return">客户退货单</value>
  </row>
  <row id="57900" trl="Y">
   <value column="Name" original="Return to Vendor">供应商退货(RTV)</value>
   <value column="Description" original="Return to Vendor Document">供应商退货(RTV)单</value>
-  <value column="Help" original="The Return to Vendor">供应商退货(RTV)</value>
+  <value column="Help" original="The Return to Vendor">供应商退货(RTV)单</value>
  </row>
  <row id="57987" trl="Y">
-  <value column="Name" original="Search Key">搜索关键字</value>
-  <value column="Description" original="Search key for the record in the format required">在所需格式中的记录搜索关键字</value>
-  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7位小写字母数字 - 最大长度 8 - 可用于操作系统名称</value>
+  <value column="Name" original="Search Key">关键字</value>
+  <value column="Description" original="Search key for the record in the format required">用户的关键字，最大8位</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">最大长度 8位，仅限字符和数字，用于系统内快速搜索的关键字</value>
  </row>
  <row id="58101" trl="Y">
   <value column="Name" original="Copy BOM Lines From">复制BOM</value>
@@ -549,7 +547,7 @@ This field shows the sum of the amounts of the product that have had movements</
  <row id="59028" trl="Y">
   <value column="Name" original="Account Date">记账日期</value>
   <value column="Description" original="Accounting Date">记账日期</value>
-  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">记账日期指出用于从单据产生总分类账账户实体的日期. 也用于如何货币兑换</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">记账日期表示单据生成会计分录的日期，同时也是货币汇兑的日期</value>
  </row>
  <row id="59306" trl="Y">
   <value column="Name" original="ID">身份证</value>
@@ -557,7 +555,7 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original=""/>
  </row>
  <row id="59449" trl="Y">
-  <value column="Name" original="Import Inventory Move">导入库存移动</value>
+  <value column="Name" original="Import Inventory Move">导入移库单</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -592,9 +590,9 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="Indication that this is complete">表明生产已经完成</value>
  </row>
  <row id="62236" trl="Y">
-  <value column="Name" original="Sales Rep Name">销售代表的名字</value>
-  <value column="Description" original="Sales Representative Name">销售代表的名字</value>
-  <value column="Help" original="The name of the sales rep that this dashboard relates to.">The name of the sales rep that this dashboard relates to</value>
+  <value column="Name" original="Sales Rep Name">销售代表名称</value>
+  <value column="Description" original="Sales Representative Name">销售代表名称</value>
+  <value column="Help" original="The name of the sales rep that this dashboard relates to.">仪表盘显示的销售代表名称</value>
  </row>
  <row id="62779" trl="Y">
   <value column="Name" original="Language">语言</value>
@@ -612,8 +610,8 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">"仅该币种字段" 表示 这个银行账户只接受此处标明的币种</value>
  </row>
  <row id="200723" trl="Y">
-  <value column="Name" original="Void It">作废在线授权付款交易</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Void It">撤销交易</value>
+  <value column="Description" original="">撤销在线支付交易</value>
   <value column="Help" original=""/>
  </row>
  <row id="200816" trl="Y">
@@ -628,8 +626,8 @@ This field shows the sum of the amounts of the product that have had movements</
  </row>
  <row id="200948" trl="Y">
   <value column="Name" original="Attachment Store">附件存储</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">设置附件的存储服务提供者</value>
+  <value column="Help" original="">设置附件的存储服务提供者</value>
  </row>
  <row id="201245" trl="Y">
   <value column="Name" original="Ship Date (For FedEx only)">发货日期</value>
@@ -657,14 +655,14 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original=""/>
  </row>
  <row id="201265" trl="Y">
-  <value column="Name" original="Phone Number (For FedEx only)">电话号码 </value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Name" original="Phone Number (For FedEx only)">上门服务电话</value>
+  <value column="Description" original="">上门服务电话</value>
+  <value column="Help" original="">上门服务电话</value>
  </row>
  <row id="201266" trl="Y">
   <value column="Name" original="Date (For FedEx only)">上门日期</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
+  <value column="Description" original="">上门日期</value>
+  <value column="Help" original="">上门日期</value>
  </row>
  <row id="201267" trl="Y">
   <value column="Name" original="Hazardous Materials (For FedEx only)">有害物质</value>
@@ -712,7 +710,7 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Help" original="">是否对处理包裹收取费用</value>
  </row>
  <row id="201355" trl="Y">
-  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">交货确认类型</value>
+  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">交货签收类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -725,6 +723,16 @@ This field shows the sum of the amounts of the product that have had movements</
   <value column="Name" original="Index Validate">索引验证</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
+ </row>
+ <row id="202234" trl="Y">
+  <value column="Name" original="Sql WHERE">SQL WHERE 子句</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">完全验证过的 WHERE 子句</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">完全验证过的 WHERE 子句</value>
+ </row>
+ <row id="202235" trl="Y">
+  <value column="Name" original="Sql FROM">SQL FROM 子句</value>
+  <value column="Description" original="SQL FROM clause">SQL FROM 语句</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">SQL FROM 语句</value>
  </row>
  <row id="202252" trl="Y">
   <value column="Name" original="View Validate">视图验证</value>
@@ -753,6 +761,16 @@ This field shows the sum of the amounts of the product that have had movements</
  </row>
  <row id="203326" trl="Y">
   <value column="Name" original="To">目标</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="205154" trl="N">
+  <value column="Name" original="Client">实体</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="205174" trl="N">
+  <value column="Name" original="Client">实体</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

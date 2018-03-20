@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="PA_DashboardContent">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="PA_DashboardContent">
  <row id="50000" trl="Y">
-  <value column="Name" original="Activities">代办事宜</value>
+  <value column="Name" original="Activities">待办事宜</value>
   <value column="Description" original="Workflow activities, notices and requests">工作流活动，通知和请求</value>
   <value column="HTML" original=""/>
  </row>
@@ -16,7 +16,7 @@
   <value column="HTML" original=""/>
  </row>
  <row id="50003" trl="Y">
-  <value column="Name" original="Performance">绩效仪表盘</value>
+  <value column="Name" original="Performance">绩效面板</value>
   <value column="Description" original="Performance meters">绩效</value>
   <value column="HTML" original=""/>
  </row>
@@ -35,13 +35,13 @@
   <value column="Description" original="Running Jobs">运行中的批处理</value>
   <value column="HTML" original=""/>
  </row>
- <row id="200003" trl="N">
-  <value column="Name" original="Activities">代办事宜</value>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Activities">待办事宜</value>
   <value column="Description" original="Document Status">代办事宜</value>
   <value column="HTML" original=""/>
  </row>
  <row trl="Y" uuid="63860d80-0cc7-427e-8bdd-06f9708a302a">
-  <value column="Name" original="Calendar">代办日历</value>
+  <value column="Name" original="Calendar">待办日历</value>
   <value column="Description" original="Request Calendar"/>
   <value column="HTML" original=""/>
  </row>

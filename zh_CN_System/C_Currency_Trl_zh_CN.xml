@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_Currency">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_Currency">
  <row id="100" trl="Y">
-  <value column="Description" original="US Dollar">USD 美元</value>
+  <value column="Description" original="US Dollar">美元</value>
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="102" trl="Y">
-  <value column="Description" original="Euro">EUR  欧元</value>
+  <value column="Description" original="Euro">欧元</value>
   <value column="CurSymbol" original="E">E  欧元</value>
  </row>
  <row id="103" trl="Y">
@@ -13,7 +13,7 @@
   <value column="CurSymbol" original="DM">DM  德国货币</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Description" original="Austrian Schilling">奥地利货币  先令</value>
+  <value column="Description" original="Austrian Schilling">奥地利先令</value>
   <value column="CurSymbol" original="Sch">Sch   货币单位</value>
  </row>
  <row id="105" trl="Y">
@@ -21,7 +21,7 @@
   <value column="CurSymbol" original="BFr">BFr  货币单位</value>
  </row>
  <row id="106" trl="Y">
-  <value column="Description" original="Finish Mark">芬兰货币  马克</value>
+  <value column="Description" original="Finish Mark">芬兰马克</value>
   <value column="CurSymbol" original="FM">FM  芬兰货币</value>
  </row>
  <row id="107" trl="Y">
@@ -29,11 +29,11 @@
   <value column="CurSymbol" original="I£">I£英镑</value>
  </row>
  <row id="108" trl="Y">
-  <value column="Description" original="Italian Lira">意大利货币  里拉</value>
+  <value column="Description" original="Italian Lira">意大利里拉</value>
   <value column="CurSymbol" original="L">里拉</value>
  </row>
  <row id="109" trl="Y">
-  <value column="Description" original="Dutch Gilder">荷兰货币  盾</value>
+  <value column="Description" original="Dutch Gilder">荷兰盾</value>
   <value column="CurSymbol" original="Fl">Fl    货币单位</value>
  </row>
  <row id="110" trl="Y">
@@ -60,7 +60,7 @@
   <value column="Description" original="Swiss Franc (invalid currency code - use CHF)">瑞士法郎 (无效货币代码 - 使用 CHF)</value>
   <value column="CurSymbol" original="SFr">瑞士法郎</value>
  </row>
- <row id="116" trl="N">
+ <row id="116" trl="Y">
   <value column="Description" original="Canadian Dollar">加拿大元</value>
   <value column="CurSymbol" original="C$">C$</value>
  </row>
@@ -69,11 +69,11 @@
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="120" trl="Y">
-  <value column="Description" original="Australian Dollar">澳大利亚货币 澳元</value>
+  <value column="Description" original="Australian Dollar">澳大利亚澳元</value>
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="121" trl="Y">
-  <value column="Description" original="New Zealand Dollar">新西兰货币 元</value>
+  <value column="Description" original="New Zealand Dollar">新西兰元</value>
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="127" trl="Y">
@@ -81,90 +81,90 @@
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="130" trl="Y">
-  <value column="Description" original="Mexican Peso">墨西哥货币  比索</value>
+  <value column="Description" original="Mexican Peso">墨西哥比索</value>
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="142" trl="Y">
-  <value column="Description" original="Peso Uruguayo">乌拉圭货币 比索</value>
+  <value column="Description" original="Peso Uruguayo">乌拉圭比索</value>
   <value column="CurSymbol" original="$U">$U</value>
  </row>
  <row id="143" trl="Y">
   <value column="Description" original="Armenian Dram">亚美尼亚德拉姆</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="144" trl="Y">
-  <value column="Description" original="Kwanza">宽扎（安哥拉货币单位）</value>
-  <value column="CurSymbol" original=""/>
+  <value column="Description" original="Kwanza">安哥拉宽扎</value>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="145" trl="Y">
   <value column="Description" original="Azerbaijanian Manat (new)">阿塞拜疆马纳特</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="146" trl="Y">
   <value column="Description" original="Boliviano">玻利维亚币</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="147" trl="Y">
   <value column="Description" original="Franc Congolais">刚果法郎</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="148" trl="Y">
   <value column="Description" original="Czech Koruna">捷克克朗</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="149" trl="Y">
-  <value column="Description" original="Lari">拉里(货币单位)</value>
-  <value column="CurSymbol" original=""/>
+  <value column="Description" original="Lari">拉里</value>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="150" trl="Y">
   <value column="Description" original="Iranian Rial">伊朗里亚尔</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="151" trl="Y">
   <value column="Description" original="Lithuanian Litus">立陶宛立陶斯</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="152" trl="Y">
   <value column="Description" original="Moldovan Leu">摩尔多瓦币</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="153" trl="Y">
   <value column="Description" original="Philippine Peso">菲律宾比索</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="154" trl="Y">
   <value column="Description" original="Zloty">兹罗提</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="155" trl="Y">
   <value column="Description" original="Russian Ruble">俄罗斯卢布</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="156" trl="Y">
   <value column="Description" original="Sudanese Dinar">苏丹第纳尔</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="157" trl="Y">
   <value column="Description" original="Somoni">塔吉克币</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="158" trl="Y">
   <value column="Description" original="Manat">土库曼斯坦曼纳特</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="159" trl="Y">
   <value column="Description" original="Timor Escudo">帝汶埃斯库多</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="160" trl="Y">
-  <value column="Description" original="Hryvnia">格里夫纳 乌克兰货币</value>
-  <value column="CurSymbol" original=""/>
+  <value column="Description" original="Hryvnia">乌克兰格里夫纳</value>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="161" trl="Y">
   <value column="Description" original="Uzbekistan Sum">乌兹别克斯坦币</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
- <row id="163" trl="N">
+ <row id="163" trl="Y">
   <value column="Description" original="Cyprus Pound">塞浦路斯镑</value>
   <value column="CurSymbol" original="£C">£C</value>
  </row>
@@ -172,27 +172,27 @@
   <value column="Description" original="Egyptian Pound">埃及镑</value>
   <value column="CurSymbol" original="£E">£E 埃及货币符号</value>
  </row>
- <row id="165" trl="N">
+ <row id="165" trl="Y">
   <value column="Description" original="Falkland Islands Pound">福克兰群岛镑</value>
   <value column="CurSymbol" original="£F">£F</value>
  </row>
- <row id="166" trl="N">
+ <row id="166" trl="Y">
   <value column="Description" original="Gibraltar Pound">直布罗陀镑</value>
   <value column="CurSymbol" original="£G">£G</value>
  </row>
- <row id="167" trl="N">
+ <row id="167" trl="Y">
   <value column="Description" original="Saint Helena Pound">圣海伦娜磅</value>
   <value column="CurSymbol" original="£S">£S</value>
  </row>
- <row id="168" trl="N">
+ <row id="168" trl="Y">
   <value column="Description" original="Syrian Pound">叙利亚磅</value>
   <value column="CurSymbol" original="£S">£S</value>
  </row>
- <row id="170" trl="N">
+ <row id="170" trl="Y">
   <value column="Description" original="Cedi">塞地</value>
   <value column="CurSymbol" original="¢">¢</value>
  </row>
- <row id="171" trl="N">
+ <row id="171" trl="Y">
   <value column="Description" original="El Salvador Colon">萨尔瓦多科郎</value>
   <value column="CurSymbol" original="¢">¢</value>
  </row>
@@ -205,7 +205,7 @@
   <value column="CurSymbol" original="Af.">Af.  阿鲁巴货币</value>
  </row>
  <row id="197" trl="Y">
-  <value column="Description" original="Balboa">巴尔博亚  (巴拿马货币)</value>
+  <value column="Description" original="Balboa">巴拿马巴尔博亚</value>
   <value column="CurSymbol" original="B">B 巴拿马货币符号</value>
  </row>
  <row id="198" trl="Y">
@@ -216,71 +216,71 @@
   <value column="Description" original="Bahamian Dollar">巴哈马元</value>
   <value column="CurSymbol" original="B$">B$  文莱货币符号</value>
  </row>
- <row id="200" trl="N">
+ <row id="200" trl="Y">
   <value column="Description" original="Bahraini Dinar">巴林第纳尔</value>
   <value column="CurSymbol" original="BD">BD</value>
  </row>
- <row id="201" trl="N">
+ <row id="201" trl="Y">
   <value column="Description" original="Bermudian Dollar">百慕大元</value>
   <value column="CurSymbol" original="Bd$">Bd$</value>
  </row>
- <row id="202" trl="N">
+ <row id="202" trl="Y">
   <value column="Description" original="Barbados Dollar">巴巴多斯元</value>
   <value column="CurSymbol" original="Bds$">Bds$</value>
  </row>
- <row id="203" trl="N">
+ <row id="203" trl="Y">
   <value column="Description" original="Belarussian Ruble">白俄罗斯卢布</value>
   <value column="CurSymbol" original="BR">BR</value>
  </row>
- <row id="204" trl="N">
+ <row id="204" trl="Y">
   <value column="Description" original="Ethiopian Birr">埃塞俄比亚比尔</value>
   <value column="CurSymbol" original="Br">Br</value>
  </row>
- <row id="205" trl="N">
+ <row id="205" trl="Y">
   <value column="Description" original="Bolivar">玻利瓦尔</value>
   <value column="CurSymbol" original="Bs">Bs</value>
  </row>
- <row id="206" trl="N">
+ <row id="206" trl="Y">
   <value column="Description" original="Baht">泰铢</value>
   <value column="CurSymbol" original="Bt">Bt</value>
  </row>
- <row id="207" trl="N">
+ <row id="207" trl="Y">
   <value column="Description" original="Belize Dollar">伯利兹元</value>
   <value column="CurSymbol" original="BZ$">BZ$</value>
  </row>
- <row id="209" trl="N">
+ <row id="209" trl="Y">
   <value column="Description" original="Cordoba Oro">尼加拉瓜科多巴</value>
   <value column="CurSymbol" original="C$">C$</value>
  </row>
- <row id="210" trl="N">
+ <row id="210" trl="Y">
   <value column="Description" original="Cape Verde Escudo">佛得角埃斯库多</value>
   <value column="CurSymbol" original="C.V.Esc.">C.V.Esc.</value>
  </row>
- <row id="211" trl="N">
+ <row id="211" trl="Y">
   <value column="Description" original="Comoro Franc">科摩罗法郎</value>
   <value column="CurSymbol" original="CF">CF</value>
  </row>
- <row id="212" trl="N">
+ <row id="212" trl="Y">
   <value column="Description" original="CFA Franc BCEAO">多哥非洲共同体法郎</value>
   <value column="CurSymbol" original="CFAF">CFAF</value>
  </row>
- <row id="214" trl="N">
+ <row id="214" trl="Y">
   <value column="Description" original="CFA Franc BEAC">刚果中非共同体法郎</value>
   <value column="CurSymbol" original="CFAF">CFAF</value>
  </row>
- <row id="225" trl="N">
+ <row id="225" trl="Y">
   <value column="Description" original="CFP Franc">非洲法郎</value>
   <value column="CurSymbol" original="CFPF">CFPF</value>
  </row>
- <row id="228" trl="N">
+ <row id="228" trl="Y">
   <value column="Description" original="Chilean Peso">智利比索</value>
   <value column="CurSymbol" original="Ch$">Ch$</value>
  </row>
- <row id="229" trl="N">
+ <row id="229" trl="Y">
   <value column="Description" original="Cayman Islands Dollar">开曼群岛元</value>
   <value column="CurSymbol" original="CI$">CI$</value>
  </row>
- <row id="230" trl="N">
+ <row id="230" trl="Y">
   <value column="Description" original="Colombian Peso">哥伦比亚比索</value>
   <value column="CurSymbol" original="Col$">Col$</value>
  </row>
@@ -300,7 +300,7 @@
   <value column="Description" original="Dong">越南盾</value>
   <value column="CurSymbol" original="D">D 越南盾货币符号</value>
  </row>
- <row id="235" trl="N">
+ <row id="235" trl="Y">
   <value column="Description" original="Algerian Dinar">阿尔及利亚第纳尔</value>
   <value column="CurSymbol" original="DA">DA</value>
  </row>
@@ -312,7 +312,7 @@
   <value column="Description" original="Djibouti Franc">吉布提法郎</value>
   <value column="CurSymbol" original="DF">DF 吉布提货币符号</value>
  </row>
- <row id="238" trl="N">
+ <row id="238" trl="Y">
   <value column="Description" original="UAE Dirham">阿联酋迪拉姆</value>
   <value column="CurSymbol" original="Dh">Dh 阿联酋货币符号</value>
  </row>
@@ -320,7 +320,7 @@
   <value column="Description" original="Moroccan Dirham">摩洛哥迪拉姆</value>
   <value column="CurSymbol" original="DH">DH 摩洛哥货币符号</value>
  </row>
- <row id="240" trl="N">
+ <row id="240" trl="Y">
   <value column="Description" original="Yugoslavian Dinar">Yugoslavian Dinar</value>
   <value column="CurSymbol" original="Din">Din</value>
  </row>
@@ -328,19 +328,19 @@
   <value column="Description" original="Danish Krone">丹麦克朗</value>
   <value column="CurSymbol" original="Dkr">Dkr 丹麦货币符号</value>
  </row>
- <row id="244" trl="N">
+ <row id="244" trl="Y">
   <value column="Description" original="East Caribbean Dollar">东加勒比元</value>
   <value column="CurSymbol" original="EC$">EC$</value>
  </row>
- <row id="252" trl="N">
+ <row id="252" trl="Y">
   <value column="Description" original="Fiji Dollar">斐济元</value>
   <value column="CurSymbol" original="F$">F$</value>
  </row>
- <row id="253" trl="N">
+ <row id="253" trl="Y">
   <value column="Description" original="Burundi Franc">布隆迪法郎</value>
   <value column="CurSymbol" original="FBu">FBu</value>
  </row>
- <row id="254" trl="N">
+ <row id="254" trl="Y">
   <value column="Description" original="Malagasy Franc">马尔加什法郎</value>
   <value column="CurSymbol" original="FMG">FMG</value>
  </row>
@@ -349,18 +349,18 @@
   <value column="CurSymbol" original="Ft">Ft  福林货币符号</value>
  </row>
  <row id="256" trl="Y">
-  <value column="Description" original="Gourde">古德 海地的货币</value>
+  <value column="Description" original="Gourde">海地古德 </value>
   <value column="CurSymbol" original="G">G  古德货币符号</value>
  </row>
- <row id="257" trl="N">
+ <row id="257" trl="Y">
   <value column="Description" original="Guyana Dollar">圭亚那元</value>
   <value column="CurSymbol" original="G$">G$</value>
  </row>
- <row id="258" trl="N">
+ <row id="258" trl="Y">
   <value column="Description" original="Hong Kong Dollar">港币</value>
   <value column="CurSymbol" original="HK$">HK$</value>
  </row>
- <row id="259" trl="N">
+ <row id="259" trl="Y">
   <value column="Description" original="Croatian Kuna">克罗地亚库纳</value>
   <value column="CurSymbol" original="HRK">HRK</value>
  </row>
@@ -368,11 +368,11 @@
   <value column="Description" original="Iraqi Dinar">伊拉克第纳尔</value>
   <value column="CurSymbol" original="ID">身份证</value>
  </row>
- <row id="261" trl="N">
+ <row id="261" trl="Y">
   <value column="Description" original="Iceland Krona">冰岛克朗</value>
   <value column="CurSymbol" original="IKr">IKr 冰岛货币符号</value>
  </row>
- <row id="262" trl="N">
+ <row id="262" trl="Y">
   <value column="Description" original="Jamaican Dollar">牙买加元</value>
   <value column="CurSymbol" original="J$">J$ 牙买加货币符号</value>
  </row>
@@ -384,24 +384,24 @@
   <value column="Description" original="Kyat">缅甸元</value>
   <value column="CurSymbol" original="K">K 缅甸货币符号</value>
  </row>
- <row id="265" trl="N">
+ <row id="265" trl="Y">
   <value column="Description" original="Kina">Kina</value>
   <value column="CurSymbol" original="K">K</value>
  </row>
- <row id="266" trl="N">
+ <row id="266" trl="Y">
   <value column="Description" original="Kenyan Shilling">肯尼亚先令</value>
   <value column="CurSymbol" original="K Sh">K Sh</value>
  </row>
- <row id="267" trl="N">
+ <row id="267" trl="Y">
   <value column="Description" original="Kuwaiti Dinar">科威特第纳尔</value>
   <value column="CurSymbol" original="KD">KD 科威特货币符号</value>
  </row>
- <row id="268" trl="N">
+ <row id="268" trl="Y">
   <value column="Description" original="Convertible Marks">波黑第纳尔</value>
   <value column="CurSymbol" original="KM">KM</value>
  </row>
  <row id="269" trl="Y">
-  <value column="Description" original="Kip">基普（老挝货币）</value>
+  <value column="Description" original="Kip">老挝基普</value>
   <value column="CurSymbol" original="KN">KN  货币符号</value>
  </row>
  <row id="270" trl="Y">
@@ -444,7 +444,7 @@
   <value column="Description" original="Lev">列弗</value>
   <value column="CurSymbol" original="Lv">Lv   列弗货币</value>
  </row>
- <row id="280" trl="N">
+ <row id="280" trl="Y">
   <value column="Description" original="Mauritius Rupee">毛里求斯卢比</value>
   <value column="CurSymbol" original="Mau Rs">Mau Rs</value>
  </row>
@@ -476,19 +476,19 @@
   <value column="Description" original="Norwegian Krone">挪威克朗</value>
   <value column="CurSymbol" original="NKr">NKr  货币符号</value>
  </row>
- <row id="288" trl="N">
+ <row id="288" trl="Y">
   <value column="Description" original="Nepalese Rupee">尼泊尔卢比</value>
   <value column="CurSymbol" original="NRs">NRs</value>
  </row>
- <row id="289" trl="N">
+ <row id="289" trl="Y">
   <value column="Description" original="New Taiwan Dollar">新台币</value>
   <value column="CurSymbol" original="NT$">NT$</value>
  </row>
- <row id="290" trl="N">
+ <row id="290" trl="Y">
   <value column="Description" original="Pula">普拉</value>
   <value column="CurSymbol" original="P">P</value>
  </row>
- <row id="291" trl="N">
+ <row id="291" trl="Y">
   <value column="Description" original="Pataca">澳门币</value>
   <value column="CurSymbol" original="P">P</value>
  </row>
@@ -496,7 +496,7 @@
   <value column="Description" original="Quetzal">格查尔</value>
   <value column="CurSymbol" original="Q">Q  格查尔货币符号</value>
  </row>
- <row id="293" trl="N">
+ <row id="293" trl="Y">
   <value column="Description" original="Qatari Rial">卡塔尔里亚尔</value>
   <value column="CurSymbol" original="QR">QR</value>
  </row>
@@ -508,19 +508,19 @@
   <value column="Description" original="Brazilian Real">巴西雷亚尔</value>
   <value column="CurSymbol" original="R$">R$  巴西货币符号</value>
  </row>
- <row id="298" trl="N">
+ <row id="298" trl="Y">
   <value column="Description" original="Dominican Peso">多米尼加比索</value>
   <value column="CurSymbol" original="RD$">RD$</value>
  </row>
- <row id="299" trl="N">
+ <row id="299" trl="Y">
   <value column="Description" original="Rufiyaa">马尔代夫罗非亚</value>
   <value column="CurSymbol" original="Rf">Rf 马尔代夫罗非亚</value>
  </row>
- <row id="300" trl="N">
+ <row id="300" trl="Y">
   <value column="Description" original="Rwanda Franc">卢旺达法郎</value>
   <value column="CurSymbol" original="RF">RF</value>
  </row>
- <row id="301" trl="N">
+ <row id="301" trl="Y">
   <value column="Description" original="Malaysian Ringgit">马来西亚林吉特</value>
   <value column="CurSymbol" original="RM">RM 马来西亚林吉特</value>
  </row>
@@ -528,7 +528,7 @@
   <value column="Description" original="Rial Omani">阿曼里亚尔</value>
   <value column="CurSymbol" original="RO">RO  阿曼货币符号</value>
  </row>
- <row id="303" trl="N">
+ <row id="303" trl="Y">
   <value column="Description" original="Rupiah">卢比</value>
   <value column="CurSymbol" original="Rp">Rp</value>
  </row>
@@ -548,7 +548,7 @@
   <value column="Description" original="Nuevo Sol">秘鲁索尔</value>
   <value column="CurSymbol" original="S/.">S/.   秘鲁货币</value>
  </row>
- <row id="309" trl="N">
+ <row id="309" trl="Y">
   <value column="Description" original="Suriname Guilder">苏里南盾</value>
   <value column="CurSymbol" original="Sf.">Sf.</value>
  </row>
@@ -564,15 +564,15 @@
   <value column="Description" original="Slovak Koruna">斯洛伐克克朗</value>
   <value column="CurSymbol" original="Sk">Sk  瑞典货币</value>
  </row>
- <row id="313" trl="N">
+ <row id="313" trl="Y">
   <value column="Description" original="Sri Lanka Rupee">斯里兰卡卢比</value>
   <value column="CurSymbol" original="SLRs">SLRs</value>
  </row>
- <row id="314" trl="N">
+ <row id="314" trl="Y">
   <value column="Description" original="Tolar">托拉尔</value>
   <value column="CurSymbol" original="SlT">SlT</value>
  </row>
- <row id="315" trl="N">
+ <row id="315" trl="Y">
   <value column="Description" original="Somali Shilling">索马里先令</value>
   <value column="CurSymbol" original="So. Sh.">So. Sh.</value>
  </row>
@@ -580,7 +580,7 @@
   <value column="Description" original="Seychelles Rupee">塞舌尔卢比</value>
   <value column="CurSymbol" original="SR">SR  塞舌尔货币</value>
  </row>
- <row id="317" trl="N">
+ <row id="317" trl="Y">
   <value column="Description" original="Saudi Riyal">沙特里亚尔</value>
   <value column="CurSymbol" original="SRls">SRls</value>
  </row>
@@ -604,15 +604,15 @@
   <value column="Description" original="Turkish Lira">土耳其里拉</value>
   <value column="CurSymbol" original="TL">TL  土耳其货币</value>
  </row>
- <row id="324" trl="N">
+ <row id="324" trl="Y">
   <value column="Description" original="Tanzanian Shilling">坦桑利亚先令</value>
   <value column="CurSymbol" original="TSh">TSh</value>
  </row>
- <row id="325" trl="N">
+ <row id="325" trl="Y">
   <value column="Description" original="Trinidad and Tobago Dollar">特立尼达和多巴哥元</value>
   <value column="CurSymbol" original="TT$">TT$</value>
  </row>
- <row id="326" trl="N">
+ <row id="326" trl="Y">
   <value column="Description" original="Tugrik">Tugrik</value>
   <value column="CurSymbol" original="Tug">Tug</value>
  </row>
@@ -620,7 +620,7 @@
   <value column="Description" original="Ouguiya">乌吉亚</value>
   <value column="CurSymbol" original="UM">UM  乌吉亚货币</value>
  </row>
- <row id="328" trl="N">
+ <row id="328" trl="Y">
   <value column="Description" original="Uganda Shilling">乌干达先令</value>
   <value column="CurSymbol" original="USh">USh</value>
  </row>
@@ -637,10 +637,10 @@
   <value column="CurSymbol" original="WS$">WS$  塔拉货币</value>
  </row>
  <row id="332" trl="Y">
-  <value column="Description" original="Yuan Renminbi">CNY 人民币元</value>
-  <value column="CurSymbol" original="Y">Y   中国人民币元</value>
+  <value column="Description" original="Yuan Renminbi">人民币元</value>
+  <value column="CurSymbol" original="Y">￥</value>
  </row>
- <row id="333" trl="N">
+ <row id="333" trl="Y">
   <value column="Description" original="Yemeni Rial">也门里亚尔</value>
   <value column="CurSymbol" original="YRls">YRls</value>
  </row>
@@ -654,39 +654,39 @@
  </row>
  <row id="336" trl="Y">
   <value column="Description" original="Costa Rican Colon">哥斯达黎加克朗</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="337" trl="Y">
   <value column="Description" original="Guinea Franc">几内亚法郎</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="338" trl="Y">
   <value column="Description" original="Guinea-Bissau Peso">几内亚比绍比索</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="339" trl="Y">
   <value column="Description" original="Som">吉尔吉斯索姆</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="340" trl="Y">
   <value column="Description" original="North Korean Won">朝鲜元</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="341" trl="Y">
   <value column="Description" original="Tenge">坚戈</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="342" trl="Y">
   <value column="Description" original="Lebanese Pound">黎巴嫩镑</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="343" trl="Y">
   <value column="Description" original="Naira">奈拉</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="344" trl="Y">
   <value column="Description" original="Guarani">瓜拉尼</value>
-  <value column="CurSymbol" original=""/>
+  <value column="CurSymbol" original="">RWF</value>
  </row>
  <row id="346" trl="Y">
   <value column="Description" original="Leu (new)">列伊(新)</value>

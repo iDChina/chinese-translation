@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
  <row id="227" trl="Y">
   <value column="Name" original="Delete existing Accounting Entries">删除已存在的会计分录</value>
   <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">所选的会计分录将被删除!  危险 !!!</value>
@@ -18,7 +18,7 @@
  <row id="315" trl="Y">
   <value column="Name" original="From User">联系人</value>
   <value column="Description" original="Send EMail from user">内部或业务伙伴的联系人</value>
-  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">标识内部或业务伙伴的联系人。</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">标识内部或业务伙伴的联系人</value>
  </row>
  <row id="452" trl="Y">
   <value column="Name" original="Maintenance Mode">维护模式</value>
@@ -26,19 +26,19 @@
   <value column="Help" original=""/>
  </row>
  <row id="467" trl="Y">
-  <value column="Name" original="Existing Organization">现存组织</value>
-  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">实体内的组织，如果你要创建一个新组织，则置为空</value>
-  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">组织是你的实体或组织的一个单位 - 例如仓库、部门。你可以在组织间共享数据</value>
+  <value column="Name" original="Existing Organization">目标组织</value>
+  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">链接到的目标组织，如果你要链接到一个新组织，则置为空</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">组织是实体或组织的一个单位 - 例如仓库、部门，你可以在组织间共享数据</value>
  </row>
  <row id="469" trl="Y">
-  <value column="Name" original="Limit Access to Role">角色权限限制</value>
-  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">如果未选择角色，则授予此实体的所有角色权限</value>
-  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
+  <value column="Name" original="Limit Access to Role">角色权限</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">新组织的可访问角色</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">指定可访问新组织的角色，如果留空，则所有（非手动）角色可访问该新建组织</value>
  </row>
  <row id="493" trl="Y">
   <value column="Name" original="New User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">内部或业务伙伴的联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人。</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人</value>
  </row>
  <row id="494" trl="Y">
   <value column="Name" original="New Workflow Responsible">新工作流职责</value>
@@ -48,7 +48,7 @@
  <row id="496" trl="Y">
   <value column="Name" original="New User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">内部或业务伙伴的联系人</value>
-  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人。</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人</value>
  </row>
  <row id="497" trl="Y">
   <value column="Name" original="New Workflow Responsible">新工作流职责</value>
@@ -82,18 +82,18 @@
  </row>
  <row id="50009" trl="Y">
   <value column="Name" original="Request Folder">请求文件夹</value>
-  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder"/>
-  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder"/>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">请求邮件从收件箱文件夹接收，成功处理后，移动到该文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder">文件夹使用“\”来表示层级。比如：“客户\某某公司”。邮件将从收件夹移动到指定的请求邮件文件夹</value>
  </row>
  <row id="50010" trl="Y">
   <value column="Name" original="Inbox Folder">收件箱</value>
-  <value column="Description" original="Mail folder, where process will take email and make request"/>
-  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer"/>
+  <value column="Description" original="Mail folder, where process will take email and make request">接收邮件，待生成请求的文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer">文件夹使用“\”来表示层级。比如：“客户”</value>
  </row>
  <row id="50011" trl="Y">
   <value column="Name" original="Error Folder">错误文件夹</value>
-  <value column="Description" original="Mail folder to push unsuccess email  "/>
-  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer"/>
+  <value column="Description" original="Mail folder to push unsuccess email  ">发送不成功的邮件文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer">文件夹使用“\”来表示层级。比如：“客户\失败”</value>
  </row>
  <row id="50019" trl="Y">
   <value column="Name" original="Shipment Date">发货日期</value>
@@ -136,7 +136,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53127" trl="Y">
-  <value column="Name" original="Generate Fields">产生字段</value>
+  <value column="Name" original="Generate Fields">生成字段</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -265,7 +265,7 @@
   <value column="Description" original="Overwrite existing production lines">覆盖现有的生产线</value>
   <value column="Help" original=""/>
  </row>
- <row id="53517" trl="N">
+ <row id="53517" trl="Y">
   <value column="Name" original="Production Quantity">生产数量</value>
   <value column="Description" original="Quantity of products to produce">Quantity of products to produce</value>
   <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
@@ -275,7 +275,7 @@
   <value column="Description" original="">是否为看板产品</value>
   <value column="Help" original=""/>
  </row>
- <row id="53582" trl="N">
+ <row id="53582" trl="Y">
   <value column="Name" original="CreateOpportunity">创建销售机会</value>
   <value column="Description" original="Create Opportunity">销售机会</value>
   <value column="Help" original="Create a new Sales Opportunity when converting a lead">当可以转换为一个销售线索时，创建一个新的销售机会</value>
@@ -290,27 +290,27 @@
   <value column="Description" original="Reset Existing Access">重置用户已存在的权限访问记录</value>
   <value column="Help" original="">重置用户已存在的权限访问记录</value>
  </row>
- <row id="200055" trl="N">
+ <row id="200055" trl="Y">
   <value column="Name" original="Product">产品</value>
   <value column="Description" original="Please enter the product (component) you wish to search for">请输入你要搜索的产品（组件）</value>
   <value column="Help" original=""/>
  </row>
- <row id="200060" trl="N">
+ <row id="200060" trl="Y">
   <value column="Name" original="Financial Year Month">财务年月</value>
   <value column="Description" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
   <value column="Help" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
  </row>
- <row id="200062" trl="N">
+ <row id="200062" trl="Y">
   <value column="Name" original="Financial Year Month">财务年月</value>
   <value column="Description" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
   <value column="Help" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
  </row>
- <row id="200071" trl="N">
+ <row id="200071" trl="Y">
   <value column="Name" original="Document Type">单据类型</value>
   <value column="Description" original="Inventory Cost Adjustment Document Type">库存成本调整单据类型</value>
   <value column="Help" original=""/>
  </row>
- <row id="200074" trl="N">
+ <row id="200074" trl="Y">
   <value column="Name" original="Administrative User Email">管理员邮箱</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -320,17 +320,17 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200077" trl="N">
+ <row id="200077" trl="Y">
   <value column="Name" original="Created Since">创建时间</value>
   <value column="Description" original="">从列的创建时间开始</value>
   <value column="Help" original=""/>
  </row>
- <row id="200084" trl="N">
+ <row id="200084" trl="Y">
   <value column="Name" original="Use Default CoA">使用默认的科目表</value>
   <value column="Description" original="Use Default Chart of Accounts">使用默认的科目表（美国）</value>
   <value column="Help" original=""/>
  </row>
- <row id="200085" trl="N">
+ <row id="200085" trl="Y">
   <value column="Name" original="Activity Accounting">作业维度</value>
   <value column="Description" original="Use Activity accounting dimension">使用作业维度</value>
   <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
@@ -340,12 +340,12 @@
   <value column="Description" original="Inactivate Defaults after Created"/>
   <value column="Help" original=""/>
  </row>
- <row id="200102" trl="N">
+ <row id="200102" trl="Y">
   <value column="Name" original="Cost Adjustment Document Type">成本调整单据类型</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200121" trl="N">
+ <row id="200121" trl="Y">
   <value column="Name" original="Inbox As Root Folder">收件箱根目录</value>
   <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder"/>
   <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
