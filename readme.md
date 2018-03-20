@@ -11,10 +11,14 @@ Normal fixs are reviewed and committed semiannually by project team.
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
 updated: 2017-11-18
 
+Updated: 2017-11-18
+
 ####Directory structure:
 ../zh_CN_System           `translation files for System client`
 ../zh_CN_GardenWorld      `translation files for GardenWorld client`
 ../Utils                  `localization utils`
+
+../Utils: `localization utils`
 
 ---------------------------------
 ### 着急只看我：
