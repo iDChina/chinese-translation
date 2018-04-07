@@ -296,6 +296,16 @@
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
+ <row id="10630" trl="Y">
+  <value column="Name" original="Converted Amount">本币未清</value>
+  <value column="Description" original="Converted Amount">未清金额（本币）</value>
+  <value column="Help" original="The Converted Amount is the result of multiplying the Source Amount by the Conversion Rate for this target currency.">未清金额（本币）</value>
+ </row>
+ <row id="10633" trl="Y">
+  <value column="Name" original="Total Amount">本币合计</value>
+  <value column="Description" original="Total Amount">未清金额（合计）</value>
+  <value column="Help" original="The Total Amount indicates the total document amount.">未清金额（合计）</value>
+ </row>
  <row id="10769" trl="Y">
   <value column="Name" original="Schema Type">价格类型</value>
   <value column="Description" original="Type of trade schema calculation">价格表的模式类型</value>
@@ -305,6 +315,11 @@
   <value column="Name" original="Overwrite Project">覆盖项目</value>
   <value column="Description" original="Overwrite the account segment Project with the value specified">以特定的值覆盖账户分段的项目</value>
   <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">如果未覆盖， 则使用原账户组合的值。如果选中， 但未指定， 则分段被设为空。</value>
+ </row>
+ <row id="10988" trl="Y">
+  <value column="Name" original="Phys.Inventory">内部领用单</value>
+  <value column="Description" original="Parameters for a Physical Inventory">内部领用单</value>
+  <value column="Help" original="The Physical Inventory indicates a unique parameters for a physical inventory.">内部领用单</value>
  </row>
  <row id="11222" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -332,9 +347,14 @@
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="12184" trl="Y">
-  <value column="Name" original="Movement Quantity">盘点数量</value>
-  <value column="Description" original="Quantity of a product moved.">盘点数量</value>
-  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">盘点数量</value>
+  <value column="Name" original="Movement Quantity">调整数量</value>
+  <value column="Description" original="Quantity of a product moved.">增加为负数，减少为正数。</value>
+  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">增加为负数，减少为正数。</value>
+ </row>
+ <row id="12186" trl="Y">
+  <value column="Name" original="Phys.Inventory Line">盘点明细</value>
+  <value column="Description" original="Unique line in an Inventory document">库存盘点明细</value>
+  <value column="Help" original="The Physical Inventory Line indicates the inventory document line (if applicable) for this transaction">库存盘点明细</value>
  </row>
  <row id="12240" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -957,6 +977,11 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="Cost Adjustment">成本调整单</value>
   <value column="Description" original="Inventory Cost Adjustment">成本调整单</value>
   <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">该功能可以对产品进库存成本调整。</value>
+ </row>
+ <row id="202333" trl="Y">
+  <value column="Name" original="Current Cost Price">当前成本价格</value>
+  <value column="Description" original="The currently used cost price">当前使用成本价格</value>
+  <value column="Help" original="">组织账套（或者实体缺省账套）下，指定成本计价方式的成本要素价格。</value>
  </row>
  <row id="202513" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>

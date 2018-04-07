@@ -5,6 +5,11 @@
   <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
   <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个商业伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
  </row>
+ <row id="209" trl="Y">
+  <value column="Name" original="Start Date">开始日期</value>
+  <value column="Description" original="First effective day (inclusive)">佣金频度的开始日期</value>
+  <value column="Help" original="The Start Date indicates the first or starting date">佣金频度的开始日期</value>
+ </row>
  <row id="211" trl="Y">
   <value column="Name" original="Sales Transaction">销售事务</value>
   <value column="Description" original="This is a Sales Transaction">这是一个销售事务</value>
@@ -29,6 +34,11 @@
   <value column="Name" original="From User">联系人</value>
   <value column="Description" original="Send EMail from user">内部或业务伙伴的联系人</value>
   <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">标识内部或业务伙伴的联系人。</value>
+ </row>
+ <row id="374" trl="Y">
+  <value column="Name" original="Order">报价方案/报价单</value>
+  <value column="Description" original="Order">进行中的报价方案/报价单</value>
+  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled.">进行中的报价方案/报价单。</value>
  </row>
  <row id="398" trl="Y">
   <value column="Name" original="Statement date">到期日期</value>
@@ -81,14 +91,14 @@
   <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">为工作流最终负责的是实际的用户。工作流负责人允许定义找到该实际用户的方式</value>
  </row>
  <row id="523" trl="Y">
-  <value column="Name" original="Default Sales Rep">默认销售代表</value>
-  <value column="Description" original="If not defined on Business Partner Level">如果没有定义业务伙伴级别</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Default Sales Rep">催款人</value>
+  <value column="Description" original="If not defined on Business Partner Level">如果业务伙伴未指定销售代表，手工选择催款人，与单据的销售代表区别</value>
+  <value column="Help" original="">如果业务伙伴未指定销售代表，手工选择催款人，与单据的销售代表不同</value>
  </row>
  <row id="524" trl="Y">
-  <value column="Name" original="Dunning Currency">催款货币</value>
-  <value column="Description" original="Currency to create Dunning Letters">催款函币别</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Dunning Currency">发票币种</value>
+  <value column="Description" original="Currency to create Dunning Letters">发票的币种，假设支付单与发票币种一致</value>
+  <value column="Help" original="">发票的币种，假设支付单与发票币种一致</value>
  </row>
  <row id="580" trl="Y">
   <value column="Name" original="Orders with unconfirmed Shipments">包含未确认发货的订单</value>
@@ -134,11 +144,6 @@
   <value column="Name" original="Shipment Date">发货日期</value>
   <value column="Description" original="Date printed on shipment">发货单打印的日期</value>
   <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">装运日期指装运单上的打印日期</value>
- </row>
- <row id="53011" trl="Y">
-  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理记录</value>
-  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">打印后催款记录即标识为“已处理”</value>
-  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">这允许你重新打印某个催款条目。</value>
  </row>
  <row id="53025" trl="Y">
   <value column="Name" original="Purchase Price List Version">采购价格表版本</value>

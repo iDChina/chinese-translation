@@ -221,20 +221,20 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="127" trl="Y">
-  <value column="Name" original="Task Instance">系统任务实例</value>
-  <value column="PrintName" original="Task Instance">系统任务实例</value>
-  <value column="Description" original="">系统任务实例</value>
-  <value column="Help" original="">系统任务实例</value>
+  <value column="Name" original="Task Instance">任务实例</value>
+  <value column="PrintName" original="Task Instance">任务实例</value>
+  <value column="Description" original="">操作系统（OS）任务实例</value>
+  <value column="Help" original="">操作系统（OS）任务实例</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="128" trl="Y">
-  <value column="Name" original="OS Task">系统任务</value>
-  <value column="PrintName" original="OS Task">系统任务</value>
-  <value column="Description" original="Operation System Task">操作系统任务</value>
-  <value column="Help" original="The Task field identifies a Operation System Task in the system.">操作系统任务</value>
+  <value column="Name" original="OS Task">操作系统任务</value>
+  <value column="PrintName" original="OS Task">操作系统任务</value>
+  <value column="Description" original="Operation System Task">可执行的操作系统（OS）任务</value>
+  <value column="Help" original="The Task field identifies a Operation System Task in the system.">可执行的操作系统（OS）任务。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -967,7 +967,7 @@
   <value column="Name" original="Callout">Callout</value>
   <value column="PrintName" original="Callout">Callout</value>
   <value column="Description" original="Fully qualified class names and method - separated by semicolons">完整类名.方法，不同Callout使用分号分隔</value>
-  <value column="Help" original="A Callout allow you to create Java extensions to perform certain tasks always after a value changed. Callouts should not be used for validation but consequences of a user selecting a certain value.&#10;The callout is a Java class implementing org.compiere.model.Callout and a method name to call.  Example: &quot;org.compiere.model.CalloutRequest.copyText&quot; instantiates the class &quot;CalloutRequest&quot; and calls the method &quot;copyText&quot;. You can have multiple callouts by separating them via a semicolon">完整类名.方法，不同Callout使用分号分隔</value>
+  <value column="Help" original="A Callout allow you to create Java extensions to perform certain tasks always after a value changed. Callouts should not be used for validation but consequences of a user selecting a certain value.&#10;The callout is a Java class implementing org.compiere.model.Callout and a method name to call.  Example: &quot;org.compiere.model.CalloutRequest.copyText&quot; instantiates the class &quot;CalloutRequest&quot; and calls the method &quot;copyText&quot;. You can have multiple callouts by separating them via a semicolon">Callout 允许你创建java代码在改变列值后进行某些“赋值或者计算”工作，它不能用于数据校验，而只是按顺序取值。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1378,10 +1378,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="287" trl="Y">
-  <value column="Name" original="Document Action">单据操作</value>
-  <value column="PrintName" original="Doc Action">单据操作</value>
-  <value column="Description" original="The targeted status of the document">单据的目标状态</value>
-  <value column="Help" original="You find the current status in the Document Status field. The options are listed in a popup">单据的目标状态</value>
+  <value column="Name" original="Document Action">单据动作</value>
+  <value column="PrintName" original="Doc Action">单据动作</value>
+  <value column="Description" original="The targeted status of the document">对单据进行指定动作以改变单据的状态</value>
+  <value column="Help" original="You find the current status in the Document Status field. The options are listed in a popup">从一系列的单据操作中选择某个动作，以改变单据的目标状态。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1789,10 +1789,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="352" trl="Y">
-  <value column="Name" original="Activate Audit">激活审核</value>
-  <value column="PrintName" original="Activate Audit">激活审核</value>
-  <value column="Description" original="Activate Audit Trail of what numbers are generated">激活审计， 追踪生成的数字</value>
-  <value column="Help" original="The Activate Audit checkbox indicates if an audit trail of numbers generated will be kept.">激活审计， 追踪生成的数字</value>
+  <value column="Name" original="Activate Audit">启用审计</value>
+  <value column="PrintName" original="Activate Audit">启用审计</value>
+  <value column="Description" original="Activate Audit Trail of what numbers are generated">生成追溯号以方便跟踪</value>
+  <value column="Help" original="The Activate Audit checkbox indicates if an audit trail of numbers generated will be kept.">生成追溯号以方便跟踪</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -1841,8 +1841,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="362" trl="Y">
   <value column="Name" original="Centrally maintained">集中维护</value>
   <value column="PrintName" original="Centrally maintained">集中维护</value>
-  <value column="Description" original="Information maintained in System Element table">系统元素表中维护的信息</value>
-  <value column="Help" original="The Centrally Maintained checkbox indicates if the Name, Description and Help maintained in 'System Element' table  or 'Window' table.">系统元素表中维护的信息</value>
+  <value column="Description" original="Information maintained in System Element table">由“系统元素”维护的词条信息</value>
+  <value column="Help" original="The Centrally Maintained checkbox indicates if the Name, Description and Help maintained in 'System Element' table  or 'Window' table.">字段的名称、描述和备注信息由“系统元素”集中维护，取消该选项将使用“字段”表的词条信息。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2392,8 +2392,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="448" trl="Y">
   <value column="Name" original="Locator">库位</value>
   <value column="PrintName" original="Locator">库位</value>
-  <value column="Description" original="Warehouse Locator">仓库库位</value>
-  <value column="Help" original="The Locator indicates where in a Warehouse a product is located.">仓库库位</value>
+  <value column="Description" original="Warehouse Locator">仓库的存储单位</value>
+  <value column="Help" original="The Locator indicates where in a Warehouse a product is located.">比如库房、货区，货架等。所有库位共享仓库的定义（在途、负库存等），产品主数据可定义默认库位。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2452,8 +2452,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="459" trl="Y">
   <value column="Name" original="Warehouse">仓库</value>
   <value column="PrintName" original="Warehouse">仓库</value>
-  <value column="Description" original="Storage Warehouse and Service Point">存储仓库或服务点</value>
-  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">存储仓库或服务点</value>
+  <value column="Description" original="Storage Warehouse and Service Point">存货地点或服务点</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">仓库属于财务核算组织，而不是部门。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2480,8 +2480,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="465" trl="Y">
-  <value column="Name" original="Message Type">信息类型</value>
-  <value column="PrintName" original="Message Type">信息类型</value>
+  <value column="Name" original="Message Type">消息类型</value>
+  <value column="PrintName" original="Message Type">消息类型</value>
   <value column="Description" original="Type of message (Informational, Menu or Error)">消息的类型 (信息， 菜单或错误)</value>
   <value column="Help" original="The Message Type indicates the type of message being defined.  Valid message types are Informational, Menu and Error.">消息的类型 (信息， 菜单或错误)</value>
   <value column="PO_Description" original=""/>
@@ -2552,8 +2552,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="474" trl="Y">
   <value column="Name" original="OS Command">操作系统命令</value>
   <value column="PrintName" original="OS Command">操作系统命令</value>
-  <value column="Description" original="Operating System Command">操作系统命令</value>
-  <value column="Help" original="The OS Command is for optionally defining a command to that will be part of this task.  For example it can be used to starting a back up process or performing a file transfer.">操作系统命令</value>
+  <value column="Description" original="Operating System Command">可执行的操作系统（OS）命令</value>
+  <value column="Help" original="The OS Command is for optionally defining a command to that will be part of this task.  For example it can be used to starting a back up process or performing a file transfer.">可执行的操作系统（OS）命令</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2660,10 +2660,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="499" trl="Y">
-  <value column="Name" original="Period Action">期间操作</value>
-  <value column="PrintName" original="Period Action">期间操作</value>
-  <value column="Description" original="Action taken for this period">对期间采取的操作</value>
-  <value column="Help" original="The Period Action indicates the action to be taken for this period.  For example 'Close Period' or 'Open Period'.">对期间采取的操作，比如“关闭期间”或者“打开期间”</value>
+  <value column="Name" original="Period Action">期间动作</value>
+  <value column="PrintName" original="Period Action">期间动作</value>
+  <value column="Description" original="Action taken for this period">对期间进行指定的操作动作以改变期间的状态</value>
+  <value column="Help" original="The Period Action indicates the action to be taken for this period.  For example 'Close Period' or 'Open Period'.">对期间采取的动作，比如“关闭期间”或者“打开期间”。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3101,9 +3101,9 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="Name" original="Order">订单</value>
   <value column="PrintName" original="Order">订单</value>
   <value column="Description" original="Order">订单</value>
-  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled."><![CDATA[订单与其他关联单据相互控制。只有当订购数量与发货数量、开票数量相等时，订单才会关闭。如果手动关闭订单，未发货的尾数将被取消。<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
+  <value column="Help" original="The Order is a control document.  The  Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled."><![CDATA[订单是一种控制单据，其数据被其他单据引用。只有当订购数量与发货数量、开票数量相等时，订单才算完成。如果手动关闭订单，未发货的尾数将被取消。<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
   <value column="PO_Description" original="Purchase Order">采购订单</value>
-  <value column="PO_Help" original="The Purchase Order is a control document.  The Purchase Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled."><![CDATA[采购订单与其他关联单据相互控制。只有当订购数量与发货数量、开票数量相等时，采购订单才会关闭。如果手动关闭订单，未发货的尾数将被取消。<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
+  <value column="PO_Help" original="The Purchase Order is a control document.  The Purchase Order is complete when the quantity ordered is the same as the quantity shipped and invoiced.  When you close an order, unshipped (backordered) quantities are cancelled."><![CDATA[是一种控制单据，其数据被其他单据引用。只有当订购数量与发货数量、开票数量相等时，采购订单才算完成。如果手动关闭订单，未收货的尾数将被取消。<br />【复合词】你可以为每个场景窗口的字段创建不同的翻译，右键点击“字段建议”，后台接受建议选择“只更新到字段”，该操作会取消字段的“集中维护”属性。]]></value>
   <value column="PO_Name" original="Purchase Order">采购订单</value>
   <value column="PO_PrintName" original="Purchase Order">采购订单</value>
  </row>
@@ -3799,8 +3799,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="838" trl="Y">
-  <value column="Name" original="Dunning">催款</value>
-  <value column="PrintName" original="Dunning">催款</value>
+  <value column="Name" original="Dunning">催款规则</value>
+  <value column="PrintName" original="Dunning">催款规则</value>
   <value column="Description" original="Dunning Rules for overdue invoices">过期发票的催款规则</value>
   <value column="Help" original="The Dunning indicates the rules and method of dunning for past due payments.">过期发票的催款规则</value>
   <value column="PO_Description" original=""/>
@@ -3851,18 +3851,18 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="850" trl="Y">
   <value column="Name" original="Charge fee">附加费用</value>
   <value column="PrintName" original="Charge fee">附加费用</value>
-  <value column="Description" original="Indicates if fees will be charged for overdue invoices">表示过期发票是否计算附加费用</value>
-  <value column="Help" original="The Charge Fee checkbox indicates if the dunning letter will include fees for overdue invoices">表示过期发票是否计算附加费用</value>
+  <value column="Description" original="Indicates if fees will be charged for overdue invoices">是否附加逾期费用</value>
+  <value column="Help" original="The Charge Fee checkbox indicates if the dunning letter will include fees for overdue invoices">表示过期发票是否附加额外费用，该费用记录会添加到催款明细。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="851" trl="Y">
-  <value column="Name" original="Charge Interest">滞纳金</value>
-  <value column="PrintName" original="Charge Interest">滞纳金</value>
-  <value column="Description" original="Indicates if interest will be charged on overdue invoices">表示过期发票是否计算利息</value>
-  <value column="Help" original="The Charge Interest checkbox indicates if interest will be charged on overdue invoice amounts.">表示过期发票是否计算利息</value>
+  <value column="Name" original="Charge Interest">附加利息</value>
+  <value column="PrintName" original="Charge Interest">附加利息</value>
+  <value column="Description" original="Indicates if interest will be charged on overdue invoices">是否计算逾期利息</value>
+  <value column="Help" original="The Charge Interest checkbox indicates if interest will be charged on overdue invoice amounts.">是否计算逾期利息</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -3899,10 +3899,12 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="860" trl="Y">
-  <value column="Name" original="Days between dunning">催款间隔天数</value>
-  <value column="PrintName" original="Days between dunning">催款间隔天数</value>
-  <value column="Description" original="Days between sending dunning notices">发送催款通知的间隔天数</value>
-  <value column="Help" original="The Days Between Dunning indicates the number of days between sending dunning notices.">发送催款通知的间隔天数</value>
+  <value column="Name" original="Days between dunning">催款间隔</value>
+  <value column="PrintName" original="Days between dunning">催款间隔</value>
+  <value column="Description" original="Days between sending dunning notices">距离上次运行催款的间隔天数</value>
+  <value column="Help" original="The Days Between Dunning indicates the number of days between sending dunning notices."><![CDATA[运行催款并完成处理后，系统记录到期发票的“催款日期”，如果下次再运行催款，可设置该“间隔天数”进行跳过该催款级别。比如：<br />
+催款间隔 = 15 天，上次催款日期 = 某月1号，当前日期 = 12号，即距上次催款才11天，小于15天，系统将跳过该催款级别。<br />
+如果选择“显示未到期发票”并且“显示全部到期发票”，则该天数无效。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4389,10 +4391,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="965" trl="Y">
-  <value column="Name" original="Send dunning letters">发送催款信函</value>
-  <value column="PrintName" original="Send dunning letters">发送催款信函</value>
-  <value column="Description" original="Indicates if dunning letters will be sent">表示是否将发送催款信函</value>
-  <value column="Help" original="The Send Dunning Letters checkbox indicates if dunning letters will be sent to Business Partners who use this dunning rule.">表示是否将发送催款信函</value>
+  <value column="Name" original="Send dunning letters">发送催款通知</value>
+  <value column="PrintName" original="Send dunning letters">发送催款通知</value>
+  <value column="Description" original="Indicates if dunning letters will be sent">是否向业务伙伴发送催款通知</value>
+  <value column="Help" original="The Send Dunning Letters checkbox indicates if dunning letters will be sent to Business Partners who use this dunning rule.">是否向业务伙伴发送催款通知</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -4886,8 +4888,18 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="1065" trl="Y">
   <value column="Name" original="Price includes Tax">含税价</value>
   <value column="PrintName" original="Price includes Tax">含税价</value>
-  <value column="Description" original="Tax is included in the price ">价格已包含了税</value>
-  <value column="Help" original="The Tax Included checkbox indicates if the prices include tax.  This is also known as the gross price.">价格已包含了税</value>
+  <value column="Description" original="Tax is included in the price ">价格已包含了产品默认税率的税额</value>
+  <value column="Help" original="The Tax Included checkbox indicates if the prices include tax.  This is also known as the gross price."><![CDATA[价格税额由产品税种的缺省税目决定。比如：<br />
+产品税种 = VAT ， 该税种下默认税目 = 16%，该价格表的含税价表示含16%的价格，其中<br /> 
+含税价=100，净价=86.21，税额=13.79 <br />
+如果该含税价格，在单据中应用为其他税率（按11点），则新价格的计算公式为：<br />
+A. 保持净价 86.21 不变，新含税价格 = 原净价 * (1+新税率) = 86.21 *1.11 =  95.69 <br />
+B. 允许净价 86.21 改变，新含税价格 = 原净价 + 新税额 = 100/1.16 + （100/1.11*0.11） =  96.12 <br />
+前后比较如下：<br />
+0. 含税价=100   ，净价=86.21，17%税额=13.79<br />
+A. 含税价=95.69，净价=86.21，11%税额=9.48 <br />
+B. 含税价=96.12，净价=86.59，11%税额=9.53 <br />
+【注：系统使用B方案，净价使用原税率，税额使用新税率计算】]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5014,10 +5026,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1081" trl="Y">
-  <value column="Name" original="Committed Amount">提交金额</value>
-  <value column="PrintName" original="Committed Amt">提交金额</value>
-  <value column="Description" original="The (legal) commitment amount">已采购金额</value>
-  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">已采购金额</value>
+  <value column="Name" original="Committed Amount">承诺金额</value>
+  <value column="PrintName" original="Committed Amt">承诺金额</value>
+  <value column="Description" original="The (legal) commitment amount">单据承诺金额</value>
+  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">单据承诺的金额，比如采购/销售金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5104,10 +5116,15 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1092" trl="Y">
-  <value column="Name" original="Days after due date">到期后天数</value>
-  <value column="PrintName" original="Days after due date">到期后天数</value>
-  <value column="Description" original="Days after due date to dun (if negative days until due)">到期后催款的天数 (如果为负天数，则直到到期为止)</value>
-  <value column="Help" original="The Days After Due Date indicates the number of days after the payment due date to initiate dunning. If the number is negative, it includes not the not due invoices.">到期后催款的天数 (如果为负天数，则直到到期为止)</value>
+  <value column="Name" original="Days after due date">逾期天数</value>
+  <value column="PrintName" original="Days after due date">逾期天数</value>
+  <value column="Description" original="Days after due date to dun (if negative days until due)">发票到期后的天数，允许负数</value>
+  <value column="Help" original="The Days After Due Date indicates the number of days after the payment due date to initiate dunning. If the number is negative, it includes not the not due invoices."><![CDATA[公式 = 催款日期 - 到期日期  。比如：<br />
+逾期天数 = 7 ， 表示筛选逾期超过7天的发票。<br />
+逾期天数 = -15 ，表示筛选还差15天到期（欠期15天）的发票。<br />
+正数表示逾期发票，通常不勾选“显示未到期发票” 。如果选择“显示所有到期发票”，则“预期天数”无效。<br />
+负数表示欠期发票，通常用于“对账结算”，且勾选“显示未到期发票”和“显示所有到期发票”。<br />
+]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -5177,8 +5194,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="1101" trl="Y">
   <value column="Name" original="Commitment">单据承诺</value>
   <value column="PrintName" original="Commitment">单据承诺</value>
-  <value column="Description" original="Is this document a (legal) commitment?">业务单据是否为书面约束</value>
-  <value column="Help" original="Commitment indicates if the document is legally binding.">业务单据是否为书面约束</value>
+  <value column="Description" original="Is this document a (legal) commitment?">是否以业务单据的数量/金额作为承诺</value>
+  <value column="Help" original="Commitment indicates if the document is legally binding.">是否以业务单据的数量/金额作为承诺</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6000,10 +6017,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1260" trl="Y">
-  <value column="Name" original="EDI Definition">业务伙伴EDI 定义</value>
-  <value column="PrintName" original="EDI Definition">业务伙伴EDI 定义</value>
-  <value column="Description" original="Electronic Data Interchange">电子数据交换EDI</value>
-  <value column="Help" original="">电子数据交换EDI</value>
+  <value column="Name" original="EDI Definition">EDI 定义</value>
+  <value column="PrintName" original="EDI Definition">EDI 定义</value>
+  <value column="Description" original="Electronic Data Interchange">业务伙伴的 EDI 定义</value>
+  <value column="Help" original="">业务伙伴的 EDI 定义</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6040,8 +6057,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1264" trl="Y">
-  <value column="Name" original="Error EMail">错误消息 EMail</value>
-  <value column="PrintName" original="Error EMail">错误消息 EMail</value>
+  <value column="Name" original="Error EMail">错误消息邮件</value>
+  <value column="PrintName" original="Error EMail">错误消息邮件</value>
   <value column="Description" original="Email address to send error messages to">将错误消息发送到此 EMail 地址</value>
   <value column="Help" original="">将错误消息发送到此 EMail 地址</value>
   <value column="PO_Description" original=""/>
@@ -6080,10 +6097,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1268" trl="Y">
-  <value column="Name" original="Info EMail">信息邮件</value>
-  <value column="PrintName" original="Info EMail">信息邮件</value>
-  <value column="Description" original="EMail address to send informational messages and copies">发送信息和副本至 EMail 地址</value>
-  <value column="Help" original="The Info EMail address indicates the address to use when sending informational messages or copies of other messages.">发送信息和副本至 EMail 地址</value>
+  <value column="Name" original="Info EMail">消息邮件</value>
+  <value column="PrintName" original="Info EMail">消息邮件</value>
+  <value column="Description" original="EMail address to send informational messages and copies">将消息发送到此 EMail 地址</value>
+  <value column="Help" original="The Info EMail address indicates the address to use when sending informational messages or copies of other messages.">将消息发送到此 EMail 地址</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6110,10 +6127,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1271" trl="Y">
-  <value column="Name" original="Send Info">发送信息</value>
-  <value column="PrintName" original="Send Info">发送信息</value>
-  <value column="Description" original="Send informational messages and copies">发送信息邮件和副本</value>
-  <value column="Help" original="">发送信息邮件和副本</value>
+  <value column="Name" original="Send Info">发送消息</value>
+  <value column="PrintName" original="Send Info">发送消息</value>
+  <value column="Description" original="Send informational messages and copies">是否发送消息邮件和副本</value>
+  <value column="Help" original="">是否发送消息邮件和副本</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -6202,26 +6219,26 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="1280" trl="Y">
   <value column="Name" original="Received Inquiry Reply">查询回复</value>
   <value column="PrintName" original="Inquiry reply">查询回复</value>
-  <value column="Description" original="">EDI的查询回复结果</value>
-  <value column="Help" original="">EDI的查询回复结果</value>
+  <value column="Description" original="">接收EDI的查询回复结果</value>
+  <value column="Help" original="">接收EDI的查询回复结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1281" trl="Y">
-  <value column="Name" original="Receive Order Reply">收到订单回复</value>
-  <value column="PrintName" original="Order reply">收到订单回复</value>
-  <value column="Description" original="">收到订单回复</value>
-  <value column="Help" original="">收到订单回复</value>
+  <value column="Name" original="Receive Order Reply">订单回复</value>
+  <value column="PrintName" original="Order reply">订单回复</value>
+  <value column="Description" original="">接收EDI的订单回复结果</value>
+  <value column="Help" original="">接收EDI的订单回复结果</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1282" trl="Y">
-  <value column="Name" original="Reply Price">答复价格</value>
-  <value column="PrintName" original="Reply Price">答复价格</value>
+  <value column="Name" original="Reply Price">回复价格</value>
+  <value column="PrintName" original="Reply Price">回复价格</value>
   <value column="Description" original="Confirmed Price from EDI Partner">来自EDI 伙伴的确认价格</value>
   <value column="Help" original="">来自EDI 伙伴的确认价格</value>
   <value column="PO_Description" original=""/>
@@ -6230,50 +6247,50 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1283" trl="Y">
-  <value column="Name" original="Reply Qty Available">答复可用数量</value>
-  <value column="PrintName" original="Qty Available">答复可用数量</value>
-  <value column="Description" original="">答复可用数量</value>
-  <value column="Help" original="">答复可用数量</value>
+  <value column="Name" original="Reply Qty Available">回复可用数量</value>
+  <value column="PrintName" original="Qty Available">回复可用数量</value>
+  <value column="Description" original="">回复可用数量</value>
+  <value column="Help" original="">回复可用数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1284" trl="Y">
-  <value column="Name" original="Reply Qty Confirmed">答复确认数量</value>
-  <value column="PrintName" original="Qty Confirmed">答复确认数量</value>
-  <value column="Description" original="">答复确认数量</value>
-  <value column="Help" original="">答复确认数量</value>
+  <value column="Name" original="Reply Qty Confirmed">回复确认数量</value>
+  <value column="PrintName" original="Qty Confirmed">回复确认数量</value>
+  <value column="Description" original="">回复确认数量</value>
+  <value column="Help" original="">回复确认数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1285" trl="Y">
-  <value column="Name" original="Reply Received">答复收到</value>
-  <value column="PrintName" original="Reply">答复收到</value>
-  <value column="Description" original="">答复收到</value>
-  <value column="Help" original="">答复收到</value>
+  <value column="Name" original="Reply Received">回复收到</value>
+  <value column="PrintName" original="Reply">回复收到</value>
+  <value column="Description" original="">回复收到</value>
+  <value column="Help" original="">回复收到</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1286" trl="Y">
-  <value column="Name" original="Reply Remarks">答复评论</value>
-  <value column="PrintName" original="Remarks">答复评论</value>
-  <value column="Description" original="">答复评论</value>
-  <value column="Help" original="">答复评论</value>
+  <value column="Name" original="Reply Remarks">回复备注</value>
+  <value column="PrintName" original="Remarks">回复备注</value>
+  <value column="Description" original="">回复备注</value>
+  <value column="Help" original="">回复备注</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1287" trl="Y">
-  <value column="Name" original="Reply Ship date">答复交货日期</value>
-  <value column="PrintName" original="Ship date">答复交货日期</value>
-  <value column="Description" original="">答复交货日期</value>
-  <value column="Help" original="">答复交货日期</value>
+  <value column="Name" original="Reply Ship date">回复交货日期</value>
+  <value column="PrintName" original="Ship date">回复交货日期</value>
+  <value column="Description" original="">回复交货日期</value>
+  <value column="Help" original="">回复交货日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -7925,8 +7942,8 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
  <row id="1506" trl="Y">
   <value column="Name" original="Frequency">频度</value>
   <value column="PrintName" original="Frequency">频度</value>
-  <value column="Description" original="Frequency of events">活动频度</value>
-  <value column="Help" original="The frequency is used in conjunction with the frequency type in determining an event. Example: If the Frequency Type is Week and the Frequency is 2 - it is every two weeks.">活动频度</value>
+  <value column="Description" original="Frequency of events">活动的频度</value>
+  <value column="Help" original="The frequency is used in conjunction with the frequency type in determining an event. Example: If the Frequency Type is Week and the Frequency is 2 - it is every two weeks.">比如，频度类型是“周”，频度是2，表示每2周发生一次。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8093,10 +8110,10 @@ POS 支付：自定义的POS 支付方式，可在【POS 支付方式】窗口�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1526" trl="Y">
-  <value column="Name" original="Open Amount">未结金额</value>
-  <value column="PrintName" original="Open">未结金额</value>
-  <value column="Description" original="Open item amount">未结（未清）账目的金额</value>
-  <value column="Help" original="">未结（未清）账目的金额</value>
+  <value column="Name" original="Open Amount">未清金额</value>
+  <value column="PrintName" original="Open">未清金额</value>
+  <value column="Description" original="Open item amount">未清（未结）账目的金额</value>
+  <value column="Help" original="">未清（未结）账目的金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8237,10 +8254,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1547" trl="Y">
-  <value column="Name" original="Commission">佣金定义</value>
-  <value column="PrintName" original="Commission">佣金定义</value>
-  <value column="Description" original="Commission">佣金定义的标识</value>
-  <value column="Help" original="The Commission Rules or internal or external company agents, sales reps or vendors.">佣金定义的标识</value>
+  <value column="Name" original="Commission">佣金规则</value>
+  <value column="PrintName" original="Commission">佣金规则</value>
+  <value column="Description" original="Commission">佣金规则的标识</value>
+  <value column="Help" original="The Commission Rules or internal or external company agents, sales reps or vendors.">佣金规则的标识</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8257,10 +8274,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1549" trl="Y">
-  <value column="Name" original="Commission Line">佣金规则</value>
-  <value column="PrintName" original="Comm Line">佣金规则</value>
-  <value column="Description" original="Commission Line">佣金定义的规则行</value>
-  <value column="Help" original="The Commission Line is a unique instance of a Commission Run.  If the commission run was done in summary mode then there will be a single line representing the selected documents totals.  If the commission run was done in detail mode then each document that was included in the run will have its own commission line.">佣金定义的规则行</value>
+  <value column="Name" original="Commission Line">佣金规则行</value>
+  <value column="PrintName" original="Comm Line">佣金规则行</value>
+  <value column="Description" original="Commission Line">佣金规则的明细行</value>
+  <value column="Help" original="The Commission Line is a unique instance of a Commission Run.  If the commission run was done in summary mode then there will be a single line representing the selected documents totals.  If the commission run was done in detail mode then each document that was included in the run will have its own commission line.">佣金规则的明细行</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8297,10 +8314,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1554" trl="Y">
-  <value column="Name" original="Commission Amount">佣金额</value>
-  <value column="PrintName" original="Comm Amt">佣金额</value>
-  <value column="Description" original="Commission Amount">佣金额</value>
-  <value column="Help" original="The Commission Amount is the total calculated commission.  It is based on the parameters as defined for this Commission Run.">佣金额</value>
+  <value column="Name" original="Commission Amount">佣金</value>
+  <value column="PrintName" original="Comm Amt">佣金</value>
+  <value column="Description" original="Commission Amount">本币表示的佣金金额</value>
+  <value column="Help" original="The Commission Amount is the total calculated commission.  It is based on the parameters as defined for this Commission Run.">本币表示的佣金金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8337,10 +8354,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1558" trl="Y">
-  <value column="Name" original="Calculation Basis">计算基准</value>
-  <value column="PrintName" original="Calculation Basis">计算基准</value>
-  <value column="Description" original="Basis for the calculation the commission">佣金计算的基准</value>
-  <value column="Help" original="The Calculation Basis indicates the basis to be used for the commission calculation. ">佣金计算的基准</value>
+  <value column="Name" original="Calculation Basis">佣金来源</value>
+  <value column="PrintName" original="Calculation Basis">佣金来源</value>
+  <value column="Description" original="Basis for the calculation the commission">佣金计算的单据来源（销售订单、应付发票、收款单）</value>
+  <value column="Help" original="The Calculation Basis indicates the basis to be used for the commission calculation. ">佣金计算的单据来源（销售订单、应付发票、收款单）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8357,10 +8374,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1562" trl="Y">
-  <value column="Name" original="Positive only">仅正数</value>
-  <value column="PrintName" original="Positive only">仅正数</value>
-  <value column="Description" original="Do not generate negative commissions">不产生负的佣金</value>
-  <value column="Help" original="The Positive Only check box indicates that if the result of the subtraction is negative, it is ignored.  This would mean that negative commissions would not be generated.">不产生负的佣金</value>
+  <value column="Name" original="Positive only">不允许负佣金</value>
+  <value column="PrintName" original="Positive only">不允许负佣金</value>
+  <value column="Description" original="Do not generate negative commissions">佣金金额或者数量不足扣减时，佣金结果为0，否则生成负数佣金</value>
+  <value column="Help" original="The Positive Only check box indicates that if the result of the subtraction is negative, it is ignored.  This would mean that negative commissions would not be generated.">佣金金额或者数量不足扣减时，佣金结果为0，否则生成负数佣金</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8377,8 +8394,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1565" trl="Y">
-  <value column="Name" original="Planned Margin %">计划毛利率 %</value>
-  <value column="PrintName" original="Planned Margin">计划毛利率 %</value>
+  <value column="Name" original="Planned Margin %">计划毛利 %</value>
+  <value column="PrintName" original="Planned Margin">计划毛利 %</value>
   <value column="Description" original="Project's planned margin as a percentage">项目的计划毛利率百分比</value>
   <value column="Help" original="The Planned Margin Percentage indicates the anticipated margin percentage for this project or project line">项目的计划毛利率百分比</value>
   <value column="PO_Description" original=""/>
@@ -8387,10 +8404,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1566" trl="Y">
-  <value column="Name" original="Planned Margin">计划毛利率 %</value>
-  <value column="PrintName" original="Planned Margin">计划毛利率 %</value>
+  <value column="Name" original="Planned Margin">计划毛利润</value>
+  <value column="PrintName" original="Planned Margin">计划毛利润</value>
   <value column="Description" original="Project's planned margin amount">项目的计划毛利金额</value>
-  <value column="Help" original="The Planned Margin Amount indicates the anticipated margin amount for this project or project line.">项目的计划毛利金额</value>
+  <value column="Help" original="The Planned Margin Amount indicates the anticipated margin amount for this project or project line.">计划数量 * （计划价格 - 限制价格）</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8457,10 +8474,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1573" trl="Y">
-  <value column="Name" original="Commission only specified Orders">业务代表佣金</value>
-  <value column="PrintName" original="Comm o Orders">业务代表佣金</value>
-  <value column="Description" original="Commission only Orders or Invoices, where this Sales Rep is entered">仅计算业务代表的单据（订单、发票或者收款）</value>
-  <value column="Help" original="Sales Reps are entered in Orders and Invoices. If selected, only Orders and Invoices for this Sales Reps are included in the calculation of the commission.">如果选择，仅计算包含该业务代表的单据金额。不选择此项将计算指定日期内的所有单据，佣金表头必填的业务代表也不起作用。</value>
+  <value column="Name" original="Commission only specified Orders">仅业务代表佣金</value>
+  <value column="PrintName" original="Comm o Orders">仅业务代表佣金</value>
+  <value column="Description" original="Commission only Orders or Invoices, where this Sales Rep is entered">仅计算包含佣金规则业务代表的单据</value>
+  <value column="Help" original="Sales Reps are entered in Orders and Invoices. If selected, only Orders and Invoices for this Sales Reps are included in the calculation of the commission.">如果不选择，佣金规则的业务代表不参与规则过滤。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -8469,8 +8486,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="1574" trl="Y">
   <value column="Name" original="List Details">列出明细</value>
   <value column="PrintName" original="List Details">列出明细</value>
-  <value column="Description" original="List document details">按单据明细列出佣金明细</value>
-  <value column="Help" original="The List Details checkbox indicates that the details for each document line will be displayed.">按单据明细列出佣金明细，如果不选择，佣金结果为一条汇总记录。</value>
+  <value column="Description" original="List document details">佣金规则行的结果包含佣金明细记录</value>
+  <value column="Help" original="The List Details checkbox indicates that the details for each document line will be displayed.">如果不选择，不生成佣金明细记录。【注意】删除佣金明细不更新佣金总额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -10681,8 +10698,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="1821" trl="Y">
   <value column="Name" original="Dunning Print Format">催款打印格式</value>
   <value column="PrintName" original="Dunning Print Format">催款打印格式</value>
-  <value column="Description" original="Print Format for printing Dunning Letters">打印催款信函的打印格式</value>
-  <value column="Help" original="You need to define a Print Format to print the document.">打印催款信函的打印格式</value>
+  <value column="Description" original="Print Format for printing Dunning Letters">催款通知的打印格式</value>
+  <value column="Help" original="You need to define a Print Format to print the document.">催款通知的打印格式</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11199,30 +11216,30 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1879" trl="Y">
-  <value column="Name" original="Dunning Run">催款计算</value>
-  <value column="PrintName" original="Dunning Run">催款计算</value>
-  <value column="Description" original="Dunning Run">催款计算</value>
-  <value column="Help" original="">催款计算</value>
+  <value column="Name" original="Dunning Run">催款运行</value>
+  <value column="PrintName" original="Dunning Run">催款运行</value>
+  <value column="Description" original="Dunning Run">催款运行</value>
+  <value column="Help" original="">催款运行</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1880" trl="Y">
-  <value column="Name" original="Dunning Run Entry">催款计算条目</value>
-  <value column="PrintName" original="Dunning Run Entry">催款计算条目</value>
-  <value column="Description" original="Dunning Run Entry">催款计算分录</value>
-  <value column="Help" original="">催款计算分录</value>
+  <value column="Name" original="Dunning Run Entry">催款通知</value>
+  <value column="PrintName" original="Dunning Run Entry">催款通知</value>
+  <value column="Description" original="Dunning Run Entry">催款运行分录</value>
+  <value column="Help" original="">催款运行分录</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1881" trl="Y">
-  <value column="Name" original="Dunning Run Line">催款计算行</value>
-  <value column="PrintName" original="Dunning Run Line">催款计算行</value>
-  <value column="Description" original="Dunning Run Line">催款计算行</value>
-  <value column="Help" original="">催款计算行</value>
+  <value column="Name" original="Dunning Run Line">催款明细</value>
+  <value column="PrintName" original="Dunning Run Line">催款明细</value>
+  <value column="Description" original="Dunning Run Line">催款明细</value>
+  <value column="Help" original="">催款明细</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -11899,10 +11916,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1953" trl="Y">
-  <value column="Name" original="EMail PDF">EMail 催款结果</value>
-  <value column="PrintName" original="EMail PDF">EMail 催款结果</value>
-  <value column="Description" original="Email Document PDF files to Business Partner">用EMail发送催款 PDF 文件给业务伙伴</value>
-  <value column="Help" original="">用EMail发送催款 PDF 文件给业务伙伴</value>
+  <value column="Name" original="EMail PDF">EMail 催款通知</value>
+  <value column="PrintName" original="EMail PDF">EMail 催款通知</value>
+  <value column="Description" original="Email Document PDF files to Business Partner">EMail 催款通知 PDF 文件给业务伙伴</value>
+  <value column="Help" original="">EMail 催款通知 PDF 文件给业务伙伴</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12669,10 +12686,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2036" trl="Y">
-  <value column="Name" original="Committed Quantity">提交数量</value>
-  <value column="PrintName" original="Committed Qty">提交数量</value>
-  <value column="Description" original="The (legal) commitment Quantity">已采购的数量</value>
-  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">已采购的数量</value>
+  <value column="Name" original="Committed Quantity">承诺数量</value>
+  <value column="PrintName" original="Committed Qty">承诺数量</value>
+  <value column="Description" original="The (legal) commitment Quantity">单据承诺数量</value>
+  <value column="Help" original="The commitment amount is independent from the planned amount. You would use the planned amount for your realistic estimation, which might be higher or lower than the commitment amount.">单据承诺的金额，比如采购/销售数量</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -13071,8 +13088,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="2077" trl="Y">
   <value column="Name" original="Commitment is Ceiling">承诺极限</value>
   <value column="PrintName" original="Commit ceiling">承诺极限</value>
-  <value column="Description" original="The commitment amount/quantity is the chargeable ceiling ">承诺金额/数量是最大限度</value>
-  <value column="Help" original="The commitment amount and quantity is the maximum amount and quantity to be charged.  Ignored, if the amount or quantity is zero.">承诺金额/数量是最大限度</value>
+  <value column="Description" original="The commitment amount/quantity is the chargeable ceiling ">承诺的金额/数量是否为最大极限</value>
+  <value column="Help" original="The commitment amount and quantity is the maximum amount and quantity to be charged.  Ignored, if the amount or quantity is zero.">承诺的金额/数量是否为最大极限</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -14219,8 +14236,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2201" trl="Y">
-  <value column="Name" original="Industry Info">产业信息</value>
-  <value column="PrintName" original="Industry Info">产业信息</value>
+  <value column="Name" original="Industry Info">行业信息</value>
+  <value column="PrintName" original="Industry Info">行业信息</value>
   <value column="Description" original="Information of the industry (e.g. professional service, distribution of furnitures, ..)">企业性质 (例如，专业服务、家具分销)</value>
   <value column="Help" original="This allows to have the three general situations of &quot;not open&quot; - &quot;open&quot; - &quot;closed&quot;">企业性质 (例如，专业服务、家具分销)</value>
   <value column="PO_Description" original=""/>
@@ -14959,8 +14976,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2281" trl="Y">
-  <value column="Name" original="Pay Schedule valid">使用支付计划</value>
-  <value column="PrintName" original="Pay Schedule valid">使用支付计划</value>
+  <value column="Name" original="Pay Schedule valid">支付计划</value>
+  <value column="PrintName" original="Pay Schedule valid">支付计划</value>
   <value column="Description" original="Is the Payment Schedule is valid">是否使用支付计划</value>
   <value column="Help" original="Payment Schedules allow to have multiple due dates.">是否使用支付计划</value>
   <value column="PO_Description" original=""/>
@@ -17607,8 +17624,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="2565" trl="Y">
   <value column="Name" original="Times Dunned">已催款次数</value>
   <value column="PrintName" original="# Dunned">已催款次数</value>
-  <value column="Description" original="Number of times dunned previously">以前已经催款的次数</value>
-  <value column="Help" original="">以前已经催款的次数</value>
+  <value column="Description" original="Number of times dunned previously">已经催款的次数</value>
+  <value column="Help" original="">已经催款的次数</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18429,8 +18446,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="2648" trl="Y">
   <value column="Name" original="Only Set Customization">仅自定义设置</value>
   <value column="PrintName" original="Only Set Customization">仅自定义设置</value>
-  <value column="Description" original="Set Customization for change records records with Dictionary Entity Type">为更改记录的记录设置定制，带字典实体类型</value>
-  <value column="Help" original="">为更改记录的记录设置定制，带字典实体类型</value>
+  <value column="Description" original="Set Customization for change records records with Dictionary Entity Type">字典实体类类型的记录仅用于自定义设置【未使用】</value>
+  <value column="Help" original="">字典实体类类型的记录仅用于自定义设置【未使用】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18747,10 +18764,10 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2681" trl="Y">
-  <value column="Name" original="Commission Converted Amount">佣金金额(本币)</value>
-  <value column="PrintName" original="Comm Conv Amt">佣金金额(本币)</value>
-  <value column="Description" original="Commission calculation basis Converted Amount">换算成本币的佣金金额</value>
-  <value column="Help" original="">换算成本币的佣金金额</value>
+  <value column="Name" original="Commission Converted Amount">佣金(本币)</value>
+  <value column="PrintName" original="Comm Conv Amt">佣金(本币)</value>
+  <value column="Description" original="Commission calculation basis Converted Amount">本币的佣金金额</value>
+  <value column="Help" original="">本币的佣金金额</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19364,8 +19381,8 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2747" trl="Y">
-  <value column="Name" original="Message Type">信息类型</value>
-  <value column="PrintName" original="Message Type">信息类型</value>
+  <value column="Name" original="Message Type">消息类型</value>
+  <value column="PrintName" original="Message Type">消息类型</value>
   <value column="Description" original="Mail Message Type">邮件消息类型</value>
   <value column="Help" original="">邮件消息类型</value>
   <value column="PO_Description" original=""/>
@@ -19845,10 +19862,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2798" trl="Y">
-  <value column="Name" original="Only If BP has Balance">仅包含余额未清的业务伙伴</value>
-  <value column="PrintName" original="Only If BP has Balance">仅包含余额未清的业务伙伴</value>
-  <value column="Description" original="Include only if Business Partner has outstanding Balance">仅包含余额未清的业务伙伴</value>
-  <value column="Help" original="">仅包含余额未清的业务伙伴</value>
+  <value column="Name" original="Only If BP has Balance">仅打印余额大于0的催款通知</value>
+  <value column="PrintName" original="Only If BP has Balance">仅打印余额大于0的催款通知</value>
+  <value column="Description" original="Include only if Business Partner has outstanding Balance">催款余额小于0，表示预收款，无需催款</value>
+  <value column="Help" original="">催款余额（未清余额）=  未清发票 - 已付款 </value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -19965,10 +19982,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2810" trl="Y">
-  <value column="Name" original="BPartner (Agent)">业务伙伴(代理人)</value>
-  <value column="PrintName" original="BPartner (Agent)">业务伙伴(代理人)</value>
-  <value column="Description" original="Business Partner (Agent or Sales Rep)">业务伙伴(代理或业务代表)</value>
-  <value column="Help" original="">业务伙伴(代理或业务代表)</value>
+  <value column="Name" original="BPartner (Agent)">业务伙伴代表</value>
+  <value column="PrintName" original="BPartner (Agent)">业务伙伴代表</value>
+  <value column="Description" original="Business Partner (Agent or Sales Rep)">业务伙伴的业务代表或代理</value>
+  <value column="Help" original="">业务伙伴的业务代表或代理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20211,8 +20228,9 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
  <row id="2834" trl="Y">
   <value column="Name" original="Remaining Amt">剩余金额</value>
   <value column="PrintName" original="Remaining Amt">剩余金额</value>
-  <value column="Description" original="Remaining Amount">剩余金额</value>
-  <value column="Help" original="">剩余金额</value>
+  <value column="Description" original="Remaining Amount">支付金额与所有发票金额的差额</value>
+  <value column="Help" original=""><![CDATA[公式 = 支付金额 - 所有行的发票金额 <br />
+【BUG，正确公式= 支付金额 - 所有行的发票未清金额 】]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20629,8 +20647,8 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
  <row id="2877" trl="Y">
   <value column="Name" original="User Column 1">自定义列1</value>
   <value column="PrintName" original="User Column 1">自定义列1</value>
-  <value column="Description" original="User defined accounting Element">使用任何表的列作为记账元素</value>
-  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested)">引用任何表的列（比如，项目任务）来定义会计维度元素。注意该列为单据主键列，无需输入，由上下文信息生成。</value>
+  <value column="Description" original="User defined accounting Element">使用任何表的列作为会计元素</value>
+  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested)">引用任何表的列（比如，项目任务）来定义会计维度元素。【注意】该列无需输入，由单据的上下文信息生成。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20639,8 +20657,8 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
  <row id="2878" trl="Y">
   <value column="Name" original="User Column 2">自定义列2</value>
   <value column="PrintName" original="User Column 2">自定义列2</value>
-  <value column="Description" original="User defined accounting Element">使用任何表的列作为记账元素</value>
-  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested) ">引用任何表的列（比如，项目任务）来定义会计维度元素。注意该列为单据主键列，无需输入，由上下文信息生成。</value>
+  <value column="Description" original="User defined accounting Element">使用任何表的列作为会计元素</value>
+  <value column="Help" original="A user defined accounting element referres to a iDempiere table. This allows to use any table content as an accounting dimension (e.g. Project Task).  Note that User Elements are optional and are populated from the context of the document (i.e. not requested) ">引用任何表的列（比如，项目任务）来定义会计维度元素。【注意】该列无需输入，由单据的上下文信息生成。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -20829,8 +20847,8 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
  <row id="2897" trl="Y">
   <value column="Name" original="Include All Currencies">包括所有币种</value>
   <value column="PrintName" original="All Currencies">包括所有币种</value>
-  <value column="Description" original="Report not just foreign currency Invoices">不仅是外币发票的报表</value>
-  <value column="Help" original="">不仅是外币发票的报表</value>
+  <value column="Description" original="Report not just foreign currency Invoices">包括所有币种</value>
+  <value column="Help" original="">包括所有币种</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -21228,10 +21246,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2940" trl="Y">
-  <value column="Name" original="Support EMail">支持EMail</value>
-  <value column="PrintName" original="Support EMail">支持EMail</value>
-  <value column="Description" original="EMail address to send support information and updates to">发送支持信息和更新到此EMail地址</value>
-  <value column="Help" original="If not entered the registered email is used.">发送支持信息和更新到此EMail地址</value>
+  <value column="Name" original="Support EMail">支持 EMail</value>
+  <value column="PrintName" original="Support EMail">支持 EMail</value>
+  <value column="Description" original="EMail address to send support information and updates to">发送支持信息和更新到此 EMail 地址</value>
+  <value column="Help" original="If not entered the registered email is used.">发送支持信息和更新到此 EMail 地址</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22598,10 +22616,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3087" trl="Y">
-  <value column="Name" original="Create levels sequentially">按顺序创建级别</value>
-  <value column="PrintName" original="Sequential">按顺序创建级别</value>
-  <value column="Description" original="Create Dunning Letter by level sequentially">按级别顺序创建催款函</value>
-  <value column="Help" original="If selected, the dunning letters are created in the sequence of the dunning levels.  Otherwise, the dunning level is based on the days (over)due.">按级别顺序创建催款函</value>
+  <value column="Name" original="Create levels sequentially">按最长逾期显示</value>
+  <value column="PrintName" original="Sequential">按最长逾期显示</value>
+  <value column="Description" original="Create Dunning Letter by level sequentially">按发票最长预期合并催款级别，否则按单个级别创建催款通知</value>
+  <value column="Help" original="If selected, the dunning letters are created in the sequence of the dunning levels.  Otherwise, the dunning level is based on the days (over)due.">选择此项，将按最长预期的级别显示催款通知，否则按单个级别创建催款通知。【小bug合并后应显示最长预期的催款级别名称，bug显示为第一个催款级别】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -22638,10 +22656,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="3091" trl="Y">
-  <value column="Name" original="Set Payment Term">新支付条款</value>
-  <value column="PrintName" original="Set Payment Term">新支付条款</value>
-  <value column="Description" original="Set the payment term of the Business Partner">是否使用新支付条款，覆盖业务伙伴缺省设置</value>
-  <value column="Help" original="If a dunning letter of this level is created, the payment term of this business partner is overwritten.">是否使用新支付条款，覆盖业务伙伴缺省设置</value>
+  <value column="Name" original="Set Payment Term">更新支付条款</value>
+  <value column="PrintName" original="Set Payment Term">更新支付条款</value>
+  <value column="Description" original="Set the payment term of the Business Partner">是否更新业务伙伴的缺省支付条款</value>
+  <value column="Help" original="If a dunning letter of this level is created, the payment term of this business partner is overwritten.">对业务伙伴的缺省支付条款进行覆盖更新，通常是更严格的支付条款。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24050,8 +24068,8 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
  <row id="52053" trl="Y">
   <value column="Name" original="QtyCsv">Csv数量</value>
   <value column="PrintName" original="QtyCsv">Csv数量</value>
-  <value column="Description" original="">Csv数量</value>
-  <value column="Help" original="">Csv数量</value>
+  <value column="Description" original="">Csv数量【注：不知道什么意思】</value>
+  <value column="Help" original="">Csv数量【注：不知道什么意思】</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -24108,10 +24126,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53224" trl="Y">
-  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理清单</value>
-  <value column="PrintName" original="Print Unprocessed Entries Only">只打印未处理清单</value>
+  <value column="Name" original="Print Unprocessed Entries Only">仅打印“未处理”的催款通知</value>
+  <value column="PrintName" original="Print Unprocessed Entries Only">仅打印“未处理”的催款通知</value>
   <value column="Description" original="">只打印未处理的条目清单</value>
-  <value column="Help" original="">只打印未处理的条目清单</value>
+  <value column="Help" original="">由于催款运行无法选择“已处理”记录，重复打印需在“催款通知”页签的菜单栏打印。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28011,10 +28029,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="53684" trl="Y">
-  <value column="Name" original="Save In Historic">重要事件</value>
-  <value column="PrintName" original="Save In Historic">重要事件</value>
-  <value column="Description" original="">该操作为重要事件</value>
-  <value column="Help" original="">该操作为重要事件</value>
+  <value column="Name" original="Save In Historic">保存日志</value>
+  <value column="PrintName" original="Save In Historic">保存日志</value>
+  <value column="Description" original="">是否在日志中保存记录</value>
+  <value column="Help" original="">是否在日志中保存记录</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -29143,10 +29161,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="54076" trl="Y">
-  <value column="Name" original="Is Statement">债务结算单</value>
-  <value column="PrintName" original="Is Statement">债务结算单</value>
-  <value column="Description" original="Dunning Level is a definition of a statement">只表示双方债务状况，不包含其他费用</value>
-  <value column="Help" original="">催款级别只表示双方债务状况，不包含其他费用</value>
+  <value column="Name" original="Is Statement">对账结算单</value>
+  <value column="PrintName" original="Is Statement">对账结算单</value>
+  <value column="Description" original="Dunning Level is a definition of a statement">双方业务单据的结算状况，不包含其他到期费用</value>
+  <value column="Help" original="">通常在到期后0天，发送双方的业务对账结算单，不含到期附加费用。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -40954,100 +40972,100 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200328" trl="Y">
-  <value column="Name" original="c_dunningrun_c_dunninglevel_id">催款计算_催款级别</value>
-  <value column="PrintName" original="c_dunningrun_c_dunninglevel_id">催款计算_催款级别</value>
-  <value column="Description" original="">催款计算_催款级别</value>
-  <value column="Help" original="">催款计算_催款级别</value>
+  <value column="Name" original="c_dunningrun_c_dunninglevel_id">催款运行_催款级别</value>
+  <value column="PrintName" original="c_dunningrun_c_dunninglevel_id">催款运行_催款级别</value>
+  <value column="Description" original="">催款运行_催款级别</value>
+  <value column="Help" original="">催款运行_催款级别</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200329" trl="Y">
-  <value column="Name" original="c_dunningrun_description">催款计算_描述</value>
-  <value column="PrintName" original="c_dunningrun_description">催款计算_描述</value>
-  <value column="Description" original="">催款计算_描述</value>
-  <value column="Help" original="">催款计算_描述</value>
+  <value column="Name" original="c_dunningrun_description">催款运行_描述</value>
+  <value column="PrintName" original="c_dunningrun_description">催款运行_描述</value>
+  <value column="Description" original="">催款运行_描述</value>
+  <value column="Help" original="">催款运行_描述</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200330" trl="Y">
-  <value column="Name" original="c_dunningrunentry_ad_org_id">催款计算条目_组织</value>
-  <value column="PrintName" original="c_dunningrunentry_ad_org_id">催款计算条目_组织</value>
-  <value column="Description" original="">催款计算条目_组织</value>
-  <value column="Help" original="">催款计算条目_组织</value>
+  <value column="Name" original="c_dunningrunentry_ad_org_id">催款通知_组织</value>
+  <value column="PrintName" original="c_dunningrunentry_ad_org_id">催款通知_组织</value>
+  <value column="Description" original="">催款通知_组织</value>
+  <value column="Help" original="">催款通知_组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200331" trl="Y">
-  <value column="Name" original="C_DunRunEntry_C_DunLevel_ID">催款计算条目_催款级别</value>
-  <value column="PrintName" original="C_DunRunEntry_C_DunLevel_ID">催款计算条目_催款级别</value>
-  <value column="Description" original="">催款计算条目_催款级别</value>
-  <value column="Help" original="">催款计算条目_催款级别</value>
+  <value column="Name" original="C_DunRunEntry_C_DunLevel_ID">催款通知_催款级别</value>
+  <value column="PrintName" original="C_DunRunEntry_C_DunLevel_ID">催款通知_催款级别</value>
+  <value column="Description" original="">催款通知_催款级别</value>
+  <value column="Help" original="">催款通知_催款级别</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200332" trl="Y">
-  <value column="Name" original="c_dunningrunentry_created">催款计算条目_创建时间</value>
-  <value column="PrintName" original="c_dunningrunentry_created">催款计算条目_创建时间</value>
-  <value column="Description" original="">催款计算条目_创建时间</value>
-  <value column="Help" original="">催款计算条目_创建时间</value>
+  <value column="Name" original="c_dunningrunentry_created">催款通知_创建时间</value>
+  <value column="PrintName" original="c_dunningrunentry_created">催款通知_创建时间</value>
+  <value column="Description" original="">催款通知_创建时间</value>
+  <value column="Help" original="">催款通知_创建时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200333" trl="Y">
-  <value column="Name" original="c_dunningrunentry_createdby">催款计算条目_创建人</value>
-  <value column="PrintName" original="c_dunningrunentry_createdby">催款计算条目_创建人</value>
-  <value column="Description" original="">催款计算条目_创建人</value>
-  <value column="Help" original="">催款计算条目_创建人</value>
+  <value column="Name" original="c_dunningrunentry_createdby">催款通知_创建人</value>
+  <value column="PrintName" original="c_dunningrunentry_createdby">催款通知_创建人</value>
+  <value column="Description" original="">催款通知_创建人</value>
+  <value column="Help" original="">催款通知_创建人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200334" trl="Y">
-  <value column="Name" original="c_dunningrunentry_isactive">催款计算条目_有效</value>
-  <value column="PrintName" original="c_dunningrunentry_isactive">催款计算条目_有效</value>
-  <value column="Description" original="">催款计算条目_有效</value>
-  <value column="Help" original="">催款计算条目_有效</value>
+  <value column="Name" original="c_dunningrunentry_isactive">催款通知_有效</value>
+  <value column="PrintName" original="c_dunningrunentry_isactive">催款通知_有效</value>
+  <value column="Description" original="">催款通知_有效</value>
+  <value column="Help" original="">催款通知_有效</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200335" trl="Y">
-  <value column="Name" original="c_dunningrunentry_processed">催款计算条目_已处理</value>
-  <value column="PrintName" original="c_dunningrunentry_processed">催款计算条目_已处理</value>
-  <value column="Description" original="">催款计算条目_已处理</value>
-  <value column="Help" original="">催款计算条目_已处理</value>
+  <value column="Name" original="c_dunningrunentry_processed">催款通知_已处理</value>
+  <value column="PrintName" original="c_dunningrunentry_processed">催款通知_已处理</value>
+  <value column="Description" original="">催款通知_已处理</value>
+  <value column="Help" original="">催款通知_已处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200336" trl="Y">
-  <value column="Name" original="c_dunningrunentry_updated">催款计算条目_更新时间</value>
-  <value column="PrintName" original="c_dunningrunentry_updated">催款计算条目_更新时间</value>
-  <value column="Description" original="">催款计算条目_更新时间</value>
-  <value column="Help" original="">催款计算条目_更新时间</value>
+  <value column="Name" original="c_dunningrunentry_updated">催款通知_更新时间</value>
+  <value column="PrintName" original="c_dunningrunentry_updated">催款通知_更新时间</value>
+  <value column="Description" original="">催款通知_更新时间</value>
+  <value column="Help" original="">催款通知_更新时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200337" trl="Y">
-  <value column="Name" original="c_dunningrunentry_updatedby">催款计算条目_更新人</value>
-  <value column="PrintName" original="c_dunningrunentry_updatedby">催款计算条目_更新人</value>
-  <value column="Description" original="">催款计算条目_更新人</value>
-  <value column="Help" original="">催款计算条目_更新人</value>
+  <value column="Name" original="c_dunningrunentry_updatedby">催款通知_更新人</value>
+  <value column="PrintName" original="c_dunningrunentry_updatedby">催款通知_更新人</value>
+  <value column="Description" original="">催款通知_更新人</value>
+  <value column="Help" original="">催款通知_更新人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -41064,10 +41082,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200339" trl="Y">
-  <value column="Name" original="c_dunninglevel_c_dunning_id">催款级别_催款</value>
-  <value column="PrintName" original="c_dunninglevel_c_dunning_id">催款级别_催款</value>
-  <value column="Description" original="">催款级别_催款</value>
-  <value column="Help" original="">催款级别_催款</value>
+  <value column="Name" original="c_dunninglevel_c_dunning_id">催款级别_催款规则</value>
+  <value column="PrintName" original="c_dunninglevel_c_dunning_id">催款级别_催款规则</value>
+  <value column="Description" original="">催款级别_催款规则</value>
+  <value column="Help" original="">催款级别_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -41264,10 +41282,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200359" trl="Y">
-  <value column="Name" original="c_bpartner_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="PrintName" original="c_bpartner_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="Description" original="">业务伙伴_催款宽限期</value>
-  <value column="Help" original="">业务伙伴_催款宽限期</value>
+  <value column="Name" original="c_bpartner_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="PrintName" original="c_bpartner_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="Description" original="">业务伙伴_催款宽限日期</value>
+  <value column="Help" original="">业务伙伴_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -42614,10 +42632,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200494" trl="Y">
-  <value column="Name" original="salesrep_bpartner_dunninggrace">业务代表_伙伴2_催款宽限期</value>
-  <value column="PrintName" original="salesrep_bpartner_dunninggrace">业务代表_伙伴2_催款宽限期</value>
-  <value column="Description" original="">业务代表_伙伴2_催款宽限期</value>
-  <value column="Help" original="">业务代表_伙伴2_催款宽限期</value>
+  <value column="Name" original="salesrep_bpartner_dunninggrace">业务代表_伙伴2_催款宽限日期</value>
+  <value column="PrintName" original="salesrep_bpartner_dunninggrace">业务代表_伙伴2_催款宽限日期</value>
+  <value column="Description" original="">业务代表_伙伴2_催款宽限日期</value>
+  <value column="Help" original="">业务代表_伙伴2_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -43094,20 +43112,20 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200542" trl="Y">
-  <value column="Name" original="c_dunningrunline_isindispute">催款计算行_争议中</value>
-  <value column="PrintName" original="c_dunningrunline_isindispute">催款计算行_争议中</value>
-  <value column="Description" original="">催款计算行_争议中</value>
-  <value column="Help" original="">催款计算行_争议中</value>
+  <value column="Name" original="c_dunningrunline_isindispute">催款明细_争议中</value>
+  <value column="PrintName" original="c_dunningrunline_isindispute">催款明细_争议中</value>
+  <value column="Description" original="">催款明细_争议中</value>
+  <value column="Help" original="">催款明细_争议中</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200543" trl="Y">
-  <value column="Name" original="c_dunningrunline_processed">催款计算行_已处理</value>
-  <value column="PrintName" original="c_dunningrunline_processed">催款计算行_已处理</value>
-  <value column="Description" original="">催款计算行_已处理</value>
-  <value column="Help" original="">催款计算行_已处理</value>
+  <value column="Name" original="c_dunningrunline_processed">催款明细_已处理</value>
+  <value column="PrintName" original="c_dunningrunline_processed">催款明细_已处理</value>
+  <value column="Description" original="">催款明细_已处理</value>
+  <value column="Help" original="">催款明细_已处理</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -43764,10 +43782,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200978" trl="Y">
-  <value column="Name" original="C_BPartner_C_Dunning_ID">业务伙伴_催款</value>
-  <value column="PrintName" original="C_BPartner_C_Dunning_ID">业务伙伴_催款</value>
-  <value column="Description" original="">业务伙伴_催款</value>
-  <value column="Help" original="">业务伙伴_催款</value>
+  <value column="Name" original="C_BPartner_C_Dunning_ID">业务伙伴_催款规则</value>
+  <value column="PrintName" original="C_BPartner_C_Dunning_ID">业务伙伴_催款规则</value>
+  <value column="Description" original="">业务伙伴_催款规则</value>
+  <value column="Help" original="">业务伙伴_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -43864,10 +43882,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200988" trl="Y">
-  <value column="Name" original="bp_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="PrintName" original="bp_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="Description" original="">业务伙伴_催款宽限期</value>
-  <value column="Help" original="">业务伙伴_催款宽限期</value>
+  <value column="Name" original="bp_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="PrintName" original="bp_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="Description" original="">业务伙伴_催款宽限日期</value>
+  <value column="Help" original="">业务伙伴_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -44544,10 +44562,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201057" trl="Y">
-  <value column="Name" original="bpartner_c_dunning_id">业务伙伴_催款</value>
-  <value column="PrintName" original="bpartner_c_dunning_id">业务伙伴_催款</value>
-  <value column="Description" original="">业务伙伴_催款</value>
-  <value column="Help" original="">业务伙伴_催款</value>
+  <value column="Name" original="bpartner_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="PrintName" original="bpartner_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="Description" original="">业务伙伴_催款规则</value>
+  <value column="Help" original="">业务伙伴_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -44644,10 +44662,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201067" trl="Y">
-  <value column="Name" original="bpartner_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="PrintName" original="bpartner_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="Description" original="">业务伙伴_催款宽限期</value>
-  <value column="Help" original="">业务伙伴_催款宽限期</value>
+  <value column="Name" original="bpartner_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="PrintName" original="bpartner_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="Description" original="">业务伙伴_催款宽限日期</value>
+  <value column="Help" original="">业务伙伴_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -46684,90 +46702,90 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201366" trl="Y">
-  <value column="Name" original="c_commission_ad_org_id">佣金定义_组织</value>
-  <value column="PrintName" original="c_commission_ad_org_id">佣金定义_组织</value>
-  <value column="Description" original="">佣金定义_组织</value>
-  <value column="Help" original="">佣金定义_组织</value>
+  <value column="Name" original="c_commission_ad_org_id">佣金规则_组织</value>
+  <value column="PrintName" original="c_commission_ad_org_id">佣金规则_组织</value>
+  <value column="Description" original="">佣金规则_组织</value>
+  <value column="Help" original="">佣金规则_组织</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201367" trl="Y">
-  <value column="Name" original="c_commission_c_currency_id">佣金定义_货币</value>
-  <value column="PrintName" original="c_commission_c_currency_id">佣金定义_货币</value>
-  <value column="Description" original="">佣金定义_货币</value>
-  <value column="Help" original="">佣金定义_货币</value>
+  <value column="Name" original="c_commission_c_currency_id">佣金规则_货币</value>
+  <value column="PrintName" original="c_commission_c_currency_id">佣金规则_货币</value>
+  <value column="Description" original="">佣金规则_货币</value>
+  <value column="Help" original="">佣金规则_货币</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201368" trl="Y">
-  <value column="Name" original="c_commission_created">佣金定义_创建时间</value>
-  <value column="PrintName" original="c_commission_created">佣金定义_创建时间</value>
-  <value column="Description" original="">佣金定义_创建时间</value>
-  <value column="Help" original="">佣金定义_创建时间</value>
+  <value column="Name" original="c_commission_created">佣金规则_创建时间</value>
+  <value column="PrintName" original="c_commission_created">佣金规则_创建时间</value>
+  <value column="Description" original="">佣金规则_创建时间</value>
+  <value column="Help" original="">佣金规则_创建时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201369" trl="Y">
-  <value column="Name" original="c_commission_createdby">佣金定义_创建人</value>
-  <value column="PrintName" original="c_commission_createdby">佣金定义_创建人</value>
-  <value column="Description" original="">佣金定义_创建人</value>
-  <value column="Help" original="">佣金定义_创建人</value>
+  <value column="Name" original="c_commission_createdby">佣金规则_创建人</value>
+  <value column="PrintName" original="c_commission_createdby">佣金规则_创建人</value>
+  <value column="Description" original="">佣金规则_创建人</value>
+  <value column="Help" original="">佣金规则_创建人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201370" trl="Y">
-  <value column="Name" original="c_commission_description">佣金定义_描述</value>
-  <value column="PrintName" original="c_commission_description">佣金定义_描述</value>
-  <value column="Description" original="">佣金定义_描述</value>
-  <value column="Help" original="">佣金定义_描述</value>
+  <value column="Name" original="c_commission_description">佣金规则_描述</value>
+  <value column="PrintName" original="c_commission_description">佣金规则_描述</value>
+  <value column="Description" original="">佣金规则_描述</value>
+  <value column="Help" original="">佣金规则_描述</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201371" trl="Y">
-  <value column="Name" original="c_commission_isactive">佣金定义_有效</value>
-  <value column="PrintName" original="c_commission_isactive">佣金定义_有效</value>
-  <value column="Description" original="">佣金定义_有效</value>
-  <value column="Help" original="">佣金定义_有效</value>
+  <value column="Name" original="c_commission_isactive">佣金规则_有效</value>
+  <value column="PrintName" original="c_commission_isactive">佣金规则_有效</value>
+  <value column="Description" original="">佣金规则_有效</value>
+  <value column="Help" original="">佣金规则_有效</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201372" trl="Y">
-  <value column="Name" original="c_commission_name">佣金定义_名称</value>
-  <value column="PrintName" original="c_commission_name">佣金定义_名称</value>
-  <value column="Description" original="">佣金定义_名称</value>
-  <value column="Help" original="">佣金定义_名称</value>
+  <value column="Name" original="c_commission_name">佣金规则_名称</value>
+  <value column="PrintName" original="c_commission_name">佣金规则_名称</value>
+  <value column="Description" original="">佣金规则_名称</value>
+  <value column="Help" original="">佣金规则_名称</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201373" trl="Y">
-  <value column="Name" original="c_commission_updated">佣金定义_更新时间</value>
-  <value column="PrintName" original="c_commission_updated">佣金定义_更新时间</value>
-  <value column="Description" original="">佣金定义_更新时间</value>
-  <value column="Help" original="">佣金定义_更新时间</value>
+  <value column="Name" original="c_commission_updated">佣金规则_更新时间</value>
+  <value column="PrintName" original="c_commission_updated">佣金规则_更新时间</value>
+  <value column="Description" original="">佣金规则_更新时间</value>
+  <value column="Help" original="">佣金规则_更新时间</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201374" trl="Y">
-  <value column="Name" original="c_commission_updatedby">佣金定义_更新人</value>
-  <value column="PrintName" original="c_commission_updatedby">佣金定义_更新人</value>
-  <value column="Description" original="">佣金定义_更新人</value>
-  <value column="Help" original="">佣金定义_更新人</value>
+  <value column="Name" original="c_commission_updatedby">佣金规则_更新人</value>
+  <value column="PrintName" original="c_commission_updatedby">佣金规则_更新人</value>
+  <value column="Description" original="">佣金规则_更新人</value>
+  <value column="Help" original="">佣金规则_更新人</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -47624,10 +47642,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201461" trl="Y">
-  <value column="Name" original="c_order_docaction">订单_单据操作</value>
-  <value column="PrintName" original="c_order_docaction">订单_单据操作</value>
-  <value column="Description" original="">订单_单据操作</value>
-  <value column="Help" original="">订单_单据操作</value>
+  <value column="Name" original="c_order_docaction">订单_单据动作</value>
+  <value column="PrintName" original="c_order_docaction">订单_单据动作</value>
+  <value column="Description" original="">订单_单据动作</value>
+  <value column="Help" original="">订单_单据动作</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -47884,10 +47902,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201487" trl="Y">
-  <value column="Name" original="c_invoice_docaction">发票_单据操作</value>
-  <value column="PrintName" original="c_invoice_docaction">发票_单据操作</value>
-  <value column="Description" original="">发票_单据操作</value>
-  <value column="Help" original="">发票_单据操作</value>
+  <value column="Name" original="c_invoice_docaction">发票_单据动作</value>
+  <value column="PrintName" original="c_invoice_docaction">发票_单据动作</value>
+  <value column="Description" original="">发票_单据动作</value>
+  <value column="Help" original="">发票_单据动作</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -47904,10 +47922,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201489" trl="Y">
-  <value column="Name" original="c_invoice_dunninggrace">发票_催款宽限期</value>
-  <value column="PrintName" original="c_invoice_dunninggrace">发票_催款宽限期</value>
-  <value column="Description" original="">发票_催款宽限期</value>
-  <value column="Help" original="">发票_催款宽限期</value>
+  <value column="Name" original="c_invoice_dunninggrace">发票_催款宽限日期</value>
+  <value column="PrintName" original="c_invoice_dunninggrace">发票_催款宽限日期</value>
+  <value column="Description" original="">发票_催款宽限日期</value>
+  <value column="Help" original="">发票_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -48874,10 +48892,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201650" trl="Y">
-  <value column="Name" original="salesrep_bp_c_dunning_id">业务代表_伙伴1_催款</value>
-  <value column="PrintName" original="salesrep_bp_c_dunning_id">业务代表_伙伴1_催款</value>
-  <value column="Description" original="">业务代表_伙伴1_催款</value>
-  <value column="Help" original="">业务代表_伙伴1_催款</value>
+  <value column="Name" original="salesrep_bp_c_dunning_id">业务代表_伙伴1_催款规则</value>
+  <value column="PrintName" original="salesrep_bp_c_dunning_id">业务代表_伙伴1_催款规则</value>
+  <value column="Description" original="">业务代表_伙伴1_催款规则</value>
+  <value column="Help" original="">业务代表_伙伴1_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -48944,10 +48962,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201657" trl="Y">
-  <value column="Name" original="salesrep_bp_dunninggrace">业务代表_伙伴1_催款宽限期</value>
-  <value column="PrintName" original="salesrep_bp_dunninggrace">业务代表_伙伴1_催款宽限期</value>
-  <value column="Description" original="">业务代表_伙伴1_催款宽限期</value>
-  <value column="Help" original="">业务代表_伙伴1_催款宽限期</value>
+  <value column="Name" original="salesrep_bp_dunninggrace">业务代表_伙伴1_催款宽限日期</value>
+  <value column="PrintName" original="salesrep_bp_dunninggrace">业务代表_伙伴1_催款宽限日期</value>
+  <value column="Description" original="">业务代表_伙伴1_催款宽限日期</value>
+  <value column="Help" original="">业务代表_伙伴1_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -49464,10 +49482,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201709" trl="Y">
-  <value column="Name" original="bill_bp_c_dunning_id">业务伙伴_催款</value>
-  <value column="PrintName" original="bill_bp_c_dunning_id">业务伙伴_催款</value>
-  <value column="Description" original="">业务伙伴_催款</value>
-  <value column="Help" original="">业务伙伴_催款</value>
+  <value column="Name" original="bill_bp_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="PrintName" original="bill_bp_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="Description" original="">业务伙伴_催款规则</value>
+  <value column="Help" original="">业务伙伴_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -49564,10 +49582,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201719" trl="Y">
-  <value column="Name" original="bill_bp_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="PrintName" original="bill_bp_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="Description" original="">业务伙伴_催款宽限期</value>
-  <value column="Help" original="">业务伙伴_催款宽限期</value>
+  <value column="Name" original="bill_bp_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="PrintName" original="bill_bp_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="Description" original="">业务伙伴_催款宽限日期</value>
+  <value column="Help" original="">业务伙伴_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -50654,10 +50672,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201906" trl="Y">
-  <value column="Name" original="c_bp_c_dunning_id">业务伙伴_催款</value>
-  <value column="PrintName" original="c_bp_c_dunning_id">业务伙伴_催款</value>
-  <value column="Description" original="">业务伙伴_催款</value>
-  <value column="Help" original="">业务伙伴_催款</value>
+  <value column="Name" original="c_bp_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="PrintName" original="c_bp_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="Description" original="">业务伙伴_催款规则</value>
+  <value column="Help" original="">业务伙伴_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -50754,10 +50772,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="201916" trl="Y">
-  <value column="Name" original="c_bp_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="PrintName" original="c_bp_dunninggrace">业务伙伴_催款宽限期</value>
-  <value column="Description" original="">业务伙伴_催款宽限期</value>
-  <value column="Help" original="">业务伙伴_催款宽限期</value>
+  <value column="Name" original="c_bp_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="PrintName" original="c_bp_dunninggrace">业务伙伴_催款宽限日期</value>
+  <value column="Description" original="">业务伙伴_催款宽限日期</value>
+  <value column="Help" original="">业务伙伴_催款宽限日期</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -54475,10 +54493,10 @@ BOM变更申请：暂时变更，永久变更，可选变更。<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202507" trl="Y">
-  <value column="Name" original="bp_c_dunning_id">业务伙伴_催款</value>
-  <value column="PrintName" original="bp_c_dunning_id">业务伙伴_催款</value>
-  <value column="Description" original="">业务伙伴_催款</value>
-  <value column="Help" original="">业务伙伴_催款</value>
+  <value column="Name" original="bp_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="PrintName" original="bp_c_dunning_id">业务伙伴_催款规则</value>
+  <value column="Description" original="">业务伙伴_催款规则</value>
+  <value column="Help" original="">业务伙伴_催款规则</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55632,8 +55650,8 @@ logic operators	:= AND or OR  (...)]]></value>
  <row id="202757" trl="Y">
   <value column="Name" original="Parameter Comment">参数注释</value>
   <value column="PrintName" original="Parameter Comment">参数注释</value>
-  <value column="Description" original="To replace the tag @Prm_Comment@ on the description of the documents being generated with the text you fill on the parameter">To replace the tag @Prm_Comment@ on the description of the documents being generated with the text you fill on the parameter</value>
-  <value column="Help" original="">To replace the tag @Prm_Comment@ on the description of the documents being generated with the text you fill on the parameter</value>
+  <value column="Description" original="To replace the tag @Prm_Comment@ on the description of the documents being generated with the text you fill on the parameter">输入目标单据的描述信息，将替代@Prm_Comment@变量信息</value>
+  <value column="Help" original="">输入目标单据的描述信息，将替代@Prm_Comment@变量信息。</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -55753,16 +55771,20 @@ logic operators	:= AND or OR  (...)]]></value>
   <value column="Name" original="CSV Header">CSV表头</value>
   <value column="PrintName" original="CSV Header">CSV表头</value>
   <value column="Description" original="">使用数据库字段名称组成的表头行</value>
-  <value column="Help" original="">使用数据库字段名称组成的表头行</value>
+  <value column="Help" original=""><![CDATA[表头-明细2级表头例子：<br />
+DocumentNo/K ,<br />
+C_OrderLine>C_Order_ID[DocumentNo]/K ,<br />
+C_OrderLine>Line/K ,<br /> 
+C_OrderLine>Description]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="202797" trl="Y">
-  <value column="Name" original="CSV Alias Header">CSV别名表头</value>
-  <value column="PrintName" original="CSV Alias Header">CSV别名表头</value>
-  <value column="Description" original="">使用字段别名而不是数据库的字段名</value>
+  <value column="Name" original="CSV Alias Header">表头别名</value>
+  <value column="PrintName" original="CSV Alias Header">表头别名</value>
+  <value column="Description" original="">使用别名替换CSV表头的逗号分隔字段名</value>
   <value column="Help" original="">使用字段别名而不是数据库的字段名</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -56344,7 +56366,7 @@ logic operators	:= AND or OR  (...)]]></value>
   <value column="PrintName" original="Auto Generate Lot">自动生成批号</value>
   <value column="Description" original="">【小心使用该功能】</value>
   <value column="Help" original=""><![CDATA[如果收发单明细的产品属性使用了这个带“自动生成批号”选项的属性集，在收发明细或者生产明细保存时，会对如下条件的单据明细产品自动生成产品属性。<br />
-1. 不是返冲单据 并且<br />
+1. 不是反冲单据 并且<br />
 2. 不是发货类单据 并且<br />
 3. 不是供应商退货单 并且<br />
 4. 产品属性为空<br />
@@ -59401,6 +59423,16 @@ Yes，额外缩放目标记录子页签的关联记录。显示格式为：目�
  <row trl="N" uuid="0ae07074-5b7b-4aff-8be6-b340a06c98fb">
   <value column="Name" original="T_UnAllocated_Payments_UU">T_UnAllocated_Payments_UU</value>
   <value column="PrintName" original="T_UnAllocated_Payments_UU">T_UnAllocated_Payments_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row trl="N" uuid="d7e7a05f-55f1-4d1c-95e1-a111e66adeed">
+  <value column="Name" original="commissionline_desc">commissionline_desc</value>
+  <value column="PrintName" original="commissionline_desc">commissionline_desc</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>

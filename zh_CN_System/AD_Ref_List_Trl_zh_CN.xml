@@ -326,11 +326,11 @@
  </row>
  <row id="184" trl="Y">
   <value column="Name" original="Reverse - Correct">红字更正</value>
-  <value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">生成一张负数数量（或金额）的同日单据来反冲事务，俗称红字调整</value>
+  <value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">生成一张相反数量（或金额）的同日单据，并产生“负数借贷”的分录，俗称“红字调整”。</value>
  </row>
  <row id="185" trl="Y">
   <value column="Name" original="Reverse - Accrual">借贷更正</value>
-  <value column="Description" original="Reverse by switching Dr/Cr with current date">生成一张互换账户借贷方向的同日单据来反冲事务</value>
+  <value column="Description" original="Reverse by switching Dr/Cr with current date">生成一张相反数量（或金额）的同日单据，并产生“反向借贷”的分录。</value>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Invalidate">失效</value>
@@ -413,7 +413,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="213" trl="Y">
-  <value column="Name" original="ATM">ATM自动柜员机</value>
+  <value column="Name" original="ATM">ATM 自动柜员机</value>
   <value column="Description" original=""/>
  </row>
  <row id="214" trl="Y">
@@ -1213,15 +1213,15 @@
   <value column="Description" original=""/>
  </row>
  <row id="445" trl="Y">
-  <value column="Name" original="Order">订单</value>
+  <value column="Name" original="Order">销售订单</value>
   <value column="Description" original=""/>
  </row>
  <row id="446" trl="Y">
-  <value column="Name" original="Invoice">发票</value>
+  <value column="Name" original="Invoice">应收发票</value>
   <value column="Description" original=""/>
  </row>
  <row id="447" trl="Y">
-  <value column="Name" original="Receipt">收款</value>
+  <value column="Name" original="Receipt">收款单</value>
   <value column="Description" original=""/>
  </row>
  <row id="448" trl="Y">
@@ -1733,7 +1733,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="578" trl="Y">
-  <value column="Name" original="Credit Hold">信用持有</value>
+  <value column="Name" original="Credit Hold">信用冻结</value>
   <value column="Description" original=""/>
  </row>
  <row id="579" trl="Y">
@@ -2981,11 +2981,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="898" trl="Y">
-  <value column="Name" original="Phase">阶段—阶段明细</value>
+  <value column="Name" original="Phase">阶段 -- 阶段明细</value>
   <value column="Description" original=""/>
  </row>
  <row id="899" trl="Y">
-  <value column="Name" original="Task">阶段—任务—任务明细</value>
+  <value column="Name" original="Task">阶段 -- 任务 -- 任务明细</value>
   <value column="Description" original=""/>
  </row>
  <row id="900" trl="Y">

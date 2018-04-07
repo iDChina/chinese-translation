@@ -93,11 +93,12 @@
   <value column="MsgTip" original="You don't have the privileges">无更新权限，可变更角色或与管理员联系。</value>
  </row>
  <row id="124" trl="Y">
-  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无此项访问权限，请与管理员联系。</value>
-  <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">当前角色的用户无访问权限，可能原因有：
-1. 用户登录实体与数据访问级别不符。
-2. 用户无此AD对象的访问权限。
-3. 用户无info窗口访问或者高级功能权限。
+  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无法访问该功能，请与管理员联系。</value>
+  <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">可能原因：
+1. 用户实体与数据访问级别不符
+2. 登录角色无此AD对象的访问权限
+3. 登录角色无信息窗口访问或者高级功能访问权限
+4. 窗口/页签/表处于无效状态
 
 出错信息：</value>
  </row>
@@ -678,7 +679,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="269" trl="Y">
-  <value column="MsgText" original="Fill mandatory fields: ">必须填写下列字段的内容：</value>
+  <value column="MsgText" original="Fill mandatory fields: ">必须输入字段内容：</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="270" trl="Y">
@@ -1072,7 +1073,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="367" trl="Y">
-  <value column="MsgText" original="Show old/completed Transactions">显示旧的/已完成的事务处理</value>
+  <value column="MsgText" original="Show old/completed Transactions">显示旧的/已完成的事务</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="368" trl="Y">
@@ -1524,12 +1525,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="480" trl="Y">
-  <value column="MsgText" original="Cannot send EMail:&#10;No Mail Server (SMTP) found; Check Client Info">无法发送邮件：未找到邮件服务器 (SMTP)，请检查请检查客户端设置</value>
+  <value column="MsgText" original="Cannot send EMail:&#10;No Mail Server (SMTP) found; Check Client Info">无法发送邮件：未找到邮件服务器 (SMTP)，请检查检查客户端设置</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="481" trl="Y">
-  <value column="MsgText" original="Cannot send EMail:&#10;No destination (to) address - Check Contact">不能发送电邮：
-没有目的地 ( 到) 地址 - 检查联系人</value>
+  <value column="MsgText" original="Cannot send EMail:&#10;No destination (to) address - Check Contact">无法发送邮件：没有目的地址 - 请检查联系人信息</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="482" trl="Y">
@@ -1619,7 +1619,7 @@
   <value column="MsgTip" original="Please change information.">如果单据序号重复，应运行“序号检查”流程。如果关键字重复，请修改关键字再保存。</value>
  </row>
  <row id="503" trl="Y">
-  <value column="MsgText" original="Record not saved. Row not found!">记录未保存，未找到行</value>
+  <value column="MsgText" original="Record not saved. Row not found!">当前记录未保存，请保存后继续。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="504" trl="Y">
@@ -2271,7 +2271,7 @@
   <value column="MsgTip" original="Format: Accounting__.csv">格式：Accounting__.csv</value>
  </row>
  <row id="666" trl="Y">
-  <value column="MsgText" original="No Tax Exempt Rate found (define a tax exempt tax rate)">未找到免税(定义免税税率)</value>
+  <value column="MsgText" original="No Tax Exempt Rate found (define a tax exempt tax rate)">未找到“交易免税”税目 ( 如果税目匹配失败，将默认使用“交易免税”税目 )</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="667" trl="Y">
@@ -2635,15 +2635,15 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="767" trl="Y">
-  <value column="MsgText" original="Business Partner is on Credit Hold">业务伙伴处于信用控制</value>
+  <value column="MsgText" original="Business Partner is on Credit Hold">业务伙伴处于信用冻结</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="768" trl="Y">
-  <value column="MsgText" original="Business Partner with this Order over Credit Hold">业务伙伴的该订单超过了信用控制</value>
+  <value column="MsgText" original="Business Partner with this Order over Credit Hold">订单业务伙伴已超过信用冻结金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="769" trl="Y">
-  <value column="MsgText" original="Business Partner with open Shipments over Credit Hold">业务伙伴尚有未结发货单，并超过了信用控制</value>
+  <value column="MsgText" original="Business Partner with open Shipments over Credit Hold">发货单业务伙伴已超过信用冻结金额</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="770" trl="Y">
@@ -2835,7 +2835,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="817" trl="Y">
-  <value column="MsgText" original="Show active Requests">显示活跃的请求</value>
+  <value column="MsgText" original="Show active Requests">显示活跃请求</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="818" trl="Y">
@@ -2871,7 +2871,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="826" trl="Y">
-  <value column="MsgText" original="Organization * (0) not allowed">组织 * (0) 不被允许</value>
+  <value column="MsgText" original="Organization * (0) not allowed">不允许使用组织 * (0) - 必须指定一个组织</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="827" trl="Y">
@@ -2951,7 +2951,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="846" trl="Y">
-  <value column="MsgText" original="Payment is allocated (Charge, Invoice, Order)">支付已分配 (费用，发票，订单)</value>
+  <value column="MsgText" original="Payment is allocated (Charge, Invoice, Order)">支付已选择分配到“杂费，发票，订单，项目”</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="847" trl="Y">
@@ -3087,7 +3087,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="880" trl="Y">
-  <value column="MsgText" original="URL not valid or cannot be displayed.">网址无效或不能显示</value>
+  <value column="MsgText" original="URL not valid or cannot be displayed.">网址无效或无法显示</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="881" trl="Y">
@@ -3647,7 +3647,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52115" trl="Y">
-  <value column="MsgText" original="Credit Check">信用检查</value>
+  <value column="MsgText" original="Credit Check">信用确认</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52116" trl="Y">
@@ -3655,7 +3655,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52117" trl="Y">
-  <value column="MsgText" original="Credit Hold">信用持有</value>
+  <value column="MsgText" original="Credit Hold">信用冻结</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52118" trl="Y">
@@ -3667,11 +3667,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52120" trl="Y">
-  <value column="MsgText" original="Credit Order">信用订单</value>
+  <value column="MsgText" original="Credit Order">赊销订单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52121" trl="Y">
-  <value column="MsgText" original="Credit Order Discount">信用订单折扣</value>
+  <value column="MsgText" original="Credit Order Discount">赊销订单折扣</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52122" trl="Y">
@@ -3787,7 +3787,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52150" trl="Y">
-  <value column="MsgText" original="Do you want to display all records?">显示所有记录吗？</value>
+  <value column="MsgText" original="Do you want to display all records?">显示所有记录？</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52151" trl="Y">
@@ -4107,7 +4107,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52230" trl="Y">
-  <value column="MsgText" original="New Credit Order">新的信用订单</value>
+  <value column="MsgText" original="New Credit Order">新建赊销订单</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52231" trl="Y">
@@ -4119,7 +4119,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52233" trl="Y">
-  <value column="MsgText" original="New Goods Receive Note">显示记录历史</value>
+  <value column="MsgText" original="New Goods Receive Note">新品备注</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52234" trl="Y">
@@ -5483,7 +5483,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53099" trl="Y">
-  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">会话超过一个小时或者服务器重启啦？	 </value>
+  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">会话超过一个小时，或者服务器重启啦？	 </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53117" trl="Y">
@@ -5627,7 +5627,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200011" trl="Y">
-  <value column="MsgText" original="Password Errors">只显示错误</value>
+  <value column="MsgText" original="Password Errors">密码错误</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200012" trl="Y">
@@ -5867,7 +5867,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200081" trl="Y">
-  <value column="MsgText" original="Card not processed">信用卡号无效</value>
+  <value column="MsgText" original="Card not processed">信用卡号未能处理</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200082" trl="Y">
@@ -5883,7 +5883,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200085" trl="Y">
-  <value column="MsgText" original="{0} is not displayed">{0} 为不显示属性</value>
+  <value column="MsgText" original="{0} is not displayed">{0} 定义错误。需定义一个表头主键列，且明细表也必须同时定义该列。</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200086" trl="Y">
@@ -6149,7 +6149,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200151" trl="Y">
-  <value column="MsgText" original="Entered value is less than the minimum ({0}) required">输入值小于要求的最小值({0})</value>
+  <value column="MsgText" original="Entered value is less than the minimum ({0}) required">输入值小于允许的最小值({0})</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200152" trl="Y">
