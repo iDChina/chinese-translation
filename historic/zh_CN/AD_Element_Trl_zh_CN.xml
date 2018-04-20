@@ -311,8 +311,8 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="138" trl="Y">
-  <value column="Name" original="User/Contact">用户</value>
-  <value column="PrintName" original="User">用户</value>
+  <value column="Name" original="User/Contact">联系人/用户</value>
+  <value column="PrintName" original="User">联系人/用户</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部或业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"><![CDATA[用户可以使用名称和密码登录到系统。实际场景可以表示公司系统的内部用户，或者业务伙伴的联系人<br />
 【多义词】你可以取消窗口字段的“集中维护”选项，修改为实际名称
@@ -1174,9 +1174,9 @@
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="260" trl="Y">
-  <value column="Name" original="D-U-N-S">邓氏编码</value>
-  <value column="PrintName" original="D-U-N-S">邓氏编码</value>
-  <value column="Description" original="Dun &amp; Bradstreet Number">D-U-N-S 邓氏编码</value>
+  <value column="Name" original="D-U-N-S">邓白氏编码</value>
+  <value column="PrintName" original="D-U-N-S">邓白氏编码</value>
+  <value column="Description" original="Dun &amp; Bradstreet Number">D-U-N-S 邓白氏编码</value>
   <value column="Help" original="Used for EDI - For details see   www.dnb.com/dunsno/list.htm">D-U-N-S 邓氏编码 www.dnbchina.com</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -3210,10 +3210,10 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="568" trl="Y">
-  <value column="Name" original="Serial No">流水号</value>
-  <value column="PrintName" original="Serial No">流水号</value>
-  <value column="Description" original="Product Serial Number ">产品流水号</value>
-  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">产品流水号</value>
+  <value column="Name" original="Serial No">序列号</value>
+  <value column="PrintName" original="Serial No">序列号</value>
+  <value column="Description" original="Product Serial Number ">产品序列号</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">产品序列号</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

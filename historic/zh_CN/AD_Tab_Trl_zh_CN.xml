@@ -271,7 +271,7 @@
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Account Element definition">会计科目、成本中心等账户维度元素</value>
   <value column="Help" original="The Element Tab defines the Name, Description and Format for an Element.  Additionally, a Type of Account or User Defined is selected. Each Account Schema must have an Account Element type.  The User Defined Elements are optional."><![CDATA[用于具体的记账方式会计元素，比如会计科目、成本中心等。科目（自然账户）是最常见的会计维度元素。你可以使用多个会计元素来生成并行报表或者自定义账户维度<br />
-【注意】自定义元素的树，必须是“用户1”或者“用户2”，且包含全部树节点，否则无法保存。]]></value>
+【注意】自定义元素的树，必须是“用户1”或者“用户2”，且包含全部树节点，否则无法保存]]></value>
  </row>
  <row id="154" trl="Y">
   <value column="Name" original="Location">地点地址</value>
@@ -4110,7 +4110,7 @@
   <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">基于LDAP服务器来验证外部系统</value>
  </row>
  <row id="850" trl="Y">
-  <value column="Name" original="LDAP Server Log">服务器日志</value>
+  <value column="Name" original="LDAP Server Log">LDAP 服务器日志</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Log of the LDAP Server">LDAP 服务器的日志</value>
   <value column="Help" original="">LDAP 服务器的日志</value>

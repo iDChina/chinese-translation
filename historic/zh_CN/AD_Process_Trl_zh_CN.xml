@@ -4,7 +4,7 @@
   <value column="Name" original="Create Periods ">创建期间</value>
   <value column="Description" original="Create 12 standard calendar periods.">创建标准财年期间（12期）</value>
   <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. "><![CDATA[以指定日期为起始日期来创建12个标准财年期间，不指定将会默认为1月1日。期间名称使用“期间格式”参数（比如 yyyy-MM 表示 2017-01，格式遵循JAVA类SimpleDateFormat定义。）<br />
-如需更多期间，可新建“调整期间”，调整期间的起始日期可与其他期间重合。]]></value>
+如需更多期间，可新建“调整期间”，调整期间的起始日期可与其他期间重合]]></value>
  </row>
  <row id="101" trl="Y">
   <value column="Name" original="Renumber">重新编号</value>
