@@ -1,7 +1,7 @@
 ## iDempiere ERP中文语言包说明 (Chinese Language Pack ReadMe)
 ---------------------------------
 ![许可证信息](https://img.shields.io/badge/License-GPLv2-orange.svg)
-[![版本信息](https://img.shields.io/badge/Release-v4.1-brightgreen.svg)](https://bitbucket.org/iDChina/chinese-translation/downloads/?tab=branches)
+[![版本信息](https://img.shields.io/badge/Release-v5.1-brightgreen.svg)](https://bitbucket.org/iDChina/chinese-translation/downloads/?tab=branches)
 
 ---------------------------------
 ###ReadMe
@@ -55,7 +55,6 @@ Updated: 2017-11-18
 ### 版本说明
 1. 本项目和iDempiere版本发布保持一致，版本号格式也和iDempiere官方保持一致
 1. 目前主要维护人为2名，所以对应Pull Request可能会比较慢，请谅解
-1. 目前最新版本号为 4.1
 1. 更新履历
     * 2017-11-18 发布5.1版本语言包，词条基本稳定，欢迎反馈issue
     * 2017-05-02 新建2个实体文件夹存放4.1测试包，欢迎反馈issue
@@ -68,6 +67,13 @@ Updated: 2017-11-18
 **感谢从1999年至今的所有汉化贡献者和其中一个人的宠物狗-小白**
 
 （注：由于只能从公网收集部分信息，请知情者提交贡献人员名单）
+
+1. iDempiere 5.X时代
+>   组织者：不小(z5k1)
+>
+>   主要贡献人：不小(z5k1)
+>
+>   项目地址：https://bitbucket.org/iDChina/chinese-translation
 
 1. iDempiere 4.X时代
 >   组织者：OSSSME
