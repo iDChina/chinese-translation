@@ -49,7 +49,7 @@ Updated: 2017-11-18
 ---------------------------------
 ### 中文语言包使用交流方式说明：
 1. ![QQ群](https://img.shields.io/badge/QQ群-65713012-blue.svg)
-1. 新手提问前，请先阅读此文章：http://t.cn/RV93MRB
+1. 新手提问前，请先阅读[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 
 ---------------------------------
 ### 版本说明
