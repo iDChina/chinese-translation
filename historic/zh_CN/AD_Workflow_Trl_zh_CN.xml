@@ -44,7 +44,7 @@
  <row id="109" trl="Y">
   <value column="Name" original="Replication Setup">设置_复制</value>
   <value column="Description" original="Setup of data replication">设置数据复制</value>
-  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Define Replication per Remote&lt;br&gt;&#10;- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;&#10;- Initially Start the Replication Run to setup Remote&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- Start the Replication Run when required"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的。<p>
+  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Define Replication per Remote&lt;br&gt;&#10;- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;&#10;- Initially Start the Replication Run to setup Remote&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- Start the Replication Run when required"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的<p>
 <b>Central System:</b><br>
 - setup system with all organizations, roles, etc.<br>
 - run the migration to make sure that it is up-to-date<br>
@@ -77,7 +77,7 @@
  <row id="112" trl="Y">
   <value column="Name" original="Performance Measurement Setup">设置_绩效分析</value>
   <value column="Description" original="Setup your Performance Measurement">设置绩效分析</value>
-  <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)"><![CDATA[设置基于“关键绩效指标”或者“平衡计分卡”的绩效信息。<br />绩效规则：你的目标是什么，你如何评估？<br />设置顺序：先定义评估，最后定义目标。<br />系统提供三种绩效评估方式：量化评估、主观评估，完成状态。<br />系统会将评估以百分比形式表示，基于达到值对比目标值，或者基于已完成数量对比总数量。]]></value>
+  <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)"><![CDATA[设置基于“关键绩效指标”或者“平衡计分卡”的绩效信息<br />绩效规则：你的目标是什么，你如何评估？<br />设置顺序：先定义评估，最后定义目标<br />系统提供三种绩效评估方式：量化评估、主观评估，完成状态<br />系统会将评估以百分比形式表示，基于达到值对比目标值，或者基于已完成数量对比总数量]]></value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Request Setup">设置_请求</value>
@@ -90,83 +90,83 @@
   <value column="Help" original=""/>
  </row>
  <row id="115" trl="Y">
-  <value column="Name" original="Process_Requisition">流程_请购</value>
-  <value column="Description" original="(Standard Process_Requisition)">(标准流程_采购申请)</value>
+  <value column="Name" original="Process_Requisition">单据处理_请购单</value>
+  <value column="Description" original="(Standard Process_Requisition)">(标准单据处理流程_请购单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="116" trl="Y">
-  <value column="Name" original="Process_Order">流程_订单</value>
-  <value column="Description" original="(Standard Process Order)">(标准流程_订单)</value>
+  <value column="Name" original="Process_Order">单据处理_订单</value>
+  <value column="Description" original="(Standard Process Order)">(标准单据处理流程_订单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="117" trl="Y">
-  <value column="Name" original="Process_Shipment">流程_发货</value>
-  <value column="Description" original="(Standard Process Shipment)">(标准流程_发货单)</value>
+  <value column="Name" original="Process_Shipment">单据处理_收发单</value>
+  <value column="Description" original="(Standard Process Shipment)">(标准单据处理流程_收发单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="118" trl="Y">
-  <value column="Name" original="Process_Invoice">流程_发票</value>
-  <value column="Description" original="(Standard Process Invoice)">(标准流程_发票)</value>
+  <value column="Name" original="Process_Invoice">单据处理_发票</value>
+  <value column="Description" original="(Standard Process Invoice)">(标准单据处理流程_发票)</value>
   <value column="Help" original=""/>
  </row>
  <row id="119" trl="Y">
-  <value column="Name" original="Process_Cash">流程_现金</value>
-  <value column="Description" original="(Standard Process Cash)">(标准流程_现金)</value>
+  <value column="Name" original="Process_Cash">单据处理_现金</value>
+  <value column="Description" original="(Standard Process Cash)">(标准单据处理流程_现金)</value>
   <value column="Help" original=""/>
  </row>
  <row id="120" trl="Y">
-  <value column="Name" original="Process_Payment">流程_付款</value>
-  <value column="Description" original="(Standard Process Payment)">(标准流程_付款)</value>
+  <value column="Name" original="Process_Payment">单据处理_支付单</value>
+  <value column="Description" original="(Standard Process Payment)">(标准单据处理流程_支付单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="121" trl="Y">
-  <value column="Name" original="Process_Journal">流程_凭证</value>
-  <value column="Description" original="(Standard Process Journal)">(标准流程_日记账)</value>
+  <value column="Name" original="Process_Journal">单据处理_凭证</value>
+  <value column="Description" original="(Standard Process Journal)">(标准单据处理流程_日记账)</value>
   <value column="Help" original=""/>
  </row>
  <row id="122" trl="Y">
-  <value column="Name" original="Process_JournalBatch">流程_凭证批</value>
-  <value column="Description" original="(Standard Process Jornal Batch)">(标准流程_日记账批处理)</value>
+  <value column="Name" original="Process_JournalBatch">单据处理_凭证批</value>
+  <value column="Description" original="(Standard Process Jornal Batch)">(标准单据处理流程_日记账批处理)</value>
   <value column="Help" original=""/>
  </row>
  <row id="123" trl="Y">
-  <value column="Name" original="Process_RMA">流程_退货授权</value>
-  <value column="Description" original="(Standard Process_RMA)">(标准流程_退货授权)</value>
+  <value column="Name" original="Process_RMA">单据处理_退货授权</value>
+  <value column="Description" original="(Standard Process_RMA)">(标准单据处理流程_退货授权)</value>
   <value column="Help" original=""/>
  </row>
  <row id="124" trl="Y">
-  <value column="Name" original="Process_InOutConfirm">流程_出入库确认</value>
-  <value column="Description" original="(Standard Process Confirmation)">(标准流程_确认)</value>
+  <value column="Name" original="Process_InOutConfirm">单据处理_收发确认</value>
+  <value column="Description" original="(Standard Process Confirmation)">(标准单据处理流程_收发确认)</value>
   <value column="Help" original=""/>
  </row>
  <row id="125" trl="Y">
-  <value column="Name" original="Process_Allocation">流程_分配</value>
-  <value column="Description" original="(Standard Process Allocation)">(标准流程_分配)</value>
+  <value column="Name" original="Process_Allocation">单据处理_支付分配单</value>
+  <value column="Description" original="(Standard Process Allocation)">(标准单据处理流程_支付分配单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="126" trl="Y">
-  <value column="Name" original="Process_TimeExpense">流程_时间费用</value>
-  <value column="Description" original="(Standard Process Time Expense)">(标准流程_时间费用)</value>
+  <value column="Name" original="Process_TimeExpense">单据处理_费用单</value>
+  <value column="Description" original="(Standard Process Time Expense)">(标准单据处理流程_时间费用)</value>
   <value column="Help" original=""/>
  </row>
  <row id="127" trl="Y">
-  <value column="Name" original="Process_Inventory">流程_库存</value>
-  <value column="Description" original="(Standard Process Inventory)">(标准流程_库存)</value>
+  <value column="Name" original="Process_Inventory">单据处理_库存调整单</value>
+  <value column="Description" original="(Standard Process Inventory)">(标准单据处理流程_库存调整单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="128" trl="Y">
-  <value column="Name" original="Process_Movement">流程_移库</value>
-  <value column="Description" original="(Standard Process Movement)">(标准流程_移库)</value>
+  <value column="Name" original="Process_Movement">单据处理_调拨单</value>
+  <value column="Description" original="(Standard Process Movement)">(标准单据处理流程_调拨单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="129" trl="Y">
-  <value column="Name" original="Process_MovementConfirm">流程_移库确认</value>
-  <value column="Description" original="(Standard Process Movement Confirmation)">(标准流程_移库确认)</value>
+  <value column="Name" original="Process_MovementConfirm">单据处理_调拨确认</value>
+  <value column="Description" original="(Standard Process Movement Confirmation)">(标准单据处理流程_调拨确认)</value>
   <value column="Help" original=""/>
  </row>
  <row id="130" trl="Y">
-  <value column="Name" original="Process_BankStatement">流程_银行对账单</value>
-  <value column="Description" original="(Standard Process Bank Statement)">(标准流程_银行对账单)</value>
+  <value column="Name" original="Process_BankStatement">单据处理_银行对账单</value>
+  <value column="Description" original="(Standard Process Bank Statement)">(标准单据处理流程_银行对账单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="131" trl="Y">
@@ -228,13 +228,13 @@ MPS?
 If you cannot cover the MPS as you had planned, this module gives you information needed to decrease the effect on the costs and on the customer service</value>
  </row>
  <row id="50008" trl="Y">
-  <value column="Name" original="Process_Manufacturing_Order">流程_生产单</value>
-  <value column="Description" original="(Standard Process Manufacturing Order)">(标准流程_工作单)</value>
+  <value column="Name" original="Process_Manufacturing_Order">单据处理_生产单</value>
+  <value column="Description" original="(Standard Process Manufacturing Order)">(标准单据处理流程_工作单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50009" trl="Y">
-  <value column="Name" original="Process_CostCollector">流程_成本采集</value>
-  <value column="Description" original="(Standard Process Manufacturing Cost Collector)">(标准流程_制造成本归集)</value>
+  <value column="Name" original="Process_CostCollector">单据处理_成本归集单</value>
+  <value column="Description" original="(Standard Process Manufacturing Cost Collector)">(标准单据处理流程_成本归集单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50010" trl="Y">
@@ -243,14 +243,14 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Help" original=""/>
  </row>
  <row id="50011" trl="Y">
-  <value column="Name" original="Process_Distribution_Order">流程_配送单</value>
-  <value column="Description" original="(Standard Process Distribution Order)">(标准流程_配送单)</value>
+  <value column="Name" original="Process_Distribution_Order">单据处理_配送单</value>
+  <value column="Description" original="(Standard Process Distribution Order)">(标准单据处理流程_配送单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50012" trl="Y">
   <value column="Name" original="Setup Replication">设置_复制</value>
   <value column="Description" original="Setup of data replication">设置数据复制</value>
-  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的。<p>
+  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的<p>
 <b>Central System:</b><br>
 - setup system with all organizations, roles, etc.<br>
 - run the migration to make sure that it is up-to-date<br>
@@ -272,8 +272,8 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
 - Config Import Processor<br>]]></value>
  </row>
  <row id="50013" trl="Y">
-  <value column="Name" original="Process_Payroll">流程_薪酬</value>
-  <value column="Description" original="(Standard Process Payroll)">(标准流程_薪酬)</value>
+  <value column="Name" original="Process_Payroll">单据处理_薪酬单</value>
+  <value column="Description" original="(Standard Process Payroll)">(标准单据处理流程_薪酬单)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50014" trl="Y">
@@ -302,33 +302,33 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
   <value column="Help" original=""/>
  </row>
  <row id="50020" trl="Y">
-  <value column="Name" original="Process_Asset_Adition">流程_资产新增</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process_Asset_Adition">单据处理_资产新增</value>
+  <value column="Description" original="">(标准单据处理流程_资产新增)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50021" trl="Y">
-  <value column="Name" original="Process_Asset_Disposed">流程_资产作废</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process_Asset_Disposed">单据处理_资产作废</value>
+  <value column="Description" original="">(标准单据处理流程_资产作废)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50022" trl="Y">
-  <value column="Name" original="Process_Asset_Transfer">流程_资产转移</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process_Asset_Transfer">单据处理_资产转移</value>
+  <value column="Description" original="">(标准单据处理流程_资产转移)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50023" trl="Y">
-  <value column="Name" original="Process_Asset_Reval">流程_资产重估</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process_Asset_Reval">单据处理_资产重估</value>
+  <value column="Description" original="">(标准单据处理流程_资产重估)</value>
   <value column="Help" original=""/>
  </row>
  <row id="50024" trl="Y">
-  <value column="Name" original="Process Asset Depreciation Entry">流程_资产折旧</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process Asset Depreciation Entry">单据处理_资产折旧</value>
+  <value column="Description" original="">(标准单据处理流程_资产折旧)</value>
   <value column="Help" original=""/>
  </row>
  <row id="200002" trl="Y">
-  <value column="Name" original="Process_Production">流程_生产</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process_Production">单据处理_生产工单</value>
+  <value column="Description" original="">(标准单据处理流程_生产工单)</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
