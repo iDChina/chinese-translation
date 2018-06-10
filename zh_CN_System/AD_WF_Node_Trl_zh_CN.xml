@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
  <row id="116" trl="Y">
-  <value column="Name" original="Accounting Schema">会计模式</value>
+  <value column="Name" original="Accounting Schema">会计账套</value>
   <value column="Description" original="Project as Account Segment">项目作为账户分段</value>
   <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">为了获得项目的会计报表，需要创建和启用项目维度。</value>
  </row>
@@ -86,9 +86,9 @@
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
  </row>
  <row id="170" trl="Y">
-  <value column="Name" original="Accounting Schema">会计模式</value>
-  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效, 必须重新登录</value>
-  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计模式窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
+  <value column="Name" original="Accounting Schema">会计账套</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计账套 </value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计账套窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
 检查和变更总账账户和缺省账户。日常事务实际使用的账户取决于指定的执行组织，大多数维度信息都来自于单据的上下文字段。]]></value>
  </row>
  <row id="50000" trl="Y">

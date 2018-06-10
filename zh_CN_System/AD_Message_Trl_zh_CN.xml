@@ -49,11 +49,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="113" trl="Y">
-  <value column="MsgText" original="You cannot change the record">无法更改该记录</value>
+  <value column="MsgText" original="You cannot change the record">无法更改记录</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="114" trl="Y">
-  <value column="MsgText" original="You cannot delete this record">无法删除该记录</value>
+  <value column="MsgText" original="You cannot delete this record">无法删除记录</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="115" trl="Y">
@@ -61,16 +61,16 @@
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="116" trl="Y">
-  <value column="MsgText" original="You cannot update this record">无法更新该记录</value>
+  <value column="MsgText" original="You cannot update this record">无法更新记录</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="117" trl="Y">
-  <value column="MsgText" original="Client &amp; Organization Data">实体 + 组织</value>
+  <value column="MsgText" original="Client &amp; Organization Data">实体 + 组织数据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
-  <value column="MsgText" original="You cannot delete records of this file for audit reasons">因内在审计要求۠，无法删除该记录</value>
-  <value column="MsgTip" original="If not a transaction, you can deactivate the recorrd with deselecting the 'Active' flag ">如果纪录不一个交易, 你可以取消 ' 有效' 标记的选择，从而将记录置为无效 </value>
+  <value column="MsgText" original="You cannot delete records of this file for audit reasons">因内审要求۠，无法删除该记录</value>
+  <value column="MsgTip" original="If not a transaction, you can deactivate the recorrd with deselecting the 'Active' flag ">非事务数据，只能取消“有效”标记，从而将记录设为“无效” </value>
  </row>
  <row id="119" trl="Y">
   <value column="MsgText" original="Organization Data">组织数据</value>
@@ -85,22 +85,22 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="122" trl="Y">
-  <value column="MsgText" original="System &amp; Client Data">系统 + 实体</value>
+  <value column="MsgText" original="System &amp; Client Data">系统 + 实体数据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="123" trl="Y">
-  <value column="MsgText" original="With your current role, you cannot update this information">当前角色无更新权限，请检查</value>
+  <value column="MsgText" original="With your current role, you cannot update this information">当前角色无更新权限。</value>
   <value column="MsgTip" original="You don't have the privileges">无更新权限，可变更角色或与管理员联系。</value>
  </row>
  <row id="124" trl="Y">
-  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无法访问该功能，请与管理员联系。</value>
+  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无查看权限。</value>
   <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">可能原因：
-1. 用户实体与数据访问级别不符
-2. 登录角色无此AD对象的访问权限
-3. 登录角色无信息窗口访问或者高级功能访问权限
-4. 窗口/页签/表处于无效状态
+1. 登录实体与对象的“数据访问级别”不符
+2. 角色无该对象的访问权限
+3. 角色无“高级功能”的访问权限
+4. 无效的“窗口/页签/表”
 
-出错信息：</value>
+错误信息：</value>
  </row>
  <row id="125" trl="Y">
   <value column="MsgText" original="iDempiere, Inc.">iDempiere公司</value>
@@ -131,7 +131,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="132" trl="Y">
-  <value column="MsgText" original="This action is not allowed in this context">在当前环境下不允许该操作</value>
+  <value column="MsgText" original="This action is not allowed in this context">当前状态下不允许该操作</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="133" trl="Y">
@@ -323,7 +323,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="180" trl="Y">
-  <value column="MsgText" original="Close Window">关闭窗口</value>
+  <value column="MsgText" original="Close Window">关闭</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="181" trl="Y">
@@ -679,7 +679,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="269" trl="Y">
-  <value column="MsgText" original="Fill mandatory fields: ">必须输入字段内容：</value>
+  <value column="MsgText" original="Fill mandatory fields: ">必须填写字段</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="270" trl="Y">
@@ -771,7 +771,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="292" trl="Y">
-  <value column="MsgText" original="History records">历史记录</value>
+  <value column="MsgText" original="History records">节点记录</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="293" trl="Y">
@@ -859,7 +859,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="314" trl="Y">
-  <value column="MsgText" original="Document must be completed first">必须先完成单据</value>
+  <value column="MsgText" original="Document must be completed first">必须先完成发票</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="315" trl="Y">
@@ -911,7 +911,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="327" trl="Y">
-  <value column="MsgText" original="Login (success)">登录(成功)</value>
+  <value column="MsgText" original="Login (success)">登录成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="328" trl="Y">
@@ -969,7 +969,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="341" trl="Y">
-  <value column="MsgText" original="Multi-Currency">多币种</value>
+  <value column="MsgText" original="Multi-Currency">多货币</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="342" trl="Y">
@@ -1149,7 +1149,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="386" trl="Y">
-  <value column="MsgText" original="Parameter">参数</value>
+  <value column="MsgText" original="Parameter">返回</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="387" trl="Y">
@@ -1241,7 +1241,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="409" trl="Y">
-  <value column="MsgText" original="Posting: Server Error">过账：服务器错误</value>
+  <value column="MsgText" original="Posting: Server Error">过账错误：服务器错误</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="410" trl="Y">
@@ -1261,20 +1261,20 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="414" trl="Y">
-  <value column="MsgText" original="Posting Error: Source Not Balanced">过账错误：原币不平衡</value>
-  <value column="MsgTip" original="">当订单和付款使用不同货币时，导致货币差异</value>
+  <value column="MsgText" original="Posting Error: Source Not Balanced">过账错误：借贷不平</value>
+  <value column="MsgTip" original="">请确保借贷金额相等。</value>
  </row>
  <row id="415" trl="Y">
-  <value column="MsgText" original="Posting Error: Source Currency not convertible">过账错误：原币不可兑换</value>
-  <value column="MsgTip" original="Define exchange rate from the source currency to your accounting currencies">定义从原币到本位币的兑换率</value>
+  <value column="MsgText" original="Posting Error: Source Currency not convertible">过账错误：原币无法兑换</value>
+  <value column="MsgTip" original="Define exchange rate from the source currency to your accounting currencies">请定义原币到本币的汇率。</value>
  </row>
  <row id="416" trl="Y">
   <value column="MsgText" original="Posting Error: Invalid Account">过账错误：无效账户</value>
-  <value column="MsgTip" original="Account is no longer Active; Reactivate account value or choose new">账户不再有效，请重新激活该账户或选择其它账户</value>
+  <value column="MsgTip" original="Account is no longer Active; Reactivate account value or choose new">请重新激活账户或选择其它账户。</value>
  </row>
  <row id="417" trl="Y">
-  <value column="MsgText" original="Posting Error: Period Closed">过账错误：期间结束</value>
-  <value column="MsgTip" original="(Re-) Open Period or change Accounting Date">(重新-)打开期间或改变会计日期</value>
+  <value column="MsgText" original="Posting Error: Period Closed">过账错误：期间关闭</value>
+  <value column="MsgTip" original="(Re-) Open Period or change Accounting Date">请打开期间或修改记账日期。</value>
  </row>
  <row id="418" trl="Y">
   <value column="MsgText" original="Preference">首选设置</value>
@@ -1369,7 +1369,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="441" trl="Y">
-  <value column="MsgText" original="Process finished successful">流程处理成功完成</value>
+  <value column="MsgText" original="Process finished successful">流程处理成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="442" trl="Y">
@@ -1393,7 +1393,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="447" trl="Y">
-  <value column="MsgText" original="Processing ... Please wait ...">正在处理，请稍候...</value>
+  <value column="MsgText" original="Processing ... Please wait ...">正在处理，请稍候 ...</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="448" trl="Y">
@@ -1615,8 +1615,8 @@
   <value column="MsgTip" original="System will re-query record.">系统将重新查询记录</value>
  </row>
  <row id="502" trl="Y">
-  <value column="MsgText" original="Could not save record - Require unique data: ">数据唯一性检查失败，不能保存记录：</value>
-  <value column="MsgTip" original="Please change information.">如果单据序号重复，应运行“序号检查”流程。如果关键字重复，请修改关键字再保存。</value>
+  <value column="MsgText" original="Could not save record - Require unique data: ">数据存在唯一性约束，无法保存：</value>
+  <value column="MsgTip" original="Please change information."/>
  </row>
  <row id="503" trl="Y">
   <value column="MsgText" original="Record not saved. Row not found!">当前记录未保存，请保存后继续。</value>
@@ -1679,8 +1679,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="518" trl="Y">
-  <value column="MsgText" original="All / Any">使用筛选</value>
-  <value column="MsgTip" original="Match all search criteria">不使用筛选将返回所有记录</value>
+  <value column="MsgText" original="All / Any">并且筛选</value>
+  <value column="MsgTip" original="Match all search criteria">选择，“并且”所有条件筛选；不选择，“或者”所有条件筛选</value>
  </row>
  <row id="519" trl="Y">
   <value column="MsgText" original="Search for using All criteria (AND) - or Any criteria (OR)">搜索时使用全部条件 (与) - 或任何条件 (或)</value>
@@ -1699,7 +1699,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="523" trl="Y">
-  <value column="MsgText" original="Rows found - Enter query criteria (optionally with %)">行已找到 - 请输入查询条件 (可用 %通配符)</value>
+  <value column="MsgText" original="Rows found - Enter query criteria (optionally with %)">条记录</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="524" trl="Y">
@@ -1775,7 +1775,7 @@
   <value column="MsgTip" original="Create complex objects on Application Server (slow communication lines)">在应用服务器端创建复杂对象 (慢速通讯连接)</value>
  </row>
  <row id="542" trl="Y">
-  <value column="MsgText" original="Document must be completed first">必须先完成单据</value>
+  <value column="MsgText" original="Document must be completed first">必须先完成收发单</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="543" trl="Y">
@@ -1803,11 +1803,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="549" trl="Y">
-  <value column="MsgText" original="Start">启动</value>
+  <value column="MsgText" original="Start">运行</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="550" trl="Y">
-  <value column="MsgText" original="Do you want to start the Process?">输入必填的（*）流程参数，点击“OK”运行，点击“取消”关闭窗口。</value>
+  <value column="MsgText" original="Do you want to start the Process?">是否立即运行此流程？</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="551" trl="Y">
@@ -1827,7 +1827,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="555" trl="Y">
-  <value column="MsgText" original="Process completed successfully">处理成功完成。</value>
+  <value column="MsgText" original="Process completed successfully">处理成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="556" trl="Y">
@@ -2399,11 +2399,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="706" trl="Y">
-  <value column="MsgText" original="You cannot create Reports for this Information.">无法为该信息创建报表</value>
+  <value column="MsgText" original="You cannot create Reports for this Information.">无法创建报表</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="707" trl="Y">
-  <value column="MsgText" original="You cannot export this Information.">无法导出该信息</value>
+  <value column="MsgText" original="You cannot export this Information.">无法导出记录</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="708" trl="Y">
@@ -2427,8 +2427,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="713" trl="Y">
-  <value column="MsgText" original="Dictionary Maintenance">字典维护</value>
-  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">由系统字典自行维护。 -- 不可操作</value>
+  <value column="MsgText" original="Dictionary Maintenance">维护字典</value>
+  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">选择只生成官方实体类对象迁移脚本，不选择生成所有对象迁移脚本。</value>
  </row>
  <row id="714" trl="Y">
   <value column="MsgText" original="No Translation">无翻译</value>
@@ -2571,11 +2571,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="751" trl="Y">
-  <value column="MsgText" original="You have no Activities">目前没有活动</value>
+  <value column="MsgText" original="You have no Activities">无审批事项</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="752" trl="Y">
-  <value column="MsgText" original="Your Workflow Activities">工作流活动</value>
+  <value column="MsgText" original="Your Workflow Activities">等待审批</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="753" trl="Y">
@@ -2755,15 +2755,15 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="797" trl="Y">
-  <value column="MsgText" original="Inactivity Alert: Workflow Activity {0}">提醒工作流活动 ： {0} 无活动</value>
+  <value column="MsgText" original="Inactivity Alert: Workflow Activity {0}">节点预警： {0} 无动作</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="798" trl="Y">
-  <value column="MsgText" original="Alert Workflow Activity: Max Wait Time Ended {0}">提醒工作流活动： {0} 超过最大等待时间</value>
+  <value column="MsgText" original="Alert Workflow Activity: Max Wait Time Ended {0}">节点预警： {0} 超过最大等待时间</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="799" trl="Y">
-  <value column="MsgText" original="Alert Workflow Activity Over Priority {0}">提醒工作流活动：{0} 超过优先级 </value>
+  <value column="MsgText" original="Alert Workflow Activity Over Priority {0}">节点预警： {0} 超过优先级</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="800" trl="Y">
@@ -2963,7 +2963,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="849" trl="Y">
-  <value column="MsgText" original="A record already exists">已经存在一条记录</value>
+  <value column="MsgText" original="A record already exists">如下字段已经存在记录</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="850" trl="Y">
@@ -3019,7 +3019,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="863" trl="Y">
-  <value column="MsgText" original="&amp;OK">OK</value>
+  <value column="MsgText" original="&amp;OK">确认</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="864" trl="Y">
@@ -3211,7 +3211,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52005" trl="Y">
-  <value column="MsgText" original="100 Rupees">1000卢比</value>
+  <value column="MsgText" original="100 Rupees">100卢比</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52006" trl="Y">
@@ -3219,12 +3219,12 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52007" trl="Y">
-  <value column="MsgText" original="10 Rupees">1000卢比</value>
+  <value column="MsgText" original="10 Rupees">10卢比</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52008" trl="Y">
   <value column="MsgText" original="1 cent">1分</value>
-  <value column="MsgTip" original="1 cent">1分</value>
+  <value column="MsgTip" original="1 cent"/>
  </row>
  <row id="52009" trl="Y">
   <value column="MsgText" original="1 dollar">1美元</value>
@@ -3239,8 +3239,8 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52013" trl="Y">
-  <value column="MsgText" original="20 cents">1分</value>
-  <value column="MsgTip" original="20 cents">1分</value>
+  <value column="MsgText" original="20 cents">20分</value>
+  <value column="MsgTip" original="20 cents"/>
  </row>
  <row id="52014" trl="Y">
   <value column="MsgText" original="20 dollars">20美元</value>
@@ -3255,11 +3255,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52017" trl="Y">
-  <value column="MsgText" original="50 cents">50 分</value>
-  <value column="MsgTip" original="50 cents">50 分</value>
+  <value column="MsgText" original="50 cents">50分</value>
+  <value column="MsgTip" original="50 cents"/>
  </row>
  <row id="52018" trl="Y">
-  <value column="MsgText" original="50 dollars">50 美元</value>
+  <value column="MsgText" original="50 dollars">50美元</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52019" trl="Y">
@@ -3267,15 +3267,15 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52020" trl="Y">
-  <value column="MsgText" original="5 cents">5 分</value>
-  <value column="MsgTip" original="5 cents">5 分</value>
+  <value column="MsgText" original="5 cents">5分</value>
+  <value column="MsgTip" original="5 cents"/>
  </row>
  <row id="52021" trl="Y">
-  <value column="MsgText" original="5 dollars">5 美元</value>
+  <value column="MsgText" original="5 dollars">5美元</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52022" trl="Y">
-  <value column="MsgText" original="5 Rupees">5 卢比</value>
+  <value column="MsgText" original="5 Rupees">5卢比</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52023" trl="Y">
@@ -3327,7 +3327,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52035" trl="Y">
-  <value column="MsgText" original="Add To Cart">添加至快捷栏</value>
+  <value column="MsgText" original="Add To Cart">添加至购物篮</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52036" trl="Y">
@@ -4911,7 +4911,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52432" trl="Y">
-  <value column="MsgText" original="View Report">查看视图</value>
+  <value column="MsgText" original="View Report">输出格式</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52433" trl="Y">
@@ -5047,7 +5047,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="52467" trl="Y">
-  <value column="MsgText" original="Currency">币种</value>
+  <value column="MsgText" original="Currency">货币</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52468" trl="Y">
@@ -5187,8 +5187,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53007" trl="Y">
-  <value column="MsgText" original="Log Migration Script">迁移脚本日志</value>
-  <value column="MsgTip" original="Log Migration Script - Save migration scripts file in %TEMP%/migration_script_*.sql">迁移脚本日志 － 保存迁移脚本文件至 %TEMP%/migration_script_*.sql</value>
+  <value column="MsgText" original="Log Migration Script">生成迁移脚本</value>
+  <value column="MsgTip" original="Log Migration Script - Save migration scripts file in %TEMP%/migration_script_*.sql">保存迁移脚本至 %TEMP%/migration_script_*.sql</value>
  </row>
  <row id="53008" trl="Y">
   <value column="MsgText" original="Vendor">供应商</value>
@@ -5447,7 +5447,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53090" trl="Y">
-  <value column="MsgText" original="Must be a positive number!">必须预扣金额</value>
+  <value column="MsgText" original="Must be a positive number!">必须输入正数</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="53091" trl="Y">
@@ -5483,7 +5483,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="53099" trl="Y">
-  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">会话超过一个小时，或者服务器重启啦？	 </value>
+  <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">会话超过一小时，或者服务器不可用。	 </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53117" trl="Y">
@@ -5723,7 +5723,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200043" trl="Y">
-  <value column="MsgText" original="No account defined for this organization / currency">该组织 / 币种 没有定义账号</value>
+  <value column="MsgText" original="No account defined for this organization / currency">该组织 / 货币 没有定义账号</value>
   <value column="MsgTip" original="Create an account on the bank account window for the organization / currency, the POS payments will be created on the defined account">在银行账号窗口，为组织/币种创建一致账号，POS支付将被创建并关联该账号</value>
  </row>
  <row id="200044" trl="Y">
@@ -5791,7 +5791,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200062" trl="Y">
-  <value column="MsgText" original="Allocation Processed: ">已处理分配： </value>
+  <value column="MsgText" original="Allocation Processed: ">已处理分配</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200063" trl="Y">
@@ -5899,7 +5899,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200089" trl="Y">
-  <value column="MsgText" original="Successfully saved [{0}]">成功保存 [{0}]</value>
+  <value column="MsgText" original="Successfully saved [{0}]">保存 [{0}] 成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200090" trl="Y">
@@ -5947,7 +5947,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200103" trl="Y">
-  <value column="MsgText" original="Payment already voided">已经存在一条记录</value>
+  <value column="MsgText" original="Payment already voided">支付单已经作废</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200104" trl="Y">
@@ -6114,9 +6114,9 @@
 <br />
 <p>====版权说明====</p>
 <br />
-<p>z5k1@qq.com 依<a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPLv2</a>贡献本次汉化。</p>
+<p>z5k1@qq.com 依<a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPLv2</a>贡献本次汉化。(考虑右侧栏通常隐藏，加大description描述文本，描述以“。结尾"表示有help信息（F1帮助），反之无。)</p>
 <br />
-<p>2017-11-11</p>
+<p>2018-06-10 Version IDC-2-23</p>
 ]]></value>
   <value column="MsgTip" original=""/>
  </row>
@@ -6137,7 +6137,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200148" trl="Y">
-  <value column="MsgText" original="Different parent value: Master value {0} Detail value {1}">不同的父键值：主表{0} ，明细表 {1}</value>
+  <value column="MsgText" original="Different parent value: Master value {0} Detail value {1}">不同的父键值：主表={0} ，明细表={1}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200149" trl="Y">
@@ -6237,7 +6237,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200175" trl="Y">
-  <value column="MsgText" original="The reference of an encrypted field cannot be changed">不能改变加密字段的引用</value>
+  <value column="MsgText" original="The reference of an encrypted field cannot be changed">不能修改加密字段的引用值</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200176" trl="Y">
@@ -6305,7 +6305,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200196" trl="Y">
-  <value column="MsgText" original="Created index succesfully">成功创建索引</value>
+  <value column="MsgText" original="Created index succesfully">创建索引成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200197" trl="Y">
@@ -6313,7 +6313,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200198" trl="Y">
-  <value column="MsgText" original="Modified index successfully">成功变更索引</value>
+  <value column="MsgText" original="Modified index successfully">变更索引成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200199" trl="Y">
@@ -6522,7 +6522,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200266" trl="Y">
-  <value column="MsgText" original="The process has been scheduled as job. The status of the process will be sent as notification to owner of the process.">已经安排了执行这个流程。会给该流程的所有者发送执行通知</value>
+  <value column="MsgText" original="The process has been scheduled as job. The status of the process will be sent as notification to owner of the process.">流程已后台运行，所有者将收到状态通知</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200267" trl="Y">
@@ -6711,6 +6711,14 @@
  </row>
  <row id="200442" trl="Y">
   <value column="MsgText" original="Warning">警告</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200450" trl="Y">
+  <value column="MsgText" original="Request a Read Receipt">请求回执</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200452" trl="Y">
+  <value column="MsgText" original="Row">行</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="Y">

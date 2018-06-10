@@ -20,6 +20,11 @@
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
+ <row id="2160" trl="Y">
+  <value column="Name" original="SO Tax exempt">销售免税</value>
+  <value column="Description" original="Business partner is exempt from tax on sales">商品销售时是否豁免征收。比如，区域性税目境内征收，境外豁免。</value>
+  <value column="Help" original="If a business partner is exempt from tax on sales, the exempt tax rate is used. For this, you need to set up a tax rate with a 0% rate and indicate that this is your tax exempt rate.  This is required for tax reporting, so that you can track tax exempt transactions.">免税交易，设置0%税率不产生税费，但交易金额需跟踪统计，比如出口退税。</value>
+ </row>
  <row id="2686" trl="Y">
   <value column="Name" original="Movement Date">盘点日期</value>
   <value column="Description" original="Date a product was moved in or out of inventory">表示存货发生差异的日期</value>
@@ -61,9 +66,9 @@
   <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">工作流节点代表了工作流中的一个独特步骤或流程。</value>
  </row>
  <row id="4055" trl="Y">
-  <value column="Name" original="Tax Amount">税额</value>
-  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
-  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理。</value>
+  <value column="Name" original="Tax Amount">信用卡税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">处理信用卡事务的税金总额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing."/>
  </row>
  <row id="4105" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -92,8 +97,8 @@
  </row>
  <row id="4462" trl="Y">
   <value column="Name" original="Business Partner / Sales Rep">佣金伙伴</value>
-  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">标识收取佣金的业务伙伴</value>
-  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">标识收取佣金的业务伙伴</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">收取佣金的供应商或者业务代表）</value>
+  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative"/>
  </row>
  <row id="4545" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -102,28 +107,75 @@
  </row>
  <row id="4632" trl="Y">
   <value column="Name" original="User/Contact">用户</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。</value>
  </row>
  <row id="4725" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
+ </row>
+ <row id="4752" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
+ <row id="4793" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="5020" trl="Y">
   <value column="Name" original="User/Contact">用户</value>
-  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。</value>
- </row>
- <row id="5092" trl="Y">
-  <value column="Name" original="Driving Column">数据库列</value>
-  <value column="Description" original="Column which controls all tabs in the workbench">数据库表中的列</value>
-  <value column="Help" original="">数据库表中的列。</value>
  </row>
  <row id="5160" trl="Y">
   <value column="Name" original="Language">语言</value>
-  <value column="Description" original="Language for this entity">实体的单据语言</value>
-  <value column="Help" original="The Language identifies the language to use for display and formatting">该语言用来显示和格式化单据。如果实体启用“多语种单据”选项，且语言已被正确安装和加载，该语言为首选单据语言。</value>
+  <value column="Description" original="Language for this entity">单据语言，不是界面语言，影响单据的显示和格式化。</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting"/>
  </row>
  <row id="5170" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -138,12 +190,64 @@
  <row id="5456" trl="Y">
   <value column="Name" original="Invoiced">是否开票</value>
   <value column="Description" original="Is this invoiced?">如果选择，表示将创建客户应收发票</value>
-  <value column="Help" original="If selected, invoices are created">如果选择，表示将创建客户应收发票。通过流程“从费用报告创建销售订单”可创建对客户的费用销售订单（赊销），并可产生应付发票。</value>
+  <value column="Help" original="If selected, invoices are created">通过流程“从费用报告创建销售订单”可创建对客户的费用销售订单（赊销），并可产生应付发票。</value>
+ </row>
+ <row id="5692" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="5833" trl="Y">
   <value column="Name" original="Quantity">发票数量</value>
   <value column="Description" original="Quantity">发票数量</value>
   <value column="Help" original="The Quantity indicates the number of a specific product or item for this document.">票据所对应的发票数量</value>
+ </row>
+ <row id="5836" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="5875" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -159,6 +263,32 @@
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
+ </row>
+ <row id="6040" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="6136" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -255,11 +385,6 @@
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
- <row id="8985" trl="Y">
-  <value column="Name" original="Document No">单号</value>
-  <value column="Description" original="Document sequence number of the document">单据的序号，可自动生成或手动输入</value>
-  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."><![CDATA[单号通常由系统自动生成，并由单据的类型所决定。如果单据未保存，则候选序号显示在“<  >”中。不用编辑自动生成的序号，系统会自动获取当前值。如果保存提示单据序号重复，可运行“序号维护”。<br /><br />如果单据的单据类型未定义自动生成单据序号，则本字段在创建新单据时为空。通常这用作具有外部编号的单据（如供应商发票）。如果将此字段空白保存，系统也会生成一个单号。其名称为“单据序号_<表名>”。]]></value>
- </row>
  <row id="9335" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
@@ -291,6 +416,11 @@
   <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed."><![CDATA[如果选择，产品将一直在途，直到确认后完成的库存移动。<br />
 【注意】在途仓库不会在登录界面列出，你无法使用在途仓库作为上下文变量。]]></value>
  </row>
+ <row id="10411" trl="Y">
+  <value column="Name" original="Drop Shipment">直接供货</value>
+  <value column="Description" original="Drop Shipments are sent from the Vendor directly to the Customer">特殊产品标识，可用作报表统计</value>
+  <value column="Help" original="Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed."/>
+ </row>
  <row id="10625" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
@@ -310,11 +440,6 @@
   <value column="Name" original="Schema Type">价格类型</value>
   <value column="Description" original="Type of trade schema calculation">价格表的模式类型</value>
   <value column="Help" original="Type of procedure used to calculate the trade schema percentage">价格表的模式类型</value>
- </row>
- <row id="10886" trl="Y">
-  <value column="Name" original="Overwrite Project">覆盖项目</value>
-  <value column="Description" original="Overwrite the account segment Project with the value specified">以特定的值覆盖账户分段的项目</value>
-  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">如果未覆盖， 则使用原账户组合的值。如果选中， 但未指定， 则分段被设为空。</value>
  </row>
  <row id="10988" trl="Y">
   <value column="Name" original="Phys.Inventory">内部领用单</value>
@@ -386,11 +511,6 @@
   <value column="Description" original="">导出应用</value>
   <value column="Help" original="">导出应用程序包的ID。</value>
  </row>
- <row id="50067" trl="Y">
-  <value column="Name" original="Processed">已处理</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="50071" trl="Y">
   <value column="Name" original="Name of Package">应用名称</value>
   <value column="Description" original="Name of Package">应用程序包的名称</value>
@@ -400,31 +520,6 @@
   <value column="Name" original="Creation Directory">创建目录</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
- </row>
- <row id="50076" trl="Y">
-  <value column="Name" original="Created By">创建人</value>
-  <value column="Description" original="User who created the package">创建记录的用户</value>
-  <value column="Help" original="">创建记录的用户。</value>
- </row>
- <row id="50077" trl="Y">
-  <value column="Name" original="Create Date">创建时间</value>
-  <value column="Description" original="Date when Package was created">该记录的创建时间</value>
-  <value column="Help" original="">创建时间字段指出记录是什么时间创建的。</value>
- </row>
- <row id="50080" trl="Y">
-  <value column="Name" original="Processed By">更新人</value>
-  <value column="Description" original="User who Processed the package">更新记录的用户</value>
-  <value column="Help" original="">更新记录的用户。</value>
- </row>
- <row id="50081" trl="Y">
-  <value column="Name" original="Processed Date">更新时间</value>
-  <value column="Description" original="Date when the package was processed">该记录的更新时间</value>
-  <value column="Help" original="">更新时间字段指出记录是什么时间更新的。</value>
- </row>
- <row id="50082" trl="Y">
-  <value column="Name" original="Description of Package">描述</value>
-  <value column="Description" original="">可选的记录简短介绍</value>
-  <value column="Help" original="">描述字数限制在255字内。</value>
  </row>
  <row id="50085" trl="Y">
   <value column="Name" original="Export Package">导出应用</value>
@@ -446,11 +541,6 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="50090" trl="Y">
-  <value column="Name" original="Processed">已处理</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="50091" trl="Y">
   <value column="Name" original="Package Build ID">导出应用</value>
   <value column="Description" original="">导出应用</value>
@@ -461,29 +551,9 @@
   <value column="Description" original="">导出对象的类型</value>
   <value column="Help" original="">导出对象的类型</value>
  </row>
- <row id="50097" trl="Y">
-  <value column="Name" original="Menu">菜单</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="50099" trl="Y">
   <value column="Name" original="Source File Directory">源文件目录</value>
   <value column="Description" original="Current location of source file">源文件的当前目录</value>
-  <value column="Help" original=""/>
- </row>
- <row id="50103" trl="Y">
-  <value column="Name" original="Table">数据库表</value>
-  <value column="Description" original="">数据库的表</value>
-  <value column="Help" original="">数据库中的表。</value>
- </row>
- <row id="50108" trl="Y">
-  <value column="Name" original="Form">窗体</value>
-  <value column="Description" original="">一种布局对象</value>
-  <value column="Help" original="">一种布局对象。</value>
- </row>
- <row id="50109" trl="Y">
-  <value column="Name" original="Process">流程</value>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="50110" trl="Y">
@@ -496,15 +566,15 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="50117" trl="Y">
-  <value column="Name" original="Notes">描述</value>
-  <value column="Description" original="">可选的记录简短介绍</value>
-  <value column="Help" original="">描述字数限制在255字内。</value>
+ <row id="50164" trl="Y">
+  <value column="Name" original="Name">参数</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">系统参数名称</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">参考 http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)</value>
  </row>
  <row id="50166" trl="Y">
-  <value column="Name" original="Configured Value">配置值</value>
-  <value column="Description" original="Value for the configuration key">设置该项配置对应的值</value>
-  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)">你可以根据系统配置器可配置的各项参数的说明来进行配置 http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)。</value>
+  <value column="Name" original="Configured Value">值</value>
+  <value column="Description" original="Value for the configuration key">系统参数的值</value>
+  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)">参考 http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)</value>
  </row>
  <row id="53360" trl="Y">
   <value column="Name" original="Value">条件值</value>
@@ -590,8 +660,8 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  </row>
  <row id="53653" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
-  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained."/>
  </row>
  <row id="53742" trl="Y">
   <value column="Name" original="Accumulated Qty">合计数量</value>
@@ -617,11 +687,6 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
- </row>
- <row id="54133" trl="Y">
-  <value column="Name" original="Resource/Plant">资源</value>
-  <value column="Description" original="Resource/Plant">资源</value>
-  <value column="Help" original=""/>
  </row>
  <row id="54139" trl="Y">
   <value column="Name" original="Date Ordered">下单日期</value>
@@ -663,6 +728,32 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Target Warehouse and Service Point">存储仓库或服务点</value>
   <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">仓库标识存储产品或提供服务的唯一仓库。</value>
  </row>
+ <row id="54812" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
  <row id="54908" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
@@ -672,6 +763,110 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
+ </row>
+ <row id="54996" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
+ <row id="55014" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
+ <row id="55107" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
+ <row id="55185" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="55187" trl="Y">
   <value column="Name" original="Create from a Window">导出格式产生器</value>
@@ -705,7 +900,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  </row>
  <row id="57331" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
  </row>
  <row id="57722" trl="Y">
@@ -752,11 +947,6 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="Import Product Planning Data">导入产品计划和预测</value>
   <value column="Description" original="">导入产品计划和预测</value>
   <value column="Help" original="">导入和更新产品计划和预测数据。</value>
- </row>
- <row id="59028" trl="Y">
-  <value column="Name" original="Account Date">记账日期</value>
-  <value column="Description" original="Accounting Date">记账日期</value>
-  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">记账日期表示单据生成会计分录的日期，同时也是货币汇兑的日期。</value>
  </row>
  <row id="59306" trl="Y">
   <value column="Name" original="ID">身份证</value>
@@ -909,38 +1099,23 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original="">设置附件的存储服务提供者</value>
  </row>
  <row id="201245" trl="Y">
-  <value column="Name" original="Ship Date (For FedEx only)">发货日期</value>
-  <value column="Description" original="Shipment Date/Time">发货日期(FedEx专用)</value>
-  <value column="Help" original="Actual Date/Time of Shipment (pick up)">发货日期(FedEx专用)。</value>
+  <value column="Name" original="Ship Date (For FedEx only)">取货日期</value>
+  <value column="Description" original="Shipment Date/Time">取货日期(FedEx专用)</value>
+  <value column="Help" original="Actual Date/Time of Shipment (pick up)"/>
  </row>
  <row id="201256" trl="Y">
   <value column="Name" original="Partner Location (For UPS only)">收货地址</value>
   <value column="Description" original="Identifies the (ship to) address for this Business Partner">标识该包裹的的收货地址</value>
-  <value column="Help" original="The Partner address indicates the location of a Business Partner">伙伴地址表示业务伙伴的地址。</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner"/>
  </row>
  <row id="201265" trl="Y">
   <value column="Name" original="Phone Number (For FedEx only)">上门服务电话</value>
   <value column="Description" original="">上门服务电话</value>
-  <value column="Help" original="">上门服务电话</value>
- </row>
- <row id="201266" trl="Y">
-  <value column="Name" original="Date (For FedEx only)">上门日期</value>
-  <value column="Description" original="">上门日期</value>
-  <value column="Help" original="">上门日期</value>
- </row>
- <row id="201268" trl="Y">
-  <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">危险品分类</value>
-  <value column="Description" original="">危险品分类 (FedEx专用)</value>
-  <value column="Help" original="">危险品分类 (FedEx专用)。</value>
- </row>
- <row id="201272" trl="Y">
-  <value column="Name" original="Dry Ice Weight (For FedEx only)">干冰重量</value>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="201355" trl="Y">
-  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">交货签收类型</value>
-  <value column="Description" original=""/>
+ <row id="201266" trl="Y">
+  <value column="Name" original="Date (For FedEx only)">上门服务日期</value>
+  <value column="Description" original="">上门服务日期</value>
   <value column="Help" original=""/>
  </row>
  <row id="201603" trl="Y">
@@ -961,7 +1136,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  <row id="202235" trl="Y">
   <value column="Name" original="Sql FROM">SQL FROM 子句</value>
   <value column="Description" original="SQL FROM clause">SQL FROM 语句</value>
-  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">SQL FROM 语句</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself."/>
  </row>
  <row id="202252" trl="Y">
   <value column="Name" original="View Validate">视图验证</value>
@@ -978,11 +1153,6 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Description" original="Inventory Cost Adjustment">成本调整单</value>
   <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">该功能可以对产品进库存成本调整。</value>
  </row>
- <row id="202333" trl="Y">
-  <value column="Name" original="Current Cost Price">当前成本价格</value>
-  <value column="Description" original="The currently used cost price">当前使用成本价格</value>
-  <value column="Help" original="">组织账套（或者实体缺省账套）下，指定成本计价方式的成本要素价格。</value>
- </row>
  <row id="202513" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
@@ -992,6 +1162,58 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Name" original="ViewID Column">视图列</value>
   <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">视图中的列名，列值将保存到 t_selection 表</value>
   <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">参考 https://idempiere.atlassian.net/browse/IDEMPIERE-1970。</value>
+ </row>
+ <row trl="Y" uuid="87ef793d-85c6-493c-9468-ffb99569c2c2">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
+ <row trl="Y" uuid="7e75824a-1003-4d13-bba7-0efc7b1c6b9b">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row trl="Y" uuid="5cf7aebb-33dc-4f32-aa25-7fbba3ca7152">
   <value column="Name" original="Amount">数量</value>
@@ -1009,13 +1231,23 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row trl="Y" uuid="7057d1fe-2bd5-43e0-9d9b-423f3b43f4a9">
-  <value column="Name" original="Tax Amount">税额</value>
-  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
-  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理。</value>
+  <value column="Name" original="Tax Amount">信用卡税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">处理信用卡事务的税金总额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing."/>
  </row>
  <row trl="Y" uuid="39a81c95-2f04-46ca-a315-2db9b85024d7">
-  <value column="Name" original="Tax Amount">税额</value>
-  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
-  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理。</value>
+  <value column="Name" original="Tax Amount">信用卡税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">处理信用卡事务的税金总额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing."/>
+ </row>
+ <row trl="Y" uuid="4829760a-64bf-4af6-89af-8ef6b81c8ab6">
+  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
+ </row>
+ <row trl="Y" uuid="a19baa66-d794-42d1-a1aa-52d74afd978e">
+  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
 </idempiereTrl>

@@ -21,7 +21,7 @@
   <value column="Description" original="Maintain Data">维护数据</value>
  </row>
  <row id="158" trl="Y">
-  <value column="Name" original="Performance Measurement">绩效设置</value>
+  <value column="Name" original="Performance Measurement">绩效规则</value>
   <value column="Description" original=""/>
  </row>
  <row id="159" trl="Y">
@@ -85,7 +85,7 @@
   <value column="Description" original="Service Management">服务管理</value>
  </row>
  <row id="272" trl="Y">
-  <value column="Name" original="Sales and Marketing">销售设置</value>
+  <value column="Name" original="Sales and Marketing">销售规则</value>
   <value column="Description" original=""/>
  </row>
  <row id="278" trl="Y">
@@ -109,8 +109,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="367" trl="Y">
-  <value column="Name" original="Security">安全性</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Security">安全权限</value>
+  <value column="Description" original="">设置安全策略和角色的访问权限</value>
  </row>
  <row id="372" trl="Y">
   <value column="Name" original="Web">Web网络</value>
@@ -121,8 +121,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="456" trl="Y">
-  <value column="Name" original="Server">服务器</value>
-  <value column="Description" original="iDempiere Server Maintenance">iDempiere服务器维护</value>
+  <value column="Name" original="Server">服务引擎</value>
+  <value column="Description" original="iDempiere Server Maintenance">维护服务处理器引擎</value>
  </row>
  <row id="457" trl="Y">
   <value column="Name" original="Sales Orders">销售订单</value>
@@ -161,7 +161,7 @@
   <value column="Description" original="Import and export packaging">导入或导出应用程序包</value>
  </row>
  <row id="52001" trl="Y">
-  <value column="Name" original="Web POS">设置Web POS</value>
+  <value column="Name" original="Web POS">设置 Web POS</value>
   <value column="Description" original=""/>
  </row>
  <row id="53014" trl="Y">
@@ -273,7 +273,7 @@
   <value column="Description" original="Reporting for fixed assets">固定资产报表</value>
  </row>
  <row id="53171" trl="Y">
-  <value column="Name" original="Depreciation Setup">折旧设置</value>
+  <value column="Name" original="Depreciation Setup">折旧规则</value>
   <value column="Description" original="Applications to setup and maintain depreciation">用于设置和维护折旧的程序</value>
  </row>
  <row id="53180" trl="Y">
@@ -301,15 +301,15 @@
   <value column="Description" original="">导入CSV文件头定义</value>
  </row>
  <row trl="Y" uuid="16e65553-8c01-4ebe-b0a5-2186c8611186">
-  <value column="Name" original="Warehouse Management (WMS)">仓库管理</value>
+  <value column="Name" original="Warehouse Management (WMS)">WMS 管理</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="22f22127-cbcb-4d07-a020-df82675ccc4d">
-  <value column="Name" original="Warehouse Management Setup">仓库管理设置</value>
+  <value column="Name" original="Warehouse Management Setup">仓库规则</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="7a65c714-928e-43f5-bf5f-bce0fc190a72">
-  <value column="Name" original="Packing &amp; Handling Units">包装单元设置</value>
+  <value column="Name" original="Packing &amp; Handling Units">包装单元规则</value>
   <value column="Description" original=""/>
  </row>
  <row trl="Y" uuid="f951a6fa-726c-4065-8aa1-5271f5fc6f1a">
@@ -373,8 +373,8 @@
   <value column="Description" original="Enterprise information asset">企业主数据信息，比如产品、合作伙伴</value>
  </row>
  <row trl="Y" uuid="de5eeb52-3f65-4080-89f1-03aa6f9a0afd">
-  <value column="Name" original="Warehouse Management">仓库管理</value>
-  <value column="Description" original="Warehouse Management">仓库管理</value>
+  <value column="Name" original="Warehouse Management">库存管理</value>
+  <value column="Description" original="Warehouse Management">库存管理</value>
  </row>
  <row trl="Y" uuid="a2f3f506-1509-44c2-84b5-899736fa33a0">
   <value column="Name" original="Human Management">用户管理</value>
@@ -423,5 +423,45 @@
  <row trl="Y" uuid="79f5ba49-05dd-458b-9fd9-49bf90e58c56">
   <value column="Name" original="POS Management">POS 管理</value>
   <value column="Description" original="POS Management">POS 管理</value>
+ </row>
+ <row trl="N" uuid="2802953a-7216-44b2-9932-33626bf815a1">
+  <value column="Name" original="JDHG">JDHG</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e43b4736-7a82-4a3f-97ba-3a52753d9f22">
+  <value column="Name" original="【系统设置】">【系统设置】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="05bf6a50-1f79-449e-baa1-703f8bdffb38">
+  <value column="Name" original="【基础数据】">【基础数据】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ce7bc228-bd72-46b2-b60a-015d3db46e45">
+  <value column="Name" original="【销售管理】">【销售管理】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="6b0049cc-f977-4649-bbd5-115218333027">
+  <value column="Name" original="【采购管理】">【采购管理】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="67ccf510-c9eb-4e99-aa8f-5c8eddfe4838">
+  <value column="Name" original="【支付管理】">【支付管理】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b2a6641e-1fb2-47ea-aaba-0a1372969953">
+  <value column="Name" original="【结算管理】">【结算管理】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="38ffe930-a60e-4e05-ab42-6afe62d3a837">
+  <value column="Name" original="【绩效管理】">【绩效管理】</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a4ef1ebf-9d6f-4b8f-92be-b86451593f63">
+  <value column="Name" original="J销售订单">J销售订单</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2631856a-54c3-443a-a0b4-b0073b9329df">
+  <value column="Name" original="J报价单">J报价单</value>
+  <value column="Description" original=""/>
  </row>
 </idempiereTrl>
