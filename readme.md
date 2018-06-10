@@ -5,20 +5,20 @@
 
 ---------------------------------
 ###ReadMe
-This repository includes Chinese Language Pack is maintenanted by idempiere-chinese-localization group.
+This repository includes Chinese Language Pack and some local utils maintenanted by idempiere-chinese-localization group.
 Translation progress for iDempiere version 5.1 was completed with a high quanlity.
 Normal fixs are reviewed and committed semiannually by project team.
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
-updated: 2017-11-18
 
-Updated: 2017-11-18
+Updated: 2018-6-10
 
 ####Directory structure:
 ../zh_CN_System           `translation files for System client`
+
 ../zh_CN_GardenWorld      `translation files for GardenWorld client`
+
 ../Utils                  `localization utils`
 
-../Utils: `localization utils`
 
 ---------------------------------
 ### 着急只看我：
@@ -120,5 +120,5 @@ Updated: 2017-11-18
 
 小白皇后玉照的盛大披露
 
-![小白](https://static.oschina.net/uploads/img/201705/04053152_cKM1.jpg)
+![小白](http://qpic.cn/77zDoHvWS)
 
