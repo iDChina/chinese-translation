@@ -66,9 +66,9 @@
   <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">工作流节点代表了工作流中的一个独特步骤或流程</value>
  </row>
  <row id="4055" trl="Y">
-  <value column="Name" original="Tax Amount">税额</value>
-  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
-  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理</value>
+  <value column="Name" original="Tax Amount">信用卡税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">处理信用卡事务的税金总额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing."/>
  </row>
  <row id="4105" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -112,8 +112,60 @@
  </row>
  <row id="4725" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
+ </row>
+ <row id="4752" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
+ </row>
+ <row id="4793" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="5020" trl="Y">
   <value column="Name" original="User/Contact">用户</value>
@@ -149,6 +201,32 @@
   <value column="Name" original="Quantity">发票数量</value>
   <value column="Description" original="Quantity">发票数量</value>
   <value column="Help" original="The Quantity indicates the number of a specific product or item for this document.">票据所对应的发票数量</value>
+ </row>
+ <row id="5836" trl="Y">
+  <value column="Name" original="Printed">是否打印</value>
+  <value column="Description" original="Indicates if this document / line is printed">表示是否打印输出该项</value>
+  <value column="Help" original="The Printed checkbox indicates if this document or line will included when printing."><![CDATA[如下不带posted字段的表，该元素翻译为：是否打印（8个） <br />
+<br />
+AD_PrintFormatItem<br />
+PA_ReportColumn<br />
+PA_ReportLine<br />
+I_ReportLine<br />
+HR_PayrollConcept<br />
+HR_Attribute<br />
+HR_Concept<br />
+<br />
+如下带posted字段的表，该元素翻译为为：已打印（30个）<br />
+C_Invoice<br />
+C_InvoiceLine<br />
+C_Order<br />
+C_PaySelectionCheck<br />
+C_ProjectLine<br />
+DD_Order<br />
+GL_Journal<br />
+HR_Movement<br />
+M_InOut<br />
+PP_Order<br />
+]]></value>
  </row>
  <row id="5875" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -301,6 +379,11 @@
   <value column="Help" original="Material Movement is in transit - shipped, but not received.&#10;The transaction is completed, if confirmed."><![CDATA[如果选择，产品将一直在途，直到确认后完成的库存移动<br />
 【注意】在途仓库不会在登录界面列出，你无法使用在途仓库作为上下文变量。]]></value>
  </row>
+ <row id="10411" trl="Y">
+  <value column="Name" original="Drop Shipment">直接供货</value>
+  <value column="Description" original="Drop Shipments are sent from the Vendor directly to the Customer">特殊产品标识，可用作报表统计</value>
+  <value column="Help" original="Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed."/>
+ </row>
  <row id="10625" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
@@ -347,9 +430,14 @@
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统</value>
  </row>
  <row id="12184" trl="Y">
-  <value column="Name" original="Movement Quantity">盘点数量</value>
-  <value column="Description" original="Quantity of a product moved.">盘点数量</value>
-  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">盘点数量</value>
+  <value column="Name" original="Movement Quantity">调整数量</value>
+  <value column="Description" original="Quantity of a product moved.">增加为负数，减少为正数</value>
+  <value column="Help" original="The Movement Quantity indicates the quantity of a product that has been moved.">增加为负数，减少为正数。</value>
+ </row>
+ <row id="12186" trl="Y">
+  <value column="Name" original="Phys.Inventory Line">盘点明细</value>
+  <value column="Description" original="Unique line in an Inventory document">库存盘点明细</value>
+  <value column="Help" original="The Physical Inventory Line indicates the inventory document line (if applicable) for this transaction">库存盘点明细</value>
  </row>
  <row id="12240" trl="Y">
   <value column="Name" original="User/Contact">联系人</value>
@@ -826,7 +914,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  </row>
  <row id="57331" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
+  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
  </row>
  <row id="57722" trl="Y">

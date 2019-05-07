@@ -93,8 +93,8 @@
  <row id="112" trl="Y">
   <value column="Name" original="Trx Organization">事务组织</value>
   <value column="PrintName" original="Trx Organization">事务组织</value>
-  <value column="Description" original="Performing or initiating organization">进行执行或初始化的组织</value>
-  <value column="Help" original="The organization which performs or initiates this transaction (for another organization).  The owning Organization may not be the transaction organization in a service bureau environment, with centralized services, and inter-organization transactions.">进行执行或初始化的组织</value>
+  <value column="Description" original="Performing or initiating organization">集团内交易或者服务中心模型中，处理事务或者为其他组织提供事务的组织</value>
+  <value column="Help" original="The organization which performs or initiates this transaction (for another organization).  The owning Organization may not be the transaction organization in a service bureau environment, with centralized services, and inter-organization transactions."/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -725,9 +725,7 @@
 <br />盘点单：存货数量变动
 <br />内部领用单：存货数量变动
 <br />成本调整单：存货金额变动
-
-<br />
-<br />更多说明参考：http://idempiere_guide_fi.mydoc.io/?t=178385]]></value>
+<br />]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -2075,7 +2073,7 @@ C[tab]任意字母 &amp; 数字 空格 转换为大写
   <value column="PrintName" original="Key column">主键列</value>
   <value column="Description" original="This column is the key in this table">与数据库列主键相同，主键列用于标识记录唯一性</value>
   <value column="Help" original="The key column must also be display sequence 0 in the field definition and may be hidden."><![CDATA[与数据库列主键相同，主键列用于标识记录唯一性。主键列对应的字段显示可以显示（顺序为0），也可以隐藏<br />
-如果表有多个主键，则不选，表示为多主键表。具体信息参考：http://idempiere_guide_sm.mydoc.io/?t=134396#widget_6603644]]></value>
+如果表有多个主键，则不选，表示为多主键表。]]></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -42500,10 +42498,10 @@ BOM变更申请：暂时变更，永久变更，可选变更<br />
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="200477" trl="Y">
-  <value column="Name" original="salesrep_value">业务代表_编码</value>
-  <value column="PrintName" original="salesrep_value">业务代表_编码</value>
-  <value column="Description" original="">业务代表_编码</value>
-  <value column="Help" original="">业务代表_编码</value>
+  <value column="Name" original="Sales Representative Value">业务代表编码</value>
+  <value column="PrintName" original="Sales Rep Value">业务代表编码</value>
+  <value column="Description" original="">业务代表编码</value>
+  <value column="Help" original="">业务代表编码</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -56201,8 +56199,8 @@ logic operators	:= AND or OR  (...)]]></value>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="203018" trl="Y">
-  <value column="Name" original="AD_FieldSuggestion_UU">AD_FieldSuggestion_UU</value>
-  <value column="PrintName" original="Field Suggestions UUID">AD_FieldSuggestion_UU</value>
+  <value column="Name" original="Field Suggestions UUID">Field Suggestions UUID</value>
+  <value column="PrintName" original="Field Suggestions UUID">Field Suggestions UUID</value>
   <value column="Description" original="">AD_FieldSuggestion_UU</value>
   <value column="Help" original="">AD_FieldSuggestion_UU</value>
   <value column="PO_Description" original=""/>

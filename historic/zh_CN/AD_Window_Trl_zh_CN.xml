@@ -61,7 +61,7 @@
   <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">维护用户职责</value>
  </row>
  <row id="112" trl="Y">
-  <value column="Name" original="Document Sequence">序号定义</value>
+  <value column="Name" original="Document Sequence">序号规则</value>
   <value column="Description" original="Maintain System and Document Sequences">维护系统和单据的序号</value>
   <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">维护系统和单据的序号</value>
  </row>
@@ -246,9 +246,9 @@
   <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">维护组织或者合作伙伴的银行和帐户</value>
  </row>
  <row id="159" trl="Y">
-  <value column="Name" original="Dunning">催款</value>
-  <value column="Description" original="Maintain Dunning Levels">维护催款级别</value>
-  <value column="Help" original="The Dunning Window defines the parameters that will be used when generating Dunning Letters.  Each customer can be associated with a Dunning Code.  ">维护催款级别</value>
+  <value column="Name" original="Dunning">催款规则</value>
+  <value column="Description" original="Maintain Dunning Levels">维护催款定义</value>
+  <value column="Help" original="The Dunning Window defines the parameters that will be used when generating Dunning Letters.  Each customer can be associated with a Dunning Code.  ">催款规则包含多个催款级别，每个催款级别可生成一份催款通知。如果催款规则设置“发送催款通知”，且客户主数据已指定“催款规则”，系统将自动发送催款通知</value>
  </row>
  <row id="160" trl="Y">
   <value column="Name" original="Withholding (1099)">预扣 (1099)</value>
@@ -346,9 +346,9 @@
   <value column="Help" original="The EDI Definition Window defines the parameters to be used when processing EDI Transactions">维护 EDI 定义</value>
  </row>
  <row id="186" trl="Y">
-  <value column="Name" original="EDI Transaction">EDI 交易</value>
-  <value column="Description" original="">EDI 交易</value>
-  <value column="Help" original="">EDI 交易</value>
+  <value column="Name" original="EDI Transaction">EDI 事务</value>
+  <value column="Description" original="">EDI 事务</value>
+  <value column="Help" original="">EDI 事务</value>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Form">窗体</value>
@@ -436,9 +436,9 @@
   <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">根据条件筛选待付款的供应商发票，并准备商业票据，你可以在”打印付款选择“窗体进行打印或者导出</value>
  </row>
  <row id="207" trl="Y">
-  <value column="Name" original="Commission">计算佣金</value>
-  <value column="Description" original="Maintain Commissions and Royalties">定义佣金和佣金规则，并生成计算结果</value>
-  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">定义佣金和佣金规则，并生成计算结果</value>
+  <value column="Name" original="Commission">佣金</value>
+  <value column="Description" original="Maintain Commissions and Royalties">定义销售事务的佣金规则，并生成计算结果</value>
+  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">指定佣金对象和计算规则，当佣金期间的单据（订单/发票/收款单）全部完成或者关闭后，即可运行“生成佣金”操作。每个佣金计算规则会生成一条佣金记录</value>
  </row>
  <row id="208" trl="Y">
   <value column="Name" original="Project Reporting">项目周期</value>
@@ -447,7 +447,7 @@
  </row>
  <row id="210" trl="Y">
   <value column="Name" original="Commission Run">审核佣金</value>
-  <value column="Description" original="Check and modify Commissions">检查、审核佣金记录，并打印佣金发票</value>
+  <value column="Description" original="Check and modify Commissions">检查、审核佣金记录，并生成佣金应付发票</value>
   <value column="Help" original="The Commission Run Window displays the results of processing commissions.  When the Generate Commission process is selected from the Commissions Window, the results are displayed here. If the result is satisfactory, generate an AP invoice to pay the commission.">根据佣金计算的结果，检查、审计佣金金额，打印佣金发票</value>
  </row>
  <row id="212" trl="Y">
@@ -491,9 +491,9 @@
   <value column="Help" original="">查找对话框 (非直接使用)</value>
  </row>
  <row id="223" trl="Y">
-  <value column="Name" original="Material Transactions (indirect use)">存货实物 (查询)</value>
-  <value column="Description" original="Material Transactions (indirect use)">存货实物 (查询)</value>
-  <value column="Help" original="">存货实物 (查询)</value>
+  <value column="Name" original="Material Transactions (indirect use)">存货事务 (查询)</value>
+  <value column="Description" original="Material Transactions (indirect use)">存货事务 (查询)</value>
+  <value column="Help" original="">存货事务 (查询)</value>
  </row>
  <row id="224" trl="Y">
   <value column="Name" original="Print Form">打印格式配置</value>
@@ -602,8 +602,8 @@
  </row>
  <row id="246" trl="Y">
   <value column="Name" original="System">系统信息</value>
-  <value column="Description" original="System Definition">iDempiere的系统信息</value>
-  <value column="Help" original="Common System Definition - Only one Record - Do not add additional records.">iDempiere的系统信息</value>
+  <value column="Description" original="System Definition">系统信息</value>
+  <value column="Help" original="Common System Definition - Only one Record - Do not add additional records.">系统信息</value>
  </row>
  <row id="247" trl="Y">
   <value column="Name" original="Import Product">导入产品</value>
@@ -977,8 +977,8 @@
  </row>
  <row id="321" trl="Y">
   <value column="Name" original="Dunning Run">催款计算</value>
-  <value column="Description" original="Manage Dunning Runs">管理催款执行</value>
-  <value column="Help" original="Manage Dunning Runs">管理催款执行</value>
+  <value column="Description" original="Manage Dunning Runs">按指定日期生成催款结果</value>
+  <value column="Help" original="Manage Dunning Runs">按指定日期生成催款结果</value>
  </row>
  <row id="322" trl="Y">
   <value column="Name" original="Requisition">请购单</value>
@@ -1216,9 +1216,9 @@
   <value column="Help" original="">维护已知的问题</value>
  </row>
  <row id="370" trl="Y">
-  <value column="Name" original="Issue Project">实施项目</value>
-  <value column="Description" original="Maintain Issue Management Project Links">维护问题管理项目的链接</value>
-  <value column="Help" original="Maintain Issue Management Project Links - automatically generated.">维护问题管理项目的链接</value>
+  <value column="Name" original="Issue Project">项目问题</value>
+  <value column="Description" original="Maintain Issue Management Project Links">维护问题管理的项目链接</value>
+  <value column="Help" original="Maintain Issue Management Project Links - automatically generated.">维护问题管理的（自动生成）项目链接</value>
  </row>
  <row id="371" trl="Y">
   <value column="Name" original="Issue User">问题提交者</value>
@@ -1945,9 +1945,9 @@
   <value column="Help" original="">支付事务历史</value>
  </row>
  <row id="200018" trl="Y">
-  <value column="Name" original="Online Transaction History">在线交易日志</value>
-  <value column="Description" original="">在线交易日志</value>
-  <value column="Help" original="">在线交易日志</value>
+  <value column="Name" original="Online Transaction History">在线事务日志</value>
+  <value column="Description" original="">在线事务（地址/物流/支付）的操作历史</value>
+  <value column="Help" original="">在线地址校验、在线物流、在线支付的操作历史</value>
  </row>
  <row id="200020" trl="Y">
   <value column="Name" original="Setup Wizard Maintenance">实体设置记录</value>
