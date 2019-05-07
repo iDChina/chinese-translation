@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
  <row id="1" trl="Y">
   <value column="Name" original="AD_Reference Data Types">AD_Reference 数据引用类型</value>
   <value column="Description" original="Data Type selection">AD_Reference Data Types，AD数据类型</value>
@@ -26,7 +26,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="10" trl="Y">
-  <value column="Name" original="String"><![CDATA[String_字符串（< 255）]]></value>
+  <value column="Name" original="String" xml:space="preserve"><![CDATA[String_字符串（< 255）]]></value>
   <value column="Description" original="Character String">最多包含255字符</value>
   <value column="Help" original=""/>
  </row>
@@ -46,7 +46,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="14" trl="Y">
-  <value column="Name" original="Text"><![CDATA[String_文本（<= 2000）]]></value>
+  <value column="Name" original="Text" xml:space="preserve"><![CDATA[String_文本（<= 2000）]]></value>
   <value column="Description" original="Character String up to 2000 characters">最多2000个字符的字符串</value>
   <value column="Help" original=""/>
  </row>
@@ -105,11 +105,6 @@
   <value column="Description" original="Account Element">AD控件：账户元素（科目）</value>
   <value column="Help" original="">可以选择账户组合</value>
  </row>
- <row id="26" trl="Y">
-  <value column="Name" original="RowID">Number_RowID</value>
-  <value column="Description" original="Row ID Data Type">RowID 数据类型</value>
-  <value column="Help" original=""/>
- </row>
  <row id="27" trl="Y">
   <value column="Name" original="Color">AD_颜色</value>
   <value column="Description" original="Color element">AD控件：颜色</value>
@@ -156,7 +151,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="36" trl="Y">
-  <value column="Name" original="Text Long"><![CDATA[String_长文本（> 2000）]]></value>
+  <value column="Name" original="Text Long" xml:space="preserve"><![CDATA[String_长文本（> 2000）]]></value>
   <value column="Description" original="Text (Long) - Text &gt; 2000 characters">超过 2000 字符的字符串</value>
   <value column="Help" original=""/>
  </row>
@@ -793,11 +788,6 @@
  <row id="234" trl="Y">
   <value column="Name" original="_Posted Status">_Posted 状态</value>
   <value column="Description" original="">过账结果</value>
-  <value column="Help" original=""/>
- </row>
- <row id="235" trl="Y">
-  <value column="Name" original="PA_Report AmountType (deprecated)">PA_Report 金额类型(弃用)</value>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="236" trl="Y">
@@ -2056,12 +2046,12 @@
   <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">现在我们只有含糊的关系类型，例如:记录对被定义为规则本身。今后，我们想要有明确的类型。一个显式类型只是定义一个模板，实际对可以添加由用户或系统本身</value>
  </row>
  <row id="53333" trl="Y">
-  <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)"><![CDATA[RelType C_Order (Sales) <= C_Invoice_ID (Customer)]]></value>
+  <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)" xml:space="preserve"><![CDATA[RelType C_Order (Sales) <= C_Invoice_ID (Customer)]]></value>
   <value column="Description" original="Finds C_Order_IDs for a given C_Invoice_ID">Finds C_Order_IDs for a given C_Invoice_ID</value>
   <value column="Help" original=""/>
  </row>
  <row id="53334" trl="Y">
-  <value column="Name" original="RelType C_Invoice (Customer) &lt;= C_Order_ID (Sales)"><![CDATA[RelType C_Invoice (Customer) <= C_Order_ID (Sales)]]></value>
+  <value column="Name" original="RelType C_Invoice (Customer) &lt;= C_Order_ID (Sales)" xml:space="preserve"><![CDATA[RelType C_Invoice (Customer) <= C_Order_ID (Sales)]]></value>
   <value column="Description" original="Finds C_Invoice_IDs for a given C_C_Order_ID">Finds C_Invoice_IDs for a given C_C_Order_ID</value>
   <value column="Help" original=""/>
  </row>
@@ -2076,22 +2066,22 @@
   <value column="Help" original=""/>
  </row>
  <row id="53345" trl="Y">
-  <value column="Name" original="RelType M_InOut (Shipment) &lt;= C_Invoice_ID (Customer)"><![CDATA[RelType M_InOut (Shipment) <= C_Invoice_ID (Customer)]]></value>
+  <value column="Name" original="RelType M_InOut (Shipment) &lt;= C_Invoice_ID (Customer)" xml:space="preserve"><![CDATA[RelType M_InOut (Shipment) <= C_Invoice_ID (Customer)]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53347" trl="Y">
-  <value column="Name" original="RelType M_InOut (Shipment) &lt;=  C_Order_ID"><![CDATA[RelType M_InOut (Shipment) <=  C_Order_ID]]></value>
+  <value column="Name" original="RelType M_InOut (Shipment) &lt;=  C_Order_ID" xml:space="preserve"><![CDATA[RelType M_InOut (Shipment) <=  C_Order_ID]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53348" trl="Y">
-  <value column="Name" original="RelType C_Invoice (Customer) &lt;= M_InOut_ID (Shipment)"><![CDATA[RelType C_Invoice (Customer) <= M_InOut_ID (Shipment)]]></value>
+  <value column="Name" original="RelType C_Invoice (Customer) &lt;= M_InOut_ID (Shipment)" xml:space="preserve"><![CDATA[RelType C_Invoice (Customer) <= M_InOut_ID (Shipment)]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53349" trl="Y">
-  <value column="Name" original="RelType C_Order (Sales) &lt;=  M_InOut_ID (Shipment)"><![CDATA[RelType C_Order (Sales) <=  M_InOut_ID (Shipment)]]></value>
+  <value column="Name" original="RelType C_Order (Sales) &lt;=  M_InOut_ID (Shipment)" xml:space="preserve"><![CDATA[RelType C_Order (Sales) <=  M_InOut_ID (Shipment)]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2106,17 +2096,17 @@
   <value column="Help" original=""/>
  </row>
  <row id="53352" trl="Y">
-  <value column="Name" original="RelType C_BPartner &lt;= Vendor/Customer Return"><![CDATA[RelType C_BPartner <= Vendor/Customer Return]]></value>
+  <value column="Name" original="RelType C_BPartner &lt;= Vendor/Customer Return" xml:space="preserve"><![CDATA[RelType C_BPartner <= Vendor/Customer Return]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53353" trl="Y">
-  <value column="Name" original="RelType Customer Return &lt;= C_BPartner_ID"><![CDATA[RelType Customer Return <= C_BPartner_ID]]></value>
+  <value column="Name" original="RelType Customer Return &lt;= C_BPartner_ID" xml:space="preserve"><![CDATA[RelType Customer Return <= C_BPartner_ID]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53354" trl="Y">
-  <value column="Name" original="RelType Vendor Return &lt;= C_BPartner_ID"><![CDATA[RelType Vendor Return <= C_BPartner_ID]]></value>
+  <value column="Name" original="RelType Vendor Return &lt;= C_BPartner_ID" xml:space="preserve"><![CDATA[RelType Vendor Return <= C_BPartner_ID]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2588,6 +2578,31 @@
  <row id="200145" trl="N">
   <value column="Name" original="AD_User Users from all Clients">AD_User Users from all Clients</value>
   <value column="Description" original="Users from all clients">Users from all clients</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200157" trl="N">
+  <value column="Name" original="AD_Process Execution Type">AD_Process Execution Type</value>
+  <value column="Description" original="Report/Process Execution Type">Report/Process Execution Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200158" trl="N">
+  <value column="Name" original="AD_Process Multiple Execution">AD_Process Multiple Execution</value>
+  <value column="Description" original="Multiple execution rule list">Multiple execution rule list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200165" trl="N">
+  <value column="Name" original="AD_Table with ID Column">AD_Table with ID Column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200166" trl="N">
+  <value column="Name" original="AD_Role RoleType">AD_Role RoleType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200167" trl="N">
+  <value column="Name" original="Activate/Deactivate/Delete">Activate/Deactivate/Delete</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Workflow">
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Workflow">
  <row id="101" trl="Y">
   <value column="Name" original="Project Setup and Use">设置_项目</value>
   <value column="Description" original="Setup of projects and project reporting">项目与项目报表的设置</value>
@@ -13,7 +13,7 @@
  <row id="104" trl="Y">
   <value column="Name" original="Initial Client Setup Review">初始化_实体</value>
   <value column="Description" original="Review of system level setup of a new  Client">检查新实体的系统级设置</value>
-  <value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup"><![CDATA[检查新实体初始化后的基础设置。除此之外，还可以通过如下工作流检查：<br />
+  <value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup" xml:space="preserve"><![CDATA[检查新实体初始化后的基础设置。除此之外，还可以通过如下工作流检查：<br />
 - 设置_会计 <br />
 - 设置_业务伙伴 <br />
 - 设置_产品 <br />
@@ -41,29 +41,6 @@
   <value column="Description" original="Define your Price Lists and Discounts">设置价格表与折扣模式</value>
   <value column="Help" original="You define your price lists after entering or importing your products. In addition to price lists, you can define discounts for business partners.  Assign specific Price Lists and Discounst to Business Partners.">定义价格表和折扣模式。对于采购/销售业务，需要定义价格表模式和价格表版本，另外销售业务还可以定义折扣模式，以区分不同的产品或者客户价格</value>
  </row>
- <row id="109" trl="Y">
-  <value column="Name" original="Replication Setup">设置_复制</value>
-  <value column="Description" original="Setup of data replication">设置数据复制</value>
-  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Define Replication per Remote&lt;br&gt;&#10;- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;&#10;- Initially Start the Replication Run to setup Remote&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- Start the Replication Run when required"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的<p>
-<b>Central System:</b><br>
-- setup system with all organizations, roles, etc.<br>
-- run the migration to make sure that it is up-to-date<br>
-- export the central system
-<p>
-<b>Remote System:</b>
-- install the exact version as Central System<br>
-- import data from Central System in the remote locations
-<p>
-<b>Central System:</b>
-- Define Replication per Remote<br>
-- Make sure that the ID range is unique per remote - otherwise you will loose transactions!<br>
-- Initially Start the Replication Run to setup Remote
-<p>
-** Enter Transactions **
-<p>
-<b>Central System:</b><br>
-- Start the Replication Run when required]]></value>
- </row>
  <row id="110" trl="Y">
   <value column="Name" original="Tax Setup">初始化_税</value>
   <value column="Description" original="Setup tax calculation">设置税相关信息</value>
@@ -77,7 +54,7 @@
  <row id="112" trl="Y">
   <value column="Name" original="Performance Measurement Setup">设置_绩效分析</value>
   <value column="Description" original="Setup your Performance Measurement">设置绩效分析</value>
-  <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)"><![CDATA[设置基于“关键绩效指标”或者“平衡计分卡”的绩效信息<br />绩效规则：你的目标是什么，你如何评估？<br />设置顺序：先定义评估，最后定义目标<br />系统提供三种绩效评估方式：量化评估、主观评估，完成状态<br />系统会将评估以百分比形式表示，基于达到值对比目标值，或者基于已完成数量对比总数量]]></value>
+  <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)" xml:space="preserve"><![CDATA[设置基于“关键绩效指标”或者“平衡计分卡”的绩效信息<br />绩效规则：你的目标是什么，你如何评估？<br />设置顺序：先定义评估，最后定义目标<br />系统提供三种绩效评估方式：量化评估、主观评估，完成状态<br />系统会将评估以百分比形式表示，基于达到值对比目标值，或者基于已完成数量对比总数量]]></value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="Request Setup">设置_请求</value>
@@ -107,11 +84,6 @@
  <row id="118" trl="Y">
   <value column="Name" original="Process_Invoice">单据处理_发票</value>
   <value column="Description" original="(Standard Process Invoice)">(标准单据处理流程_发票)</value>
-  <value column="Help" original=""/>
- </row>
- <row id="119" trl="Y">
-  <value column="Name" original="Process_Cash">单据处理_现金</value>
-  <value column="Description" original="(Standard Process Cash)">(标准单据处理流程_现金)</value>
   <value column="Help" original=""/>
  </row>
  <row id="120" trl="Y">
@@ -174,83 +146,10 @@
   <value column="Description" original="Example Document based workflow">示范基于单据值的工作流</value>
   <value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">When a new Business Partner is created, it is forwarded for review and credit check</value>
  </row>
- <row id="50000" trl="Y">
-  <value column="Name" original="Manufacturing Management Setup">设置_生产管理</value>
-  <value column="Description" original="Setup Manufacturing Management">设置生产管理</value>
-  <value column="Help" original="This workflow defines the Manufacturing Management and the supporting rules.">This workflow defines the Manufacturing Management and the supporting rules</value>
- </row>
- <row id="50001" trl="Y">
-  <value column="Name" original="Manufacturing Workflow Setup">设置_生产工艺</value>
-  <value column="Description" original="Setup Manufacturing Workflow">设置生产工艺</value>
-  <value column="Help" original="This workflow defines the Manufacturing Workflow  Setup">This workflow defines the Manufacturing Workflow  Setup</value>
- </row>
- <row id="50002" trl="Y">
-  <value column="Name" original="Bill of Material &amp; Formula Setup">设置_物料清单与配方</value>
-  <value column="Description" original="Setup Bill of Material &amp; Formula">设置物料清单 配方</value>
-  <value column="Help" original="This workflow defines the Bill of Material &amp; Formula"><![CDATA[This workflow defines the Bill of Material & Formula]]></value>
- </row>
- <row id="50003" trl="Y">
-  <value column="Name" original="Planning Management Setup">设置_计划管理</value>
-  <value column="Description" original="Setup Planning Management">设置计划管理</value>
-  <value column="Help" original="Before the production processes can be done, it is necessary to plan the activities which must be accomplished to assure the products can be gotten at the right time in order not to remain a long time in the warehouse, or at the contrary, to cause delays in shipments because components shortages in the manufacturing order.&#10;&#10;Another subject to take into account are the production cost and the capacity of shipping good quality products.&#10;&#10;Using Planning Management you answer the question: When and How Many products we must get?">Before the production processes can be done, it is necessary to plan the activities which must be accomplished to assure the products can be gotten at the right time in order not to remain a long time in the warehouse, or at the contrary, to cause delays in shipments because components shortages in the manufacturing order.
-
-Another subject to take into account are the production cost and the capacity of shipping good quality products.
-
-Using Planning Management you answer the question: When and How Many products we must get?</value>
- </row>
- <row id="50004" trl="Y">
-  <value column="Name" original="Material Requirement Planning Setup">设置_物料需求计划</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">物料需求计划(MRP) ,是一种利用物料清单,库存数据,和主生产计划来计算物料需求的技术</value>
-  <value column="Help" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials. It create planned orders to balance demand ans supply for products and it issues recommendations to receipt material with the right quantities and at the right dates to satisfy the Master Production Schedule in the most efficient way.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials. It create planned orders to balance demand ans supply for products and it issues recommendations to receipt material with the right quantities and at the right dates to satisfy the Master Production Schedule in the most efficient way</value>
- </row>
- <row id="50005" trl="Y">
-  <value column="Name" original="Capacity Requirement Planning Setup">设置_能力需求计划</value>
-  <value column="Description" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">计算产能计划的过程中，可以让我们知道可用的时间，以及在每个制造资源所需的时间，以满足主生产计划</value>
-  <value column="Help" original="It is a set of techniques which uses the planned orders by MRP, open manufacturing orders, manufacturing resources and the work-flows to calculate the required time for each resource along with the available time. With this information, we are able to balance the time demand with the available time. Through the knowledge of the required and available capacities it is possible to adjust the Master Production Schedule(MPS) until we arrive at a realistic one.">It is a set of techniques which uses the planned orders by MRP, open manufacturing orders, manufacturing resources and the work-flows to calculate the required time for each resource along with the available time. With this information, we are able to balance the time demand with the available time. Through the knowledge of the required and available capacities it is possible to adjust the Master Production Schedule(MPS) until we arrive at a realistic one</value>
- </row>
- <row id="50006" trl="Y">
-  <value column="Name" original="Distribution Resource Planning Setup">设置_配送资源计划</value>
-  <value column="Description" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">是一种用在供应链计划订单的企业管理的方法。DRP使用户可以设置一定的库存控制参数（如安全库存）和计算时间分阶段的库存要求</value>
-  <value column="Help" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements</value>
- </row>
- <row id="50007" trl="Y">
-  <value column="Name" original="Discrete Manufacturing Setup">设置_离散制造</value>
-  <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">一旦生产计划过程完成后，生产控制过程是为了让我们检查确保执行活动能够达到物料计划</value>
-  <value column="Help" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.&#10;&#10;Each time you need to release an order you need to be sure the components are complete in the warehouse, this is obtained by tracking the release and due dates for every component, this is easy to get using the shortages reports and from this module.&#10;&#10;This module mainly answer the question:&#10;&#10;What do I need to do to accomplish the&#10;MPS?&#10;&#10;If you cannot cover the MPS as you had planned, this module gives you information needed to decrease the effect on the costs and on the customer service.">Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.
-
-Each time you need to release an order you need to be sure the components are complete in the warehouse, this is obtained by tracking the release and due dates for every component, this is easy to get using the shortages reports and from this module.
-
-This module mainly answer the question:
-
-What do I need to do to accomplish the
-MPS?
-
-If you cannot cover the MPS as you had planned, this module gives you information needed to decrease the effect on the costs and on the customer service</value>
- </row>
- <row id="50008" trl="Y">
-  <value column="Name" original="Process_Manufacturing_Order">单据处理_生产单</value>
-  <value column="Description" original="(Standard Process Manufacturing Order)">(标准单据处理流程_工作单)</value>
-  <value column="Help" original=""/>
- </row>
- <row id="50009" trl="Y">
-  <value column="Name" original="Process_CostCollector">单据处理_成本归集单</value>
-  <value column="Description" original="(Standard Process Manufacturing Cost Collector)">(标准单据处理流程_成本归集单)</value>
-  <value column="Help" original=""/>
- </row>
- <row id="50010" trl="Y">
-  <value column="Name" original="Distribution Management Setup">设置_配送管理</value>
-  <value column="Description" original="Setup Distribution Management">设置配送管理</value>
-  <value column="Help" original=""/>
- </row>
- <row id="50011" trl="Y">
-  <value column="Name" original="Process_Distribution_Order">单据处理_配送单</value>
-  <value column="Description" original="(Standard Process Distribution Order)">(标准单据处理流程_配送单)</value>
-  <value column="Help" original=""/>
- </row>
  <row id="50012" trl="Y">
   <value column="Name" original="Setup Replication">设置_复制</value>
   <value column="Description" original="Setup of data replication">设置数据复制</value>
-  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的<p>
+  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;" xml:space="preserve"><![CDATA[数据复制功能会将远程数据库实例同步到中心系统。所有操作的初始化都是从中心系统发出的<p>
 <b>Central System:</b><br>
 - setup system with all organizations, roles, etc.<br>
 - run the migration to make sure that it is up-to-date<br>
@@ -270,16 +169,6 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
 <p>
 <b>Remote System:</b><br>
 - Config Import Processor<br>]]></value>
- </row>
- <row id="50013" trl="Y">
-  <value column="Name" original="Process_Payroll">单据处理_薪酬单</value>
-  <value column="Description" original="(Standard Process Payroll)">(标准单据处理流程_薪酬单)</value>
-  <value column="Help" original=""/>
- </row>
- <row id="50014" trl="Y">
-  <value column="Name" original="Setup Human Resource &amp; Payroll">设置_人力资源与薪酬</value>
-  <value column="Description" original="Setup Human Resource &amp; Payroll">设置人力资源与薪酬</value>
-  <value column="Help" original=""/>
  </row>
  <row id="50015" trl="Y">
   <value column="Name" original="Patio Chair">工艺路线_户外椅</value>

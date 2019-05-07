@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">生成发票 （手动）</value>
   <value column="Description" original="Select and generate invoices">选择销售订单，生成发票并完成单据</value>
-  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for."><![CDATA[从筛选后的销售订单中选择生成发票，流程对多个发货单进行合并开票<br /><br />
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for." xml:space="preserve"><![CDATA[从筛选后的销售订单中选择生成发票，流程对多个发货单进行合并开票<br /><br />
 筛选订单由订单的开票规则决定，默认显示“立即开票”的订单。“按发货开票”只有发货才显示，“按订单开票”只有全发货才显示。“按开票规则”只有当前日期和订单日期，开票月天符合条件才显示<br /><br />
 开票数量也由订单的开票规则决定，“立即开票”和“按订单开票”开具全部订单数量，“按发货开票”和“按开票计划”只会开具发货数量<br /><br />
 【注意】最后生成的发票包含2条发货备注，bug]]></value>
@@ -11,12 +11,7 @@
  <row id="101" trl="Y">
   <value column="Name" original="Import File Loader">导入文件加载器</value>
   <value column="Description" original="Load flat Files into import tables">加载待导入的数据文件到临时表中</value>
-  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading]."><![CDATA[选择待导入文件，并指定导入格式，预览每行数据是否正确，如果正确，点击右下角‘OK’按钮导入数据到临时表中<br />注意：以“[”开始和以“]”结束的注释会忽略导入，例如: [我的表头]。]]></value>
- </row>
- <row id="102" trl="Y">
-  <value column="Name" original="Initial Client Setup">初始化实体设置</value>
-  <value column="Description" original="Initial new Client/Tenant Setup">初始化新的实体/承租人设置</value>
-  <value column="Help" original="Set up a new Client/Tenant of the system">在系统中创建新的实体/承租人</value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading]." xml:space="preserve"><![CDATA[选择待导入文件，并指定导入格式，预览每行数据是否正确，如果正确，点击右下角‘OK’按钮导入数据到临时表中<br />注意：以“[”开始和以“]”结束的注释会忽略导入，例如: [我的表头]。]]></value>
  </row>
  <row id="103" trl="Y">
   <value column="Name" original="Material Transactions">收发明细</value>
@@ -66,7 +61,7 @@
  <row id="112" trl="Y">
   <value column="Name" original="Merge Entities">合并记录</value>
   <value column="Description" original="Merge From Entity to To Entity - Delete From">从一个实体合并到另一个实体 - 删除原实体</value>
-  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;"><![CDATA[<i>危险 - 请务必清楚当前正在执行的操作！该操作无法撤消，也无法追溯！如果继续，请提前做好备份</i>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;" xml:space="preserve"><![CDATA[<i>危险 - 请务必清楚当前正在执行的操作！该操作无法撤消，也无法追溯！如果继续，请提前做好备份</i>
 源对象（例如客户A）的所有实例都会被更改到目标个体（例如客户B），源对象将被删除<br />
 负面影响：合并产品可能导致产品成本不正确；合并业务伙伴可能导致未清余额不正确；可能更改历史记录 (例如发票等)<br />
 当前限制：会计和库存冲突在当前版本中尚不能解决<br />
@@ -173,11 +168,6 @@
   <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">薪酬发放提醒会在薪酬发放日提醒任意职员</value>
   <value column="Help" original=""/>
  </row>
- <row id="53010" trl="Y">
-  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单和发票（手动）</value>
-  <value column="Description" original="Select and generate shipments &amp; Invoices">选择并生成发货单和发票</value>
-  <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">从订单生成发货单，选择订单以用于生成生成发货单和发票</value>
- </row>
  <row id="53012" trl="Y">
   <value column="Name" original="Material Receipt Distribution Order">收货配送单</value>
   <value column="Description" original="Material Receipt Distribution Order">收货配送单</value>
@@ -199,16 +189,6 @@
   <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">选择一个产品后会显示该产品所需的配件及其物料清单的一个层次结构。
 
 选择“用于该产品”复选框之后，将显示该产品用到的物料清单</value>
- </row>
- <row id="53021" trl="N">
-  <value column="Name" original="VMPGenerateOT">VMPGenerateOT</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53023" trl="N">
-  <value column="Name" original="VMPRequestOT">VMPRequestOT</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
  </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Setup Wizard">实体设置向导</value>
@@ -248,6 +228,16 @@
  <row id="200010" trl="Y">
   <value column="Name" original="Compare Context Help Suggestion">比较上下文帮助建议</value>
   <value column="Description" original="Review changes for context help">审核上下文帮助的词条修改建议</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Form to configure access to /idempiereMonitor - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

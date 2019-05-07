@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
  <row id="116" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
   <value column="Description" original="Project as Account Segment">项目作为账户分段</value>
@@ -88,7 +88,7 @@
  <row id="170" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
   <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效, 必须重新登录</value>
-  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计模式窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context." xml:space="preserve"><![CDATA[会计模式窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
 检查和变更总账账户和缺省账户。日常事务实际使用的账户取决于指定的执行组织，大多数维度信息都来自于单据的上下文字段]]></value>
  </row>
  <row id="180" trl="Y">
@@ -361,60 +361,10 @@
   <value column="Description" original="Replication Strategy">复制策略</value>
   <value column="Help" original="">复制策略</value>
  </row>
- <row id="50074" trl="Y">
-  <value column="Name" original="Payroll">薪酬</value>
-  <value column="Description" original="">薪酬</value>
-  <value column="Help" original="">薪酬</value>
- </row>
- <row id="50075" trl="Y">
-  <value column="Name" original="Payroll Concept Category">薪酬策略类别</value>
-  <value column="Description" original="">薪酬策略类别</value>
-  <value column="Help" original="">薪酬策略类别</value>
- </row>
- <row id="50076" trl="Y">
-  <value column="Name" original="Payroll Contract">薪酬合同</value>
-  <value column="Description" original="">薪酬合同</value>
-  <value column="Help" original="">薪酬合同</value>
- </row>
- <row id="50077" trl="Y">
-  <value column="Name" original="Payroll Process">薪酬处理</value>
-  <value column="Description" original="">薪酬处理</value>
-  <value column="Help" original="">薪酬处理</value>
- </row>
- <row id="50078" trl="Y">
-  <value column="Name" original="Payroll Table">薪酬单</value>
-  <value column="Description" original="">薪酬单</value>
-  <value column="Help" original="">薪酬单</value>
- </row>
- <row id="50079" trl="Y">
-  <value column="Name" original="Payroll Department">部门薪酬</value>
-  <value column="Description" original="">部门薪酬</value>
-  <value column="Help" original="">部门薪酬</value>
- </row>
- <row id="50080" trl="Y">
-  <value column="Name" original="Payroll Employee">职员薪酬</value>
-  <value column="Description" original="">职员薪酬</value>
-  <value column="Help" original="">职员薪酬</value>
- </row>
  <row id="50081" trl="Y">
   <value column="Name" original="Payroll Action Notice">薪酬发放提醒</value>
   <value column="Description" original="">薪酬发放提醒</value>
   <value column="Help" original="">薪酬发放提醒</value>
- </row>
- <row id="50082" trl="Y">
-  <value column="Name" original="Payroll Table Type">薪酬表类型</value>
-  <value column="Description" original="">薪酬表类型</value>
-  <value column="Help" original="">薪酬表类型</value>
- </row>
- <row id="50083" trl="Y">
-  <value column="Name" original="Payroll Job">薪酬职位</value>
-  <value column="Description" original="">薪酬职位</value>
-  <value column="Help" original="">薪酬职位</value>
- </row>
- <row id="50084" trl="Y">
-  <value column="Name" original="Payroll Concept Catalog">薪酬策略目录</value>
-  <value column="Description" original="">薪酬策略目录</value>
-  <value column="Help" original="">薪酬策略目录</value>
  </row>
  <row id="50099" trl="Y">
   <value column="Name" original="(DocAuto)">(单据自动)</value>
@@ -435,11 +385,6 @@
   <value column="Name" original="(Start)">(启动)</value>
   <value column="Description" original="">(启动)</value>
   <value column="Help" original="">(启动)</value>
- </row>
- <row id="50103" trl="Y">
-  <value column="Name" original="Activation Approval">激活审批</value>
-  <value column="Description" original="Approve asset activation">激活资产审批</value>
-  <value column="Help" original="">激活资产审批</value>
  </row>
  <row id="50104" trl="Y">
   <value column="Name" original="(DocAuto)">(单据自动)</value>
