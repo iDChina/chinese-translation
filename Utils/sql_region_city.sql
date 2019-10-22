@@ -3,6 +3,9 @@ DO $$DECLARE
  * 基于中国人民共和国国家统计局2017-3-1发布的截止于2016-7-31的最新县及县以上行政区划代码
  * http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201703/t20170310_1471429.html
  * 
+ * 2019-10 根据2019年8月中华人民共和国县以上行政区划代码更新(http://www.mca.gov.cn/article/sj/tjyb/qgsj/2019/201909291543.html)
+ *         旧：542400 那曲地区 --> 新：540600 那曲市
+		
  * 执行前提：数据库初始化后既可以执行，如果已经有维护中国的省市信息的话，需要完全删除（含引用的业务数据）后方可执行
  * 执行结果：
  *   select count(*) from c_region WHERE c_country_id = 153; 
@@ -829,7 +832,7 @@ BEGIN
 	INSERT INTO C_CITY (c_city_id,ad_client_id,ad_org_id,isactive,created,createdby,updated,updatedby,name,locode,coordinates,postal,areacode,c_country_id,c_region_id,c_city_uu)
 		 VALUES (nextid(56,'N'),'0','0','Y',statement_timestamp(),'100',statement_timestamp(),'100','山南市','540500','\N','','\N','153',(SELECT max(c_region_id) FROM c_region where SUBSTRING(description,2,2) = '54'),generate_uuid());
 	INSERT INTO C_CITY (c_city_id,ad_client_id,ad_org_id,isactive,created,createdby,updated,updatedby,name,locode,coordinates,postal,areacode,c_country_id,c_region_id,c_city_uu)
-		 VALUES (nextid(56,'N'),'0','0','Y',statement_timestamp(),'100',statement_timestamp(),'100','那曲地区','542400','\N','','\N','153',(SELECT max(c_region_id) FROM c_region where SUBSTRING(description,2,2) = '54'),generate_uuid());
+		 VALUES (nextid(56,'N'),'0','0','Y',statement_timestamp(),'100',statement_timestamp(),'100','那曲市','540600','\N','','\N','153',(SELECT max(c_region_id) FROM c_region where SUBSTRING(description,2,2) = '54'),generate_uuid());
 	INSERT INTO C_CITY (c_city_id,ad_client_id,ad_org_id,isactive,created,createdby,updated,updatedby,name,locode,coordinates,postal,areacode,c_country_id,c_region_id,c_city_uu)
 		 VALUES (nextid(56,'N'),'0','0','Y',statement_timestamp(),'100',statement_timestamp(),'100','阿里地区','542500','\N','','\N','153',(SELECT max(c_region_id) FROM c_region where SUBSTRING(description,2,2) = '54'),generate_uuid());
 	INSERT INTO C_CITY (c_city_id,ad_client_id,ad_org_id,isactive,created,createdby,updated,updatedby,name,locode,coordinates,postal,areacode,c_country_id,c_region_id,c_city_uu)
