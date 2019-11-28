@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
  <row id="1" trl="Y">
   <value column="Name" original="AD_Reference Data Types">AD_Reference 数据引用类型</value>
   <value column="Description" original="Data Type selection">AD_Reference Data Types，AD数据类型</value>
@@ -2590,6 +2590,21 @@
   <value column="Description" original="Multiple execution rule list">Multiple execution rule list</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200161" trl="N">
+  <value column="Name" original="Chosen Multiple Selection List">下拉列表的多选列表</value>
+  <value column="Description" original="Chosen multiple selection box for reference list">下拉列表的多选列表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200162" trl="N">
+  <value column="Name" original="Chosen Multiple Selection Table">数据库表多选列表</value>
+  <value column="Description" original="Chosen multiple selection box for table list">数据库表多选列表</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200163" trl="N">
+  <value column="Name" original="Chosen Multiple Selection Search">查询的多选列表</value>
+  <value column="Description" original="Chosen multiple selection box for search">查询的多选列表</value>
+  <value column="Help" original=""/>
+ </row>
  <row id="200165" trl="N">
   <value column="Name" original="AD_Table with ID Column">AD_Table with ID Column</value>
   <value column="Description" original=""/>
@@ -2603,6 +2618,26 @@
  <row id="200167" trl="N">
   <value column="Name" original="Activate/Deactivate/Delete">Activate/Deactivate/Delete</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200169" trl="N">
+  <value column="Name" original="ReportOutputType">报表输出类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200170" trl="N">
+  <value column="Name" original="ViewFindResult">显示查询结果</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200171" trl="N">
+  <value column="Name" original="RelType C_Invoice -&gt; C_Invoice (CM)" xml:space="preserve"><![CDATA[RelType C_Invoice -> C_Invoice (CM)]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200173" trl="N">
+  <value column="Name" original="Scheduler State">计划任务状态</value>
+  <value column="Description" original="View and change the state of a scheduler">显示变更计划任务状态</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

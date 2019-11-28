@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Window">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Window">
  <row id="100" trl="Y">
   <value column="Name" original="Table and Column">表与列</value>
   <value column="Description" original="Maintain Tables and Columns">维护表与列</value>
@@ -1674,14 +1674,24 @@
   <value column="Description" original="Users from All Clients">查看所有实体的用户信息</value>
   <value column="Help" original="">所有用户</value>
  </row>
+ <row id="200095" trl="N">
+  <value column="Name" original="Process Customization">自定义流程</value>
+  <value column="Description" original="Define Process Customization for Role/User">为角色/用户定义流程自定义</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">此处定义的自定义值将覆盖/替换默认系统定义（如果已定义）</value>
+ </row>
  <row id="200107" trl="N">
   <value column="Name" original="All User Roles">All User Roles</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200108" trl="N">
-  <value column="Name" original="All Roles">All Roles</value>
-  <value column="Description" original="Roles from All Clients">Roles from All Clients</value>
+  <value column="Name" original="All Roles">全部角色</value>
+  <value column="Description" original="Roles from All Clients">全部角色（含所有实体）</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200109" trl="N">
+  <value column="Name" original="User Queries">用户查询</value>
+  <value column="Description" original="View and maintain saved queries">查看和维护保存的查询</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

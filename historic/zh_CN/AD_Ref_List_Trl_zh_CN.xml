@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Ref_List">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Ref_List">
  <row id="51" trl="Y">
   <value column="Name" original="Organization">组织</value>
   <value column="Description" original=""/>
@@ -5418,6 +5418,34 @@
  </row>
  <row id="200469" trl="N">
   <value column="Name" original="Activate">Activate</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200470" trl="N">
+  <value column="Name" original="PDF">PDF</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200471" trl="N">
+  <value column="Name" original="HTML">HTML</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200472" trl="N">
+  <value column="Name" original="Excel">Excel</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200473" trl="N">
+  <value column="Name" original="CSV">CSV</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200474" trl="N">
+  <value column="Name" original="Default">缺省</value>
+  <value column="Description" original="Use what is defined on the Sysconfig key">使用Sysconfig定义的内容</value>
+ </row>
+ <row id="200475" trl="N">
+  <value column="Name" original="Always in Grid View">始终在网格视图中</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200476" trl="N">
+  <value column="Name" original="According to threshold">根据阈值</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

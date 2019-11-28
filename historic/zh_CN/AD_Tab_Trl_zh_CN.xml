@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Tab">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Tab">
  <row id="100" trl="Y">
   <value column="Name" original="Table">表</value>
   <value column="CommitWarning" original=""/>
@@ -6375,6 +6375,18 @@ The 'View Column' Tab will store the columns someID, someName in the SELECT clau
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200234" trl="N">
+  <value column="Name" original="Process Customization">自定义流程</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User defined Process">用户定义的流程</value>
+  <value column="Help" original="User defined Process">用户定义的流程</value>
+ </row>
+ <row id="200235" trl="N">
+  <value column="Name" original="User defined Process Parameter">自定义流程参数</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User defined Process Parameter">用户自定义流程参数</value>
+  <value column="Help" original="User defined Process Parameter">用户自定义流程参数</value>
+ </row>
  <row id="200262" trl="N">
   <value column="Name" original="User Roles">User Roles</value>
   <value column="CommitWarning" original=""/>
@@ -6388,21 +6400,39 @@ The 'View Column' Tab will store the columns someID, someName in the SELECT clau
   <value column="Help" original=""/>
  </row>
  <row id="200264" trl="N">
-  <value column="Name" original="Role">Role</value>
+  <value column="Name" original="Role">角色</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200265" trl="N">
-  <value column="Name" original="Role">Role</value>
+  <value column="Name" original="Role">角色</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200266" trl="N">
-  <value column="Name" original="User Roles">User Roles</value>
+  <value column="Name" original="User Roles">用户角色</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200271" trl="N">
+  <value column="Name" original="Translation">共享</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200272" trl="N">
+  <value column="Name" original="Translation">共享</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200275" trl="N">
+  <value column="Name" original="User Queries">用户查询</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="View and maintain saved queries">查看和维护保存的查询</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

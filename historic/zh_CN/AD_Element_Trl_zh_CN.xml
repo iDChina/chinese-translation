@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Element">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Element">
  <row id="101" trl="Y">
   <value column="Name" original="Attachment">附件</value>
   <value column="PrintName" original="Attachment">附件</value>
@@ -61781,6 +61781,61 @@ logic operators	:= AND or OR  (...)]]></value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203140" trl="N">
+  <value column="Name" original="Page break per record">记录的分页符</value>
+  <value column="PrintName" original="Page break per record">记录的分页符</value>
+  <value column="Description" original="Page Break after each record">每条记录后的分页符</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203143" trl="N">
+  <value column="Name" original="User defined Process">用户定义流程</value>
+  <value column="PrintName" original="User defined Process">用户定义流程</value>
+  <value column="Description" original="Primary Key : User defined Process">主键：用户定义的进程</value>
+  <value column="Help" original="Primary Key : User defined Process">主键：用户定义的进程</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203144" trl="N">
+  <value column="Name" original="AD_UserDef_Proc_UU">AD_UserDef_Proc_UU</value>
+  <value column="PrintName" original="AD_UserDef_Proc_UU">AD_UserDef_Proc_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203145" trl="N">
+  <value column="Name" original="AD_UserDef_Proc_Parameter_ID">AD_UserDef_Proc_Parameter_ID</value>
+  <value column="PrintName" original="AD_UserDef_Proc_Parameter_ID">AD_UserDef_Proc_Parameter_ID</value>
+  <value column="Description" original="Primary Key : User defined Process Parameter">Primary Key : User defined Process Parameter</value>
+  <value column="Help" original="Primary Key : User defined Process Parameter">Primary Key : User defined Process Parameter</value>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203146" trl="N">
+  <value column="Name" original="AD_UserDef_Proc_Parameter_UU">AD_UserDef_Proc_Parameter_UU</value>
+  <value column="PrintName" original="AD_UserDef_Proc_Parameter_UU">AD_UserDef_Proc_Parameter_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203147" trl="N">
   <value column="Name" original="Preserve custom name">Preserve custom name</value>
   <value column="PrintName" original="Preserve custom name">Preserve custom name</value>
@@ -62006,6 +62061,17 @@ Yes，额外缩放目标记录子页签的关联记录。显示格式为：目�
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
+ <row id="203288" trl="N">
+  <value column="Name" original="One Payment Per Invoice">每张发票一次付款</value>
+  <value column="PrintName" original="One Payment Per Invoice">每张发票一次付款</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
  <row id="203290" trl="N">
   <value column="Name" original="AD_AllUserRoles_V_UU">AD_AllUserRoles_V_UU</value>
   <value column="PrintName" original="AD_AllUserRoles_V_UU">AD_AllUserRoles_V_UU</value>
@@ -62153,6 +62219,149 @@ Yes，额外缩放目标记录子页签的关联记录。显示格式为：目�
   <value column="Name" original="AD_AllRoles_V_UU">AD_AllRoles_V_UU</value>
   <value column="PrintName" original="AD_AllRoles_V_UU">AD_AllRoles_V_UU</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203337" trl="N">
+  <value column="Name" original="Report Output Type">报表输出类型</value>
+  <value column="PrintName" original="Report Output Type">报表输出类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203345" trl="N">
+  <value column="Name" original="View find result">显示查询结果</value>
+  <value column="PrintName" original="View find result">显示查询结果</value>
+  <value column="Description" original="Does the system must switch to grid mode after the Find panel closes">Does the system must switch to grid mode after the Find panel closes</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203346" trl="N">
+  <value column="Name" original="Threshold">阈值</value>
+  <value column="PrintName" original="Threshold">阈值</value>
+  <value column="Description" original="Force grid view when Find panel closes if number of records exceed threshold">如果记录数超过阈值，则在“查找”面板关闭时强制网格视图</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203347" trl="N">
+  <value column="Name" original="Create Allocation">创建分配信息</value>
+  <value column="PrintName" original="Create Allocation">创建分配信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203348" trl="N">
+  <value column="Name" original="Related Invoice">相关发票</value>
+  <value column="PrintName" original="Related Invoice">相关发票</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203349" trl="N">
+  <value column="Name" original="Paging Size">每页显示行数</value>
+  <value column="PrintName" original="Paging Size">每页显示行数</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203350" trl="N">
+  <value column="Name" original="Convert Amounts in Currency">换算货币金额</value>
+  <value column="PrintName" original="Convert Amounts in Currency">换算货币金额</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203354" trl="N">
+  <value column="Name" original="PA_ReportLine_Trl_UU">PA_ReportLine_Trl_UU</value>
+  <value column="PrintName" original="PA_ReportLine_Trl_UU">PA_ReportLine_Trl_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203355" trl="N">
+  <value column="Name" original="PA_ReportColumn_Trl_UU">PA_ReportColumn_Trl_UU</value>
+  <value column="PrintName" original="PA_ReportColumn_Trl_UU">PA_ReportColumn_Trl_UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203357" trl="N">
+  <value column="Name" original="Only positive balance">Only positive balance</value>
+  <value column="PrintName" original="Only positive balance">Only positive balance</value>
+  <value column="Description" original="Include only positive balance">Include only positive balance</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203363" trl="N">
+  <value column="Name" original="Referenced Match PO">Referenced Match PO</value>
+  <value column="PrintName" original="Referenced Match PO">Referenced Match PO</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203364" trl="N">
+  <value column="Name" original="Referenced Match Invoice">Referenced Match Invoice</value>
+  <value column="PrintName" original="Referenced Match Invoice">Referenced Match Invoice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203368" trl="N">
+  <value column="Name" original="Scheduler State">计划任务状态</value>
+  <value column="PrintName" original="Scheduler State">计划任务状态</value>
+  <value column="Description" original="State of this scheduler record (not scheduled, started or stopped)">当前计划任务的状态（为计划、已启动、已停止</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
