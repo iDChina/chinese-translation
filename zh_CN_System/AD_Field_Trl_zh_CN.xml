@@ -16,42 +16,42 @@
   <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">子表有多个父表时，指定子表的列来链接两表关系。比如“用户组织权限”，使用用户ID，组织ID这两个外键，当挂在用户父标签下，链接列设置为用户ID；当挂在组织父标签下，链接列设置为组织ID。</value>
  </row>
  <row id="1572" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="2686" trl="Y">
-  <value column="Name" original="Movement Date">盘点日期</value>
-  <value column="Description" original="Date a product was moved in or out of inventory">表示存货发生差异的日期</value>
-  <value column="Help" original="The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.">盘点日期，表示存货差异的发生日期。</value>
+  <value column="Name" original="Movement Date">异动日期</value>
+  <value column="Description" original="Date a product was moved in or out of inventory">存货发生异动的日期</value>
+  <value column="Help" original="The Movement Date indicates the date that a product moved in or out of inventory.  This is the result of a shipment, receipt or inventory movement.">异动日期，表示存货异动的发生日期。其由发货、收货或移库导致。</value>
  </row>
  <row id="2694" trl="Y">
   <value column="Name" original="Phys.Inventory">库存盘点</value>
-  <value column="Description" original="Parameters for a Physical Inventory">库存盘点</value>
+  <value column="Description" original="Parameters for a Physical Inventory">库存盘点参数</value>
   <value column="Help" original="The Physical Inventory indicates a unique parameters for a physical inventory.">实物库存的唯一编号。</value>
  </row>
  <row id="2765" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="2927" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="3324" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="3452" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="3485" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
@@ -66,7 +66,7 @@
   <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理。</value>
  </row>
  <row id="4105" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
@@ -76,12 +76,12 @@
   <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">记账日期表示单据生成会计分录的日期，同时也是货币汇兑的日期。银行对账明细的记账日期被用作货币汇兑和报表。</value>
  </row>
  <row id="4286" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="4347" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
@@ -96,12 +96,12 @@
   <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">标识收取佣金的业务伙伴</value>
  </row>
  <row id="4545" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="4632" trl="Y">
-  <value column="Name" original="User/Contact">用户</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。</value>
  </row>
@@ -111,7 +111,7 @@
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
  </row>
  <row id="5020" trl="Y">
-  <value column="Name" original="User/Contact">用户</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户 - 内部</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。</value>
  </row>
@@ -126,12 +126,12 @@
   <value column="Help" original="The Language identifies the language to use for display and formatting">该语言用来显示和格式化单据。如果实体启用“多语种单据”选项，且语言已被正确安装和加载，该语言为首选单据语言。</value>
  </row>
  <row id="5170" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="5200" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
@@ -146,7 +146,7 @@
   <value column="Help" original="The Quantity indicates the number of a specific product or item for this document.">票据所对应的发票数量</value>
  </row>
  <row id="5875" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
@@ -156,47 +156,47 @@
   <value column="Help" original="The name if the system to differentiate support contracts">系统的名称，用以区分支持合同。</value>
  </row>
  <row id="5922" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="6136" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="6473" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="6760" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="6889" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="7015" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="7244" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="7326" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
  <row id="7378" trl="Y">
-  <value column="Name" original="User/Contact">联系人</value>
+  <value column="Name" original="User/Contact">用户/联系人</value>
   <value column="Description" original="User within the system - Internal or Business Partner Contact">业务伙伴的联系人</value>
   <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">业务伙伴的联系人，可以使用名称和密码登录到系统。</value>
  </row>
