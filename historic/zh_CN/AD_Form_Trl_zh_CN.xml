@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">生成发票 （手动）</value>
   <value column="Description" original="Select and generate invoices">选择销售订单，生成发票并完成单据</value>
@@ -11,7 +11,7 @@
  <row id="101" trl="Y">
   <value column="Name" original="Import File Loader">导入文件加载器</value>
   <value column="Description" original="Load flat Files into import tables">加载待导入的数据文件到临时表中</value>
-  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading]." xml:space="preserve"><![CDATA[选择待导入文件，并指定导入格式，预览每行数据是否正确，如果正确，点击右下角‘OK’按钮导入数据到临时表中<br />注意：以“[”开始和以“]”结束的注释会忽略导入，例如: [我的表头]。]]></value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading]." xml:space="preserve"><![CDATA[选择待导入文件，并指定导入格式，预览每行数据是否正确，如果正确，点击右下角‘OK’按钮导入数据到临时表中<br />注意：以“[”开始和以“]”结束的注释会忽略导入，例如: [我的表头]]]></value>
  </row>
  <row id="103" trl="Y">
   <value column="Name" original="Material Transactions">收发明细</value>
@@ -42,11 +42,6 @@
   <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购-收货单-发票</value>
   <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">匹配采购订单, 收货单, 供应商发票</value>
   <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">确认收货单和发票的相互匹配关系。 如果只希望匹配部分的发货情况，请确保不选择"相同数量"选项</value>
- </row>
- <row id="109" trl="Y">
-  <value column="Name" original="Translation Import/Export">翻译导入/导出</value>
-  <value column="Description" original="Import or Export Language Translation">导入或导出语言翻译</value>
-  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">导入导出经外部工具编辑过的 xml 文件。请注意此语言必须启用并设置为系统语言</value>
  </row>
  <row id="110" trl="Y">
   <value column="Name" original="Generate Shipments (manual)">生成发货单（手动）</value>
@@ -231,13 +226,28 @@
   <value column="Help" original=""/>
  </row>
  <row id="200011" trl="N">
-  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Name" original="idempiereMonitor">idempiere监控器</value>
   <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Form to configure access to /idempiereMonitor - do not add to menu</value>
   <value column="Help" original=""/>
  </row>
  <row id="200012" trl="N">
-  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web 控制台</value>
   <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Plugin Manager">插件管理器</value>
+  <value column="Description" original="Plugin Manager">插件管理器</value>
+  <value column="Help" original="Plugin Manager">插件管理器</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Add Authorization Mail Account">添加授权邮件帐户</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Register MFA">注冊MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">注册多因子身份验证机制</value>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

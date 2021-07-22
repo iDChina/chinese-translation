@@ -1,5 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
+ <row id="133" trl="N">
+  <value column="Name" original="Warehouse">仓库</value>
+  <value column="Description" original="Storage Warehouse and Service Point">仓储仓库及服务点</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">仓库标识了存储产品或提供服务的唯一仓库</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Movement Type">移动类型</value>
+  <value column="Description" original="Method of moving the inventory">移动库存的方法</value>
+  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">表示仓库移动的类型（入、出、到生产等）</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="Product">产品</value>
+  <value column="Description" original="Product, Service, Item">产品、服务、商品</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">标识在此组织中购买或销售的产品</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="163" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="172" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="174" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="176" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="178" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="179" trl="N">
+  <value column="Name" original="Product Category">产品类别</value>
+  <value column="Description" original="Category of a Product">产品类别</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection.">标识此产品所属的类别。产品类别用于定价和选择</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="180" trl="N">
+  <value column="Name" original="Product">产品</value>
+  <value column="Description" original="Product, Service, Item">产品、服务、商品</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">标识在此组织中购买或销售的产品</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="189" trl="N">
+  <value column="Name" original="Product Category">产品类别</value>
+  <value column="Description" original="Category of a Product">产品类别</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection.">标识此产品所属的类别。产品类别用于定价和选择</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="190" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
  <row id="227" trl="Y">
   <value column="Name" original="Delete existing Accounting Entries">删除已存在的会计分录</value>
   <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">所选的会计分录将被删除!  危险 !!!</value>
@@ -11,6 +102,20 @@
   <value column="Name" original="Pricelist Version">价格表版本</value>
   <value column="Description" original="Only used if Price List is used to set future/standard cost price">只使用如果价格表用来设置未来/标准成本价格</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="240" trl="N">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个业务伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="241" trl="N">
+  <value column="Name" original="Product">产品</value>
+  <value column="Description" original="Product, Service, Item">产品、服务、商品</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">标识在此组织中购买或销售的产品</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
@@ -337,29 +442,29 @@
   <value column="Placeholder2" original=""/>
  </row>
  <row id="53314" trl="Y">
-  <value column="Name" original="Full rebuild">重建所有期间数据</value>
-  <value column="Description" original="Delete all existing summary data and recalculate.">无论上次重算时间，删除所有存在的汇总数据并重新插入计算结果</value>
-  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">如果不选择，上次重算时间以前的历史数据不参与计算，只计算最近的过账数据</value>
+  <value column="Name" original="Full rebuild">全部重算</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">删除所有存在的汇总数据并重新计算</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">如果没有选择，只有最近期间过账的会计记录会被重新计算</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row id="53316" trl="Y">
-  <value column="Name" original="Force">强制重建</value>
-  <value column="Description" original="Force rebuild of cube even if locked.">即使立方体被锁定，也强制重建数据结果</value>
+  <value column="Name" original="Force">强迫</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">如果被锁定，强制重建立方体</value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row id="53485" trl="Y">
   <value column="Name" original="Periodicity">周期性</value>
-  <value column="Description" original="">计划的周期定义</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
  <row id="53486" trl="Y">
-  <value column="Name" original="Repetitions">周期数量</value>
-  <value column="Description" original="">计划的周期数量</value>
+  <value column="Name" original="Repetitions">重复</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
@@ -373,8 +478,8 @@
  </row>
  <row id="53517" trl="Y">
   <value column="Name" original="Production Quantity">生产数量</value>
-  <value column="Description" original="Quantity of products to produce">Quantity of products to produce</value>
-  <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
+  <value column="Description" original="Quantity of products to produce">产成品产量</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">生产数量表示要生产的产成品数量</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
@@ -449,9 +554,9 @@
   <value column="Placeholder2" original=""/>
  </row>
  <row id="200085" trl="Y">
-  <value column="Name" original="Activity Accounting">作业维度</value>
-  <value column="Description" original="Use Activity accounting dimension">使用作业维度</value>
-  <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
+  <value column="Name" original="Activity Accounting">活动维度</value>
+  <value column="Description" original="Use Activity accounting dimension">使用活动维度</value>
+  <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">定义此实体是否将活动作为记帐的一维度。这可以稍后在实体的会计模式窗口中修改</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>
@@ -478,9 +583,23 @@ this field define where request, error,.. occupy.</value>
   <value column="Placeholder2" original=""/>
  </row>
  <row id="200226" trl="N">
-  <value column="Name" original="Folder">Folder</value>
-  <value column="Description" original="Path on the server where the pack in files are located">Path on the server where the pack in files are located</value>
+  <value column="Name" original="Folder">文件夹</value>
+  <value column="Description" original="Path on the server where the pack in files are located">pack-in文件所在服务器上的路径</value>
   <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200287" trl="N">
+  <value column="Name" original="Client">实体</value>
+  <value column="Description" original="Client/Tenant for this installation.">实体/租户</value>
+  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">实体代表公司或法人实体。不能在实体间共享数据。租户是实体的同义词</value>
+  <value column="Placeholder" original=""/>
+  <value column="Placeholder2" original=""/>
+ </row>
+ <row id="200293" trl="N">
+  <value column="Name" original="Delete old/existing files">删除旧/现有文件</value>
+  <value column="Description" original="Delete the records from the old storage provider after moved">迁移后从旧存储提供者中删除记录</value>
+  <value column="Help" original="WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.">警告！ 如果勾选的话，该处理将无法回滚，请按需在执行前备份。如果没有勾选的话，需要系统管理员之后手动的从以前的存储提供者中删除旧文件</value>
   <value column="Placeholder" original=""/>
   <value column="Placeholder2" original=""/>
  </row>

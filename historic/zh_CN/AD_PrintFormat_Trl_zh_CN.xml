@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormat">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormat">
  <row id="100" trl="Y">
   <value column="Name" original="Order_Header  ** TEMPLATE **">订单_表头 *模板*</value>
   <value column="Description" original="Standard Order Header">标准订单头信息</value>
@@ -36,43 +36,7 @@
   <value column="Name" original="PaySelection_Remittance  ** TEMPLATE **">付款选择_汇款  *模板*</value>
   <value column="Description" original="Standard Remittance Header">标准汇款表头信息</value>
  </row>
- <row id="118" trl="N">
-  <value column="Name" original="Order Header">订单头信息</value>
-  <value column="Description" original="Standard Order Header">标准订单头信息</value>
- </row>
- <row id="119" trl="N">
-  <value column="Name" original="Order LineTax">Order LineTax</value>
-  <value column="Description" original="Standard Order Line&amp;Tax" xml:space="preserve"><![CDATA[Standard Order Line&Tax]]></value>
- </row>
- <row id="120" trl="N">
-  <value column="Name" original="Invoice Header">Invoice Header</value>
-  <value column="Description" original="Standard Invoice Header">Standard Invoice Header</value>
- </row>
- <row id="121" trl="N">
-  <value column="Name" original="Invoice LineTax">Invoice LineTax</value>
-  <value column="Description" original="Standard Invoice Line&amp;Tax Lines" xml:space="preserve"><![CDATA[Standard Invoice Line&Tax Lines]]></value>
- </row>
- <row id="122" trl="N">
-  <value column="Name" original="Shipment Header">Shipment Header</value>
-  <value column="Description" original="Standard Shipment Header">Standard Shipment Header</value>
- </row>
- <row id="123" trl="N">
-  <value column="Name" original="Shipment Line">Shipment Line</value>
-  <value column="Description" original="Standard Shipment Lines">Standard Shipment Lines</value>
- </row>
- <row id="124" trl="N">
-  <value column="Name" original="Check">支票报表</value>
-  <value column="Description" original="Standard Check with Remittance Info">Standard Check with Remittance Info</value>
- </row>
- <row id="125" trl="N">
-  <value column="Name" original="Remittance Lines">Remittance Lines</value>
-  <value column="Description" original="Standard Check/Remittance Lines">Standard Check/Remittance Lines</value>
- </row>
- <row id="126" trl="N">
-  <value column="Name" original="Remittance">Remittance</value>
-  <value column="Description" original="Standard Remittance Header">Standard Remittance Header</value>
- </row>
- <row id="134" trl="N">
+ <row id="134" trl="Y">
   <value column="Name" original="Statement of Accounts">账户状况表</value>
   <value column="Description" original="Statement of Accounts">账户状况表</value>
  </row>
@@ -130,14 +94,6 @@
  </row>
  <row id="162" trl="Y">
   <value column="Name" original="Message">消息报告</value>
-  <value column="Description" original=""/>
- </row>
- <row id="163" trl="N">
-  <value column="Name" original="Report Line">报表明细</value>
-  <value column="Description" original=""/>
- </row>
- <row id="164" trl="N">
-  <value column="Name" original="Report Source">报表源</value>
   <value column="Description" original=""/>
  </row>
  <row id="167" trl="Y">
@@ -280,14 +236,6 @@
   <value column="Name" original="Forecast Report by Period">期间预测报告</value>
   <value column="Description" original=""/>
  </row>
- <row id="50035" trl="N">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail &amp;Copy Record 1746519845" xml:space="preserve"><![CDATA[Multi Level BOM & Formula Detail &Copy Record 1746519845]]></value>
-  <value column="Description" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[Multi Level BOM & Formula Detail]]></value>
- </row>
- <row id="50036" trl="N">
-  <value column="Name" original="Forecast Report &amp;Copy Record 1630346308" xml:space="preserve"><![CDATA[Forecast Report &Copy Record 1630346308]]></value>
-  <value column="Description" original=""/>
- </row>
  <row id="50037" trl="Y">
   <value column="Name" original="Manufacturing_Order_Node ** TEMPLATE **">生产工单_工序 *模板*</value>
   <value column="Description" original="Manufacturing Order Node">生产工单工序</value>
@@ -337,7 +285,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="200002" trl="N">
-  <value column="Name" original="1099 Extract">1099 Extract</value>
+  <value column="Name" original="1099 Extract">填写1099摘录</value>
   <value column="Description" original=""/>
  </row>
  <row id="200005" trl="Y">

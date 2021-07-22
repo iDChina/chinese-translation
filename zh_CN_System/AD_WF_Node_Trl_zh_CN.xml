@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
  <row id="116" trl="Y">
-  <value column="Name" original="Accounting Schema">会计账套</value>
+  <value column="Name" original="Accounting Schema">会计模式</value>
   <value column="Description" original="Project as Account Segment">项目作为账户分段</value>
-  <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">为了获得项目的会计报表，需要创建和启用项目维度。</value>
+  <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">为了获得项目的会计报表，需要创建和启用项目维度</value>
  </row>
  <row id="118" trl="Y">
   <value column="Name" original="System Elements">系统元素</value>
   <value column="Description" original="Translate System Elements">翻译系统元素</value>
-  <value column="Help" original="System Elements are used to centrally define field labels, description and help. When translating an Element, the appropriate information of Fields in Windows, Parameters and Reports are translated (overwritten)">系统元素是字段、流程参数、打印格式项、信息窗口字段的词条的来源。同步词条翻译会将元素词条覆盖集中维护类型对象。</value>
+  <value column="Help" original="System Elements are used to centrally define field labels, description and help. When translating an Element, the appropriate information of Fields in Windows, Parameters and Reports are translated (overwritten)">系统元素是字段、流程参数、打印格式项、信息窗口字段的词条的来源。同步词条翻译会将元素词条覆盖集中维护类型对象</value>
  </row>
  <row id="119" trl="Y">
   <value column="Name" original="Messages">消息</value>
   <value column="Description" original="Translate Messages">翻译消息</value>
-  <value column="Help" original="Translate the messages used in Windows, Forms and Processes">翻译窗口、窗体和流程的消息词条。</value>
+  <value column="Help" original="Translate the messages used in Windows, Forms and Processes">翻译窗口、窗体和流程的消息词条</value>
  </row>
  <row id="120" trl="Y">
   <value column="Name" original="Reference">引用</value>
   <value column="Description" original="Translate References">翻译引用</value>
-  <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">引用被用于预定义的值列表，只需要翻译List类型值。</value>
+  <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">引用被用于预定义的值列表，只需要翻译List类型值</value>
  </row>
  <row id="121" trl="Y">
   <value column="Name" original="Window &amp; Tab">窗口与页签</value>
   <value column="Description" original="Translate Windows and Tabs">翻译窗口与页签</value>
-  <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">翻译窗口和页签的名字、描述和帮助。99%的字段词条是集中维护的，无需翻译。</value>
+  <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">翻译窗口和页签的名字、描述和帮助。99%的字段词条是集中维护的，无需翻译</value>
  </row>
  <row id="122" trl="Y">
   <value column="Name" original="Form">窗体</value>
   <value column="Description" original="Translate Forms">翻译窗体</value>
-  <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">翻译窗体和特殊窗口的名称、描述和帮助。</value>
+  <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">翻译窗体和特殊窗口的名称、描述和帮助</value>
  </row>
  <row id="123" trl="Y">
   <value column="Name" original="Report &amp; Process">报表与流程</value>
   <value column="Description" original="Translate Reports and Processes">翻译报表与流程</value>
-  <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">只需为报表与流程翻译名称，描述和帮助，而参数是集中维护，系统会同步词条。</value>
+  <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">只需为报表与流程翻译名称，描述和帮助，而参数是集中维护，系统会同步词条</value>
  </row>
  <row id="140" trl="Y">
   <value column="Name" original="User">用户</value>
   <value column="Description" original="Define Sales Representative as User">将销售代表作为用户定义</value>
-  <value column="Help" original="Users can log into the system and have access to functionality via one or more roles. Select the Business Partner you just set up. This enables the user to be treated as sales rep in the system.">用户可以登录到系统，并可一个或者多个角色权限。如果选择业务伙伴作为销售代表，系统会将其作为用户对待。</value>
+  <value column="Help" original="Users can log into the system and have access to functionality via one or more roles. Select the Business Partner you just set up. This enables the user to be treated as sales rep in the system.">用户可以登录到系统，并可一个或者多个角色权限。如果选择业务伙伴作为销售代表，系统会将其作为用户对待</value>
  </row>
  <row id="141" trl="Y">
   <value column="Name" original="Business Partner">业务伙伴</value>
   <value column="Description" original="Set up Sales Representative as Business Partner">设置销售代表</value>
-  <value column="Help" original="Set up the sales representative as Employee and Sales Representative in the Employee tab.  Also set up the Vendor part, if you want to create payments.">在员工页签，设置销售代表为员工或者销售代表选项，如果需要支付，你可以设置供应商信息。</value>
+  <value column="Help" original="Set up the sales representative as Employee and Sales Representative in the Employee tab.  Also set up the Vendor part, if you want to create payments.">在员工页签，设置销售代表为员工或者销售代表选项，如果需要支付，你可以设置供应商信息</value>
  </row>
  <row id="146" trl="Y">
   <value column="Name" original="Workflow">工作流</value>
   <value column="Description" original="Translate Workflows">翻译工作流</value>
-  <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">翻译工作流和节点的名称、描述和帮助。只需翻译List对象，其他不要翻译。</value>
+  <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">翻译工作流和节点的名称、描述和帮助。只需翻译List对象，其他不要翻译</value>
  </row>
  <row id="152" trl="Y">
   <value column="Name" original="Check Client Setup">检查实体设置</value>
   <value column="Description" original="Check Client setup for Requests">检查实体设置的请求信息</value>
-  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">设置一个接收请求提醒的邮件服务器和email地址。如果你定义了邮件用户和密码，系统将从邮件服务器的收件箱取回邮件。</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">设置一个接收请求提醒的邮件服务器和email地址。如果你定义了邮件用户和密码，系统将从邮件服务器的收件箱取回邮件</value>
  </row>
  <row id="153" trl="Y">
   <value column="Name" original="Check Users">检查用户</value>
   <value column="Description" original="Check users for Request processing">检查用户的请求信息</value>
-  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">请确认用户的邮件地址和直接主管。</value>
+  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">请确认用户的邮件地址和直接主管</value>
  </row>
  <row id="155" trl="Y">
   <value column="Name" original="Check Business Partners">检查业务伙伴</value>
   <value column="Description" original="Check Business Partners for Request processing">检查业务伙伴的请求信息</value>
-  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">你可以向业务伙伴发送，确认业务伙伴或者其联系人是否存在电子邮件地址。</value>
+  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">你可以向业务伙伴发送，确认业务伙伴或者其联系人是否存在电子邮件地址</value>
  </row>
  <row id="166" trl="Y">
   <value column="Name" original="Tax Category">税种</value>
   <value column="Description" original="Maintain Tax Categories">维护税种</value>
-  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用来维护税的种类，并设置缺省值，每个产品可以指定一个税种，每个税种有一个默认税目。</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">税种窗口用来维护税的种类，并设置缺省值，每个产品可以指定一个税种，每个税种有一个默认税目</value>
  </row>
  <row id="167" trl="Y">
   <value column="Name" original="Product">产品</value>
   <value column="Description" original="Maintain Products">维护产品</value>
-  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">产品窗口定义了组织的所有产品、服务和资源。</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">产品窗口定义了组织的所有产品、服务和资源</value>
  </row>
  <row id="168" trl="Y">
   <value column="Name" original="Charge">杂费</value>
@@ -86,10 +86,10 @@
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">税率窗口定义用于每一税种的不同税率。例如，销售税必须为适用的每个地区进行定义</value>
  </row>
  <row id="170" trl="Y">
-  <value column="Name" original="Accounting Schema">会计账套</value>
-  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计账套 </value>
-  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context."><![CDATA[会计账套窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
-检查和变更总账账户和缺省账户。日常事务实际使用的账户取决于指定的执行组织，大多数维度信息都来自于单据的上下文字段。]]></value>
+  <value column="Name" original="Accounting Schema">会计模式</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效, 必须重新登录</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context." xml:space="preserve"><![CDATA[会计模式窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
+检查和变更总账账户和缺省账户。日常事务实际使用的账户取决于指定的执行组织，大多数维度信息都来自于单据的上下文字段]]></value>
  </row>
  <row id="50000" trl="Y">
   <value column="Name" original="Manufacturing Workflow Setup">生产工作流设置</value>
@@ -356,60 +356,10 @@
   <value column="Description" original="Replication Strategy">复制策略</value>
   <value column="Help" original="">复制策略</value>
  </row>
- <row id="50074" trl="Y">
-  <value column="Name" original="Payroll">薪酬</value>
-  <value column="Description" original="">薪酬</value>
-  <value column="Help" original="">薪酬</value>
- </row>
- <row id="50075" trl="Y">
-  <value column="Name" original="Payroll Concept Category">薪酬策略类别</value>
-  <value column="Description" original="">薪酬策略类别</value>
-  <value column="Help" original="">薪酬策略类别</value>
- </row>
- <row id="50076" trl="Y">
-  <value column="Name" original="Payroll Contract">薪酬合同</value>
-  <value column="Description" original="">薪酬合同</value>
-  <value column="Help" original="">薪酬合同</value>
- </row>
- <row id="50077" trl="Y">
-  <value column="Name" original="Payroll Process">薪酬处理</value>
-  <value column="Description" original="">薪酬处理</value>
-  <value column="Help" original="">薪酬处理</value>
- </row>
- <row id="50078" trl="Y">
-  <value column="Name" original="Payroll Table">薪酬单</value>
-  <value column="Description" original="">薪酬单</value>
-  <value column="Help" original="">薪酬单</value>
- </row>
- <row id="50079" trl="Y">
-  <value column="Name" original="Payroll Department">部门薪酬</value>
-  <value column="Description" original="">部门薪酬</value>
-  <value column="Help" original="">部门薪酬</value>
- </row>
- <row id="50080" trl="Y">
-  <value column="Name" original="Payroll Employee">职员薪酬</value>
-  <value column="Description" original="">职员薪酬</value>
-  <value column="Help" original="">职员薪酬</value>
- </row>
  <row id="50081" trl="Y">
   <value column="Name" original="Payroll Action Notice">薪酬发放提醒</value>
   <value column="Description" original="">薪酬发放提醒</value>
   <value column="Help" original="">薪酬发放提醒</value>
- </row>
- <row id="50082" trl="Y">
-  <value column="Name" original="Payroll Table Type">薪酬表类型</value>
-  <value column="Description" original="">薪酬表类型</value>
-  <value column="Help" original="">薪酬表类型</value>
- </row>
- <row id="50083" trl="Y">
-  <value column="Name" original="Payroll Job">薪酬职位</value>
-  <value column="Description" original="">薪酬职位</value>
-  <value column="Help" original="">薪酬职位</value>
- </row>
- <row id="50084" trl="Y">
-  <value column="Name" original="Payroll Concept Catalog">薪酬策略目录</value>
-  <value column="Description" original="">薪酬策略目录</value>
-  <value column="Help" original="">薪酬策略目录</value>
  </row>
  <row id="50099" trl="Y">
   <value column="Name" original="(DocAuto)">(单据自动)</value>
@@ -430,11 +380,6 @@
   <value column="Name" original="(Start)">(启动)</value>
   <value column="Description" original="">(启动)</value>
   <value column="Help" original="">(启动)</value>
- </row>
- <row id="50103" trl="Y">
-  <value column="Name" original="Activation Approval">激活审批</value>
-  <value column="Description" original="Approve asset activation">激活资产审批</value>
-  <value column="Help" original="">激活资产审批</value>
  </row>
  <row id="50104" trl="Y">
   <value column="Name" original="(DocAuto)">(单据自动)</value>

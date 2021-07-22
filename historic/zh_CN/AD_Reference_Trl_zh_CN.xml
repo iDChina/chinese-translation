@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Reference">
  <row id="1" trl="Y">
   <value column="Name" original="AD_Reference Data Types">AD_Reference 数据引用类型</value>
   <value column="Description" original="Data Type selection">AD_Reference Data Types，AD数据类型</value>
@@ -26,158 +26,158 @@
   <value column="Help" original=""/>
  </row>
  <row id="10" trl="Y">
-  <value column="Name" original="String" xml:space="preserve"><![CDATA[String_字符串（< 255）]]></value>
-  <value column="Description" original="Character String">最多包含255字符</value>
+  <value column="Name" original="String">字符串</value>
+  <value column="Description" original="Character String">字符串</value>
   <value column="Help" original=""/>
  </row>
  <row id="11" trl="Y">
-  <value column="Name" original="Integer">Number_整数（10位）</value>
+  <value column="Name" original="Integer">整数</value>
   <value column="Description" original="10 Digit numeric">10位数字</value>
   <value column="Help" original=""/>
  </row>
  <row id="12" trl="Y">
-  <value column="Name" original="Amount">Number_金额（4位小数）</value>
+  <value column="Name" original="Amount">金额</value>
   <value column="Description" original="Number with 4 decimals">带4位小数的数字</value>
   <value column="Help" original=""/>
  </row>
  <row id="13" trl="Y">
-  <value column="Name" original="ID">Number_ID（10位）</value>
+  <value column="Name" original="ID">ID</value>
   <value column="Description" original="10 Digit Identifier">10位数字ID</value>
   <value column="Help" original=""/>
  </row>
  <row id="14" trl="Y">
-  <value column="Name" original="Text" xml:space="preserve"><![CDATA[String_文本（<= 2000）]]></value>
-  <value column="Description" original="Character String up to 2000 characters">最多2000个字符的字符串</value>
+  <value column="Name" original="Text">文本</value>
+  <value column="Description" original="Character String up to 2000 characters">最大2000个字符的字符串</value>
   <value column="Help" original=""/>
  </row>
  <row id="15" trl="Y">
-  <value column="Name" original="Date">DateTime_日期</value>
-  <value column="Description" original="Date mm/dd/yyyy">mm/dd/yyyy</value>
+  <value column="Name" original="Date">日期</value>
+  <value column="Description" original="Date mm/dd/yyyy">日期 mm/dd/yyyy</value>
   <value column="Help" original=""/>
  </row>
  <row id="16" trl="Y">
-  <value column="Name" original="Date+Time">DateTime_日期+时间</value>
+  <value column="Name" original="Date+Time">日期+时间</value>
   <value column="Description" original="Date with time">日期+时间</value>
   <value column="Help" original=""/>
  </row>
  <row id="17" trl="Y">
-  <value column="Name" original="List">Refer_引用列表</value>
+  <value column="Name" original="List">引用列表</value>
   <value column="Description" original="Reference List">引用列表</value>
   <value column="Help" original=""/>
  </row>
  <row id="18" trl="Y">
-  <value column="Name" original="Table">Refer_表</value>
+  <value column="Name" original="Table">表</value>
   <value column="Description" original="Table List">表</value>
   <value column="Help" original="">表清单</value>
  </row>
  <row id="19" trl="Y">
-  <value column="Name" original="Table Direct">Refer_表直接</value>
+  <value column="Name" original="Table Direct">表直接</value>
   <value column="Description" original="Direct Table Access">表直接</value>
   <value column="Help" original="">字段命名必须是“表_ID”</value>
  </row>
  <row id="20" trl="Y">
-  <value column="Name" original="Yes-No">Option_Yes-No</value>
+  <value column="Name" original="Yes-No">Yes-No</value>
   <value column="Description" original="CheckBox">Yes-No</value>
   <value column="Help" original="">Boolean类型，“”Y“或者N”字符</value>
  </row>
  <row id="21" trl="Y">
-  <value column="Name" original="Location (Address)">AD_地点</value>
-  <value column="Description" original="Location/Address">AD控件：地点</value>
+  <value column="Name" original="Location (Address)">地点</value>
+  <value column="Description" original="Location/Address">地点</value>
   <value column="Help" original="">可以输入地址段</value>
  </row>
  <row id="22" trl="Y">
-  <value column="Name" original="Number">Number_浮点数字</value>
-  <value column="Description" original="Float Number">浮点数字</value>
+  <value column="Name" original="Number">数字</value>
+  <value column="Description" original="Float Number">浮点数</value>
   <value column="Help" original=""/>
  </row>
  <row id="23" trl="Y">
-  <value column="Name" original="Binary">BLOB_二进制数据</value>
-  <value column="Description" original="Binary Data">BLOB_二进制数据</value>
+  <value column="Name" original="Binary">二进制数据</value>
+  <value column="Description" original="Binary Data">二进制数据</value>
   <value column="Help" original=""/>
  </row>
  <row id="24" trl="Y">
-  <value column="Name" original="Time">DateTime_时间</value>
+  <value column="Name" original="Time">时间</value>
   <value column="Description" original="Time">时间</value>
   <value column="Help" original=""/>
  </row>
  <row id="25" trl="Y">
-  <value column="Name" original="Account">AD_账户元素（科目）</value>
-  <value column="Description" original="Account Element">AD控件：账户元素（科目）</value>
+  <value column="Name" original="Account">账户</value>
+  <value column="Description" original="Account Element">账户</value>
   <value column="Help" original="">可以选择账户组合</value>
  </row>
  <row id="27" trl="Y">
-  <value column="Name" original="Color">AD_颜色</value>
-  <value column="Description" original="Color element">AD控件：颜色</value>
+  <value column="Name" original="Color">颜色</value>
+  <value column="Description" original="Color element">颜色</value>
   <value column="Help" original=""/>
  </row>
  <row id="28" trl="Y">
-  <value column="Name" original="Button">AD_按钮</value>
-  <value column="Description" original="Command Button - starts a process">AD控件：流程按钮，启动一个流程</value>
+  <value column="Name" original="Button">按钮</value>
+  <value column="Description" original="Command Button - starts a process">命令按钮 - 启动一个流程</value>
   <value column="Help" original=""/>
  </row>
  <row id="29" trl="Y">
-  <value column="Name" original="Quantity">Number_数量</value>
+  <value column="Name" original="Quantity">数量</value>
   <value column="Description" original="Quantity data type">数量数据类型</value>
   <value column="Help" original=""/>
  </row>
  <row id="30" trl="Y">
-  <value column="Name" original="Search">Refer_搜索（信息窗口）</value>
-  <value column="Description" original="Search Field">按列名弹出信息窗口供搜索，如果无，自动构建信息窗口。</value>
-  <value column="Help" original="">自动构建信息窗口搜索，提供 value 和 name 供筛选</value>
+  <value column="Name" original="Search">搜索</value>
+  <value column="Description" original="Search Field">搜索</value>
+  <value column="Help" original="">弹出搜索窗口</value>
  </row>
  <row id="31" trl="Y">
-  <value column="Name" original="Locator (WH)">AD_库位</value>
-  <value column="Description" original="Warehouse Locator Data type">AD控件：库位</value>
-  <value column="Help" original="">仓库库位</value>
+  <value column="Name" original="Locator (WH)">库位</value>
+  <value column="Description" original="Warehouse Locator Data type">仓库货位数据类型</value>
+  <value column="Help" original=""/>
  </row>
  <row id="32" trl="Y">
-  <value column="Name" original="Image">AD_图片</value>
-  <value column="Description" original="Binary Image Data">AD控件：图片</value>
-  <value column="Help" original="">二进制图片文件</value>
+  <value column="Name" original="Image">图片</value>
+  <value column="Description" original="Binary Image Data">二进位的图片数据</value>
+  <value column="Help" original=""/>
  </row>
  <row id="33" trl="Y">
-  <value column="Name" original="Assignment">AD_资源分配</value>
-  <value column="Description" original="Resource Assignment">AD控件：资源分配</value>
+  <value column="Name" original="Assignment">资源分配</value>
+  <value column="Description" original="Resource Assignment">资源分配</value>
   <value column="Help" original=""/>
  </row>
  <row id="34" trl="Y">
-  <value column="Name" original="Memo">String_大文本编辑器</value>
-  <value column="Description" original="Large Text Editor - Character String up to 2000 characters">最多2000个字符的字符串</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Memo">大文本编辑器</value>
+  <value column="Description" original="Large Text Editor - Character String up to 2000 characters">大文本编辑器</value>
+  <value column="Help" original="">最多2000个字符的字符串</value>
  </row>
  <row id="35" trl="Y">
-  <value column="Name" original="Product Attribute">AD_产品属性</value>
-  <value column="Description" original="Product Attribute">AD控件：产品属性</value>
+  <value column="Name" original="Product Attribute">产品属性</value>
+  <value column="Description" original="Product Attribute">产品属性</value>
   <value column="Help" original=""/>
  </row>
  <row id="36" trl="Y">
-  <value column="Name" original="Text Long" xml:space="preserve"><![CDATA[String_长文本（> 2000）]]></value>
-  <value column="Description" original="Text (Long) - Text &gt; 2000 characters">超过 2000 字符的字符串</value>
-  <value column="Help" original=""/>
+  <value column="Name" original="Text Long">长文本</value>
+  <value column="Description" original="Text (Long) - Text &gt; 2000 characters">长文本</value>
+  <value column="Help" original="">超过 2000 字符的文本</value>
  </row>
  <row id="37" trl="Y">
-  <value column="Name" original="Costs+Prices">Number_成本+价格</value>
+  <value column="Name" original="Costs+Prices">成本+价格</value>
   <value column="Description" original="Costs + Prices (minimum currency precision but if exists more)">成本+价格</value>
   <value column="Help" original="">小数点取货币的最小精度</value>
  </row>
  <row id="38" trl="Y">
-  <value column="Name" original="FilePath">Path_本地路径</value>
+  <value column="Name" original="FilePath">文件路径</value>
   <value column="Description" original="Local File Path">本地文件路径</value>
   <value column="Help" original=""/>
  </row>
  <row id="39" trl="Y">
-  <value column="Name" original="FileName">Path_本地文件</value>
+  <value column="Name" original="FileName">文件名</value>
   <value column="Description" original="Local File">本地文件</value>
   <value column="Help" original=""/>
  </row>
  <row id="40" trl="Y">
-  <value column="Name" original="URL">Path_网址</value>
+  <value column="Name" original="URL">网址</value>
   <value column="Description" original="URL">网址</value>
   <value column="Help" original=""/>
  </row>
  <row id="42" trl="Y">
-  <value column="Name" original="Printer Name">AD_打印机名称</value>
-  <value column="Description" original="">AD控件：打印机名称</value>
+  <value column="Name" original="Printer Name">打印机名称</value>
+  <value column="Description" original="">打印机名称</value>
   <value column="Help" original=""/>
  </row>
  <row id="100" trl="Y">
@@ -441,8 +441,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="159" trl="Y">
-  <value column="Name" original="C_BPartner Location">C_BPartner 地点</value>
-  <value column="Description" original="Locations of a Business Partner">业务伙伴地点</value>
+  <value column="Name" original="C_BPartner Location">C_BPartner 地址</value>
+  <value column="Description" original="Locations of a Business Partner">业务伙伴地址</value>
   <value column="Help" original=""/>
  </row>
  <row id="161" trl="Y">
@@ -2041,9 +2041,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="53332" trl="Y">
-  <value column="Name" original="AD_RelationType Type">AD_RelationType 角色</value>
+  <value column="Name" original="AD_RelationType Type">AD_RelationType 关联类型</value>
   <value column="Description" original="&quot;Type&quot; of a relation type">关联类型的"类型"</value>
-  <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">现在我们只有含糊的关系类型，例如:记录对被定义为规则本身。今后，我们想要有明确的类型。一个显式类型只是定义一个模板，实际对可以添加由用户或系统本身</value>
+  <value column="Help" original="For now we only have implicit realtion types, i.e. the record pairs are defined by the rule itself. In future we would like to have explicit type also. An explizit type just defines a template, the actual pairs can be added by a user or by the system itself.">隐式关联关系，比如，记录对集被规则本身定义。以后打算采用显式类型定义，用一个模板去定义，用户或者系统可以新增实际的数据对集</value>
  </row>
  <row id="53333" trl="Y">
   <value column="Name" original="RelType C_Order (Sales) &lt;= C_Invoice_ID (Customer)" xml:space="preserve"><![CDATA[RelType C_Order (Sales) <= C_Invoice_ID (Customer)]]></value>
@@ -2191,7 +2191,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="53382" trl="Y">
-  <value column="Name" original="C_PaymentTerm PaymentTermUsage">C_PaymentTerm 付款期限用途</value>
+  <value column="Name" original="C_PaymentTerm PaymentTermUsage">C_PaymentTerm 付款条款用途</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2312,7 +2312,7 @@
  </row>
  <row id="200022" trl="Y">
   <value column="Name" original="AD_BroadcastMessage_Target">AD_BroadcastMessage_Target</value>
-  <value column="Description" original="Target Client">播放对象实体</value>
+  <value column="Description" original="Target Client">广播对象实体</value>
   <value column="Help" original=""/>
  </row>
  <row id="200023" trl="Y">
@@ -2545,6 +2545,11 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200115" trl="N">
+  <value column="Name" original="AttributeSet Type">AttributeSet Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200121" trl="N">
   <value column="Name" original="AD_Style">AD_Style</value>
   <value column="Description" original="CSS Style">CSS Style</value>
@@ -2580,6 +2585,11 @@
   <value column="Description" original="Users from all clients">Users from all clients</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200152" trl="N">
+  <value column="Name" original="Radio Group List">Radio Group List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200157" trl="N">
   <value column="Name" original="AD_Process Execution Type">AD_Process Execution Type</value>
   <value column="Description" original="Report/Process Execution Type">Report/Process Execution Type</value>
@@ -2591,18 +2601,18 @@
   <value column="Help" original=""/>
  </row>
  <row id="200161" trl="N">
-  <value column="Name" original="Chosen Multiple Selection List">下拉列表的多选列表</value>
-  <value column="Description" original="Chosen multiple selection box for reference list">下拉列表的多选列表</value>
+  <value column="Name" original="Chosen Multiple Selection List">Chosen Multiple Selection List</value>
+  <value column="Description" original="Chosen multiple selection box for reference list">Chosen multiple selection box for reference list</value>
   <value column="Help" original=""/>
  </row>
  <row id="200162" trl="N">
-  <value column="Name" original="Chosen Multiple Selection Table">数据库表多选列表</value>
-  <value column="Description" original="Chosen multiple selection box for table list">数据库表多选列表</value>
+  <value column="Name" original="Chosen Multiple Selection Table">Chosen Multiple Selection Table</value>
+  <value column="Description" original="Chosen multiple selection box for table list">Chosen multiple selection box for table list</value>
   <value column="Help" original=""/>
  </row>
  <row id="200163" trl="N">
-  <value column="Name" original="Chosen Multiple Selection Search">查询的多选列表</value>
-  <value column="Description" original="Chosen multiple selection box for search">查询的多选列表</value>
+  <value column="Name" original="Chosen Multiple Selection Search">Chosen Multiple Selection Search</value>
+  <value column="Description" original="Chosen multiple selection box for search">Chosen multiple selection box for search</value>
   <value column="Help" original=""/>
  </row>
  <row id="200165" trl="N">
@@ -2621,12 +2631,12 @@
   <value column="Help" original=""/>
  </row>
  <row id="200169" trl="N">
-  <value column="Name" original="ReportOutputType">报表输出类型</value>
+  <value column="Name" original="ReportOutputType">ReportOutputType</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200170" trl="N">
-  <value column="Name" original="ViewFindResult">显示查询结果</value>
+  <value column="Name" original="ViewFindResult">ViewFindResult</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -2636,8 +2646,88 @@
   <value column="Help" original=""/>
  </row>
  <row id="200173" trl="N">
-  <value column="Name" original="Scheduler State">计划任务状态</value>
-  <value column="Description" original="View and change the state of a scheduler">显示变更计划任务状态</value>
+  <value column="Name" original="Scheduler State">Scheduler State</value>
+  <value column="Description" original="View and change the state of a scheduler">View and change the state of a scheduler</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200174" trl="N">
+  <value column="Name" original="PA_ReportLine Line Stroke Type">PA_ReportLine Line Stroke Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200175" trl="N">
+  <value column="Name" original="C_BPartner (all)">C_BPartner (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200176" trl="N">
+  <value column="Name" original="M_Product (all)">M_Product (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200178" trl="N">
+  <value column="Name" original="ImportOrExport">ImportOrExport</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200179" trl="N">
+  <value column="Name" original="AD_Table Trl">AD_Table Trl</value>
+  <value column="Description" original="Translated Tables">Translated Tables</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200180" trl="N">
+  <value column="Name" original="M_AttributeSetInstance">M_AttributeSetInstance</value>
+  <value column="Description" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200181" trl="N">
+  <value column="Name" original="S_ResourceAssignment">S_ResourceAssignment</value>
+  <value column="Description" original="Resource Assignment">Resource Assignment</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200182" trl="N">
+  <value column="Name" original="AD_Image">AD_Image</value>
+  <value column="Description" original="Image">Image</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200183" trl="N">
+  <value column="Name" original="AD_Chart">AD_Chart</value>
+  <value column="Description" original="Chart">Chart</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200184" trl="N">
+  <value column="Name" original="AD_AuthorizationType">AD_AuthorizationType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200185" trl="N">
+  <value column="Name" original="AD_AuthorizationScope">AD_AuthorizationScope</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200187" trl="N">
+  <value column="Name" original="MFA_Method">MFA_Method</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200188" trl="N">
+  <value column="Name" original="MFAType">MFAType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200189" trl="N">
+  <value column="Name" original="MFATimeProvider">MFATimeProvider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200190" trl="N">
+  <value column="Name" original="AD_Element">AD_Element</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200191" trl="N">
+  <value column="Name" original="MFA_Method - on client rule">MFA_Method - on client rule</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

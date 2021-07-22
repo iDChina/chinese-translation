@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_WF_Node">
  <row id="116" trl="Y">
   <value column="Name" original="Accounting Schema">会计模式</value>
   <value column="Description" original="Project as Account Segment">项目作为账户分段</value>
@@ -90,11 +90,6 @@
   <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">维护会计模式 - 要使更改生效, 必须重新登录</value>
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context." xml:space="preserve"><![CDATA[会计模式窗口定义了会计准则和会计元素（科目、成本中心）。你可以为业务伙伴、产品或者地址新建和启用明细账户。<br />
 检查和变更总账账户和缺省账户。日常事务实际使用的账户取决于指定的执行组织，大多数维度信息都来自于单据的上下文字段]]></value>
- </row>
- <row id="180" trl="Y">
-  <value column="Name" original="Verify completed Requisition">自动生成采购订单</value>
-  <value column="Description" original="Just a test case for a manual interaction.">申请人：你的申请已经下单了</value>
-  <value column="Help" original="Enter and maintain Material Requisitions">act=process</value>
  </row>
  <row id="50000" trl="Y">
   <value column="Name" original="Manufacturing Workflow Setup">生产工作流设置</value>

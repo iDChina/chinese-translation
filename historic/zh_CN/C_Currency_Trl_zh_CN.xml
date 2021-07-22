@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_Currency">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_Currency">
  <row id="100" trl="Y">
-  <value column="Description" original="US Dollar">美元</value>
+  <value column="Description" original="US Dollar">USD 美元</value>
   <value column="CurSymbol" original="$">$ 美元符号</value>
  </row>
  <row id="102" trl="Y">
-  <value column="Description" original="Euro">欧元</value>
+  <value column="Description" original="Euro">EUR  欧元</value>
   <value column="CurSymbol" original="E">E  欧元</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Description" original="Deutsche Mark">德国马克</value>
+  <value column="CurSymbol" original="DM">DM  德国货币</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Description" original="Austrian Schilling">奥地利先令</value>
+  <value column="CurSymbol" original="Sch">Sch   货币单位</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Description" original="Belgian Franc">比利时法郎</value>
+  <value column="CurSymbol" original="BFr">BFr  货币单位</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Description" original="Finish Mark">芬兰马克</value>
+  <value column="CurSymbol" original="FM">FM  芬兰货币</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Description" original="Irish Pound">爱尔兰镑</value>
+  <value column="CurSymbol" original="I£">I£英镑</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Description" original="Italian Lira">意大利里拉</value>
+  <value column="CurSymbol" original="L">里拉</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Description" original="Dutch Gilder">荷兰盾</value>
+  <value column="CurSymbol" original="Fl">Fl    货币单位</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Description" original="Portugese Escudo">葡萄牙埃斯库多</value>
+  <value column="CurSymbol" original="Es">Es 货币单位</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Description" original="Spannish Peseto">西班牙比塞塔</value>
+  <value column="CurSymbol" original="Pts">Pts   货币单位</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Description" original="French Franc">法国法郎</value>
+  <value column="CurSymbol" original="Fr">五</value>
  </row>
  <row id="113" trl="Y">
   <value column="Description" original="Japanese Yen">日元</value>
@@ -15,6 +55,10 @@
  <row id="114" trl="Y">
   <value column="Description" original="British Pound">英镑</value>
   <value column="CurSymbol" original="£">£ 英镑符号</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Description" original="Swiss Franc (invalid currency code - use CHF)">瑞士法郎 (无效货币代码 - 使用 CHF)</value>
+  <value column="CurSymbol" original="SFr">瑞士法郎</value>
  </row>
  <row id="116" trl="Y">
   <value column="Description" original="Canadian Dollar">加拿大元</value>
@@ -524,6 +568,10 @@
   <value column="Description" original="Sri Lanka Rupee">斯里兰卡卢比</value>
   <value column="CurSymbol" original="SLRs">SLRs</value>
  </row>
+ <row id="314" trl="Y">
+  <value column="Description" original="Tolar">托拉尔</value>
+  <value column="CurSymbol" original="SlT">SlT</value>
+ </row>
  <row id="315" trl="Y">
   <value column="Description" original="Somali Shilling">索马里先令</value>
   <value column="CurSymbol" original="So. Sh.">So. Sh.</value>
@@ -589,7 +637,7 @@
   <value column="CurSymbol" original="WS$">WS$  塔拉货币</value>
  </row>
  <row id="332" trl="Y">
-  <value column="Description" original="Yuan Renminbi">人民币</value>
+  <value column="Description" original="Yuan Renminbi">人民币元</value>
   <value column="CurSymbol" original="Y">￥</value>
  </row>
  <row id="333" trl="Y">

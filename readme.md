@@ -6,20 +6,21 @@
 ---------------------------------
 ###ReadMe
 This repository includes Chinese Language Pack and some local utils maintenanted by idempiere-chinese-localization group. 
-Translation progress for iDempiere version 5.1 was completed with a high quanlity. 
+Translation progress for iDempiere version 8.2 was completed with a high quanlity. 
 Normal fixs are reviewed and committed semiannually by project team. 
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
-Updated: 2018-6-10
+
+Updated: 2021-7-22
 
 ####Directory structure:
+../zh_CN_GardenWorld translation files for GardenWorld client
 ../zh_CN_System           `translation files for System client`
-
-../zh_CN_GardenWorld      `translation files for GardenWorld client`
-
 ../Utils                  `localization utils`
+../historic/zh_CN         `translation files for all client
+
 ---------------------------------
 ### 着急只看我：
-1. 点击左边栏Download（下载）链接，选择Branches（分支,比如release-5.1），然后点击右边的Download链接。
+1. 点击左边栏Download（下载）链接，选择Branches（分支,比如release-8.2），然后点击右边的Download链接。
 2. 解压缩下载的zip文件，分别按实体导入System和GardenWorld汉化文件夹。
 3. 具体操作步骤，参考http://idempiere_guide_sm.mydoc.io/?t=134391
 4. 节约时间的，就不要看下面了。
@@ -53,6 +54,7 @@ Updated: 2018-6-10
 1. 本项目和iDempiere版本发布保持一致，版本号格式也和iDempiere官方保持一致
 1. 目前主要维护人为2名，所以对应Pull Request可能会比较慢，请谅解
 1. 更新履历
+    * 2021-07-22 发布8.2版本语言包、部分词条需等实际应用时，根据实际的含义进行进一步的调整
     * 2017-11-18 发布5.1版本语言包，词条基本稳定，欢迎反馈issue
     * 2017-05-02 新建2个实体文件夹存放4.1测试包，欢迎反馈issue
     * 2016-12-09 创建基于iDempiere 4.1开发版的翻译文件

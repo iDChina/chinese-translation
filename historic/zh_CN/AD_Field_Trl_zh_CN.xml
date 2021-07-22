@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
+<!--iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Field">
  <row id="1546" trl="Y">
   <value column="Name" original="Link Column">链接列</value>
   <value column="Description" original="Link Column for Multi-Parent tables">子表的外键列，将被链接到父列</value>
@@ -19,9 +19,9 @@
   <value column="Placeholder" original=""/>
  </row>
  <row id="4055" trl="Y">
-  <value column="Name" original="Tax Amount">信用卡税额</value>
-  <value column="Description" original="Tax Amount for Credit Card transaction">处理信用卡事务的税金总额</value>
-  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing."/>
+  <value column="Name" original="Tax Amount">税额</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">信用卡事务处理的税金额</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">税额显示了总税额。税额仅用于信用卡处理</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="4121" trl="Y">
@@ -32,13 +32,13 @@
  </row>
  <row id="4462" trl="Y">
   <value column="Name" original="Business Partner / Sales Rep">业务伙伴/销售代表</value>
-  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">标识一个收取佣金的业务伙伴 (销售代表)</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">标识收取佣金的业务伙伴 (销售代表)</value>
   <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">业务伙伴应当是一个供应商，同时可能是一个销售代表</value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="4725" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
+  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
   <value column="Placeholder" original=""/>
  </row>
@@ -72,6 +72,12 @@
   <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">表示该区域的销售代表，任何销售代表必须是一个有效的内部用户</value>
   <value column="Placeholder" original=""/>
  </row>
+ <row id="10089" trl="N">
+  <value column="Name" original="Wait Time">Wait Time</value>
+  <value column="Description" original="Time in minutes to wait (sleep)">Time in minutes to wait (sleep)</value>
+  <value column="Help" original="Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.">Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.</value>
+  <value column="Placeholder" original=""/>
+ </row>
  <row id="10097" trl="Y">
   <value column="Name" original="Value">条件值</value>
   <value column="Description" original="Condition Value">条件值</value>
@@ -91,17 +97,32 @@
   <value column="Placeholder" original=""/>
  </row>
  <row id="11264" trl="N">
-  <value column="Name" original="Column SQL">Column SQL</value>
-  <value column="Description" original="Virtual Column (r/o)">Virtual Column (r/o)</value>
-  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&#10;You can also use the syntax @SQL= to define a UI virtual column - this is calculated on the fly and can use context variables in the query, virtual UI columns are not searchable, and they are not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
-Example: "Updated-Created" would list the age of the entry in days.
-You can also use the syntax @SQL= to define a UI virtual column - this is calculated on the fly and can use context variables in the query, virtual UI columns are not searchable, and they are not shown in reports.]]></value>
+  <value column="Name" original="Column SQL">列 SQL</value>
+  <value column="Description" original="Virtual Column (r/o)">虛列 (只读)</value>
+  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&lt;br&gt;&#10;It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.&lt;br&gt;&#10;However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.&lt;br&gt;&#10;Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
+Example: "Updated-Created" would list the age of the entry in days.<br>
+It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.<br>
+However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.<br>
+Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports.]]></value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="11799" trl="Y">
   <value column="Name" original="Attribute Set Instance">属性集实例</value>
   <value column="Description" original="Product Attribute Values">产品属性值</value>
   <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">实际的产品属性的值。产品实例属性在实际的事务处理中定义</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="12249" trl="N">
+  <value column="Name" original="Validation code">查询条件SQL</value>
+  <value column="Description" original="Validation Code">查询条件SQL</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">
+The Validation Code displays the date, time and message of the error.
+
+通过使用@SQL=[WHERE子句]填充此字段，可以将高级SQL查询添加到搜索中。 
+可以使用增强的SQL条件来查询数据，具体格式为 【@SQL=[WHERE子句]】
+请注意不要把WHERE写入该字段，直接添加条件即可。
+例如想查找销售代表为当前用户的有效订单的话，可以添加下述条件：
+@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ </value>
   <value column="Placeholder" original=""/>
  </row>
  <row id="12732" trl="Y">
@@ -616,7 +637,7 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
  </row>
  <row id="57331" trl="Y">
   <value column="Name" original="Acknowledge">知悉通知</value>
-  <value column="Description" original="System Notice acknowledged">通知确认后，系统将隐藏通知</value>
+  <value column="Description" original="System Notice acknowledged">表示通知已经知晓，选择后该通知将隐藏</value>
   <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">表示通知已经知晓，选择后该通知将隐藏</value>
   <value column="Placeholder" original=""/>
  </row>
@@ -935,9 +956,46 @@ The Valid From and Valid To dates indicate the valid time period to use the BOM 
   <value column="Placeholder" original=""/>
  </row>
  <row id="205898" trl="N">
-  <value column="Name" original="Display Search Key">Display Search Key</value>
-  <value column="Description" original="Displays Search Key in the tree">Displays Search Key in the tree</value>
+  <value column="Name" original="Display Search Key">显示查询主键</value>
+  <value column="Description" original="Displays Search Key in the tree">在树中显示查询主键</value>
   <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206305" trl="N">
+  <value column="Name" original="Validation code">查询条件SQL</value>
+  <value column="Description" original="Validation Code">V查询条件SQL</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">
+The Validation Code displays the date, time and message of the error.
+
+通过使用@SQL=[WHERE子句]填充此字段，可以将高级SQL查询添加到搜索中。 
+可以使用增强的SQL条件来查询数据，具体格式为 【@SQL=[WHERE子句]】
+请注意不要把WHERE写入该字段，直接添加条件即可。
+例如想查找销售代表为当前用户的有效订单的话，可以添加下述条件：
+@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ </value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206515" trl="N">
+  <value column="Name" original="Invoice Contact">发票联系人</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">业务伙伴发票联系人</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">选择后该联系人用于向客户或供应商发送有关发票的通知</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206516" trl="N">
+  <value column="Name" original="Ship Contact">发货联系人</value>
+  <value column="Description" original="Business Partner Shipment Contact">业务伙伴发货联系人</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">选择后该联系人用于进行相关的通知</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206517" trl="N">
+  <value column="Name" original="Ship Contact">发货联系人</value>
+  <value column="Description" original="Business Partner Shipment Contact">业务伙伴发货联系人</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">选择后该联系人用于进行相关的通知</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206518" trl="N">
+  <value column="Name" original="Invoice Contact">发票联系人</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">业务伙伴请款/发票联系人</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">选择后该联系人用于向客户或供应商发送有关发票的通知</value>
   <value column="Placeholder" original=""/>
  </row>
 </idempiereTrl>
