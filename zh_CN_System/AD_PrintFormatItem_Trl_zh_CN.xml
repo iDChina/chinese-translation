@@ -5,6 +5,16 @@
   <value column="PrintName" original="- #:">发票数量</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
+ <row id="1848" trl="N">
+  <value column="Name" original="Amount">原币金额</value>
+  <value column="PrintName" original="Amt">原币金额</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="1881" trl="Y">
+  <value column="Name" original="Total Amount">本币合计</value>
+  <value column="PrintName" original="Total Amt">本币合计</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
  <row id="50477" trl="Y">
   <value column="Name" original="VendorProductNo">供应商产品号</value>
   <value column="PrintName" original="VendorProductNo">供应商产品号</value>
@@ -213,6 +223,11 @@
  <row trl="Y" uuid="57b7240d-9f71-4496-9157-7860a8749d34">
   <value column="Name" original="Description">描述</value>
   <value column="PrintName" original="Description">描述</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="9f620b6d-52d3-4a70-b7c4-0e4d46a126dd">
+  <value column="Name" original="Amount">本币未清</value>
+  <value column="PrintName" original="Amt">本币未清</value>
   <value column="PrintNameSuffix" original=""/>
  </row>
 </idempiereTrl>

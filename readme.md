@@ -9,8 +9,7 @@ This repository includes Chinese Language Pack and some local utils maintenanted
 Translation progress for iDempiere version 5.1 was completed with a high quanlity. 
 Normal fixs are reviewed and committed semiannually by project team. 
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
-
-Updated: 2017-11-18
+Updated: 2018-6-10
 
 ####Directory structure:
 ../zh_CN_System           `translation files for System client`
@@ -18,7 +17,6 @@ Updated: 2017-11-18
 ../zh_CN_GardenWorld      `translation files for GardenWorld client`
 
 ../Utils                  `localization utils`
-
 ---------------------------------
 ### 着急只看我：
 1. 点击左边栏Download（下载）链接，选择Branches（分支,比如release-5.1），然后点击右边的Download链接。

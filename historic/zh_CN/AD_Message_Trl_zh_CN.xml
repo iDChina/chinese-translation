@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Message">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Message">
  <row id="101" trl="Y">
   <value column="MsgText" original="zero">零</value>
   <value column="MsgTip" original=""/>
@@ -65,12 +65,12 @@
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="117" trl="Y">
-  <value column="MsgText" original="Client &amp; Organization Data">实体 + 组织</value>
+  <value column="MsgText" original="Client &amp; Organization Data">实体 + 组织数据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="118" trl="Y">
-  <value column="MsgText" original="You cannot delete records of this file for audit reasons">因内在审计要求۠，无法删除该记录</value>
-  <value column="MsgTip" original="If not a transaction, you can deactivate the recorrd with deselecting the 'Active' flag ">如果纪录不一个交易, 你可以取消 ' 有效' 标记的选择，从而将记录置为无效 </value>
+  <value column="MsgText" original="You cannot delete records of this file for audit reasons">因内审要求۠，无法删除该记录</value>
+  <value column="MsgTip" original="If not a transaction, you can deactivate the recorrd with deselecting the 'Active' flag ">非事务数据，只能取消“有效”标记，从而将记录设为“无效” </value>
  </row>
  <row id="119" trl="Y">
   <value column="MsgText" original="Organization Data">组织数据</value>
@@ -85,7 +85,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="122" trl="Y">
-  <value column="MsgText" original="System &amp; Client Data">系统 + 实体</value>
+  <value column="MsgText" original="System &amp; Client Data">系统 + 实体数据</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="123" trl="Y">
@@ -93,13 +93,14 @@
   <value column="MsgTip" original="You don't have the privileges">无更新权限，可变更角色或与管理员联系</value>
  </row>
  <row id="124" trl="Y">
-  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无此项访问权限，请与管理员联系</value>
-  <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">当前角色的用户无访问权限，可能原因有：
-1. 用户登录实体与数据访问级别不符。
-2. 用户无此AD对象的访问权限。
-3. 用户无info窗口访问或者高级功能权限。
+  <value column="MsgText" original="With your current role and settings, you cannot view this information">当前角色无查看权限。</value>
+  <value column="MsgTip" original="You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)">可能原因：
+1. 登录实体与对象的“数据访问级别”不符
+2. 角色无该对象的访问权限
+3. 角色无“高级功能”的访问权限
+4. 无效的“窗口/页签/表”
 
-出错信息：</value>
+错误信息：</value>
  </row>
  <row id="125" trl="Y">
   <value column="MsgText" original="iDempiere, Inc.">iDempiere公司</value>
@@ -130,7 +131,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="132" trl="Y">
-  <value column="MsgText" original="This action is not allowed in this context">在当前环境下不允许该操作</value>
+  <value column="MsgText" original="This action is not allowed in this context">当前状态下不允许该操作</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="133" trl="Y">
@@ -586,7 +587,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="246" trl="Y">
-  <value column="MsgText" original="Expense">支出</value>
+  <value column="MsgText" original="Expense">费用</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="247" trl="Y">
@@ -690,7 +691,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="272" trl="Y">
-  <value column="MsgText" original="Select columns and order them">选择列并将它们排序</value>
+  <value column="MsgText" original="Select columns and order them">选择列并排序</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="273" trl="Y">
@@ -706,7 +707,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="276" trl="Y">
-  <value column="MsgText" original="Enter Query criteria with optional % wildcard (case insensitive)">输入的查询条件，可选 % 通配符 (大小写不敏感) </value>
+  <value column="MsgText" original="Enter Query criteria with optional % wildcard (case insensitive)">输入查询条件，可选 % 通配符 (大小写不敏感) </value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="277" trl="Y">
@@ -827,10 +828,6 @@
  </row>
  <row id="306" trl="Y">
   <value column="MsgText" original="Inserted">已插入</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row id="307" trl="Y">
-  <value column="MsgText" original="Generate Invoices (manual)">生成发票 (手工)</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="308" trl="Y">
@@ -988,7 +985,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="346" trl="Y">
-  <value column="MsgText" original="&lt;Query active&gt; Navigate or Update record"><![CDATA[<查询已激活> 导航或更新记录]]></value>
+  <value column="MsgText" original="&lt;Query active&gt; Navigate or Update record" xml:space="preserve"><![CDATA[<查询已激活> 导航或更新记录]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="347" trl="Y">
@@ -1080,7 +1077,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="369" trl="Y">
-  <value column="MsgText" original="Online">联机</value>
+  <value column="MsgText" original="Online">在线</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="370" trl="Y">
@@ -1112,7 +1109,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="377" trl="Y">
-  <value column="MsgText" original="{0,choice,0#No Lines|1#1 Line|1&lt;{0} Lines} - {1,number,#,##0.00} - Total: {2,number,#,##0.00} {3} = {5,number,#,##0.00} {4} ">共 {0} 行 - {1,number,#,##0.00} -  总计： {3} {2,number,#,##0.00}  = {4}  {5,number,#,##0.00}</value>
+  <value column="MsgText" original="{0,choice,0#No Lines|1#1 Line|1&lt;{0} Lines} - {1,number,#,##0.00} - Total: {2,number,#,##0.00} {3} = {4,number,#,##0.00}">共 {0} 行 - {1,number,#,##0.00} -  总计： {3} {2,number,#,##0.00}  = {4}  {5,number,#,##0.00}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="378" trl="Y">
@@ -1240,7 +1237,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="409" trl="Y">
-  <value column="MsgText" original="Posting: Server Error">过账：服务器错误</value>
+  <value column="MsgText" original="Posting: Server Error">过账错误：服务器错误</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="410" trl="Y">
@@ -1260,20 +1257,20 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="414" trl="Y">
-  <value column="MsgText" original="Posting Error: Source Not Balanced">过账错误：原币不平衡</value>
-  <value column="MsgTip" original="">当订单和付款使用不同货币时，导致货币差异</value>
+  <value column="MsgText" original="Posting Error: Source Not Balanced">过账错误：借贷不平</value>
+  <value column="MsgTip" original="">请确保借贷金额相等</value>
  </row>
  <row id="415" trl="Y">
-  <value column="MsgText" original="Posting Error: Source Currency not convertible">过账错误：原币不可兑换</value>
-  <value column="MsgTip" original="Define exchange rate from the source currency to your accounting currencies">定义从原币到本位币的兑换率</value>
+  <value column="MsgText" original="Posting Error: Source Currency not convertible">过账错误：原币无法兑换</value>
+  <value column="MsgTip" original="Define exchange rate from the source currency to your accounting currencies">请定义原币到本币的汇率</value>
  </row>
  <row id="416" trl="Y">
   <value column="MsgText" original="Posting Error: Invalid Account">过账错误：无效账户</value>
   <value column="MsgTip" original="Account is no longer Active; Reactivate account value or choose new">账户不再有效，请重新激活该账户或选择其它账户</value>
  </row>
  <row id="417" trl="Y">
-  <value column="MsgText" original="Posting Error: Period Closed">过账错误：期间结束</value>
-  <value column="MsgTip" original="(Re-) Open Period or change Accounting Date">(重新-)打开期间或改变会计日期</value>
+  <value column="MsgText" original="Posting Error: Period Closed">过账错误：期间关闭</value>
+  <value column="MsgTip" original="(Re-) Open Period or change Accounting Date">请打开期间或修改记账日期</value>
  </row>
  <row id="418" trl="Y">
   <value column="MsgText" original="Preference">首选设置</value>
@@ -1368,7 +1365,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="441" trl="Y">
-  <value column="MsgText" original="Process finished successful">流程处理成功完成</value>
+  <value column="MsgText" original="Process finished successful">流程处理成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="442" trl="Y">
@@ -1392,7 +1389,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="447" trl="Y">
-  <value column="MsgText" original="Processing ... Please wait ...">正在处理，请稍候...</value>
+  <value column="MsgText" original="Processing ... Please wait ...">正在处理，请稍候 ...</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="448" trl="Y">
@@ -1524,12 +1521,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="480" trl="Y">
-  <value column="MsgText" original="Cannot send EMail:&#10;No Mail Server (SMTP) found; Check Client Info">无法发送邮件：未找到邮件服务器 (SMTP)，请检查请检查客户端设置</value>
+  <value column="MsgText" original="Cannot send EMail:&#10;No Mail Server (SMTP) found; Check Client Info">无法发送邮件：未找到邮件服务器 (SMTP)，请检查客户端设置</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="481" trl="Y">
-  <value column="MsgText" original="Cannot send EMail:&#10;No destination (to) address - Check Contact">不能发送电邮：
-没有目的地 ( 到) 地址 - 检查联系人</value>
+  <value column="MsgText" original="Cannot send EMail:&#10;No destination (to) address - Check Contact">无法发送邮件：没有目的地址 - 请检查联系人信息</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="482" trl="Y">
@@ -2271,7 +2267,7 @@
   <value column="MsgTip" original="Format: Accounting__.csv">格式：Accounting__.csv</value>
  </row>
  <row id="666" trl="Y">
-  <value column="MsgText" original="No Tax Exempt Rate found (define a tax exempt tax rate)">未找到免税(定义免税税率)</value>
+  <value column="MsgText" original="No Tax Exempt Rate found (define a tax exempt tax rate)">未找到“交易免税”税目 ( 如果税目匹配失败，将默认使用“交易免税”税目 )</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="667" trl="Y">
@@ -2399,11 +2395,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="706" trl="Y">
-  <value column="MsgText" original="You cannot create Reports for this Information.">无法为该信息创建报表</value>
+  <value column="MsgText" original="You cannot create Reports for this Information.">无法创建报表</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="707" trl="Y">
-  <value column="MsgText" original="You cannot export this Information.">无法导出该信息</value>
+  <value column="MsgText" original="You cannot export this Information.">无法导出记录</value>
   <value column="MsgTip" original="You don't have the privileges">不具备权限</value>
  </row>
  <row id="708" trl="Y">
@@ -2427,8 +2423,8 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="713" trl="Y">
-  <value column="MsgText" original="Dictionary Maintenance">字典维护</value>
-  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">由系统字典自行维护。 -- 不可操作</value>
+  <value column="MsgText" original="Dictionary Maintenance">维护字典</value>
+  <value column="MsgTip" original="Only for internal iDempiere Dictionary Maintenence - DO NOT SELECT">选择只生成官方实体类对象迁移脚本，不选择生成所有对象迁移脚本</value>
  </row>
  <row id="714" trl="Y">
   <value column="MsgText" original="No Translation">无翻译</value>
@@ -2795,7 +2791,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="807" trl="Y">
-  <value column="MsgText" original="Error while creating the Accounting Setup. &#10;Check the error log and the format of the Accounting*.cvs file - No duplicate Accounts and all all defaut accounts must be included (even if you will not use them)."><![CDATA[创建账套错误。请查看日志及Accounting*.cvs文件的格式  <br />原因：csv文件必须包含所有默认科目（即使现在未用到），且不允许重复<br /> 推荐使用iDempiere中文社区群（65713012）发布的最新准则科目模板，已通过测试。]]></value>
+  <value column="MsgText" original="Error while creating the Accounting Setup. &#10;Check the error log and the format of the Accounting*.cvs file - No duplicate Accounts and all all defaut accounts must be included (even if you will not use them)." xml:space="preserve"><![CDATA[创建账套错误。请查看日志及Accounting*.cvs文件的格式  <br />原因：csv文件必须包含所有默认科目（即使现在未用到），且不允许重复<br /> 推荐使用iDempiere中文社区群（65713012）发布的最新准则科目模板，已通过测试。]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="808" trl="Y">
@@ -2871,7 +2867,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="826" trl="Y">
-  <value column="MsgText" original="Organization * (0) not allowed">组织 * (0) 不被允许</value>
+  <value column="MsgText" original="Organization * (0) not allowed">不允许使用组织 * (0) - 必须指定一个组织</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="827" trl="Y">
@@ -3087,7 +3083,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="880" trl="Y">
-  <value column="MsgText" original="URL not valid or cannot be displayed.">网址无效或不能显示</value>
+  <value column="MsgText" original="URL not valid or cannot be displayed.">网址无效或无法显示</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="881" trl="Y">
@@ -3211,7 +3207,7 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52005" trl="Y">
-  <value column="MsgText" original="100 Rupees">1000卢比</value>
+  <value column="MsgText" original="100 Rupees">100卢比</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52006" trl="Y">
@@ -3219,12 +3215,12 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52007" trl="Y">
-  <value column="MsgText" original="10 Rupees">1000卢比</value>
+  <value column="MsgText" original="10 Rupees">10卢比</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52008" trl="Y">
   <value column="MsgText" original="1 cent">1分</value>
-  <value column="MsgTip" original="1 cent">1分</value>
+  <value column="MsgTip" original="1 cent"/>
  </row>
  <row id="52009" trl="Y">
   <value column="MsgText" original="1 dollar">1美元</value>
@@ -3239,8 +3235,8 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52013" trl="Y">
-  <value column="MsgText" original="20 cents">1分</value>
-  <value column="MsgTip" original="20 cents">1分</value>
+  <value column="MsgText" original="20 cents">20分</value>
+  <value column="MsgTip" original="20 cents"/>
  </row>
  <row id="52014" trl="Y">
   <value column="MsgText" original="20 dollars">20美元</value>
@@ -3255,11 +3251,11 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52017" trl="Y">
-  <value column="MsgText" original="50 cents">50 分</value>
-  <value column="MsgTip" original="50 cents">50 分</value>
+  <value column="MsgText" original="50 cents">50分</value>
+  <value column="MsgTip" original="50 cents"/>
  </row>
  <row id="52018" trl="Y">
-  <value column="MsgText" original="50 dollars">50 美元</value>
+  <value column="MsgText" original="50 dollars">50美元</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52019" trl="Y">
@@ -3267,15 +3263,15 @@
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52020" trl="Y">
-  <value column="MsgText" original="5 cents">5 分</value>
-  <value column="MsgTip" original="5 cents">5 分</value>
+  <value column="MsgText" original="5 cents">5分</value>
+  <value column="MsgTip" original="5 cents"/>
  </row>
  <row id="52021" trl="Y">
-  <value column="MsgText" original="5 dollars">5 美元</value>
+  <value column="MsgText" original="5 dollars">5美元</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52022" trl="Y">
-  <value column="MsgText" original="5 Rupees">5 卢比</value>
+  <value column="MsgText" original="5 Rupees">5卢比</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52023" trl="Y">
@@ -5867,7 +5863,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200081" trl="Y">
-  <value column="MsgText" original="Card not processed">信用卡号无效</value>
+  <value column="MsgText" original="Card not processed">信用卡号未能处理</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200082" trl="Y">
@@ -5883,7 +5879,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200085" trl="Y">
-  <value column="MsgText" original="{0} is not displayed">{0} 为不显示属性</value>
+  <value column="MsgText" original="{0} is not displayed">{0} 定义错误。需定义一个表头主键列，且明细表也必须同时定义该列</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200086" trl="Y">
@@ -6083,7 +6079,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200144" trl="Y">
-  <value column="MsgText" original="Zoom Action">缩放操作</value>
+  <value column="MsgText" original="Zoom Action">透视</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200145" trl="Y">
@@ -6099,7 +6095,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200148" trl="Y">
-  <value column="MsgText" original="Different parent value: Master value {0} Detail value {1}">不同的父键值：主表{0} ，明细表 {1}</value>
+  <value column="MsgText" original="Different parent value: Master value {0} Detail value {1}">不同的父键值：主表={0} ，明细表={1}</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200149" trl="Y">
@@ -6111,11 +6107,11 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200151" trl="Y">
-  <value column="MsgText" original="Entered value is less than the minimum ({0}) required">输入值小于要求的最小值({0})</value>
+  <value column="MsgText" original="Entered value is less than the minimum ({0}) required">输入值小于允许的最小值({0})</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200152" trl="Y">
-  <value column="MsgText" original="Csv file must not contain '&gt;' in header record {0}. "><![CDATA[CSV 文件表头行不包含'>'字符 {0}]]></value>
+  <value column="MsgText" original="Csv file must not contain '&gt;' in header record {0}. " xml:space="preserve"><![CDATA[CSV 文件表头行不包含'>'字符 {0}]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200153" trl="Y">
@@ -6123,7 +6119,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200154" trl="Y">
-  <value column="MsgText" original="Wrong detail name{0}, it must contain the character '&gt;':{1} "><![CDATA[名字 （{0} ）错误，必须包含字符 '>'：{1} ]]></value>
+  <value column="MsgText" original="Wrong detail name{0}, it must contain the character '&gt;':{1} " xml:space="preserve"><![CDATA[名字 （{0} ）错误，必须包含字符 '>'：{1} ]]></value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200155" trl="Y">
@@ -6267,7 +6263,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200196" trl="Y">
-  <value column="MsgText" original="Created index succesfully">成功创建索引</value>
+  <value column="MsgText" original="Created index succesfully">创建索引成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200197" trl="Y">
@@ -6275,7 +6271,7 @@
   <value column="MsgTip" original=""/>
  </row>
  <row id="200198" trl="Y">
-  <value column="MsgText" original="Modified index successfully">成功变更索引</value>
+  <value column="MsgText" original="Modified index successfully">变更索引成功</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200199" trl="Y">
@@ -6650,6 +6646,10 @@
   <value column="MsgText" original="The {0} warehouse does not allow negative inventory for Product = {1}, ASI = {2}, Locator = {3} (Shortage of {4})">仓库【 {0}】不允许负库存， 产品 = {1}，产品属性 = {2}，库位 = {3} ，不足数量= {4}</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200432" trl="N">
+  <value column="MsgText" original="Can''t resolve reference table for column &quot;{0}&quot;">Can''t resolve reference table for column "{0}"</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="200435" trl="Y">
   <value column="MsgText" original="Add To Favourites">添加到收藏夹</value>
   <value column="MsgTip" original=""/>
@@ -6672,6 +6672,358 @@
  </row>
  <row id="200442" trl="Y">
   <value column="MsgText" original="Warning">警告</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200443" trl="N">
+  <value column="MsgText" original="Stop">Stop</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200444" trl="N">
+  <value column="MsgText" original="Uninstall">卸载</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200445" trl="N">
+  <value column="MsgText" original="Install">安装</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200446" trl="N">
+  <value column="MsgText" original="Id">Id</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200447" trl="N">
+  <value column="MsgText" original="State">状态</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200448" trl="N">
+  <value column="MsgText" original="Version">版本</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200449" trl="N">
+  <value column="MsgText" original="Plugins">插件</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200450" trl="N">
+  <value column="MsgText" original="Request a Read Receipt">请求读取回执</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200452" trl="N">
+  <value column="MsgText" original="Row">行</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200453" trl="N">
+  <value column="MsgText" original="Your password will expire in {0} days">Your password will expire in {0} days</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200471" trl="N">
+  <value column="MsgText" original="Invoice has already allocations">Invoice has already allocations</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200472" trl="N">
+  <value column="MsgText" original="Cannot create a credit memo from a credit memo">Cannot create a credit memo from a credit memo</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200473" trl="N">
+  <value column="MsgText" original="Credit Memo already exists">Credit Memo already exists</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200480" trl="N">
+  <value column="MsgText" original="IBAN is invalid">IBAN无效</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200481" trl="N">
+  <value column="MsgText" original="Only centralized data">Only centralized data</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200483" trl="N">
+  <value column="MsgText" original="Another instance of this process is already running, please wait until it finishes to run it again.">Another instance of this process is already running, please wait until it finishes to run it again.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200486" trl="N">
+  <value column="MsgText" original="Defaults">缺省设置</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200487" trl="N">
+  <value column="MsgText" original="Warehouse cannot be changed because there are lines.">Warehouse cannot be changed because there are lines.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200488" trl="N">
+  <value column="MsgText" original="The table has already a key column, there can be just one key.">The table has already a key column, there can be just one key.</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200489" trl="N">
+  <value column="MsgText" original="Failed when processing document">Failed when processing document</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200491" trl="N">
+  <value column="MsgText" original="Time Line">Time Line</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200492" trl="N">
+  <value column="MsgText" original="For">For</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200493" trl="N">
+  <value column="MsgText" original="this Client and Organization">this Client and Organization</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200494" trl="N">
+  <value column="MsgText" original="all Organizations of this Client">all Organizations of this Client</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200495" trl="N">
+  <value column="MsgText" original="entire System">entire System</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200496" trl="N">
+  <value column="MsgText" original="this User">this User</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200497" trl="N">
+  <value column="MsgText" original="all Users">all Users</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200498" trl="N">
+  <value column="MsgText" original="and this Window">and this Window</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200499" trl="N">
+  <value column="MsgText" original="and all Windows">and all Windows</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200500" trl="N">
+  <value column="MsgText" original="and this Process">and this Process</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200501" trl="N">
+  <value column="MsgText" original="and all Process">and all Process</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200502" trl="N">
+  <value column="MsgText" original="and this Info Window">and this Info Window</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200503" trl="N">
+  <value column="MsgText" original="and all Info Window">and all Info Window</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200510" trl="N">
+  <value column="MsgText" original="Close Windows to the Right">Close Windows to the Right</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200511" trl="N">
+  <value column="MsgText" original="Close Windows to the Left">Close Windows to the Left</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200512" trl="N">
+  <value column="MsgText" original="No query columns found">No query columns found</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200515" trl="N">
+  <value column="MsgText" original="Invalid identifier: empty">Invalid identifier: empty</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200516" trl="N">
+  <value column="MsgText" original="Invalid identifier: must not contain spaces">Invalid identifier: must not contain spaces</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200517" trl="N">
+  <value column="MsgText" original="Invalid identifier: first character must be alphabetic">Invalid identifier: first character must be alphabetic</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200518" trl="N">
+  <value column="MsgText" original="Invalid identifier: just alphanumeric and underscore characters are allowed">Invalid identifier: just alphanumeric and underscore characters are allowed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200521" trl="N">
+  <value column="MsgText" original="Missing required parameters">Missing required parameters</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200522" trl="N">
+  <value column="MsgText" original="AdminUserEmail is required">AdminUserEmail is required</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200523" trl="N">
+  <value column="MsgText" original="AdminUserEmail">AdminUserEmail</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200524" trl="N">
+  <value column="MsgText" original="is incorrect">is incorrect</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200525" trl="N">
+  <value column="MsgText" original="NormalUserEmail is required">NormalUserEmail is required</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200526" trl="N">
+  <value column="MsgText" original="NormalUserEmail">NormalUserEmail</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200527" trl="N">
+  <value column="MsgText" original="CoaFile">CoaFile</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200528" trl="N">
+  <value column="MsgText" original="does not exist">does not exist</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200529" trl="N">
+  <value column="MsgText" original="Cannot read CoaFile">Cannot read CoaFile</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200530" trl="N">
+  <value column="MsgText" original="is not a file">is not a file</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200531" trl="N">
+  <value column="MsgText" original="is empty">is empty</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200532" trl="N">
+  <value column="MsgText" original="Create client failed">Create client failed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200535" trl="N">
+  <value column="MsgText" original="Your changes have been saved">Your changes have been saved</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200536" trl="N">
+  <value column="MsgText" original="Your suggestions have been submitted for review">Your suggestions have been submitted for review</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200537" trl="N">
+  <value column="MsgText" original="Only positive balance">Only positive balance</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200539" trl="N">
+  <value column="MsgText" original="No OrderLine">No OrderLine</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200543" trl="N">
+  <value column="MsgText" original="Order line not found">Order line not found</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200544" trl="N">
+  <value column="MsgText" original="Order not completed">Order not completed</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200545" trl="N">
+  <value column="MsgText" original="Ordered quantity already shipped">Ordered quantity already shipped</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200546" trl="N">
+  <value column="MsgText" original="Cannot save shipment header">Cannot save shipment header</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200547" trl="N">
+  <value column="MsgText" original="No Costs for">No Costs for</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200548" trl="N">
+  <value column="MsgText" original="FactLine DR not created">FactLine DR not created</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200549" trl="N">
+  <value column="MsgText" original="Original Shipment/Receipt not posted yet">Original Shipment/Receipt not posted yet</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200550" trl="N">
+  <value column="MsgText" original="FactLine CR not created">FactLine CR not created</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200553" trl="N">
+  <value column="MsgText" original="Failed to create cost detail record">Failed to create cost detail record</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200555" trl="N">
+  <value column="MsgText" original="Resubmit - No Costs for">Resubmit - No Costs for</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200556" trl="N">
+  <value column="MsgText" original="(required order line)">(required order line)</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200557" trl="N">
+  <value column="MsgText" original="DR not created">DR not created</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200558" trl="N">
+  <value column="MsgText" original="Original Receipt not posted yet">Original Receipt not posted yet</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200559" trl="N">
+  <value column="MsgText" original="CR not created">CR not created</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200560" trl="N">
+  <value column="MsgText" original="DocumentType unknown">DocumentType unknown</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200563" trl="N">
+  <value column="MsgText" original="Could not find Payment Amount for some invoices, maybe currency rate is not configured">Could not find Payment Amount for some invoices, maybe currency rate is not configured</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200564" trl="N">
+  <value column="MsgText" original="Change Scheduler State">Change Scheduler State</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200565" trl="N">
+  <value column="MsgText" original="Not Schedule">Not Schedule</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200566" trl="N">
+  <value column="MsgText" original="Scheduler Started">Scheduler Started</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200567" trl="N">
+  <value column="MsgText" original="Scheduler Stopped">Scheduler Stopped</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200568" trl="N">
+  <value column="MsgText" original="Failed to read current scheduler state">Failed to read current scheduler state</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200569" trl="N">
+  <value column="MsgText" original="Add scheduler to server and start it?">Add scheduler to server and start it?</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200570" trl="N">
+  <value column="MsgText" original="Stop scheduler?">Stop scheduler?</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200571" trl="N">
+  <value column="MsgText" original="Start scheduler?">Start scheduler?</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200572" trl="N">
+  <value column="MsgText" original="Scheduler added and started successfully">Scheduler added and started successfully</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200573" trl="N">
+  <value column="MsgText" original="Failed to add and start scheduler. Error:">Failed to add and start scheduler. Error:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200575" trl="N">
+  <value column="MsgText" original="Scheduler stopped successfully">Scheduler stopped successfully</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200576" trl="N">
+  <value column="MsgText" original="Failed to stop scheduler. Error:">Failed to stop scheduler. Error:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200577" trl="N">
+  <value column="MsgText" original="Scheduler started successfully">Scheduler started successfully</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200578" trl="N">
+  <value column="MsgText" original="Failed to start scheduler. Error:">Failed to start scheduler. Error:</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200579" trl="N">
+  <value column="MsgText" original="Change scheduler state">Change scheduler state</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200581" trl="N">
+  <value column="MsgText" original="Share search filter with all users">Share search filter with all users</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="520010" trl="Y">

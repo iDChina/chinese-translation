@@ -44,7 +44,7 @@
   <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择应付发票创建付款选择。如果没有找到发票，请确保它尚未包含在未处理的付款选择中。</value>
  </row>
  <row id="108" trl="Y">
-  <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购-收货单-发票</value>
+  <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购-收货-发票</value>
   <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">匹配采购订单, 收货单, 供应商发票</value>
   <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">确认收货单和发票的相互匹配关系。 如果只希望匹配部分的发货情况，请确保不选择"相同数量"选项。</value>
  </row>
@@ -126,7 +126,7 @@
  <row id="53003" trl="Y">
   <value column="Name" original="MRP Info">MRP 信息</value>
   <value column="Description" original="Show the detail of MRP calculation">显示 MRP 计算明细</value>
-  <value column="Help" original="Show the detail of MRP calculation">显示 MRP 计算明细</value>
+  <value column="Help" original="Show the detail of MRP calculation"/>
  </row>
  <row id="53004" trl="Y">
   <value column="Name" original="Planned Order Approval ">计划订单审核 </value>
@@ -136,12 +136,12 @@
  <row id="53005" trl="Y">
   <value column="Name" original="CRP Info">CRP 信息</value>
   <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以图形方式显示每个生产资源的需求和可用时间</value>
-  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">它以图形方式显示每个生产资源的需求和可用时间</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource."/>
  </row>
  <row id="53006" trl="Y">
   <value column="Name" original="Resource Load View">资源负载视图</value>
   <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以图形方式显示每个生产资源的需求和可用时间</value>
-  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">它以图形方式显示每个生产资源的需求和可用时间</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource."/>
  </row>
  <row id="53007" trl="Y">
   <value column="Name" original="Order Receipt &amp; Issue">工单收发物料</value>
@@ -211,8 +211,8 @@
   <value column="Help" original=""/>
  </row>
  <row id="200000" trl="Y">
-  <value column="Name" original="Setup Wizard">实体设置向导</value>
-  <value column="Description" original="">按向导设置实体的初始化信息</value>
+  <value column="Name" original="Setup Wizard">初始化向导</value>
+  <value column="Description" original="">实体初始化向导</value>
   <value column="Help" original=""/>
  </row>
  <row id="200001" trl="Y">
