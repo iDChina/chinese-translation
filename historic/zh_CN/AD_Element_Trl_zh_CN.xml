@@ -18295,6 +18295,7 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
   <value column="PrintName" original="Ranking">排名</value>
   <value column="Description" original="Relative Rank Number">响应的排名</value>
   <value column="Help" original="One is the highest Rank">供应商相应的排名，1 是最高排名</value>
+  <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -18402,8 +18403,8 @@ c) SQL代码：@SQL=SELECT xxx AS DefaultValue FROM ....@，SQL语句可以包�
  <row id="2466" trl="Y">
   <value column="Name" original="Drop Shipment">直接供货</value>
   <value column="PrintName" original="Drop Ship">直接供货</value>
-  <value column="Description" original="Drop Shipments are sent from the Vendor directly to the Customer">从供应商或第三方托管仓库直接发货到客户</value>
-  <value column="Help" original="Drop Shipments do not cause any Inventory reservations or movements as the Shipment is from the Vendor's inventory. The Shipment of the Vendor to the Customer must be confirmed.">由卖主的上级供应商直接向客户发货</value>
+  <value column="Description" original="Drop Shipments are sent directly to the Drop Shipment Location">直送到指定的直送库位</value>
+  <value column="Help" original="Drop Shipments are sent directly to the Drop Shipment Location using the Drop Ship Business Partner name and contact.">直送业务使用直送业务伙伴的名称和联系人直接把货发送到直送地点</value>
   <value column="Placeholder" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -63143,7 +63144,7 @@ Yes，额外缩放目标记录子页签的关联记录。显示格式为：目�
  <row id="203475" trl="N">
   <value column="Name" original="Predefined Context Variables">上下文变量注入</value>
   <value column="PrintName" original="Predefined Context Variables">上下文变量注入</value>
-  <value column="Description" original="Predefined context variables to inject when opening a menu entry or a window" xml:space="preserve"><![CDATA[
+  <value column="Description" original="Predefined context variables to inject when opening a menu entry or a window">
   从菜单或者窗口中注入上下文变量。如果需要定义多个要注入的上下文变量，则必须每行定义一个。在使用上下文变量时需要在前面添加一个加号。
   定义例：
   Opened_From_Menu=Y
@@ -63152,7 +63153,7 @@ Yes，额外缩放目标记录子页签的关联记录。显示格式为：目�
   @+Opened_From_Menu@=Y
   @+VIP@=Y
   注： 如果在菜单中定义时，仅从菜单中打开才有相应的定义，如果从缩放等处打开的话就没有相应的上下文变量。
-  如果需要任何时候都有效，需要在应用字典的窗口中进行上下文变量的注入]]>
+  如果需要任何时候都有效，需要在应用字典的窗口中进行上下文变量的注入
   </value>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>
@@ -63472,6 +63473,28 @@ Yes，额外缩放目标记录子页签的关联记录。显示格式为：目�
  <row id="203515" trl="N">
   <value column="Name" original="Last MFA Secret">上次的MFA秘钥（Last MFA Secret）</value>
   <value column="PrintName" original="Last MFA Secret">上次的MFA秘钥（Last MFA Secret）</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203533" trl="N">
+  <value column="Name" original="Exclude Adjustment Periods">排除调整期间</value>
+  <value column="PrintName" original="Exclude Adjustment Periods">排除调整期间</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+  <value column="PO_Description" original=""/>
+  <value column="PO_Help" original=""/>
+  <value column="PO_Name" original=""/>
+  <value column="PO_PrintName" original=""/>
+ </row>
+ <row id="203542" trl="N">
+  <value column="Name" original="Execution Code">执行代码</value>
+  <value column="PrintName" original="Execution Code">执行代码</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="Placeholder" original=""/>

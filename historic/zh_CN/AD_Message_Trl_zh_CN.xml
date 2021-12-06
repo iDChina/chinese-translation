@@ -7387,6 +7387,26 @@
   <value column="MsgText" original="File not allowed for uploading, just image types jpg/png/gif/tiff/bmp/ico">无法上传，仅允许上传图片文件(jpg/png/gif/tiff/bmp/ico)</value>
   <value column="MsgTip" original=""/>
  </row>
+ <row id="200714" trl="N">
+  <value column="MsgText" original="Error synchronizing translation, string too long">由于字符串太长导致同步翻译处理报错</value>
+  <value column="MsgTip" original="There is a mismatch in the size of a translated column.  Please contact the system administrator to correct the problem.">翻译对象字段长度不匹配。请与系统管理员联系来解决该问题</value>
+ </row>
+ <row id="200715" trl="N">
+  <value column="MsgText" original="Do not forget to create the corresponding translation table {0} with column {1}">不要忘记为列{1}创建对应的翻译表{0}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200716" trl="N">
+  <value column="MsgText" original="Do not forget to create the translation column {0}.{1}">不要忘记创建翻译列{0}.{1}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200717" trl="N">
+  <value column="MsgText" original="Do not forget to increase the size on translation column {0}.{1} to {2}">不要忘记将翻译列{0}.{1}的大小增加到{2}</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="200721" trl="N">
+  <value column="MsgText" original="Table Index records have been added on the Translation table - do not forget to execute 'Index Validate' process after you run 'Sync Column'">表索引记录已添加到翻译表中-在运行【同步列】后不要忘记执行【索引验证】过程</value>
+  <value column="MsgTip" original=""/>
+ </row>
  <row id="520010" trl="Y">
   <value column="MsgText" original="1 Rupee">1卢比</value>
   <value column="MsgTip" original=" "> </value>

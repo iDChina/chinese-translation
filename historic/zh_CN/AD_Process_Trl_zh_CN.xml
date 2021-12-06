@@ -2290,8 +2290,8 @@ For example:<br />
 <p>在该处理失败或超时的情况下，可以重复执行（针对每一个文件的处理后都是单独的事务）</p>]]></value>
  </row>
  <row id="200118" trl="N">
-  <value column="Name" original="Create Window, Tab &amp; Field from Table" xml:space="preserve"><![CDATA[通过数据库表创建窗口、页签及字段]]></value>
-  <value column="Description" original="Create Window, Tab &amp; Field record of the Table" xml:space="preserve"><![CDATA[通过数据库表创建窗口、页签及字段]]></value>
+  <value column="Name" original="Create Window, Tab &amp; Field from Table">通过数据库表创建窗口、页签及字段</value>
+  <value column="Description" original="Create Window, Tab &amp; Field record of the Table">通过数据库表创建窗口、页签及字段</value>
   <value column="Help" original="This process will take the table definition and create the Window/Tab and field record with these options:&lt;br&gt;&#10;&#10;New Window: if selected the process will create a new Window record. Otherwise, the process will create a new tab and add it to the selected window.&lt;br&gt;&#10;Create Menu: if selected the process creates the menu record for the new window." xml:space="preserve"><![CDATA[使用表定义和下述选项创建窗口/页签和字段记录：<br>
 
 新窗口：如果勾选的话，该处理将创建一个新的窗口；如果没有勾选的话，该处理将创建一个新的页签并把该页签添加到指定的窗口中<br>
@@ -2360,6 +2360,16 @@ For example:<br />
  <row id="200132" trl="N">
   <value column="Name" original="Register MFA">注册MFA</value>
   <value column="Description" original="Register a multi-factor authentication mechanism">注册多因子身份验证机制 </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200133" trl="N">
+  <value column="Name" original="Copy from Pack Out">从Pack Out中复制</value>
+  <value column="Description" original="Copy Package Details from another Pack Out">从另一个Pack Out中复制详细信息</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200134" trl="N">
+  <value column="Name" original="Create/Complete Table">创建/完成表</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
