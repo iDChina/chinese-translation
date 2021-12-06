@@ -1,7 +1,7 @@
 ## iDempiere ERP中文语言包说明 (Chinese Language Pack ReadMe)
 ---------------------------------
 ![许可证信息](https://img.shields.io/badge/License-GPLv2-orange.svg)
-[![版本信息](https://img.shields.io/badge/Release-v5.1-brightgreen.svg)](https://bitbucket.org/iDChina/chinese-translation/downloads/?tab=branches)
+[![版本信息](https://img.shields.io/badge/Release-v8.2-brightgreen.svg)](https://bitbucket.org/iDChina/chinese-translation/downloads/?tab=branches)
 
 ---------------------------------
 ###ReadMe
