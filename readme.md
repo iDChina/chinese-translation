@@ -10,38 +10,35 @@ Translation progress for iDempiere version 8.2 was completed with a high quanlit
 Normal fixs are reviewed and committed semiannually by project team. 
 You can contact with osssme@@@@@@@@@@@aliyun.com or z5k1@@@@@@@@@qq.com for more info.
 
-Updated: 2021-7-22
+Updated: 2021-12-06
 
 ####Directory structure:
-../zh_CN_GardenWorld translation files for GardenWorld client
-../zh_CN_System           `translation files for System client`
-../Utils                  `localization utils`
-../historic/zh_CN         `translation files for all client
+../zh_CN         				`translation files for all client
+../historic/zh_CN_GardenWorld	`translation files for GardenWorld client`
+../historic/zh_CN_System		`translation files for System client`
+../Utils						`localization utils`
 
 ---------------------------------
 ### 着急只看我：
-1. 点击左边栏Download（下载）链接，选择Branches（分支,比如release-8.2），然后点击右边的Download链接。
-2. 解压缩下载的zip文件，分别按实体导入System和GardenWorld汉化文件夹。
-3. 具体操作步骤，参考http://idempiere_guide_sm.mydoc.io/?t=134391
+1. 点击左边栏Download（下载）链接，选择Branches（分支,比如release-8.2），然后点击右边的Download链接
+2. 解压缩下载的zip文件，导入zh_CN汉化文件夹
 4. 节约时间的，就不要看下面了。
 
 ---------------------------------
 ### 文件说明
-1. zh_CN_System 系统Client翻译包
+1. zh_CN 标准翻译包（已经移至historic文件夹，仅为历史原因需要使用zh_CN_System，zh_CN_GardenWorld的用户保留）
+
+1. zh_CN_System 系统Client翻译包（由于暂时无人维护，已经移至historic文件夹）
 > 在导入时需指定System Client后导入
 
-1. zh_CN_GardenWorld GardenWorld翻译包
+1. zh_CN_GardenWorld GardenWorld翻译包（由于暂时无人维护，已经移至historic文件夹）
 > 在导入时需指定GardenWorld Client后导入
-
-1. zh_CN 标准翻译包（已经移至historic文件夹，仅为历史原因需要使用zh_CN的用户保留，目前由OSSSME不定期维护，待移行完毕后该标准翻译包将不做维护）
-> 该翻译包包含System、GardenWorld两个Client的翻译信息，目前处于手工和zh_CN_System，zh_CN_GardenWorld保持同步状态，建议使用zh_CN_System、zh_CN_GardenWorld分Client进行导入。
 
 ---------------------------------
 ### 注意事项：
 1. 声明：
 >本项目Fork自https://translations.launchpad.net/idempiere-localize，但由于原项目于2013年底之后少有更新，几乎已停止维护，故单独维护和发布，详细信息见下文。
 
-1. 开源中国网站的iDempiere中文社区地址：http://team.oschina.net/idchina
 1. 开源中国网站的本项目介绍的首页链接地址：http://idempeire_project_trl.mydoc.io/
 
 ---------------------------------
@@ -54,7 +51,7 @@ Updated: 2021-7-22
 1. 本项目和iDempiere版本发布保持一致，版本号格式也和iDempiere官方保持一致
 1. 目前主要维护人为2名，所以对应Pull Request可能会比较慢，请谅解
 1. 更新履历
-    * 2021-07-22 发布8.2版本语言包、部分词条需等实际应用时，根据实际的含义进行进一步的调整
+    * 2021-07-22 发布8.2版本语言包、部分词条需等实际应用时，根据实际的含义进行进一步的调整（2021-12-06最终稿）
     * 2017-11-18 发布5.1版本语言包，词条基本稳定，欢迎反馈issue
     * 2017-05-02 新建2个实体文件夹存放4.1测试包，欢迎反馈issue
     * 2016-12-09 创建基于iDempiere 4.1开发版的翻译文件
